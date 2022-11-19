@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\packages\NUnit3TestAdapter.3.15.1\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\..\..\packages\NUnit3TestAdapter.3.15.1\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="..\..\..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\..\..\packages\NUnit.3.12.0\build\NUnit.props')" />
+  <Import Project="..\..\..\packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\..\..\packages\NUnit3TestAdapter.3.13.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A7C8977-C470-4667-A514-2877FAA861CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neambc.Neamb.Project.Web.UITest</RootNamespace>
+    <AssemblyName>Neambc.Neamb.Project.Web.UITest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\..\..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.AWT.WinForms, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.AWT.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Cldrdata, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Cldrdata.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Localedata, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Localedata.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Nashorn, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Nashorn.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Tools, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Bind, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Crypto, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Parse, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Transform, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.WebServices, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.XPath, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime.JNI, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\IKVM.8.1.5717.0\lib\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit, Version=2.2.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\MailKit.2.2.0\lib\net45\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Jdt, Version=0.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.VisualStudio.Jdt.0.9.23\lib\net45\Microsoft.VisualStudio.Jdt.dll</HintPath>
+    </Reference>
+    <Reference Include="MimeKit, Version=2.2.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\MimeKit.2.2.0\lib\net45\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.UITesting, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0e223ebd96a6d5b6, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\Oshyn.Framework.UITesting.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.UITesting.Email, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0e223ebd96a6d5b6, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\Oshyn.Framework.UITesting.Email.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.UITesting.NUnit, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0e223ebd96a6d5b6, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\Oshyn.Framework.UITesting.NUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.Utility, Version=1.3.0.0, Culture=neutral, PublicKeyToken=d837fb1f7ac15de3, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.Utility.1.3.4.42\lib\net45\Oshyn.Framework.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.WaitHelpers, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\DotNetSeleniumExtras.WaitHelpers.3.11.0\lib\net45\SeleniumExtras.WaitHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.9.1.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.9.1.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\AssertingPageBaseExtensions.cs" />
+    <Compile Include="Extensions\UrlExtensions.cs" />
+    <Compile Include="Pages\Account\ManageProductandServicesPage.cs" />
+    <Compile Include="Pages\Account\MemberWelcomePage.cs" />
+    <Compile Include="Pages\Account\SettingsandSubscriptionsPage.cs" />
+    <Compile Include="Pages\AfiliateRelations\AfiliateRelationsSpecialist.cs" />
+    <Compile Include="Pages\Base\LoginState.cs" />
+    <Compile Include="Pages\CallCardClicks\CallCardClickPage.cs" />
+    <Compile Include="Pages\CarouselC014\CarouselC014Page.cs" />
+    <Compile Include="Pages\ClickSave\LoginClickandSave.cs" />
+    <Compile Include="Pages\CompLife\CompLifePage.cs" />
+    <Compile Include="Pages\Complimentary Life\CompLifeEditPage.cs" />
+    <Compile Include="Pages\Complimentary Life\ComplimentaryLifePage.cs" />
+    <Compile Include="Pages\ContactUs\ContactUsPage.cs" />
+    <Compile Include="Pages\Error404\Error404Page.cs" />
+    <Compile Include="Pages\FamilyAndWellness\FamilyAndWellnessPage.cs" />
+    <Compile Include="Pages\FourColumnCarousel\FourColumnCarouselPage.cs" />
+    <Compile Include="Pages\FreqAQ\FreqAQPage.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Pages\Guide\GuidePage.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Pages\HomeRedesign\HomeRedesign.cs" />
+    <Compile Include="Pages\LeadCapture\LeadCapturePage.cs" />
+    <Compile Include="Pages\NameYourBeneficiary\NameYourBeneficiaryPage.cs" />
+    <Compile Include="Pages\Newsletters\PrivateNewsletter\PrivateNewsletterPage.cs" />
+    <Compile Include="Pages\Newsletters\PublicNewsletter\NewsletterPage.cs" />
+    <Compile Include="Pages\Partners\GeAppliancePage.cs" />
+    <Compile Include="Pages\Partners\MercerLifeInsurancePage.cs" />
+    <Compile Include="Pages\TestProducts\SingleSignOn\SingleSignOn.cs" />
+    <Compile Include="Pages\TestProducts\Efulfillment\Efulfillment.cs" />
+    <Compile Include="Pages\Topic\TopicPage.cs" />
+    <Compile Include="Pages\ProductLinkPost\ProductLinkPostPage.cs" />
+    <Compile Include="Pages\PostTest\PostTestPage.cs" />
+    <Compile Include="Pages\Products\HertzCarRental\HertzCarRentalPage.cs" />
+    <Compile Include="Pages\Products\MultiOffer\MultiOfferPage.cs" />
+    <Compile Include="Pages\Products\ProductPassthrough\ProductPassthroughPage.cs" />
+    <Compile Include="TestSourceHelper.cs" />
+    <Compile Include="Tests\Content\Topic\TopicPageTestData.cs" />
+    <Compile Include="Tests\Content\Topic\TopicPageTests.cs" />
+    <Compile Include="Tests\Content\Products\MultiOffer\MultiOfferPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\MultiOffer\MultiOfferPageTests.cs" />
+    <Compile Include="Tests\Content\Products\ProductPassthrough\ProductPassthroughPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\ProductPassthrough\ProductPassthroughPageTests.cs" />
+    <Compile Include="Tests\Core\CallCardclicks\CallCardClickPageTestData.cs" />
+    <Compile Include="Tests\Core\CallCardclicks\CallCardClickPageTests.cs" />
+    <Compile Include="Tests\Core\CarouselC014\CarouselC014PageTestData.cs" />
+    <Compile Include="Tests\Core\CarouselC014\CarouselC014Test.cs" />
+    <Compile Include="Tests\Core\CompLife\CompLifePageTestData.cs" />
+    <Compile Include="Tests\Core\CompLife\CompLifePageTests.cs" />
+    <Compile Include="Tests\Core\ContactUs\ContactUsPageTestData.cs" />
+    <Compile Include="Tests\Core\ContactUs\ContactUsPageTest.cs" />
+    <Compile Include="Tests\Core\FourColumnCarousel\FourColumnCarouselTest.cs" />
+    <Compile Include="Tests\Core\FourColumnCarousel\FourColumnCarouselTestData.cs" />
+    <Compile Include="Tests\Core\FreqAQ\FreqAQPageTestData.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Tests\Core\FreqAQ\FreqAQTest.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Tests\Core\Guide\GuidePageTest.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Tests\Core\Guide\GuidePageTestData.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Tests\Core\HomeRedesign\HomeRedesignTestData.cs" />
+    <Compile Include="Tests\Core\HomeRedesign\HomeRedesignTest.cs" />
+    <Compile Include="Tests\Functional\AfiliateRelations\AfiliateRelationsSpecialistData.cs" />
+    <Compile Include="Tests\Functional\AfiliateRelations\AfiliateRelationsSpecialistTest.cs" />
+    <Compile Include="Tests\Functional\Account\MemberWelcome\MemberWelcomeData.cs" />
+    <Compile Include="Tests\Functional\Account\MemberWelcome\MemberWelcomeRegistered.cs" />
+    <Compile Include="Tests\Functional\Account\MemberWelcome\MemberWelcomeNotRegisteredTest.cs" />
+    <Compile Include="Tests\Functional\Newsletters\PrivateNewsletter\PrivateNewsletterPageTestData.cs" />
+    <Compile Include="Tests\Functional\Newsletters\PrivateNewsletter\PrivateNesletterPageTests.cs" />
+    <Compile Include="Tests\Functional\Newsletters\PublicNewsletter\NesletterPageTestData.cs" />
+    <Compile Include="Tests\Functional\Newsletters\PublicNewsletter\NesletterPageTests.cs" />
+    <Compile Include="Tests\Functional\Products\MultiProducts\TestLINKPageTestData.cs" />
+    <Compile Include="Tests\Functional\Products\MultiProducts\TestLINKPageTestDataTests.cs" />
+    <Compile Include="Tests\Functional\Products\MultiProducts\TestPDFPageTestDataTests.cs" />
+    <Compile Include="Tests\Functional\Products\MultiProducts\TestPDFTestData.cs" />
+    <Compile Include="Tests\Functional\Products\MultiProducts\TestSSOPageTestData.cs" />
+    <Compile Include="Tests\Functional\Products\MultiProducts\TestSSOPageTestDataTests.cs" />
+    <Compile Include="Pages\Products\NEALongTermCare\NeaLTCPage.cs" />
+    <Compile Include="Pages\Products\PersonalLoan5k\PersonalLoanPage.cs" />
+    <Compile Include="Pages\Products\PersonalLoanParents\PersonalLoanParents.cs" />
+    <Compile Include="Pages\Products\PersonalLoanStudents\PersonalLoanStudents.cs" />
+    <Compile Include="Pages\Profile\ProfileClicks.cs" />
+    <Compile Include="Pages\PromoTout\PromoToutSection.cs" />
+    <Compile Include="Pages\Products\OmniChannel\ProductTestPage.cs" />
+    <Compile Include="Pages\Seminar\SeminarPage.cs" />
+    <Compile Include="Pages\MarketPlace\MarketPlacePage.cs" />
+    <Compile Include="Pages\Sweepstake\SweepstakesPageNoSendEmail.cs" />
+    <Compile Include="Pages\Sweepstake\SweepstakesPage.cs" />
+    <Compile Include="Pages\ForgotPassword\ForgotPasswordPage.cs" />
+    <Compile Include="Pages\ForgotEmail\ForgotEmailPage.cs" />
+    <Compile Include="Pages\NeambPageBase.cs" />
+    <Compile Include="Pages\NeaRetireeHealthPage\NEARetireeHealthProgramRatesPage.cs" />
+    <Compile Include="Pages\Partners\HRBlockPage.cs" />
+    <Compile Include="Pages\Partners\PdfMultirowPage.cs" />
+    <Compile Include="Pages\Partners\RentalCarPage.cs" />
+    <Compile Include="Pages\Partners\ClickAndSaveInvitePartnerPage.cs" />
+    <Compile Include="Pages\Partners\ClickAndSavePartnerPage.cs" />
+    <Compile Include="Pages\Partners\MercerEnrollPage.cs" />
+    <Compile Include="Pages\Partners\MemberEnrollPage.cs" />
+    <Compile Include="Pages\Partners\AutoBuyingPage.cs" />
+    <Compile Include="Pages\Partners\PlanEnrollmentPage.cs" />
+    <Compile Include="Pages\Partners\IcePage.cs" />
+    <Compile Include="Pages\Partners\InvestmentProductsPage.cs" />
+    <Compile Include="Pages\Partners\MercerPage.cs" />
+    <Compile Include="Pages\Partners\SecurityBenefitPage.cs" />
+    <Compile Include="Pages\Products\AlamoRentalCar\AlamoRentalCarPage.cs" />
+    <Compile Include="Pages\Products\HRBlockTax\HRBlockTaxPage.cs" />
+    <Compile Include="Pages\Products\NeaLevelPremiumGroupTermLife\NeaLevelPremiumGroupTermLifePage.cs" />
+    <Compile Include="Pages\Products\NeaAccidentalDeathAndDismemberment\NeaAccidentalDeathAndDismembermentPage.cs" />
+    <Compile Include="Pages\Products\NeaGroupHospitalIncomeInsurancePlan\NeaGroupHospitalIncomeInsurancePlanPage.cs" />
+    <Compile Include="Pages\Products\ClickAndSave\ClickAndSavePage.cs" />
+    <Compile Include="Pages\Products\NeaAccidentalDeathPlus\NeaAccidentalDeathPlusPage.cs" />
+    <Compile Include="Pages\Products\NeaAutoBuying\NeaAutoBuyingPage.cs" />
+    <Compile Include="Pages\Products\NeaAccidentalDeath\NeaAccidentalDeathPage.cs" />
+    <Compile Include="Pages\Products\NeaGroupTermLifeInsurance\NeaGroupTermLifeInsurancePage.cs" />
+    <Compile Include="Pages\Products\NeaIncomeProtectionPlan\NeaIncomeProtectionPlanPdf.cs" />
+    <Compile Include="Pages\Products\NeaGuaranteedIssueLifeInsurancePlan\NeaGuaranteedIssueLifeInsurancePlanPage.cs" />
+    <Compile Include="Pages\Products\NeaIncomeProtectionPlan\NeaIncomeProtectionPlanPage.cs" />
+    <Compile Include="Pages\Products\NeaVacations\NeaVacationsPage.cs" />
+    <Compile Include="Pages\Products\ProductPageBase.cs" />
+    <Compile Include="Pages\Products\NeaRetirementProgram\NeaRetirementProgramPage.cs" />
+    <Compile Include="Pages\Profile\ProfilePage.cs" />
+    <Compile Include="Pages\Registration\RegistrationPage.cs" />
+    <Compile Include="Pages\Search\SearchResultPage.cs" />
+    <Compile Include="Tests\Content\Products\AlamoRentalCar\AlamoRentalCarPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\AlamoRentalCar\AlamoRentalCarTests.cs" />
+    <Compile Include="Tests\Functional\Home\HomePageTestData.cs" />
+    <Compile Include="Tests\Functional\Home\HomePageTests.cs" />
+    <Compile Include="Tests\Content\Products\HRBlockTax\HRBlockTaxPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\HRBlockTax\HRBlockTaxTests.cs" />
+    <Compile Include="Tests\Content\Products\MarketPlace\RegisteredUserScenariosTests.cs" />
+    <Compile Include="Tests\Content\Products\MarketPlace\NotRegisteredUserScenariosTests.cs" />
+    <Compile Include="Tests\Content\Products\MarketPlace\FiltersAndSearchActions.cs" />
+    <Compile Include="Tests\Content\Products\MarketPlace\MarketplaceMarkupTests.cs" />
+    <Compile Include="Pages\Products\MultiProducts\TestDataPassPage.cs" />
+    <Compile Include="Pages\Products\MultiProducts\TestLINKPage.cs" />
+    <Compile Include="Pages\Products\MultiProducts\TestPDFPage.cs" />
+    <Compile Include="Pages\Products\MultiProducts\TestSSOPage.cs" />
+    <Compile Include="Tests\Functional\NameYourBeneficiary\NameYourBeneficiaryData.cs" />
+    <Compile Include="Tests\Functional\NameYourBeneficiary\NameYourBeneficiaryTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaLevelPremiumGroupTermLife\NeaLevelPremiumGroupTermLifePageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaLevelPremiumGroupTermLife\NeaLevelPremiumGroupTermLifeTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaAccidentalDeathAndDismemberment\NeaAccidentalDeathAndDismembermentPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaAccidentalDeathAndDismemberment\NeaAccidentalDeathAndDismembermentTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaGroupHospitalIncomeInsurancePlan\NeaGroupHospitalIncomeInsurancePlanPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaGroupHospitalIncomeInsurancePlan\NeaGroupHospitalIncomeInsurancePlanPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaAccidentalDeathPlus\NeaAccidentalDeathPlusPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaAccidentalDeathPlus\NeaAccidentalDeathPlusPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaAccidentalDeath\NeaAccidentalDeathPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaAccidentalDeath\NeaAccidentalDeathPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaAutoBuying\NeaAutoBuyingPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaAutoBuying\NeaAutoBuyingPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaGroupTermLifeInsurance\NeaGroupTermLifeInsurancePageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaGroupTermLifeInsurance\NeaGroupTermLifeInsurancePageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaGuaranteedIssueLifeInsurancePlan\NEAGuaranteedIssueLifeInsurancePlanPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaGuaranteedIssueLifeInsurancePlan\NeaGuaranteedIssueLifeInsurancePlanPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaIncomeProtectionPlan\NeaIncomeProtectionPlanPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaIncomeProtectionPlan\NeaIncomeProtectionPlanPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NEALongTermCare\NeaLTCPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NEALongTermCare\NeaLTCPageTests.cs" />
+    <Compile Include="Tests\Content\Products\MarketPlace\MarketPlacePageData.cs" />
+    <Compile Include="Tests\Functional\Products\OmniChannel\ProductTestPageData.cs" />
+    <Compile Include="Tests\Functional\Products\OmniChannel\ProductTestPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaVacations\NeaVacationsPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaVacations\NeaVacationsPageTests.cs" />
+    <Compile Include="Tests\Content\Products\NeaRetirementProgram\NeaRetirementProgramPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\NeaRetirementProgram\NeaRetirementProgramPageTests.cs" />
+    <Compile Include="Tests\Content\Products\PersonalLoan5k\PersonalLoanPageTestData.cs" />
+    <Compile Include="Tests\Content\Products\PersonalLoan5k\PersonalLoanPageTests.cs" />
+    <Compile Include="Tests\Content\Products\PersonalLoanParents\PersonalLoanParentsTestData.cs" />
+    <Compile Include="Tests\Content\Products\PersonalLoanParents\PersonalLoanParentsTests.cs" />
+    <Compile Include="Tests\Content\Products\PersonalLoanStudents\PersonalLoanStudentsTestData.cs" />
+    <Compile Include="Tests\Content\Products\PersonalLoanStudents\PersonalLoanStudentsTests.cs" />
+    <Compile Include="Tests\Functional\Products\PostTest\PostTestPageData.cs" />
+    <Compile Include="Tests\Functional\Products\PostTest\PostTestPageTests.cs" />
+    <Compile Include="Tests\Functional\Products\ProductLinkPost\ProductLinkPostData.cs" />
+    <Compile Include="Tests\Functional\Products\ProductLinkPost\ProductLinkPostTests.cs" />
+    <Compile Include="Tests\Core\Profile\ProfileClicksTestData.cs" />
+    <Compile Include="Tests\Core\Profile\ProfilePageTestData.cs" />
+    <Compile Include="Tests\Core\Profile\ProfilePageTests.cs" />
+    <Compile Include="Tests\Core\Profile\ProfileClicksTests.cs" />
+    <Compile Include="Tests\Functional\PromoTout\PromoToutTestData.cs" />
+    <Compile Include="Tests\Functional\PromoTout\PromoToutTests.cs" />
+    <Compile Include="Tests\Core\Registration\RegistrationPageTestData.cs" />
+    <Compile Include="Tests\Core\Registration\RegistrationPageTests.cs" />
+    <Compile Include="Tests\Core\Seminar\SeminarPageTestData.cs" />
+    <Compile Include="Tests\Core\Seminar\SeminarPageTests.cs" />
+    <Compile Include="Tests\Core\Sweepstakes\SweepstakesPageTestDataNoSendEmail.cs" />
+    <Compile Include="Tests\Core\Sweepstakes\SweepstakesPageTestData.cs" />
+    <Compile Include="Tests\Core\Sweepstakes\SweepstakesPageTestsNoSendEmail.cs" />
+    <Compile Include="Tests\Core\Sweepstakes\SweepstakesPageTests.cs" />
+    <Compile Include="Tests\Functional\Error404\Error404TestData.cs" />
+    <Compile Include="Tests\Functional\Error404\Error404Tests.cs" />
+    <Compile Include="Tests\LargerBrowser\Account\ManageProductandServicesTests.cs" />
+    <Compile Include="Tests\LargerBrowser\Account\SettingsandSubscriptionsPageTestData.cs" />
+    <Compile Include="Tests\LargerBrowser\Account\SettingsandSubscriptionsTests.cs" />
+    <Compile Include="Tests\LargerBrowser\Complimentary Life\ComplimentaryLifeTests.cs" />
+    <Compile Include="Tests\LargerBrowser\ContactUs\ContactUsTests.cs" />
+    <Compile Include="Tests\LargerBrowser\NeaRetireeHealth\NEARetireeHealthProgramRatesTests.cs" />
+    <Compile Include="Tests\LargerBrowser\ProfileAndPassword\ProfileandPasswordTests.cs" />
+    <Compile Include="Tests\LargerBrowser\Search\SearchResultPageTests.cs" />
+    <Content Include="Controls\DuplicateRegistration.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\ForgotEmail.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Controls\HealthRates.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\AfiliateRelations\AfiliateRelationsSpecialist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Account\MemberWelcome.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\CallCardClicks\CallCardClickPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\CarouselC014\CarouselC014Page.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\CompLife\CompLife.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Error404\Error404Page.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\FamilyAndWellness\FamilyAndWellness.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\FourColumnCarousel\FourColumnCarouselPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\FreqAQ\FreqAQPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Guide\GuidePage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\HomeRedesign\HomeRedesignPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\LeadCapture\LeadCapturePage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\NameYourBeneficiary\NameYourBeneficiaryPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Newsletters\PrivateNewsletter\PrivateNewsletterPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Newsletters\PublicNewsletter\NewsletterPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\GeAppliancePage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\MercerLifeInsurancePage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\TestProducts\SingleSignOn\SingleSignOn.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\TestProducts\Efulfillment\Efulfillment.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Topic\TopicPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\ProductLinkPost\ProductLinkPostPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\PostTest\PostTestPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\HertzCarRental\HertzCarRentalPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\MultiOffer\MultiOfferPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NEALongTermCare\NeaLTCPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\PersonalLoan5k\PersonalLoanPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\PersonalLoanParents\PersonalLoanParents.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\PersonalLoanStudents\PersonalLoanStudents.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\ProductPassthrough\ProductPassthroughPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Profile\ProfileClicks.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\PromoTout\PromoTout.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\OmniChannel\ProductTestPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Seminar\SeminarPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\MarketPlace\MarketPlacePage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Sweepstake\SweepstakesPageNoSendEmail.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Sweepstake\SweepstakesPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\HRBlockPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\PdfMultirowPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Partners\RentalCarPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\ClickAndSaveInvitePartnerpage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\ClickAndSavePartnerPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\MercerEnrollPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\MemberEnrollPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\AutoBuyingPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\PlanEnrollmentPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\Icepage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\InvestmentProductsPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\MercerPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Partners\SecurityBenefitPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\AlamoRentalCar\AlamoRentalCarPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\HRBlockTax\HRBlockTaxPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaLevelPremiumGroupTermLife\NeaLevelPremiumGroupTermLifePage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaAccidentalDeathPlus\NeaAccidentalDeathPlusPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaAccidentalDeathAndDismemberment\NeaAccidentalDeathAndDismembermentPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaAutoBuying\NeaAutoBuyingPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaAccidentalDeath\NeaAccidentalDeathPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaGroupHospitalIncomeInsurancePlan\NeaGroupHospitalIncomeInsurancePlanPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\ClickAndSave\ClickAndSavePage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaGroupTermLifeInsurance\NeaGroupTermLifeInsurancePage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaIncomeProtectionPlan\NeaIncomeProtectionPlanPdf.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaGuaranteedIssueLifeInsurancePlan\NeaGuaranteedIssueLifeInsurancePlanPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaIncomeProtectionPlan\NeaIncomeProtectionPlanPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaVacations\NeaVacationsPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\Products.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\NeaRetirementProgram\NeaRetirementProgramPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Profile\ProfilePage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Registration\RegistrationPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\ClickSave\LoginClickSave.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Complimentary Life\CompLife.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Account\ManageProductsServices.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Account\SettingsandSubscriptions.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Base\NeambPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\ContactUs\ContactUs.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\ForgotPassword\ForgotPasswordPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\ForgotEmail\ForgotEmailPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Home\HomePage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Login\LoginPage.xml">
+      <SubType>Designer</SubType>
+      <TransformOnBuild>true</TransformOnBuild>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Pages\Base\NeambPage.cs" />
+    <Compile Include="Pages\Home\HomePage.cs" />
+    <Compile Include="Pages\Login\LoginPage.cs" />
+    <Compile Include="Tests\Functional\Login\LoginPageTestData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\Functional\Login\LoginPageTests.cs" />
+    <Compile Include="Tests\Functional\LeadCapture\LeadCapturePageTestData.cs" />
+    <Compile Include="Tests\Functional\LeadCapture\LeadCapturePageTests.cs" />
+    <Compile Include="Tests\NeambTestBaseLarge.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Search\SearchResultPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Settings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Tests\Functional\Login\LoginPageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\MultiProducts\TestDataPassPage.xml" />
+    <Content Include="Pages\Products\MultiProducts\TestLINKPage.xml" />
+    <Content Include="Pages\Products\MultiProducts\TestPDFPage.xml" />
+    <Content Include="Pages\Products\MultiProducts\TestSSOPage.xml" />
+    <Content Include="Tests\Content\Products\NeaGroupTermLifeInsurance\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaRetirementProgram\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaVacations\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaAutoBuying\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaAccidentalDeath\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaGroupHospitalIncomeInsurancePlan\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Home\HomePageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\HRBlockTax\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\PersonalLoanStudents\TestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\PersonalLoanParents\TestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\ContactUs\ContactUsPageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Newsletters\PublicNewsletter\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Newsletters\PrivateNewsletter\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\ProductPassthrough\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Topic\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Tests\Content\Products\MultiOffer\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tests\Content\Products\NeaIncomeProtectionPlan\TestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tests\Content\Products\NEALongTermCare\TestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Tests\Content\Products\NeaRetirementProgram\TestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\HomeRedesign\HomeRedesignTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\PersonalLoan5k\TestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\LeadCapture\LeadCapturePageTestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\FourColumnCarousel\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\CarouselC014\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Tests\Core\FreqAQ\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Tests\Core\Registration\RegistrationPageTestDataPROD.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\AfiliateRelations\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Account\MemberWelcome\MemberWelcomeData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Tests\Functional\Products\MultiProducts\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tests\Core\CallCardclicks\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Tests\Core\CompLife\CompLifePageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\AlamoRentalCar\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaGuaranteedIssueLifeInsurancePlan\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaAccidentalDeathPlus\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaAccidentalDeathAndDismemberment\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NeaLevelPremiumGroupTermLife\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\NameYourBeneficiary\NameYourBeneficiary.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Tests\Content\Products\NeaIncomeProtectionPlan\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Tests\Core\Sweepstakes\SweepstakesPageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Registration\RegistrationPageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Profile\ProfilePageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\PromoTout\PromoToutTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Products\OmniChannel\ProductTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Sweepstakes\SweepstakesPageTestDataNoSendEmail.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Seminar\SeminarPageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Profile\ProfileClicksTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\PersonalLoan5k\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\NEALongTermCare\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\PersonalLoanParents\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\PersonalLoanStudents\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Content\Products\MarketPlace\MarketPlaceData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Products\PostTest\PostTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Products\ProductLinkPost\ProductLinkPostData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Tests\Functional\Error404\Error404TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Tests\Functional\LeadCapture\LeadCapturePageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\LargerBrowser\Account\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\PromoTout\PromoToutTestDataQA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tests\Functional\Products\MultiOffer\" />
+    <Folder Include="Tests\LargerBrowser\HomePage\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\..\packages\Selenium.Firefox.WebDriver.0.24.0\build\Selenium.Firefox.WebDriver.targets" Condition="Exists('..\..\..\packages\Selenium.Firefox.WebDriver.0.24.0\build\Selenium.Firefox.WebDriver.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\packages\Selenium.Chrome.WebDriver.85.0.0\build\Selenium.Chrome.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\Selenium.Chrome.WebDriver.85.0.0\build\Selenium.Chrome.WebDriver.targets'))" />
+    <Error Condition="!Exists('..\..\..\packages\NUnit3TestAdapter.3.15.1\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\NUnit3TestAdapter.3.15.1\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Tests_4Content_4Topic_4TestData_1json__JSONSchema="https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets')" />
+</Project>

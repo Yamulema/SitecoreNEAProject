@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="SecurityBenefitPage" urlpath="https://www.nearetirementprogram.com/login">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="SecurityBenefit_Header_NeaLogo" xpath="//*[@id='comp-j6m73xhb']/p/a/span/span[contains(text(),'NEA Member Benefits')]"/> 
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

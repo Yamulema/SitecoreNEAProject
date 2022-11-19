@@ -1,0 +1,27 @@
+﻿---
+ID: "77cbff29-2756-46ce-9474-b727863a436d"
+Parent: "9dbf44d0-811b-4d96-9233-f86ef46423ab"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Cards/2 Col Carousel C006
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{B0AC4BB5-F8E6-457B-BA29-90F4EDECBCD3}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{4A3C122B-BAB4-42C7-AD6F-7BB32EDFA9EB}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: TwoColumnCarousel
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Cards.Controllers.PageCardController,Neambc.Neamb.Feature.Cards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180511T203532Z

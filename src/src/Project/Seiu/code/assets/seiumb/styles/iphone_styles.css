@@ -1,0 +1,181 @@
+@media screen and (max-width: 32em) and (orientation: portrait) {
+
+	#carousel {
+		border-bottom: 0px solid #4f2e84;
+		height: 267px;
+	}
+	
+	#carousel .orbit {
+		max-height: 267px;
+	}
+	
+	#carousel #home-shedron {
+		background-color: #4f2e84;
+		height: 267px;
+		width: 35%;
+		border-right: 1px solid #4f2e84;
+		position: absolute;
+		top: 0px;
+		border-bottom: 1px solid #4f2e84;
+		left: 0px;
+		padding: 20px;
+		z-index: 998;
+	}
+	
+	#carousel #home-shedron::after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border-top: 114px solid transparent;
+		border-left: 34px solid #4f2e84;
+		border-bottom: 114px solid transparent;
+		position: absolute;
+		left: 100%;
+		top: 0px;
+	}
+	
+	#carousel .orbit-container {
+		max-height: 267px;
+	}
+	
+	#carousel #controls {
+		width: 60%;
+		position: absolute;
+		right: 5px;
+		top: 181px;
+		text-align: center;
+	}
+	
+	
+	#carousel #controls .orbit-previous {
+		position: relative;
+		left: 0;
+		bottom: -17px;
+		width: 28px;
+		height: 28px;
+		margin-bottom: 0;
+	}
+	
+	#carousel #controls .orbit-next {
+		width: 28px;
+		height: 28px;
+		position: relative;
+		right: 0;
+		bottom: -17px;
+	}
+	
+	#carousel #controls .orbit-bullets button {
+		font-size: large;
+		text-align: center;
+		width: 20px;
+		height: 20px;
+		margin: 0.1rem;
+		padding: 0.5rem;
+		background-color: rgba(116, 122, 140, 0.1);
+		border-radius: 50%;
+		border: 2px solid #cacaca;
+	}
+
+	#carousel .orbit-caption h3 {
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 45px;
+		width: 100%;
+		overflow: hidden;
+		font-size: 30px;
+		margin-left: 1px;
+	}
+	
+	
+
+}
+
+@media screen and (max-width: 959px) and (orientation: landscape){
+	#carousel {
+		border-bottom: 0px solid #4f2e84;
+		height: 285px;
+	}
+	
+	#carousel .orbit {
+		max-height: 285px;
+	}
+	
+	#carousel #home-shedron {
+		background-color: #4f2e84;
+		height: 285px;
+		width: 35%;
+		border-right: 1px solid #4f2e84;
+		position: absolute;
+		top: 0px;
+		border-bottom: 1px solid #4f2e84;
+		left: 0px;
+		padding: 20px;
+		z-index: 998;
+	}
+	
+	#carousel #home-shedron::after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border-top: 114px solid transparent;
+		border-left: 34px solid #4f2e84;
+		border-bottom: 114px solid transparent;
+		position: absolute;
+		left: 100%;
+		top: 0px;
+	}
+	
+	#carousel .orbit-container {
+		max-height: 285px;
+	}
+	
+	#carousel #controls {
+		width: 60%;
+		position: absolute;
+		right: 5px;
+		top: 181px;
+		text-align: center;
+	}
+	
+	
+	#carousel #controls .orbit-previous {
+		position: relative;
+		left: 0;
+		bottom: -17px;
+		width: 28px;
+		height: 28px;
+		margin-bottom: 0;
+	}
+	
+	#carousel #controls .orbit-next {
+		width: 28px;
+		height: 28px;
+		position: relative;
+		right: 0;
+		bottom: -17px;
+	}
+	
+	#carousel #controls .orbit-bullets button {
+		font-size: large;
+		text-align: center;
+		width: 20px;
+		height: 20px;
+		margin: 0.1rem;
+		padding: 0.5rem;
+		background-color: rgba(116, 122, 140, 0.1);
+		border-radius: 50%;
+		border: 2px solid #cacaca;
+	}
+
+	#carousel .orbit-caption h3 {
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 45px;
+		width: 100%;
+		overflow: hidden;
+		font-size: 26px;
+		margin-left: 1px;
+	}	
+}

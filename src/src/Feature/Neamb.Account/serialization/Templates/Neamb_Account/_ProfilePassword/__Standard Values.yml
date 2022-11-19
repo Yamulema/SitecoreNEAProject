@@ -1,0 +1,61 @@
+﻿---
+ID: "0b645802-5d33-4800-ba50-2827eb695ee9"
+Parent: "8dff374b-52a5-48a9-be20-412d6c173856"
+Template: "8dff374b-52a5-48a9-be20-412d6c173856"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_ProfilePassword/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "091de1b0-2c31-4e1e-a354-4a0a4566811f"
+      Hint: Show Text
+      Value: Show Password
+    - ID: "12c307d7-37b2-4373-9b71-19024f0dc9cd"
+      Hint: "Opt-in"
+      Value: I'd like to receive emails about special promotions, discounts and other offers available through NEA Member Benefits
+    - ID: "13397eb4-783a-4d95-84da-8585388d027d"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180523T222132Z
+    - ID: "40170fdb-87bd-444a-ad70-1c6648d5e84d"
+      Hint: Profile Submit
+      Value: Save
+    - ID: "50108d96-52d9-435c-8675-c8b12e815c30"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Thanks for completing your profile!</h2>
+        <p>Thank you for updating your NEAMB.com account. The changes you made will be reflected in our database within 48 hours.<br />
+        If you have any questions, please contact us by email, online message, phone or mail.</p>
+        <div class="col-md-5 col-centered"><a class="btn btn-lg btn-blue btn-block" href="~/link.aspx?_id=6512B2CAADFA4B70A4F4541224FD47CC&amp;_z=z">Return to Profile &amp; Password</a><br />
+        <a href="~/link.aspx?_id=545409FCDB864A7FAC61F74A274B5E30&amp;_z=z">Return to Homepage</a></div>
+        </div>
+        <div class="modal-footer">
+        <div class="col-md-6">
+        <p>Connect with us, and members like you </p>
+        </div>
+        <div class="col-md-6">
+                      <div class="share"><a href="https://www.facebook.com/NEAMemberBenefits/" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a><a href="https://twitter.com/NEABenefits" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/company/nea-member-benefits" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a></div>
+                    </div>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7fdbb15c-7f61-40c7-9015-1d72076bda24"
+      Hint: Password Section Header
+      Value: Password
+    - ID: "bd07c2bd-a305-4c49-9932-8ecfca872e25"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page</h2>
+    - ID: "c2429042-1cac-48fb-ad8b-7df616cb8a7e"
+      Hint: Password Submit
+      Value: Save
+    - ID: "c2a8e663-abbd-43f6-8f9a-49e930b2d59d"
+      Hint: Avatar Button
+      Value: Update Avatar

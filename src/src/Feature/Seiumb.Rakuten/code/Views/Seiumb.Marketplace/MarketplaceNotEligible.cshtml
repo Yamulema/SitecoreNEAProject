@@ -1,0 +1,29 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Seiumb.Feature.Rakuten.Constants
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Rakuten.Model.StoreEligibilityDto
+
+@if (!Model.HasEligibility)
+{
+    if (Model.HasToShowModal)
+    {
+        <script type="text/javascript">
+            $(function() {
+                $('#not-elegible-modal').foundation('open');
+            })
+        </script>
+    }
+    <section id="not-elegible">
+        <div class="row">
+            @Html.Sitecore().Field(Templates.StoresList.Fields.Notification, Model.Item)
+        </div>
+    </section>
+
+    <div class="reveal marketplace" id="not-elegible-modal" data-reveal>
+        @Html.Sitecore().Field(Templates.StoresList.Fields.EligibilityOverlay, Model.Item)
+        <button class="close-button" data-close="" aria-label="Close reveal" type="button">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+}

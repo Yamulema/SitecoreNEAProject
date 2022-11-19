@@ -1,0 +1,16 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+
+
+<section class="section-normal bg-gray c-013 t-006">
+	<div class="container">
+		@Html.Partial("~/Views/Neamb.Product/Renderings/_MultiRowOfferCards.cshtml")
+		<div class="row">
+			<div class="col-md-12 flex">
+				@Html.Sitecore().DynamicPlaceholder("offer-cards-item")
+			</div>
+		</div>
+	</div>
+</section>
+
+
+

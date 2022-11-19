@@ -1,0 +1,36 @@
+﻿---
+ID: "6b3454f3-c24e-4b61-8c48-86905c5417d2"
+Parent: "f4e56560-7f53-4d21-9b92-adbf9e9a9903"
+Template: "f4e56560-7f53-4d21-9b92-adbf9e9a9903"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_UnsubscribeMail/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181030T150101Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "74594b71-1810-4243-8487-008b192ed101"
+      Hint: Success
+      Value: |
+        <h2 class="header text-center">Success</h2>
+           <p class="subhead text-alpha no-margin-auto text-center hidden-xs hidden-sm">
+        
+        You have now been unsubscribed from all NEAMB Member Benefits marketing emails.If you&rsquo;ve registered on neamb.com, you will continue to receive emails related to your neamb.com account, for example, if you change your username or need to reset your password.
+        </p>
+    - ID: "9c0c8d88-c78f-4283-8196-0380ed52203a"
+      Hint: Failure
+      Value: |
+        <h2 class="header text-center">Error</h2>
+           <p class="subhead text-alpha no-margin-auto text-center hidden-xs hidden-sm">
+        Please wait a few minutes and then click on the &lsquo;unsubscribe&rsquo; link in our email again. If we&rsquo;re able to unsubscribe you successfully, you&rsquo;ll see a confirmation message. If you see this message again, please <a href="~/link.aspx?_id=C900B28EB14F4B589D6A2EDDB8F70DB1&amp;_z=z">contact us</a> and one of our Member Service Representatives will ensure that you are unsubscribed.
+        </p>
+    - ID: "e34ae485-f0e2-473a-a9e0-53fa8027cd5f"
+      Hint: Error
+      Value: We're sorry. There was a problem processing your unsubscribe request at this time

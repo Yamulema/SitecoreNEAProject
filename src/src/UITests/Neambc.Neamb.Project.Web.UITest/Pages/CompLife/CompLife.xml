@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="CompLifePage" urlpath="/account/complife">
+      <sections>
+        <section name="headline-hero bg-blue">
+        </section>
+        <section name="Edit/Update Your Information">
+          <control key="Profile_FirstName" id="firstname"  />
+          <control key="Profile_LastName" id="lastName"  />
+          <control key="Profile_Phone" id="phone"  />
+          <control key="Update" xpath="//input[@class='btn btn-block btn-blue']"  />
+        </section>
+        <section name="Add Beneficiary">
+          <control key="Otherentity" xpath="(//span[@class='checkmark'])[2]"  />
+          <control key="OtherentityName" id="otherEntityName"  />
+          <control key="FirstName" id="firstname"  />
+          <control key="LastName" id="lastName"  />
+          <control key="RelationshipCode" id="Relationship_SelectedValue"  />
+          <control key="PayoutPercent" id="payoutPercentage"  />
+          <control key="Totalpayout" xpath="//span[@id='TotalPercent']" />
+          <control key="Add_Bene" xpath="//input[@class='btn btn-lg btn-blue btn-block']"  />
+        </section>
+
+        <section name="moreAboutYou">
+          <controls>
+            <!-- Comp Life-->
+            <control key="CompLife_Add" xpath="//a[@class='btn btn-blue ']"  />
+            <control key="Housing" id="Housing_SelectedValue"  />
+            <control key="Del_Bene1" xpath="(//a[@class='btn remove'])[1]"/>
+            <control key="Update_Profile" xpath="(//a[@class='btn'])"/>
+            <control key="CompLife_Save" xpath="//input[@class='btn btn-block btn-blue submit_comp_life']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+
+  </pages>
+</controldata>

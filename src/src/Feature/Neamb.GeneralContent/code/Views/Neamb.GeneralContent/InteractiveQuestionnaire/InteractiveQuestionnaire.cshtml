@@ -1,0 +1,167 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.InteractiveQuestionnaireDto
+@{
+    int counter = 1;
+}
+<section class="c-084 new-design">
+    <div class="gradient">
+        <div class="intro bg" style="background-image: url(@Model.Item.ImageUrl(Templates.InteractiveQuestionnaire.Fields.Image));">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-centered">
+                        <h3>@Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.Title, Model.Item)</h3>
+                        @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.Subheadline, Model.Item)
+                        <button id="startButton" type="button" class="btn btn-white">@Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.BeginningButton, Model.Item)</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gradient all-questions">
+        @foreach (var childItem in Model.QuestionItems)
+        {
+            counter = 1;
+            string classNameLastQuestionImage = childItem.IsLastQuestion ? "hidden-xs" : "";
+            <div class="container question-container">
+                <div class="row question">
+                    <div class="col-sm-7 col-md-7">
+                        <div class="progress-container">
+                            @while (counter <= Model.NumQuestionItems)
+                            {
+                                counter = counter + 1;
+                                <div class="progress-dot"></div>
+                            }
+
+                        </div>
+                        <h2>
+                            @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.Question, childItem.QuestionItem, new { @DisableWebEdit = true })
+                        </h2>
+                        <div class="answer-actions">
+                            <button class="btn btn-white btn-yes">@Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.YesButton, childItem.QuestionItem, new { @DisableWebEdit = true })</button>
+                            <button class="btn btn-white btn-no">@Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.NoButton, childItem.QuestionItem, new { @DisableWebEdit = true })</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-5">
+                        @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.Imagen, childItem.QuestionItem, new { @DisableWebEdit = true })
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="answer yes">
+                        <div class="col-sm-6 col-md-6">
+                            @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.HeadlineText, childItem.QuestionItem, new { @DisableWebEdit = true })
+                            <hr>
+                            @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.TipText, childItem.QuestionItem, new { @DisableWebEdit = true })
+
+                        <div class="slide-actions">
+                            @if (!childItem.IsLastQuestion)
+                            {
+                                <button class="btn btn-white forward">@Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.NextButton, childItem.QuestionItem, new { @DisableWebEdit = true }) <i class="fa fa-chevron-right"></i></button>
+                            }
+                                <button class="backward btn-link"><i class="fa fa-arrow-circle-left"></i>@Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.BackButton, childItem.QuestionItem, new { @DisableWebEdit = true })</button>
+                                @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.DisclaimerText, childItem.QuestionItem, new { @DisableWebEdit = true })
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 @classNameLastQuestionImage">
+                            @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.Imagen, childItem.QuestionItem, new { @DisableWebEdit = true })
+                        </div>
+                        @if (childItem.IsLastQuestion)
+                        {
+                            <!-- If it is the last question add this (result) -->
+                            <div class="col-sm-12 col-md-12">
+                                <hr>
+                                <div class="show-result">
+                                    @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.ShowResultText, childItem.QuestionItem, new { @DisableWebEdit = true })
+                                    <button class="btn btn-white btn-show-result m-t-md">
+                                        @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.ShowResultLink, childItem.QuestionItem, new { @DisableWebEdit = true }) <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="answer no">
+                        <div class="col-sm-6 col-md-6">
+                            @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.HeadlineTextNegativeAnswer, childItem.QuestionItem, new { @DisableWebEdit = true })
+                            <hr>
+                            @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.TipTextNegativeAnswer, childItem.QuestionItem, new { @DisableWebEdit = true })
+                        <div class="slide-actions">
+                            @if (!childItem.IsLastQuestion)
+                            {
+                                <button class="btn btn-white forward">@Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.NextButton, childItem.QuestionItem, new { @DisableWebEdit = true }) <i class="fa fa-chevron-right"></i></button>
+                            }
+                                <button class="backward btn-link"><i class="fa fa-arrow-circle-left"></i>@Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.BackButton, childItem.QuestionItem, new { @DisableWebEdit = true })</button>
+                                @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.DisclaimerTextNegativeAnswer, childItem.QuestionItem, new { @DisableWebEdit = true })
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 @classNameLastQuestionImage">
+                            @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.Imagen, childItem.QuestionItem, new { @DisableWebEdit = true })
+                        </div>
+                        @if (childItem.IsLastQuestion)
+                        {
+                            <!-- If it is the last question add this (result) -->
+                            <div class="col-sm-12 col-md-12">
+                                <hr>
+                                <div class="show-result">
+                                    @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.ShowResultText, childItem.QuestionItem, new { @DisableWebEdit = true })
+                                    <button class="btn btn-white btn-show-result m-t-md">
+                                        @Html.Sitecore().Field(Templates.InteractiveQuestion.Fields.ShowResultLink, childItem.QuestionItem, new { @DisableWebEdit = true }) <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <span data-result-score="@Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.ResultScore, Model.Item, new { @DisableWebEdit = true })"></span>
+    <div class="result-container yes">
+        <div class="gradient">
+            <div class="container">
+                <div class="row result">
+                    <div class="col-sm-7 col-md-7">
+                        <img class="result-logo" src="@Model.Item.ImageUrl(Templates.InteractiveQuestionnaire.Fields.Logo));" alt=""><br>
+                        <span class="label-title"><strong>@Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.PositiveResultHeadline, Model.Item, new { @DisableWebEdit = true })</strong></span>
+                        <hr>
+                        @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.PositiveResultSubheadline, Model.Item, new { @DisableWebEdit = true })
+                        <div class="slide-actions">
+                            @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.PositiveResultLink, Model.Item, new { @DisableWebEdit = true, @class = "btn btn-apply" })
+                            <button class="btn-retake btn-link"><i class="fa fa-arrow-circle-left"></i>@Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.RetakeLinkText, Model.Item, new { @DisableWebEdit = true })</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-5">
+                        @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.PositiveResultImage, Model.Item, new { @DisableWebEdit = true })
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.PositiveDisclaimer, Model.Item, new { @DisableWebEdit = true })        
+    </div>
+    <div class="result-container no">
+        <div class="gradient">
+            <div class="container">
+                <div class="row result">
+                    <div class="col-sm-7 col-md-7">
+                        <img class="result-logo" src="@Model.Item.ImageUrl(Templates.InteractiveQuestionnaire.Fields.Logo));" alt=""><br>
+                        <span class="label-title"><strong>@Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.NegativeResultHeadline, Model.Item, new { @DisableWebEdit = true })</strong></span>
+                        <hr>
+                        @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.NegativeResultSubHeadline, Model.Item, new { @DisableWebEdit = true })
+
+                        <div class="slide-actions">
+                            @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.NegativeResultLink, Model.Item, new { @DisableWebEdit = true, @class = "btn btn-apply" })
+                            <button class="btn-retake btn-link"><i class="fa fa-arrow-circle-left"></i>@Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.RetakeLinkText, Model.Item, new { @DisableWebEdit = true })</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-5">
+                        @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.NegativeResultImage, Model.Item, new { @DisableWebEdit = true })
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Html.Sitecore().Field(Templates.InteractiveQuestionnaire.Fields.NegativeDisclaimer, Model.Item, new { @DisableWebEdit = true })
+    </div>
+</section>

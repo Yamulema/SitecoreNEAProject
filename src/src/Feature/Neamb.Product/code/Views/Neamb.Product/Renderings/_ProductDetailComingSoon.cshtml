@@ -1,0 +1,19 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.ProductDetailDTO
+
+@if (Model.HasAlreadyNotified)
+{
+	<p class="check m-r-sm text-alpha">
+		<i aria-hidden="true" class="fa fa-check-circle"></i>
+		@Html.Sitecore().Field(Templates.ProductCTAs.Fields.ReminderSet, Model.Item)
+	</p>
+}
+else
+{
+	<a id="product_notify_primary_action_button" href="@Model.NotifyProductAvailableLink" onclick="@Model.NotifyProductAvailableAction" class="btn btn-aquamarine m-b-md">@Html.Sitecore().Field(Templates.ProductCTAs.Fields.ReminderCTA, Model.Item)</a>
+	<p class="text-alpha">@Html.Sitecore().Field(Templates.ProductCTAs.Fields.ReminderDetails, Model.Item) </p>
+
+}
+

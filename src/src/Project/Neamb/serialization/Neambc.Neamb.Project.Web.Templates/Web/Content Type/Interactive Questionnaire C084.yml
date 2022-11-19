@@ -1,0 +1,33 @@
+﻿---
+ID: "6205a6c4-fdd6-49ef-84b4-293467cf2b73"
+Parent: "f13f8d0c-746b-45dc-af8b-ff202f647d5a"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Interactive Questionnaire C084 Folder
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: ApplicationsV2/16x16/question_and_answer.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {E269FBB5-3750-427A-9149-7AA950B49301}
+    {DFEDDF02-8DE8-4B12-A58B-AEC2BDBEE4CC}
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {2E39E708-4332-4D32-8CEC-133854C2EA59}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{EEC242CF-99EE-492B-89C2-C0EC638E8B4A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T170224Z

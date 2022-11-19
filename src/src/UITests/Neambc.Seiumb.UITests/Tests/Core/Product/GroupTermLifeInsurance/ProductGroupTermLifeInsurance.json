@@ -1,0 +1,38 @@
+{
+  "Test_Gtm_Cold_User": [
+    [ "dataLayerPush({'event':'login cta','productName':'SEIU Group Term Life Insurance','ctaText':'Register','clickHref':'/insurance/seiu-group-term-life-insurance'},this);", "dataLayerPush({'event':'login cta','productName':'SEIU Group Term Life Insurance','ctaText':'Sign in','clickHref':'/insurance/seiu-group-term-life-insurance'},this);", "dataLayerPush({'event':'login cta','productName':'SEIU Group Term Life Insurance','ctaText':'Sign in','clickHref':'/insurance/seiu-group-term-life-insurance'},this);" ]
+  ],
+  "Test_Gtm_Warm_User": [
+    [ "940", "dataLayerPush({'event':'login cta','productName':'SEIU Group Term Life Insurance','ctaText':'GET A QUOTE OR ENROLL NOW','clickHref':'/insurance/seiu-group-term-life-insurance'},this)", "dataLayerPush({'event':'login cta','productName':'SEIU Group Term Life Insurance','ctaText':'PRINT AN APPLICATION (PDF)','clickHref':'/insurance/seiu-group-term-life-insurance'},this)" ]
+  ],
+  "Test_Gtm_Hot_User": [
+    [ "seiu.wayne@gmail.com", "secret12", "dataLayerPush({'event':'product cta','productName':'SEIU Group Term Life Insurance','ctaText':'GET A QUOTE OR ENROLL NOW','clickHref':'https://seiumb.memberenroll.com/parse.php'}", "dataLayerPush({'event':'secondary cta','productName':'SEIU Group Term Life Insurance','ctaText':'PRINT AN APPLICATION (PDF)','clickHref':' /api/ProductApi/DownloadEfulfillmentPdf'}" ]
+  ],
+  "Test_GTM_EmbeddedLink": [
+    [
+      "dataLayerPush({",
+      "'event':'navigation'",
+      "'navType':'embedded link'",
+      "'navText':'"
+    ]
+  ],
+  "Test_GTM_DownloadsLink": [
+    [
+      "dataLayerPush({",
+      "'event':'downloads'",
+      "'fileName':'",
+      "'ctaText':'"
+    ]
+  ],
+  "Test_GTM_CTALink": [
+    [
+      "seiu.wayne@gmail.com",
+      "secret12",
+      "insurance/seiu-group-term-life-insurance",
+      "dataLayerPush({",
+      "'event':'product cta link',",
+      "'productName':'",
+      "'ctaText':'"
+    ]
+  ]
+}

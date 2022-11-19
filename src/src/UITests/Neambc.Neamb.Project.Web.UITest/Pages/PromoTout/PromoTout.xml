@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="PromoToutSection" urlpath="/UITest/Products/PromoTout">
+      <sections>
+        <section name="PromoToutSection">
+          <controls>
+            <control key="PromoTout"  xpath="/html/body/div[2]/section[2]"   />
+            <control key="PromoTout_PrimaryButton"  id="product_cta_promo_action_button" />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

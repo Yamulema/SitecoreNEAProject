@@ -1,0 +1,22 @@
+﻿---
+ID: "c2696e58-39a5-4640-866c-1ac0a1ae349e"
+Parent: "9a54d88a-395b-4463-9b6a-7ba30fc9fe75"
+Template: "9a54d88a-395b-4463-9b6a-7ba30fc9fe75"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Templates/_Shareable/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180503T185919Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "edac8876-554a-4341-a01e-3a88aede0d01"
+      Hint: Show social share
+      Type: Checkbox
+      Value: 1

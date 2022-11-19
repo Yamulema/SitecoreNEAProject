@@ -1,0 +1,52 @@
+﻿@using Neambc.Seiumb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Presentation
+@using Neambc.Seiumb.Foundation.Sitecore.Utility
+@using System.Linq
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var skinField = Model.Item["TitleBarSkin"];
+    //var skinItem = Sitecore.Context.Database.GetItem(skinField.ToString());
+    var skin = skinField == "Triangular" ? "panelCategoryIncomplete" : "panelCategory";
+
+    if (isExperienceEditor)
+    {
+        skin = skinField == "Triangular" ? "panelCategoryIncomplete xpEditor_CardItem" : "panelCategory xpEditor_CardItem";
+    }
+    var placeholder= RenderingContext.Current.Rendering.Placeholder;
+    var className = "";
+    if (placeholder.Contains("right-column"))
+    {
+        className = "small-12 medium-6 large-6 columns end";
+    }
+    else
+    {
+        className = "small-12 medium-6 large-4 columns";
+    }
+}
+
+<div class="@className">
+    <div class="panel">
+        @if (skinField == "Triangular")
+        {
+            <div class="row"></div>
+        }
+        
+            <div class="@skin">
+                @Html.Sitecore().Field(Templates.Cards.CardItem.Fields.Icon, Model.Item, new
+                   {
+                       @class = "panelIcon"
+                   })
+                <h5>@Html.Sitecore().Field(Templates.Cards.CardItem.Fields.Title, Model.Item)</h5>
+            </div>
+        <div>
+            @Html.Sitecore().ImageField(Templates.Cards.CardItem.Fields.Image, Model.Item)
+        </div>
+        <div class="panelExcerpt">
+            @Html.Sitecore().Field(Templates.Cards.CardItem.Fields.Body, Model.Item)
+        </div>
+    </div>
+</div>

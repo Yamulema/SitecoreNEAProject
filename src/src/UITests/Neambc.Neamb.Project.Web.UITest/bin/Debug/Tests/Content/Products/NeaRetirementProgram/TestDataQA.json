@@ -1,0 +1,38 @@
+{
+  "@jdt.replace": [
+    {
+      "@jdt.path": "$.ColdState",
+      "@jdt.value": [
+        [
+          "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://qa.neamb.com/login'},this)",
+          "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://qa.neamb.com/login'},this)"
+        ]
+      ]
+    },
+    {
+      "@jdt.path": "$.WarmState",
+      "@jdt.value": [
+        [
+          "999",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Retirement Program','ctaText':'Access Your Account'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Retirement Program','ctaText':'Access Your Account'},this)"
+        ]
+      ]
+    },
+    {
+      "@jdt.path": "$.HotState",
+      "@jdt.value": [
+        [
+          "nea.nadine@gmail.com",
+          "secret12",
+          "dataLayerPush({'clickHref':'https://www.securitybenefit.com/sb_leads/api/post','event':'product cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options'},this)",
+          "dataLayerPush({'clickHref':'https://www.securitybenefit.com/sb_leads/api/post','event':'secondary cta','productName':'NEA Retirement Program','ctaText':'Access Your Account'},this)",
+          "dataLayerPush({'clickHref':'https://www.securitybenefit.com/sb_leads/api/post','event':'product cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options'},this)",
+          "dataLayerPush({'clickHref':'https://www.securitybenefit.com/sb_leads/api/post','event':'secondary cta','productName':'NEA Retirement Program','ctaText':'Access Your Account'},this)"
+        ]
+      ]
+    }
+  ]
+}

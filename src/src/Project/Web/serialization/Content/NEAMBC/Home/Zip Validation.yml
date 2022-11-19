@@ -1,0 +1,51 @@
+﻿---
+ID: "009802ff-3592-4efe-85cc-346ea3698127"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "eec948c7-dfec-4341-9d81-d3ce8cf6f3c4"
+Path: /sitecore/content/NEAMBC/Home/Zip Validation
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1800
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|ar|sitecore\SEIUMB Approver|pe|-item:create|-item:delete|-item:admin|pd|-item:create|-item:delete|-item:admin|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171221T163809Z
+    - ID: "ab8bb49e-43e8-4187-9cf6-55a64732a290"
+      Hint: MatchError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">We're sorry. The zip code provided does not match the zip code in our files. We are unable to confirm your membership. If you believe you entered the information incorrectly, please try again.</span>
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{7104ECEC-BAD0-44F7-A597-BC4A7812D5EC}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Zip Code Validation
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171228T012931Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{7104ECEC-BAD0-44F7-A597-BC4A7812D5EC}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Confirmación de Código Postal

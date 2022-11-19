@@ -1,0 +1,98 @@
+﻿@using Neambc.Seiumb.Feature.Carousel
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Foundation.Sitecore.Utility
+
+@model Neambc.Seiumb.Feature.Carousel.Models.CarouselModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+    var timerOption = "timerDelay:" + @Model.Time;
+    bool isPreviewMode = Sitecore.Context.PageMode.IsPreview;
+    var carouselId = isPreviewMode ? "carouselPreview" : "carousel";
+}
+
+<section id="carousel" class="row">
+    <div class="orbit" role="region" id="orbit-carousel" aria-label="Carousel Header" data-orbit data-options="@(isExperienceEditor?"":timerOption)">
+        <div id="home-shedron">
+        </div>
+        <ul class="orbit-container">
+            @*carousel item*@
+            @foreach (var carouselSlide in Model.Slides)
+            {
+                var slide = carouselSlide.Slide;
+                if (slide.HasContextLanguage())
+                {
+                    Sitecore.Data.Fields.ImageField image = slide.Fields[Neambc.Seiumb.Feature.Carousel.Templates.CarouselSlide.Fields.Image];
+                    string alt = image != null ? image.Alt : "";
+                    Sitecore.Data.Fields.LinkField lf = slide.Fields[Neambc.Seiumb.Feature.Carousel.Templates.CarouselSlide.Fields.ReadMore];
+
+                    <li class="orbit-slide">
+                        <figure>
+                            <div id="bg">
+                                <img class="orbit-img" src="@slide.ImageUrl(Neambc.Seiumb.Feature.Carousel.Templates.CarouselSlide.Fields.Image)" alt="@alt">
+                            </div>
+                            <figcaption class="orbit-caption">
+                                <h3>@slide["Headline"]</h3>
+                                <p class="show-for-medium">
+                                    @slide["Subheadline"]
+                                    @if (!String.IsNullOrEmpty(lf.Text))
+                                    {
+                                        <br>
+                                        <br>
+                                    }
+                                    @if (!String.IsNullOrEmpty(lf.Value))
+                                    {
+                                        <strong>
+                                            <a href="@slide.LinkFieldUrl(Neambc.Seiumb.Feature.Carousel.Templates.CarouselSlide.Fields.ReadMore)">@lf.Text</a>
+                                        </strong>
+                                        <span>
+                                            <a @Html.Raw(carouselSlide.OnClickEventContent)
+                                               href="@slide.LinkFieldUrl(Neambc.Seiumb.Feature.Carousel.Templates.CarouselSlide.Fields.ReadMore)">
+                                                <img class="show-for-small" src="/assets/seiumb/images/Icon-Carousel.png">
+                                            </a>
+                                        </span>
+                                    }
+                                </p>
+                                <span class="show-for-small-only">
+                                    <a @Html.Raw(carouselSlide.OnClickEventContent)
+                                       href="@slide.LinkFieldUrl(Neambc.Seiumb.Feature.Carousel.Templates.CarouselSlide.Fields.ReadMore)">
+                                        <img src="/assets/seiumb/images/Icon-Carousel.png">
+                                    </a>
+                                </span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                }
+
+            }
+
+        </ul>
+        <div id="controls">
+            <div class="orbit-buttons">
+                <button class="orbit-previous" aria-label="previous" tabindex="0"><img src="/assets/seiumb/images/arrow_left.png"></button>
+                <nav class="orbit-bullets">
+
+                    @{int index = 0; }
+                    @foreach (var carouselSlide in Model.Slides)
+                    {
+                        if (carouselSlide.Slide.HasContextLanguage())
+                        {
+                            if (index == 0)
+                            {
+                                <button class="is-active" data-slide="@index"><span class="show-for-sr">@index</span></button>
+                            }
+                            else
+                            {
+                                <button data-slide="@index"><span class="show-for-sr">@index</span></button>
+                            }
+                            index++;
+                        }
+                    }
+                </nav>
+                <button class="orbit-next" aria-label="next" tabindex="0"><img src="/assets/seiumb/images/arrow_right.png"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr id="home-divider">

@@ -1,0 +1,11 @@
+{
+  "ColdState": [
+    [ "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)", "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)" ]
+  ],
+  "WarmState": [
+    [ "991", "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Apply Now','clickHref':'https://www.neamb.com/login'},this)", "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Apply Now','clickHref':'https://www.neamb.com/login'},this)" ]
+  ],
+  "HotState": [
+    [ "nea.jessica@gmail.com", "secret12", "dataLayerPush({'event':'product cta','productName':'NEA Personal Loan','ctaText':'Apply Now','clickHref':'https://www.firstnational.com/lynx/#/apply'},this)", "dataLayerPush({'event':'product cta','productName':'NEA Personal Loan','ctaText':'Apply Now','clickHref':'https://www.firstnational.com/lynx/#/apply'},this)" ]
+  ]
+}

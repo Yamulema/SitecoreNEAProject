@@ -1,0 +1,35 @@
+﻿---
+ID: "fe948f18-fff0-4193-8e2d-ef818c979da0"
+Parent: "cf21b2e5-aa43-46db-9cda-2f56def65b8d"
+Template: "19eaa427-545f-49c9-8fd8-ab9fd98d2310"
+Path: /sitecore/content/NEAMBC/Global/Carousel/TestCarousel
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171117T194803Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T201939Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5

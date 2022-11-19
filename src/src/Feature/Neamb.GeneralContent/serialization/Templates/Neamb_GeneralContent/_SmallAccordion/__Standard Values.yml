@@ -1,0 +1,26 @@
+﻿---
+ID: "53e6e627-1819-46c7-b0d0-be11f1ac00d5"
+Parent: "a49a235f-b5cd-433e-8d84-696bbffc28ee"
+Template: "a49a235f-b5cd-433e-8d84-696bbffc28ee"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_SmallAccordion/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180509T165511Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8ba95705-3b7d-408b-9ea0-082a708e66e0"
+      Hint: Header
+      Value: FAQs

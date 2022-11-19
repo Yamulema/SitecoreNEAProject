@@ -1,0 +1,30 @@
+﻿---
+ID: "0005525e-9963-4db1-91e8-04b67f7bcaab"
+Parent: "71219c33-11d5-4d92-868b-34f0c6c1e953"
+Template: "5fff5fb8-99a7-452f-8d7f-e837cd53b62f"
+Path: /sitecore/content/NEAMBC/Global/Categories
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|+item:rename|+item:create|+item:write|+item:read|-item:delete|pd|+item:rename|+item:create|+item:delete|+item:read|+item:write|ar|sitecore\SEIUMB Approver|pe|+item:rename|+item:create|+item:write|+item:read|-item:delete|pd|+item:rename|+item:create|+item:write|+item:read|+item:delete|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171114T193036Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T213230Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

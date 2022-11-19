@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="NavigationSection" urlpath="/finance">
+      <sections>
+        <section name="Navigation">
+          <controls>
+            <control key="TopMenuLink" xpath="//*[@id='nav']/li[1]/a"  />
+            <control key="LeftNavMenuLink" xpath="//*[@id='navbar']/ul/li/ul/li[1]/a"  />
+            <control key="FooterMenuLink" xpath="//*[@id='footerMenu']/div/ul/li[1]/a"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

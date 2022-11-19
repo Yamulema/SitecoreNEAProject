@@ -1,0 +1,21 @@
+﻿---
+ID: "689aa09d-a929-45ab-b744-12ec75515262"
+Parent: "a30e063b-c056-45a1-b97a-ba1e5be7e115"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_LandingPageCTA/Configuration/Contact Info Text
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 550
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190402T200711Z

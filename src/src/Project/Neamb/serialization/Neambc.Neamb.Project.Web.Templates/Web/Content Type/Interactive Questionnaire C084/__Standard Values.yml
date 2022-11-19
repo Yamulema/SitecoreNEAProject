@@ -1,0 +1,103 @@
+﻿---
+ID: "eec242cf-99ee-492b-89c2-c0ec638e8b4a"
+Parent: "6205a6c4-fdd6-49ef-84b4-293467cf2b73"
+Template: "6205a6c4-fdd6-49ef-84b4-293467cf2b73"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Interactive Questionnaire C084 Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{DFEDDF02-8DE8-4B12-A58B-AEC2BDBEE4CC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1162cd1a-36b6-4cea-bc44-7223ca3711d3"
+      Hint: Result Headline
+      Value: Your Results
+    - ID: "23fb3560-208c-4426-8f60-5d475b8ece8d"
+      Hint: Disclaimer
+      Value: |
+        <div class="bg-darkblue">
+        <div class="container answer-footer">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+        </p>
+        <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        </p>
+        </div>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T170303Z
+    - ID: "2833d271-7a32-473b-a4bc-76b843a1acc8"
+      Hint: Disclaimer
+      Value: |
+        <div class="bg-darkblue">
+        <div class="container answer-footer">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+        </p>
+        <p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        </p>
+        </div>
+        </div>
+    - ID: "415571ee-e34c-41b1-8685-958b28758446"
+      Hint: Retake Link Text
+      Value: "Re-take"
+    - ID: "44274a3a-a032-4628-a2c6-af8f2a18cac6"
+      Hint: Beginning Button
+      Value: Let's begin
+    - ID: "45e8197e-97bc-4afd-aa8b-5fb2657e47a9"
+      Hint: Result Score
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6e6006bf-ddff-4e67-b551-88beae8ffc65"
+      Hint: Result Image
+      Value: |
+        <image mediaid="{DA4D5709-E0EA-4103-8EB8-5FC6E19B7663}" />
+    - ID: "8445e40d-e969-4804-bd6c-e196a76e97df"
+      Hint: Result Link
+      Value: |
+        <link text="Apply Now" linktype="external" url="" anchor="" target="" />
+    - ID: "88808d2b-661b-48e0-9cdc-8ca89635f347"
+      Hint: Result Title
+      Value: Your Results
+    - ID: "a7bd535e-e38f-4f2e-ab85-2200d1c03807"
+      Hint: Result Image
+      Value: |
+        <image mediaid="{DA4D5709-E0EA-4103-8EB8-5FC6E19B7663}" />
+    - ID: "aa8ff98c-8f7a-460b-8f30-4a778da12244"
+      Hint: Result Subheadline
+      Value: |
+        <h3>Title</h3>
+        <p class="text-justify">Insert your Subheadline Here</p>
+    - ID: "abb1fae6-b028-4170-9b18-6409e98df8f7"
+      Hint: Result Link
+      Value: |
+        <link text="Apply Now" linktype="external" url="" anchor="" target="" />
+    - ID: "b58a59c6-6de5-4e31-9d9a-1c12d851ea6c"
+      Hint: Subheadline
+      Value: <p>Insert your Sub headline Here</p>
+    - ID: "b5aa3b00-c38a-4cfa-b735-c934581bf84a"
+      Hint: Image
+      Value: |
+        <image mediaid="{49049C30-F7B5-4185-B47E-9EA03EF2F438}" />
+    - ID: "c159ee63-eddf-4f33-a395-404e6b68b9a7"
+      Hint: Result Subheadline
+      Value: |
+        <h3>Title</h3>
+        <p class="text-justify">Insert your Subheadline Here</p>
+    - ID: "ec62eb09-b7bb-4ba1-ace9-175f634d50d9"
+      Hint: Result Headline
+      Value: Your Results
+    - ID: "f067fd48-388c-42c9-bcc4-0ea78ac22fbd"
+      Hint: Title
+      Value: Insert your Headline Here

@@ -1,0 +1,51 @@
+﻿---
+ID: "6a1b3d5a-4978-4fd1-8410-2c07586bf39e"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Steps
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal">
+    <div class="container">
+    <p id="how-it-works" class="section-indicator text-center">HOW IT WORKS</p>
+    <h2 class="header text-center">Lorem Ipsum Versataille</h2>
+    <div class="col-md-9 col-centered">
+    <p class="list-header"><strong>Finding a Lawyer</strong></p>
+    <div class="list-container">
+    <ol class="custom-counter">
+        <li>Click the &lsquo;Find A Lawyer&rsquo; button above, or use the tool below.</li>
+        <li>Contact the lawyer and say you are calling for the &ldquo;NEA Member Benefits Legal Services Program.&rdquo;</li>
+    </ol>
+    </div>
+    </div>
+    <div class="col-md-9 col-centered">
+    <p class="list-header"><strong>Or Access All Legal Services Online Via Your Account</strong></p>
+    <div class="list-container">
+    <ol class="custom-counter">
+        <li>Click the &lsquo;Access Your Account&rsquo; button above.</li>
+        <li>Once you get to the Legal Services Program website, select the type of services you need to get started.</li>
+        <li>If you have any questions or need help along the way contact our member services center</li>
+    </ol>
+    <div class="spacer-30">&nbsp;</div>
+    <img alt="" src="/assets/neamb/images/how-it-works.jpg" class="img-responsive" />      </div>
+    </div>
+    </div>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T205104Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Steps

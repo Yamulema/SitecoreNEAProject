@@ -1,0 +1,82 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.MultiRowOfferItemDto
+@{
+    bool isPreviewMode = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    bool isNotEligible = !isPreviewMode && Model.HasCheckEligibility &&
+        !Model.ResultCheckEligibility && Model.UserStatus != StatusEnum.Cold &&
+        Model.UserStatus != StatusEnum.Unknown;
+}
+
+@if (!Model.HasBrokenLink)
+{
+    <div class="col-xs-12 col-sm-6 col-md-4 flex">
+        <a name="@Html.Sitecore().Field(Templates.ProductOfferCard.Fields.AnchorCard, Model.Item, new {
+                     @DisableWebEdit = true
+                 })"></a>
+        @{
+            string idbuttonCold = "product_multirow_sign_in_cold_button";
+            string idbuttonNoCold = "product_multirow_primary_action_button";
+            string id;
+            string onClickEvent;
+            var hrefValue = "";
+            var targetValue = "";
+            string linkText;
+            if (!isPreviewMode && (Model.HasCheckEligibility && (Model.UserStatus == StatusEnum.Cold || Model.UserStatus == StatusEnum.Unknown)))
+            {
+                id = idbuttonCold;
+                onClickEvent = Model.AnonymousFunctionAction;
+                linkText = Model.AnonymousText;
+            }
+            else
+            {
+                id = idbuttonNoCold;
+                onClickEvent = Model.ActionClickPrimary;
+                hrefValue = Model.ActionPrimary;
+                targetValue = Model.ActionPrimaryTargetBlank;
+                linkText = Model.ActionPrimaryDescription;
+            }
+        }
+
+        <div class="card no">
+            @if (isNotEligible)
+            {
+                <div class="text">
+                    @Html.Sitecore().Field(Templates.ProductOfferCard.Fields.Image, Model.Item, new { @class = "img-fit", loading = "lazy" })
+                    @Html.Sitecore().Field(Templates.ProductOfferCard.Fields.Title, Model.Item)
+                    @Html.Sitecore().Field(Templates.ProductOfferCard.Fields.EligibilityDetails, Model.Item)
+                </div>
+            }
+            else
+            {
+                <div class="text"> 
+                    <a onclick="@onClickEvent" href=""
+                       @Html.Raw(!string.IsNullOrEmpty(hrefValue) ? "href='" + hrefValue + "'" : "")
+                       @Html.Raw(!string.IsNullOrEmpty(targetValue) ? "target='" + targetValue + "'" : "")>
+                        @Html.Sitecore().Field(Templates.ProductOfferCard.Fields.Image, Model.Item, new { @class = "img-fit", loading = "lazy" })
+                        @Html.Sitecore().Field(Templates.ProductOfferCard.Fields.Title, Model.Item)
+                    </a>
+                    @Html.Sitecore().Field(Templates.ProductOfferCard.Fields.Description, Model.Item)
+                </div>
+                <div class="cta">
+                    <a id="@id" onclick="@onClickEvent" class="btn btn-blue btn-block"
+                       @Html.Raw(!string.IsNullOrEmpty(hrefValue) ? "href='" + hrefValue + "'" : "")
+                       @Html.Raw(!string.IsNullOrEmpty(targetValue) ? "target='" + targetValue + "'" : "")>
+                        @linkText
+                    </a>
+                    @if (!String.IsNullOrWhiteSpace(Model.ViewDetailsText))
+                    {
+                        <a class="arrow-link" href="@Model.ViewDetailsUrl" onclick="@Model.ViewDetailsClickAction" @Html.Raw(String.IsNullOrWhiteSpace(Model.ViewDetailsTarget) ? String.Empty : "target='" + Model.ViewDetailsTarget + "'")>@Model.ViewDetailsText</a>
+                    }
+                    else
+                    {
+                        <a class="arrow-link"></a>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+    @Html.Partial("~/Views/Neamb.Product/Renderings/_MultirowSpecialOfferActions.cshtml", Model)
+}

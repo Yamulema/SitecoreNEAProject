@@ -1,0 +1,52 @@
+﻿---
+ID: "d5b48c65-9e1a-4ec5-becc-70f8e75da07b"
+Parent: "d60cbd60-aba3-4caf-8b82-4daf2ee789f0"
+Template: "3536b0d6-1f53-4392-8afb-d80b1b7d3018"
+Path: /sitecore/content/NEAMBC/Global/Products Lite/SEIU Financial Wellness
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01604bf5-3fc0-4fdd-a404-5cee9e257e8b"
+      Hint: ProductHeadline
+      Value: SEIU℠ Financial Wellness test  lite
+    - ID: "0a96fcf5-cfdb-4e89-9ff0-b6b89bf7c3c5"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210918T015503Z
+    - ID: "6c2403a3-49d8-4271-8870-37c34e28827c"
+      Hint: PromoDescription
+      Value: "Have questions? Call us! 1-844-836-7348"
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{16D33F20-C8B5-4208-A8BF-4F41E1BA85A9}"
+    - ID: "73439579-c325-4e3e-80e1-b7f4dfef67c5"
+      Hint: ProductSubHeadline
+      Value: Start your journey on the road to financial wellness
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{16D33F20-C8B5-4208-A8BF-4F41E1BA85A9}"
+    - ID: "8b71c19a-c8f2-4fd8-ab1f-022d1bd4aa14"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.prudential.com/SEIU" />
+    - ID: "a1c843c7-901c-4b64-b67f-36a6f3c7ad3f"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "b813686b-22e3-4ce6-b86c-6e693ae7cf85"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "cdd383d2-84b7-40b7-9189-ae2dedb84000"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />

@@ -1,0 +1,85 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.SavingCalculatorDto
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+    int counter = 1;
+}
+
+<section class="c-083 bg-white new-design">
+    <div class="container text-center">
+        <div class="row step1-container">
+            <div class="col-md-6 text-left step1-content">
+                @Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.Description, Model.Item, new { @DisableWebEdit = true })
+                <button class="next-step btn btn-new btn-blue m-t-sm">@Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.ButtonText, Model.Item, new { @DisableWebEdit = true })</button>
+            </div>
+            <div class="col-md-6">
+                @Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.Image, Model.Item, new { @DisableWebEdit = true, @class = "img-responsive" })
+            </div>
+        </div>
+        <div class="row step2-container hide">
+            <div class="col-md-12 m-b-sm">
+                @Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.HeadlineText, Model.Item, new { @DisableWebEdit = true })
+            </div>
+            <div class="col-md-12">
+                @foreach (var savingCalculatorItemList in Model.SavingCalculatorItems)
+                {
+                    <div class="row grid">
+                        @foreach (var savingCalculatorItem in savingCalculatorItemList)
+                        {
+                            <div class="col-md-4">
+                                <div class="box" data-card-id="@counter" data-savings="@Html.Sitecore().Field(Templates.SavingsCalculatorProduct.Fields.Saving, savingCalculatorItem.SavingCalculatorProductItem, new { @DisableWebEdit = true })">
+                                    <i class="@savingCalculatorItem.Icon"></i>
+                                    @Html.Sitecore().Field(Templates.SavingsCalculatorProduct.Fields.Title, savingCalculatorItem.SavingCalculatorProductItem, new { @DisableWebEdit = true })
+                                </div>
+                            </div>
+                            counter++;
+                        }
+                    </div>
+                }
+            </div>
+            <div class="col-md-12">
+                <button id="submit-calculator" class="btn btn-new btn-blue m-t-sm">@Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.ButtonTextStep2, Model.Item, new { @DisableWebEdit = true })</button>
+            </div>
+        </div>
+        <div class="step3-container hide">
+            <div class="row">
+                <div class="col-md-12 col-centered">
+                    @Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.PreResultText, Model.Item, new { @DisableWebEdit = true })
+                    <p class="grand-total">$<span>0</span></p>
+                    @Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.PostResultText, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            </div>
+            <div class="row step3-grid">
+                @{
+                    counter = 1;
+                }
+                @foreach (var savingCalculatorItemList in Model.SavingCalculatorItems)
+                {
+                    foreach (var savingCalculatorItem in savingCalculatorItemList)
+                    {
+                        <div data-bluebox-id="@counter" class="blue-box hide">
+                            <i class="@savingCalculatorItem.Icon"></i>
+                            @Html.Sitecore().Field(Templates.SavingsCalculatorProduct.Fields.Description, savingCalculatorItem.SavingCalculatorProductItem, new { @DisableWebEdit = true })
+                            @Html.Sitecore().Field(Templates.SavingsCalculatorProduct.Fields.Link, savingCalculatorItem.SavingCalculatorProductItem, new { @DisableWebEdit = true, @class = "btn btn-card" })
+                        </div>
+
+                        counter++;
+                    }
+                }
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="back-link">
+                        <i class="fa fa-chevron-left"></i>@Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.BackButtonText, Model.Item, new { @DisableWebEdit = true })
+                    </a>
+                    <p class="result-description text-justify">
+                        @Html.Sitecore().Field(Templates.UnionSavingsCalculator.Fields.ResultDescription, Model.Item, new { @DisableWebEdit = true })
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

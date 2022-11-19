@@ -1,0 +1,24 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.GeneralContent.Enums
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.GeneralContent.Models.VideoDto
+
+<section class="video-hero">
+    <div class="container">
+        <div class="col-md-9 col-centered">
+            @switch (Model.Type)
+            {
+                case VideoSourceType.None:
+                    break;
+                case VideoSourceType.JWPlayer:
+                    <script src="@Model.SourceUrl"></script>
+                    break;
+                case VideoSourceType.YouTube:
+                    <iframe width="100%" height="458" src="@Model.SourceUrl" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                    break;
+                default:
+                    break;
+            }
+        </div>
+    </div>
+</section>

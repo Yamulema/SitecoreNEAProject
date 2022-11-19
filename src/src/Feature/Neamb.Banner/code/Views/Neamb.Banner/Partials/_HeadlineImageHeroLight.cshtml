@@ -1,0 +1,19 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Banner
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Banner.Models.HeadlineHeroDto
+
+
+@if (!String.IsNullOrEmpty(Model.HeroImageSrc))
+{
+<section style="background-image: url('@Model.HeroImageSrc')" class="headline-hero bg-blue">
+    @Html.Partial("~/Views/Neamb.Banner/Partials/_HeadlineImageHeroLightPart.cshtml", Model)
+</section>
+}
+else
+{
+<section class="headline-hero-light bg-blue">
+    @Html.Partial("~/Views/Neamb.Banner/Partials/_HeadlineImageHeroLightPart.cshtml", Model)    
+</section>
+}

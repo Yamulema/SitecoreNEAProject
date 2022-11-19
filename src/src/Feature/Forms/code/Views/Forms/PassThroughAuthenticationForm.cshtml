@@ -1,0 +1,153 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Forms
+
+@model Neambc.Seiumb.Feature.Forms.Models.PassThroughAuthenticationModel
+
+<div class="row">
+    <div id="product_details_content" class="row">
+        <div class="row">
+            <div class="show-for-medium medium-1 large-1 columns">
+                &nbsp;
+            </div>
+            <div id="registrationMainForm" class="small-12 medium-10 large-10 columns float-center" style="margin-top: 96px;">
+                <div class="small-12 medium-8 large-8 columns">
+                    <div class="row">
+                        <fieldset class="fieldset">
+                            <h4>
+                                @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.Headline,
+                            Model.Item)
+                            </h4>
+
+                            <div class="row">
+                                <div class="small-12 medium-12 large-12 columns">
+                                    <div class="intro-message">
+                                        <p>
+                                            @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.Subheadline,
+                                         Model.Item)
+                                        </p>
+                                        <hr />
+                                        <p id="Seiumb_logo">@Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.Logo, Model.Item, new { @class = "img-responsive" })</p>
+                                    </div>
+                                    <form id="click-save-form" method="post" novalidate="" accept-charset="UTF-8" role="form">
+                                        @{
+                                            Sitecore.Data.Fields.LinkField passwordResetLink =
+                                            Model.Item.Fields[Templates.PassThroughAuthenticationTemplate.Fields.PasswordReset];
+                                            string passwordResetLinkUrl = string.Empty;
+                                            if (passwordResetLink != null && passwordResetLink.TargetItem != null)
+                                            {
+                                                passwordResetLinkUrl =
+                                                Sitecore.Links.LinkManager.GetItemUrl(passwordResetLink.TargetItem);
+                                            }
+                                        }
+                                        <div class="row">
+                                            <div class="small-12 medium-12 large-12 columns columns">
+                                                <label for="password">
+                                                    @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.Password,
+                              Model.Item)
+                                                </label>
+
+                                            </div>
+                                            <div class="small-12 medium-7 large-7 columns">
+                                                <input id="password" placeholder="@Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.PasswordFieldText, Model.Item)"
+                                                       name="password" type="password" value="" required="required"
+                                                       data-msg="This field is required." style="background:white; color:#4d2b81; font-style: italic;"
+                                                       class="form-control" />
+                                                <p id="fe-error" class="server-errors"></p>
+
+                                                @if ((Model.HasErrorInvalidCredentials) ||
+                                                (Model.HasAlreadyLockedError) || (Model.HasErrorTimeout) ||
+                                                (Model.HasLockedError) || (Model.HasErrorEligible) ||
+                                                (Model.HasErrorInvalidUser))
+                                                {
+                                                    <div class="mobile_buttons">
+                                                        <div data-name="Password" class="callout alert server-errors show"
+                                                             id="errorgeneralserver">
+
+                                                            @if (Model.HasErrorInvalidCredentials)
+                                                            {
+                                                                <span>
+                                                                    @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.InvalidCredentials,
+                                                                    Model.Item)
+                                                                </span>
+                                                            }
+                                                            else if (Model.HasAlreadyLockedError)
+                                                            {
+                                                                <span>
+                                                                    @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.AccountAlreadyLocked,
+                                                                    Model.Item)
+                                                                    <a href="@passwordResetLinkUrl"> @passwordResetLink.Text</a>
+                                                                </span>
+                                                            }
+                                                            else if (Model.HasErrorTimeout)
+                                                            {
+                                                                <span>
+                                                                    @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.TimeOut,
+                                                                    Model.Item)
+                                                                </span>
+                                                            }
+                                                            else if (Model.HasLockedError)
+                                                            {
+                                                                <span>
+                                                                    @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.AccountLocked,
+                                                                    Model.Item)
+                                                                    <a href="@passwordResetLinkUrl"> @passwordResetLink.Text</a>
+                                                                </span>
+                                                            }
+
+                                                            @if (Model.HasErrorEligible)
+                                                            {
+                                                                <span>
+                                                                    @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.NotEligible,
+                                                              Model.Item)
+                                                                </span>
+                                                            }
+                                                            @if (Model.HasErrorInvalidUser)
+                                                            {
+                                                                <span>
+                                                                    @Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.NotEligible,
+                                                                    Model.Item)
+                                                                </span>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                }
+
+                                            </div>
+                                            <input type="hidden" name="fhController" value="PassThroughAuthenticationController"
+                                                   data-abide-ignore />
+                                            <input type="hidden" name="fhAction" value="PassThroughAuthentication"
+                                                   data-abide-ignore />
+                                            <input type="hidden" name="Mdsid" value="@Model.Mdsid" data-abide-ignore />
+                                            <input type="hidden" name="RedirectUrl" value="@Model.RedirectUrl"
+                                                   data-abide-ignore />
+                                            <input type="hidden" name="UserName" value="@Model.UserName"
+                                                   data-abide-ignore />
+                                            <input type="hidden" name="PasswordResetUrl" value="@Model.PasswordResetUrl"
+                                                   data-abide-ignore />
+                                            <input type="hidden" name="QueryString" value="@Model.QueryString"
+                                                   data-abide-ignore />
+                                            <input type="hidden" name="ProductCode" value="@Model.ProductCode"
+                                                   data-abide-ignore />
+                                        </div>
+                                        <div class="row">
+                                            <div class="small-12 columns buttonContainer">
+                                                <input type="submit" value="@Html.Sitecore().Field(Templates.PassThroughAuthenticationTemplate.Fields.LoginButton, Model.Item)"
+                                                       class="button" />
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="show-for-medium medium-4 large-4 columns">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="show-for-medium medium-1 large-1 columns">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿---
+ID: "2b8442ec-13cd-4c2b-a838-dd04822a3e54"
+Parent: "38717512-639e-4403-8de2-fd78f567aa12"
+Template: "38717512-639e-4403-8de2-fd78f567aa12"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_ProductAnchoredHeader/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180531T165119Z
+    - ID: "51bbaacb-d2ba-4679-9beb-ba35191f7e20"
+      Hint: Anchored Navigation
+      Value: |
+        <ul class="hidden-xs hidden-sm hidden-md">
+        <li>
+        <a href="#overview" class="scroll">Overview</a>
+        </li>
+        <li>
+        <a href="#how-it-helps" class="scroll">How It Helps</a>
+        </li>
+        <li>
+        <a href="#how-it-works" class="scroll">How It Works</a>
+        </li>
+        <li>
+        <a href="#current-promotions" class="scroll">Current Promotions</a>
+        </li>
+        <li>
+        <a href="#faq" class="scroll">FAQ</a>
+        </li>
+        </ul>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

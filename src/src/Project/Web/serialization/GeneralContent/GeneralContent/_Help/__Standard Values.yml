@@ -1,0 +1,32 @@
+﻿---
+ID: "d2449f45-bfd1-4157-9a27-4dcaee12ec4e"
+Parent: "0726c648-5fcb-4614-a50d-3a5f6410d5e8"
+Template: "0726c648-5fcb-4614-a50d-3a5f6410d5e8"
+Path: /sitecore/templates/SEIUMB/Feature/GeneralContent/_Help/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171120T170915Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5fc898af-82c4-4c90-b42c-cf3fc98163d3"
+      Hint: HelpSectionContent
+      Value: |
+        <section id="helpContainer">
+            <div class="row">
+                <div id="main_help" class="small-12 medium-12 large-12 large-centered columns">
+                    Need Help? <a href="#">Contact Us.</a>
+                    <div class="menu contactmenu">
+                        <a href="#" class="icon-email1"></a>
+                        <a href="#" class="icon-call"></a>
+                    </div>
+                </div>
+            </div>
+        </section>

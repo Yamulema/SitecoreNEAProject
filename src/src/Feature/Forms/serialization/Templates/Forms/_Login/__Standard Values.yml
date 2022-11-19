@@ -1,0 +1,163 @@
+﻿---
+ID: "006d0d16-3416-4a74-b02a-6fbf4183d250"
+Parent: "ef4ee7ca-ce03-491c-931f-e25465332261"
+Template: "ef4ee7ca-ce03-491c-931f-e25465332261"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_Login/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19ccb63c-3dbe-478f-b820-8da70deda43f"
+      Hint: AccountLocked
+      Value: This account is locked due to too many user attempts. A password reset link has been sent to the email for this account.
+    - ID: "1ace64b0-5102-431f-9375-9df4521b3ac1"
+      Hint: InvalidCredentials
+      Value: We're sorry, but the email address and/or password you entered were not recognized. Please try again.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T193515Z
+    - ID: "2fa94994-0d59-4888-9400-2e1d5479a7da"
+      Hint: TimeOut
+      Value: We are experiencing technical difficulties at the moment, please try again later.
+    - ID: "53b7ff52-4272-48e8-a3ef-0cd5efba8d7b"
+      Hint: RegisterButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5e6e62e8-cb22-4be2-bb01-a2fbf5c6c2ae"
+      Hint: SubHeadline
+      Value: "Get all the benefits of SEIU membership. Register now!"
+    - ID: "71c82f68-c765-49f4-8fe9-0078cb8c6f04"
+      Hint: Headline
+      Value: "Registered Already?"
+    - ID: "73290ce9-ad8b-42ee-aaee-64e19b2e5e03"
+      Hint: Help
+      Value: |
+        <link text="Need help? Contact us" linktype="external" url="http://www.seiumb.com" anchor="" target="" />
+    - ID: "8fc290bf-7488-4d5c-9f15-fd57884cf745"
+      Hint: AccountAlreadyLocked
+      Value: This account has been locked due to multiple unsuccessful attempts. Please check your email for password reset instructions. Also check your Spam or Bulk mail folder, just to be sure.
+    - ID: "9bf20ffb-8a6e-4c46-afb8-1d38d8793014"
+      Hint: AlreadyRegistered
+      Value: |
+        Your account has already been registered. If you have forgotten your password, you can reset it <a href="~/link.aspx?_id=19655CE0B8B6494498E8EE394D59F6C9&amp;_z=z">here</a>. If this is not you, please use the Register button to sign up for your free account.
+    - ID: "a3914310-944e-4de3-9cb7-0fb36fb7de62"
+      Hint: RememberMe
+      Value: Remember me
+    - ID: "b4a2f730-a2e5-4753-b07c-1b532738e1de"
+      Hint: EmptyField
+      Value: Please enter your email and password.
+    - ID: "b62fbaf3-11b8-4fb9-b01b-5022f0037656"
+      Hint: LoginButton
+      Value: Log in
+    - ID: "bddc4f61-51c2-4858-a73b-cecfcd2ef2ae"
+      Hint: CancelLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{51B35732-AC72-4081-898F-9B2E8FF3FB9C}" />
+    - ID: "c24ee1ec-2b80-4a5e-91d7-b9a109bc4a4d"
+      Hint: SubHeadline
+      Value: Please enter your email and password to access your seiumb.com account.
+    - ID: "d40384b3-37bd-47f8-b897-9aa3fc303d54"
+      Hint: Logo
+      Value: |
+        <image mediaid="{AC0C219D-F78D-43A4-8823-BDFA64571A10}" />
+    - ID: "d6310f29-07f5-4617-a0b2-5fb05f9c2cbd"
+      Hint: PasswordPlaceholder
+      Value: Password
+    - ID: "d999616e-c09d-4e01-ba13-114dec22197e"
+      Hint: Headline
+      Value: "Not Registered?"
+    - ID: "dec7a189-ae49-412f-a3a7-56120ab8ea99"
+      Hint: EmailPlaceholder
+      Value: Email
+    - ID: "e65b5404-616b-49c5-bbd6-4acd9c9c4358"
+      Hint: ForgotCredentials
+      Value: |
+        <link text="Forgot log in email or password?" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1F9682E7-B64D-4D53-A3AE-9FFDDE913BA9}" />
+    - ID: "e99aa538-ce55-40b7-99a2-af4b836ef921"
+      Hint: ResetLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{2A4F4CA3-2212-4A01-96FC-47B1E6E64866}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19ccb63c-3dbe-478f-b820-8da70deda43f"
+      Hint: AccountLocked
+      Value: Esta cuenta está bloqueada debido a muchos intentos fallidos. Un email para resetear el password ha sido enviado a su correo para esta cuenta.
+    - ID: "1ace64b0-5102-431f-9375-9df4521b3ac1"
+      Hint: InvalidCredentials
+      Value: Lo sentimos, pero el correo y/o contraseña ingresadas no fueron reconocidas. Por favor ingreselas nuevamente
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171226T231706Z
+    - ID: "2fa94994-0d59-4888-9400-2e1d5479a7da"
+      Hint: TimeOut
+      Value: Estamos experimentando problemas técnicos en estos momentos, por favor intente más tarde.
+    - ID: "53b7ff52-4272-48e8-a3ef-0cd5efba8d7b"
+      Hint: RegisterButton
+      Value: |
+        <link text="Registrate" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5e6e62e8-cb22-4be2-bb01-a2fbf5c6c2ae"
+      Hint: SubHeadline
+      Value: "Obten todos los beneficios de la membresia de SEIU. Registrate Ahora!"
+    - ID: "71c82f68-c765-49f4-8fe9-0078cb8c6f04"
+      Hint: Headline
+      Value: "Ya Registrado?"
+    - ID: "73290ce9-ad8b-42ee-aaee-64e19b2e5e03"
+      Hint: Help
+      Value: |
+        <link text="Necesitas ayuda?" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "8fc290bf-7488-4d5c-9f15-fd57884cf745"
+      Hint: AccountAlreadyLocked
+      Value: Esta cuenta está bloqueada debido a muchos intentos fallidos. Haga click abajo para ayuda en Ingresar.
+    - ID: "9bf20ffb-8a6e-4c46-afb8-1d38d8793014"
+      Hint: AlreadyRegistered
+      Value: |
+        Tu cuenta ya ha sido registrada. Si has olvidado tu contrase&ntilde;a, la puedes resetear <a href="~/link.aspx?_id=19655CE0B8B6494498E8EE394D59F6C9&amp;_z=z">aqui</a>. Si no es usted, por favor use el bot&oacute;n de Registrar para ingresar a su cuenta gratis.
+    - ID: "a3914310-944e-4de3-9cb7-0fb36fb7de62"
+      Hint: RememberMe
+      Value: Recordarme
+    - ID: "b4a2f730-a2e5-4753-b07c-1b532738e1de"
+      Hint: EmptyField
+      Value: Por favor ingrese su correo y contraseña.
+    - ID: "b62fbaf3-11b8-4fb9-b01b-5022f0037656"
+      Hint: LoginButton
+      Value: Ingresar
+    - ID: "bddc4f61-51c2-4858-a73b-cecfcd2ef2ae"
+      Hint: CancelLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{51B35732-AC72-4081-898F-9B2E8FF3FB9C}" />
+    - ID: "c24ee1ec-2b80-4a5e-91d7-b9a109bc4a4d"
+      Hint: SubHeadline
+      Value: Por favor ingrese su correo y contraseña para acceder a su cuenta de seiumb.com
+    - ID: "d40384b3-37bd-47f8-b897-9aa3fc303d54"
+      Hint: Logo
+      Value: |
+        <image mediaid="{AC0C219D-F78D-43A4-8823-BDFA64571A10}" />
+    - ID: "d6310f29-07f5-4617-a0b2-5fb05f9c2cbd"
+      Hint: PasswordPlaceholder
+      Value: Contraseña
+    - ID: "d999616e-c09d-4e01-ba13-114dec22197e"
+      Hint: Headline
+      Value: "No estas registrado?"
+    - ID: "dec7a189-ae49-412f-a3a7-56120ab8ea99"
+      Hint: EmailPlaceholder
+      Value: correo
+    - ID: "e65b5404-616b-49c5-bbd6-4acd9c9c4358"
+      Hint: ForgotCredentials
+      Value: |
+        <link text="¿Olvidó su usuario o contraseña?" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1F9682E7-B64D-4D53-A3AE-9FFDDE913BA9}" />
+    - ID: "e99aa538-ce55-40b7-99a2-af4b836ef921"
+      Hint: ResetLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{2A4F4CA3-2212-4A01-96FC-47B1E6E64866}" />

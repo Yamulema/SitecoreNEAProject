@@ -1,0 +1,13 @@
+﻿@using DynamicPlaceholders.Mvc.Extensions
+@using Neambc.Neamb.Feature.GeneralContent
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+
+}
+<div>
+    @Html.Partial("~/Views/Neamb.GeneralContent/Renderings/TwoColumnStackabelHeader.cshtml")
+    <section class="section-normal">
+        @Html.Sitecore().DynamicPlaceholder("two-column-stackable-item")
+    </section>
+</div>

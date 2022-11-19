@@ -1,0 +1,18 @@
+﻿---
+ID: "a3a56924-a3ab-4058-8eea-44f9d07768bf"
+Parent: "4d53fb3f-03cd-44fc-9cec-ee81a5e0ad51"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_StatisticsCustom/Statistics
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180730T154616Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

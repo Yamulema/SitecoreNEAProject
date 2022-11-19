@@ -1,0 +1,50 @@
+﻿.xpEditor_Help{
+    width: 100%;
+}
+
+.xpEditor_Header {
+    position: static;
+}
+
+.xpEditor_CardRow {
+    min-height: 50px;
+    margin: 10px;
+}
+
+.xpEditor_LogoHeader {
+    width: 200px;
+    height: auto;
+    margin-top: -40px;
+    margin-left: 100px;
+    border: 1px dashed #1483af;
+}
+
+.xpEditor_Footer {
+    background-color: #100719;
+}
+
+.xpEditor_CardItem{
+    z-index: 1 !important;
+}
+
+.xpEditor_CardItem h5 span{
+    color: white !important;
+    font-size: 9.54pt !important;
+}
+
+.xpEditor_LeftNavigation {
+    z-index: 1 !important;
+}
+
+.xpEditor_RailCard h5 span {
+    color: white !important;
+    font-size: 9.54pt !important;
+}
+
+.xpEditor_RailCard div {
+    height: 100%
+}
+
+.xpEditor_RailCard .panelCategory {
+    z-index: 1 !important;
+}

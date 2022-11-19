@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ProfileClicks" urlpath="/account/profile?ref=999">
+      <sections>
+        <section name="Component">
+          <controls>
+            <control key="AccountButton" xpath="//div[@class='col-md-12 profile-links']//a[@href='/account/profile']" />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>
+

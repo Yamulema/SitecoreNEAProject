@@ -1,0 +1,37 @@
+{
+  "Newsletter_ValidateEmail": [
+    [ "nea.sally@gmail.com" ]
+  ],
+  "Subscribe_Cold": [
+    [
+      "nea.sally@gmail.com",
+      "dataLayerPush({'event':'account','accountSection':'settings & subscriptions','accountAction':'Financial Whiteboard','ctaText':'Subscribe'},this)"
+    ]
+  ],
+  "Unsubscribe_Warm": [
+    [
+      "998",
+      "dataLayerPush({'event':'account','accountSection':'settings & subscriptions','accountAction':'Financial Whiteboard','ctaText':'Unsubscribe'},this)"
+    ]
+  ],
+  "Subscribe_Warm": [
+    [
+      "998",
+      "dataLayerPush({'event':'account','accountSection':'settings & subscriptions','accountAction':'Financial Whiteboard','ctaText':'Subscribe'},this)"
+    ]
+  ],
+  "Unsubscribe_Hot": [
+    [
+      "nea.sally@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'account','accountSection':'settings & subscriptions','accountAction':'Financial Whiteboard','ctaText':'Unsubscribe'},this)"
+    ]
+  ],
+  "Subscribe_Hot": [
+    [
+      "nea.sally@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'account','accountSection':'settings & subscriptions','accountAction':'Financial Whiteboard','ctaText':'Subscribe'},this)"
+    ]
+  ]
+}

@@ -1,0 +1,1947 @@
+﻿---
+ID: "2a6ce476-b493-41c9-a0eb-a63040266b20"
+Parent: "10fc3269-da0b-4202-abe4-de3aae36eca0"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Education/SEIU Student Loan Refinance Program
+DB: master
+SharedFields:
+- ID: "19b597d3-2edd-4ae2-aefe-4a94c7f10e31"
+  Hint: __Source Item
+  Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 450
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190927T205858Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. College Ave Refi Education loans are not currently available to residents of Maine.</p>
+        <p><br>2. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p><br>3. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p><br>The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" querystring="" target="" text="Learn More" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information" linktype="internal" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E7DAC360-03C6-4EFB-8DDB-8B7109232A33}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200506T151542Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. College Ave Refi Education loans are not currently available to residents of Maine.</p>
+        <p><br>2. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p><br>3. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p><br>The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" querystring="" target="" text="Learn More" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information" linktype="internal" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200506T151542Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{030A5AA1-28C0-4380-A229-268625B53548}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{5B862FD4-C054-4F60-AA88-8CA4ABABE8B9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{E7DAC360-03C6-4EFB-8DDB-8B7109232A33}"
+              p:after="r[@uid='{030A5AA1-28C0-4380-A229-268625B53548}']"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Watch Video" linktype="external" url="https://www.collegeavestudentloans.com/blog/how-to-repay-student-loans/?utm_campaign=bank%20partner%20referral_casl&amp;utm_source=neamb&amp;utm_medium=partner&amp;utm_content=seiu&amp;brand=college%20ave&amp;product=inschool&amp;p_aff=neamb&amp;tar_str=video&amp;goal=acquisition" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200610T211352Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. College Ave Refi Education loans are not currently available to residents of Maine.</p>
+        <p><br>2. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p><br>3. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p><br>The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" querystring="" target="" text="Learn More" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information" linktype="internal" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200610T211352Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{030A5AA1-28C0-4380-A229-268625B53548}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{5B862FD4-C054-4F60-AA88-8CA4ABABE8B9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200611T183004Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. College Ave Refi Education loans are not currently available to residents of Maine.</p>
+        <p><br>2. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p><br>3. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p><br>The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" querystring="" target="" text="Learn More" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information" linktype="internal" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200611T183004Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{030A5AA1-28C0-4380-A229-268625B53548}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{5B862FD4-C054-4F60-AA88-8CA4ABABE8B9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200818T172155Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. College Ave Refi Education loans are not currently available to residents of Maine.</p>
+        <p><br>2. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p><br>3. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p><br>The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Learn More" linktype="external" url="https://www.seiumb.com/Education/SEIU-Student-Loan-Refinance-Program-Information" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200818T172155Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{030A5AA1-28C0-4380-A229-268625B53548}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{5B862FD4-C054-4F60-AA88-8CA4ABABE8B9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Watch Video" linktype="external" url="https://www.collegeavestudentloans.com/blog/how-to-repay-student-loans/?utm_campaign=bank%20partner%20referral_casl&amp;utm_source=neamb&amp;utm_medium=partner&amp;utm_content=seiu&amp;brand=college%20ave&amp;product=inschool&amp;p_aff=neamb&amp;tar_str=video5&amp;goal=acquisition" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200827T195040Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. College Ave Refi Education loans are not currently available to residents of Maine.</p>
+        <p><br>2. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p><br>3. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p><br>The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200827T195040Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{030A5AA1-28C0-4380-A229-268625B53548}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{5B862FD4-C054-4F60-AA88-8CA4ABABE8B9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Watch Video" linktype="external" url="https://www.collegeavestudentloans.com/blog/how-to-repay-student-loans/?utm_campaign=bank%20partner%20referral_casl&amp;utm_source=neamb&amp;utm_medium=partner&amp;utm_content=seiu&amp;brand=college%20ave&amp;product=inschool&amp;p_aff=neamb&amp;tar_str=video5&amp;goal=acquisition&amp;agg_ref_id=[mdsid_clear]" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201208T214938Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. College Ave Refi Education loans are not currently available to residents of Maine.</p>
+        <p><br>2. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p><br>3. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p><br>The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201208T214938Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{030A5AA1-28C0-4380-A229-268625B53548}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{5B862FD4-C054-4F60-AA88-8CA4ABABE8B9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Watch Video" linktype="external" url="https://www.collegeavestudentloans.com/blog/how-to-repay-student-loans/?utm_campaign=bank%20partner%20referral_casl&amp;utm_source=neamb&amp;utm_medium=partner&amp;utm_content=seiu&amp;brand=college%20ave&amp;product=inschool&amp;p_aff=neamb&amp;tar_str=video5&amp;goal=acquisition&amp;agg_ref_id=[mdsid_clear]" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201222T151418Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p >2. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p >The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.</p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>2</sup></p>
+            </li>
+        </ul>
+        <p>Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201222T151418Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 9
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Watch Video" linktype="external" url="https://www.collegeavestudentloans.com/blog/how-to-repay-student-loans/?utm_campaign=bank%20partner%20referral_casl&amp;utm_source=neamb&amp;utm_medium=partner&amp;utm_content=seiu&amp;brand=college%20ave&amp;product=inschool&amp;p_aff=neamb&amp;tar_str=video5&amp;goal=acquisition&amp;agg_ref_id=[mdsid_clear]" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210401T171025Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p >2. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p >The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.</p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>2</sup></p>
+            </li>
+        </ul>
+        <p>Whether you&rsquo;re a recent college graduate or the parent or the partner of a recent college graduate, you might be starting to feel a bit of pressure trying to figure out how to manage your student loan debt. Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210401T171025Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 10
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210512T032913Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p >2. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p >The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.</p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>2</sup></p>
+            </li>
+        </ul>
+        <p>Whether you&rsquo;re a recent college graduate or the parent or the partner of a recent college graduate, you might be starting to feel a bit of pressure trying to figure out how to manage your student loan debt. Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <div style="text-align: center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q13FfPdGx7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <p><em><span style="font-size: 10px; color: #7f7f7f;">Video courtesy of College Ave.</span></em></p>
+        </div>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210512T032913Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+  - Version: 11
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: 
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=en&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5A0A5A81-B97C-4B28-B916-4E9D516DC9B2}" alt="SEIU Member Benefits in partnership with College Ave Student Loans" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210512T184818Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Amount equal to 0.50% of the initial loan balance to be credited on the borrowers statement within 60 days of closing of the loan. For example, if the consolidated loan equaled $20,000, the member benefit equals $100, with a maximum of $599.99.</p>
+        <p >2. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</p>
+        <p >The SEIU Student Loan Program &ndash; Refinance is provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Questions? Read our <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">FAQs</a>&nbsp;or call 1-833-360-1551
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Student Loan Refinance Program
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{9FBA29AF-6187-4692-A33B-B873F9B1F0A0}"
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{9FBA29AF-6187-4692-A33B-B873F9B1F0A0}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Potentially reduce your interest rate or monthly payment on private student loans.</p>
+            </li>
+            <li>
+            <p>A special member benefit equaling 0.50% of the loan amount credited back to the borrower on your statement - up to $599.99.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Apply in just three minutes.</p>
+            </li>
+            <li>
+            <p>No origination or application fees, or pre-payment penalties.</p>
+            </li>
+            <li>
+            <p>Save with favorable fixed and variable rates.</p>
+            </li>
+            <li>
+            <p>Enroll in auto-pay to save even more.<sup>2</sup></p>
+            </li>
+        </ul>
+        <p>Whether you&rsquo;re a recent college graduate or the parent or the partner of a recent college graduate, you might be starting to feel a bit of pressure trying to figure out how to manage your student loan debt. Consolidating your private student loan payments can save you time, energy&mdash;and money.</p>
+        <p>With private student loan refinancing, you take out a new loan to pay off your existing private student loans, simplifying your loans into one loan and monthly payment. The new loan typically has a lower interest rate and/or different repayment terms, helping you lower the total cost or monthly payment (or maybe both). Over time, refinancing could save you a significant amount of money in interest over the life of your loans. </p>
+        <p>Learn 4 tips on how to repay your student loans by watching the video below.</p>
+        <div style="text-align: center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q13FfPdGx7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <p><em><span style="font-size: 10px; color: #7f7f7f;">Video courtesy of College Ave.</span></em></p>
+        </div>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Refinance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Take control of your private student loan debt with this exclusive SEIU Member benefit.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210512T184818Z
+    - ID: "cdd383d2-84b7-40b7-9189-ae2dedb84000"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Toma El Control De La Deuda De Tu Préstamo Estudiantil Privado Con Estu Beneficio Exclusivo Para Miembros De SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=es-ES&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37E9CC96-94BD-4106-893C-E27095128422}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190927T205858Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los pr&eacute;stamos de College Ave Refi Education actualmente no est&aacute;n disponibles para los residentes de Maine.</p>
+        <p><br>2. El monto equivalente al 0.50% del saldo inicial del pr&eacute;stamo se acreditar&aacute; en el estado de cuenta de los prestatarios en el plazo de 60 d&iacute;as a partir del cierre del pr&eacute;stamo. Por ejemplo, si el pr&eacute;stamo consolidado equivale a $20,000, el beneficio del miembro es igual a $100, con un m&aacute;ximo de $599.99.</p>
+        <p><br>3. El descuento del 0.25% sobre la tasa de inter&eacute;s por pago autom&aacute;tico se aplica con la condici&oacute;n de que se designe una cuenta bancaria v&aacute;lida para los pagos mensuales obligatorios. Es posible que las tasas variables aumenten despu&eacute;s de la ejecuci&oacute;n.</p>
+        <p><br>El Programa de refinanciaci&oacute;n de pr&eacute;stamos estudiantiles de SEIU es otorgado por College Ave Student Loans. Los productos de College Ave Student Loans se ofrecen a trav&eacute;s de Firstrust Bank, miembro de FDIC o M.Y., Safra Bank o FSB, miembro de FDIC. Todos los pr&eacute;stamos est&aacute;n sujetos a la aprobaci&oacute;n de cada persona y al cumplimiento de las pautas del asegurador. Se pueden aplicar restricciones del programa y otros t&eacute;rminos y condiciones.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        &iquest;Preguntas? Lea nuestras <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">preguntas frecuentes</a>&nbsp;o llame al 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Refinanciaci&oacute;n De Pr&eacute;stamos Estudiantiles De SEIU
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Reduce potencialmente la tasa de inter&eacute;s o el pago mensual de los pr&eacute;stamos estudiantiles privados.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Un beneficio especial para miembros equivalente al 0.50% del monto del pr&eacute;stamo y que se acredita al prestatario en su estado de cuenta: hasta $599.99.
+            <sup>2</sup></p>
+            </li>
+            <li>
+            <p>La solicitud del pr&eacute;stamo te tomar&aacute; tan solo tres minutos.</p>
+            </li>
+            <li>
+            <p>Sin comisiones de apertura, costos de solicitud ni penalidades por pago anticipado.</p>
+            </li>
+            <li>
+            <p>Ahorra con tasas fijas o variables favorables.</p>
+            </li>
+            <li>
+            <p>Inscr&iacute;bete en la opci&oacute;n de pago autom&aacute;tico y ahorra a&uacute;n m&aacute;s.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Si consolidas tus pagos del pr&eacute;stamo estudiantil privado, puedes ahorrar tiempo, energ&iacute;a y dinero.</p>
+        <p>Con este beneficio de refinanciaci&oacute;n del pr&eacute;stamo estudiantil privado, obtienes un nuevo pr&eacute;stamo para cancelar tus pr&eacute;stamos estudiantiles privados actuales y simplificas tus pr&eacute;stamos en uno solo
+        y en un solo pago mensual. Por lo general, el nuevo pr&eacute;stamo tiene una tasa de inter&eacute;s m&aacute;s baja o plazos de pago diferentes. Esto te ayuda a reducir el costo total o el pago mensual (o quiz&aacute;s ambos).
+        Con el tiempo, la refinanciaci&oacute;n podr&iacute;a ahorrarte un monto significativo de dinero en intereses a lo largo de la duraci&oacute;n de los pr&eacute;stamos.</p>
+        <p>&iexcl;Toma ahora el siguiente paso y cancela la deuda de tu pr&eacute;stamo estudiantil!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" querystring="" target="" text="Aprende más" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information" linktype="internal" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6ABEDCFB-74C4-4CEE-8547-21E9735965FB}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Toma El Control De La Deuda De Tu Préstamo Estudiantil Privado Con Estu Beneficio Exclusivo Para Miembros De SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=es-ES&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37E9CC96-94BD-4106-893C-E27095128422}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200506T151705Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los pr&eacute;stamos de College Ave Refi Education actualmente no est&aacute;n disponibles para los residentes de Maine.</p>
+        <p><br>2. El monto equivalente al 0.50% del saldo inicial del pr&eacute;stamo se acreditar&aacute; en el estado de cuenta de los prestatarios en el plazo de 60 d&iacute;as a partir del cierre del pr&eacute;stamo. Por ejemplo, si el pr&eacute;stamo consolidado equivale a $20,000, el beneficio del miembro es igual a $100, con un m&aacute;ximo de $599.99.</p>
+        <p><br>3. El descuento del 0.25% sobre la tasa de inter&eacute;s por pago autom&aacute;tico se aplica con la condici&oacute;n de que se designe una cuenta bancaria v&aacute;lida para los pagos mensuales obligatorios. Es posible que las tasas variables aumenten despu&eacute;s de la ejecuci&oacute;n.</p>
+        <p><br>El Programa de refinanciaci&oacute;n de pr&eacute;stamos estudiantiles de SEIU es otorgado por College Ave Student Loans. Los productos de College Ave Student Loans se ofrecen a trav&eacute;s de Firstrust Bank, miembro de FDIC o M.Y., Safra Bank o FSB, miembro de FDIC. Todos los pr&eacute;stamos est&aacute;n sujetos a la aprobaci&oacute;n de cada persona y al cumplimiento de las pautas del asegurador. Se pueden aplicar restricciones del programa y otros t&eacute;rminos y condiciones.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        &iquest;Preguntas? Lea nuestras <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">preguntas frecuentes</a>&nbsp;o llame al 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Refinanciaci&oacute;n De Pr&eacute;stamos Estudiantiles De SEIU
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Reduce potencialmente la tasa de inter&eacute;s o el pago mensual de los pr&eacute;stamos estudiantiles privados.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Un beneficio especial para miembros equivalente al 0.50% del monto del pr&eacute;stamo y que se acredita al prestatario en su estado de cuenta: hasta $599.99.
+            <sup>2</sup></p>
+            </li>
+            <li>
+            <p>La solicitud del pr&eacute;stamo te tomar&aacute; tan solo tres minutos.</p>
+            </li>
+            <li>
+            <p>Sin comisiones de apertura, costos de solicitud ni penalidades por pago anticipado.</p>
+            </li>
+            <li>
+            <p>Ahorra con tasas fijas o variables favorables.</p>
+            </li>
+            <li>
+            <p>Inscr&iacute;bete en la opci&oacute;n de pago autom&aacute;tico y ahorra a&uacute;n m&aacute;s.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Si consolidas tus pagos del pr&eacute;stamo estudiantil privado, puedes ahorrar tiempo, energ&iacute;a y dinero.</p>
+        <p>Con este beneficio de refinanciaci&oacute;n del pr&eacute;stamo estudiantil privado, obtienes un nuevo pr&eacute;stamo para cancelar tus pr&eacute;stamos estudiantiles privados actuales y simplificas tus pr&eacute;stamos en uno solo
+        y en un solo pago mensual. Por lo general, el nuevo pr&eacute;stamo tiene una tasa de inter&eacute;s m&aacute;s baja o plazos de pago diferentes. Esto te ayuda a reducir el costo total o el pago mensual (o quiz&aacute;s ambos).
+        Con el tiempo, la refinanciaci&oacute;n podr&iacute;a ahorrarte un monto significativo de dinero en intereses a lo largo de la duraci&oacute;n de los pr&eacute;stamos.</p>
+        <p>&iexcl;Toma ahora el siguiente paso y cancela la deuda de tu pr&eacute;stamo estudiantil!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" querystring="" target="" text="Aprende más" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information" linktype="internal" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200506T151705Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Toma El Control De La Deuda De Tu Préstamo Estudiantil Privado Con Estu Beneficio Exclusivo Para Miembros De SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=es-ES&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37E9CC96-94BD-4106-893C-E27095128422}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200611T182904Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los pr&eacute;stamos de College Ave Refi Education actualmente no est&aacute;n disponibles para los residentes de Maine.</p>
+        <p><br>2. El monto equivalente al 0.50% del saldo inicial del pr&eacute;stamo se acreditar&aacute; en el estado de cuenta de los prestatarios en el plazo de 60 d&iacute;as a partir del cierre del pr&eacute;stamo. Por ejemplo, si el pr&eacute;stamo consolidado equivale a $20,000, el beneficio del miembro es igual a $100, con un m&aacute;ximo de $599.99.</p>
+        <p><br>3. El descuento del 0.25% sobre la tasa de inter&eacute;s por pago autom&aacute;tico se aplica con la condici&oacute;n de que se designe una cuenta bancaria v&aacute;lida para los pagos mensuales obligatorios. Es posible que las tasas variables aumenten despu&eacute;s de la ejecuci&oacute;n.</p>
+        <p><br>El Programa de refinanciaci&oacute;n de pr&eacute;stamos estudiantiles de SEIU es otorgado por College Ave Student Loans. Los productos de College Ave Student Loans se ofrecen a trav&eacute;s de Firstrust Bank, miembro de FDIC o M.Y., Safra Bank o FSB, miembro de FDIC. Todos los pr&eacute;stamos est&aacute;n sujetos a la aprobaci&oacute;n de cada persona y al cumplimiento de las pautas del asegurador. Se pueden aplicar restricciones del programa y otros t&eacute;rminos y condiciones.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        &iquest;Preguntas? Lea nuestras <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">preguntas frecuentes</a>&nbsp;o llame al 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Refinanciaci&oacute;n De Pr&eacute;stamos Estudiantiles De SEIU
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Reduce potencialmente la tasa de inter&eacute;s o el pago mensual de los pr&eacute;stamos estudiantiles privados.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Un beneficio especial para miembros equivalente al 0.50% del monto del pr&eacute;stamo y que se acredita al prestatario en su estado de cuenta: hasta $599.99.
+            <sup>2</sup></p>
+            </li>
+            <li>
+            <p>La solicitud del pr&eacute;stamo te tomar&aacute; tan solo tres minutos.</p>
+            </li>
+            <li>
+            <p>Sin comisiones de apertura, costos de solicitud ni penalidades por pago anticipado.</p>
+            </li>
+            <li>
+            <p>Ahorra con tasas fijas o variables favorables.</p>
+            </li>
+            <li>
+            <p>Inscr&iacute;bete en la opci&oacute;n de pago autom&aacute;tico y ahorra a&uacute;n m&aacute;s.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Si consolidas tus pagos del pr&eacute;stamo estudiantil privado, puedes ahorrar tiempo, energ&iacute;a y dinero.</p>
+        <p>Con este beneficio de refinanciaci&oacute;n del pr&eacute;stamo estudiantil privado, obtienes un nuevo pr&eacute;stamo para cancelar tus pr&eacute;stamos estudiantiles privados actuales y simplificas tus pr&eacute;stamos en uno solo
+        y en un solo pago mensual. Por lo general, el nuevo pr&eacute;stamo tiene una tasa de inter&eacute;s m&aacute;s baja o plazos de pago diferentes. Esto te ayuda a reducir el costo total o el pago mensual (o quiz&aacute;s ambos).
+        Con el tiempo, la refinanciaci&oacute;n podr&iacute;a ahorrarte un monto significativo de dinero en intereses a lo largo de la duraci&oacute;n de los pr&eacute;stamos.</p>
+        <p>&iexcl;Toma ahora el siguiente paso y cancela la deuda de tu pr&eacute;stamo estudiantil!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link id="{F72F1901-BDDE-45BE-8D9B-66A57E0979B3}" querystring="" target="" text="Aprende más" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information" linktype="internal" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200611T182904Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Toma El Control De La Deuda De Tu Préstamo Estudiantil Privado Con Estu Beneficio Exclusivo Para Miembros De SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=es-ES&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37E9CC96-94BD-4106-893C-E27095128422}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200827T195650Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los pr&eacute;stamos de College Ave Refi Education actualmente no est&aacute;n disponibles para los residentes de Maine.</p>
+        <p><br>2. El monto equivalente al 0.50% del saldo inicial del pr&eacute;stamo se acreditar&aacute; en el estado de cuenta de los prestatarios en el plazo de 60 d&iacute;as a partir del cierre del pr&eacute;stamo. Por ejemplo, si el pr&eacute;stamo consolidado equivale a $20,000, el beneficio del miembro es igual a $100, con un m&aacute;ximo de $599.99.</p>
+        <p><br>3. El descuento del 0.25% sobre la tasa de inter&eacute;s por pago autom&aacute;tico se aplica con la condici&oacute;n de que se designe una cuenta bancaria v&aacute;lida para los pagos mensuales obligatorios. Es posible que las tasas variables aumenten despu&eacute;s de la ejecuci&oacute;n.</p>
+        <p><br>El Programa de refinanciaci&oacute;n de pr&eacute;stamos estudiantiles de SEIU es otorgado por College Ave Student Loans. Los productos de College Ave Student Loans se ofrecen a trav&eacute;s de Firstrust Bank, miembro de FDIC o M.Y., Safra Bank o FSB, miembro de FDIC. Todos los pr&eacute;stamos est&aacute;n sujetos a la aprobaci&oacute;n de cada persona y al cumplimiento de las pautas del asegurador. Se pueden aplicar restricciones del programa y otros t&eacute;rminos y condiciones.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        &iquest;Preguntas? Lea nuestras <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">preguntas frecuentes</a>&nbsp;o llame al 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Refinanciaci&oacute;n De Pr&eacute;stamos Estudiantiles De SEIU
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Reduce potencialmente la tasa de inter&eacute;s o el pago mensual de los pr&eacute;stamos estudiantiles privados.<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Un beneficio especial para miembros equivalente al 0.50% del monto del pr&eacute;stamo y que se acredita al prestatario en su estado de cuenta: hasta $599.99.
+            <sup>2</sup></p>
+            </li>
+            <li>
+            <p>La solicitud del pr&eacute;stamo te tomar&aacute; tan solo tres minutos.</p>
+            </li>
+            <li>
+            <p>Sin comisiones de apertura, costos de solicitud ni penalidades por pago anticipado.</p>
+            </li>
+            <li>
+            <p>Ahorra con tasas fijas o variables favorables.</p>
+            </li>
+            <li>
+            <p>Inscr&iacute;bete en la opci&oacute;n de pago autom&aacute;tico y ahorra a&uacute;n m&aacute;s.<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Si consolidas tus pagos del pr&eacute;stamo estudiantil privado, puedes ahorrar tiempo, energ&iacute;a y dinero.</p>
+        <p>Con este beneficio de refinanciaci&oacute;n del pr&eacute;stamo estudiantil privado, obtienes un nuevo pr&eacute;stamo para cancelar tus pr&eacute;stamos estudiantiles privados actuales y simplificas tus pr&eacute;stamos en uno solo
+        y en un solo pago mensual. Por lo general, el nuevo pr&eacute;stamo tiene una tasa de inter&eacute;s m&aacute;s baja o plazos de pago diferentes. Esto te ayuda a reducir el costo total o el pago mensual (o quiz&aacute;s ambos).
+        Con el tiempo, la refinanciaci&oacute;n podr&iacute;a ahorrarte un monto significativo de dinero en intereses a lo largo de la duraci&oacute;n de los pr&eacute;stamos.</p>
+        <p>&iexcl;Toma ahora el siguiente paso y cancela la deuda de tu pr&eacute;stamo estudiantil!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Aprende más" linktype="external" url="http://www.seiumb.com/Education/SEIU Student Loan Refinance Program Information" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200827T195650Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+  - Version: 5
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Toma El Control De La Deuda De Tu Préstamo Estudiantil Privado Con Estu Beneficio Exclusivo Para Miembros De SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "1b86697d-60ca-4d80-83fb-7555a2e6ce1c"
+      Hint: __Source
+      Value: "sitecore://master/{A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}?lang=es-ES&ver=2"
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37E9CC96-94BD-4106-893C-E27095128422}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201222T151643Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. El monto equivalente al 0.50% del saldo inicial del pr&eacute;stamo se acreditar&aacute; en el estado de cuenta de los prestatarios en el plazo de 60 d&iacute;as a partir del cierre del pr&eacute;stamo. Por ejemplo, si el pr&eacute;stamo consolidado equivale a $20,000, el beneficio del miembro es igual a $100, con un m&aacute;ximo de $599.99.</p>
+        <p >2. El descuento del 0.25% sobre la tasa de inter&eacute;s por pago autom&aacute;tico se aplica con la condici&oacute;n de que se designe una cuenta bancaria v&aacute;lida para los pagos mensuales obligatorios. Es posible que las tasas variables aumenten despu&eacute;s de la ejecuci&oacute;n.</p>
+        <p >El Programa de refinanciaci&oacute;n de pr&eacute;stamos estudiantiles de SEIU es otorgado por College Ave Student Loans. Los productos de College Ave Student Loans se ofrecen a trav&eacute;s de Firstrust Bank, miembro de FDIC o M.Y., Safra Bank o FSB, miembro de FDIC. Todos los pr&eacute;stamos est&aacute;n sujetos a la aprobaci&oacute;n de cada persona y al cumplimiento de las pautas del asegurador. Se pueden aplicar restricciones del programa y otros t&eacute;rminos y condiciones.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        &iquest;Preguntas? Lea nuestras <a href="~/link.aspx?_id=3F273775C1F24FDE988D0401ADA4C11E&amp;_z=z">preguntas frecuentes</a>&nbsp;o llame al 1-833-360-1551
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Refinanciaci&oacute;n De Pr&eacute;stamos Estudiantiles De SEIU
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Reduce potencialmente la tasa de inter&eacute;s o el pago mensual de los pr&eacute;stamos estudiantiles privados.</p>
+            </li>
+            <li>
+            <p>Un beneficio especial para miembros equivalente al 0.50% del monto del pr&eacute;stamo y que se acredita al prestatario en su estado de cuenta: hasta $599.99.
+            <sup>1</sup></p>
+            </li>
+            <li>
+            <p>La solicitud del pr&eacute;stamo te tomar&aacute; tan solo tres minutos.</p>
+            </li>
+            <li>
+            <p>Sin comisiones de apertura, costos de solicitud ni penalidades por pago anticipado.</p>
+            </li>
+            <li>
+            <p>Ahorra con tasas fijas o variables favorables.</p>
+            </li>
+            <li>
+            <p>Inscr&iacute;bete en la opci&oacute;n de pago autom&aacute;tico y ahorra a&uacute;n m&aacute;s.<sup>2</sup></p>
+            </li>
+        </ul>
+        <p>Si consolidas tus pagos del pr&eacute;stamo estudiantil privado, puedes ahorrar tiempo, energ&iacute;a y dinero.</p>
+        <p>Con este beneficio de refinanciaci&oacute;n del pr&eacute;stamo estudiantil privado, obtienes un nuevo pr&eacute;stamo para cancelar tus pr&eacute;stamos estudiantiles privados actuales y simplificas tus pr&eacute;stamos en uno solo
+        y en un solo pago mensual. Por lo general, el nuevo pr&eacute;stamo tiene una tasa de inter&eacute;s m&aacute;s baja o plazos de pago diferentes. Esto te ayuda a reducir el costo total o el pago mensual (o quiz&aacute;s ambos).
+        Con el tiempo, la refinanciaci&oacute;n podr&iacute;a ahorrarte un monto significativo de dinero en intereses a lo largo de la duraci&oacute;n de los pr&eacute;stamos.</p>
+        <p>&iexcl;Toma ahora el siguiente paso y cancela la deuda de tu pr&eacute;stamo estudiantil!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{F67F3CE1-79AD-4131-8BA4-A2CED11E489D}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Aprende más" linktype="external" url="http://www.seiumb.com/Education/SEIU Student Loan Refinance Program Information" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Toma el control de La deuda de tu pr&eacute;stamo estudiantil privado con estu beneficio exclusivo para miembros de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201222T151643Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa De Refinanciación De Préstamos Estudiantiles De SEIU

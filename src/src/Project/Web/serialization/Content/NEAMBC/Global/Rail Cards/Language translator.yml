@@ -1,0 +1,241 @@
+﻿---
+ID: "2549540c-b9d2-4a69-b885-4d5ec0a40fbc"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Language translator
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T180515Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: 
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: 1800Baskets.com
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBC903FA-7B4D-42CE-A0ED-5B460444ADFA}" alt="Basket of goodies from 1800flowers" height="" width="" hspace="" vspace=""></image>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T194451Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Use the dropdown menu below to translate SEIUMB.com into the language of your choice.</p>
+        <div style="text-align: center;">
+        <!-- Start Google Translate Drop Down -->
+        <div id="google_translate_element" onclick="ga_event('small module','click','languagetranslator &gt; Selectlanguage');">
+        <!-- End Google Translate Drop Down -->
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        <script>
+        window.onload = function() {
+          ga_event('small module','view','languagetranslator');
+        };
+        </script>
+        </div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: LANGUAGE TRANSLATOR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201028T194451Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5CCC3EF-0E09-4B3F-8972-BC306CEA8628}" alt="Basket of goodies from 1800flowers" height="" width="" hspace="" vspace=""></image>
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T195218Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Use the dropdown menu below to translate SEIUMB.com into the language of your choice.</p>
+        <div style="text-align: center;">
+        <!-- Start Google Translate Drop Down -->
+        <div id="google_translate_element" onclick="ga_event('small module','click','languagetranslator &gt; Selectlanguage');">
+        <!-- End Google Translate Drop Down -->
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        <script>
+        window.onload = function() {
+          ga_event('small module','view','languagetranslator');
+        };
+        </script>
+        </div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: LANGUAGE TRANSLATOR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201028T195218Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5CCC3EF-0E09-4B3F-8972-BC306CEA8628}" alt="Basket of goodies from 1800flowers" height="" width="" hspace="" vspace=""></image>
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T195712Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Use the dropdown menu below to translate SEIUMB.com into the language of your choice.</p>
+        <div style="text-align: center;">
+        <!-- Start Google Translate Drop Down -->
+        <div id="google_translate_element" onclick="ga_event('small module','click','languagetranslator &gt; Selectlanguage');">
+        <!-- End Google Translate Drop Down -->
+        <div class="skiptranslate goog-te-gadget" dir="ltr">
+        <div id=":0.targetLanguage" class="goog-te-gadget-simple" style="white-space: nowrap;"><img alt="" src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" style="background-image: url('https://translate.googleapis.com/translate_static/img/te_ctrl3.gif'); background-position: -65px 0px;" /><span style="vertical-align: middle;"><a aria-haspopup="true" class="goog-te-menu-value" href="javascript:void(0)"><span>Seleccionar idioma</span><img alt="" src="https://www.google.com/images/cleardot.gif" width="1" height="1" /><span style="border-left: 1px solid #bbbbbb;"></span><img alt="" src="https://www.google.com/images/cleardot.gif" width="1" height="1" /><span aria-hidden="true" style="color: #767676;">▼</span></a></span></div>
+        </div>
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        <script>
+        window.onload = function() {
+          ga_event('small module','view','languagetranslator');
+        };
+        </script>
+        </div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: LANGUAGE TRANSLATOR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201028T195712Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5CCC3EF-0E09-4B3F-8972-BC306CEA8628}" alt="Basket of goodies from 1800flowers" height="" width="" hspace="" vspace=""></image>
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201030T192126Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Use the dropdown menu below to translate SEIUMB.com into the language of your choice.</p>
+        <div style="text-align: center;">
+        <!-- Start Google Translate Drop Down -->
+        <div id="google_translate_element" onclick="ga_event('small module','click','languagetranslator &gt; Selectlanguage');">
+        <!-- End Google Translate Drop Down -->
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        <script>
+        window.onload = function() {
+          ga_event('small module','view','languagetranslator');
+        };
+        </script>
+        </div>
+        
+        <style>
+        #google_translate_element img{
+        margin-top:0 !important;
+        width: auto !important;
+        display:inline-block !important;
+        
+        }
+        </style>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: LANGUAGE TRANSLATOR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201030T192126Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5CCC3EF-0E09-4B3F-8972-BC306CEA8628}" alt="Basket of goodies from 1800flowers" height="" width="" hspace="" vspace=""></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T180139Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: 
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: 1800Baskets.com
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{CBC903FA-7B4D-42CE-A0ED-5B460444ADFA}" alt="Canasta de golosinas de 1800flowers" height="" width="" hspace="" vspace=""></image>

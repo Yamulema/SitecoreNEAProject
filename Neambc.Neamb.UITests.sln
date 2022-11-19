@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neambc.Neamb.Project.Web.UITest", "src\UITests\Neambc.Neamb.Project.Web.UITest\Neambc.Neamb.Project.Web.UITest.csproj", "{7A7C8977-C470-4667-A514-2877FAA861CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neambc.Seiumb.UITests", "src\UITests\Neambc.Seiumb.UITests\Neambc.Seiumb.UITests.csproj", "{E6C165F7-3B21-4185-8D68-ACCCF15AF9DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A7C8977-C470-4667-A514-2877FAA861CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7C8977-C470-4667-A514-2877FAA861CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7C8977-C470-4667-A514-2877FAA861CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7C8977-C470-4667-A514-2877FAA861CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C165F7-3B21-4185-8D68-ACCCF15AF9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C165F7-3B21-4185-8D68-ACCCF15AF9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C165F7-3B21-4185-8D68-ACCCF15AF9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C165F7-3B21-4185-8D68-ACCCF15AF9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C123575-FB0F-4A13-BF9B-DDE3BACF2128}
+	EndGlobalSection
+EndGlobal

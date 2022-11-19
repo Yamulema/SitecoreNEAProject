@@ -1,0 +1,351 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Feature.Account.Enums
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Account.Models.AccountDTO
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+    var checkboxStatus = "checked";
+    var emailValue = Model.Email;
+    var inputValidClass = "valid"; //used to set a valid input when input is filled with hot user
+    if (Model.HasErrorInvalidCredentials && !Model.IsRememberMe)
+    {
+        checkboxStatus = "";
+        emailValue = "";
+        inputValidClass = "";
+    }
+}
+
+@if (!string.IsNullOrEmpty(Model.GtmLoginFailed) && Model.IsPost) {
+<script type="text/javascript">
+    $(function () {
+        @Html.Raw(Model.GtmLoginFailed)
+    })
+</script>
+    }
+<section class="new-design form login col-centered">
+    <div class="col-xs-12">
+        <form id="login" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+            @if (Model.LoginAjaxProcess == LoginAjaxEnum.None)
+            {
+                <text>
+                    @Html.AntiForgeryToken()
+                </text>
+            }
+            <div class="step-header">
+                <h5>@Html.Sitecore().Field(Templates.Login.Fields.Headline, Model.Item)</h5>
+                <p>
+                    @Html.Sitecore().Field(Templates.Login.Fields.SubHeadline, Model.Item)
+                </p>
+                <span>@Html.Sitecore().Field(Templates.Login.Fields.NeedAccount, Model.Item)</span>
+
+                @if (Model.Status == StatusEnum.WarmHot || Model.Status == StatusEnum.Hot)
+                {
+                    <a class="form-link" style="cursor:pointer;" onclick="logout('@Model.RegistrationUrl')">@Model.RegistrationText</a>
+                }
+                else
+                {
+                    <a class="form-link" href="@Model.RegistrationUrl">@Model.RegistrationText</a>
+                }
+            </div>
+            <div class="form-section">
+                <div class="floating-section m-t-lg" data-group="email">
+                    <div class="floating-group">
+                        @if (isExperienceEditor)
+                        {
+                            <input id="email" name="email" type="email" placeholder="Email address" required="required" />
+                        }
+                        else
+                        {
+                            <input id="email" name="email" type="email" placeholder="@Html.Sitecore().Field(Templates.Login.Fields.Email, Model.Item)"
+                                   required="required" value="@emailValue" class="@inputValidClass"
+                                   data-msg-required="@Html.Sitecore().Field(Templates.Login.Fields.EmptyLogin, Model.Item, new { DisableWebEdit = true })"
+                                   data-msg-email="@Html.Sitecore().Field(Templates.Login.Fields.InvalidEmail, Model.Item, new { DisableWebEdit = true })" />
+                        }
+                        <label for="email">@Html.Sitecore().Field(Templates.Login.Fields.Email, Model.Item)</label>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages" id="errorusernameserver">
+                            @if (Model.HasErrorUserName)
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.Login.Fields.EmptyLogin, Model.Item)
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-section" data-group="password">
+                    <div class="floating-group">
+                        @if (isExperienceEditor)
+                        {
+                            <input id="password" name="password" type="password" placeholder="Create password" required="required" />
+                        }
+                        else
+                        {
+                            <input id="password" name="password" type="password" required="required"
+                                   placeholder="@Html.Sitecore().Field(Templates.Login.Fields.Password, Model.Item)"
+                                   data-msg-required="@Html.Sitecore().Field(Templates.Login.Fields.EmptyPassword, Model.Item, new { DisableWebEdit = true })" />
+                        }
+                        <label for="password">@Html.Sitecore().Field(Templates.Login.Fields.Password, Model.Item)</label>
+                        <div class="eye-wrapper showPassword">
+                            <span class="eye-icon"></span>
+                        </div>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages" id="errorpasswordserver">
+                            @if (Model.HasErrorPassword)
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.Login.Fields.EmptyPassword, Model.Item)
+                                </div>
+                            }
+                        </div>
+                        @if (!string.IsNullOrEmpty((Html.Sitecore().Field(Templates.Login.Fields.Tooltip, Model.Item)).ToString()))
+                        {
+                            <div class="floating-info-messages">
+                                @Html.Sitecore().Field(Templates.Login.Fields.Tooltip, Model.Item, new { DisableWebEdit = true })
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="floating-section">
+                    <div class="floating-group action-links">
+                        @Html.Sitecore().Field(Templates.Login.Fields.ForgotPassword, Model.Item, new { @class = "form-link" })
+                        @Html.Sitecore().Field(Templates.Login.Fields.ForgotEmail, Model.Item, new { @class = "form-link" })
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages" id="errorgeneralserver">
+                            @if (Model.HasErrorInvalidCredentials)
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.Login.Fields.InvalidCredentials, Model.Item)
+                                </div>
+                            }
+                            else if (Model.HasAlreadyLockedErrorTokenValid)
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.Login.Fields.AccountAlreadyLockedTokenValid, Model.Item)
+                                </div>
+
+                            }
+                            else if (Model.HasErrorTimeout)
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.Login.Fields.TimeOut, Model.Item)
+                                </div>
+                            }
+                            else if (Model.HasLockedError)
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.Login.Fields.AccountLocked, Model.Item)
+                                </div>
+                            }
+                            @if (Model.IsAlreadyRegistered)
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.Login.Fields.AlreadyRegistered, Model.Item)
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-section">
+                <label class="custom-checkbox blue">
+                    <input id="ckbrememberme" name="ckbrememberme" type="checkbox" @checkboxStatus /><span class="checkmark"></span>
+                    <span class="check-text">@Html.Sitecore().Field(Templates.Login.Fields.RememberMe, Model.Item)</span>
+                </label>
+                @if (Model.LoginAjaxProcess == LoginAjaxEnum.None)
+                {
+                    if (isExperienceEditor)
+                    {
+                        <button id="submitLogin" type="submit" class="btn btn-new btn-outline-default m-t-md">
+                            @Html.Sitecore().Field(Templates.Login.Fields.LoginButton, Model.Item)
+                        </button>
+                    }
+                    else
+                    {
+                        <button id="submitLogin" type="submit" class="btn btn-new btn-outline-default m-t-md">
+                            @Model.LoginText<i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                        </button>
+                    }
+                }
+                else
+                {
+                    <a id="submitLogin" class="btn btn-new btn-outline-default m-t-sm"
+                       target="@Model.CtaActionTargetBlank" href="@Model.CtaAction">
+                        @Html.Sitecore().Field(Templates.Login.Fields.LoginButton, Model.Item)
+                    </a>
+                }
+                <input type="hidden" name="fhController" value="AuthenticationAccountController" data-abide-ignore />
+                <input type="hidden" name="fhAction" value="SignIn" data-abide-ignore />
+            </div>
+        </form>
+    </div>
+</section>
+
+<script>
+	function downloadpdf
+        (materialId, productcode, actionType, checkOmni) {
+			$("#materialIdMultirow").val(materialId);
+			$("#productcodepdfMultirow").val(productcode);
+        $("#checkOmniPdf").val(checkOmni);
+			$("#downloadPdfFormMultirow").prop("target", '@Model.CtaActionTargetBlank');
+			$("#actionTypedPdfFormMultirow").val(actionType);
+			$("#downloadPdfFormMultirow").submit();
+		}
+
+    function executesinglesignon(productcode, componenttype, checkOmni) {
+		$("#productCodeMultirow").val(productcode);
+		$("#componentTypeSso").val(componenttype);
+        $("#checkOmniSso").val(checkOmni);
+		$("#actionSingleSignOnFormMultirow").prop("target", '@Model.CtaActionTargetBlank');
+		$("#actionSingleSignOnFormMultirow").submit();
+	}
+
+	function executedatapass(productCode, componenttype,checkOmni) {
+		$("#productCodeDataPassMultirow").val(productCode);
+		$("#componentTypeDataPass").val(componenttype);
+        $("#checkOmniDataPass").val(checkOmni);
+		$("#actionDatapassFormMultirow").prop("target", '@Model.CtaActionTargetBlank');
+		$("#firstSecondAction").val('@Model.CtaFirstSecondAction');
+        $("#actionDatapassFormMultirow").submit();
+    }
+
+    function executelinkOmni(contextidLink, productcode, eligibilityItemId) {
+        $("#contextidLinkOmni").val(contextidLink);
+        $("#productCodeLinkOmni").val(productcode);
+        $("#eligibilityItemIdLinkOmni").val(eligibilityItemId);
+        $("#actionLinkFormOmni").prop("target", '@Model.CtaActionTargetBlank');
+        $("#actionLinkFormOmni").submit();
+    }
+
+    function downloadpdfguide(materialId) {
+        $("#materialIdCta").val(materialId);
+        $("#downloadPdfFormCta").prop("target", '@Model.CtaActionTargetBlank');
+		$("#downloadPdfFormCta").submit();
+    }
+
+    function executelink(ctaLinkItemId, contextidLink, productcode, eligibilityItemId, checkOmni, postParams) {
+        var contextIdNew = contextidLink.replace("{", "").replace("}", "");
+        if (postParams != null) {
+            for (var key in postParams) {
+                if ($("#pp__" + contextIdNew + "_" + key).val() == undefined) {
+                    var field = '<input type="hidden" name="pp__' + contextIdNew + "_" + key + '" id="pp__' + contextIdNew + "_" + key + '" value="' + postParams[key] + '" />';
+                    $("#actionLinkFormMultirow").append(field);
+                } else {
+                    $("#pp__" + contextIdNew + "_" + key).val(postParams[key]);
+                }
+            }
+        }
+
+        $("#ctaLinkItemIdMultirow").val(ctaLinkItemId);
+        $("#contextidLinkMultirow").val(contextidLink);
+        $("#productCodeLinkMultirow").val(productcode);
+        $("#eligibilityItemIdMultirow").val(eligibilityItemId);
+        $("#checkOmniLinkMultirow").val(checkOmni);
+        $("#actionLinkFormMultirow").prop("target", '@Model.CtaActionTargetBlank');
+        $("#actionLinkFormMultirow").submit();
+    }
+
+    function notifyproductavailablewarm(reminderId, contextItemId, eligibilityItemId) {
+		var url = '/api/ProductRoute/NotifyProductAvailableWarm';
+		$.ajax({
+			type: 'POST',
+			url: url,
+            data: { reminderId: reminderId, contextItemIdInReminder: contextItemId, eligibilityItemIdInReminder: eligibilityItemId },
+			dataType: 'json'
+		});
+    }
+
+	function executeloginajax() {
+		var result = false;
+		var url = '/api/AuthenticationAccount/SignInAjax';
+		var username = $('#email').val();
+		var password = $('#password').val();
+        var contextitemid = $("#itemcontextid").val();
+		$.ajax({
+			type: 'POST',
+			url: url,
+			async: false,
+			data: {
+				Email: username,
+				Password: password,
+                ContextItemId: contextitemid,
+                LoginAjaxProcess: '@Model.LoginAjaxProcess',
+                StoreId: '@Model.StoreId',
+                ckbrememberme: $('#ckbrememberme').val(),
+                productCode:'@Model.ProductCode',
+                hasCheckEligibility: '@Model.HasCheckEligibility'
+            },
+            dataType: 'json',
+            beforeSend: function (xhr) {
+                @Html.Raw(Model.GtmLoadAction)
+            },
+			error: function(data) {
+                @Html.Raw(Model.GtmLoginFailed)
+			},
+            success: function(data) {
+                if (data.result === "ok") {
+                    @Html.Raw(Model.GtmAction)
+                    @Html.Raw(Model.CtaActionClick)
+                    openUrl(data.url);
+                } else if (data.result === "error") {
+                    @Html.Raw(Model.GtmLoginFailed)
+                    $("#errorusernameserver").empty();
+                    $("#errorpasswordserver").empty();
+                    $("#errorgeneralserver").empty();
+                    if (data.errorsusername) {
+                        $("#errorusernameserver").append("<div class='server-error'>" + data.errorsusername + "</div>");
+                    }
+                    if (data.errorpassword) {
+                        $("#errorpasswordserver").append("<div class='server-error'>" + data.errorpassword + "</div>");
+                    }
+                    if (data.errorsfromservice && data.errorsfromservice.length) {
+                        for (var i = 0; i < data.errorsfromservice.length; i++) {
+                            var valuemsg = data.errorsfromservice[i];
+                            $("#errorgeneralserver").append("<div class='server-error'>" + valuemsg + "</div>");
+                        }
+                    }
+                } else if (data.result === "duplicated" || data.result === "errorlogin") {
+                    window.location.href = data.url;
+                } else if (data.result === "errorRakutenMember" && "@Model.LoginAjaxProcess" === "RakutenStore") {
+                    operationprocedureactioncta('@Model.ProductCode');
+                    data.url += hasQuestionMark(data.url) ? '&' : '?';
+                    data.url += 'result=1';
+                    if (!data.url.includes('store')) data.url += '&store=@Html.Raw(Model.StoreId)';
+                    window.location.href = data.url;
+                }
+                else if (data.result === "errorRakutenMember" && "@Model.LoginAjaxProcess" === "RakutenNoVendor") {
+                    operationprocedureactioncta('@Model.ProductCode');
+                    data.url += hasQuestionMark(data.url) ? '&' : '?';
+                    window.location.href = data.url+'result=3';
+                }
+                else if (data.result === "errorRakutenEligible") {
+                    operationprocedureactioncta('@Model.ProductCode');
+                    data.url += hasQuestionMark(data.url) ? '&' : '?';
+                    window.location.href = data.url + 'result=2';
+                }
+			}
+		});
+		return result;
+	}
+
+	function openUrl(url) {
+        if ("@Html.Raw(Model.CtaActionTargetBlank)" == "_blank" || "@Model.LoginAjaxProcess" == "RakutenStore" || "@Model.LoginAjaxProcess" ==  "RakutenNoVendor" ) {
+			if (!url.length == 0) {
+				setTimeout(function () {
+					window.location.href = url;
+				}, 3000);
+			}
+			else {
+				var urldepured = window.location.protocol + '//' + window.location.host + window.location.pathname;
+				setTimeout(function () {
+					window.location.href = urldepured;
+				}, 3000);
+			}
+		}
+    }
+</script>

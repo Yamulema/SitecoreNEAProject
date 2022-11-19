@@ -1,0 +1,160 @@
+﻿@using Neambc.Neamb.Feature.Account.Enums
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Foundation.Authentication
+@using Neambc.Seiumb.Foundation.Authentication.Enums
+@using Neambc.Seiumb.Foundation.Authentication.Constants;
+
+@model Neambc.Seiumb.Feature.Forms.Models.LoginFormModel
+@{
+    var emailPlaceholder = Model.Item.Fields[Templates.LoginForm.Fields.EmailPlaceholder].Value;
+    var passwordPlaceholder = Model.Item.Fields[Templates.LoginForm.Fields.PasswordPlaceholder].Value;
+}
+<!-- Start the login modal for desktop -->
+<div class="medium reveal" id="loginModal" data-close-on-click="false" data-reveal>
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+            <a id="logoBtn" href="/">
+                <img id="SEIUlogoDark" src="@Model.Item.ImageUrl(Templates.LoginForm.Fields.Logo)" alt="" loading="lazy">
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+            <div>
+                @Html.Sitecore().Placeholder("login-banner")
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <form id="login-form" method="post" data-abide novalidate>
+            <div class="small-12 medium-6 large-6 columns">
+                <div class="row">
+                    <fieldset id="loginForm" class="fieldset">
+                        <h4>@Html.Sitecore().Field(Templates.LoginForm.Fields.Registered_Headline, Model.Item)</h4>
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.Registered_Subheadline, Model.Item)</p>
+                        <label>
+                            @Html.TextBoxFor(x => x.Username, null, new { @id = "login-username", @placeholder = @HttpUtility.HtmlDecode(emailPlaceholder), @required = "true" })
+                        </label>
+                        <label>
+                            @Html.TextBoxFor(x => x.Password, null, new { @id = "login-password", @type = "password", @placeholder = @HttpUtility.HtmlDecode(passwordPlaceholder), @required = "true" })
+                        </label>
+                        <div class="remember_login">
+                            <input id="ckb_remember" name="ckb_remember" type="checkbox" checked onclick="javascript:toggleRememberMe();" />
+                            <label for="checkbox">@Html.Sitecore().Field(Templates.LoginForm.Fields.RememberMe, Model.Item)</label>
+                            @if (Model.LoginAjaxProcess == LoginAjaxEnum.None)
+                            {
+                                <button id="submitLogin" class="button" type="submit" value="Submit" onclick="saveCookie();hideLoginError();">@Html.Sitecore().Field(Templates.LoginForm.Fields.LoginButton, Model.Item)</button>
+                            }
+                            else
+                            {
+                                <a target="_blank" id="submitLogin" class="button" value="Submit" onclick="saveCookie();var login= $('#login-username').val();var password=$('#login-password').val(); return operationloginajax(login,password);">@Html.Sitecore().Field(Templates.LoginForm.Fields.LoginButton, Model.Item)</a>
+                            }
+                        </div>
+                        @{
+                            Sitecore.Data.Fields.LinkField forgotLink = Model.Item.Fields[Templates.LoginForm.Fields.ForgotCredentials];
+                            string forgotLinkLinkUrl = string.Empty;
+                            if (forgotLink != null && forgotLink.TargetItem != null)
+                            {
+                                forgotLinkLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(forgotLink.TargetItem);
+                            }
+                        }
+                        <a href="@forgotLinkLinkUrl"><small>@forgotLink.Text</small></a>
+                    </fieldset>
+
+                </div>
+            </div>
+            <div class="small-12 medium-6 large-6 columns">
+                <div class="row">
+                    <fieldset id="registerForm" class="fieldset">
+                        <h4>@Html.Sitecore().Field(Templates.LoginForm.Fields.NotRegistered_Headline, Model.Item)</h4>
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.NotRegistered_Subheadline, Model.Item)</p>
+                        @{
+                            Sitecore.Data.Fields.LinkField registerLink = Model.Item.Fields[Templates.LoginForm.Fields.RegisterButton];
+                            string registerLinkUrl = string.Empty;
+                            if (registerLink != null && registerLink.TargetItem != null)
+                            {
+                                registerLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(registerLink.TargetItem);
+
+                                if (Model.UserStatus == UserStatusCons.WARM_HOT || Model.UserStatus == UserStatusCons.HOT)
+                                {
+                                    registerLinkUrl = registerLinkUrl + "?logout=true";
+                                }
+                            }
+                        }
+                        <a class="button" href="@registerLinkUrl">@registerLink.Text</a>
+                    </fieldset>
+                </div>
+                <div class="row">
+                    <div data-abide-error class="callout alert" style="display: none;">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.EmptyField, Model.Item)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    @if (Model.Errors != null && Model.Errors.Count > 0)
+                    {
+                        if (Model.Errors.Contains(LoginErrors.INVALID_USERNAME_PASSWORD) || Model.Errors.Contains(LoginErrors.USERNAME_DOES_NOT_EXIST) || Model.Errors.Contains(LoginErrors.INVALID_DATA))
+                        {
+                            <div id="login-error" class="callout alert">
+                                <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.InvalidCredentials, Model.Item)</p>
+                            </div>
+                        }
+                        else if (Model.Errors.Contains(LoginErrors.ACCOUNT_LOCKED_SENT_MAIL))
+                        {
+                            <div id="login-error" class="callout alert">
+                                <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.AccountLocked, Model.Item)</p>
+                            </div>
+                        }
+                        else if (Model.Errors.Contains(LoginErrors.ACCOUNT_LOCKED_NOT_SENT_MAIL))
+                        {
+                            <div id="login-error" class="callout alert">
+                                <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.AccountAlreadyLocked, Model.Item)</p>
+                            </div>
+                        }
+                        else if (Model.Errors.Contains(LoginErrors.TIME_OUT))
+                        {
+                            <div id="login-error" class="callout alert">
+                                <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.TimeOut, Model.Item)</p>
+                            </div>
+                        }
+                        else if (Model.Errors.Contains(LoginErrors.EMPTY_FIELDS))
+                        {
+                            <div id="login-error" class="callout alert">
+                                <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.EmptyField, Model.Item)</p>
+                            </div>
+                        }
+                    }
+                    <div id="login-modal-errors" class="callout alert hide"></div>
+                </div>
+                @{
+                    Sitecore.Data.Fields.LinkField helpLink = Model.Item.Fields[Templates.LoginForm.Fields.Help];
+                    string helpLinkUrl = string.Empty;
+                    if (helpLink != null && helpLink.TargetItem != null)
+                    {
+                        helpLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(helpLink.TargetItem);
+                    }
+                }
+                <div class="row" id="helpLink"><a href="@helpLinkUrl"><small>@helpLink.Text</small></a></div>
+            </div>
+            <input type="hidden" name="fhController" value="LoginFormController" data-abide-ignore />
+            <input type="hidden" name="fhAction" value="LoginForm" data-abide-ignore />
+            @Html.HiddenFor(x => x.RememberMe, new { @id = "ckRemember" })
+        </form>
+    </div>
+    <button class="close-button" onclick="onCloseLogin()" data-close aria-label="Close reveal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<!-- End the login modal for desktop -->
+<script>
+    $('#ckb_remember').change(function () {
+        $('#ckRemember').val($(this).is(':checked'));
+    });
+    $('#login-password').val('');
+</script>
+<input type="hidden" name="loginAjaxProcess" id="loginAjaxProcess" value="" />
+<input type="hidden" name="storeid" id="storeid" value="" />
+<input type="hidden" name="redirecturlid" id="redirecturlid" value="" />
+<input type="hidden" name="hotdeal" id="hotdeal" value="" />
+<input type="hidden" name="ctatext" id="ctatext" value="" />

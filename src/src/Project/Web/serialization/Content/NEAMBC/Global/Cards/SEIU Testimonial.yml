@@ -1,0 +1,116 @@
+﻿---
+ID: "626db1f3-cb9c-4858-b820-493b5286ffe6"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Testimonial
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Insurance
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{C1AE63DC-66DC-44EF-B46D-512274ABCBE2}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle" style="text-align: left;">
+        <h3 style="text-align: left;"><a href="~/link.aspx?_id=1450B2E114B24CDF8E17FE5D025CCA25&amp;_z=z" onclick="ga_event('small module','click','snhu college for america &gt; title');">SNHU's College for America</a></h3>
+        </div>
+        <p class="panelTitle" style="text-align: left;"><span style="text-align: right; font-family: helvetica_neue; font-size: 16px; color: #000000;">"With this program, I can work on my studies anywhere at any time."</span></p>
+        <p class="panelTitle" style="text-align: left;"><span style="font-size: small; text-align: right; font-family: helvetica_neue; color: #000000;">-Karyn Zillman, SEIU 221&nbsp;</span><span style="font-size: small; text-align: right; font-family: helvetica_neue; color: #000000;">and SNHU CFA Student</span></p>
+        <p><span style="font-family: open_sanssemibold, Helvetica, Roboto, Arial, sans-serif;"></span></p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=1450B2E114B24CDF8E17FE5D025CCA25&amp;_z=z" onclick="ga_event('small module','click','snhu college for america &gt; button');">LEARN MORE</a>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T165557Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Insurance
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{C1AE63DC-66DC-44EF-B46D-512274ABCBE2}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T165557Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle" style="text-align: left;">
+        <h3 style="text-align: left;"><a href="~/link.aspx?_id=1450B2E114B24CDF8E17FE5D025CCA25&amp;_z=z" onclick="ga_event('small module','click','snhu college for america &gt; title');">SNHU's College for America</a></h3>
+        </div>
+        <p class="panelTitle" style="text-align: left;"><span style="text-align: right; font-family: helvetica_neue; font-size: 16px; color: #000000;">"With this program, I can work on my studies anywhere at any time."</span></p>
+        <p class="panelTitle" style="text-align: left;"><span style="font-size: small; text-align: right; font-family: helvetica_neue; color: #000000;">-Karyn Zillman, SEIU 221&nbsp;</span><span style="font-size: small; text-align: right; font-family: helvetica_neue; color: #000000;">and SNHU CFA Student</span></p>
+        <p><span style="font-family: open_sanssemibold, Helvetica, Roboto, Arial, sans-serif;"></span></p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=1450B2E114B24CDF8E17FE5D025CCA25&amp;_z=z" onclick="ga_event('small module','click','snhu college for america &gt; button');">LEARN MORE</a>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGURO
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{C1AE63DC-66DC-44EF-B46D-512274ABCBE2}" alt="Zillman" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle" style="text-align: left;">
+        <h3 style="text-align: left;"><a href="~/link.aspx?_id=1450B2E114B24CDF8E17FE5D025CCA25&amp;_z=z" onclick="ga_event('small module','click','snhu college for america esp &gt; title');">SNHU's College for America</a></h3>
+        </div>
+        <p class="panelTitle" style="text-align: left;"><span style="text-align: right; font-family: helvetica_neue; font-size: 16px; color: #000000;">"Con este programa, puedo trabajar en mis estudios en cualquier lugar y en cualquier momento."</span></p>
+        <p class="panelTitle" style="text-align: left;"><span style="font-size: small; text-align: right; font-family: helvetica_neue; color: #000000;">-Karyn Zillman, SEIU 221&nbsp;</span><span style="font-size: small; text-align: right; font-family: helvetica_neue; color: #000000;">and SNHU CFA Student</span></p>
+        <p><span style="font-family: open_sanssemibold, Helvetica, Roboto, Arial, sans-serif;"></span></p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=1450B2E114B24CDF8E17FE5D025CCA25&amp;_z=z" onclick="ga_event('small module','click','snhu college for america esp &gt; button');">APRENDE M&Aacute;S</a>
+        </div>

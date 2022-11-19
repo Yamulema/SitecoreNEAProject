@@ -1,0 +1,20 @@
+﻿@using Neambc.Neamb.Feature.Banner
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Banner.Models.TopSiteBannerDto
+
+@if (!Model.IsHidden)
+{
+    var color = Model.Item[Templates.TopSiteBanner.Fields.TopBackgroundColor];
+    <div class="global-top-banner new-design" style="background-color:#@Html.Raw(color)">
+        <div class="container">
+            <div class="alert alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"
+                        @Html.Raw(Html.Sitecore().Field(Templates.TopSiteBanner.Fields.GTMCode, Model.Item))>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                @Html.Sitecore().Field(Templates.TopSiteBanner.Fields.TopBanner, Model.Item)
+            </div>
+        </div>
+    </div>
+}

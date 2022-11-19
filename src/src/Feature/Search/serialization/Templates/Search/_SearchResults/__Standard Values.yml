@@ -1,0 +1,111 @@
+﻿---
+ID: "4aa6ca1f-74dd-498d-9403-274289199c7d"
+Parent: "99d64c92-27c5-4939-a217-b97afa029b87"
+Template: "99d64c92-27c5-4939-a217-b97afa029b87"
+Path: /sitecore/templates/SEIUMB/Feature/Search/_SearchResults/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171221T194847Z
+    - ID: "4280bdde-737a-41ec-ab8e-b8463008f2b8"
+      Hint: Page
+      Value: Page
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "765e8f56-c835-402e-83ac-6cdb5e2f63bb"
+      Hint: CurrentPage
+      Value: You are on page
+    - ID: "897a9ca4-4aa2-4d97-81d6-ae45e6fa004a"
+      Hint: Title
+      Value: Showing,of, results for
+    - ID: "9986c3bb-55d2-4bd0-bfde-5ff73e7e62ef"
+      Hint: NoResultsMessage
+      Value: |
+        <ul>
+            <li>
+            <p>Sorry, we can&rsquo;t find anything</p>
+            <p>SEARCH SUGGESTION</p>
+            <ul>
+                <li>
+                <p>Check your spelling</p>
+                </li>
+                <li>
+                <p>Use different keywords</p>
+                </li>
+                <li>
+                <p>Use more general keywords</p>
+                </li>
+                <li>
+                <p>Try using less keywords</p>
+                </li>
+            </ul>
+            </li>
+        </ul>
+    - ID: "be5f9439-29cc-46bb-a07b-4297fddfc768"
+      Hint: NextPage
+      Value: Next page
+    - ID: "cfaa8c64-de17-4cb8-81ef-ad4d489e5c8b"
+      Hint: PreviousPage
+      Value: Previous page
+    - ID: "d14b821c-4609-4caf-acef-dd672d403732"
+      Hint: NoResultsTitle
+      Value: "No results found for:"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171221T195249Z
+    - ID: "4280bdde-737a-41ec-ab8e-b8463008f2b8"
+      Hint: Page
+      Value: Página
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "765e8f56-c835-402e-83ac-6cdb5e2f63bb"
+      Hint: CurrentPage
+      Value: Está en la página
+    - ID: "897a9ca4-4aa2-4d97-81d6-ae45e6fa004a"
+      Hint: Title
+      Value: Mostrando,de, resultado(s) para
+    - ID: "9986c3bb-55d2-4bd0-bfde-5ff73e7e62ef"
+      Hint: NoResultsMessage
+      Value: |
+        <ul>
+            <li>
+            <p>Lo sentimos, no podemos encontrar resultados</p>
+            <p>SUGERENCIAS</p>
+            <ul>
+                <li>
+                <p>Chequee su ortograf&iacute;a</p>
+                </li>
+                <li>
+                <p>Utilice otros t&eacute;rminos de b&uacute;squeda</p>
+                </li>
+                <li>
+                <p>Utilice t&eacute;rminos m&aacute;s generales</p>
+                </li>
+                <li>
+                <p>Intente utilizando menos t&eacute;rminos de b&uacute;squeda</p>
+                </li>
+            </ul>
+            </li>
+        </ul>
+    - ID: "be5f9439-29cc-46bb-a07b-4297fddfc768"
+      Hint: NextPage
+      Value: Siguiente
+    - ID: "cfaa8c64-de17-4cb8-81ef-ad4d489e5c8b"
+      Hint: PreviousPage
+      Value: Anterior
+    - ID: "d14b821c-4609-4caf-acef-dd672d403732"
+      Hint: NoResultsTitle
+      Value: "No se encontraron resultados para:"

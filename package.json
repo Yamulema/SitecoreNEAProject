@@ -1,0 +1,58 @@
+{
+  "name": "neambc",
+  "version": "1.0.0",
+  "description": "Neambc Node Dependencies",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "date-time": "^2.1.0",
+    "del": "^3.0.0",
+    "glob": "^7.0.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-copy": "^1.0.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-exec": "^2.1.2",
+    "gulp-foreach": "^0.1.0",
+    "gulp-install": "^1.1.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-msbuild": "^0.8.0",
+    "gulp-newer": "^1.0.0",
+    "gulp-parameterized": "^0.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "merge-stream": "^1.0.0",
+    "msbuild": "^1.1.3",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.4",
+    "through2-concurrent": "^1.1.1",
+    "vinyl": "^1.1.0",
+    "xml2js": "^0.4.16",
+    "xmlpoke": "^0.1.12",
+    "yargs": "^6.4.0"
+  },
+  "devDependencies": {
+    "gulp-build": "^0.5.3",
+    "gulp-nuget-restore": "^0.5.0",
+    "gulp-parameterized": "^0.1.1"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/neambc_web"
+  },
+  "author": "Oshyn, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sitecore/Habitat/issues"
+  },
+  "homepage": "https://github.com/Sitecore/Habitat#readme"
+}

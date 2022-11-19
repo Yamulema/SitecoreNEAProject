@@ -1,0 +1,70 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+@using Neambc.Neamb.Foundation.MBCData.ExactTargetService
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Account.Models.SettingsAndSubsDTO
+@{
+    var classname = Model.HasGeneralError ? "show" : "";
+}
+
+<section class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.Error, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+@if (Sitecore.Context.PageMode.IsExperienceEditor || Model.UserStatus == StatusEnum.Hot)
+{
+    <section id="subscriptions" class="section-normal f-005">
+        <div class="container">
+            <div class="col-md-9 col-centered">
+                <div class="row1 actions">
+
+                    <h2 class="header">@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.Headline, Model.Item)</h2>
+                    <p class="subhead">@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.Subheadline, Model.Item)</p>
+
+                    @foreach (var newsletter in Model.Newsletters)
+                    {
+                    <div class="panel-cta row">
+                        <div class="col-md-12">
+                            <hr />
+                            <h4>@Html.Sitecore().Field(Templates.Newsletters.Fields.Headline, newsletter.Item)</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Html.Sitecore().Field(Templates.Newsletters.Fields.Description, newsletter.Item)</p>
+                        </div>
+                        <div class="col-md-6 ctas">
+                            @switch (newsletter.SubscriberStatus)
+                            {
+                                case SubscriberStatus.Active:
+                                    <p class="p-b-sm"><img src="/assets/neamb/images/Checkmark-Icon.png" alt="" /><span class="p-l-sm">@Html.Sitecore().Field(Templates.Newsletters.Fields.Subscribed, newsletter.Item)</span></p>
+                                        <div class="btn" data-id="@newsletter.Id" data-status="@((int) newsletter.SubscriberStatus)" data-subscribeLabel="@Html.Sitecore().Field(Templates.Newsletters.Fields.Subscribe, newsletter.Item)" data-unsubscribeLabel="@Html.Sitecore().Field(Templates.Newsletters.Fields.Unsubscribe, newsletter.Item)" data-checkLabel="@Html.Sitecore().Field(Templates.Newsletters.Fields.Subscribed, newsletter.Item)")>
+                                            @Html.Sitecore().Field(Templates.Newsletters.Fields.Unsubscribe, newsletter.Item)
+                                        </div>
+                                    break;
+                                case SubscriberStatus.Unsubscribed:
+                                    <div class="btn btn-blue" data-id="@newsletter.Id" data-status="@((int) newsletter.SubscriberStatus)" data-subscribeLabel="@Html.Sitecore().Field(Templates.Newsletters.Fields.Subscribe, newsletter.Item)" data-unsubscribeLabel="@Html.Sitecore().Field(Templates.Newsletters.Fields.Unsubscribe, newsletter.Item)" data-checkLabel="@Html.Sitecore().Field(Templates.Newsletters.Fields.Subscribed, newsletter.Item)")>
+                                        @Html.Sitecore().Field(Templates.Newsletters.Fields.Subscribe, newsletter.Item)
+                                    </div>
+                                    break;
+                            }
+                        </div>
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="section-normal">
+        <div class="container">
+            <div class="row">
+                @Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.AnonymousUser, Model.Item, new { @DisableWebEdit = true })
+            </div>
+        </div>
+    </section>
+}

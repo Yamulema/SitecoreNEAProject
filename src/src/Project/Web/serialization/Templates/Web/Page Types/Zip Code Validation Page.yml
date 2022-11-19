@@ -1,0 +1,33 @@
+﻿---
+ID: "eec948c7-dfec-4341-9d81-d3ce8cf6f3c4"
+Parent: "f125a0bb-dd88-4875-b504-9386c48a89e8"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Zip Code Validation Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_pinned.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {2E0B3176-4B58-4313-9136-3E69CD67BD10}
+    {AC328FAE-2ECD-42D3-83A7-0DC1B035E2BE}
+    {A1A14C17-0F89-4ABD-9F12-BD33EF8AF036}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{C68AD38E-D543-4C1E-A044-AB6A8E6F41E2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171220T233706Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

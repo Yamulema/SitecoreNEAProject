@@ -1,0 +1,72 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.SpecialOfferItemDTO
+@{
+    bool isPreviewMode = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var actionClick = String.Format("{0}{1}", Model.AnonymousGtmAction, Model.AnonymousFunctionAction);
+}
+
+@if (!Model.HasBrokenLink) {
+    <section class="section-cta">
+        <div class="container">
+            <div class="col-md-6 col-md-push-6">
+                @Html.Sitecore().Field(Templates.SpecialOffer.Fields.Image, Model.Item, new {
+               @class = "img-responsive",
+               loading = "lazy"
+           })
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-11">
+                        <h2 class="title text-alpha">@Html.Sitecore().Field(Templates.SpecialOffer.Fields.Name, Model.Item)</h2>
+                        @if (!isPreviewMode && Model.HasCheckEligibility && !Model.ResultCheckEligibility && Model.UserStatus != StatusEnum.Cold && Model.UserStatus != StatusEnum.Unknown) {
+                            <p class="m-t-md m-b-md"></p>
+                            @Html.Sitecore().Field(Templates.SpecialOffer.Fields.EligibilityDetails, Model.Item)
+                        } else if (!String.IsNullOrEmpty(Model.Item[Templates.SpecialOffer.Fields.Subhead])) {
+                            <p class="subtitle text-light">@Html.Sitecore().Field(Templates.SpecialOffer.Fields.Subhead, Model.Item)</p>
+                        }
+                        @if ((!String.IsNullOrEmpty(Model.ActionPrimary) || !String.IsNullOrEmpty(Model.ActionClickPrimary)) && (isPreviewMode || !Model.HasCheckEligibility || (Model.HasCheckEligibility && Model.ResultCheckEligibility && Model.UserStatus != StatusEnum.Cold && Model.UserStatus != StatusEnum.Unknown))) {
+                            <div class="spacer-50 hidden-xs hidden-sm"></div>
+                            <div class="spacer-30 hidden-md hidden-lg"></div>
+                            <a class="btn btn-orange m-b-xs m-r-sm" id="product_special_offer_primary_action_button" href="@Model.ActionPrimary" target="@Model.ActionPrimaryTargetBlank" onclick="@Model.ActionClickPrimary">@Model.ActionPrimaryDescription</a>
+                            <p class="text-alpha m-t-sm">@Html.Sitecore().Field(Templates.SpecialOffer.Fields.FinePrint, Model.Item)</p>
+                        }
+                    </div>
+                </div>
+
+                @if (Model.HasCommingSoon && (Model.UserStatus == StatusEnum.Cold || Model.UserStatus == StatusEnum.Unknown || (Model.HasCheckEligibility && Model.ResultCheckEligibility) || !Model.HasCheckEligibility)) {
+                    if (Model.HasAlreadyNotified) {
+                        <p class="check m-r-sm text-alpha">
+                            <i aria-hidden="true" class="fa fa-check-circle"></i>
+                            @Html.Sitecore().Field(Templates.SpecialOffer.Fields.ReminderSet, Model.Item)
+                        </p>
+                    } else {
+                        <a id="product_special_offer_notify_primary_action_button" href="@Model.NotifyProductAvailableLink" onclick="@Model.NotifyProductAvailableAction" class="btn btn-aquamarine m-b-md">@Html.Sitecore().Field(Templates.SpecialOffer.Fields.ReminderCTA, Model.Item)</a>
+                        <p class="text-alpha">@Html.Sitecore().Field(Templates.SpecialOffer.Fields.ReminderDetails, Model.Item) </p>
+
+                    }
+                } else if (!isPreviewMode && (Model.HasCheckEligibility && (Model.UserStatus == StatusEnum.Cold || Model.UserStatus == StatusEnum.Unknown))) {
+                    <div class="row">
+                        <div class="col-md-12">
+                            @if (!string.IsNullOrEmpty(actionClick)) {
+                                <a class="btn btn-blue btn-md m-r-sm pull-left" id="product_special_offer_sign_in_cold_button" onclick="@actionClick">@Model.AnonymousText</a>
+                            } else {
+                                @Html.Sitecore().Field(Templates.SpecialOffer.Fields.Cta, Model.Item, new {
+                                    @class = "btn btn-blue btn-md m-r-sm pull-left",
+                                    @id = "product_special_offer_primary_action_button"
+                                })
+                            }
+                        </div>
+                    </div>
+                    <p class="m-t-sm m-b-sm text-alpha text-alpha">
+                        @Html.Sitecore().Field(Templates.SpecialOffer.Fields.LoginDetails, Model.Item)
+                    </p>
+                }
+            </div>
+        </div>
+    </section>
+
+    @Html.Partial("~/Views/Neamb.Product/Renderings/_MultirowSpecialOfferActions.cshtml", Model)
+}

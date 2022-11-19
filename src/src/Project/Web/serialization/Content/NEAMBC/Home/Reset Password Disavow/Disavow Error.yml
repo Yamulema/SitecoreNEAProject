@@ -1,0 +1,55 @@
+﻿---
+ID: "c740f761-9f6b-4191-a5d9-14aa8ed42e19"
+Parent: "51b35732-ac72-4081-898f-9b2e8ff3fb9c"
+Template: "d613828e-0662-45f9-9a35-d1c6c47271e8"
+Path: /sitecore/content/NEAMBC/Home/Reset Password Disavow/Disavow Error
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171220T160703Z
+    - ID: "25df7e83-4554-4b36-98d2-6359d8c7df59"
+      Hint: Body
+      Value: <p>We are sorry, an error occurred, please try again.</p>
+    - ID: "4e0ccd80-281f-4bbd-b288-63f810623c2c"
+      Hint: Title
+      Value: Error
+    - ID: "595b93c5-514a-410c-95e2-c597e1189faf"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continue" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Reset Password Disavow Error
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171220T205244Z
+    - ID: "25df7e83-4554-4b36-98d2-6359d8c7df59"
+      Hint: Body
+      Value: |
+        <p>Lo sentimos ha ocurrido un error, por favor intente nuevamente</p>
+                                
+        
+        
+    - ID: "4e0ccd80-281f-4bbd-b288-63f810623c2c"
+      Hint: Title
+      Value: Error
+    - ID: "595b93c5-514a-410c-95e2-c597e1189faf"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continuar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Cancelar Recuperación de Contraseña Error

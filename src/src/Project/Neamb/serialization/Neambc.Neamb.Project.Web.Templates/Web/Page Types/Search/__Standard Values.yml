@@ -1,0 +1,79 @@
+﻿---
+ID: "e43cd802-10ee-4951-97a5-0db49d298ad5"
+Parent: "1dd78a72-ed45-429c-9167-0a255887aa4e"
+Template: "1dd78a72-ed45-429c-9167-0a255887aa4e"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Search/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{9381ECA6-F830-4D1B-ABA5-026CC55E5B35}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{68AA959E-2D12-4A3B-9BF7-DBB32121EEC3}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{56D9BECF-789E-4B91-877C-8338E17CB58C}" />
+        <r
+          id="{CFE38BCC-8868-417D-9641-03C64056A731}"
+          ph="body"
+          uid="{03BD2379-8F7F-4F2F-B4BA-A82F79BA6223}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{16E890FB-5831-46F4-B2FE-D85AFFDCA0D9}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{E2CAC81B-417E-4323-A580-149186DDE9EB}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{05252CC0-6F7F-46D1-B808-45BD637C0470}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180515T201402Z
+    - ID: "2bdba689-cd6e-446e-a25d-26a1066d5805"
+      Hint: More Text
+      Value: Show More Results
+    - ID: "7c0dc4d6-b0a2-491f-982e-f6777ee814b0"
+      Hint: Search Box Placeholder
+      Value: Help me find...
+    - ID: "7ec31966-1c76-4894-90fe-7ce6107e3fc0"
+      Hint: No Results
+      Value: No Search Results
+    - ID: "9ac4c202-9569-4c3b-817e-6f13dedfa031"
+      Hint: Results Count Label
+      Value: Results Found
+    - ID: "f71f7747-f88d-499b-ac69-d3a6dc9b0a88"
+      Hint: Page Title
+      Value: Search Results

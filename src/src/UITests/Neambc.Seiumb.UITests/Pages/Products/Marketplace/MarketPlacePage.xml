@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="MarketPlacePage" urlpath="/Shopping-Discounts/SEIU-Discount-Marketplace">
+      <sections>
+        <section name="LoginModal">
+          <controls>
+            <control key="UsernameTextBox" xpath="//input[@id='login-username']"  />
+            <control key="PasswordTextBox" xpath="//input[@id='login-password']"  />
+            <control key="SignInButton" xpath="//*[@id='submitLogin']"  />
+            <control key="CloseLoginModalButton" xpath="//*[@id='loginModal']/button"  />
+          </controls>
+        </section>
+        <section name="Cards">
+          <controls>
+            <control key="CardsContainer" xpath="//*[@id='browse-offers']/div[2]/div[3]/div[1]"  />
+            <control key="MarketPlacePage_FirstCard" xpath="//*[@id='browse-offers']/div[2]/div[3]/div[1]/div[1]"  />
+          </controls>
+        </section>
+        <section name="Categories">
+          <controls>
+            <control key="FirstCategory" xpath="//*[@id='accordion']/p[1]"  />
+            <control key="CategoriesContainer" xpath="//*[@id='accordion']"  />
+          </controls>
+        </section>
+        <section name="FiltersAndSorting">
+          <controls>
+            <control key="ResetAllFilter" xpath="//*[@id='browse-offers']/div[2]/div[1]/div[1]/div[2]/a"  />
+            <control key="SearchInput" xpath="//*[@id='store-search']/input"  />
+            <control key="SortingDropdown" xpath="//*[@id='browse-offers']/div[1]/div[3]/select"  />
+          </controls>
+        </section>
+        <section name="Search">
+          <controls>
+            <control key="SuggestionBox" xpath="//*[@id='store-search']/div"  />
+            <control key="FirstSearchResult" xpath="//*[@id='store-search']/div/a"  />
+            <control key="ClearSearch" xpath="//*[@id='store-search']/i[2]"  />
+            <control key="LoaderInInput" xpath="//*[@id='store-search']/div[2]"  />
+          </controls>
+        </section>
+        <section name="OnlyMember">
+          <controls>
+            <control key="MarketPlacePage_CheckBoxMemberOnly" xpath="//*[@id='checkbox1']"  />
+            <control key="MarketPlacePage_First_Member_Only" xpath="/html/body/div[2]/section[3]/section/div/div[4]/div[2]/div[1]/div[1]/section[2]/a"  />
+          </controls>
+        </section>
+        <section name="FavoriteStores">
+          <controls>
+            <control key="FavoriteStoresCheckbox" xpath="//*[@id='store-favorites-only']"  />
+            <control key="MarketPlacePage_First_FavoriteStore" xpath="//*[@id='browse-offers']/div[2]/div[3]/div[1]/div"  />
+          </controls>
+        </section>
+        <section name="Miscellaneous">
+          <controls>
+            <control key="SeeMoreButton" xpath="//*[@id='see-more-stores']"  />
+            <control key="NotEligibleBanner" xpath="//*[@id='not-elegible']"  />
+            <control key="CloseNotEligibleModalButton" xpath="//*[@id='not-elegible-modal']/button"  />
+            <control key="CloseRegistrationModalButton" xpath="//*[@id='marketpalce-modal']/button"  />
+          </controls>
+        </section>
+        <section name="DivModal">
+          <controls>
+            <control key="MarketPlacePage_DivModal" xpath="//div[@id='mktpModal']"  />
+            <control key="RakutenRegistrationModal" xpath="//*[@id='mktpModal']"  />
+            <control key="MarketPlacePage_DivModalClose" xpath="/html/body/div[2]/div[1]/div/div/div[1]/button/span"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

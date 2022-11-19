@@ -1,0 +1,9 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@model Neambc.Neamb.Feature.Cards.Models.TwoColumnStackableDTO
+
+<div>
+    @Html.Partial("~/Views/Neamb.Cards/TwoColumnStackabelHeader.cshtml")
+    <section class="section-normal">
+        @Html.Sitecore().DynamicPlaceholder("two-column-stackable-item")
+    </section>
+</div>

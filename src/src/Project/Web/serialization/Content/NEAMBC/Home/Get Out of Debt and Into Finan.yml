@@ -1,0 +1,264 @@
+﻿---
+ID: "49bc75da-78f8-40c5-9ecc-3532654bceb3"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Get Out of Debt and Into Financial Freedom
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{955E7C72-7128-49D0-BCC6-3B5582F750C7}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "The question is whether you’ve acted on that advice. About one-third of Americans haven’t and, as a result, don’t have sufficient savings to pay for unexpected expenses, according to a survey by the Consumer Federation of America and American Savings Education Council."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="6 Reasons Why You (Probably) Need a Financial Advisor" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5C0BA0F6-4658-4C92-AA14-D81A5E9E4EF5}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: by SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 9 Reasons You Need an Emergency Fund
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Getting rid of debt will make it much easier to save for retirement and reach the financial goals that make life fun and rewarding.</p>
+        <p>Key takeaways</p>
+        <ul>
+            <li>
+            <p><strong>Organize and itemize your debts and then focus on paying down one account at a time.</strong></p>
+            </li>
+            <li>
+            <p><strong>Use the snowball method to pay off your smallest debt and bask in the positive reinforcement.</strong></p>
+            </li>
+            <li>
+            <p><strong>Balance your debt payments against your retirement savings needs for overall financial wellness.</strong></p>
+            </li>
+        </ul>
+        <p>Bryce is typical of many young working Americans. He has three credit cards and two of them have balances that are accruing interest. He also has a car payment and a student loan. Every time he sends his hard-earned money out to creditors he dreams wistfully of the freedom he&rsquo;d feel if he could at least eliminate the credit card debts. &ldquo;But where do I start?&rdquo; he asks.</p>
+        <p><strong>Organize your debts</strong></p>
+        <p>Personal finance experts have developed some tried and true debt-elimination strategies that start with a little debt analysis and housekeeping.</p>
+        <ul>
+            <li>
+            <p><strong>Avoid adding more debt.</strong> If you want to lose weight, you don&rsquo;t eat more calories, right? Same with losing the debt. Put your credit cards on hiatus (and certainly don&rsquo;t apply for any new cards or loans). Use a debit card for purchases instead. This forces you to spend only the money you actually have in the bank.</p>
+            </li>
+            <li>
+            <p><strong>Itemize current debts.</strong> Write down the balance, interest rate and minimum payment due on each account. (You don&rsquo;t need to include the primary mortgage on your home unless you would like to pay it off early.) Add up your minimum payments that must be made each month, then figure out how much more you have available to help reduce the principal. Minimum payments just keep your account current with interest owed. They don&rsquo;t help reduce the principal which extends the term of the loan.</p>
+            </li>
+            <li>
+            <p><strong>Focus on one account at a time.</strong> This is your core strategy in paying off debts. You&rsquo;ll apply all the money you have beyond the minimum payment obligations to just one debt. Logic&mdash;and math&mdash;will dictate that you focus on paying off the debt with the highest interest rate first. The sooner you get that paid off, the less interest charges you&rsquo;ll pay and the more money you&rsquo;ll have to pay off your other debts. This is the quickest way to pay down debt, and it makes a lot of sense for highly motivated people. But if you&rsquo;re not in the highly motivated camp, financial guru Dave Ramsey suggests thinking about snowballs.</p>
+            </li>
+        </ul>
+        <p><strong>Using snowballs to pay down debts</strong></p>
+        <p>People aren&rsquo;t always rational, and often motivation gets rationalized away. Think about when you try to break a bad habit. Positive reinforcement really helps push you to the finish line.</p>
+        <p>The same principle applies to getting yourself out of debt and on the path to financial freedom. That&rsquo;s why Ramsey recommends the snowball method. Pick your smallest debt and pay that down first. Make only the minimum payments on your other accounts so you can apply all extra funds to that smallest debt.</p>
+        <p>Why? Because you&rsquo;ll be able to pay off that small debt more quickly than any of the others. Not only will you feel a sense of accomplishment when that debt is history, you&rsquo;ll be able to apply the minimum payment you were making on that debt, plus any extra available funds, to your next smallest debt, which you&rsquo;ll now focus on until it too is paid off.</p>
+        <p>By the time you get to the third debt, you&rsquo;ll be ready with the minimum payments you were making on the first two debts, plus any extra cash you can spare, to make even larger monthly payments and perhaps accomplish an even quicker debt disappearing act.</p>
+        <p>As your monthly payments are growing larger&mdash;think snowball rolling down the hill&mdash; your debts will be shrinking ever smaller.</p>
+        <p>Ramsey says that the positive reinforcement of seeing debts disappear is worth more than tackling a large, higher-interest debt with monthly payments that feel like they&rsquo;re not even making a dent.</p>
+        <p>If you have two debts that are more or less equal in amount, you should tackle the one with the higher interest rate first.</p>
+        <p><strong>Sprinkle snowflakes to grow your payment snowball</strong></p>
+        <p>One way to make that &ldquo;snowball&rdquo; grow even faster is to add the &ldquo;snowflake&rdquo; method to your strategy. Do everything possible to increase the amount you can pay toward your debt each month by finding some extra cash:</p>
+        <ul>
+            <li>
+            <p>
+            Streamline your cable TV package</p>
+            </li>
+            <li>
+            <p>Ask lenders if they have incentive discounts, such as auto pay</p>
+            </li>
+            <li>
+            <p>Demand a better deal from your wireless provider</p>
+            </li>
+            <li>
+            <p> Calculate if you could afford to increase some insurance deductibles to help lower premiums</p>
+            </li>
+            <li>
+            <p>Sell items online</p>
+            </li>
+            <li>
+            <p> Hold a yard sale</p>
+            </li>
+            <li>
+            <p>Find ways to earn some extra money</p>
+            </li>
+        </ul>
+        <p>Take all this extra cash (&ldquo;snowflakes&rdquo;) and apply it your current top-priority debt. Make interim payments, if you can, to reduce the principal as quickly as possible. An extra $100 or $200 a month can quickly reduce your outstanding balance.</p>
+        <p><strong>Remember your retirement savings strategies</strong></p>
+        <p>Financial advisers are split on whether it&rsquo;s prudent to accelerate your debt payments by cutting back on your retirement plan contributions.</p>
+        <p>Some say you should never reduce your retirement plan contributions because that money compounds tax-deferred, which is a big advantage for long-term growth potential. Others argue that increasing your debt payments to reduce those high interest charges might justify suspending retirement contributions for a short while, if it&rsquo;s the only way you can do it. Just make sure you have the discipline to ramp up your retirement savings once your debt is under control.</p>
+        <p>How you work your retirement savings into your debt pay down strategies depends on the level of stress you&rsquo;re feeling about your debts and how many years you have to build up retirement income.</p>
+        <p>If your debts feel like an anchor dragging behind your life boat, use these tips to methodically reel it in, get your finances back on course and sail towards the horizon with a satisfied smile on your face.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Get Out of Debt and Into Financial Freedom
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{85E847E7-FA88-4920-8A68-C2DB311D0D33}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Bryce es el típico trabajador joven norteamericano. Cuenta con tres tarjetas de crédito y dos de ellas tienen saldos que acumulan intereses. Además, tiene gastos de automóvil y un crédito estudiantil. Cada vez que envía su merecido dinero a los acreedores, sueña con la libertad que sentiría si al menos pudiera deshacerse de las deudas de las tarjetas de crédito. “Pero, ¿desde donde comienzo?”, pregunta."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5C0BA0F6-4658-4C92-AA14-D81A5E9E4EF5}" alt="Seis razones por las que (probablemente) necesitas un asesor financiero" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: por los beneficios para los miembros de SEIU
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Cancele las deudas y disfrute de la lobertad financiera
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Cancelar las deudas har&aacute; que sea m&aacute;s f&aacute;cil ahorrar para la jubilaci&oacute;n y lograr sus objetivos financieros que entretienen y recompensan la vida.</p>
+        <p>Conclusiones clave</p>
+        <ul>
+            <li>
+            <p><strong>Organice y detalle sus deudas para enfocarse en pagar una cuenta a la vez.</strong></p>
+            </li>
+            <li>
+            <p><strong>Utilice el m&eacute;todo de la bola de nieve para cancelar sus deudas m&aacute;s bajas y disfrute de un refuerzo positivo.</strong></p>
+            </li>
+            <li>
+            <p><strong>Equilibre los pagos de sus deudas contra sus necesidades de ahorros de jubilaci&oacute;n para lograr el bienestar financiero general.</strong></p>
+            </li>
+        </ul>
+        <p>Bryce es el t&iacute;pico trabajador joven norteamericano. Cuenta con tres tarjetas de cr&eacute;dito y dos de ellas tienen saldos que acumulan intereses. Adem&aacute;s, tiene gastos de autom&oacute;vil y un cr&eacute;dito estudiantil. Cada vez que env&iacute;a su merecido dinero a los acreedores, sue&ntilde;a con la libertad que sentir&iacute;a si al menos pudiera deshacerse de las deudas de las tarjetas de cr&eacute;dito. &ldquo;Pero, &iquest;desde donde comienzo?&rdquo;, pregunta.</p>
+        <p><strong>Organice sus deudas</strong></p>
+        <p>Los expertos en finanzas personales desarrollaron algunas estrategias comprobadas y verdaderas para cancelar deudas que comienzan con un peque&ntilde;o an&aacute;lisis de las deudas y el mantenimiento.</p>
+        <ul>
+            <li>
+            <p><strong>Evite sumar m&aacute;s deudas.</strong> Si quiere perder peso, no consume m&aacute;s calor&iacute;as, &iquest;no? Lo mismo ocurre con cancelar las deudas. No use sus tarjetas de cr&eacute;dito (tampoco solicite tarjetas o pr&eacute;stamos nuevos). En su lugar, utilice una tarjeta de d&eacute;bito para hacer compras. De esta manera, se ve obligado a gastar solo el dinero que tiene en el banco./p&gt;
+            </p>
+            </li>
+            <li>
+            <p><strong>Detalle las deudas actuales.</strong> Escriba los saldos, las tasas de inter&eacute;s y los pagos m&iacute;nimos adeudados en cada cuenta. (No es necesario que incluya la hipoteca principal de su hogar a menos que quiera cancelarla antes de tiempo). Sume los pagos m&iacute;nimos mensuales que debe cancelar y, a continuaci&oacute;n, calcule la cantidad que tiene disponible para reducir el capital. Los pagos m&iacute;nimos solo mantienen su cuenta al d&iacute;a con los intereses adeudados. No reducen el capital que extiende el plazo del pr&eacute;stamo.</p>
+            </li>
+            <li>
+            <p><strong>Enf&oacute;quese en una cuenta a la vez.</strong> Esta es la estrategia principal para cancelar las deudas. Aplicar&aacute; todo el dinero que posee m&aacute;s all&aacute; de las obligaciones de pago m&iacute;nimo a una sola deuda. La l&oacute;gica y la matem&aacute;tica le exigir&aacute;n que se enfoque en cancelar primero la deuda con la tasa m&aacute;s alta de inter&eacute;s. Cuando antes la cancele, menos intereses deber&aacute; pagar, por lo que tendr&aacute; m&aacute;s dinero para cancelar las otras deudas. Esta es la manera m&aacute;s r&aacute;pida de cancelar la deuda y es de gran ayuda para las personas con alta motivaci&oacute;n. Sin embargo, si su motivaci&oacute;n es baja, Dave Ramsey, gur&uacute; financiero, le sugiere que piense en las bolas de nieve.</p>
+            </li>
+        </ul>
+        <p><strong>Uso de las bolas de nieve para cancelar las deudas</strong></p>
+        <p>Las personas no siempre son sensatas, pero la motivaci&oacute;n suele racionalizarse. Piense en el momento en que intenta romper un mal h&aacute;bito. El refuerzo positivo es de gran ayuda para que pueda llegar a su meta.</p>
+        <p>Se aplica el mismo principio para deshacerse de las deudas y seguir en camino a la libertad financiera. Esa es la raz&oacute;n por la que Ramsey recomienda el m&eacute;todo de la bola de nieve. Seleccione su deuda m&aacute;s baja y canc&eacute;lela primero. Solo pague el monto m&iacute;nimo de sus otras cuentas para que pueda aplicar m&aacute;s fondos a esa deuda m&aacute;s baja.</p>
+        <p>&iquest;Por qu&eacute;? Porque podr&aacute; cancelar esa deuda baja m&aacute;s r&aacute;pido que cualquier de las otras. Adem&aacute;s de sentirse satisfecho cuando esa deuda forme parte del pasado, podr&aacute; aplicar el pago m&iacute;nimo que realizaba por esa deuda, as&iacute; como los fondos disponibles adicionales, a su pr&oacute;xima deuda m&aacute;s baja, en la que ahora se enfocar&aacute; hasta que tambi&eacute;n pueda cancelarla.</p>
+        <p>Para cuando llegue a la tercera deuda, con los pagos m&iacute;nimos que realizaba por las primeras dos deudas y el dinero adicional que pueda ahorrar, podr&aacute; hacer pagos mensuales a&uacute;n mayores y, quiz&aacute;s, lograr que se cancelen las deudas con m&aacute;s rapidez.</p>
+        <p>A medida que aumentan sus pagos mensuales (piense en una bola de nieve que baja desde la colina), se reducir&aacute;n a&uacute;n m&aacute;s sus deudas.</p>
+        <p>Ramsey dice que el refuerzo positivo de cancelar deudas vale m&aacute;s que enfrentarse a una deuda de mayor monto e inter&eacute;s con pagos mensuales que parecen ser interminables.</p>
+        <p>Si tiene dos deudas de casi el mismo monto, cancele primero la que tenga la tasa m&aacute;s alta de inter&eacute;s.</p>
+        <p><strong>Desparrame copos de nieve para hacer crecer su bola de nieve de pagos/strong&gt;</strong></p>
+        <strong>
+        <puna>
+        </puna>
+        </strong>
+        <ul>
+            <li>
+            <p>
+            Optimice su paquete de TV por cable</p>
+            </li>
+            <li>
+            <p>Pregunte a los prestamistas si tienen descuentos de incentivo, tales como pago de autom&oacute;viles</p>
+            </li>
+            <li>
+            <p>Solicite una mejor oferta a su proveedor de servicio inal&aacute;mbrico</p>
+            </li>
+            <li>
+            <p>Calcule si puede permitirse aumentar algunos deducibles del seguro para reducir las primas</p>
+            </li>
+            <li>
+            <p>Venda productos en l&iacute;nea</p>
+            </li>
+            <li>
+            <p>Realice una venta de garaje</p>
+            </li>
+            <li>
+            <p>Busque maneras de ahorrar algo de dinero adicional</p>
+            </li>
+        </ul>
+        <p>Tome todo ese dinero adicional (&ldquo;copos de nieve&rdquo;) y apl&iacute;quelo en su actual deuda de m&aacute;xima prioridad. Si puede, realice pagos intermedios para reducir el capital lo m&aacute;s r&aacute;pido posible. Un adicional de $100 o $200 al mes puede reducir con rapidez su saldo pendiente.</p>
+        <p><strong>Recuerde sus estrategias de ahorros para la jubilaci&oacute;n.</strong></p>
+        <p>Los asesores financieros est&aacute;n divididos acerca de si es prudente acelerar los pagos de sus deudas al reducir los aportes a su plan de jubilaci&oacute;n.</p>
+        <p>Algunos dicen que nunca debe reducir los aportes a su plan de jubilaci&oacute;n porque ese dinero se suma a los impuestos diferidos, que es una gran ventaja para el potencial de crecimiento a largo plazo. Otros afirman que aumentar los pagos de sus deudas para reducir estos altos cargos de inter&eacute;s puede justificar la suspensi&oacute;n de los aportes jubilatorios durante un corto per&iacute;odo, si es la &uacute;nica manera de hacerlo. Solo debe asegurarse de aumentar sus ahorros jubilatorios una vez que se normalice su deuda.</p>
+        <p>La manera en que integra sus ahorros jubilatorios en sus estrategias de pago de deudas depende del nivel de estr&eacute;s que sienta con respecto a sus deudas y la cantidad de a&ntilde;os que tiene para acumular ingresos de jubilaci&oacute;n.</p>
+        <p>Si siente que sus deudas son un peso, aplique estos consejos para organizarse de manera sistem&aacute;tica, volver a poner sus finanzas en curso y cumplir sus metas, sin dejar de sonre&iacute;r.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Cancele las deudas y disfrute de la lobertad financiera

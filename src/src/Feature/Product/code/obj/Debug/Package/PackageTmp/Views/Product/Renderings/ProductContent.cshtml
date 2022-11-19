@@ -1,0 +1,88 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Product
+@*@model Neambc.Seiumb.Feature.Product.Models.UserStateProduct*@
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var itemParent = Model.Item.Parent;
+}
+
+<script type="text/javascript" language="javascript">
+    window.onload = function () {
+        document.getElementById('logiccta').value = '1';
+    };
+</script>
+
+<div class="row">
+    <div id="back_button" class="small-12 columns show-for-small-only">
+        <a href="@itemParent.Url()"><img id="back_button" src="/assets/seiumb/images/arrow.png">@Html.Sitecore().Field(Templates.Navigable.Fields.ShortTitle, itemParent)</a>
+    </div>
+</div>
+
+<div id="service_title" class="row">
+    @Html.Sitecore().Placeholder("product-lite")
+</div>
+
+<hr id="product_divider">
+
+<div id="product_description">
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+            @Html.Sitecore().Field(Templates.ProductDetail.Fields.ProductDescription, Model.Item)
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+            @Html.Sitecore().ImageField(Templates.ProductDetail.Fields.PartnerImage, Model.Item)
+        </div>
+    </div>
+    <div class="row service_title_mimic">
+        <div class="small-12 medium-12 large-12 columns">
+            @Html.Sitecore().Field(Templates.ProductDetail.Fields.Sidebar, Model.Item)
+        </div>
+    </div>
+
+    <div class="row service_title_mimic bottom">
+        @Html.Sitecore().Placeholder("product-lite")
+    </div>
+
+    <div id="share" class="row">
+        <div class="small-12 medium-12 large-12 columns">
+            <h5>@Html.Sitecore().Field(Templates.ProductDetail.Fields.Share, Model.Item)</h5>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_sharing_toolbox"></div>
+        </div>
+    </div>
+    <div id="disclaimer" class="row">
+        <div class="small-12 medium-12 large-12 columns">
+            @Html.Sitecore().Field(Templates.ProductDetail.Fields.Disclaimer, Model.Item)
+        </div>
+    </div>
+</div>
+
+<form id="executelinkForm" enctype="multipart/form-data" action="/api/ProductApi/ExecuteLink" method="post">
+    <input type="hidden" name="contextitemid" id="contextitemid" value="" />
+    <input type="hidden" name="calllinkid" id="calllinkid" value="" />
+    <input type="hidden" name="postparameterid" id="postparameterid" value="" />
+</form>
+<form id="downloadPdfForm" enctype="multipart/form-data" target='_blank' action="/api/ProductApi/DownloadEfulfillmentPdf" method="post">
+    <input type="hidden" name="materialId" id="materialId" value="" />
+    <input type="hidden" name="mdsid" id="mdsid" value="" />
+</form>
+
+<form id="truecarForm" enctype="multipart/form-data" target='_blank' action="/api/ProductApi/GetTrueCarPartner" method="post"></form>
+
+@*kind 1=cta; 2=download; 3=datapass*@
+<input type="hidden" name="actionurl" id="actionurl" value="" />
+<input type="hidden" name="actionkind" id="actionkind" value="" />
+<input type="hidden" name="actiontitle" id="actiontitle" value="" />
+<input type="hidden" name="actionprocedurepar1" id="actionprocedurepar1" value="" />
+<input type="hidden" name="actionprocedurepar2" id="actionprocedurepar2" value="" />
+<input type="hidden" name="materialid" id="materialid" value="" />
+<input type="hidden" name="logiccta" id="logiccta" value="0" />
+<input type="hidden" name="itemcontextid" id="itemcontextid" value="@Model.Item.ID" />
+<input type="hidden" name="productname" id="productname" value="" />
+<input type="hidden" name="buttontype" id="buttontype" value="" />
+<input type="hidden" name="contextitemidPar" id="contextitemidPar" value="" />
+<input type="hidden" name="calllinkidPar" id="calllinkidPar" value="" />
+<input type="hidden" name="actiontargetPar" id="actiontargetPar" value="" />
+<input type="hidden" name="postparameteridPar" id="postparameteridPar" value="" />

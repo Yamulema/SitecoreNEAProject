@@ -1,0 +1,65 @@
+﻿---
+ID: "d6c090e4-39d3-4f56-9352-8463d913dd11"
+Parent: "f4d7991b-755c-4723-863d-2b08149782bd"
+Template: "f4d7991b-755c-4723-863d-2b08149782bd"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_ForgotPassword/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180621T200044Z
+    - ID: "3aa63315-dc50-476a-a1a2-0b3e02024bb2"
+      Hint: Password Reset Page
+      Value: |
+        <link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{FCD0B7D8-BCA1-42ED-A8E0-22C101D22FCD}" />
+    - ID: "43e5f26e-2eb3-4f4b-adce-db160ec49aa5"
+      Hint: Password Disavow Page
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{71B872ED-2C1F-498A-8414-1BE313C448FD}" />
+    - ID: "5827c5a7-2c7b-4d0b-8088-3f733a803a38"
+      Hint: Headline
+      Value: Reset Password
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "622f436d-fb70-4969-8aad-9b2cd4803b93"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "6691ae0e-a950-4786-a95b-a5aff609ddc2"
+      Hint: Sign In
+      Value: |
+        <link text="Return to Sign In" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />
+    - ID: "8991d53e-4972-4aef-a028-607d39581451"
+      Hint: Success
+      Value: |
+        <p>A secure link to reset your password has been sent to your email address. Please check your email for a message from NEA Member Benefits.</p>
+        <p>Click the link in the email to set a new password for your account.</p>
+        <div class="col-md-5 col-centered"><a href="~/link.aspx?_id=545409FCDB864A7FAC61F74A274B5E30&amp;_z=z" class="btn btn-lg btn-blue btn-block">Proceed to Home Page</a></div>
+        </div>
+        <div class="modal-footer">
+        <div class="col-md-6">
+        <p>Connect with us, and members like you </p>
+        </div>
+        <div class="col-md-6">
+                      <div class="share"><a href="" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a><a href="" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a><a href="" target="_blank"><i aria-hidden="true" class="fa fa-pinterest-p"></i></a><a href="" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a></div>
+                    </div>
+        
+    - ID: "ae905fa9-497e-46ba-bd6b-9300e9643db5"
+      Hint: Not Found
+      Value: |
+        Oops, we can't seem to find a username that matches the information you provided. Can you verify your information and try again? If it indeed is correct, it may mean that you haven't registered on our website. Click <a href="~/link.aspx?_id=016CB02B98DA403EB75F538BF642DFE8&amp;_z=z">here</a>&nbsp;to register now. Or click <a href="~/link.aspx?_id=3C552C6C1FEE42A99BA5BFA5DE7C6931&amp;_z=z">here</a>&nbsp;to contact us.
+    - ID: "dc150f1d-3c3c-462d-8170-9c9bb5c2d2b3"
+      Hint: Account with a Valid Token
+      Value: An email was sent to you with Reset Password instructions. Please check your email to proceed further. Also check your Spam or Bulk mail folder, just to be sure.
+    - ID: "f2f6351d-4c72-4f7b-b02e-9b69e89343b3"
+      Hint: Subheadline
+      Value: |
+        Please provide the e-mail address you provided when you registered. We will send you a secure link to reset your password. Can&rsquo;t remember which email you used? <a href="~/link.aspx?_id=7DC6955348134956AC32F8B4C65AE686&amp;_z=z" class="link-underline text-alpha">Retrieve your log in email</a>
+    - ID: "fa0acb1c-9179-4b4a-8b3a-edb4efd15c88"
+      Hint: Request Link
+      Value: Request Reset Link

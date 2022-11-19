@@ -1,0 +1,29 @@
+﻿---
+ID: "8e3cfbbb-bddf-462b-a2da-155bdc560606"
+Parent: "78439c2d-bb75-42e5-a04d-1ec3582aa4e9"
+Template: "78439c2d-bb75-42e5-a04d-1ec3582aa4e9"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Navigation/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{F156A73B-CD0B-4B51-8818-A77DD37E93DA}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180713T210323Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

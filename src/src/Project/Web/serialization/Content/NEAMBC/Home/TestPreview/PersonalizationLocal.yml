@@ -1,0 +1,82 @@
+﻿---
+ID: "a2f282b3-4843-4bf3-8cd5-6c3a4495938b"
+Parent: "5c96b375-df05-4aa0-9df1-29ba95d6453c"
+Template: "b136d132-50e9-43d2-acc8-83576d5eb51b"
+Path: /sitecore/content/NEAMBC/Home/TestPreview/PersonalizationLocal
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9B2E8752-7C8D-4090-ACBF-A5A0A18DDDA8}"
+              p:after="*[1=2]"
+              s:ds="{D15652CC-D1AC-46E0-84A5-3DF59433A95D}"
+              s:id="{E4849C82-EFA3-40B6-AF5F-5D19B65AB73F}"
+              s:par=""
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{E85CAFBC-DD85-4372-A6F9-423FF294B8D5}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="98E4E1F0A8A247C7832440515B16499E"
+                        s:id="{8FCC0B6B-B01E-4EFB-B059-6ECCB49F00EC}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{8800EC50-DD84-4E4E-BE58-6F98941618E7}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="BE28A2A32016457EB809F3A402879206"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{D15652CC-D1AC-46E0-84A5-3DF59433A95D}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="B36D176A7FD841CCB97B56BCE4881C6A"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="A2512EEF48CB41FA88F35D42B2C7F97A"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{AEF2EE2A-A54B-45B3-9DF8-5575B58E93CD}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200622T225838Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: PersonalizationLocal

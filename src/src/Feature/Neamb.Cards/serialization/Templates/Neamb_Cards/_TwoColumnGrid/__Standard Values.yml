@@ -1,0 +1,26 @@
+﻿---
+ID: "b1dae2e0-195d-42dc-9d68-dad8015d9bac"
+Parent: "b57e3f6f-9906-40cd-bfe9-9be52ee8c16a"
+Template: "b57e3f6f-9906-40cd-bfe9-9be52ee8c16a"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Cards/_TwoColumnGrid/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24086b25-e099-41f7-b74d-60b5ac7068b0"
+      Hint: Headline
+      Value: Insert your headline here
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180529T191839Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,19 @@
+﻿@model Neambc.Neamb.Feature.Cards.Models.TwoColumnGridDTO
+
+<section class="c-028">
+    <div class="container">
+        <div class="col-md-12 row-grid">
+            @Html.Partial("~/Views/Neamb.Cards/TwoColumnGridHeader.cshtml")
+            <div class="items">
+                <div class="row row-eq-height">
+                    <div class="col-md-6">
+                        @Html.Sitecore().DynamicPlaceholder("two-column-grid-item-col1")
+                    </div>
+                    <div class="col-md-6">
+                        @Html.Sitecore().DynamicPlaceholder("two-column-grid-item-col2")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="TopicPage" urlpath="/UITest/UI%20goal%20topic">
+      <sections>
+        <section name="Component">
+        </section>
+        <section name="itemtaxprep">
+          <controls>
+            <control key="Topic_tax_prep" xpath="//a[@href='/personal-finance/which-tax-prep-program-is-right-for-you']"/>
+          </controls>
+        </section>
+        <section name="items">
+          <controls>
+            <control key="Topic_item_tax" xpath="//*[@id='items']/div[1]/a"/>
+          </controls>
+        </section>
+        <section name="seemore">
+          <controls>
+            <control key="Topic_seemore" xpath="//a[@class='more-items']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

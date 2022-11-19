@@ -1,0 +1,22 @@
+﻿---
+ID: "c5c68dd7-d7b3-4b46-a66a-003fb97a2255"
+Parent: "0175a916-9b04-4f6c-bd8f-d9e2ef4afb18"
+Template: "0175a916-9b04-4f6c-bd8f-d9e2ef4afb18"
+Path: /sitecore/templates/NEAMB/Foundation/Neamb_Category/_Partner/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180418T150842Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "78c54e22-b4df-4ca0-9b70-ed66a357cd6a"
+      Hint: Logo
+      Value: |
+        <image mediapath="" alt="Partner+logo" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{70FBF785-B874-4898-B492-861BC1FEE977}" />

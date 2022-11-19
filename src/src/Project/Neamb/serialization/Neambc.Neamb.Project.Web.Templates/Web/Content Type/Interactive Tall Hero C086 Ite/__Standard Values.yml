@@ -1,0 +1,36 @@
+﻿---
+ID: "a8ae68ac-8a22-45d5-a506-e82bf52b565b"
+Parent: "f65b1c2d-e32a-4f92-9930-96dd22e81e08"
+Template: "f65b1c2d-e32a-4f92-9930-96dd22e81e08"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Interactive Tall Hero C086 Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0106fb5d-a3d8-4ef7-b1f4-837242797dab"
+      Hint: Headline Text
+      Value: |
+        <h5>Insert your text Here</h5>
+        <h1>Insert your text Here</h1>
+        <p>Insert your text Here</p>
+        <p>Insert your text Here</p>
+    - ID: "115df8c0-72bb-4baa-bac1-8625fd601589"
+      Hint: Footer Text
+      Value: <p>Insert your text Here</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T153049Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9c83f59c-2590-41bb-b865-3d15ae8b732c"
+      Hint: Button Link
+      Value: |
+        <link text="Check my options" linktype="anchor" url="customScrollToByClass('loan-listing');" anchor="customScrollToByClass('loan-listing');" title="" class="" />
+    - ID: "f6161389-14bf-4958-b45a-3b3d5623a438"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D5D3DA6-F7EA-4C19-8C89-A3B51AF8DFC2}" />

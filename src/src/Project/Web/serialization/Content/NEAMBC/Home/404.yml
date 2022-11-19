@@ -1,0 +1,55 @@
+﻿---
+ID: "d99a0545-09d3-4ef9-adbd-4d0d231e1e03"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "d613828e-0662-45f9-9a35-d1c6c47271e8"
+Path: /sitecore/content/NEAMBC/Home/404
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 3400
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|ar|sitecore\SEIUMB Approver|pe|-item:create|-item:delete|-item:admin|pd|-item:create|-item:delete|-item:admin|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T030859Z
+    - ID: "25df7e83-4554-4b36-98d2-6359d8c7df59"
+      Hint: Body
+      Value: |
+        <p>We are sorry. We can't find the page you requested.</p>
+        <p>You may have received this message because we recently updated a link, you followed an old link to get to us, or because there's something we need to fix! (<a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Tell us about it</a>)</p>
+        <p>If you used a bookmark in your browser to get here, you may want to update that so we won&rsquo;t run into each other like this again.</p>
+        <p>Please accept our apologies for any inconvenience. Thank you for visiting SEIUMB.com.</p>
+        
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Page Not Found
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171205T233542Z
+    - ID: "25df7e83-4554-4b36-98d2-6359d8c7df59"
+      Hint: Body
+      Value: |
+        <p>Lo sentimos. No podemos encontrar la p&aacute;gina que ha solicitado.</p>
+        <p>Es posible que haya recibido este mensaje porque actualizamos un enlace recientemente, usted utiliz&oacute; un enlace desactualizado para acceder a nuestro sitio o porque necesita solucionar un problema. <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Reporte este error</a>.</p>
+        <p>Si utiliz&oacute; un enlace favorito en su navegador, tal vez quiera actualizarlo para no obtener este mensaje de error nuevamente.</p>
+        <p>Por favor acepte nuestras disculpas por el inconveniente. Gracias por visitar SEIUMB.com.</p>
+        
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Página no Encontrada

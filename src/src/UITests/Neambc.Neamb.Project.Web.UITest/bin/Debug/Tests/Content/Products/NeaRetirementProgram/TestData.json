@@ -1,0 +1,33 @@
+{
+  "SecurityBenefit": [
+    [ "nea.jessica@gmail.com", "secret12" ]
+  ],
+  "InvestmentProducts": [
+    [ "nea.jessica@gmail.com", "secret12" ]
+  ],
+  "ColdState": [
+    [
+      "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "WarmState": [
+    [
+      "999",
+      "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Access Your Account','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Retirement Program','ctaText':'Access Your Account','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "HotState": [
+    [
+      "nea.nadine@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'product cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options','clickHref':'https://www.securitybenefit.com/sb_leads/api/post'},this)",
+      "dataLayerPush({'event':'secondary cta','productName':'NEA Retirement Program','ctaText':'Access Your Account','clickHref':'https://www.securitybenefit.com/sb_leads/api/post'},this)",
+      "dataLayerPush({'event':'product cta','productName':'NEA Retirement Program','ctaText':'Learn About Investment Options','clickHref':'https://www.securitybenefit.com/sb_leads/api/post'},this)",
+      "dataLayerPush({'event':'secondary cta','productName':'NEA Retirement Program','ctaText':'Access Your Account','clickHref':'https://www.securitybenefit.com/sb_leads/api/post'},this)"
+    ]
+  ]
+}

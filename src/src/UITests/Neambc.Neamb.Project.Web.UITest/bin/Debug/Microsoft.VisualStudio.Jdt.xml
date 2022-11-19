@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.Jdt</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger">
+            <summary>
+            External logger
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogMessage(System.String)">
+            <summary>
+            Logs a message
+            </summary>
+            <param name="message">The message text</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogMessage(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Logs a message
+            </summary>
+            <param name="message">The message</param>
+            <param name="fileName">The full path to the file that caused the message. Can be null</param>
+            <param name="lineNumber">The line that caused the message</param>
+            <param name="linePosition">The position in the line that caused the message</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogWarning(System.String)">
+            <summary>
+            Logs a warning
+            </summary>
+            <param name="message">The warning message</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogWarning(System.String,System.String)">
+            <summary>
+            Logs a warning
+            </summary>
+            <param name="message">The warning message</param>
+            <param name="fileName">The full path to the file that caused the warning. Can be null</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogWarning(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Logs a warning
+            </summary>
+            <param name="message">The warning message</param>
+            <param name="fileName">The full path to the file that caused the warning. Can be null</param>
+            <param name="lineNumber">The line that caused the warning</param>
+            <param name="linePosition">The position in the line that caused the warning</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogError(System.String)">
+            <summary>
+            Logs an error
+            </summary>
+            <param name="message">The error message</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogError(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Logs an error
+            </summary>
+            <param name="message">The error message</param>
+            <param name="fileName">The full path to the file that caused the exception. Can be null</param>
+            <param name="lineNumber">The line that caused the exception</param>
+            <param name="linePosition">The position in the line that caused the exception</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogErrorFromException(System.Exception)">
+            <summary>
+            Logs an error from an exception
+            </summary>
+            <param name="ex">The exception that caused the error</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.IJsonTransformationLogger.LogErrorFromException(System.Exception,System.String,System.Int32,System.Int32)">
+            <summary>
+            Logs an error from an exception
+            </summary>
+            <param name="ex">The exception that caused the error</param>
+            <param name="fileName">The full path to the file that caused the exception. Can be null</param>
+            <param name="lineNumber">The line that caused the exception</param>
+            <param name="linePosition">The position in the line that caused the exception</param>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.ErrorLocation">
+            <summary>
+            The file that caused the exception
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.ErrorLocation.None">
+            <summary>
+            Represents no location set
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.ErrorLocation.Source">
+            <summary>
+            Represents the source file
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.ErrorLocation.Transform">
+            <summary>
+            Represents the transform file
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtException">
+            <summary>
+            Exception thrown on JDT error
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtException"/> class.
+            </summary>
+            <param name="message">The exception message</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtException.#ctor(System.String,Microsoft.VisualStudio.Jdt.ErrorLocation)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtException"/> class.
+            </summary>
+            <param name="message">The exception message</param>
+            <param name="location">The file that generated the exception</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtException.#ctor(System.String,Microsoft.VisualStudio.Jdt.ErrorLocation,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtException"/> class.
+            </summary>
+            <param name="message">The exception message</param>
+            <param name="location">The file that generated the exception</param>
+            <param name="lineNumber">The line that caused the error</param>
+            <param name="linePosition">The position in the lite that caused the error</param>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtException.LineNumber">
+            <summary>
+            Gets the line number of the exception
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtException.LinePosition">
+            <summary>
+            Gets the line position of the exception
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtException.Location">
+            <summary>
+            Gets the name of the file that generated the exception
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtException.FromLineInfo(System.String,Microsoft.VisualStudio.Jdt.ErrorLocation,Newtonsoft.Json.IJsonLineInfo)">
+            <summary>
+            Returns a <see cref="T:Microsoft.VisualStudio.Jdt.JdtException"/> with line info
+            </summary>
+            <param name="message">The exception message</param>
+            <param name="location">The file that generated the exception</param>
+            <param name="lineInfo">The line info of the object that caused the error</param>
+            <returns>A new instance of <see cref="T:Microsoft.VisualStudio.Jdt.JdtException"/></returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtExtensions">
+            <summary>
+            Defines extension methods used in JDT
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtExtensions.GetJdtProperties(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Gets all the properties within the object that correspond to JDT syntax
+            </summary>
+            <param name="objectToSearch">The object to search</param>
+            <returns>An enumerable of properties that start with the JDT prefix</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtExtensions.IsCriticalException(System.Exception)">
+            <summary>
+            Checks if an exception is critical
+            </summary>
+            <param name="ex">The exception to check</param>
+            <returns>True if the exception is critical and should not be caught</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtExtensions.CloneWithLineInfo(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Clones a <see cref="T:Newtonsoft.Json.Linq.JObject"/> preserving the line information
+            </summary>
+            <param name="objectToClone">The object to clone</param>
+            <returns>A clone of the object with its line info</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtUtilities">
+            <summary>
+            Utilities class for handling JSON files
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.JdtUtilities.JdtSyntaxPrefix">
+            <summary>
+            The prefix for all JDT syntax
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.JdtUtilities.lineInfoHandling">
+            <summary>
+            The cached line info handling to use, based on Newtonsoft.Json version
+            https://github.com/JamesNK/Newtonsoft.Json/issues/1249
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtUtilities.IsJdtSyntax(System.String)">
+            <summary>
+            Wheter the given key corresponds to a JDT verb
+            </summary>
+            <param name="key">The JSON key to analyze</param>
+            <returns>True if the key corresponds to a verb</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtUtilities.GetJdtSyntax(System.String)">
+            <summary>
+            Gets the JDT syntax in the key
+            </summary>
+            <param name="key">The JDT key, in the correct syntax</param>
+            <returns>The string property. Null if the property does is not JDT syntax</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtUtilities.GetLineInfoHandling">
+            <summary>
+            Gets the <see cref="T:Newtonsoft.Json.Linq.LineInfoHandling"/> depending on the Newtonsoft version
+            This is due to a bug in previous versions of JSON.Net that loaded line info on ignore and vice-versa
+            See https://github.com/JamesNK/Newtonsoft.Json/pull/1250
+            </summary>
+            <returns>The correct line info handling</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JsonTransformation">
+            <summary>
+            Represents a transformation based on a JSON file using JDT
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformation.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JsonTransformation"/> class.
+            </summary>
+            <param name="transformFile">The path to the file that specifies the transformation</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformation.#ctor(System.String,Microsoft.VisualStudio.Jdt.IJsonTransformationLogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JsonTransformation"/> class with an external logger.
+            </summary>
+            <param name="transformFile">The path to the file that specifies the transformation</param>
+            <param name="logger">The external logger</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformation.#ctor(System.IO.Stream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JsonTransformation"/> class.
+            </summary>
+            <param name="transform">The stream containing the JSON that specifies the transformation</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformation.#ctor(System.IO.Stream,Microsoft.VisualStudio.Jdt.IJsonTransformationLogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JsonTransformation"/> class with an external logger.
+            </summary>
+            <param name="transform">The stream containing the JSON that specifies the transformation</param>
+            /// <param name="logger">The external logger</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformation.Apply(System.String)">
+            <summary>
+            Transforms a JSON object
+            </summary>
+            <param name="sourceFile">The object to be transformed</param>
+            <returns>The stream with the result of the transform</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformation.Apply(System.IO.Stream)">
+            <summary>
+            Transforms a JSON object
+            </summary>
+            <param name="source">The object to be transformed</param>
+            <returns>The stream with the result of the transform</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger">
+            <summary>
+            Logger wrapper for JDT transformations
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger.#ctor(Microsoft.VisualStudio.Jdt.IJsonTransformationLogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger"/> class.
+            </summary>
+            <param name="extLogger">External logger to be used. Can be null.</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger.#ctor(System.String,Microsoft.VisualStudio.Jdt.IJsonTransformationLogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger"/> class.
+            </summary>
+            <param name="transformationFile">The file that specifies the transformations</param>
+            <param name="extLogger">External logger to be used. Can be null.</param>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger.SourceFile">
+            <summary>
+            Gets or sets the source file of the current transformation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger.TransformFile">
+            <summary>
+            Gets the transformation file of the current transformation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger.HasLoggedErrors">
+            <summary>
+            Gets a value indicating whether the logger has logged errrors
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger.LogErrorFromException(System.Exception)">
+            <summary>
+            Logs an error from an internal exception
+            </summary>
+            <param name="exception">The exception to log</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger.LogWarning(System.String,Microsoft.VisualStudio.Jdt.ErrorLocation,Newtonsoft.Json.IJsonLineInfo)">
+            <summary>
+            Logs a warning according to the line info
+            </summary>
+            <param name="message">The warning message</param>
+            <param name="location">The file that caused the warning</param>
+            <param name="lineInfo">The information of the line that caused the warning</param>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtAttributeExtensions">
+            <summary>
+            Implements extensions for <see cref="T:Microsoft.VisualStudio.Jdt.JdtAttributes"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtAttributeExtensions.FullName(Microsoft.VisualStudio.Jdt.JdtAttributes)">
+            <summary>
+            Get the full name of an attribute, with the JDT prefix
+            </summary>
+            <param name="attribute">The attribute</param>
+            <returns>A string with the full name of the requested attribute</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtAttributeExtensions.GetByName(System.Collections.Generic.IEnumerable{Microsoft.VisualStudio.Jdt.JdtAttributes},System.String)">
+            <summary>
+            Gets a <see cref="T:Microsoft.VisualStudio.Jdt.JdtAttributes"/> from an enumerable based on name
+            </summary>
+            <param name="collection">The enumerable to search</param>
+            <param name="name">The name of the attribute</param>
+            <returns>The attribute with that name of <see cref="F:Microsoft.VisualStudio.Jdt.JdtAttributes.None"/> if no attribute was found</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtAttributes">
+            <summary>
+            Valid JDT attributes
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.JdtAttributes.None">
+            <summary>
+            Represents an non existant attribute
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.JdtAttributes.Path">
+            <summary>
+            The JDT path attribute
+            </summary>
+        </member>
+        <member name="F:Microsoft.VisualStudio.Jdt.JdtAttributes.Value">
+            <summary>
+            The JDT path attribute
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtAttributeValidator">
+            <summary>
+            Validator for JDT attributes within a verb object
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtAttributeValidator.#ctor(Microsoft.VisualStudio.Jdt.JdtAttributes[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtAttributeValidator"/> class.
+            </summary>
+            <param name="validAttributes">The attributes that are valid</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtAttributeValidator.ValidateAndReturnAttributes(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Validates the object and returns the appropriate attributes contained within it.
+            Throws if an invalid jdt attribute is found.
+            </summary>
+            <param name="transformObject">The object to validade</param>
+            <returns>A dictionary with the JToken attributes of each valid attribute.
+            An empty dictionary is returned if no valid properties are found</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtArrayProcessor">
+            <summary>
+            Base for a processor that handles array values
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtArrayProcessor.Process(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JObject,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtArrayProcessor.ProcessCore(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JToken,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <summary>
+            The core transformation logic. Arrays are treated as the transform values
+            </summary>
+            <param name="source">Object to be transformed</param>
+            <param name="transformValue">Value of the transform</param>
+            <param name="logger">The transformation context logger</param>
+            <returns>True if transforms should continue</returns>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtArrayProcessor.Transform(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JToken,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <summary>
+            Performs the initial logic of processing arrays.
+            Arrays cause the transform to be applied to each value in them
+            </summary>
+            <param name="source">Object to be transformed</param>
+            <param name="transformValue">Value of the transform</param>
+            <param name="logger">The transformation context logger</param>
+            <returns>True if transforms should continue</returns>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtDefault">
+            <summary>
+            Represents the default JDT transformation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtDefault.Verb">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtDefault.Process(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JObject,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtMerge">
+            <summary>
+            Represents the Merge transformation
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtMerge.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtMerge"/> class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtMerge.Verb">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtMerge.ProcessCore(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JToken,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtProcessor">
+            <summary>
+            Represents a transformation
+            </summary>
+            <summary>
+            The JdtProcessor chain
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtProcessor.Verb">
+            <summary>
+            Gets the JDT verb corresponding to this transformation.
+            Can be null or empty.
+            Does not include the preffix (@jdt.)
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtProcessor.FullVerb">
+            <summary>
+            Gets the full verb corresponding the to the transformation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtProcessor.Successor">
+            <summary>
+            Gets the successor of the current transformation
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtProcessor.ProcessTransform(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JObject,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <summary>
+            Executes the entire transformation with the given objects
+            Mutates the source object
+            </summary>
+            <param name="source">Object to be transformed</param>
+            <param name="transform">Object that specifies the transformation</param>
+            <param name="logger">The logger for the transformation</param>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtProcessor.Process(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JObject,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <summary>
+            Executes the transformation
+            </summary>
+            <param name="source">Object to be transformed</param>
+            <param name="transform">Object specifying the transformation</param>
+            <param name="logger">The logger for the transformation</param>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtProcessor.JdtEndOfChain">
+            <summary>
+            Represents the end of the transformation chain
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtRecurse">
+            <summary>
+            Represents a recursive JDT transformation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtRecurse.Verb">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtRecurse.Process(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JObject,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtRemove">
+            <summary>
+            Represents the Remove transformation
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtRemove.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtRemove"/> class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtRemove.Verb">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtRemove.ProcessCore(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JToken,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtRename">
+            <summary>
+            Represents the Rename transformation
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtRename.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtRename"/> class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtRename.Verb">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtRename.ProcessCore(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JToken,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtReplace">
+            <summary>
+            Represents the Replace transformation
+            </summary>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtReplace.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.VisualStudio.Jdt.JdtReplace"/> class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtReplace.Verb">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtReplace.ProcessCore(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JToken,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.JdtValidator">
+            <summary>
+            Validates the JDT verbs in the transformation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtValidator.ValidVerbs">
+            <summary>
+            Gets set of the valid verbs for the transformation
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.JdtValidator.Verb">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.VisualStudio.Jdt.JdtValidator.Process(Newtonsoft.Json.Linq.JObject,Newtonsoft.Json.Linq.JObject,Microsoft.VisualStudio.Jdt.JsonTransformationContextLogger)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Jdt.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.DefaultSourceFileName">
+            <summary>
+              Looks up a localized string similar to Source.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.DefaultTransformFileName">
+            <summary>
+              Looks up a localized string similar to Transform.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_InvalidAttribute">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid attribute for this transformation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_InvalidAttributes">
+            <summary>
+              Looks up a localized string similar to Invalid transformation attributes.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_InvalidRemoveValue">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid transform value for Remove.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_InvalidRenameValue">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid transform value for Rename.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_InvalidVerb">
+            <summary>
+              Looks up a localized string similar to {0} is not a valid JDT verb.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_MergeAttributes">
+            <summary>
+              Looks up a localized string similar to Merge requires both path and value.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_PathContents">
+            <summary>
+              Looks up a localized string similar to Path attribute must be a string.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_RemoveAttributes">
+            <summary>
+              Looks up a localized string similar to Remove requires the path attribute.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_RemoveRoot">
+            <summary>
+              Looks up a localized string similar to Cannot remove root.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_RenameAttributes">
+            <summary>
+              Looks up a localized string similar to Rename requires both path and value attributes.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_RenameNode">
+            <summary>
+              Looks up a localized string similar to Cannot rename node.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_ReplaceAttributes">
+            <summary>
+              Looks up a localized string similar to Replace requires both path and value attributes.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_ReplaceRoot">
+            <summary>
+              Looks up a localized string similar to Cannot replace root.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.ErrorMessage_ValueContents">
+            <summary>
+              Looks up a localized string similar to Value attribute must be a string.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.WarningMessage_NodeNotFound">
+            <summary>
+              Looks up a localized string similar to Node {0} was not found.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.WarningMessage_NoResults">
+            <summary>
+              Looks up a localized string similar to No nodes match the given path.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Jdt.Resources.WarningMessage_UnableToRemove">
+            <summary>
+              Looks up a localized string similar to Unable to remove node.
+            </summary>
+        </member>
+    </members>
+</doc>

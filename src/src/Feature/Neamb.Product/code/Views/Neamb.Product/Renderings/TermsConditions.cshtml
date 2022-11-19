@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model RenderingModel
+
+<div id="terms-conditions">
+    <section class="section-normal bg-gray terms-conditions">
+        <div class="container">
+            <div class="col-md-12">
+                @Html.Sitecore().Field(Templates._Product.Fields.TermsAndConditions, Model.Item)
+            </div>
+        </div>
+    </section>
+</div>

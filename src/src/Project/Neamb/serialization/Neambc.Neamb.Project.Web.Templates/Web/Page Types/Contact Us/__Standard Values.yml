@@ -1,0 +1,81 @@
+﻿---
+ID: "2b9d8bb5-5367-4108-aee7-3c3a494c58b1"
+Parent: "073a5aaf-424c-410f-8958-f6f650920186"
+Template: "073a5aaf-424c-410f-8958-f6f650920186"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Contact Us/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{286FC214-7E1B-4AFC-953C-801D676143D5}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{F290A33E-3924-4EFC-B2D2-0A99F8938E98}" />
+        <r
+          id="{0CEC031F-C10A-40DC-81E7-BF03B75B1064}"
+          ph="body"
+          uid="{7BB6F9AC-5C8C-4F97-8358-56E8496EC8F7}" />
+        <r
+          ds=""
+          id="{4D431C8E-2BB5-455D-9D25-7DDC455E975E}"
+          par=""
+          ph="body"
+          uid="{7B9EE877-6515-4077-A609-46F2B5E1163A}"
+          ccb="Clear on publish" />
+        <r
+          id="{F1F1CC8C-C26A-478C-9F14-1EFD2A6F34CC}"
+          ph="body"
+          uid="{EE31CFC6-477B-4B4F-9166-55E8B26A6855}" />
+        <r
+          id="{983361A5-A0CB-4BAD-BE0E-BA555BDA2D5A}"
+          ph="chat"
+          uid="{BA24397B-9DD0-4317-A821-D4A495533109}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{EFEECFB3-799E-4159-81C1-E1A57952D59D}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{B471998E-CC06-4E30-ACBB-D74F5AE3662C}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{B60168BA-1E2C-471D-910F-33760CE42213}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T202148Z
+    - ID: "7f6652fc-16bb-4bf5-a67a-4de01a776465"
+      Hint: Chat Snippet
+      Value: "{04F6FC15-782E-41C6-ACE1-30C0E5275B0F}"
+    - ID: "ae14ecde-5842-408e-83f8-98a1a75db1d9"
+      Hint: Required Captcha error
+      Value: Required field

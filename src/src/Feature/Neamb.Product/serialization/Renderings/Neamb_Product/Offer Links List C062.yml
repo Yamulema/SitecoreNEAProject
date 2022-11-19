@@ -1,0 +1,27 @@
+﻿---
+ID: "85b81481-bb6f-480b-85bf-6e22fba30280"
+Parent: "8c963cf0-8e65-481f-b3f1-306c43e75720"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Product/Offer Links List C062
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{0DF50B62-3518-41A8-9246-DAF055A5DF00}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{6BB679DA-15F4-4DC2-B72F-945BB9D0C2FA}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: ProductOffer
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Product.Controllers.ProductOfferController,Neambc.Neamb.Feature.Product
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181016T145830Z

@@ -1,0 +1,84 @@
+﻿---
+ID: "a9b37507-e25f-43a3-805e-74c4d1e5a40e"
+Parent: "e1395837-55b9-481d-a544-c2538bb3ab55"
+Template: "e1395837-55b9-481d-a544-c2538bb3ab55"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Membership Card Login Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          par=""
+          ph="header"
+          uid="{B83D9EC0-D1A2-44DF-8A3D-83673477BEC0}" />
+        <r
+          id="{574AF6BF-FD5F-4416-892A-BC388912C219}"
+          ph="body"
+          uid="{4FA0202E-C2F6-4331-BE2B-DCF6BE69FA38}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          par=""
+          ph="footer"
+          uid="{D39752B4-8C39-4968-A47F-393B8074F6CE}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ac5bfae-3b0f-45b2-9708-c71f48d5c4f7"
+      Hint: Salutation
+      Value: "Hi, []!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180816T162235Z
+    - ID: "3cb714a9-e394-4ad2-be03-78369c455897"
+      Hint: Not You
+      Value: "Not []?"
+    - ID: "42fe4141-f134-4473-8f32-b8490f490d26"
+      Hint: Show Text
+      Value: Show Password
+    - ID: "470fd7bc-46a1-4dff-b800-a6b92e012b2f"
+      Hint: Account Already Locked Valid Token
+      Value: This account has been locked due to multiple unsuccessful attempts. Please check your email for password reset instructions. Also check your Spam or Bulk mail folder, just to be sure.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7d6fc6d0-c286-423b-a9da-11725a9f4f79"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "adc024ef-2ab6-4b83-82d4-6d5ef2b4019a"
+      Hint: Account Locked
+      Value: This account is locked due to too many user attempts. A password reset link has been sent to the email for this account.
+    - ID: "bdfab9b4-852a-422f-a7ed-0721aaaec986"
+      Hint: Tooltip
+      Value: Attempt(s).
+    - ID: "c5ec4f8d-f57a-499f-ae63-72a30b73c119"
+      Hint: Login
+      Value: Login
+    - ID: "c959acc8-0467-4305-b795-5301b8aec278"
+      Hint: Time Out
+      Value: We are experiencing technical difficulties at the moment, please try again later.
+    - ID: "cf4a9435-a9b5-45ea-9a61-a8dbecda378b"
+      Hint: Label
+      Value: Password
+    - ID: "d3a1d835-e131-4d20-b372-dc252d9968f4"
+      Hint: Invalid
+      Value: We&rsquo;re sorry. The password provided does not match our records. We are unable to confirm your membership. Please click here&nbsp;to try again.
+    - ID: "d63ce1da-b54b-49d4-a490-61382ecbf359"
+      Hint: Empty Field
+      Value: Please insert your password.

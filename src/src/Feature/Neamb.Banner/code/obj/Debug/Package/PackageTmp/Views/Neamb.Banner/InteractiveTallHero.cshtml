@@ -1,0 +1,50 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Banner
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{ 
+    Sitecore.Data.Fields.LinkField linkField = Model.Item.Fields[Templates.InteractiveTallHero.Fields.ButtonLink];
+    String buttonText = linkField.Text;
+    String buttonUrl = String.Empty;
+    String onClickEvent = String.Empty;
+    String targetWindow = linkField.Target;
+
+    switch (linkField.LinkType.ToLower())
+    {
+        case "internal":
+            buttonUrl = Sitecore.Links.LinkManager.GetItemUrl(linkField.TargetItem);
+            break;
+        case "media":
+            Sitecore.Data.Items.MediaItem media = new Sitecore.Data.Items.MediaItem(linkField.TargetItem);
+            buttonUrl = Sitecore.StringUtil.EnsurePrefix('/', Sitecore.Resources.Media.MediaManager.GetMediaUrl(media));
+            break;
+        case "anchor":
+            // Prefix anchor link with # if link if not empty
+            buttonUrl = !String.IsNullOrWhiteSpace(linkField.Anchor) ? "#" + linkField.Anchor : String.Empty;
+            onClickEvent = !String.IsNullOrWhiteSpace(linkField.Anchor) ? "javascript:" + linkField.Anchor + (linkField.Anchor.EndsWith(";") ? String.Empty : ";") + " return false;" : String.Empty;
+            break;
+        case "external":
+        case "mailto":
+        case "javascript":
+            buttonUrl = linkField.Url;
+            break;
+    }
+}
+
+<section class="bg-blue loan-hero">
+    <div class="hero-banner-desktop" style="background-image: url('@Model.Item.ImageUrl(Templates.InteractiveTallHero.Fields.Image)');">
+        <div class=" black-bg">
+            <div class="container">
+                <div class="col-md-7 col-sm-10 col-12 hero-loan-content">
+                    @Html.Sitecore().Field(Templates.InteractiveTallHero.Fields.HeadlineText, Model.Item)
+                    <a class="btn btn-loan btn-white m-t-sm"
+                       onclick="@(onClickEvent)" href="@(String.IsNullOrWhiteSpace(buttonUrl) ? "#" : buttonUrl)" @Html.Raw(String.IsNullOrWhiteSpace(targetWindow) ? String.Empty : "target='" + targetWindow + "'")>@(buttonText)</a>
+                    <div class="color-d">
+                        @Html.Sitecore().Field(Templates.InteractiveTallHero.Fields.FooterText, Model.Item)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

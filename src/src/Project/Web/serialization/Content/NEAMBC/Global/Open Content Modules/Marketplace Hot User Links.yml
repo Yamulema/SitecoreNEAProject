@@ -1,0 +1,117 @@
+﻿---
+ID: "a572edf8-0f28-47ad-a755-3297eb61b936"
+Parent: "485e4456-f411-4af3-82d3-afbcd7e61832"
+Template: "96deaf46-f1f2-44fe-baaa-3f424d0a164f"
+Path: /sitecore/content/NEAMBC/Global/Open Content Modules/Marketplace Hot User Links
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201126T203448Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="options">
+        <div class="row options">
+        <div class="small-8 medium-10 large-10 columns">
+        <a href="https://www.rakuten.com/my-account.htm" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'My Cash Back Account', 'clickHref':'https://www.rakuten.com/my-account.htm'},this);" target="_blank" rel="noopener noreferrer">My Cash Back Account</a>
+        </div>
+        <div class="small-4 medium-2 large-2 columns">
+        <a class="mr-2" href="#faq" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'FAQ', 'clickHref':'#faq'},this);">FAQs</a>
+        <a href="#" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Help', 'clickHref':'#'},this);" data-open="help-modal" class="help-modal">Help</a>
+        </div>
+        </div>
+        </section>
+        <!--Help Modal-->
+        <div class="reveal marketplace" id="help-modal" data-reveal>
+                 <h2>Shopping at the SEIU Discount Marketplace is simple and easy!</h2>
+                 <div class="row">
+                     <div class="image-carousel">
+                        <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/1ccbdd29831b4dfe95aa02fa101a9fd6.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/30a128ee2d7f404b9ab1801eb410fcdc.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/fdf5aca3fbd84d769ff6ce4baf4a65a1.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/3286de8d73c64e0e8e69a14b63eb5e10.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/493c6bff78ea4c83971d06cf7dec1f23.ashx" alt="">
+                             </div>
+                     </div>
+                 </div>
+                 <button class="close-button" data-close="" aria-label="Close reveal" type="button">
+                     <span aria-hidden="true">×</span>
+                 </button>
+             </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201209T164846Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="options">
+        <div class="row options">
+        <div class="small-8 medium-10 large-10 columns">
+        <a href="https://www.rakuten.com/my-account.htm" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Mi Cuenta de Cash Back', 'clickHref':'https://www.rakuten.com/my-account.htm'},this);" target="_blank" rel="noopener noreferrer">Mi Cuenta de Cash Back</a>
+        </div>
+        <div class="small-4 medium-2 large-2 columns">
+        <a class="mr-2" href="#faq" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'FAQ', 'clickHref':'#faq'},this);">FAQs</a>
+        <a href="#" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Ayuda', 'clickHref':'#'},this);" data-open="help-modal" class="help-modal">Ayuda</a>
+        </div>
+        </div>
+        </section>
+        
+        <!--Help Modal-->
+        <div class="reveal marketplace" id="help-modal" data-reveal>
+                 <h2>Shopping at the SEIU Discount Marketplace is simple and easy!</h2>
+                 <div class="row">
+                     <div class="image-carousel">
+                        <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/E5D05288CF004926BA57BB3A01BB80EF.ashx" alt="slide 1">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/27DC3279F3E348849D140017670DCED8.ashx" alt="slide 2">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6BCDBFDA17664803894016A651C7A680.ashx" alt="slide 3">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/147A716235E64BD4BAFF02B33A9537C2.ashx" alt="slide 4">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/94897AC2A46A4E879D371498B5E27104.ashx"> alt="slide 5">
+                             </div>
+                     </div>
+                 </div>
+                 <button class="close-button" data-close="" aria-label="Close reveal" type="button">
+                     <span aria-hidden="true">×</span>
+                 </button>
+             </div>

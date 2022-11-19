@@ -1,0 +1,551 @@
+﻿---
+ID: "54b239a4-9eb3-47ed-a393-5da0d9fce874"
+Parent: "01a71e86-7a96-486d-8eed-82fb99928311"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Travel/National Car Rental Discount
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20210201T233400Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{ED7FCFAB-0AF9-4F7F-858C-432B9C11A4A1}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{21E20402-1E5B-4A5B-AE0A-3ED787A567FE}"
+              p:after="r[@uid='{ED7FCFAB-0AF9-4F7F-858C-432B9C11A4A1}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/Body/LeftColumnCard" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU members save up to 20% on car rentals at participating locations around the world. Plus, get unlimited mileage, additional coupon offers and emergency roadside assistance.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{40B6A351-A3A9-4CF5-9481-B401E3E3E5AC}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{82D78378-FE79-4F71-BC84-A196DAAD35DB}" alt="SEIU Member Benefits in partnership with National Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002820Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        <p><strong>* Free Day Offer Terms and Conditions:</strong> Offer valid on 3-day minimum / 5-day maximum rentals of Compact through Fullsize cars in the U.S., Canada and Puerto Rico. Saturday night keep required. Offer valid through 12/31/17.</p>
+        -->
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: National Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Your SEIU member discount code is: <strong>SNEAPBK</strong>. To reserve by phone, please call 1-800-CAR-RENT (227-7368) and reference customer code SNEAPBK, or click above to reserve online.
+        
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NATIONAL CAR RENTAL
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>At National, SEIU members can get on their way—fast.</p>
+        
+        <p>Save up to 20% on car rentals with National. Plus, take advantage of additional coupon offers and save even more! Discounts valid at participating locations around the world. If you choose to enroll in National’s Emerald Club, you’ll also be able to bypass the counter, choose your own car and quickly be on your way!</p>
+        
+        <p>Enjoy these benefits at National:</p>
+        
+        <ul>
+        	<li>Unlimited Mileage</li>
+        	<li>Member discount and coupon offers</li>
+        	<li>24-hour emergency roadside assistance</li>
+        </ul>
+        
+        <p>Click ‘Make a Reservation’ to book your rental now, or be sure to reference the SEIU member customer code at the time of reservation to save on your next rental.</p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{40B6A351-A3A9-4CF5-9481-B401E3E3E5AC}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: National Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Make a Reservation" linktype="external" url="https://partners.rentalcar.com/seiu/" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>SEIU members save up to 20% on car rentals at participating locations around the world. Plus, get unlimited mileage, additional coupon offers and emergency roadside assistance.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: GO LIKE A PRO ON YOUR NEXT TRIP
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: National Car Rental
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{21E20402-1E5B-4A5B-AE0A-3ED787A567FE}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/Body/LeftColumnCard" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 20% with National and SEIU Member Benefits.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1D7D8301-1FDC-4280-82FA-55DFF06E4028}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{82D78378-FE79-4F71-BC84-A196DAAD35DB}" alt="SEIU Member Benefits in partnership with National Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191001T164807Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>By clicking on the link to national.com from seiumb.com and renting using the SEIU Member Benefits/National Car Rental special discount program, you agree that National Car Rental may provide certain information to SEIU Member Benefits. The information provided includes transactional information about your rental but never any personally identifiable information (i.e. name, address, email, etc.) SEIU MB collects this info for analytic and accounting purposes.</p>
+        <!--
+        <p><strong>* Free Day Offer Terms and Conditions:</strong> Offer valid on 3-day minimum / 5-day maximum rentals of Compact through Fullsize cars in the U.S., Canada and Puerto Rico. Saturday night keep required. Offer valid through 12/31/17.</p>
+        -->
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: National Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Reserve Now to book your car rental through National&rsquo;s SEIU Member welcome page. Your discount code will be automatically applied.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NATIONAL CAR RENTAL<sup>&reg;</sup>
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Member savings at participating National locations around the world</li>
+            <li>Free unlimited mileage</li>
+            <li>24-hour roadside assistance</li>
+        </ul>
+        <p>Enjoy discounts of up to 20% as an SEIU member, plus exclusive limited-time offers including free rental days.</p>
+        <p>Join National&rsquo;s Emerald Club to bypass the check-in counter, choose your own car, and get on your way - <em>fast</em>.</p>
+        <p>Click Reserve Now to book your next car rental with National Car Rental.</p>
+        <p>Check out our Rental Car <a href="~/link.aspx?_id=9B34673D9F3346F0B9C6696B962E2363&amp;_z=z">FAQs</a>&nbsp;for more details.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{1D7D8301-1FDC-4280-82FA-55DFF06E4028}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: National Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RESERVE NOW" linktype="external" url="https://partners.rentalcar.com/seiu/" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Save up to 20% with National and SEIU Member Benefits.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 20% with National and SEIU Member Benefits.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191001T164800Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: National Car Rental
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{21E20402-1E5B-4A5B-AE0A-3ED787A567FE}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/Body/LeftColumnCard" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 20% with National and SEIU Member Benefits.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1D7D8301-1FDC-4280-82FA-55DFF06E4028}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{82D78378-FE79-4F71-BC84-A196DAAD35DB}" alt="SEIU Member Benefits in partnership with National Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T233419Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>By clicking on the link to national.com from seiumb.com and renting using the SEIU Member Benefits/National Car Rental special discount program, you agree that National Car Rental may provide certain information to SEIU Member Benefits. The information provided includes transactional information about your rental but never any personally identifiable information (i.e. name, address, email, etc.) SEIU MB collects this info for analytic and accounting purposes.</p>
+        <!--
+        <p><strong>* Free Day Offer Terms and Conditions:</strong> Offer valid on 3-day minimum / 5-day maximum rentals of Compact through Fullsize cars in the U.S., Canada and Puerto Rico. Saturday night keep required. Offer valid through 12/31/17.</p>
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: National Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Reserve Now to book your car rental through National&rsquo;s SEIU Member welcome page. Your discount code will be automatically applied.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NATIONAL CAR RENTAL<sup>&reg;</sup>
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{5A0BCC7F-26DB-4E15-BF57-342634D4B3A1}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{5A0BCC7F-26DB-4E15-BF57-342634D4B3A1}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Member savings at participating National locations around the world</li>
+            <li>Free unlimited mileage</li>
+            <li>24-hour roadside assistance</li>
+        </ul>
+        <p>Enjoy discounts of up to 20% as an SEIU member, plus exclusive limited-time offers including free rental days.</p>
+        <p>Join National&rsquo;s Emerald Club to bypass the check-in counter, choose your own car, and get on your way - <em>fast</em>.</p>
+        <p>Click Reserve Now to book your next car rental with National Car Rental.</p>
+        <p>Check out our Rental Car <a href="~/link.aspx?_id=9B34673D9F3346F0B9C6696B962E2363&amp;_z=z">FAQs</a>&nbsp;for more details.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{1D7D8301-1FDC-4280-82FA-55DFF06E4028}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: National Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RESERVE NOW" linktype="external" url="https://partners.rentalcar.com/seiu/" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Save up to 20% with National and SEIU Member Benefits.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 20% with National and SEIU Member Benefits.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T233419Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: National Car Rental
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B884F28A-8A32-43CB-846F-204BF5E306BC}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{0909D0C0-E87C-4250-88CD-D12151D44CBC}"
+              p:after="r[@uid='{B884F28A-8A32-43CB-846F-204BF5E306BC}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/Body/LeftColumnCard" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Los miembros de SEIU ahorran hasta un 20% en alquileres en las ubicaciones participantes en todo el mundo. Además, recibirá millas ilimitadas, descuentos de cupón adicionales y asistencia de emergencia en el camino las 24 horas.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{40B6A351-A3A9-4CF5-9481-B401E3E3E5AC}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{82D78378-FE79-4F71-BC84-A196DAAD35DB}" alt="SEIU Member Benefits en asociación con National Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172724Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+         <p><strong>* Términos y condiciones de la Oferta de Día Sin Cargo:</strong> Oferta válida para alquileres de automóviles compactos a grandes durante un mínimo de 3 días y un máximo de 5 días en Estados Unidos, Canadá y Puerto Rico. La noche del sábado es obligatoria (Saturday-night-keep). Oferta válida hasta el 31 de diciembre de 2017.</p>
+        -->
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: National Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Su código de descuento para miembros de SEIU es: <strong>SNEAPBK</strong>. Para reservar por teléfono, llame al 1-800-CAR-RENT (227-7368) y mencione el código de cliente SNEAPBK, o haga clic en el botón de arriba para reservar en línea.
+        
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NATIONAL CAR RENTAL
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>En National, los miembros de SEIU pueden llegar rápidamente a su destino.</p>
+        
+        <p>Ahorre hasta un 20% en alquileres con National. Además, aproveche las ofertas de descuentos adicionales y ahorre aún más! Descuentos válidos en ubicaciones participantes en todo el mundo. Si elige inscribirse en Emerald Club de National, también puede evitar las filas en el mostrador, seleccionar su propio automóvil y emprender rápidamente su viaje.</p>
+        
+        <p>Disfrute de estos beneficios en National:</p>
+        
+        <ul>
+        	<li>Millas ilimitadas</li>
+        	<li>Descuentos y cupones para miembros</li>
+        	<li>Asistencia de emergencia en el camino las 24 horas</li>
+        </ul>
+        
+        <p>Haga clic en “Realizar una reserva” para reservar su alquiler ahora, o asegúrese de mencionar el descuento para miembros de SEIU en el momento de la reserva para ahorrar en su próximo alquiler.</p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{40B6A351-A3A9-4CF5-9481-B401E3E3E5AC}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: National Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Realizar una reserva" linktype="external" url="https://partners.rentalcar.com/seiu/?locale=es" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Los miembros de SEIU ahorran hasta un 20% en alquileres en las ubicaciones participantes en todo el mundo. Además, recibirá millas ilimitadas, descuentos de cupón adicionales y asistencia de emergencia en el camino las 24 horas.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: IR COMO UN PROFESIONAL EN SU PRÓXIMO VIAJE
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: National Car Rental
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0909D0C0-E87C-4250-88CD-D12151D44CBC}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/Body/LeftColumnCard" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Ahorre hasta un 20% con National y el programa de beneficios para miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1D7D8301-1FDC-4280-82FA-55DFF06E4028}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Regístrese" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{82D78378-FE79-4F71-BC84-A196DAAD35DB}" alt="SEIU Member Benefits en asociación con National Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T150727Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Al hacer clic en el v&iacute;nculo a national.com desde seiumb.com y alquilar un veh&iacute;culo a trav&eacute;s del programa de beneficios para miembros de SIEU o descuentos especiales de National Car Rental, acepta que National Car Rental entregue cierta informaci&oacute;n al Departamento de Beneficios para Miembros de SEIU. La informaci&oacute;n proporcionada incluye los datos de transacciones relacionadas con su alquiler, pero nunca contendr&aacute; ning&uacute;n dato que permita una identificaci&oacute;n personal (su nombre y apellido, domicilio, correo electr&oacute;nico, etc.). El Departamento mencionado recopila esta informaci&oacute;n con fines de an&aacute;lisis y contabilidad.</p>
+        <!--
+         <p><strong>* Términos y condiciones de la Oferta de Día Sin Cargo:</strong> Oferta válida para alquileres de automóviles compactos a grandes durante un mínimo de 3 días y un máximo de 5 días en Estados Unidos, Canadá y Puerto Rico. La noche del sábado es obligatoria (Saturday-night-keep). Oferta válida hasta el 31 de diciembre de 2017.</p>
+        -->
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: National Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Haga clic en &ldquo;Reservar ahora&rdquo; para asegurar su alquiler de autom&oacute;vil a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de National. Su c&oacute;digo de descuento se aplicar&aacute; autom&aacute;ticamente.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NATIONAL CAR RENTAL<sup>&reg;</sup>
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar sesión" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Iniciar sesión
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorros para miembros en las ubicaciones participantes de National en todo el mundo</li>
+            <li>Millas ilimitadas sin cargo</li>
+            <li>Asistencia en carretera las 24</li>
+        </ul>
+        <p>Obtenga descuentos de hasta un 20% como miembro de SEIU, adem&aacute;s de ofertas exclusivas por tiempo limitado que incluyen d&iacute;as de alquiler sin cargo.</p>
+        <p>&Uacute;nase a Emerald Club de National para evitar las filas en el mostrador de alquiler, seleccionar su propio autom&oacute;vil y emprender su viaje <em>con rapidez</em>.</p>
+        <p>Haga clic en &ldquo;Reservar ahora&rdquo; para asegurar su pr&oacute;ximo alquiler de autom&oacute;vil en National Car Rental.</p>
+        <p>Haga clic en nuestras <a href="~/link.aspx?_id=9B34673D9F3346F0B9C6696B962E2363&amp;_z=z">preguntas frecuentes</a>&nbsp;para ver los detalles de nuestros alquileres de autos.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{1D7D8301-1FDC-4280-82FA-55DFF06E4028}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: National Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reservar ahora" linktype="external" url="https://partners.rentalcar.com/seiu/?locale=es" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Ahorre hasta un 20% con National y el programa de beneficios para miembros de SEIU. </p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 20% con National y el programa de beneficios para miembros de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191002T150700Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: National Car Rental

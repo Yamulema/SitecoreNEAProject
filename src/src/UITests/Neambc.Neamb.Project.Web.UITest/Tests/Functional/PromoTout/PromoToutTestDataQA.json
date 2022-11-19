@@ -1,0 +1,24 @@
+{
+  "@jdt.replace": [
+    {
+      "@jdt.path": "$.HotState",
+      "@jdt.value": [
+        [
+          "nea.nadine@gmail.com",
+          "secret12",
+          "dataLayerPush({'event':'product cta','productName':'Omni','ctaText':'Apply Now','clickHref':'https://www.firstnational.com/lynx/#/apply'},this)"
+
+        ]
+      ]
+    },
+    {
+      "@jdt.path": "$.WarmState",
+      "@jdt.value": [
+        [
+          "999",
+          "dataLayerPush({'event':'login cta','productName':'Omni','ctaText':'Apply Now','clickHref':'https://qa.neamb.com/login'},this)"
+        ]
+      ]
+    }
+  ]
+}

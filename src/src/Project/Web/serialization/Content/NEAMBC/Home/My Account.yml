@@ -1,0 +1,74 @@
+﻿---
+ID: "c544123b-e481-4a1f-ad74-8ef77d48ddc7"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "25ce66da-8a53-4341-96d7-dcb60a4228df"
+Path: /sitecore/content/NEAMBC/Home/My Account
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2600
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|ar|sitecore\SEIUMB Approver|pe|-item:create|-item:delete|-item:admin|pd|-item:create|-item:delete|-item:admin|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00e8caac-3ddd-4826-832d-9f936074f128"
+      Hint: ThankYouPage
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{E03711BB-2884-4CCF-A286-1DA5ECFC8835}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T171027Z
+    - ID: "8dd16797-ab4a-4b5a-a65d-dbbc94ff8aa2"
+      Hint: InvalidPassword
+      Value: "Invalid!"
+    - ID: "d9bdfa53-a68c-4e74-bb73-c42689c2f253"
+      Hint: FirstNamePlaceholder
+      Value: first name
+    - ID: "e1214e99-d714-48f7-9eb7-c3949fec6d9b"
+      Hint: ValidPassword
+      Value: "Valid!"
+    - ID: "e54e600f-b4e9-45a9-9281-1197c9575004"
+      Hint: UsernameConfirmationPlaceholder
+      Value: confirm new username
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Profile
+    - ID: "f5a86667-c734-44df-b2b0-3c63fd8fff8d"
+      Hint: NewPassworldPlaceholder
+      Value: new password
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00e8caac-3ddd-4826-832d-9f936074f128"
+      Hint: ThankYouPage
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{E03711BB-2884-4CCF-A286-1DA5ECFC8835}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180103T204515Z
+    - ID: "4bc50b8a-3fd8-4ba0-9a04-e17076ecdc10"
+      Hint: UsernameConfirmationLabel
+      Value: Confirmar Nuevo Usuario*
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "8dd16797-ab4a-4b5a-a65d-dbbc94ff8aa2"
+      Hint: InvalidPassword
+      Value: "¡Inválido!"
+    - ID: "e1214e99-d714-48f7-9eb7-c3949fec6d9b"
+      Hint: ValidPassword
+      Value: "¡Válido!"
+    - ID: "e54e600f-b4e9-45a9-9281-1197c9575004"
+      Hint: UsernameConfirmationPlaceholder
+      Value: confirmar nuevo usuario
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Profile

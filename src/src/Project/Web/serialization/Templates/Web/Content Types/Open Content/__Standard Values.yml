@@ -1,0 +1,32 @@
+﻿---
+ID: "36c0e282-52f3-4ef3-a9c9-5b70d28b4445"
+Parent: "96deaf46-f1f2-44fe-baaa-3f424d0a164f"
+Template: "96deaf46-f1f2-44fe-baaa-3f424d0a164f"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Open Content/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180202T194042Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: Insert your content here.

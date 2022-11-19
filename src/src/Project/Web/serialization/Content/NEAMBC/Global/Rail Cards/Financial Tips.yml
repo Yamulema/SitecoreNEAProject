@@ -1,0 +1,61 @@
+﻿---
+ID: "1e3b0718-bc57-4f65-b6db-e1ad0bc6e93d"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Financial Tips
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180404T185446Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=151946036CFD4F09B31E2861A6920F2D&amp;_z=z"><span style="color: #4f2e84;">6 Reasons Why You Probably Need a Financial Advisor</span></a></p>
+        <p><a href="~/link.aspx?_id=A22E1F7D9D7447B89FF74CA816A04FC1&amp;_z=z"><span style="color: #4f2e84;">The Basics of Creating a Financial Strategy</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: FINANCIAL TIPS
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{AE0A31A7-92BD-44F0-A151-B78FA47703B8}" alt="Financial Tips" height="" width="" hspace="" vspace=""></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180404T185522Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=151946036CFD4F09B31E2861A6920F2D&amp;_z=z" onclick="ga_event('rail module','click','6 reasons why you probably need a financial advisor article esp &gt; article');"><span style="color: #4f2e84;">Seis razones por las que (probablemente) necesitas un asesor financiero</span></a></p>
+        <p><a href="~/link.aspx?_id=A22E1F7D9D7447B89FF74CA816A04FC1&amp;_z=z" onclick="ga_event('rail module','click','the basics of creating a financial strategy article esp &gt; article');"><span style="color: #4f2e84;">Bases para la creaci&oacute;n de una estrategia financiera</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: CONSEJOS FINANCIEROS
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{AE0A31A7-92BD-44F0-A151-B78FA47703B8}" alt="CONSEJOS FINANCIEROS" height="" width="" hspace="" vspace=""></image>

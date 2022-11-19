@@ -1,0 +1,43 @@
+﻿---
+ID: "d3b2e426-c841-4831-9819-184b727686d9"
+Parent: "c23718eb-13d3-417a-80eb-a8942be2b236"
+Template: "c23718eb-13d3-417a-80eb-a8942be2b236"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_SpecialOffer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0347c813-3259-4a38-9745-f0b975ab0d49"
+      Hint: Type
+      Value: "{E310931B-9F0E-4593-AA9B-45CDCEACAB7F}"
+    - ID: "1edc40e1-3e5c-4f20-b608-a2ba6cdfebca"
+      Hint: Eligibility Details
+      Value: |
+        We're sorry, it looks like you are not elligible for this offer. Please review the <a class="text-alpha link-underline" href="~/link.aspx?_id=2351C4D0ECBD4403BED4751C3CF3960A&amp;_z=z">Terms &amp; Conditions</a>&nbsp;for full eligibilty rules. If you believe you are eligible for this program please contact us.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180627T201241Z
+    - ID: "4920407d-e0f3-452f-a769-b7fd09b22bb2"
+      Hint: Login Details
+      Value: |
+        *State, chapter, and membership restrictions may apply. Read <a class="text-alpha link-underline" href="~/link.aspx?_id=2351C4D0ECBD4403BED4751C3CF3960A&amp;_z=z">Terms &amp; Conditions</a> for full eligibility rules.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b544fbaa-7200-49b6-a80e-e6a550a40863"
+      Hint: CTA
+      Value: |
+        <link text="Sign In to Check Eligibility" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />
+    - ID: "d3939dab-3d2c-4ac9-99f8-1f22f9d82387"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "f023d359-4d14-46b7-b0fd-c7a82dc599d6"
+      Hint: Link
+      Value: 
+    - ID: "f3102f8c-2f2f-4648-8682-ec88571c0718"
+      Hint: Name
+      Value: $name

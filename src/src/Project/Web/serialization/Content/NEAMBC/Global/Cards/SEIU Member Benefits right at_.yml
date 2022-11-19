@@ -1,0 +1,77 @@
+﻿---
+ID: "c9bd12cf-0421-4912-a47c-ac4f9db2ed9c"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Member Benefits right at your fingertips 1_2_2020
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{AE2084E3-65CD-43C1-A231-3247FB13750D}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MOBILE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CC3B5081-DB9E-4231-B332-7ADE11F814B8}" alt="Your SEIU Member Benefits right at your fingertips!" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="-/media/5c57ddebefee4b049c48f8938f68fc6e.ashx">Your SEIU Member Benefits … right at your fingertips!</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Add SEIUMB.com to your mobile device for quick and easy access!</p>
+        <div><a href="-/media/5c57ddebefee4b049c48f8938f68fc6e.ashx" class="button panelBtn" onclick="ga_event('small module','click','your seiu member benefits right at your fingertips > button');">SEE HOW</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{AE2084E3-65CD-43C1-A231-3247FB13750D}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MÓVIL
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CC3B5081-DB9E-4231-B332-7ADE11F814B8}" alt="Sus beneficios para miembros de SEIU ... &amp;iexcl;al alcance de su mano!" height="" width="" hspace="" vspace="" ></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="-/media/e5945dfb3fd24b7eab27902277d322f1.ashx">Sus beneficios para miembros de SEIU ... ¡al alcance de su mano!</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>¡Agregue SEIUMB.com a su dispositivo móvil para un acceso rápido y fácil!</p>
+        <div><a href="-/media/e5945dfb3fd24b7eab27902277d322f1.ashx" class="button panelBtn" onclick="ga_event('small module','click','your seiu member benefits right at your fingertips! esp > button');">VER CÓMO</a></div>
+        </div>

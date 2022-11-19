@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="NeaRetirementProgramPage" urlpath="/products/nea-retirement-program">
+      <sections>
+        <section name="Component">
+          <controls>
+            <control key="NeaRetirementProgramPage_Component_Title" xpath="//h1[@class='title p-t-xs']"/>
+            <control key="NeaRetirementProgramPage_Component_Description" xpath="//h3[@class='subtitle text-light m-t-md m-b-md']"/>
+            <control key="NeaRetirementProgramPage_Component_Image" xpath="//img[@class='img-fit']"/>
+            <control key="NeaRetirementProgramPage_Component_Share" xpath="//div[@class='attribution col-md-10 pull-right hidden-xs hidden-sm']"/>
+          </controls>
+        </section>
+        <section name="CtaCold">
+          <controls>
+            <control key="NeaRetirementProgramPage_CtaCold_SignIn" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"/>
+            <control key="Retirement_CtaCold_SignIn" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"/>
+            <control key="Retirement_CtaCold_StickySignIn" xpath="//a[@class='btn btn-blue pull-right m-r-xs']"/>
+          </controls>
+        </section>
+        <section name="CtaWarm">
+          <controls>
+            <control key="NeaRetirementProgramPage_CtaCold_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="NeaRetirementProgramPage_CtaCold_SecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+            <control key="Retirement_CtaWarm_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="Retirement_CtaWarm_SecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+            <control key="Retirement_CtaWarm_StickyPrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="Retirement_CtaWarm_StickySecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+
+          </controls>
+        </section>
+        <section name="CtaHot">
+          <controls>
+            <control key="NeaRetirementProgramPage_CtaHot_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="NeaRetirementProgramPage_CtaHot_SecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+            <control key="Retirement_CtaHot_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="Retirement_CtaHot_SecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+            <control key="Retirement_CtaHot_StickyPrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="Retirement_CtaHot_StickySecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

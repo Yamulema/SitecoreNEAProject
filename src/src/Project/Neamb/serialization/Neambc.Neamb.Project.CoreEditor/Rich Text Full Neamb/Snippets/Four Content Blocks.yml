@@ -1,0 +1,63 @@
+﻿---
+ID: "f972e596-bda1-4e0d-96d2-c68a16aaef4a"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Four Content Blocks
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal">
+    <div class="container">
+    <h2 class="header text-center">Lorem ipsum dolor sit</h2>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="row boxes-container">
+    <div class="col-md-3">
+    <div class="box box-border-top purple">
+    <h3>Phasellus</h3>
+    <p class="text-alpha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus ut ex ultrices.</p>
+    </div>
+    </div>
+    <!-- col-md-3-->
+    <div class="col-md-3">
+    <div class="box box-border-top purple">
+    <h3>Lorem Ipsum consectetur </h3>
+    <p class="text-alpha">Suspendisse sit amet risus ut ex ultrices consequat Suspendisse sit amet risus ut ex ultrices consequat.</p>
+    </div>
+    </div>
+    <!-- col-md-3-->
+    <div class="col-md-3">
+    <div class="box box-border-top purple">
+    <h3>Phasellus</h3>
+    <p class="text-alpha">Suspendisse sit amet risus ut ex ultrices consequat.</p>
+    </div>
+    </div>
+    <!-- col-md-3-->
+    <div class="col-md-3">
+    <div class="box box-border-top purple">
+    <h3>Phasellus</h3>
+    <p class="text-alpha">Suspendisse sit amet risus ut ex ultrices consequat. </p>
+    </div>
+    </div>
+    <!-- col-md-3-->        </div>
+    <!-- boxes-container-->      </div>
+    <!-- col-md-12-->    </div>
+    </div>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T202447Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Four Content Blocks

@@ -1,0 +1,130 @@
+﻿---
+ID: "d03814bf-3ac4-4196-b553-345f3bb47aa8"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Four Content Block Carousel
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal slider-section c-014">
+        <div class="container">
+            <h2 class="header text-center">Don’t miss these exclusive member benefits</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="regular slider content-carousel">
+                            <div>
+                                <div class="card">
+                                    <a href="~/link.aspx?_id=0380487DED2E4D0C968AE36AFE830CCE&amp;_z=z">
+                                        <img class="thumb img-responsive" alt="NEA Complimentary Life Insurance"  src="-/media/6F4672D9A2E94AE69ED35A2D6EA50CA1.ashx?w=100%">
+                                        <h3>Did you know you have no-cost life insurance?</h3>
+                                        <p> Eligible NEA members receive trusted insurance protection. Register yourbeneficiary.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--slider item-->
+    
+                            <div>
+                                <div class="card">
+                                    <a href="~/link.aspx?_id=58212A8EDE794303A9185DAF48BF2E94&amp;_z=z">
+                                        <img class="thumb img-responsive" alt="NEA Student Loan Forgiveness Navigator Powered by SAVI" src="-/media/6F4672D9A2E94AE69ED35A2D6EA50CA1.ashx?w=100%">
+                                        <h3>Can your student loan be forgiven?</h3>
+                                        <p> Use this free tool to see if you are eligible for reduced payments on your federal student loan.
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--slider item-->
+    
+                            <div>
+                                <div class="card">
+                                    <a href="~/link.aspx?_id=EAE17A96F4E7471096FF8202C8FFDC5D&amp;_z=z">
+                                        <img class="thumb img-responsive" alt="NEA Vacations" src="-/media/6F4672D9A2E94AE69ED35A2D6EA50CA1.ashx?w=100%">
+                                        <h3>Get $500 in NEA Travel Dollars</h3>
+                                        <p>Use your NEA Travel Dollars as partial payment on cruises, resorts and hotels.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--slider item-->
+    
+    
+                            <div>
+                                <div class="card">
+                                    <a href="~/link.aspx?_id=F6CA738FAFBE4B34976453DF323703F5&amp;_z=z">
+                                        <img alt="NEA Click &amp; Save" class="thumb img-responsive" src="-/media/6F4672D9A2E94AE69ED35A2D6EA50CA1.ashx?w=100%">
+                                        <h3>Get exclusive member discounts</h3>
+                                        <p>Save big on virtually everything with NEA Click &amp; Save.<sup>®</sup></p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--slider item-->
+    
+    
+    
+                            <div>
+                                <div class="card">
+                                    <a href="~/link.aspx?_id=8AEB85F196814325BFCD00CF8C41E9E4&amp;_z=z">
+                                        <img alt="Amazon.com Gift Card Bonus Offer" class="thumb img-responsive" src="-/media/6F4672D9A2E94AE69ED35A2D6EA50CA1.ashx?w=100%">
+                                        <h3>Get a $200 Amazon.com Gift Card bonus offer</h3>
+                                        <p>With the NEA<sup>®</sup> Cash Rewards Credit Card you can choose the 3% cash back category that’s right for you. Plus get a member exclusive bonus offer!</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--slider item-->
+    
+    
+    
+                            <div>
+                                <div class="card">
+                                    <a href="~/link.aspx?_id=3721276D26BC4E579FE059B615154922&amp;_z=z">
+                                        <img alt="NEA Magazine Service" class="thumb img-responsive"
+                                            src="-/media/6F4672D9A2E94AE69ED35A2D6EA50CA1.ashx?w=100%">
+                                        <h3>Don’t miss out on your two free subscriptions</h3>
+                                        <p>Pick your two free subscriptions from the NEA Magazine Service.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--slider item-->
+    
+    
+    
+                            <div>
+                                <div class="card">
+                                    <a href="~/link.aspx?_id=CCA9DF8D87B543CDBF64EDD158942D72&amp;_z=z">
+                                        <img alt="nea_auto_and_home_insurance_program_286x170" class="thumb img-responsive" src="-/media/6F4672D9A2E94AE69ED35A2D6EA50CA1.ashx?w=100%">
+                                        <h3>NEA Auto insurance offers low, member-only rates and discounts</h3>
+                                        <p>NEA members save an average of $495 on their auto insurance and can skip payments during the summer or holidays.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--slider item-->
+    
+    
+    
+                        </div>
+                        <!--slick-->
+                    </div>
+                    <!--row--->
+    
+                </div>
+                <!-- col-md-12-->
+            </div>
+        </div>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190617T220624Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Four Content Block Carousel

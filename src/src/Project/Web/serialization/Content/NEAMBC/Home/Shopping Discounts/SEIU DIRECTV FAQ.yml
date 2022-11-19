@@ -1,0 +1,146 @@
+﻿---
+ID: "6d2de259-a729-4423-994e-a7ef3d45c6e1"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU DIRECTV FAQ
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20180731T000000Z
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171223T054305Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: DIRECTV FAQs
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{0E362219-ED63-4C58-989F-3B36C4CEF576}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: DIRECTV FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        
+                        <p><strong>How do I subscribe to DIRECTV?</strong><br>
+        To subscribe to DIRECTV, please sign-in on the <a href="~/link.aspx?_id=9650A2129CC94964BA1FC37DA56E9E5F&amp;_z=z">SEIU DIRECTV page</a> and call the toll-free number shown after signing in.</p>
+        
+        <p><strong>Does DIRECTV have an exclusive offer for SEIU members?</strong><br>
+        Each qualifying subscriber that purchases the English CHOICE™ package or above or the Spanish ÓPTIMO MÀS™ package or above is eligible to receive a gift card with a value of $100.00. This offer is valid for new DIRECTV subscribers only and subscribers who have not had an active subscription in the last 24 months. Not valid for renewals of an existing DIRECTV subscription. Prices include monthly equipment fees for up to 4 rooms and the HD DVR monthly service fee.</p>
+        
+        <p><strong>How do I access HD channels?</strong><br>
+        To access DIRECTV HD programming, HD equipment along with Advanced Receivers Service is required. Number of HD channels varies based on package selection.</p>
+        
+        <p><strong>How long does it take to receive the VISA gift card after subscribing to DIRECTV?</strong><br>
+        The VISA gift card is delivered between 7-10 business days after DIRECTV installation is completed.</p>
+        
+        <p><strong>Is there a fee for signing up?</strong><br>
+        SEIU members may be subject to an additional $299 non-refundable fee depending on credit rating.</p>
+        
+        <p><strong>Is my subscription to DIRECTV considered a contract? If so, what is the length of the contract?</strong><br>
+        All DIRECTV Subscriptions are 24-month agreements. However, special pricing is valid for 12 months. At the end of the initial 12-month period, members must bundle DIRECTV with two or more AT&amp;T wireless and/or U-Verse services to maintain the special pricing.</p>
+        
+        <p><strong>Are there any fees for terminating the agreement early?</strong><br>
+        If terminated prior to the contract expiration date, there is a prorated Early Cancellation fee of $20 per each month remaining in the agreement.</p>
+        
+        <p><strong>What happens if I choose to discontinue my service at the end of the contract?</strong><br>
+        If you cease to be a DIRECTV customer (whether voluntarily or involuntarily), you must contact DIRECTV within 7 days of termination of your base level of programming to arrange for an equipment return kit or kits, and instructions on how to return your leased Equipment [DIRECTV Receiver(s), Genie Mini(s), access card(s), and remote(s)]. Leased Equipment must be returned in good working order, normal wear and tear excepted. If we haven’t received your leased Equipment within 21 days of termination of your base level of programming, or if the equipment is returned in damaged condition, DIRECTV will charge you $45 for each HD Receiver and each Genie Mini, and $135 for each Genie HD DVR. Please return all equipment promptly.</p>
+        
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: DIRECTV FREQUENTLY ASKED QUESTIONS
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171223T054403Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: DIRECTV FAQs
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E362219-ED63-4C58-989F-3B36C4CEF576}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: DIRECTV FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+                        <p><strong>¿Cómo me suscribo a DIRECTV?</strong><br>
+        Para suscribirse a DIRECTV, regístrese en la página de <a href="~/link.aspx?_id=9650A2129CC94964BA1FC37DA56E9E5F&amp;_z=z">SEIU DIRECTV</a> y llame al número de teléfono gratuito que aparece después de iniciar sesión.</p>
+        
+        <p><strong>¿Tiene DIRECTV una oferta exclusiva para los miembros SEIU?</strong><br>
+        Cada suscriptor calificado que adquiera el paquete CHOICE™ (inglés) o superior o el paquete ÓPTIMO MÀS™ (español) o superior puede recibir una tarjeta de regalo con un valor de $100.00. Esta oferta es válida solo para los nuevos suscriptores de DIRECTV y los suscriptores que no hayan tenido una suscripción activa en los últimos 24 meses. No es válido para las renovaciones de una suscripción de DIRECTV existente. Los precios incluyen los costos mensuales del equipo para hasta 4 habitaciones y el costo del servicio mensual para DVR en HD.</p>
+        
+        <p><strong>¿Cómo accedo a los canales en HD?</strong><br>
+        Para acceder a la programación HD de DIRECTV, se requieren equipos HD junto con el Servicio de Receptores Avanzados. El número de canales en HD varía según la selección del paquete.</p>
+        
+        <p><strong>¿Cuánto tiempo lleva recibir la tarjeta de regalo VISA después de suscribirse a DIRECTV?</strong><br>
+        La tarjeta de regalo VISA se entrega entre 7 y 10 días hábiles posteriores a la instalación de DIRECTV.</p>
+        
+        <p><strong>¿Hay algún cargo por inscribirse?</strong><br>
+        Los miembros de SEIU pueden estar sujetos a un cargo adicional de $299, no reembolsable, dependiendo de la calificación crediticia.</p>
+        
+        <p><strong>¿Mi suscripción a DIRECTV se considera un contrato? En caso afirmativo, ¿cuál es la duración del contrato?</strong><br>
+        Todas las suscripciones de DIRECTV son contratos de 24 meses. Sin embargo, los precios especiales son válidos por 12 meses. Al final del período inicial de 12 meses los miembros deben vincular DIRECTV con dos o más servicios inalámbricos de AT&amp;T y/o U-Verse para mantener los precios especiales.</p>
+        
+        <p><strong>¿Hay algún cargo por cancelar el contrato de manera anticipada?</strong><br>
+        Si se rescinde antes de la fecha de extinción del contrato, hay una tarifa de cancelación anticipada prorrateada de $20 por cada mes restante del contrato.</p>
+        
+        <p><strong>¿Qué sucede si opto por interrumpir el servicio al final del contrato?</strong><br>
+        Si deja de ser un cliente de DIRECTV (ya sea voluntaria o involuntariamente), debe ponerse en contacto con DIRECTV dentro de los 7 días posteriores a la terminación de su nivel base de programación para coordinar un kit o kits de devolución de equipo y obtener instrucciones sobre cómo devolver su equipo [ Receptor(es) DIRECTV, Genie Mini(s), tarjeta(s) de acceso, y control(es) remoto(s)]. Se debe devolver el equipo alquilado en buen estado de funcionamiento, con excepción del desgaste normal. Si no hemos recibido el equipo que ha alquilado dentro de los 21 días posteriores a la terminación de su nivel base de programación, o si el equipo que devuelve está dañado, DIRECTV le cobrará $45 por cada Receptor HD y cada Genie Mini y $135 por cada Genie HD DVR. Devuelva todos los equipos con prontitud.</p>
+        
+        <p><strong>Does DIRECTV have an exclusive offer for SEIU members?</strong><br>
+        Each qualifying subscriber that purchases the English CHOICE™ package or above or the Spanish ÓPTIMO MÀS™ package or above is eligible to receive a gift card with a value of $100.00. This offer is valid for new DIRECTV subscribers only and subscribers who have not had an active subscription in the last 24 months. Not valid for renewals of an existing DIRECTV subscription. Prices include monthly equipment fees for up to 4 rooms and the HD DVR monthly service fee.</p>
+        
+        <p><strong>How do I access HD channels?</strong><br>
+        To access DIRECTV HD programming, HD equipment along with Advanced Receivers Service is required. Number of HD channels varies based on package selection.</p>
+        
+        <p><strong>How long does it take to receive the VISA gift card after subscribing to DIRECTV?</strong><br>
+        The VISA gift card is delivered between 7-10 business days after DIRECTV installation is completed.</p>
+        
+        <p><strong>Is there a fee for signing up?</strong><br>
+        SEIU members may be subject to an additional $299 non-refundable fee depending on credit rating.</p>
+        
+        <p><strong>Is my subscription to DIRECTV considered a contract? If so, what is the length of the contract?</strong><br>
+        All DIRECTV Subscriptions are 24-month agreements. However, special pricing is valid for 12 months. At the end of the initial 12-month period, members must bundle DIRECTV with two or more AT&amp;T wireless and/or U-Verse services to maintain the special pricing.</p>
+        
+        <p><strong>Are there any fees for terminating the agreement early?</strong><br>
+        If terminated prior to the contract expiration date, there is a prorated Early Cancellation fee of $20 per each month remaining in the agreement.</p>
+        
+        <p><strong>What happens if I choose to discontinue my service at the end of the contract?</strong><br>
+        If you cease to be a DIRECTV customer (whether voluntarily or involuntarily), you must contact DIRECTV within 7 days of termination of your base level of programming to arrange for an equipment return kit or kits, and instructions on how to return your leased Equipment [DIRECTV Receiver(s), Genie Mini(s), access card(s), and remote(s)]. Leased Equipment must be returned in good working order, normal wear and tear excepted. If we haven’t received your leased Equipment within 21 days of termination of your base level of programming, or if the equipment is returned in damaged condition, DIRECTV will charge you $45 for each HD Receiver and each Genie Mini, and $135 for each Genie HD DVR. Please return all equipment promptly.</p>
+        
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "DIRECTV: PREGUNTAS FRECUENTES"

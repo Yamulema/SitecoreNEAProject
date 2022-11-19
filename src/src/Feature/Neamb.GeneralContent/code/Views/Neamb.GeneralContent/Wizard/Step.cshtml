@@ -1,0 +1,93 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.Step
+@if (!string.IsNullOrEmpty(Model.GtmAction))
+{
+	<script type="text/javascript">
+		$(function () {
+			@Html.Raw(Model.GtmAction)
+		})
+	</script>
+}
+
+<div class="row">
+	<div class=" welcome-wizard-header navbar-fixed-top">
+		<div class="col-xs-121 col-md-121">
+			<section class="error-bar">
+				<p>
+					There was an error while trying to save your profile information.
+					<i aria-hidden="true" class="fa fa-times"></i>
+				</p>
+			</section>
+		</div>
+		<div class="container">
+			<div class="col-xs-12 col-md-4 m-t-md m-b-xs">
+				<a href="/" class=""><img src="@Model.Header.LogoUrl" alt="" /></a>
+			</div>
+			@if ((!Model.IsAnonymous || Model.IsExperienceEditor) && !Model.IsInnerStep)
+			{
+				var backStyle = (Model.Header.Back == null) ? "invisible" : string.Empty;
+				<div class="col-xs-12 col-md-4 m-t-md">
+					<p class="section-indicator text-center m-t-md">@Model.Header.StepText</p>
+				</div>
+				<div class="col-xs-12 col-md-4 m-t-md no-padding">
+
+					<div class="col-xs-6 col-sm-6 col-md-5 n-p-r col-md-offset-2 m-b-sm @backStyle">
+						@if (Model.Header.Back != null)
+						{
+							<a href="@Model.Header.Back.Target" class="btn m-r-sm btn-block" style="font-size: 15px">@Model.Header.Back.Label</a>
+						}
+					</div>
+
+					@if (Model.Header.Next != null)
+					{
+						<div class="col-xs-6 col-sm-6 col-md-5 n-p-r m-b-sm">
+							@if (string.IsNullOrEmpty(Model.Header.Next.OnClickEvent))
+							{
+								<a href="@Model.Header.Next.Target" onclick="@Model.Header.Next.OnClickEvent" class="btn btn-blue btn-block" style="font-size: 15px">@Model.Header.Next.Label</a>
+							}
+							else
+							{
+								<a onclick="@Model.Header.Next.OnClickEvent" class="btn btn-blue btn-block" style="font-size: 15px">@Model.Header.Next.Label</a>
+							}
+						</div>
+					}
+					@if (Model.Header.End != null)
+					{
+						<div class="col-xs-6 col-sm-6 col-md-5 n-p-r m-b-sm">
+							@if (string.IsNullOrEmpty(Model.Header.End.OnClickEvent))
+							{
+								<a onclick="$('#Wizard').modal('show')" class="btn btn-blue btn-block" style="font-size: 15px">@Model.Header.End.Label</a>
+							}
+							else
+							{
+								<a onclick="@Model.Header.End.OnClickEvent;" class="btn btn-blue btn-block" style="font-size: 15px">@Model.Header.End.Label</a>
+							}
+						</div>
+					}
+				</div>
+			}
+		</div>
+	</div>
+</div>
+@if (Model.IsAnonymous && !Model.IsExperienceEditor)
+{
+	<section class="section-normal">
+		<div class="container welcome-wizard-body @(Model.IsInnerStep?"inner-step":string.Empty)">
+			<div class="row">
+				@Html.Sitecore().Field(Templates.Wizard.Fields.AnonymousUser, Model.Datasource)
+			</div>
+		</div>
+	</section>
+}
+else
+{
+	<section class="body-copy-full-width">
+		<section class="m-t-md">
+			<div class="container welcome-wizard-body @(Model.IsInnerStep?"inner-step":string.Empty)">
+			</div>
+			@Html.Sitecore().Placeholder("step")
+		</section>
+	</section>
+}

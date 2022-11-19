@@ -1,0 +1,35 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Cards.Models.FlipCardDto
+
+
+<section class="c-082 bg-gray new-design">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-centered text-center">
+                <h5>@Html.Sitecore().Field(Templates.FlipCards.Fields.Headline, Model.Item)</h5>
+                @Html.Sitecore().Field(Templates.FlipCards.Fields.SubHeadline, Model.Item)
+            </div>
+        </div>
+    </div>
+    <div class="container flip-container text-center">
+        <div class="row">
+            @foreach (var card in Model.PageCards)
+            {
+                <div class="col-md-4 col-sm-6 flipcard">
+                    <div class="inner-container bg-img" style="background-image: url('@card.FlipItem.ImageUrl(Templates.FlipCardItem.Fields.BackgroundImage)');">
+                        <div class="content">
+                            @Html.Sitecore().Field(Templates.FlipCardItem.Fields.DefaultText, card.FlipItem, new { @DisableWebEdit = true })
+                            <p class="details">@Html.Sitecore().Field(Templates.FlipCardItem.Fields.TabText, card.FlipItem, new { @DisableWebEdit = true })</p>
+                        </div>
+                    </div>
+                    <div class="outer-container">
+                        @Html.Sitecore().Field(Templates.FlipCardItem.Fields.FlipText, card.FlipItem, new { @DisableWebEdit = true })
+                        @Html.Sitecore().Field(Templates.FlipCardItem.Fields.FlipButton, card.FlipItem, new { @class = card.BackgroundColor })
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

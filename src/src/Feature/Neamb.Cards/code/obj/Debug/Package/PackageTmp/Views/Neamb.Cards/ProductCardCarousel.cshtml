@@ -1,0 +1,33 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Cards.Models.ProductCardCarouselDto
+
+@if (Model.PageCards.Any() || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="section-normal slider-section c-007 @Model.BackgroundColor">
+        <div class="container">
+            <h2 class="header">@Html.Sitecore().Field(Templates.ProductCardsCarousel.Fields.Headline, Model.Item)</h2>
+            <p class="subhead no-margin-auto text-center">@Html.Sitecore().Field(Templates.ProductCardsCarousel.Fields.Subheadline, Model.Item)</p>
+            <section class="regular slider @Model.Style">
+                @{
+                    foreach (var card in Model.PageCards)
+                    {
+                        <div class="card">
+                            <div class="text">
+                                <a href="@card.Cta" @Html.Raw(card.OnClickEvent)>
+                                    <h3>@Html.Raw(card.Title)</h3>
+                                </a>
+                                <p>@Html.Raw(card.Description)</p>
+                            </div>
+                            <div class="cta">
+                                <a href="@card.Cta" class="btn btn-aquamarine btn-block" @Html.Raw(card.OnClickEvent)>Learn More</a>
+                            </div>
+                        </div>
+                    }
+                }
+            </section>
+            <span class="pagingInfoSlider hidden-md hidden-lg"></span>
+        </div>
+    </section>
+}

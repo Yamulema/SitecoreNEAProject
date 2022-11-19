@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="SearchResultPage" urlpath="https://www.neamb.com/search">
+      <sections>
+        <section name="SearchResults">
+          <controls>
+            <control key="SearchResultTitle"  xpath="//div[@class='col-md-11 col-centered']//h1"   />
+            <control key="SearchResultBox"  id="search-big-input"   />
+            <control key="SearchResultFilterSolutions"  xpath="//span[contains(text(),'Solutions')]"  />
+            <control key="SearchResultFilterOffers"  xpath="//span[contains(text(),'Offers')]"  />
+            <control key="SearchResultFilterResources"  xpath="//span[contains(text(),'Resources')]"  />
+            <control key="SearchResultEnter"  xpath="(//i[@class='fa fa-search'])[1]"  />
+          </controls>
+        </section>
+        <section name="Results">
+          <controls>
+            <control key="ResultsItems"  xpath="//div[@class='items']"   />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>
+

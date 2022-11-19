@@ -1,0 +1,108 @@
+﻿@using Neambc.Neamb.Project.Web
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    Layout = null;
+    var pageItem = Sitecore.Mvc.Presentation.PageContext.Current.Item;
+    var siteSettings = Sitecore.Context.Database.GetItem(Configuration.SiteSettingsId);
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+
+    var cacheServerUrl = string.Empty;
+    if (Configuration.AlwaysIncludeServerUrl)
+    {
+        cacheServerUrl = Configuration.MediaLinkServerUrl;
+    }
+
+    //Get the page assets header value
+    var pageHeaderAssets = pageItem[Templates.PageAssets.Fields.PageHeaderAssets];
+    var globalPageHeaderAssets = Sitecore.Context.Database.GetItem(pageHeaderAssets);
+    string assetHeader = "";
+    if (globalPageHeaderAssets != null)
+    {
+        assetHeader = globalPageHeaderAssets[Templates.PageAsset.Fields.Asset];
+    }
+
+    string assetFooter = "";
+    //Get the page assets footer value
+    var pageFooterAssets = pageItem[Templates.PageAssets.Fields.PageFooterAssets];
+    var globalPageFooterAssets = Sitecore.Context.Database.GetItem(pageFooterAssets);
+    if (globalPageFooterAssets != null)
+    {
+        assetFooter = globalPageFooterAssets[Templates.PageAsset.Fields.Asset];
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="dns-prefetch" href="https://cdn.neamb.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    @Html.Partial("~/Views/Neamb.Web/Partials/_Seo.cshtml")
+    @Html.Partial("~/Views/Neamb.Web/Partials/_OpenGraph.cshtml")
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="@cacheServerUrl/assets/neamb/styles/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="@cacheServerUrl/assets/neamb/styles/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <script src="@cacheServerUrl/assets/neamb/scripts/gtm.js"></script>
+    <script src="@cacheServerUrl/assets/neamb/scripts/jquery-3.6.0.min.js"></script>
+    <script src="@cacheServerUrl/assets/neamb/scripts/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://img.en25.com/i/livevalidation_standalone.compressed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"
+            integrity="sha256-yE5LLp5HSQ/z+hJeCqkz9hdjNkk1jaiGG0tDCraumnA="
+            crossorigin="anonymous"></script>
+
+    @if (!string.IsNullOrEmpty(assetHeader))
+    {
+        @Html.Raw(assetHeader)
+    }
+
+    @if (!string.IsNullOrEmpty(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTop]))
+    {
+        @Html.Raw(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTop])
+    }
+    <link rel="icon" href="@cacheServerUrl/assets/neamb/images/favicon.ico">
+
+    @Html.Sitecore().Placeholder("head-scripts")
+</head>
+<body class="lead-form">
+    @if (!string.IsNullOrEmpty(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTopBody]))
+    {
+        @Html.Raw(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTopBody])
+    }
+    @Html.Sitecore().Placeholder("empty-header")
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                @Html.Sitecore().Placeholder("top-body")
+            </div>
+        </div>
+    </div>
+    <footer>
+        @Html.Sitecore().Placeholder("footer")
+    </footer>
+    <div>
+        @Html.Sitecore().Placeholder("chat")
+    </div>
+    <script async src="@cacheServerUrl/assets/neamb/scripts/main.js"></script>
+    <script defer src="@cacheServerUrl/assets/neamb/scripts/remove-ref.js"></script>
+    @if (!string.IsNullOrEmpty(assetFooter))
+    {
+        @Html.Raw(assetFooter)
+    }
+    @if (!string.IsNullOrEmpty(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeBottom]))
+    {
+        @Html.Raw(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeBottom])
+    }
+</body>
+</html>
+

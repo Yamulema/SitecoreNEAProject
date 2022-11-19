@@ -1,0 +1,119 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Feature.Account.Controllers
+@using Neambc.Neamb.Feature.Account.Enums
+@using Neambc.Neamb.Feature.Account.Models
+@using Neambc.Neamb.Foundation.Config.Models
+@using Neambc.Neamb.Foundation.Membership.Enums
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Account.Models.MembershipCardLogin
+
+@if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.GeneralError))
+{
+	<section class="error-bar show">
+		<p>@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.Error, Model.Item)<i aria-hidden="true" class="fa fa-times"></i></p>
+	</section>
+}
+@if (Model.Status != WelcomeStatus.None)
+{
+	<section class="section-normal registration">
+		<div class="container">
+			<div class="col-md-9 col-centered">
+				<h2 class="header">@Model.Salutation</h2>
+				<p class="subhead text-alpha">@Model.Instructions</p>
+				<form id="formprofile" method="post" accept-charset="UTF-8" role="form" class="profile-forms">
+					<input type="hidden" name="fhController" value="MemberCardController" data-abide-ignore />
+					<input type="hidden" name="fhAction" value="MembershipCardLogin" data-abide-ignore />
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-3 label-pass">
+								<label for="password">Your Membership Id</label>
+							</div>
+							<div class="col-md-8">
+								<input id="imsid" name="imsid" type="text" value="@Model.Imsid" disabled="disabled" class="form-control" />
+							</div>
+							@*@if (!string.IsNullOrEmpty(Model.Item.Fields[Templates.MemberCardLoginForm.Fields.IdTooltip].Value))
+								{
+									<div class="col-xs-1 col-md-1 hidden-xs hidden-sm">
+										<i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.IdTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"> </i>
+									</div>
+								}*@
+						</div>
+					</div>
+					@if (Model.Status == WelcomeStatus.ExistingMember)
+					{
+						<input id="action" type="hidden" name="Action" value="@((int)WelcomeAction.VerifyPassword)" data-abide-ignore />
+						<input id="zip" name="zip" type="hidden" value="00000" />
+						<div class="form-group">
+							<div class="row">
+								<div class="col-xs-12 col-md-11 p-t-xs p-b-sm hidden-xs hidden-sm">
+									<span class="text-blue showpass pull-right">@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.ShowText, Model.Item)</span>
+								</div>
+								<div class="col-md-3">
+									<span class="text-blue showpass pull-right hidden-md hidden-lg">Show Password</span>
+									<label for="password">@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.Label, Model.Item)</label>
+								</div>
+								<div class="col-md-8">
+									<input id="password" name="password" type="password" value="" required="required" data-msg="@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.EmptyField, Model.Item)" class="form-control" />
+									@if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidPassword))
+									{
+										<div data-name="password" class="server-errors show">
+											<span>@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.Invalid, Model.Item, new { @DisableWebEdit = true })</span>
+										</div>
+									}
+									@if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.AccountLocked))
+									{
+										<div data-name="password" class="server-errors show">
+											<span>@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.AccountLocked, Model.Item, new { @DisableWebEdit = true })</span>
+										</div>
+									}
+									@if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.AccountAlreadyLockedValidToken))
+									{
+										<div data-name="password" class="server-errors show">
+											<span>@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.AccountAlreadyLockedValidToken, Model.Item, new { @DisableWebEdit = true })</span>
+										</div>
+									}
+									
+									@if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.TimeOut))
+									{
+										<div data-name="password" class="server-errors show">
+											<span>@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.TimeOut, Model.Item, new { @DisableWebEdit = true })</span>
+										</div>
+									}
+								</div>
+								@if (!string.IsNullOrEmpty(Model.Item.Fields[Templates.MemberCardLoginForm.Fields.Tooltip].Value))
+								{
+									<div class="col-xs-1 col-md-1 hidden-xs hidden-sm">
+										<i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.Tooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"> </i>
+									</div>
+								}
+							</div>
+						</div>
+					}
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-4 col-md-push-3">
+								<div class="p-t-md p-b-md">
+									<input id="submit" type="submit" value="@Html.Sitecore().Field(Templates.MemberCardLoginForm.Fields.Login, Model.Item)" class="btn btn-lg btn-blue btn-block" />
+								</div>
+								<p class="text-alpha m-t-sm m-b-sm">@Html.Raw(Model.NotYou) <a href="#" onclick="logout('@Model.NotYouLinkUrl');">Click here</a></p>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+}
+<form id="logout-form" method="post" style="display: none;" action="/api/AuthenticationAccount/LogoutForm">
+	<input type="hidden" name="linkpage" id="linkpage" value="" />
+</form>
+
+<script type="text/javascript">
+
+    // -------------------------------------------------------------------------------------------------------
+    function logout(linkpage) {
+        $('#linkpage').val(linkpage); $('#logout-form').submit();
+    }
+</script>

@@ -1,0 +1,65 @@
+﻿---
+ID: "18799fb7-2a94-4114-aad9-a9820752d984"
+Parent: "4cc0d7ed-3627-45b0-bf45-9ed561a5eb46"
+Template: "619077d6-8e1c-4c66-ad05-5ffd8aad4412"
+Path: /sitecore/content/NEAMBC/Global/Carousel/Slides folder/Carousel Slide 7
+DB: master
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: “...I saved $3,000 on my new RAV4. Easy tool to use, great benefit that saved me time and money.”
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link text="Learn how you can save too" anchor="" linktype="internal" class="" title=""  querystring="" id="{75CAD613-2367-48DC-A858-2F7271943D02}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171117T194820Z
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: In our members’ own words...
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{447B63B2-E5E8-48E4-9592-66235D5073C9}" alt="family" height="" width="" hspace="" vspace="" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: "¡Gane su título asociado o certificado en línea gratis! "
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link id="{E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}" querystring="" target="" text="Aprende más" anchor="" title="" class="" url="/NEAMBC/Home/Education/SEIU Free College Benefit" linktype="internal" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T202003Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value:  SEIU Beneficio Gratuito de la Universidad
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{261F3ACE-FAD5-4F53-A194-0D806EC897BF}" alt="family" height="" width="" hspace="" vspace="" />

@@ -1,0 +1,97 @@
+﻿---
+ID: "df0e480a-a76b-4f77-a2b4-e607910eac48"
+Parent: "207e73b3-566a-4ef3-af78-c17348e543ea"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - E-mail Automation/Where number of times contact clicked email compares in past in current interaction"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.EmailCampaign.XConnect.Conditions.CurrentInteraction.NumberOfTimesContactClickedAnyEmailInThePastNumberTimeUnitComparesToNumber, Sitecore.EmailCampaign.XConnect
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Hvor antallet af gange kontakten har klikket på e-mailen sammenlignet i de sidste i den aktuelle interaktion"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T131452Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor antallet af gange kontakten klikkede på en e-mail i de sidste [NumberTimeUnit,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit] [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [Number,Integer,,number] i den aktuelle interaktion"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Wo die Anzahl der Klicks auf eine E-Mail in der Vergangenheit in der aktuellen Interaktion verglichen wird"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T132641Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo die Anzahl der Male, bei denen der Kontakt in der Vergangenheit auf eine in der aktuellen Interaktion E-Mail geklickt hat [NumberTimeUnit,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit] [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [Number,Integer,,number]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170925T095325Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the number of times the contact clicked any email in the past [NumberTimeUnit,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit] [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,compares to] [Number,Integer,,number] in current interaction"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 現在のインタラクションで過去にコンタクトがクリックしたEメールの数を比較
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T133922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： 現在のインタラクションでコンタクトが過去 [NumberTimeUnit,Integer,,数値]  [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, 時間の単位] に [Number,Integer,,数値] 回 [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,比較する] 任意のEmailをクリックした場合"
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 联系点击电子邮件的次数在过去的当前交互中比较的次数
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T134830Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "如果联系人在过去点击任意邮件的次数 [NumberTimeUnit,Integer,,数值] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, 时间单位] [Comparison,Tree,root=/sitecore/system/Settings/Rules/Definitions/XConnect - Numeric Operators&resulttype=name,比较与] [Number,Integer,,数值] 在当前的互动中"

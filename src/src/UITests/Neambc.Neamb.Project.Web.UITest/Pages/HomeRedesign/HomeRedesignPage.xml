@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="HomeRedesignPage" urlpath="/UITest/Home%20Modules">
+      <sections>
+        <section name="HeroBanner">
+          <controls>
+            <control key="HeroBanner_Title" xpath="//div[contains(@class,'hero-text')]//h3"  />
+          </controls>
+        </section>
+        <section name="CarouselCards">
+          <controls>
+            <control key="ButtonSSO" xpath="//*[@id='product_carousel_primary_action_button3']"  />
+            <control key="ButtonSSOCold" xpath="//*[@id='product_carousel_sign_in_cold_button3']"  />
+            <control key="ButtonLinkTokens" xpath="//*[@id='product_carousel_primary_action_button2']"  />
+            <control key="ButtonLinkTokensCold" xpath="//*[@id='product_carousel_sign_in_cold_button2']"  />
+            <control key="ButtonDatapassHotWarm" xpath="//*[@id='product_carousel_primary_action_button1']"  />
+            <control key="ButtonDatapassCold" xpath="//*[@id='product_carousel_sign_in_cold_button1']"  />
+            <control key="ButtonNextCarousel" xpath="//button[contains(@class,'slick-next slick-arrow')]"  />
+            <control key="ButtonEfulfillment" xpath="//*[@id='product_carousel_primary_action_button4']"  />
+            <control key="ButtonEfulfillmentCold" xpath="//*[@id='product_carousel_sign_in_cold_button4']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

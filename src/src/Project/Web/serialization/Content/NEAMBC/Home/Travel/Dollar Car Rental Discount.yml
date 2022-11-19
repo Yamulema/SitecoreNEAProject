@@ -1,0 +1,503 @@
+﻿---
+ID: "55a67c92-2377-443a-a561-55b8a49375ee"
+Parent: "01a71e86-7a96-486d-8eed-82fb99928311"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Travel/Dollar Car Rental Discount
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20200820T133600Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Use your SEIU member discount to save 5% when you rent your next car from Dollar.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{AC4A84D4-3FEC-4CC6-91D8-77C4AC9156D7}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D2533547-5735-4E02-85E2-4AA36F579A69}" alt="SEIU Member Benefits in partnership with Dollar Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002730Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Dollar Rent A Car
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Your SEIU member discount code is: <strong>CDP# 3051831</strong>
+        
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DOLLAR RENT A CAR
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>Save 5% every time you rent with Dollar Rent A Car! Log in to take advantage of your SEIU member discount and make sure to reference the discount code when you reserve your rental.</p>
+        
+        <p>Join <strong>Dollar EXPRESS Rental Program</strong><sup>®</sup> — the fastest way ever to rent a car from Dollar.</p>
+        
+        <ul>
+        	<li>Shorter Lines — members have a designated line and counter area for preferential service</li>
+        	<li>Earn FREE Days — Dollar EXPRESS Renter Rewards<sup>®</sup> is an optional rewards program that rewards you with a free rental day at Dollar in place of airline frequent flyer miles.</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{AC4A84D4-3FEC-4CC6-91D8-77C4AC9156D7}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Dollar Rent A Car
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Make a reservation" linktype="external" url="http://seiu.dollar.com" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Use your SEIU member discount to save 5% when you rent your next car from Dollar.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PLAN ON SAVINGS FOR YOUR NEXT TRIP
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Dollar Rent A Car
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Join Dollar EXPRESS" linktype="external" url="https://www.dollar.com/Express/Enroll.aspx?corpdiscnbr=2102007&amp;companyname=SEIU+Rental+Car+Program" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Use your SEIU member discount to save 5% when you rent your next car from Dollar.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D2533547-5735-4E02-85E2-4AA36F579A69}" alt="SEIU Member Benefits in partnership with Dollar Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190916T173507Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Dollar Rent A Car
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Reserve Now to book your next rental. Discount Code CDP# <strong>3051831</strong> will automatically be applied.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DOLLAR RENT A CAR
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <ul>
+            <li>Save 5% every time you rent with Dollar Car Rental</li>
+            <li>Discount valid on all car types</li>
+            <li>Save time when you also join Dollar&rsquo;s EXPRESS Rental Program</li>
+        </ul>
+        <p>It pays to plan ahead with Dollar Car Rental! Save 5% on all rentals when you book in advance through SEIU Member Benefits.</p>
+        <p>Join Dollar&rsquo;s EXPRESS Rental Program<sup>&reg;</sup> for even faster reservations, shorter lines, and frequent renter rewards good towards a free rental day.</p>
+        <p>Going on a family road trip and need a minivan? Need something sporty for a girls&rsquo; weekend? Or, just need a pick-up truck or van for moving day and big projects? Check out Dollar Car Rental&rsquo;s selection of vehicles to fit your needs.</p>
+        <p>Valid at all participating Dollar Car Rental locations worldwide.</p>
+        <p>Click Reserve Now to book your next rental.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Dollar Rent A Car
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve Now" linktype="external" url="http://seiu.dollar.com" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Save time and money with SEIU and Dollar Car Rental.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save time and money with SEIU and Dollar Car Rental.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190916T173507Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Dollar Rent A Car
+  - Version: 3
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Join Dollar EXPRESS" linktype="external" url="https://www.dollar.com/Express/Enroll.aspx?corpdiscnbr=2102007&amp;companyname=SEIU+Rental+Car+Program" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Use your SEIU member discount to save 5% when you rent your next car from Dollar.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D2533547-5735-4E02-85E2-4AA36F579A69}" alt="SEIU Member Benefits in partnership with Dollar Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200820T133626Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Dollar Rent A Car
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Reserve Now to book your next rental. Discount Code CDP# <strong>3051831</strong> will automatically be applied.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DOLLAR RENT A CAR
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <ul>
+            <li>Save 5% every time you rent with Dollar Car Rental</li>
+            <li>Discount valid on all car types</li>
+            <li>Save time when you also join Dollar&rsquo;s EXPRESS Rental Program</li>
+        </ul>
+        <p>It pays to plan ahead with Dollar Car Rental! Save 5% on all rentals when you book in advance through SEIU Member Benefits.</p>
+        <p>Join Dollar&rsquo;s EXPRESS Rental Program<sup>&reg;</sup> for even faster reservations, shorter lines, and frequent renter rewards good towards a free rental day.</p>
+        <p>Going on a family road trip and need a minivan? Need something sporty for a girls&rsquo; weekend? Or, just need a pick-up truck or van for moving day and big projects? Check out Dollar Car Rental&rsquo;s selection of vehicles to fit your needs.</p>
+        <p>Valid at all participating Dollar Car Rental locations worldwide.</p>
+        <p>Click Reserve Now to book your next rental.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Dollar Rent A Car
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve Now" linktype="external" url="http://seiu.dollar.com" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Save time and money with SEIU and Dollar Car Rental.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save time and money with SEIU and Dollar Car Rental.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200820T133626Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Dollar Rent A Car
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Join Dollar EXPRESS" linktype="external" url="https://www.dollar.com/Express/Enroll.aspx?corpdiscnbr=2102007&amp;companyname=SEIU+Rental+Car+Program" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Use your SEIU member discount to save 5% when you rent your next car from Dollar.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D2533547-5735-4E02-85E2-4AA36F579A69}" alt="SEIU Member Benefits in partnership with Dollar Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T233344Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Dollar Rent A Car
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Reserve Now to book your next rental. Discount Code CDP# <strong>3051831</strong> will automatically be applied.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DOLLAR RENT A CAR
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{0B86BF74-E007-4D7C-9155-CB9E408093AD}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{0B86BF74-E007-4D7C-9155-CB9E408093AD}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <ul>
+            <li>Save 5% every time you rent with Dollar Car Rental</li>
+            <li>Discount valid on all car types</li>
+            <li>Save time when you also join Dollar&rsquo;s EXPRESS Rental Program</li>
+        </ul>
+        <p>It pays to plan ahead with Dollar Car Rental! Save 5% on all rentals when you book in advance through SEIU Member Benefits.</p>
+        <p>Join Dollar&rsquo;s EXPRESS Rental Program<sup>&reg;</sup> for even faster reservations, shorter lines, and frequent renter rewards good towards a free rental day.</p>
+        <p>Going on a family road trip and need a minivan? Need something sporty for a girls&rsquo; weekend? Or, just need a pick-up truck or van for moving day and big projects? Check out Dollar Car Rental&rsquo;s selection of vehicles to fit your needs.</p>
+        <p>Valid at all participating Dollar Car Rental locations worldwide.</p>
+        <p>Click Reserve Now to book your next rental.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Dollar Rent A Car
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve Now" linktype="external" url="http://seiu.dollar.com" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Save time and money with SEIU and Dollar Car Rental.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save time and money with SEIU and Dollar Car Rental.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T233344Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Dollar Rent A Car
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Utilice su descuento para miembros de SEIU y ahorre un 5% al alquilar su próximo automóvil en Dollar.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{AC4A84D4-3FEC-4CC6-91D8-77C4AC9156D7}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D2533547-5735-4E02-85E2-4AA36F579A69}" alt="SEIU Member Benefits en asociación con Dollar Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172716Z
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Dollar Rent A Car
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Su código de descuento para miembros de SEIU es: <strong>CDP# 3051831</strong>
+        
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DOLLAR RENT A CAR
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>¡Ahorre un 5% cada vez que alquile un automóvil en Dollar Rent A Car! Inicie sesión para utilizar su descuento para miembros de SEIU y asegúrese de mencionar el código de descuento al reservar el alquiler.</p>
+        
+        <p>Participe en Dollar EXPRESS Rental Program<sup>®</sup>, la manera más rápida de alquilar un automóvil en Dollar.</p>
+        
+        <ul>
+        	<li>Filas más cortas: los miembros tienen una fila y un área del mesón exclusivas para servicio preferencial</li>
+        	<li>Acumule días GRATIS: Dollar EXPRESS Renter Rewards<sup>®</sup> es un programa opcional de beneficios que le entrega días de alquiler gratuitos en Dollar en lugar de las millas de viajero frecuente de las líneas aéreas.</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{AC4A84D4-3FEC-4CC6-91D8-77C4AC9156D7}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Dollar Rent A Car
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Realizar una reserva" linktype="external" url="http://seiu.dollar.com" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Utilice su descuento para miembros de SEIU y ahorre un 5% al alquilar su próximo automóvil en Dollar.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PLANIFIQUE LOS AHORROS PARA SU PRÓXIMO VIAJE
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Dollar Rent A Car
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Únase al Dollar EXPRESS" linktype="external" url="https://www.dollar.com/Express/Enroll.aspx?corpdiscnbr=2102007&amp;companyname=SEIU+Rental+Car+Program" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Utilice su descuento para miembros de SEIU y ahorre un 5% al alquilar su próximo automóvil en Dollar.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D2533547-5735-4E02-85E2-4AA36F579A69}" alt="SEIU Member Benefits en asociación con Dollar Car Rental" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190916T174531Z
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Dollar Rent A Car
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Para reservar su pr&oacute;ximo autom&oacute;vil, haga clic en Reservar ahora. El c&oacute;digo de descuento CDP n.&ordm; <strong>3051831</strong> se aplica autom&aacute;ticamente.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DOLLAR RENT A CAR
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>&nbsp;</p>
+        <ul>
+            <li>Ahorre un 5% cada vez que alquile un autom&oacute;vil en la agencia Dollar</li>
+            <li>Descuento v&aacute;lido para cualquier tipo de autom&oacute;vil</li>
+            <li>&Uacute;nase al programa EXPRESS Rental de Dollar y acumule ahorros adicionales</li>
+        </ul>
+        <p>&iexcl;Planifique su reserva en la agencia Dollar con anticipaci&oacute;n y reciba m&aacute;s beneficios! Reserve con anticipaci&oacute;n a trav&eacute;s de SEIU Member Benefits y obtenga un ahorro del 5% en todos los alquileres.</p>
+        <p>&Uacute;nase al programa EXPRESS Rental de Dollar y obtenga beneficios adicionales: reservas m&aacute;s r&aacute;pidas, prioridad de atenci&oacute;n y recompensas para el programa de alquiler frecuente que se pueden canjear por un d&iacute;a de alquiler gratuito.</p>
+        <p>&iquest;Tiene pensado salir de vacaciones con su familia y necesita una minivan? &iquest;necesita un deportivo para pasar un fin de semana de chicas?  &iquest;Quiz&aacute; simplemente necesite una camioneta o una van para mudarse o para un proyect&oacute; grande? La agencia de alquiler de autom&oacute;viles Dollar tiene el veh&iacute;culo justo para sus necesidades.</p>
+        <p>Oferta v&aacute;lida para todas las oficinas de alquiler de autom&oacute;viles Dollar participantes en todo el mundo.</p>
+        <p>Para reservar su pr&oacute;ximo autom&oacute;vil, haga clic en Reservar ahora.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{EC7CA016-A20E-485D-815D-1B5200B7687C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Dollar Rent A Car
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reservar ahora" linktype="external" url="http://seiu.dollar.com" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Ahorre tiempo y dinero con SEIU y la agencia de alquiler de autom&oacute;viles Dollar.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre tiempo y dinero con SEIU y la agencia de alquiler de autom&oacute;viles Dollar.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190916T174531Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Dollar Rent A Car

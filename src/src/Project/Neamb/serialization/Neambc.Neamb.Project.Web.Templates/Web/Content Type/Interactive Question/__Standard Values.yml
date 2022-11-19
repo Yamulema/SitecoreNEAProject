@@ -1,0 +1,68 @@
+﻿---
+ID: "b00665f3-6863-4aba-a1c3-34c2b30ba353"
+Parent: "dfeddf02-8de8-4b12-a58b-aec2bdbee4cc"
+Template: "dfeddf02-8de8-4b12-a58b-aec2bdbee4cc"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Interactive Question/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a4d4108-cb5c-4e45-9933-50bd9b3919fa"
+      Hint: No Button
+      Value: No
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T170553Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6062ad26-cc51-40bf-8294-48c7684db302"
+      Hint: Show Results Link
+      Value: Show me my results
+    - ID: "639085fd-e3cc-458c-a717-0adc46960608"
+      Hint: Disclaimer Text
+      Value: 
+    - ID: "71e98276-48db-4f52-9096-d07c096f7940"
+      Hint: Yes Button
+      Value: Yes
+    - ID: "72d061af-d69d-454b-bb1c-c62e7ff3f537"
+      Hint: Headline Text
+      Value: |
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    - ID: "829b095e-6fa2-44ff-9b40-795cc692e17f"
+      Hint: Show Results Text
+      Value: |
+        <h3>You&rsquo;re finished!</h3>
+        <p>Enter result text here..</p>
+    - ID: "84579c8c-23e8-47ca-8ba9-410318c725a1"
+      Hint: Next Button
+      Value: Next
+    - ID: "8adb0f03-0091-494f-9d0c-a226aad963c7"
+      Hint: Back Button
+      Value: BACK
+    - ID: "a8b909d0-a66e-4d7e-9e12-f3acc2feb1de"
+      Hint: Headline Text
+      Value: |
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    - ID: "abf7af0e-055b-4c7b-b086-c965850c2fcc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8A9FE917-E63C-4EDE-BFCF-2C639955EF8A}" />
+    - ID: "db946ba7-1164-4374-b132-41b135adc740"
+      Hint: Tip Text
+      Value: |
+        <p class="tip-title">Tip:</p>
+        <p class="tip">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+    - ID: "fc7d0509-ea9e-4d0d-bbfa-1cc1da56a64a"
+      Hint: Question
+      Value: Insert your Question Here
+    - ID: "ffeb3d18-5d44-40c8-8c94-7c6ad03a4070"
+      Hint: Tip Text
+      Value: |
+        <p class="tip-title">Tip:</p>
+        <p class="tip">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>

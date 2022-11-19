@@ -1,0 +1,14 @@
+﻿@using System.Web.Mvc.Html
+@using Sitecore.Mvc
+
+<section id="faq">
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+            @Html.Partial("~/Views/Seiumb.GeneralContent/SmallStackedAccordion/Header.cshtml")
+            <div id="faq-accordion" class="accordion-container">
+                @Html.Sitecore().DynamicPlaceholder("seiumb-small-stacked-accordion-item")
+            </div>
+            <!--/#accordion-->
+        </div>
+    </div>
+</section>

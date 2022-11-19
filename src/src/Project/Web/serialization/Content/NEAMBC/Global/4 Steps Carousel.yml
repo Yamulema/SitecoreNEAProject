@@ -1,0 +1,28 @@
+﻿---
+ID: "1c7905cc-4d93-4af1-a177-6c378b6a0659"
+Parent: "71219c33-11d5-4d92-868b-34f0c6c1e953"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/NEAMBC/Global/4 Steps Carousel
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/elements.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {242D5767-E764-4ABA-9C2F-1294F1B5D5D2}
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220614T003247Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

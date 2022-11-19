@@ -1,0 +1,41 @@
+﻿---
+ID: "06bd02b9-7653-40ed-95c2-c147a3f12ed7"
+Parent: "f1fc2588-f957-4d1e-b6e3-42aafc56419c"
+Template: "7f85b6d0-f533-45ac-b00b-ddd602ab6fcf"
+Path: /sitecore/content/NEAMBC/Global/Categories/States/Missouri
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T014739Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: MO
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: Missouri
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171221T203701Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tester
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: MO
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: Missouri

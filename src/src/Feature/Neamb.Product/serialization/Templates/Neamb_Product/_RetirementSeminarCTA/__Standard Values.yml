@@ -1,0 +1,42 @@
+﻿---
+ID: "148b49c1-b566-4689-9503-c4bd1fd2cbf9"
+Parent: "57af696e-73b6-41ad-9494-30a39bf48667"
+Template: "57af696e-73b6-41ad-9494-30a39bf48667"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_RetirementSeminarCTA/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200113T163716Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "905f2e9b-790e-4c0e-b50b-dd144bbf8500"
+      Hint: Invalid Seminar Notification
+      Value: |
+        <div class="col-md-6">
+        <p>We're sorry. It looks the provided seminar is not longer available.</p>
+        </div>
+        <div class="col-md-6">
+        <div class="items-fixed buttons"><a class="btn btn-md btn-bordered-white pull-right" href="~/link.aspx?_id=C900B28EB14F4B589D6A2EDDB8F70DB1&amp;_z=z">Contact Us</a></div>
+        </div>
+    - ID: "b7f8583b-1988-4f64-a4eb-eec81726eaed"
+      Hint: Registered User Message
+      Value: You’ve already been registered to this Seminar.
+    - ID: "cc82a459-94db-4fca-9d92-f4042c9e05ac"
+      Hint: Not Eligible Notification
+      Value: |
+        <div class="col-md-6">
+        <p>We're sorry. It looks like you&rsquo;re not eligible for this program.</p>
+        </div>
+        <div class="col-md-6">
+        <div class="items-fixed buttons"><a class="btn btn-md btn-bordered-white pull-right" href="~/link.aspx?_id=C900B28EB14F4B589D6A2EDDB8F70DB1&amp;_z=z">Contact Us</a></div>
+        </div>
+    - ID: "e0cc1d08-7cb3-48fa-b3aa-d2c7ad391aea"
+      Hint: Invalid Seminar Error Message
+      Value: "We're sorry. This program is not available. If you believe you are eligible, please contact for assistance at Member Advocacy Center at 800-637-4636 M-F: 8am - 8pm, Sa: 9am - 1pm (ET) or contact us via email at ask-us@neamb.com"

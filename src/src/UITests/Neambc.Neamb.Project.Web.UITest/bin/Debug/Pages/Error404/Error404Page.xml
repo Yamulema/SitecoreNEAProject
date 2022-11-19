@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="Error404Page" urlpath="/404">
+      <sections>
+        <section name="Body">
+          <controls>
+            <control key="Error404Page_Body_Section" xpath="//section[@class='section-normal bg-gray login']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

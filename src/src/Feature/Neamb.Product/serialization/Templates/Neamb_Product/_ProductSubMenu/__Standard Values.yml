@@ -1,0 +1,21 @@
+﻿---
+ID: "0a825b99-6177-4306-a3f1-20ea5615affe"
+Parent: "3c13505a-f69b-43a2-8b38-02fbc951ca34"
+Template: "3c13505a-f69b-43a2-8b38-02fbc951ca34"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_ProductSubMenu/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T203711Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f8aad234-af61-448a-a58f-a1726f08be3d"
+      Hint: Sub Menu CTA Text
+      Value: Enroll now

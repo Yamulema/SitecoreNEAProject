@@ -1,0 +1,26 @@
+﻿@using Neambc.Neamb.Feature.Language
+@using Sitecore.Data.Fields
+@using Sitecore.Links
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Neambc.Neamb.Feature.Language.Models.LanguageToggleDTO
+
+<section class="container">
+    <div class="col-md-12 language-toggle">
+        <div class="@Model.GroupTopClass" role="group">
+            @Html.ActionLink(Model.EnglishName, "English", "LanguageToggle", new { language = Model.EnglishName, itemid = Model.Item.ID.ToString() }, new { @class = Model.EnglishClass })
+            @Html.ActionLink(Model.SpanishName, "Spanish", "LanguageToggle", new { language = Model.SpanishName, itemid = Model.Item.ID.ToString() }, new { @class = Model.SpanishClass })
+        </div>
+    </div>
+</section>
+
+@{ 
+    if (Model.RedirectEnglish)
+    {
+        Response.Redirect(Model.EnglishLink);
+    }else if (Model.RedirectSpanish)
+    {
+        Response.Redirect(Model.SpanishLink);
+    }
+}

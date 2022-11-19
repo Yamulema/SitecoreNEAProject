@@ -1,0 +1,24 @@
+﻿---
+ID: "6d645180-c4f1-4de2-9c15-1a05df949356"
+Parent: "6dffac57-6610-4785-a1dd-039fdfb7e139"
+Template: "6dffac57-6610-4785-a1dd-039fdfb7e139"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Templates/_OpenGraph/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180503T172844Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e450537-57d3-437e-903b-d6559cc24fcd"
+      Hint: Type
+      Value: "{AFD10856-2F11-4819-AD60-EEE6D184055F}"
+    - ID: "cdc52512-7a8f-46ed-910f-0e53e16ad050"
+      Hint: Title
+      Value: $name

@@ -1,0 +1,113 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Forms
+@using Neambc.Seiumb.Feature.Forms.Enums
+@using Neambc.Seiumb.Feature.Forms.Constants
+@model Neambc.Seiumb.Feature.Forms.Models.ZipCodeValidationFormModel
+
+@{ 
+    bool isExperinceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+    string rowImageStyle = isExperinceEditor ? "position:relative;" : "";
+    var attempt = HttpContext.Current.Session[SessionConstants.ZIP_VALIDATION_ATTEMPT];
+    var zipcodePlaceholder = Model.Item.Fields[Templates.ZipCodeValidationTemplate.Fields.ZipCode_Placeholder].Value;
+}
+
+<div class="row" style="border-bottom: 1px solid #4f2e84;">
+    <div class="small-12 medium-9 large-9 columns float-right">
+        <div class="row" style="@rowImageStyle">
+            @Html.Sitecore().Placeholder("registration-banner")                   
+        </div>
+    </div>
+    <div class="show-for-medium medium-3 large-3 columns float-right">
+        <div id="shedron">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div id="product_details_content" class="row">
+        <div class="row">
+            <div class="show-for-medium medium-1 large-1 columns">
+                &nbsp;
+            </div>
+            <div id="registrationMainForm" class="small-12 medium-10 large-10 columns float-center">
+                <div class="small-12 medium-8 large-8 columns">
+                    <div class="row">
+                        <fieldset class="fieldset">
+                            <h4>@Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.Title, Model.Item)</h4>
+                            <hr>
+                            <div class="row">
+                                <div class="small-12 medium-12 large-12 columns">
+                                    <div class="intro-message">
+                                        <p style="text-transform:capitalize;">
+                                            <strong>@Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.Salutation, Model.Item) @Model.FullName!</strong>
+                                        </p>
+                                        @Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.Instructions, Model.Item)
+                                    </div>
+                                    @if (Model.Errors != null && Model.Errors.Contains(ZipCodeValidationErrors.WRONG_ZIPCODE))
+                                    {
+                                        <div class="error" style="top:0px; margin-bottom:15px;">
+                                            @Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.MatchErrorMessage, Model.Item) 
+                                            @Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.AttemptMessage, Model.Item) @attempt
+                                        </div>
+                                    }
+                                    else if (Model.HasErrorZipcode)
+                                    {
+                                        <div class="error" style="top:0px; margin-bottom:15px;">
+                                            @Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.ZipError, Model.Item)
+                                        </div>
+                                    }
+									else if (Model.HasErrorZipcodeLength)
+                                    {
+                                        <div class="error" style="top:0px; margin-bottom:15px;">
+                                            @Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.CharactersLimit, Model.Item)
+                                        </div>
+                                    }
+
+                                    <form id="zip-validation-form" method="post" data-abide novalidate>
+                                        <div data-abide-error class="error" style="top:0px; margin-bottom:15px; display: none;">
+                                            <p>@Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.ZipError, Model.Item)</p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="small-12 medium-3 large-3 columns columns">
+                                                <label for="zicode" class="text-left bottom">@Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.ZipCode_Label, Model.Item)</label>
+                                            </div>
+                                            <div class="small-12 medium-7 large-7 columns">
+                                                @Html.TextBoxFor(x => x.ZipCode, null, new
+                                       {
+                                           @id = "zipcode",
+                                           @placeholder = @HttpUtility.HtmlDecode(zipcodePlaceholder),
+                                           @required = "true",
+                                           @onKeyDown = "validateZipCode(this, event);",
+                                           pattern = "[0-9]{5}"
+
+                                       })
+                                            </div>
+                                            <input type="hidden" name="fhController" value="ZipCodeValidationFormController" data-abide-ignore />
+                                            <input type="hidden" name="fhAction" value="ZipCodeValidationForm" data-abide-ignore />
+                                        </div>
+                                        <div class="row">
+                                            <div class="small-12 columns buttonContainer">
+                                                <button class="button" type="submit" value="Submit">@Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.Next, Model.Item)</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <p style="text-transform:capitalize;">@Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.NotYou, Model.Item) @Model.FullName?</p>
+                                    
+                                    <p>
+                                        @Html.Sitecore().Field(Templates.ZipCodeValidationTemplate.Fields.RegistrationLink, Model.Item, new { @class = "primary_link" })
+									
+                                    </p>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="show-for-medium medium-4 large-4 columns">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="show-for-medium medium-1 large-1 columns">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>

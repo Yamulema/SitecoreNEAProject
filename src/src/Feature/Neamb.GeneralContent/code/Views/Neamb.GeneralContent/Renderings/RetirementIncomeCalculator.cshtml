@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc
+@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.RetirementIncomeCalculatorDTO
+
+@if (Model.IsHotOrWarm)
+{
+    <iframe style="width:100%;" height="1000" src="@Model.IFrame?ID=@Model.Mdsid"></iframe>
+}
+else
+{
+    @Html.Sitecore().Field(Templates.RetirementIncomeCalculator.Fields.AnonymousUser, Model.Item)
+}

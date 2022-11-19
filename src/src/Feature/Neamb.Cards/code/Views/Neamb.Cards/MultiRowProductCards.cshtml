@@ -1,0 +1,50 @@
+﻿@using System.Security.AccessControl
+@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Neambc.Neamb.Feature.Cards.Models.MultiRowProductCardsDto
+
+@if (Model.PageCards.Any() || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="c-013 section bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="title">@Model.PageCards.Count() @Html.Sitecore().Field(Templates.MultiRowProductCards.Fields.ResultsCountText, Model.Item, new { @DisableWebEdit = true })</p>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var productCard in Model.PageCards)
+                {
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div style="background-image: url('images/')" class="card yes">
+                            <div class="text">
+                                @if (productCard.IsComingSoon)
+                                {
+                                    <div class="badge">Coming Soon </div>
+                                }
+                                <a href="@productCard.Cta" @Html.Raw(productCard.OnClickEvent)>
+                                    <h3>
+                                        @Html.Sitecore().Field(Templates.PageInfo.Fields.PageTitle, productCard.Item)
+                                    </h3>
+                                </a>
+                               
+                                @Html.Sitecore().Field(Templates.ProductCTAs.Fields.Highlights, productCard.Item)
+                            </div>
+                            <div class="cta lessSpace">
+                                <a href="@productCard.Cta" class="btn btn-aquamarine btn-block" @Html.Raw(productCard.OnClickEvent)>@Html.Sitecore().Field(Templates.MultiRowProductCards.Fields.CtaText, Model.Item)</a>
+                                @if (productCard.HasTermsAndConditions)
+                                {
+                                    <div class="terms">
+                                        <span><a href="@productCard.TermsAndConditionsCta.Item1" title="title" class="link-underline">@productCard.TermsAndConditionsCta.Item2</a></span>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}

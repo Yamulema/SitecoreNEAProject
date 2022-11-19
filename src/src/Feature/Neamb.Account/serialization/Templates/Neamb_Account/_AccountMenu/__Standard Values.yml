@@ -1,0 +1,24 @@
+﻿---
+ID: "2d74d407-c331-4842-82ff-e9e6378bb744"
+Parent: "3dfe963f-c723-47cf-8934-91436f43442f"
+Template: "3dfe963f-c723-47cf-8934-91436f43442f"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_AccountMenu/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180418T142016Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8d287d22-c4d6-496a-b11f-c2a4155c74b0"
+      Hint: Sign Out
+      Value: Sign Out
+    - ID: "eb51339a-1f08-4ec3-919c-6d3c9985f0de"
+      Hint: "Not You?"
+      Value: "Not You?"

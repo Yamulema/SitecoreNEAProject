@@ -1,0 +1,21 @@
+﻿---
+ID: "0c1ed361-3a6e-49d3-b3f8-56ab02de2514"
+Parent: "d06933ef-6873-4cfa-a6d2-1f7da4be30eb"
+Template: "d06933ef-6873-4cfa-a6d2-1f7da4be30eb"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Page Content Item/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200219T155634Z

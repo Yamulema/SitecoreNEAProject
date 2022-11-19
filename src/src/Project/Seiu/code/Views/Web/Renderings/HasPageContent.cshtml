@@ -1,0 +1,97 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@if (!Model.PageItem.IsDerived(Templates.OneColumnMiscellaneousPageType.ID) && !Model.PageItem.IsDerived(Templates.TwoColumnMiscellaneousPageType.ID) && !Model.PageItem.IsDerived(Templates.TwoColumnListPageType.ID))
+{
+    <div id="serviceImage" class="row">
+        @Html.Sitecore().Field(Templates.HasPageContent.Fields.Image, Model.Item, new
+    {
+        @id = "imgHeader", @loading = "lazy" 
+    })
+        <div id="pageTitle" class="small-12 medium-12 large-12 columns">
+            @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Title))
+            {
+                <h1>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, Model.Item)</h1>
+            }
+            @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Summary))
+            {
+                <h4>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Summary, Model.Item)</h4>
+            }
+        </div>
+    </div>
+    if (Model.PageItem.FieldHasValue(Templates.HasPageContent.Fields.Body))
+    {
+        @Html.Sitecore().Field(Templates.HasPageContent.Fields.Body, Model.Item)
+    }
+}
+
+@if (Model.PageItem.IsDerived(Templates.OneColumnMiscellaneousPageType.ID))
+{
+    <div id="product_details_content" class="row">
+        <div class="row">
+            <div class="small-12 medium-12 medium-12 columns full-width">
+                @Html.Sitecore().Field(Templates.HasPageContent.Fields.Image, Model.Item, new { @loading = "lazy" })
+            </div>
+        </div>
+        <hr id="full_divider">
+        <div id="misc_title" class="row">
+            <div class="small-12 medium-12 large-12 columns">
+                @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Title))
+                {
+                    <h4>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, Model.Item)</h4>
+                }
+                @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Summary))
+                {
+                    <span>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Summary, Model.Item)</span>
+                }
+                <br>
+                @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Author))
+                {
+                    <small>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Author, Model.Item)</small>
+                }
+            </div>
+        </div>
+        <div id="misc_1_content">
+            @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Body))
+            {
+                @Html.Sitecore().Field(Templates.HasPageContent.Fields.Body, Model.Item)
+            }
+        </div>
+    </div>
+}
+
+@if (Model.PageItem.IsDerived(Templates.TwoColumnMiscellaneousPageType.ID) || Model.PageItem.IsDerived(Templates.TwoColumnListPageType.ID))
+{
+    <div id="misc_1_main" class="small-12 medium-8 large-8 columns float-right">
+
+        <div id="serviceImage" class="row">
+            @Html.Sitecore().Field(Templates.HasPageContent.Fields.Image, Model.Item, new { @loading = "lazy" })
+        </div>
+        <div id="misc_title" class="row">
+            <div class="small-12 medium-12 large-12 columns">
+                @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Title))
+                {
+                    <h1>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title, Model.Item)</h1>
+                }
+                @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Summary))
+                {
+                    <h4>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Summary, Model.Item)</h4>
+                }
+                @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Author))
+                {
+                    <small>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Author, Model.Item)</small>
+                }
+            </div>
+        </div>
+        <div id="misc_1_content">
+            @if (Model.Item.FieldHasValue(Templates.HasPageContent.Fields.Body))
+            {
+                @Html.Sitecore().Field(Templates.HasPageContent.Fields.Body, Model.Item)
+            }
+            @Html.Sitecore().Placeholder("listing")
+        </div>
+
+    </div>
+
+}

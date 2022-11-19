@@ -1,0 +1,21 @@
+﻿
+@model Neambc.Seiumb.Feature.Product.Models.UserStateProduct
+
+
+@if (Model.HasAction1)
+{
+<form name="partnerformdesktop" id="partnerformdesktop" action="@Model.Action" method="POST" target="_blank">
+    <span style="display:none">
+        @Html.Partial("~/Views/Product/Renderings/_PartnerHiddenForms.cshtml", Model)
+    </span>
+<div class="show-for-small-only"><a href="@Model.LoginModalUrlFirst" class="button" onclick="@Model.LoginModalOnClickFirstV2">@Model.ActionFirstText</a></div>
+<div class="show-for-medium"><a data-open="loginModal" aria-controls="loginModal" aria-haspopup="true" class="button" onclick="@Model.LoginModalOnClickFirst">@Model.ActionFirstText</a></div>
+</form>
+}
+
+@if (Model.HasAction2)
+{
+
+<div class="show-for-small-only"><a href="@Model.LoginModalUrlSecond" class="button" onclick="@Model.LoginModalOnClickSecondV2">@Model.ActionSecondText</a></div>
+<div class="show-for-medium"><a data-open="loginModal" aria-controls="loginModal" aria-haspopup="true" class="button" onclick="@Model.LoginModalOnClickSecond">@Model.ActionSecondText</a></div>
+}

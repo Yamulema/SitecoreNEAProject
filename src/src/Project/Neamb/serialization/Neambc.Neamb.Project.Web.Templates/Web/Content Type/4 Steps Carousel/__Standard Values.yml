@@ -1,0 +1,43 @@
+﻿---
+ID: "3bbebdab-5d95-4b0d-9765-94d7a66d9ecf"
+Parent: "3c2faefc-737a-4a9e-80d6-02f0d7cc8e7a"
+Template: "3c2faefc-737a-4a9e-80d6-02f0d7cc8e7a"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/4 Steps Carousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e762114-9ca2-44b3-a5f3-b443c6a21b42"
+      Hint: Step 1
+      Value: |
+        <strong><a href="[rakuten_signup]" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://www.neamb.com/products/NEA-Discount-Marketplace'},this);">Sign up</a></strong> for a Rakuten account through NEAMB.com.
+    - ID: "228d453f-074a-400c-b433-96fb677e2b8e"
+      Hint: Step 3
+      Value: Earn Cash Back on qualifying purchases.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220613T173029Z
+    - ID: "5cc48f30-bd75-407a-81f3-b33384adc5c9"
+      Hint: Bottom Text
+      Value: |
+        <div class="text-center">
+        <p>Plus, spend $25 or more at any qualifying Rakuten store, and receive a $10 Welcome Bonus... just for joining!<sup>1</sup> </p>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "65960079-9a43-4d63-a5c2-9d6f51fb5a23"
+      Hint: Step 4
+      Value: Get paid via PayPal or by check.
+    - ID: "98c3a5bd-65f0-41ee-a65f-7390f88791e7"
+      Hint: Step 2
+      Value: Browse the NEA Discount Marketplace for Cash Back offers.
+    - ID: "98e756ec-b53a-44e0-9f8d-16cc36b7a53c"
+      Hint: Header Text
+      Value: |
+        <div class="text-center">
+        <h6>It&rsquo;s quick and easy to get started!</h6>
+        </div>

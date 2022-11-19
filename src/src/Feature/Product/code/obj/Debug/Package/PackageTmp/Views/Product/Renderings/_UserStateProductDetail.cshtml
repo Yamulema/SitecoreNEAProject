@@ -1,0 +1,53 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Product
+@using Neambc.Seiumb.Foundation.Authentication.Constants
+@using Neambc.Seiumb.Foundation.Authentication.Interfaces
+@using Sitecore.DependencyInjection
+
+@model Neambc.Seiumb.Feature.Product.Models.UserStateProduct
+
+@{
+    var isPreview = Sitecore.Context.PageMode.IsPreview || Sitecore.Context.PageMode.IsExperienceEditor;
+    var userRepository = (IUserRepository)ServiceLocator.ServiceProvider.GetService(typeof(IUserRepository));
+    var notCold = new List<string> { UserStatusCons.HOT, UserStatusCons.WARM_HOT, UserStatusCons.WARM_COLD }.Contains(userRepository.GetUserStatus());
+}
+@if (Model.AuthenticationStatus.Equals(UserStatusCons.COLD) && Model.HasCheckEligibility && !isPreview)
+{
+    @Html.Partial("~/Views/Product/Renderings/_ProductDetailCold.cshtml", Model)
+}
+@if ((notCold && Model.HasCheckEligibility) || isPreview)
+{
+    <!-- CALLING DYNAMENT FOR USER ELEGIBLE VALUE (not necessary already implemented in ProductRepository class ) -->
+    if (Model.HasEligibility || isPreview)
+    {
+        if (Model.AuthenticationStatus.Equals(UserStatusCons.HOT) || isPreview)
+        {
+            <!-- HOT & ELIGIBLE & NOT ENROLLED -->
+            @Html.Partial("~/Views/Product/Renderings/_ProductDetailHot.cshtml", Model)
+            <!-- END HOT & ELIGIBLE & NOT ENROLLED -->
+        }
+
+        if (new List<string> {UserStatusCons.WARM_HOT, UserStatusCons.WARM_COLD }.Contains(Model.AuthenticationStatus))
+        {
+            @Html.Partial("~/Views/Product/Renderings/_ProductDetailWarm.cshtml", Model)
+            <!-- END WARM & ELIGIBLE & NOT ENROLLED -->
+        }
+    }
+}
+@if (notCold && !Model.HasEligibility)
+{
+    <div class="callout alert">
+        <p>@Html.Sitecore().Field(Templates.ProductLite.Fields.NotEligibleMessage, Model.ContextItem)</p>
+    </div>
+}
+<!-- Product Sub Text -->
+@if ((notCold && Model.HasCheckEligibility) || isPreview)
+{
+    if (Model.ContextItem.FieldHasValue(Templates.ProductLite.Fields.PromoDescription))
+    {
+        <p class="small">
+            @Html.Sitecore().Field(Templates.ProductLite.Fields.PromoDescription, Model.ContextItem)
+        </p>
+    }
+}
+<!-- End Product Sub Text -->

@@ -1,0 +1,370 @@
+﻿---
+ID: "629dcdd0-3c59-47ce-8a08-7db0924c122e"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/SEIU Travel Program Card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210326T184822Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Earn Rewards Credits with every purchase that you can use towards additional travel bookings. </p>
+        <p>5-Day Pigeon Forge, TN:<br />
+        Spend $1,314 USD for 2 adults<br />
+        Earn $1,643 Reward Credits</p>
+        <p>From JFK to TYS:<br />
+        Spend $283.46 for 2 adults<br />
+        Earn $355 Reward Credits<br />
+        Total = 1,998</p>
+        <p>2-Nights San Diego, CA:<br />
+        Redeem $1,230 Reward Credits ($0 out-of-pocket)<br />
+        $768 Reward Credits Remaining</p>
+        <div><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Travel
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" />
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T183608Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Get rewarded every time you travel! Earn Reward Credits to use on future travel bookings.</p>
+        <p><strong>EARN</strong><br />
+        Earn up to 1.5% of the purchase price of all products in Rewards Credits.
+        </p>
+        <p><strong>REDEEM</strong><br />
+        Redeem 100% of your Rewards Credits for additional travel.
+        </p>
+        <p><strong>CASH</strong><br />
+        Redeem 100% in Reward Credits and pay remaining balance (if any) in cash or credit card.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Travel
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T183608Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" />
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T184254Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Get rewarded every time you travel! Earn Reward Credits to use on future travel bookings.</p>
+        <p><strong>EARN</strong><br />
+        Earn up to 1.5% of the purchase price of all products in Rewards Credits.
+        </p>
+        <p><strong>REDEEM</strong><br />
+        Redeem 100% of your Rewards Credits for additional travel.
+        </p>
+        <p><strong>CASH</strong><br />
+        Redeem 100% in Reward Credits and pay remaining balance (if any) in cash or credit card.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">LEARN HOW</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Travel
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T184254Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" />
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T190939Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Get rewarded every time you travel! Earn Reward Credits to use on future travel bookings.</p>
+        <p><strong>EARN</strong><br />
+        Earn up to 1.5% of the purchase price of all products in Rewards Credits.
+        </p>
+        <p><strong>REDEEM</strong><br />
+        Redeem 100% of your Reward Credits for additional travel.
+        </p>
+        <p><strong>CASH</strong><br />
+        Redeem 100% in Reward Credits and pay remaining balance (if any) in cash or credit card.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">LEARN HOW</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Travel
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T190939Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" />
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T170239Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Get rewarded every time you travel! Earn Reward Credits to use on future travel bookings.</p>
+        <p><strong>EARN</strong><br />
+        Earn up to 1.5% of the purchase price of all products in Rewards Credits.
+        </p>
+        <p><strong>REDEEM</strong><br />
+        Redeem 100% of your Reward Credits for additional travel.
+        </p>
+        <p><strong>CASH</strong><br />
+        Redeem 100% in Reward Credits and pay remaining balance (if any) in cash or credit card.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">LEARN HOW</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Travel
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T170239Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" />
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T170923Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Get rewarded every time you travel! Earn Reward Credits to use on future travel bookings.</p>
+        <p><strong>EARN</strong><br />
+        Earn up to 1.5% of the purchase price of all products in Reward Credits.
+        </p>
+        <p><strong>REDEEM</strong><br />
+        Redeem 100% of your Reward Credits for additional travel.
+        </p>
+        <p><strong>CASH</strong><br />
+        Redeem 100% in Reward Credits and pay remaining balance (if any) in cash or credit card.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">LEARN HOW</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Travel
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T170923Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" />
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T191707Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Get rewarded every time you travel! Earn Reward Credits to use on future travel bookings.</p>
+        <p><strong>EARN</strong><br />
+        Earn up to 1.5% of the purchase price of all products in Reward Credits.
+        </p>
+        <p><strong>REDEEM</strong><br />
+        Redeem 100% of your Reward Credits for additional travel.
+        </p>
+        <p><strong>CASH</strong><br />
+        Redeem 100% in Reward Credits and pay remaining balance (if any) in cash or credit card.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">LEARN HOW</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Travel
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T191707Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" ></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T170019Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>&iexcl;Obtenga beneficios cada vez que viaje! Gane puntos de recompensa para utilizarlos en reservas futuras de viajes.</p>
+        <p><strong>GANE</strong><br />
+        Gane hasta un 1.5 % del precio de compra de todos los productos en puntos de recompensa.
+        </p>
+        <p><strong>CANJEE</strong><br />
+        Canjee el 100 % de sus puntos de recompensa en viajes adicionales.
+        </p>
+        <p><strong>COMPRE</strong><br />
+        Abone el 100 % de los productos que adquiera con puntos de recompensa y pague el saldo restante (si es el caso) en efectivo o con tarjeta de cr&eacute;dito.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">APRENDER C&Oacute;MO</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: VIAJES
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" alt="Horizonte de San Diego con palmera, bahía y cielo azul" height="" width="" hspace="" vspace="" />
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T191808Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>&iexcl;Obtenga beneficios cada vez que viaje! Gane puntos de recompensa para utilizarlos en reservas futuras de viajes.</p>
+        <p><strong>GANE</strong><br />
+        Gane hasta un 1.5 % del precio de compra de todos los productos en puntos de recompensa.
+        </p>
+        <p><strong>CANJEE</strong><br />
+        Canjee el 100 % de sus puntos de recompensa en viajes adicionales.
+        </p>
+        <p><strong>COMPRE</strong><br />
+        Abone el 100 % de los productos que adquiera con puntos de recompensa y pague el saldo restante (si es el caso) en efectivo o con tarjeta de cr&eacute;dito.
+        </p>
+        <div><a href="~/link.aspx?_id=E9FC81FEECC444B79A9570CB82AD9807&amp;_z=z" class="button panelBtn">APRENDER C&Oacute;MO</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: VIAJES
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T191808Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C72AFCCB-0D3D-441A-AB1D-5C5B8452481A}" alt="Horizonte de San Diego con palmera, bahía y cielo azul" height="" width="" hspace="" vspace="" ></image>

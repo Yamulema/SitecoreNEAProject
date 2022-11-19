@@ -1,0 +1,126 @@
+﻿---
+ID: "a454ffd8-d646-487a-baec-6643f831da0e"
+Parent: "5fcc69a9-3c7f-45ad-bf12-56869e80b711"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Insurance/US Legal Services FAQ
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Attorneys can be expensive. Their services can cost hundreds of dollars per hour. The SEIU Legal Plan is designed to make quality attorneys more accessible and affordable. In exchange for a monthly plan contribution, the SEIU Legal Plan provides access to its network of attorneys and pays the full cost of your attorney’s fees. It is different from other plans in that there is no deductible or co-payments for items covered under your plan."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191115T161553Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ATT Wireless FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191115T161553Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{B19C59C9-8725-4D6D-A33D-23E134CE0435}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Legal Plan Frequently Asked Questions
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q:</strong> What is the SEIU Legal Plan and how is it different than other types of legal plans?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Attorneys can be expensive. Their services can cost hundreds of dollars per hour.  The SEIU Legal Plan is designed to make quality attorneys more accessible and affordable.  In exchange for a monthly plan contribution, the SEIU Legal Plan provides access to its network of attorneys and pays the full cost of your attorney&rsquo;s fees.  It is different from other plans in that there is no deductible or co-payments for items covered under your plan.</p>
+        <p><strong>Q:</strong> Who is eligible to enroll in the SEIU Legal Plan?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> This legal plan is available to SEIU members only.  To enroll, you must be registered with SEIU Member Benefits.</p>
+        <p><strong>Q:</strong> Who is the administrator of the SEIU Legal Plan?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> SEIU Member Benefits has partnered with U.S. Legal Services to bring to you the SEIU Legal Plan.  U.S. Legal Services has been providing legal benefit plans for over 40 years.  Together, they have crafted one of the most comprehensive legal benefit plans on the market that is available to SEIU Members only.</p>
+        <p><strong style="font-size: inherit;">Q:</strong> Are my spouse and children also covered under my plan?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> All the benefits provided to you under the plan are also provided at no extra cost to your spouse or domestic partner, and all dependent children up to age 26.</p>
+        <p><strong>Q:</strong> I don&rsquo;t plan on being sued or charged with a crime. Why would I need an attorney?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Almost anyone can benefit from enrolling in a legal plan because there are several common situations that occur in a person&rsquo;s life where they could benefit from the use of an attorney. Whether it is starting a family, buying or selling a home, or making sure your assets are in place in case something happens, having affordable access to an attorney can be invaluable. </p>
+        <p><strong style="font-size: inherit;">Q:</strong> What attorney services are provided with my plan?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> The SEIU Legal Plan covers several items including advice and consultation, family law, traffic violations, criminal matters, financial matters, civil lawsuits, estate planning, and more.  The plan also provides 1/3 off an attorney&rsquo;s standard fees for any item that is not fully covered under the plan.  To view a full list of covered items, see the coverage chart on the SEIU Legal Plan overview page.</p>
+        <p><strong>Q:</strong> Am I locked into the SEIU Legal Plan for a certain period once I enroll?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> You can cancel your legal plan at any time by providing 30 days cancellation notice. You may not be eligible to re-enroll after cancellation for up to 12 months after the cancellation date.</p>
+        <p><strong>Q:</strong> What happens after I enroll in the SEIU Legal Plan?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Your legal plan will become effective the following day after you enroll.  You will be sent a welcome package that includes your policy documents and instructions on how to utilize your plan.  The welcome package will be delivered to the email address you provide on your enrollment application.</p>
+        <p><strong style="font-size: inherit;">Q:</strong> Are there any other benefits included with my SEIU Legal Plan?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Outside of the standard coverages offered in the plan, each person that enrolls will also receive membership to an Identity Theft Fraud Restoration Program at no cost.  Plan members will also be given access to an online member resources portal that includes several &ldquo;Do it Yourself&rdquo; legal forms.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Legal Plan Frequently Asked Questions
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Qué es el Plan Legal de SEIU y en qué se diferencia de otros tipos de planes legales?
+        Contratar un abogado puede ser costoso. Sus servicios pueden costar cientos de dólares por hora. El Plan Legal de SEIU está diseñado para poner a su disposición abogados de prestigio de manera asequible. A cambio de una contribución mensual al plan, el Plan Legal de SEIU proporciona acceso a su red de abogados y paga el costo total de los honorarios de su abogado. Se diferencia de otros planes en que no hay deducible ni copagos por los servicios cubiertos por el plan.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191115T164500Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Preguntas Frecuentes de ATandT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191115T164500Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{B19C59C9-8725-4D6D-A33D-23E134CE0435}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: PREGUNTAS FRECUENTES ACERCA DEL PLAN LEGAL DE SEIU
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>P:</strong> &iquest;Qu&eacute; es el Plan Legal de SEIU y en qu&eacute; se diferencia de otros tipos de planes legales?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Contratar un abogado puede ser costoso. Sus servicios pueden costar cientos de d&oacute;lares por hora. El Plan Legal de SEIU est&aacute; dise&ntilde;ado para poner a su disposici&oacute;n abogados de prestigio de manera asequible. A cambio de una contribuci&oacute;n mensual al plan, el Plan Legal de SEIU proporciona acceso a su red de abogados y paga el costo total de los honorarios de su abogado. Se diferencia de otros planes en que no hay deducible ni copagos por los servicios cubiertos por el plan.</p>
+        <p><strong>P:</strong> &iquest;Qui&eacute;n puede inscribirse en el Plan Legal de SEIU?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Este plan legal solo est&aacute; disponible para miembros de SEIU. Para inscribirse, debe estar registrado para recibir los beneficios para miembros de SEIU.</p>
+        <p><strong>P:</strong> &iquest;Qui&eacute;n administra el Plan Legal de SEIU?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> SEIU Member Benefits se ha asociado con U.S. Legal Services para brindarle el Plan Legal SEIU. U.S. Legal Services ha proporcionado planes de beneficios legales durante m&aacute;s de 40 a&ntilde;os. Juntos, han creado uno de los planes de beneficios legales m&aacute;s completos del mercado, que est&aacute; disponible solo para miembros de SEIU.</p>
+        <p><strong style="font-size: inherit;">P:</strong> &iquest;Mi c&oacute;nyuge y mis hijos tambi&eacute;n est&aacute;n cubiertos por mi plan?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Todos los beneficios que se le brindan en virtud del plan tambi&eacute;n se brindan sin costo adicional a su c&oacute;nyuge o pareja de hecho y a todos los hijos dependientes hasta los 26 a&ntilde;os.</p>
+        <p><strong>P:</strong> No creo que me demanden o acusen de un delito. &iquest;Para qu&eacute; necesitar&iacute;a un abogado?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Cualquier persona puede obtener beneficios al inscribirse en un plan legal, ya que existen varias situaciones comunes que ocurren en la vida de una persona en las que podr&iacute;a beneficiarse al contratar a un abogado. Ya sea para formar una familia, comprar o vender una casa, o asegurarse de que sus activos est&eacute;n en orden en caso de que ocurra algo. Tener acceso asequible a un abogado puede ser muy valioso.</p>
+        <p><strong style="font-size: inherit;">P:</strong> &iquest;Qu&eacute; servicios de abogados se proporcionan en mi plan?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> El Plan Legal de SEIU cubre varios servicios, entre ellos, asesoramiento y consultor&iacute;a, derecho de familia, infracciones de tr&aacute;nsito, asuntos penales, cuestiones financieras, demandas civiles, planificaci&oacute;n patrimonial y m&aacute;s. El plan tambi&eacute;n proporciona 1/3 de los honorarios est&aacute;ndar de un abogado por cualquier servicio que no est&eacute; completamente cubierto por el plan. Para ver una lista completa de los servicios cubiertos, consulte la tabla de cobertura en la p&aacute;gina de informaci&oacute;n general del Plan Legal de SEIU.</p>
+        <p><strong>P:</strong> &iquest;Debo permanecer en el Plan Legal de SEIU por un cierto per&iacute;odo una vez que me inscribo?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Puede cancelar su plan legal en cualquier momento mediante un aviso de cancelaci&oacute;n de 30 d&iacute;as. Es posible que no pueda volver a inscribirse despu&eacute;s de la cancelaci&oacute;n por hasta 12 meses despu&eacute;s de la fecha de cancelaci&oacute;n.</p>
+        <p><strong>P:</strong> &iquest;Qu&eacute; ocurre despu&eacute;s de la inscripci&oacute;n en el Plan Legal de SEIU?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Su plan legal entrar&aacute; en vigencia al d&iacute;a siguiente de su inscripci&oacute;n. Se le enviar&aacute; un paquete de bienvenida que incluye los documentos de su p&oacute;liza e instrucciones sobre c&oacute;mo utilizar su plan. El paquete de bienvenida se entregar&aacute; en la direcci&oacute;n de correo electr&oacute;nico que proporcione en su solicitud de inscripci&oacute;n.</p>
+        <p><strong style="font-size: inherit;">P:</strong> &iquest;Hay otros beneficios incluidos en mi Plan Legal de SEIU?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Fuera de las coberturas est&aacute;ndar ofrecidas en el plan, cada persona que se inscriba tambi&eacute;n recibir&aacute; una membres&iacute;a a un Programa de restauraci&oacute;n en caso de robo de identidad sin costo alguno. Los miembros del plan tambi&eacute;n tendr&aacute;n acceso a un portal de recursos para miembros en l&iacute;nea que incluye varios formularios legales para que los complete usted mismo.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: PREGUNTAS FRECUENTES ACERCA DEL PLAN LEGAL DE SEIU

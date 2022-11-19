@@ -1,0 +1,28 @@
+﻿@model Neambc.Seiumb.Feature.Product.Models.UserStateProduct
+
+@if (Model.ProductCode.Equals("486 03"))
+{
+    <input type="hidden" name="mdsid" value="@Model.UserData.MdsIndvId">
+    <input type="hidden" name="url" value="">
+}
+else if (Model.ProductCode.Equals("494 02"))
+{
+    <input type="hidden" name="givenName" value="@Model.UserData.FirstName">
+    <input type="hidden" name="familyName" value="@Model.UserData.LastName">
+    <input type="hidden" name="emailAddress" value="@Model.UserData.LoginUserId">
+    <input type="hidden" name="addressLine1" value="@Model.UserData.Address">
+    <input type="hidden" name="city" value="@Model.UserData.City">
+    <input type="hidden" name="state" value="@Model.UserData.StateCode">
+    <input type="hidden" name="postalCode" value="@Model.UserData.Zipcode">
+    <input type="hidden" name="telephone" value="@Model.UserData.Phone">
+    <input type="hidden" name="memberid" value="@Model.UserData.MdsIndvId">
+}
+else if(Model.ProductCode.Equals("010 02"))
+{
+    <input type="hidden" name="PostData" value="@Model.UserData.MdsIndvId">
+}
+else if (Model.ProductCode.Equals("019 01"))
+{
+    <input type="hidden" name="seiu_mds_id" value="@Model.UserData.MdsIndvId">
+    <input type="hidden" name="token" value="@Model.Token">
+}

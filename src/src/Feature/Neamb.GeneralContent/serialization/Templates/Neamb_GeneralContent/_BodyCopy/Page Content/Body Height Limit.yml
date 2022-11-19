@@ -1,0 +1,23 @@
+﻿---
+ID: "2c35129e-3a76-4324-ac98-24572e226a82"
+Parent: "1d51a860-384d-4a1b-8b8c-9ad075245607"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_BodyCopy/Page Content/Body Height Limit
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: |
+      Enter the height (in pixels) at which you want the "read more" button to be placed
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180427T180141Z

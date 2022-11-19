@@ -1,0 +1,19 @@
+﻿---
+ID: "9e57c341-1303-4060-8e92-7f2a51b0b7e4"
+Parent: "2cfb5405-e7d0-47e6-95ff-aba9dbac9fa4"
+Template: "aa91a868-02f2-41d3-8b78-1cad91b4dcae"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Neamb Complife Member Eligibility/Visibility
+DB: master
+BranchID: "9a72c539-dbf8-4dad-96d3-a298fc04add6"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{283F6CD6-EFB8-47AC-946A-ABB17FA45ECB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T173758Z

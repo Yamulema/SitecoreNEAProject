@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="MarketPlacePage" urlpath="/Products/NEA-Discount-Marketplace">
+      <sections>
+        <section name="DivCards">
+          <controls>
+            <control key="DivCard" xpath="//div[@class='card']"  />
+            <control key="CardsContainer" xpath="//div[@class='cards-container']"  />
+            <control key="MarketPlacePage_FirstCard" xpath="//div[@class='cards']//div[@class='card']"  />
+          </controls>
+        </section>
+        <section name="Categories">
+          <controls>
+            <control key="FirstCategory" xpath="//*[@id='filters']//div[@class='categories-container']//div[@class='form-group parent-filter']"  />
+            <control key="CategoriesContainer" xpath="//*[@id='filters']//div[@class='categories-container']"  />
+          </controls>
+        </section>
+        <section name="FiltersAndSorting">
+          <controls>
+            <control key="ResetAllFilter" xpath="//*[@id='reset']"  />
+            <control key="SearchInput" xpath="//*[@id='store-search']/input"  />
+            <control key="SortingDropdown" xpath="//*[@id='marketplace']/section/div/div[1]/div[2]/div/div/select"  />
+          </controls>
+        </section>
+        <section name="Search">
+          <controls>
+            <control key="SuggestionBox" xpath="//*[@id='store-search']/div[1]"  />
+            <control key="FirstSearchResult" xpath="//*[@id='store-search']/div/a"  />
+            <control key="ClearSearch" xpath="//*[@id='store-search']/i[2]"  />
+            <control key="LoaderInInput" xpath="//*[@id='store-search']/div[2]"  />
+          </controls>
+        </section>
+        <section name="PopularOffers">
+          <controls>
+            <control key="AllStoresRadio" xpath="//*[@id='all-stores']" />
+          </controls>
+        </section>
+        <section name="FavoriteStores">
+          <controls>
+            <control key="MarketPlacePage_CheckBoxFavoriteStores" xpath="//*[@id='store-favorites-only']"  />
+            <control key="FavoriteStoresToggle" xpath="//*[@id='store-favorites-only']"  />
+          </controls>
+        </section>
+        <section name="DivCardsHotDeals">
+          <controls>
+            <control key="MarketPlacePage_FirstCardHotDeal" xpath="//*[@id='exclusive-offers']/section/div/section/div/div/div[1]/div/div"  />
+          </controls>
+        </section>
+        <section name="Miscellaneous">
+          <controls>
+            <control key="SeeMoreButton" xpath="//*[@id='see-more-stores']"  />
+            <control key="NotEligibleBanner" xpath="//html/body/div[2]/section[1]/div[contains(@class, 'not-eligible-top')]"  />
+            <control key="CloseNotEligibleModalButton" xpath="//*[@id='eligibilitymodel']/div/div/div[1]/button"  />
+            <control key="CloseRegistrationModalButton" xpath="//*[@id='mktpModal']/div/div/div[1]/button"  />
+          </controls>
+        </section>
+        <section name="DivModal">
+          <controls>
+            <control key="MarketPlacePage_DivModal" xpath="//div[@id='mktpModal']"  />
+            <control key="RakutenRegistrationModal" xpath="//*[@id='mktpModal']"  />
+            <control key="MarketPlacePage_DivModalClose" xpath="/html/body/div[2]/div[1]/div/div/div[1]/button/span"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

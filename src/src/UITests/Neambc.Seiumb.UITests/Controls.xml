@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <includes>
+    <include path="Pages\Base\SeiumbPage.xml" />
+    <include path="Pages\Home\HomePage.xml" />
+    <include path="Pages\NavigationSection\Navigation.xml" />
+    <include path="Pages\Search\SearchPage.xml" />
+    <include path="Pages\Profile\ProfilePage.xml" />
+    <include path="Pages\Registration\RegistrationPage.xml" />
+    <include path="Pages\Tokens\TokenPage.xml" />
+    <include path="Pages\Products\GroupTermLifeInsurance\GroupTermLifeInsurance.xml" />
+    <include path="Pages\Products\StudentLoanRefinanceProgram\StudentLoanRefinanceProgram.xml" />
+    <include path="Pages\Products\Marketplace\MarketplacePage.xml" />
+  </includes>
+</controldata>

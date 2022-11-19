@@ -1,0 +1,131 @@
+﻿---
+ID: "80319011-e3bd-4d14-a401-37b6400ed636"
+Parent: "26ad367a-f5db-4d26-b7d0-66e539e7ed9c"
+Template: "26ad367a-f5db-4d26-b7d0-66e539e7ed9c"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_LoginHelper/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02b582e9-9190-44bd-8111-668c511ae30e"
+      Hint: Description
+      Value: "<p>Please enter the e-mail address you registered with and we&rsquo;ll e-mail you a secure link to reset your password.</p>"
+    - ID: "07477a5d-ed7a-4213-9b1d-76036fcffbd8"
+      Hint: Subheadline
+      Value: |
+        <p>Need help logging into SEIUMB.com, or updating your username or password? If after referring to the links below you still need assistance, please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a>. </p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T204944Z
+    - ID: "457b093d-98d4-45b2-86aa-177ca527a776"
+      Hint: Headline
+      Value: Log in Help
+    - ID: "457d1436-1593-4dec-bfb8-f0798c23b1e2"
+      Hint: Description
+      Value: <p>Just confirm your name, date of birth and home ZIP code to retrieve your username.</p>
+    - ID: "4a13d160-32a1-4822-8cb5-c72c5bbdda39"
+      Hint: Title
+      Value: "Need to change your username?"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "828ce64e-c7a9-41e2-98bf-cb2d2b9a4e4f"
+      Hint: Title
+      Value: "Forgot your username?"
+    - ID: "8928fa88-18c2-4ed4-813d-fdc8fc3957b6"
+      Hint: Description
+      Value: |
+        <p>Please click the button below to change your password.<br />
+        <small>(Please note: You must be logged in to change your password.)</small></p>
+    - ID: "9d27b4c0-7de9-4804-bf98-b828cd4e8abc"
+      Hint: CTA
+      Value: |
+        <link text="Reset Password" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{19655CE0-B8B6-4944-98E8-EE394D59F6C9}" />
+    - ID: "b2e3e443-75d2-430f-83b4-9cc06312f68c"
+      Hint: Description
+      Value: |
+        <p>Please click the button below to update your username.<br />
+        <small>(Please note: You must be logged in to change your username.)</small></p>
+    - ID: "bc432c2d-d86d-439f-93a3-29933cc14f18"
+      Hint: CTA
+      Value: |
+        <link text="Retrieve Username" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{211A4C50-9E01-46EA-AABB-69244FBC40C4}" />
+    - ID: "db62641a-ad86-491f-a87f-3c4c63faca67"
+      Hint: Title
+      Value: "Need to change your password?"
+    - ID: "e009caec-6a73-45db-abc3-302d69b62094"
+      Hint: Title
+      Value: "Forgot your password?"
+    - ID: "f8df4cac-bbd5-43ec-aba5-9f0ab15ea7a7"
+      Hint: CTA
+      Value: |
+        <link text="Change Username" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />
+    - ID: "fa1d9c5a-7d91-4c5c-9b04-7fefcdf5645e"
+      Hint: CTA
+      Value: |
+        <link text="Change Password" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02b582e9-9190-44bd-8111-668c511ae30e"
+      Hint: Description
+      Value: <p>Ingrese el correo electr&oacute;nico con el cual se registr&oacute; y le enviaremos un enlace para reiniciar su contrase&ntilde;a.</p>
+    - ID: "07477a5d-ed7a-4213-9b1d-76036fcffbd8"
+      Hint: Subheadline
+      Value: |
+        <p>&iquest;Necesita ayuda para ingresar a SEIUMB.com o para actualizar su usuario o contrase&ntilde;a? Si despu&eacute;s de referirse a los enlaces siguientes a&uacute;n necesita ayuda, por favor <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">cont&aacute;ctenos.</a></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T205621Z
+    - ID: "457b093d-98d4-45b2-86aa-177ca527a776"
+      Hint: Headline
+      Value: Ayuda para Ingresar
+    - ID: "457d1436-1593-4dec-bfb8-f0798c23b1e2"
+      Hint: Description
+      Value: <p>Para recuperar su nombre de usuario, ingrese su nombre, fecha de nacimiento y el c&oacute;digo postal de su domicilio.</p>
+    - ID: "4a13d160-32a1-4822-8cb5-c72c5bbdda39"
+      Hint: Title
+      Value: "¿Necesita actualizar su usuario?"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "828ce64e-c7a9-41e2-98bf-cb2d2b9a4e4f"
+      Hint: Title
+      Value: "¿Olvidó su Usuario?"
+    - ID: "8928fa88-18c2-4ed4-813d-fdc8fc3957b6"
+      Hint: Description
+      Value: |
+        <p>Haga clic abajo para actualizar su contrase&ntilde;a.<br />
+        <small>(Importante: Usted debe estar logeado para cambiar su contrase&ntilde;a.)</small></p>
+    - ID: "9d27b4c0-7de9-4804-bf98-b828cd4e8abc"
+      Hint: CTA
+      Value: |
+        <link text="Recuperar Contraseña" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{19655CE0-B8B6-4944-98E8-EE394D59F6C9}" />
+    - ID: "b2e3e443-75d2-430f-83b4-9cc06312f68c"
+      Hint: Description
+      Value: |
+        <p>Haga clic abajo para actualizar su nombre de usuario.<br />
+        <small>(Importante: Usted debe estar logeado para cambiar&nbsp;su nombre de usuario.)</small></p>
+    - ID: "bc432c2d-d86d-439f-93a3-29933cc14f18"
+      Hint: CTA
+      Value: |
+        <link text="Recuperar Usuario" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{211A4C50-9E01-46EA-AABB-69244FBC40C4}" />
+    - ID: "db62641a-ad86-491f-a87f-3c4c63faca67"
+      Hint: Title
+      Value: "¿Necesita cambiar su contraseña?"
+    - ID: "e009caec-6a73-45db-abc3-302d69b62094"
+      Hint: Title
+      Value: "¿Olvidó su Contraseña?"
+    - ID: "f8df4cac-bbd5-43ec-aba5-9f0ab15ea7a7"
+      Hint: CTA
+      Value: |
+        <link text="Cambiar Usuario" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />
+    - ID: "fa1d9c5a-7d91-4c5c-9b04-7fefcdf5645e"
+      Hint: CTA
+      Value: |
+        <link text="Cambiar Contraseña" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />

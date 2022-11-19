@@ -1,0 +1,22 @@
+﻿---
+ID: "e07a268b-ddf5-48f9-84dd-330f17f28197"
+Parent: "5682d99d-fb1f-4027-9712-7dd67f6c070a"
+Template: "5682d99d-fb1f-4027-9712-7dd67f6c070a"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Language/_SpanishLanguageModal/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180410T192929Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af18d301-47d2-4a63-93c9-edbc24b468dc"
+      Hint: Content
+      Value: |
+        <span style="color: #333333; background-color: #ffffff;">HTML defined on the visual design.</span>

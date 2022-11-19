@@ -1,0 +1,26 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Cards.Models
+@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Mvc
+
+@model ThreeColumnContentListDTO
+
+@if (!Model.HideComponent)
+{
+    <section class="new-design c-094-3-column bg-white">
+        <div class="container">
+            <div class="row">
+                @for (int i = 0; i < Model.Cards.Length; i++)
+                {
+                    <div class="col-md-4 col-xs-12 column-3">
+                        <img src="@Model.Cards[i].ImageUrl(Templates.ThreeColumnContentItem.Fields.Image)" />
+                        <h6>@Html.Sitecore().Field(Templates.ThreeColumnContentItem.Fields.Headline, Model.Cards[i])</h6>
+                        <h5>@Html.Sitecore().Field(Templates.ThreeColumnContentItem.Fields.Title, Model.Cards[i])</h5>
+                        @Html.Sitecore().Field(Templates.ThreeColumnContentItem.Fields.Description, Model.Cards[i])
+                        @Html.Sitecore().Field(Templates.ThreeColumnContentItem.Fields.LinkAction, Model.Cards[i], new { @class = "arrow-link blue" })
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}

@@ -1,0 +1,39 @@
+﻿---
+ID: "2159c2bd-e4ed-41d2-9814-1837da0cbd24"
+Parent: "84a86b14-1015-424d-8892-cdd127c291b6"
+Template: "84a86b14-1015-424d-8892-cdd127c291b6"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Test Your Knowledge/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b359b8-8908-425e-addb-2982e282cdbe"
+      Hint: Headline
+      Value: Pop Quiz
+    - ID: "199f781b-7f31-4524-aa11-1aac82cdf5e9"
+      Hint: Confirmation Text
+      Value: |
+        <span style="color: #172b4d; background-color: #ffffff;">Text to present when user submits&nbsp;</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T182217Z
+    - ID: "5517b683-643a-4105-887a-d06ba2dabb5b"
+      Hint: Confirmation Image
+      Value: |
+        <image mediaid="{5CAB96D7-5215-4247-8EBA-240E314D32F3}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "aa26c5bf-c478-4e4d-9f28-93c07bcb0b47"
+      Hint: Submit Button
+      Value: Submit My Answer
+    - ID: "b715b6bb-3528-4755-a16a-33faac7954d9"
+      Hint: Question Image
+      Value: |
+        <image mediaid="{5CAB96D7-5215-4247-8EBA-240E314D32F3}" />
+    - ID: "f39a7712-332c-4963-bb37-dbd359b19390"
+      Hint: Question
+      Value: Insert your Question Here

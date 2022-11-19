@@ -1,0 +1,29 @@
+﻿---
+ID: "c2f72040-a864-4d2f-9231-ed0a8f1afea1"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "a7672676-784a-4c0c-ad2b-f79b6ccad850"
+Path: /sitecore/content/NEAMBC/Home/emailnxjaccess
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190214T192010Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\lespinosa
+    - ID: "7c8fe395-0e26-4531-a753-02b9b9cfb82e"
+      Hint: Logo
+      Value: |
+        <image mediaid="{C60DA8BE-D5DD-4BC9-8E0A-626CD9B4DA34}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Click And Save Validation

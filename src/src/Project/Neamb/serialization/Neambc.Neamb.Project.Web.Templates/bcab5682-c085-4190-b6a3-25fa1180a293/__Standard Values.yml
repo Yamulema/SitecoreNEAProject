@@ -1,0 +1,101 @@
+﻿---
+ID: "2c1bd3fd-d95e-48fd-8ca2-1c809db9599c"
+Parent: "bcab5682-c085-4190-b6a3-25fa1180a293"
+Template: "bcab5682-c085-4190-b6a3-25fa1180a293"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Debt Consolidation Calculator C085 Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b181e85-524f-4fbd-8e92-52eea852aaf9"
+      Hint: Total Monthly Headline
+      Value: Total Monthly Payments (USD)
+    - ID: "171a8197-f6ad-4bc8-bdb2-9a7f91499a22"
+      Hint: Total Loan Headline
+      Value: Total Remaining Balance (USD)
+    - ID: "1d97b81a-3c6a-46d6-bcc5-d021e4c467ba"
+      Hint: Terms Label
+      Value: Loan Terms (in months)
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220914T023422Z
+    - ID: "3334d4e5-e482-44bc-a149-136c2e65c0cf"
+      Hint: APR Label
+      Value: APR
+    - ID: "3a819ffa-5fdf-45e9-b141-df14a7d4e164"
+      Hint: Total Monthly Icon
+      Value: |
+        <image mediapath="/marifolder/sumcalculator2" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/marifolder/sumcalculator2" mediaid="{AB49D03A-2A06-40BD-AE13-BAB7E7958428}" />
+    - ID: "3f7bb3a1-c11a-4cd1-b063-4b97df8289b6"
+      Hint: Loan Months Label
+      Value: Months remaining on loan/debt
+    - ID: "545a4c9e-0202-4653-81f4-5b4c215824f8"
+      Hint: Introduction
+      Value: |
+        <h2>Let’s start by adding up <strong>your current debts</strong></h2>
+                  <h6>Enter your loan and debt types, remaining balances, your monthly payments, APRs and loan durations.
+                  </h6>
+                  <p class="caption short-left">Note: NEA Personal Loan® amounts are available in amounts from <strong>$1,000 to
+                      $30,000</strong>. The NEA Personal Loan® cannot be used to pay for postsecondary educational expenses or
+                    tuition, or to consolidate postsecondary educational loans.</p>
+    - ID: "5c554aeb-43de-411c-8212-ba8bf77eb9de"
+      Hint: Add Loan Link
+      Value: Add Another
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "699671da-3876-4a28-a2db-93688b75d940"
+      Hint: Optional Label
+      Value: (optional)
+    - ID: "6a23b445-2cee-42ed-b744-c02da0e2e8d6"
+      Hint: Estimated Cost Tool Tip
+      Value: |
+        If you were to qualify for a consolidated personal loan at <strong class="apr-value">15%</strong> over <strong class="months-value">48</strong> months, you might be able to save <strong class="savings-value">$0.00</strong> per month. <sup>1</sup></span>
+    - ID: "7f07707d-c3c7-452d-b448-057db9f688d5"
+      Hint: Loan Balance Label
+      Value: Remaining balance
+    - ID: "90c94fae-3130-4ef4-a500-cc4861bb9bcb"
+      Hint: Average APR Icon
+      Value: |
+        <image mediapath="/marifolder/sumcalculator3" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/marifolder/sumcalculator3" mediaid="{D4C501F7-7FCC-45FD-AC30-30C9D9728F76}" />
+    - ID: "950b41f2-6b1b-42f2-bc61-ddcf4fb31fd1"
+      Hint: Loan APR Label
+      Value: APR
+    - ID: "ab99208c-a220-4b0c-8dfe-28908ed08f43"
+      Hint: Loan Tool Tip
+      Value: Loan type examples include “auto loan” or “credit card balance”
+    - ID: "d0fdf158-dd00-43f9-ba9c-367caebd9b07"
+      Hint: Current Payment Label
+      Value: Your current monthly payment
+    - ID: "d378fdf9-120d-4cac-bf4c-d52acba7f24e"
+      Hint: Average APR Headline
+      Value: Average APR (USD)
+    - ID: "d5570eda-1152-4593-b7f4-80cc51c692c8"
+      Hint: Loan Label
+      Value: Loan/debt type
+    - ID: "df6d9c23-e952-4411-a1e7-5f4a1023d926"
+      Hint: Total Loan Description
+      Value: NEA Personal Loan consolidation loans start at $1,000 and are capped at $30,000.
+    - ID: "e6202b86-ef7b-4e68-a095-f607ca14a8b9"
+      Hint: Estimated Cost Label
+      Value: Estimated consolidated monthly payment
+    - ID: "e83caa5c-eb7d-402f-9204-711622001fef"
+      Hint: Description
+      Value: |
+        <h2>Now, let’s <strong>explore your options</strong></h2>
+                        <h6 class="short-left">
+                            Experiment with various APR and loan terms to see if consolidating your existing loans into one easy-to-manage personal loan might help you reduce your monthly payment or pay off your debts faster. Keep in mind that lower APRs typically are associated with higher FICO Scores. Not all APRs or loan terms in the calculator are available with the NEA Personal Loan®.<sup>1</sup>
+                        </h6>
+    - ID: "eaf01e46-af2b-4680-9fa2-55bfd7004edf"
+      Hint: Explore Button
+      Value: Explore the options
+    - ID: "ecf53293-6cf2-465c-a972-d5f9d8eb3af1"
+      Hint: Loan Current Payment Label
+      Value: Current monthly payment
+    - ID: "f5be4dc4-6baf-4aa5-a1cc-1696fcb1f371"
+      Hint: Total Loan Icon
+      Value: |
+        <image mediapath="/marifolder/sumcalculator1" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/marifolder/sumcalculator1" mediaid="{49195C68-5D6A-42CC-B985-270C43CD57B7}" />

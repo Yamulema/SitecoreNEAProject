@@ -1,0 +1,39 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.ProductDetailDTO
+@{
+    bool isExperience = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+<div class="row">
+    <div class="col-md-12">
+        @if ((isExperience && !String.IsNullOrEmpty(Model.ActionPrimaryDescription)) || (!String.IsNullOrEmpty(Model.ActionPrimary) || !String.IsNullOrEmpty(Model.ActionClickPrimary)))
+        {
+            if (!string.IsNullOrEmpty(Model.ActionPrimary))
+            {
+                <a id="product_cta_primary_action_button" href="@Model.ActionPrimary" class="btn btn-@Model.CtaPrimaryColor m-b-xs m-r-sm" target="@Model.ActionPrimaryTargetBlank" onclick="@Html.Raw(Model.ActionClickPrimary)">@Model.ActionPrimaryDescription</a>
+            }
+            else
+            {
+                <a id="product_cta_primary_action_button" href='javascript:void(0)' class="btn btn-@Model.CtaPrimaryColor m-b-xs m-r-sm" target="@Model.ActionPrimaryTargetBlank" onclick="@Html.Raw(Model.ActionClickPrimary)">@Model.ActionPrimaryDescription</a>
+            }
+        }
+        @if ((isExperience && !String.IsNullOrEmpty(Model.ActionSecondaryDescription)) || (!String.IsNullOrEmpty(Model.ActionSecondary) || !String.IsNullOrEmpty(Model.ActionClickSecondary)))
+        {
+            if (isExperience || !String.IsNullOrEmpty(Model.ActionSecondaryDescription))
+            {
+                if (!string.IsNullOrEmpty(Model.ActionSecondary))
+                {
+                    <a id="product_cta_secondary_action_button" href="@Model.ActionSecondary" class="btn btn-@Model.CtaSecondaryColor" target="@Model.ActionSecondaryTargetBlank" onclick="@Model.ActionClickSecondary">@Model.ActionSecondaryDescription</a>
+                }
+                else
+                {
+                    <a id="product_cta_secondary_action_button" href='javascript:void(0)' class="btn btn-@Model.CtaSecondaryColor" target="@Model.ActionSecondaryTargetBlank" onclick="@Model.ActionClickSecondary">@Model.ActionSecondaryDescription</a>
+                }
+            }
+        }
+    </div>
+</div>
+<p class="text-alpha m-t-sm">@Html.Sitecore().Field(Templates.ProductCTAs.Fields.FinePrint, Model.Item)</p>
+

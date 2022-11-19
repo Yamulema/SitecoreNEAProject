@@ -1,0 +1,36 @@
+﻿---
+ID: "5f58abc7-392c-4992-b007-e4cd5a25abe7"
+Parent: "a15e2c39-bb7e-42fb-9c84-c0c3805a7b12"
+Template: "a15e2c39-bb7e-42fb-9c84-c0c3805a7b12"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Interactive Headline Hero Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220722T210458Z
+    - ID: "387b5f28-d768-47a7-8388-01accf9d4940"
+      Hint: Desktop Image
+      Value: |
+        <image mediaid="{8D5D3DA6-F7EA-4C19-8C89-A3B51AF8DFC2}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9a1c95a7-0588-4e91-ba29-738b11e7471c"
+      Hint: Headline
+      Value: Insert your Headline Here
+    - ID: "a8734dd0-b1ac-41b0-9681-27e80505d315"
+      Hint: Button Link
+      Value: |
+        <link text="Submit" linktype="external" url="" anchor="" target="" />
+    - ID: "b9e04dbc-7fd5-41fa-a775-fe93d2f5e250"
+      Hint: Mobile Image
+      Value: |
+        <image mediaid="{9448EBF0-8C02-49BF-BEDC-FF8CB11B65E6}" />
+    - ID: "fdf928a5-3963-4566-be8f-48b280bf299b"
+      Hint: Subheadline
+      Value: Insert your Subheadline Here

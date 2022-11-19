@@ -1,0 +1,146 @@
+var gulp = require("gulp");
+var _msbuild = require("msbuild");
+var del = require("del");
+var foreach = require("gulp-foreach");
+var runSequence = require("run-sequence");
+var config = require("./gulp-config.js")();
+var nugetRestore = require('gulp-nuget-restore');
+var gutil = require('gulp-util');
+
+module.exports.config = config;
+
+try {
+    var localconfig = require('./local-config');
+    gutil.log("Found local config file to be used " + localconfig["publishProfile"].path);
+} catch (error) {
+    var localconfig = {
+        publishProfile: "web"
+    }
+}
+
+gulp.task("00-Clean-Folder", function (callback) {
+    var solution = "./" + config.solutionName + ".sln";
+
+    gutil.log('deployFolder: ' + config.deployFolder);
+    gutil.log('deployUnicornFolder: ' + config.deployUnicornFolder);
+    gutil.log('Solution: ' + solution);
+
+    if (config.deployFolder !== "") {
+        del.sync([config.deployFolder + "\\**", "!" + config.deployFolder], { force: true });
+    }
+
+    if (config.deployUnicornFolder !== "") {
+        del.sync([config.deployUnicornFolder + "\\**", "!" + config.deployUnicornFolder], { force: true });
+    }
+
+    return gulp.src(solution);
+});
+
+gulp.task("01-Nuget-Restore", function (callback) {
+    var solution = "./" + config.solutionName + ".sln";
+
+    gutil.log('Solution: ' + solution);
+
+    return gulp.src(solution).pipe(nugetRestore());
+});
+
+gulp.task("New-Gulp-Build", function (callback) {
+    return runSequence(
+        "03-Build-Solution",
+        "04-Publish-Foundation-Projects",
+        "05-Publish-Feature-Projects",
+        "06-Publish-Project-Projects",
+        callback
+    );
+});
+
+//Step configurations
+var msbuildF = new _msbuild();
+gulp.task("03-Build-Solution", function () {
+    const solution = "./" + config.solutionName + ".sln";
+
+    msbuildF.solutionName = config.solutionName;
+    msbuildF.publishProfile = config.publishProfile;
+    msbuildF.sourcePath = solution;
+    msbuildF.configuration = config.buildConfiguration;
+    msbuildF.config('version', config.toolsVersion);
+
+    const overrideParams = [];
+    overrideParams.push('/p:verbosity=quiet');
+    msbuildF.config('overrideParams', overrideParams);
+    msbuildF.build();
+});
+
+gulp.task("00-Test-Single-Project", function () {
+    const location = "./src/Feature/Neamb.Account";
+    return gulp.src([location + "/**/code/*.csproj"])
+        .pipe(foreach(function (stream, file) {
+            msbuildF.solutionName = config.solutionName;
+            msbuildF.publishProfile = config.publishProfile;
+            msbuildF.sourcePath = file.path;
+            msbuildF.configuration = config.buildConfiguration;
+            msbuildF.config('version', config.toolsVersion);
+            msbuildF.publish();
+
+            return stream;
+        }));
+});
+
+gulp.task("04-Publish-Foundation-Projects", function () {
+    const location = "./src/Foundation";
+
+    return gulp.src([location + "/**/code/*.csproj"])
+        .pipe(foreach(function (stream, file) {
+            msbuildF.solutionName = config.solutionName;
+            msbuildF.publishProfile = config.publishProfile;
+            msbuildF.sourcePath = file.path;
+            msbuildF.configuration = config.buildConfiguration;
+            msbuildF.config('version', config.toolsVersion);
+            msbuildF.publish();
+            return stream;
+        }));
+});
+
+gulp.task("05-Publish-Feature-Projects", function () {
+    const location = "./src/Feature";
+    return gulp.src([location + "/**/code/*.csproj"])
+        .pipe(foreach(function (stream, file) {
+            msbuildF.solutionName = config.solutionName;
+            msbuildF.publishProfile = config.publishProfile;
+            msbuildF.sourcePath = file.path;
+            msbuildF.configuration = config.buildConfiguration;
+            msbuildF.config('version', config.toolsVersion);
+
+            //const overrideParams = [];
+            //overrideParams.push('/p:verbosity=quiet');
+            //overrideParams.push('/p:consoleLoggerParameters=ErrorsOnly');
+            //msbuildF.config('overrideParams', overrideParams);
+            msbuildF.publish();
+
+            return stream;
+        }));
+});
+
+gulp.task("06-Publish-Project-Projects", function () {
+    const location = "./src/Project";
+    return gulp.src([location + "/**/code/*.csproj"])
+        .pipe(foreach(function (stream, file) {
+            msbuildF.solutionName = config.solutionName;
+            msbuildF.publishProfile = config.publishProfile;
+            msbuildF.sourcePath = file.path;
+            msbuildF.configuration = config.buildConfiguration;
+            msbuildF.config('version', config.toolsVersion);
+
+            const overrideParams = [];
+            overrideParams.push('/p:verbosity=quiet');
+            overrideParams.push('/p:consoleLoggerParameters=ErrorsOnly');
+            msbuildF.config('overrideParams', overrideParams);
+            msbuildF.publish();
+            return stream;
+        }));
+});
+
+gulp.task("07-Copy-Unicorn-Files", function (callback) {
+    return gulp.src(["./src/**/*.yml"], { base: "./src" })
+        .pipe(gulp.dest(config.deployUnicornFolder));
+});

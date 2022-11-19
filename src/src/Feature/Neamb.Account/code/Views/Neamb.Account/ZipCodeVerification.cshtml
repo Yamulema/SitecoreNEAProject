@@ -1,0 +1,89 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+
+@model Neambc.Neamb.Feature.Account.Models.ZipCodeVerificationDTO
+@{
+	Sitecore.Data.Fields.LinkField registrationLink = Model.Item.Fields[Templates.ZipCodeVerificationForm.Fields.Registration];
+	
+	bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+
+<section class="new-design form col-centered">
+    <div class="col-xs-12">
+        <form id="zip-verification" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+            <div class="step-header">
+                <h5>@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.Title, Model.Item)</h5>
+                <p>
+                    @Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.Salutation, Model.Item) @Model.FullName
+                </p>
+                <span>@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.Instructions, Model.Item)</span>
+            </div>
+            <div class="form-section m-t-lg">
+                <div class="floating-section">
+                    <div class="floating-group">
+                        <input id="zip" name="zipCode" type="text" placeholder="ZIP" required="required" minlength="5" maxlength="5"
+                               data-msg-required="@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.EmptyFieldZipCode, Model.Item, new { @DisableWebEdit = true })" data-rule-minlength="5"
+                               data-msg-minlength="@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.ZipCodeMinimunCharacters, Model.Item, new { @DisableWebEdit = true })" data-rule-maxlength="5"
+                               data-msg-maxlength="@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.CharactersLimit, Model.Item, new { @DisableWebEdit = true })"
+                               data-msg="@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.InvalidCharacters, Model.Item, new { @DisableWebEdit = true })" />
+                        <label for="zip">@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.Label, Model.Item)</label>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages">
+                            @if (Model.ErrorsZipCode.Contains(ErrorStatusEnum.MatchNotFound))
+                            {
+                                string attempts = String.Format(Model.Item[Templates.ZipCodeVerificationForm.Fields.Attempts], Model.Attempts);
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.MatchNotFound, Model.Item)
+                                    @if (Model.Attempts > 0)
+                                    {
+                                        <br />
+                                        @attempts
+                                    }
+                                </div>
+                            }
+                            else if (Model.ErrorsZipCode.Contains(ErrorStatusEnum.Required) || Model.ErrorsZipCode.Contains(ErrorStatusEnum.InvalidCharacters))
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.EmptyField, Model.Item)
+                                </div>
+                            }
+                            else if (Model.ErrorsZipCode.Contains(ErrorStatusEnum.Length))
+                            {
+                                <div class="server-error">
+                                    @Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.CharactersLimit, Model.Item)
+                                </div>
+                            }
+                        </div>
+                        @if (Model.HasTooltip)
+                        {
+                            <div class="floating-info-messages">
+                                @Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.Tooltip, Model.Item, new { @DisableWebEdit = true })
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+            <div class="form-section">
+                @if (isExperienceEditor)
+                {
+                    <button type="submit" class="btn btn-new btn-outline-default">@Model.ButtonText</button>
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-new btn-outline-default">@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.Next, Model.Item)
+                <i style="display: none;" class="fa fa-spinner fa-spin"></i></button>
+                }
+                <br>
+                <span>@Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.NotYou, Model.Item) @Model.FullName?</span>
+                @Html.Sitecore().Field(Templates.ZipCodeVerificationForm.Fields.Registration, Model.Item, new { @class = "form-link" })
+            </div>
+            <input type="hidden" name="fhController" value="ZipCodeVerificationController" data-abide-ignore />
+            <input type="hidden" name="fhAction" value="ZipCodeVerification" data-abide-ignore />
+        </form>
+    </div>
+</section>
+

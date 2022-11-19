@@ -1,0 +1,112 @@
+﻿---
+ID: "24eed2d6-25f9-45e3-af0d-31fa26dafeb6"
+Parent: "dcfe716d-1e15-4bec-a9d6-402de283c336"
+Template: "dcfe716d-1e15-4bec-a9d6-402de283c336"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_ResetPassword/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07fe7993-6a99-41d9-a951-7546ba4fc7d6"
+      Hint: SubmitButton
+      Value: Change Password
+    - ID: "1724d024-ee84-4bf3-839b-9f840424b864"
+      Hint: PasswordRequirements
+      Value: Please enter a password that is at least 8 characters long, contains at least 1 letter, contains at least 1 number and does not contain any spaces.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T201409Z
+    - ID: "3bc0aacc-50d2-464c-a2ef-8a715f246436"
+      Hint: ValidPassword
+      Value: "Valid!"
+    - ID: "3cf52b1c-9746-4935-9bbc-7a459d54817f"
+      Hint: Label
+      Value: Password* 
+    - ID: "3d1a70af-4627-4416-a776-871bb98e1bc3"
+      Hint: ErrorMessage
+      Value: "Hey, passwords are supposed to match!"
+    - ID: "42f3bd44-6f42-4a9b-81ed-1cdaf62ba89f"
+      Hint: Label
+      Value: Confirm Password*
+    - ID: "477e6545-8f80-4eb1-820b-05f52b587c41"
+      Hint: InvalidToken
+      Value: The request has expired or is invalid.
+    - ID: "51be3f9d-db7e-4b92-a4db-747cd6613d35"
+      Hint: Placeholder
+      Value: password
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7f5f04a3-6982-4dab-b5fb-611ec792e9af"
+      Hint: ThankYouPage
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8346D39F-5E72-4EA2-8BDB-CAC58939317A}" />
+    - ID: "9409c3a4-74ee-4b8d-9a73-8175bbeb2564"
+      Hint: Subheadline
+      Value: <p>Please enter your new password in both fields below, then Submit.</p>
+    - ID: "b1d1b630-31a2-4498-b141-1710d502390b"
+      Hint: Placeholder
+      Value: confirm password
+    - ID: "da7e9420-e2b9-4f2c-b8f4-499d199deaa8"
+      Hint: InvalidPassword
+      Value: "Invalid!"
+    - ID: "f0811bce-0fc2-4d9d-ad1f-1cf469fef0ac"
+      Hint: Headline
+      Value: Reset Password
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07fe7993-6a99-41d9-a951-7546ba4fc7d6"
+      Hint: SubmitButton
+      Value: Cambiar Contraseña
+    - ID: "1724d024-ee84-4bf3-839b-9f840424b864"
+      Hint: PasswordRequirements
+      Value: Por favor ingrese una contraseña de al menos 8 caracteres, que contenga al menos 1 letra, contenga al menos 1 número y no contenga espacios.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T201724Z
+    - ID: "3bc0aacc-50d2-464c-a2ef-8a715f246436"
+      Hint: ValidPassword
+      Value: "¡Válido!"
+    - ID: "3cf52b1c-9746-4935-9bbc-7a459d54817f"
+      Hint: Label
+      Value: Contraseña*
+    - ID: "3d1a70af-4627-4416-a776-871bb98e1bc3"
+      Hint: ErrorMessage
+      Value: Las contraseñas no coinciden
+    - ID: "42f3bd44-6f42-4a9b-81ed-1cdaf62ba89f"
+      Hint: Label
+      Value: Confirmar Contraseña*
+    - ID: "477e6545-8f80-4eb1-820b-05f52b587c41"
+      Hint: InvalidToken
+      Value: La petición ha expirado o es inválida.
+    - ID: "51be3f9d-db7e-4b92-a4db-747cd6613d35"
+      Hint: Placeholder
+      Value: contraseña
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7f5f04a3-6982-4dab-b5fb-611ec792e9af"
+      Hint: ThankYouPage
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8346D39F-5E72-4EA2-8BDB-CAC58939317A}" />
+    - ID: "9409c3a4-74ee-4b8d-9a73-8175bbeb2564"
+      Hint: Subheadline
+      Value: |
+        <p>
+        Por favor ingrese su nueva contrase&ntilde;a en los dos campos siguientes, luego&nbsp;haga clic en ENVIAR
+        </p>
+    - ID: "b1d1b630-31a2-4498-b141-1710d502390b"
+      Hint: Placeholder
+      Value: confirmar contraseña
+    - ID: "da7e9420-e2b9-4f2c-b8f4-499d199deaa8"
+      Hint: InvalidPassword
+      Value: "¡Inválido!"
+    - ID: "f0811bce-0fc2-4d9d-ad1f-1cf469fef0ac"
+      Hint: Headline
+      Value: Recuperar Contraseña

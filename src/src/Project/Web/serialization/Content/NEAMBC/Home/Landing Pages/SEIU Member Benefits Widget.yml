@@ -1,0 +1,323 @@
+﻿---
+ID: "7800387f-52fd-4658-a9f3-ca1d05c181d9"
+Parent: "43344ec6-a203-4289-8a12-4d8fcf397d59"
+Template: "b136d132-50e9-43d2-acc8-83576d5eb51b"
+Path: /sitecore/content/NEAMBC/Home/Landing Pages/SEIU Member Benefits Widget
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T233526Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "7eaef1c7-c4d4-4c7f-b53e-eaeaee47dd3e"
+      Hint: DefaultContent
+      Value: |
+        <div style="padding: 0px 50px;">
+        <p style="text-align: center;"><img alt="seiu logo" src="-/media/A8C1FB7A3FE54C72919C23178C8F1E84.ashx" style="width: 600px; height: 100px;" /></p>
+        
+        <hr style="border: 0px currentColor; height: 2px; color: rgb(79, 46, 132); background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <h2 style="text-align: center; color: rgb(121, 83, 164);"><font size="5">SEIU Member Benefits Website Widget</font></h2>
+        
+        <p><br />
+        <span style="color: rgb(122, 83, 163);">What is the SEIU Member Benefits widget?</span><br />
+        The SEIU Member Benefit widget is a small “box” placed on a webpage that displays information about the programs and services offered by SEIU Member Benefits. The widget provides your members with information about the various ways the Union can help them. Once the widget is added to a webpage, there is no additional work required. You can “set it and forget it.” All updates to information shown in the widget are handled by SEIU Member Benefits staff.</p>
+        
+        <p><br />
+        <span style="color: rgb(122, 83, 163);">How do I know what will be displayed in the SEIU Member Benefits widget?</span><br />
+        The widget is regularly updated by SEIU Member Benefits with details about benefit programs available to your members and useful tips and advice. The currently running widget is shown below, as it will appear on your website.</p>
+        
+        <p><br />
+        <span style="color: rgb(122, 83, 163);">What is the size of the widget? How do I know if it will fit on my website?</span><br />
+        The widget is <strong>300px wide x 250px tall.</strong> You should be able to place the widget on any portion of your webpage that exceeds those dimensions.</p>
+        
+        <p><br />
+        <span style="color: rgb(122, 83, 163);">Is it difficult to add the widget to our website?</span><br />
+        Not at all! Your website administrator simply adds a few lines of code (shown below) to the page where you would like the widget to be shown. That’s it! After that, there is no ongoing maintenance or configuration required.</p>
+        
+        <p>&nbsp;</p>
+        <!--
+        <hr style="border: 0px currentColor; height: 2px; color: rgb(79, 46, 132); background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <h2 style="text-align: center; color: rgb(121, 83, 164);"><font size="5">Upcoming Schedule</font></h2>
+        
+        <p>The SEIU Member Benefits widget is updated automatically. Here’s a list of our scheduled changes:</p>
+        
+        <p>&nbsp;</p>
+        
+        <div align="center">
+        <table border="0" cellpadding="1" cellspacing="0" style="width: 800px;">
+        	<tbody>
+        		<tr valign="top">
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250); valign: top;">
+        			<div style="padding: 7px; valign: top;">
+        			<p style="text-align: center;"><strong>January<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>February<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>March<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>April<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>May<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        		</tr>
+        	</tbody>
+        </table>
+        </div>
+        
+        <p>&nbsp;</p>
+        -->
+        
+        <hr style="border: 0px currentColor; height: 2px; color: rgb(79, 46, 132); background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <h2 style="text-align: center; color: rgb(121, 83, 164);"><font size="5">Add the Widget to Your Website</font></h2>
+        
+        <p>Adding the widget to your website is easy!</p>
+        
+        <ol>
+        	<li>Decide where you would like the widget to be shown on your website. The space must be at least <strong>300 pixels wide by 250 pixels tall</strong>.</li>
+        	<li>Add the code shown below to that space on your website.</li>
+        	<li>That’s it! The content shown in the widget is regularly updated by SEIU Member Benefits automatically.</li>
+        </ol>
+        
+        <div align="center">
+        <p style="color: rgb(121, 83, 164);"><br />
+        Here’s how the current widget will appear on your website<br />
+        (300px wide x 250px tall):</p>
+        
+        <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px;">
+        	<tbody>
+        		<tr align="center">
+        			<td align="center"><script async src="http://widget.neamb.com/js/widget_gh8zRtFKSH9jXGgX.js" data-id="3" data-width="300" data-height="250"></script>
+        			<p>&nbsp;</p>
+        			</td>
+        		</tr>
+        		<tr>
+        			<td align="center">
+        			<p style="text-align: center; color: rgb(121, 83, 164); font-size: 14px;">To use this on your website, please copy and paste the text below:</p>
+        			<textarea cols="35" rows="4" style="font-family: courier new,courier,monospace;">&lt;script async src="https://widget.neamb.com/js/widget_gh8zRtFKSH9jXGgX.js" data-id="3" data-width="300" data-height="250"&gt;&lt;/script&gt;</textarea></td>
+        		</tr>
+        	</tbody>
+        </table>
+        
+        <p><span style="line-height: 14px; font-size: 12px;">If your website does not use a secure connection,<br />
+        please change “https” to “http” in the code above.</span></p>
+        
+        <p>&nbsp;</p>
+        </div>
+        </div>
+        
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Member Benefits Widget
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190506T190308Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "7eaef1c7-c4d4-4c7f-b53e-eaeaee47dd3e"
+      Hint: DefaultContent
+      Value: |
+        <div style="padding: 0px 50px;">
+        <p style="text-align: center;"><img alt="seiu logo" src="-/media/A8C1FB7A3FE54C72919C23178C8F1E84.ashx" style="width: 600px; height: 100px;" /></p>
+        <hr style="border: 0px currentColor; height: 2px; color: #4f2e84; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <h2 style="text-align: center; color: #7953a4;"><span style="font-size: 24px;">SEIU Member Benefits Website Widget</span></h2>
+        <p>
+        <span style="color: #7a53a3;">What is the SEIU Member Benefits widget?</span><br />
+        The SEIU Member Benefit widget is a small &ldquo;box&rdquo; placed on a webpage that displays information about the programs and services offered by SEIU Member Benefits. The widget provides your members with information about the various ways the Union can help them. Once the widget is added to a webpage, there is no additional work required. You can &ldquo;set it and forget it.&rdquo; All updates to information shown in the widget are handled by SEIU Member Benefits staff.</p>
+        <p>
+        <span style="color: #7a53a3;">How do I know what will be displayed in the SEIU Member Benefits widget?</span><br />
+        The widget is regularly updated by SEIU Member Benefits with details about benefit programs available to your members and useful tips and advice. The currently running widget is shown below, as it will appear on your website.</p>
+        <p>
+        <span style="color: #7a53a3;">What is the size of the widget? How do I know if it will fit on my website?</span><br />
+        The widget is <strong>300px wide x 250px tall.</strong> You should be able to place the widget on any portion of your webpage that exceeds those dimensions.</p>
+        <p>
+        <span style="color: #7a53a3;">Is it difficult to add the widget to our website?</span><br />
+        Not at all! Your website administrator simply adds a few lines of code (shown below) to the page where you would like the widget to be shown. That&rsquo;s it! After that, there is no ongoing maintenance or configuration required.</p>
+        <p>&nbsp;</p>
+        <!--
+        <hr style="border: 0px currentColor; height: 2px; color: rgb(79, 46, 132); background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <h2 style="text-align: center; color: rgb(121, 83, 164);"><font size="5">Upcoming Schedule</font></h2>
+        
+        <p>The SEIU Member Benefits widget is updated automatically. Here’s a list of our scheduled changes:</p>
+        
+        <p>&nbsp;</p>
+        
+        <div align="center">
+        <table border="0" cellpadding="1" cellspacing="0" style="width: 800px;">
+        	<tbody>
+        		<tr valign="top">
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250); valign: top;">
+        			<div style="padding: 7px; valign: top;">
+        			<p style="text-align: center;"><strong>January<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>February<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>March<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>April<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        			<td style="width: 10px; height: 150px; background-color: rgb(255, 255, 255); valign: top;">&nbsp;</td>
+        			<td style="width: 150px; height: 150px; background-color: rgb(250, 250, 250);">
+        			<div style="padding: 7px;">
+        			<p style="text-align: center;"><strong>May<br />
+        			2016</strong></p>
+        
+        			<hr />
+        			<p style="text-align: center;">[TBD]</p>
+        			</div>
+        			</td>
+        		</tr>
+        	</tbody>
+        </table>
+        </div>
+        
+        <p>&nbsp;</p>
+        -->
+        <hr style="border: 0px currentColor; height: 2px; color: #4f2e84; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <h2 style="text-align: center; color: #7953a4;"><span style="font-size: 24px;">Add the Widget to Your Website</span></h2>
+        <p>Adding the widget to your website is easy!</p>
+        <ol>
+            <li>Decide where you would like the widget to be shown on your website. The space must be at least <strong>300 pixels wide by 250 pixels tall</strong>.</li>
+            <li>Add the code shown below to that space on your website.</li>
+            <li>That&rsquo;s it! The content shown in the widget is regularly updated by SEIU Member Benefits automatically.</li>
+        </ol>
+        <div style="text-align: center;">
+        <p style="color: #7953a4;">
+        Here&rsquo;s how the current widget will appear on your website<br />
+        (300px wide x 250px tall):</p>
+        <table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px;">
+            <tbody>
+                <tr align="center">
+                    <td align="center">
+                    <script async src="https://widget.neamb.com/js/widget_gh8zRtFKSH9jXGgX.js" data-id="3" data-width="300" data-height="250"></script>
+                    <p>&nbsp;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    <p style="text-align: center; color: #7953a4; font-size: 14px;">To use this on your website, please copy and paste the text below:</p>
+                    <textarea cols="35" rows="4" style="font-family: courier new,courier,monospace;">
+                    <script async src="https://widget.neamb.com/js/widget_gh8zRtFKSH9jXGgX.js" data-id="3" data-width="300" data-height="250"></script>
+                    </textarea></td>
+                </tr>
+            </tbody>
+        </table>
+        <p><span style="line-height: 14px; font-size: 12px;">If your website does not use a secure connection,<br />
+        please change &ldquo;https&rdquo; to &ldquo;http&rdquo; in the code above.</span></p>
+        <p>&nbsp;</p>
+        </div>
+        </div>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190506T190308Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Member Benefits Widget
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190506T202127Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "7eaef1c7-c4d4-4c7f-b53e-eaeaee47dd3e"
+      Hint: DefaultContent
+      Value: |
+        <p>&nbsp;</p>
+        <p style="text-align: center;">Esta p&aacute;gina no est&aacute; disponible en espa&ntilde;ol.<br />
+        Puede obtener m&aacute;s informaci&oacute;n sobre el widget de SEIU Member Benefits <a href="/en/landing-pages/seiu-member-benefits-widget/">aqu&iacute;</a>.</p>
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Member Benefits Widget
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1

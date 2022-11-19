@@ -1,0 +1,2272 @@
+﻿---
+ID: "1304d4cf-a459-4198-a90d-b8c9028bdee3"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU Discount 1800flowers
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20210831T200800Z
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 1
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "1-800-Flowers.com"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B441885C-3665-4E72-A9B4-D266C68478A6}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002613Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p class="small">
+                                When shopping online, your 20%* discount will be applied at checkout.<br>
+        To order by phone, please call 1-800-755-7474, 24 hours a day.
+        </p>
+        <p><strong>Use promotion code “SEIU”</strong></p>
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p style="text-align: center;"><strong>SEIU Members Now Receive 20% Off All the 1800FLOWERS.com<sup>®</sup> Family of Brands</strong></p>
+        
+        <p>For over 40 years, 1800Flowers.com has been providing customers around the world with the freshest flowers and finest selection of plants, gift baskets, gourmet foods, confections and plush stuffed animals perfect for every occasion.</p>
+        
+        <p>The 1800Flowers.com family of brands truly completes your online gift shopping experience. When you need a special gift, think of us.</p>
+        
+        <ul>
+        	<li><strong>1800Baskets.com</strong> - Shop our new expanded gift basket collection for gourmet gift baskets filled with chocolates, wine, fruit, cookies, various gift basket towers and assorted food gifts.</li>
+        	<br>
+        	<li><strong>Cheryl’s</strong> - Gourmet cookies, brownies and desserts and our famous buttercream cookies. Our cookies are baked fresh with high quality ingredients so that your recipient receives only the tastiest desserts.</li>
+        	<br>
+        	<li><strong>Harry &amp; David</strong> - Elegant wine gifts, chocolates and candy gifts and beautiful gourmet food baskets and gift towers for every taste.</li>
+        	<br>
+        	<li><strong>Fruit Bouquets</strong> - A delicious assortment of fresh fruit arrangements and chocolate dipped fruits that are sure to deliver a smile!</li>
+        	<br>
+        	<li><strong>The Popcorn Factory</strong> - Specializes in fresh-popped popcorn in a variety of exclusively designed tins and packaging. Our gourmet popcorn is always popped and packed fresh and made with high quality ingredients.</li>
+        	<br>
+        	<li><strong>Simply Chocolate</strong> - From classic boxed chocolates, to bars and truffles, we have one quest: to bring you exquisite chocolate gifts from around the globe. Discover and Delight.</li>
+        	<br>
+        	<li><strong>Wolferman’s</strong> - A proud purveyor of gourmet breads and pastries, honoring our time-tested recipes, from our famous, super-thick English muffins to our indulgent cakes and pies handcrafted to perfection.</li>
+        	<br>
+        	<li><strong>Personalization Universe</strong> - Your premier destination for personalized gifts! Personalization Universe offers a wide variety of personalized gifts and keepsakes, seasonal products, and popular brands.</li>
+        	<br>
+        	<li><strong>Stockyards</strong> - Only the finest seafood and prime and choice cuts of meat since 1893.</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{B441885C-3665-4E72-A9B4-D266C68478A6}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Order Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "SEIU members enjoy a 20% savings every day on flowers, plants, gift baskets, gourmet foods, confections, plush stuffed animals and more!"
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU MEMBERS SAVE 20%*
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{80C13813-4490-4287-B349-7E4FAD19657B}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{37088D1E-B860-46C4-9CD2-27C90DBE9545}" alt="Pumpkin and Posies for Fall" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190415T153029Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p class="small">
+                                When shopping online, your 20%* discount will be applied at checkout.<br>
+        To order by phone, please call 1-800-755-7474, 24 hours a day.
+        </p>
+        <p><strong>Use promotion code “SEIU”</strong></p>
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p style="text-align: center;"><strong>SEIU Members Now Receive 20% Off All the 1800FLOWERS.com<sup>®</sup> Family of Brands</strong></p>
+        
+        <p>For over 40 years, 1800Flowers.com has been providing customers around the world with the freshest flowers and finest selection of plants, gift baskets, gourmet foods, confections and plush stuffed animals perfect for every occasion.</p>
+        
+        <p>The 1800Flowers.com family of brands truly completes your online gift shopping experience. When you need a special gift, think of us.</p>
+        
+        <ul>
+        	<li><strong>1800Baskets.com</strong> - Shop our new expanded gift basket collection for gourmet gift baskets filled with chocolates, wine, fruit, cookies, various gift basket towers and assorted food gifts.</li>
+        	<br>
+        	<li><strong>Cheryl’s</strong> - Gourmet cookies, brownies and desserts and our famous buttercream cookies. Our cookies are baked fresh with high quality ingredients so that your recipient receives only the tastiest desserts.</li>
+        	<br>
+        	<li><strong>Harry &amp; David</strong> - Elegant wine gifts, chocolates and candy gifts and beautiful gourmet food baskets and gift towers for every taste.</li>
+        	<br>
+        	<li><strong>Fruit Bouquets</strong> - A delicious assortment of fresh fruit arrangements and chocolate dipped fruits that are sure to deliver a smile!</li>
+        	<br>
+        	<li><strong>The Popcorn Factory</strong> - Specializes in fresh-popped popcorn in a variety of exclusively designed tins and packaging. Our gourmet popcorn is always popped and packed fresh and made with high quality ingredients.</li>
+        	<br>
+        	<li><strong>Simply Chocolate</strong> - From classic boxed chocolates, to bars and truffles, we have one quest: to bring you exquisite chocolate gifts from around the globe. Discover and Delight.</li>
+        	<br>
+        	<li><strong>Wolferman’s</strong> - A proud purveyor of gourmet breads and pastries, honoring our time-tested recipes, from our famous, super-thick English muffins to our indulgent cakes and pies handcrafted to perfection.</li>
+        	<br>
+        	<li><strong>Personalization Universe</strong> - Your premier destination for personalized gifts! Personalization Universe offers a wide variety of personalized gifts and keepsakes, seasonal products, and popular brands.</li>
+        	<br>
+        	<li><strong>Stockyards</strong> - Only the finest seafood and prime and choice cuts of meat since 1893.</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{37088D1E-B860-46C4-9CD2-27C90DBE9545}" hspace="" usethumbnail="" showineditor="" width="" alt="Pumpkin and Posies for Fall" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Order Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "SEIU members enjoy a 20% savings every day on flowers, plants, gift baskets, gourmet foods, confections, plush stuffed animals and more!"
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU MEMBERS SAVE 20%*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190415T153000Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{80C13813-4490-4287-B349-7E4FAD19657B}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{D8F777A1-F616-4DF2-A436-379C86E25C01}" alt="1800 Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190920T142051Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{D8F777A1-F616-4DF2-A436-379C86E25C01}" hspace="" usethumbnail="" showineditor="" width="" alt="1800 Flowers.com" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190920T142000Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{80C13813-4490-4287-B349-7E4FAD19657B}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" alt="1800 Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T160208Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" hspace="" usethumbnail="" showineditor="" width="" alt="Show Mom You Care From Near Or Far" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T160208Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{80C13813-4490-4287-B349-7E4FAD19657B}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" alt="1800 Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T132205Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" hspace="" usethumbnail="" showineditor="" width="" alt="Show Mom You Care From Near Or Far" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T132205Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{80C13813-4490-4287-B349-7E4FAD19657B}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" alt="1800 Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201209T224919Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" hspace="" usethumbnail="" showineditor="" width="" alt="Show Mom You Care From Near Or Far" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201209T224919Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{D7E73744-6898-451B-8789-24A177891E4A}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" alt="1800 Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201210T153909Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" hspace="" usethumbnail="" showineditor="" width="" alt="Show Mom You Care From Near Or Far" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201210T153909Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{D7E73744-6898-451B-8789-24A177891E4A}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Woman holding bouquet of flowers" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210128T150305Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" hspace="" usethumbnail="" showineditor="" width="" alt="Show Mom You Care From Near Or Far" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210128T150305Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 9
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{D7E73744-6898-451B-8789-24A177891E4A}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Woman holding bouquet of flowers" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T200645Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit 
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" hspace="" usethumbnail="" showineditor="" width="" alt="Show Mom You Care From Near Or Far" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+  - Version: 10
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8F18126-A818-46AB-9361-71F81086943B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{D7E73744-6898-451B-8789-24A177891E4A}"
+              p:after="r[@uid='{C8F18126-A818-46AB-9361-71F81086943B}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0a96fcf5-cfdb-4e89-9ff0-b6b89bf7c3c5"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 0
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Woman holding bouquet of flowers" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits in partnership with 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T201003Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* Exclusive of applicable service and shipping charges and taxes. Items may vary and are subject to availability, delivery rules, and times. Items available online and by phone. Offers cannot be combined, are not available on all products, and are subject to restrictions, limitations, and blackout periods. Prices and charges are subject to change without notice. Void where prohibited.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "1-800-Flowers.com Family of Brands"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "20% discount applied at checkout when you use promo code <strong>SEIU</strong>. To order by phone 24/7, call 1-800-755-7474."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "1-800-FLOWERS.COM<sup>&reg;</sup> FAMILY OF BRANDS"
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{326650E4-46A7-49D4-AABA-F4841EEA9FDB}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{326650E4-46A7-49D4-AABA-F4841EEA9FDB}"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save 20% on purchases at any of 9 high quality brands<sup>1</sup></li>
+            <li>Shop fresh flowers, gift baskets, baked goods, fruit, seafood and meat</li>
+        </ul>
+        <p>Find the perfect gift for any occasion and save 20% online or by phone.</p>
+        <p><strong>1800Flowers.com</strong> - The finest selection of beautiful flowers and arrangements available for same day or next day delivery.</p>
+        <p><strong>1800Baskets.com</strong> - Gourmet baskets filled with chocolates, wine, fruit, and more</p>
+        <p><strong>Cheryl&rsquo;s</strong> - Fresh baked goodies, including Cheryl&rsquo;s famous buttercream cookie</p>
+        <p><strong>Harry &amp; David</strong> - Beautiful gourmet food baskets and gift towers for every taste</p>
+        <p><strong>Fruit Bouquets</strong> - Fresh fruit and chocolate-dipped fruit in fun arrangements</p>
+        <p><strong>The Popcorn Factory</strong> - Fresh-popped popcorn in a variety of exclusively designed tins</p>
+        <p><strong>Wolferman&rsquo;s</strong> - Handcrafted breads, pastries, cakes, and pies, plus their famous, super-thick English muffins</p>
+        <p><strong>Personalization Universe</strong> - Personalized gifts and keepsakes for every season</p>
+        <p><strong>Stockyards</strong> - Purveyors of fine seafood and prime and choice cuts of meat since 1893</p>
+        <p>Start saving now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" hspace="" usethumbnail="" showineditor="" width="" alt="Show Mom You Care From Near Or Far" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "1-800-FLOWERS.COM FAMILY OF BRANDS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Saving Now" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more.
+    - ID: "b813686b-22e3-4ce6-b86c-6e693ae7cf85"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save 20% on fresh flowers, gourmet foods, wine baskets, personalized gifts, and more*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T201003Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "1-800-Flowers.com"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B441885C-3665-4E72-A9B4-D266C68478A6}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172630Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        * El servicio no incluye cobros de impuestos o envíos. Los productos pueden variar y están sujetos a disponibilidad, normas de entrega y horarios. Los productos están disponibles en línea y por teléfono. Las ofertas no se pueden combinar, no están disponibles para todos los productos, y estás sujetas a restricciones, limitaciones y periodos de restricción. Los precios y cobros están sujetos a cambio sin previo aviso. No es válido donde esté prohibido.
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p class="small">
+                                Cuando compre en línea, aplicaremos su 20%* de descuento al momento de pagar. Para realizar un pedido por teléfono, llame al 1-800-356-9377, las 24 horas del día.
+        </p>
+        <p><br>
+        <strong>Use el código de promoción “SEIU”.</strong></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p style="text-align: center;"><strong>Los miembros de SEIU ahora cuenta con un 20% de descuento en toda la familia de marcas de 1800FLOWERS.com<sup>®</sup></strong></p>
+        
+        <p>Durante más de 40 años, 1800Flowers.com ha proporcionado las flores más frescas y la mejor selección de plantas, canastas de regalo, alimentos gourmet, dulces y animales de peluche a clientes de todo el mundo, ideales para cada ocasión.</p>
+        
+        <p>La familia de marcas de 1800Flowers.com realmente completa su experiencia de compra de regalos en línea. Cuando necesite un regalo especial, acuda a nosotros.</p>
+        
+        <ul>
+        	<li><strong>1800Baskets.com:</strong> Adquiera nuestra nueva colección de canastas de regalos, que se amplían a canastas de regalos gourmet llenas de chocolates, vino, frutas, galletas; varias canastas de regalo en torre y regalos con variedad de alimentos.</li>
+        	<br>
+        	<li><strong>Cheryl’s:</strong> Galletas, brownies y postres gourmet y nuestras famosas galletas de crema de mantequilla. Nuestras galletas están recién horneadas con ingredientes de alta calidad para que el destinatario reciba únicamente los postres más sabrosos.</li>
+        	<br>
+        	<li><strong>Harry &amp; David:</strong> Elegantes regalos de vino, chocolates y caramelos, además de hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos.</li>
+        	<br>
+        	<li><strong>Fruit Bouquets:</strong> ¡Una deliciosa variedad de arreglos con fruta fresca y frutas cubiertas de chocolate que seguramente hará que surja una sonrisa!</li>
+        	<br>
+        	<li><strong>The Popcorn Factory:</strong> Se especializa en palomitas de maíz recién hechas en una variedad de latas y envases con diseño exclusivo. Nuestras palomitas gourmet siempre se inflan y envasan frescas. Además, se cocinan con ingredientes de alta calidad.</li>
+        	<br>
+        	<li><strong>Simply Chocolate:</strong> Desde clásicos chocolates en caja, hasta barras y trufas, solo tenemos una misión: ofrecerte exquisitos regalos de chocolate de todo el mundo. Descúbralo y deléitese.</li>
+        	<br>
+        	<li><strong>Wolferman's:</strong> Un orgulloso proveedor de panes y pasteles gourmet y ofrecemos, honrando las recetas probadas a lo largo del tiempo, desde nuestros famosos panecillos ingleses supergruesos hasta nuestros pasteles y tartas complacientes hechos a mano y a la perfección.</li>
+        	<br>
+        	<li><strong>Personalization Universe:</strong> ¡Tu principal destino para regalos personalizados! Personalization Universe ofrece una amplia variedad de regalos y recuerdos, productos de temporada y marcas populares personalizados.</li>
+        	<br>
+        	<li><strong>Stockyards:</strong> Solo los mejores mariscos y cortes de carne selectos y de primera, desde 1893.</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{B441885C-3665-4E72-A9B4-D266C68478A6}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="COMPRAR AHORA" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU obtienen un 20% de descuento todos los d&iacute;as en flores, plantas, cestas de regalo, alimentos gourmet, bombones, mu&ntilde;ecos de peluche y mucho m&aacute;s.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: LOS MIEMBROS DE SEIU AHORRAN UN 20%
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{81B2555B-61CE-4F27-A1AB-9E171B721060}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{37088D1E-B860-46C4-9CD2-27C90DBE9545}" alt="Calabaza y ramilletes para el otoño" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190415T153135Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        * El servicio no incluye cobros de impuestos o envíos. Los productos pueden variar y están sujetos a disponibilidad, normas de entrega y horarios. Los productos están disponibles en línea y por teléfono. Las ofertas no se pueden combinar, no están disponibles para todos los productos, y estás sujetas a restricciones, limitaciones y periodos de restricción. Los precios y cobros están sujetos a cambio sin previo aviso. No es válido donde esté prohibido.
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p class="small">
+                                Cuando compre en línea, aplicaremos su 20%* de descuento al momento de pagar. Para realizar un pedido por teléfono, llame al 1-800-356-9377, las 24 horas del día.
+        </p>
+        <p><br>
+        <strong>Use el código de promoción “SEIU”.</strong></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p style="text-align: center;"><strong>Los miembros de SEIU ahora cuenta con un 20% de descuento en toda la familia de marcas de 1800FLOWERS.com<sup>®</sup></strong></p>
+        
+        <p>Durante más de 40 años, 1800Flowers.com ha proporcionado las flores más frescas y la mejor selección de plantas, canastas de regalo, alimentos gourmet, dulces y animales de peluche a clientes de todo el mundo, ideales para cada ocasión.</p>
+        
+        <p>La familia de marcas de 1800Flowers.com realmente completa su experiencia de compra de regalos en línea. Cuando necesite un regalo especial, acuda a nosotros.</p>
+        
+        <ul>
+        	<li><strong>1800Baskets.com:</strong> Adquiera nuestra nueva colección de canastas de regalos, que se amplían a canastas de regalos gourmet llenas de chocolates, vino, frutas, galletas; varias canastas de regalo en torre y regalos con variedad de alimentos.</li>
+        	<br>
+        	<li><strong>Cheryl’s:</strong> Galletas, brownies y postres gourmet y nuestras famosas galletas de crema de mantequilla. Nuestras galletas están recién horneadas con ingredientes de alta calidad para que el destinatario reciba únicamente los postres más sabrosos.</li>
+        	<br>
+        	<li><strong>Harry &amp; David:</strong> Elegantes regalos de vino, chocolates y caramelos, además de hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos.</li>
+        	<br>
+        	<li><strong>Fruit Bouquets:</strong> ¡Una deliciosa variedad de arreglos con fruta fresca y frutas cubiertas de chocolate que seguramente hará que surja una sonrisa!</li>
+        	<br>
+        	<li><strong>The Popcorn Factory:</strong> Se especializa en palomitas de maíz recién hechas en una variedad de latas y envases con diseño exclusivo. Nuestras palomitas gourmet siempre se inflan y envasan frescas. Además, se cocinan con ingredientes de alta calidad.</li>
+        	<br>
+        	<li><strong>Simply Chocolate:</strong> Desde clásicos chocolates en caja, hasta barras y trufas, solo tenemos una misión: ofrecerte exquisitos regalos de chocolate de todo el mundo. Descúbralo y deléitese.</li>
+        	<br>
+        	<li><strong>Wolferman's:</strong> Un orgulloso proveedor de panes y pasteles gourmet y ofrecemos, honrando las recetas probadas a lo largo del tiempo, desde nuestros famosos panecillos ingleses supergruesos hasta nuestros pasteles y tartas complacientes hechos a mano y a la perfección.</li>
+        	<br>
+        	<li><strong>Personalization Universe:</strong> ¡Tu principal destino para regalos personalizados! Personalization Universe ofrece una amplia variedad de regalos y recuerdos, productos de temporada y marcas populares personalizados.</li>
+        	<br>
+        	<li><strong>Stockyards:</strong> Solo los mejores mariscos y cortes de carne selectos y de primera, desde 1893.</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{37088D1E-B860-46C4-9CD2-27C90DBE9545}" alt="Calabaza y ramilletes para el otoño" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="COMPRAR AHORA" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU obtienen un 20% de descuento todos los d&iacute;as en flores, plantas, cestas de regalo, alimentos gourmet, bombones, mu&ntilde;ecos de peluche y mucho m&aacute;s.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: LOS MIEMBROS DE SEIU AHORRAN UN 20%
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190415T153100Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{81B2555B-61CE-4F27-A1AB-9E171B721060}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{D8F777A1-F616-4DF2-A436-379C86E25C01}" alt="Calabaza y ramilletes para el otoño" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190920T152556Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20 % se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20 % en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20 % en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{D8F777A1-F616-4DF2-A436-379C86E25C01}" alt="Calabaza y ramilletes para el otoño" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190920T152500Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{81B2555B-61CE-4F27-A1AB-9E171B721060}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" alt="Muéstrale a mamá que te importa, de cerca o de lejos" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T160342Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20 % se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20 % en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20 % en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" alt="Muéstrale a mamá que te importa, de cerca o de lejos" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T160342Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{81B2555B-61CE-4F27-A1AB-9E171B721060}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" alt="Muéstrale a mamá que te importa, de cerca o de lejos" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T132136Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20 % se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20 % en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20 % en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC99359F-A072-4803-BD77-238034A4EC87}" alt="Muéstrale a mamá que te importa, de cerca o de lejos" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T132136Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{81B2555B-61CE-4F27-A1AB-9E171B721060}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{DBD8F81A-B2B9-4F7B-9F99-D9325B174085}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201209T225102Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20 % se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20 % en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20 % en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201209T225102Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{2E3A121D-2104-49D9-975F-C25A100C622A}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201210T154102Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20 % se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20 % en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20 % en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5C9F2289-A5D4-4ECF-8630-33EFA5BEB3D3}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201210T154102Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{2E3A121D-2104-49D9-975F-C25A100C622A}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210128T150445Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20 % se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20 % en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20 % en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20 % en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210128T150445Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 9
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{2E3A121D-2104-49D9-975F-C25A100C622A}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210628T151000Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20% se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20% en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20% en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210628T151000Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+  - Version: 10
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DCD26A11-5258-427F-9555-4801CDC2C416}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{78FC2EDC-6819-4D2A-98A4-52CD4403CB18}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{2E3A121D-2104-49D9-975F-C25A100C622A}"
+              p:after="r[@uid='{DCD26A11-5258-427F-9555-4801CDC2C416}']"
+              s:ds="{816C8CE2-90FD-4F81-95EA-09EB02DCEE84}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C5EA59E0-7989-4AD4-92D5-D0EB4AB5FE25}" alt="SEIU Member Benefits en asociación con 1800Flowers.com" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T200826Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: *No incluye cargos por servicio y env&iacute;o ni impuestos aplicables. Los productos pueden variar y est&aacute;n sujetos a disponibilidad, normas de entrega y horarios. Los productos est&aacute;n disponibles en l&iacute;nea y por tel&eacute;fono. Las ofertas no se pueden combinar, no est&aacute;n disponibles para todos los productos y est&aacute;n sujetas a restricciones, limitaciones y per&iacute;odos de restricci&oacute;n. Los precios y cargos est&aacute;n sujetos a cambio sin previo aviso. Oferta no v&aacute;lida para zonas donde est&eacute; prohibido por la ley.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Familia de Marcas de 1-800-FLOWERS.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El descuento de 20% se aplica al pasar por caja cuando usa el c&oacute;digo promocional <strong>SEIU</strong>. Para hacer pedidos por tel&eacute;fono las 24 horas del d&iacute;a, los 7 d&iacute;as de la semana, llame al 1-800-755-7474."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: FAMILIA DE MARCAS DE 1800FLOWERS.COM<sup>&reg;</sup>
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre un 20% en compras en cualquiera de las 9 marcas de gran calidad<sup>1</sup></li>
+            <li>Compre flores frescas, canastas de regalo, alimentos horneados, frutas, pescados y mariscos, y carne</li>
+        </ul>
+        <p>Busque el regalo perfecto para cualquier ocasi&oacute;n y ahorre un 20% en l&iacute;nea o por tel&eacute;fono.</p>
+        <p><strong>1800Flowers.com</strong>: la mejor selecci&oacute;n de hermosas flores y arreglos disponibles para entrega el mismo d&iacute;a o al d&iacute;a siguiente.</p>
+        <p><strong>1800Baskets.com</strong>: canastas gourmet que contienen chocolates, vino, frutas y mucho m&aacute;s</p>
+        <p><strong>Cheryl&rsquo;s</strong>: productos horneados frescos, entre los que se encuentran las famosas galletas de crema de mantequilla de Cheryl&rsquo;s</p>
+        <p><strong>Harry &amp; David</strong>: hermosas canastas de alimentos gourmet y torres de regalos para todos los gustos</p>
+        <p><strong>Fruit Bouquets</strong>: frutas frescas y frutas ba&ntilde;adas en chocolate en atractivos arreglos</p>
+        <p><strong>The Popcorn Factory</strong>: palomitas de ma&iacute;z reci&eacute;n hechas en una variedad de latas con dise&ntilde;os exclusivos</p>
+        <p><strong>Wolferman&rsquo;s</strong>: pan, masas, tortas y pasteles artesanales, adem&aacute;s de sus famosos muffins ingleses s&uacute;per gruesos</p>
+        <p><strong>Personalization Universe</strong>: regalos y recuerdos personalizados para toda ocasi&oacute;n</p>
+        <p><strong>Stockyards</strong>: proveedores de los mejores pescados y mariscos, y cortes de carne selectos y de primera, desde 1893</p>
+        <p>&iexcl;Comience a ahorrar ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{268ED6C8-9C44-417D-8512-7A1615DAB3DF}" alt="Mujer sosteniendo un ramo de flores." height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "FAMILIA DE MARCAS DE 1-800-FLOWERS.COM"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comience a ahorrar ahora" linktype="external" url="http://www.1800flowers.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en flores frescas, alimentos gourmet, canastas de vino, regalos personalizados y mucho m&aacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Familia de marcas de 1-800-Flowers.com"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1

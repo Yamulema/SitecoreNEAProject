@@ -1,0 +1,131 @@
+﻿---
+ID: "b6119ca6-9dab-4470-a359-ae6c84b3f8ce"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Managing Your Loans
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175025Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=2E52BF8543B841F28EBD23BB1B999702&amp;_z=z"><span style="color: #4f2e84;">How Does A Loan Work?</span></a></p>
+        <p><a href="~/link.aspx?_id=A05858EE298940568981AC9EA30DBD61&amp;_z=z"><span style="color: #4f2e84;">Loan Basics</span></a></p>
+        <p><a href="~/link.aspx?_id=F778AA44945E4283B71F4897940C6251&amp;_z=z"><span style="color: #4f2e84;">Benefits of Repaying a Loan</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: MANAGING YOUR LOANS
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{492060D2-3428-4081-AB8E-9DB9F457282E}" alt="piggy bank" height="" width="" hspace="" vspace=""></image>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200908T183443Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=2E52BF8543B841F28EBD23BB1B999702&amp;_z=z"><span style="color: #4f2e84;">How Does A Loan Work?</span></a></p>
+        <p><a href="~/link.aspx?_id=A05858EE298940568981AC9EA30DBD61&amp;_z=z"><span style="color: #4f2e84;">Loan Basics</span></a></p>
+        <p><a href="~/link.aspx?_id=F778AA44945E4283B71F4897940C6251&amp;_z=z"><span style="color: #4f2e84;">Benefits of Repaying a Loan</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: MANAGING YOUR LOANS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200908T183443Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{0DEFB186-849B-4D5C-BD70-E718D1AD8599}" alt="Managing Your Loans" height="" width="" hspace="" vspace=""></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175652Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=2E52BF8543B841F28EBD23BB1B999702&amp;_z=z" onclick="ga_event('rail module','click','managing your money &gt; how does a loan work esp &gt; article');"><span style="color: #4f2e84;">&iquest;C&oacute;mo funciona un pr&eacute;stamo?</span></a></p>
+        <p><a href="~/link.aspx?_id=A05858EE298940568981AC9EA30DBD61&amp;_z=z" onclick="ga_event('rail module','click','managing your money &gt; loan basics esp &gt; article');"><span style="color: #4f2e84;">Conceptos b&aacute;sicos de pr&eacute;stamos</span></a></p>
+        <p><a href="~/link.aspx?_id=F778AA44945E4283B71F4897940C6251&amp;_z=z" onclick="ga_event('rail module','click','managing your money &gt; benefits of repaying a loan esp &gt; article');"><span style="color: #4f2e84;">Beneficios de pagar un pr&eacute;stamo</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: GESTIONANDO SUS PRÉSTAMOS
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{492060D2-3428-4081-AB8E-9DB9F457282E}" alt="hucha" height="" width="" hspace="" vspace=""></image>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200908T183604Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=2E52BF8543B841F28EBD23BB1B999702&amp;_z=z" onclick="ga_event('rail module','click','managing your money &gt; how does a loan work esp &gt; article');"><span style="color: #4f2e84;">&iquest;C&oacute;mo funciona un pr&eacute;stamo?</span></a></p>
+        <p><a href="~/link.aspx?_id=A05858EE298940568981AC9EA30DBD61&amp;_z=z" onclick="ga_event('rail module','click','managing your money &gt; loan basics esp &gt; article');"><span style="color: #4f2e84;">Conceptos b&aacute;sicos de pr&eacute;stamos</span></a></p>
+        <p><a href="~/link.aspx?_id=F778AA44945E4283B71F4897940C6251&amp;_z=z" onclick="ga_event('rail module','click','managing your money &gt; benefits of repaying a loan esp &gt; article');"><span style="color: #4f2e84;">Beneficios de pagar un pr&eacute;stamo</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: GESTIONANDO SUS PRÉSTAMOS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200908T183604Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{0DEFB186-849B-4D5C-BD70-E718D1AD8599}" alt="Administrar sus préstamos" height="" width="" hspace="" vspace=""></image>

@@ -1,0 +1,74 @@
+﻿---
+ID: "57a4f19c-0283-4096-ae55-bf481f7c28d8"
+Parent: "64eac7cd-b234-48a6-af59-ca5e67f33a94"
+Template: "64eac7cd-b234-48a6-af59-ca5e67f33a94"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_DuplicateRegistrationForm/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06311fc6-ea59-4f5e-84fb-509a2ba42606"
+      Hint: Send
+      Value: Send
+    - ID: "0abb22d2-1f99-44c3-8b41-ba10f4c69990"
+      Hint: Error
+      Value: Oops we encountered an error in the process. Please try to <a onclick='signidduplicateregistration()'>Sign in</a> again.
+    - ID: "0ad721d3-7758-4424-b0d4-a1d1e81ff068"
+      Hint: Account Info
+      Value: (registered as | on |)
+    - ID: "1bc0b974-1aaf-4f41-90fb-a370d757e466"
+      Hint: Selected Email
+      Value: You have selected | to be your NEAMB.com login/email.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180427T165047Z
+    - ID: "2e44246d-fc18-48c5-836c-47b221e59cda"
+      Hint: Empty Password
+      Value: Please insert your password.
+    - ID: "3774e5ab-c313-4240-892a-53b0f283944a"
+      Hint: Password
+      Value: Please provide the password for
+    - ID: "3e48d9bc-216e-4c0d-8ee5-7200fe28c759"
+      Hint: Apply Changes
+      Value: Apply Changes
+    - ID: "3f8a8efc-cbd5-4419-891c-cd4e9bbaa26d"
+      Hint: Loader Image
+      Value: |
+        <image mediaid="{53F1A9CF-FCAB-4664-9043-7BF5D5B2118C}" />
+    - ID: "5205d8e5-675c-4c42-811f-321e6668caee"
+      Hint: Title
+      Value: "Duplicate Registration Alert!"
+    - ID: "5cebebe5-3c96-41ac-ba54-38d0b90eea0c"
+      Hint: Username
+      Value: "Your login/email for NEAMB.com is:"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73bcd9f3-4ab6-48e7-954f-ebfb54bceadc"
+      Hint: Loader
+      Value: Please wait while we process your request.
+    - ID: "867771e5-1cfa-4a37-8cc1-14c71fc5add8"
+      Hint: Title
+      Value: Username Confirmation
+    - ID: "8768dcc9-a8e8-4293-9071-3dce4d876a36"
+      Hint: Explanation
+      Value: To use an email listed below, you will need to provide the corresponding password.
+    - ID: "b1c99fcb-fd9a-4b9a-8bfd-2ab068a55016"
+      Hint: Invalid Password
+      Value: The password provided does not match our records, please try again.
+    - ID: "b87283cd-a7bd-4e79-a4c3-903f71527ed5"
+      Hint: Unselected Emails
+      Value: Login/Email ID(s) | will be removed.
+    - ID: "c0fa6559-31df-4a50-bdf0-309a89f3224c"
+      Hint: Select Another
+      Value: Select Another Email
+    - ID: "d6c19526-fde1-4214-b9ff-cece5422ba92"
+      Hint: Intro
+      Value: It appears you have registered more than once on NEAMB.com. Please select the email address you wish to use as your NEAMB.com login/email. All other accounts will be removed.
+    - ID: "dd6912b0-8a06-4bfe-ab83-0b8a81005b21"
+      Hint: Continue Button
+      Value: |
+        <link text="Continue" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{545409FC-DB86-4A7F-AC61-F74A274B5E30}" />

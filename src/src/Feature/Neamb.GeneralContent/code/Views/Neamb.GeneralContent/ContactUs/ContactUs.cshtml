@@ -1,0 +1,275 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.GeneralContent
+@using Neambc.Neamb.Foundation.Config.Models
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.ContactUsDTO
+@{
+    var classname = Model.HasGeneralError ? "show" : "";
+    var inputValidClass = "valid";
+}
+<section class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.ContactUsForm.Fields.Error, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+<section class="new-design form contact-us col-centered">
+    <div class="col-xs-12">
+        <form id="contact-us" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+            <div class="step-header">
+                <h5>@Html.Sitecore().Field(Templates.ContactUsForm.Fields.Title, Model.Item)</h5>
+                @Html.Sitecore().Field(Templates.ContactUsForm.Fields.Intro, Model.Item)
+            </div>
+            <div class="form-section">
+                <div class="floating-section m-t-lg">
+                    <div class="floating-group">
+                        <input id="firstname" name="firstname" class="@(string.IsNullOrEmpty(Model.FirstName) ? "" : inputValidClass)"
+                               value="@Model.FirstName" type="text" placeholder="@Html.Sitecore().Field(Templates.Name.Fields.FirstNameLabel, Model.Item, new {@DisableWebEdit = true})" required="required"
+                               data-msg-required="@Html.Sitecore().Field(Templates.Name.Fields.FirstNameEmptyField, Model.Item, new {@DisableWebEdit = true})"
+                               maxlength="15" data-rule-maxlength="15"
+                               data-msg-maxlength="@Html.Sitecore().Field(Templates.Name.Fields.FirstNameCharactersLimit, Model.Item, new {@DisableWebEdit = true})" data-rule-minlength="2"
+                               data-msg-minlength="@Html.Sitecore().Field(Templates.Name.Fields.FirstNameMinCharacterLimit, Model.Item, new {@DisableWebEdit = true})"
+                               data-rule-alphanumber="true"
+                               data-msg-alphanumber="@Html.Sitecore().Field(Templates.Name.Fields.FirstNameInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+                        <label for="firstName">@Html.Sitecore().Field(Templates.Name.Fields.FirstNameLabel, Model.Item)</label>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages">
+                            @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Required))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Name.Fields.FirstNameEmptyField, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.InvalidCharacters))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Name.Fields.FirstNameInvalidCharacters, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Length))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Name.Fields.FirstNameCharactersLimit, Model.Item)</div>
+                            }
+
+                        </div>
+                        @if (Model.HasTooltipFirstName)
+                        {
+                            <div class="floating-info-messages">
+                                @Html.Sitecore().Field(Templates.Name.Fields.FirstNameTooltip, Model.Item, new { @DisableWebEdit = true })
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="floating-section">
+                    <div class="floating-group">
+                        <input id="lastName" name="lastName" class="@(string.IsNullOrEmpty(Model.LastName) ? "" : inputValidClass)"
+                               value="@Model.LastName" type="text" placeholder="@Html.Sitecore().Field(Templates.Name.Fields.LastNameLabel, Model.Item, new {@DisableWebEdit = true})"
+                               required="required"
+                               data-msg-required="@Html.Sitecore().Field(Templates.Name.Fields.LastNameEmptyField, Model.Item, new {@DisableWebEdit = true})"
+                               maxlength="30" data-rule-maxlength="30"
+                               data-msg-maxlength="@Html.Sitecore().Field(Templates.Name.Fields.LastNameCharactersLimit, Model.Item, new {@DisableWebEdit = true})" data-rule-minlength="2"
+                               data-msg-minlength="@Html.Sitecore().Field(Templates.Name.Fields.LastNameMinCharacterLimit, Model.Item, new {@DisableWebEdit = true})"
+                               data-rule-alphanumber="true"
+                               data-msg-alphanumber="@Html.Sitecore().Field(Templates.Name.Fields.LastNameInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+                        <label for="lastName">@Html.Sitecore().Field(Templates.Name.Fields.LastNameLabel, Model.Item)</label>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages">
+                            @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Required))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Name.Fields.FirstNameEmptyField, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.InvalidCharacters))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Name.Fields.LastNameInvalidCharacters, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Length))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Name.Fields.LastNameCharactersLimit, Model.Item)</div>
+                            }
+                        </div>
+                        @if (Model.HasTooltipLastName)
+                        {
+                            <div class="floating-info-messages">
+                                @Html.Sitecore().Field(Templates.Name.Fields.LastNameTooltip, Model.Item, new { @DisableWebEdit = true })
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="floating-section">
+                    <div class="floating-group">
+                        <input id="email" value="@Model.Email" name="email" type="email" class="@(string.IsNullOrEmpty(Model.Email) ? "" : inputValidClass)"
+                               placeholder="@Html.Sitecore().Field(Templates.Email.Fields.Label, Model.Item, new {@DisableWebEdit = true})" required="required"
+                               data-msg-required="@Html.Sitecore().Field(Templates.Email.Fields.EmptyField, Model.Item, new {@DisableWebEdit = true})"
+                               data-msg-email="@Html.Sitecore().Field(Templates.Email.Fields.InvalidFormat, Model.Item, new {@DisableWebEdit = true})"
+                               data-rule-maxlength="100" maxlength="100"
+                               data-msg-maxlength="@Html.Sitecore().Field(Templates.Email.Fields.CharactersLimit, Model.Item, new {@DisableWebEdit = true})" />
+                        <label for="email">@Html.Sitecore().Field(Templates.Email.Fields.Label, Model.Item)</label>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages">
+                            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Required))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Email.Fields.EmptyField, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.InvalidCharacters))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Email.Fields.InvalidFormat, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Length))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.Email.Fields.CharactersLimit, Model.Item)</div>
+                            }
+                        </div>
+                        @if (Model.HasTooltipEmail)
+                        {
+                            <div class="floating-info-messages">
+                                @Html.Sitecore().Field(Templates.Email.Fields.Tooltip, Model.Item, new { @DisableWebEdit = true })
+                            </div>
+                        }
+                    </div>
+                </div>
+                <input id="emailconfirmation" name="Emailconfirmation" style="display: none" />
+                <div class="floating-section">
+                    <div class="floating-group">
+                        <select id="stateaffiliate" name="stateaffiliate" 
+                                class="ignore @(string.IsNullOrEmpty(Model.StateAffiliate) ? "" : inputValidClass)"
+                                onclick="this.setAttribute('value', this.value);"
+                                onchange="this.setAttribute('value', this.value);" value="@(!Model.HasSelectedState ? "" : Model.StateAffiliate)">
+                            <option value="">@Model.SelectText</option>
+                            @foreach (var selectItem in Model.StateAffiliatesList)
+                            {
+                                if (selectItem.Selected)
+                                {
+                                    <option value="@selectItem.Value" selected="selected">@selectItem.Text</option>
+                                }
+                                else
+                                {
+                                    <option value="@selectItem.Value">@selectItem.Text</option>
+                                }
+                            }
+                        </select>
+                        <label for="stateaffiliate">@Html.Sitecore().Field(Templates.ContactUsForm.Fields.StateAffiliateLabel, Model.Item)</label>
+                    </div>
+                    @if (Model.HasTooltipStateAffiliate)
+                    {
+                        <div class="floating-messages">
+                            <div class="floating-info-messages">
+                                @Html.Sitecore().Field(Templates.ContactUsForm.Fields.StateAffiliateTooltip, Model.Item, new { @DisableWebEdit = true })
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="floating-section">
+                    <div class="floating-group">
+                        <select id="topic" name="topic" class="@(string.IsNullOrEmpty(Model.Topic) ? "" : inputValidClass)"
+                                onclick="this.setAttribute('value', this.value);"
+                                onchange="this.setAttribute('value', this.value);" required="required"
+                                data-msg-required="@Html.Sitecore().Field(Templates.ContactUsForm.Fields.TopicNoSelection, Model.Item, new {@DisableWebEdit = true})"
+                                value="@(!Model.HasSelectedTopic ? "" : Model.Topic)">
+                            <option value="">@Model.SelectText</option>
+                            @foreach (var selectItem in Model.TopicList)
+                            {
+                                if (selectItem.Selected)
+                                {
+                                    <option value="@selectItem.Value" selected="selected">@selectItem.Text</option>
+                                }
+                                else
+                                {
+                                    <option value="@selectItem.Value">@selectItem.Text</option>
+                                }
+                            }
+                        </select>
+                        <label for="topic">@Html.Sitecore().Field(Templates.ContactUsForm.Fields.TopicLabel, Model.Item)</label>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages">
+                        </div>
+                        @if (Model.HasTooltipTopic)
+                        {
+                            <div class="floating-info-messages">
+                                @Html.Sitecore().Field(Templates.ContactUsForm.Fields.TopicTooltip, Model.Item, new { @DisableWebEdit = true })
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="floating-section">
+                    <div class="floating-group fix-floating-label">
+                        <textarea id="message" name="message" rows="10" placeholder="Message" required="required"
+                                  spellcheck="false" data-rule-maxlength="1000" maxlength="1000"
+                                  data-msg-maxlength="@Html.Sitecore().Field(Templates.ContactUsForm.Fields.MessageCharactersLimit, Model.Item, new {@DisableWebEdit = true})"
+                                  data-msg-required="@Html.Sitecore().Field(Templates.ContactUsForm.Fields.MessageEmptyField, Model.Item, new {@DisableWebEdit = true})">
+                                    @if(!string.IsNullOrEmpty(Model.Message))
+                                    {
+                                    @Html.Encode(Model.Message)
+                                    }</textarea>
+                        <label for="message">@Html.Sitecore().Field(Templates.ContactUsForm.Fields.MessageLabel, Model.Item)</label>
+                    </div>
+                    <div class="floating-messages">
+                        <div class="floating-error-messages">
+                            @if (Model.ErrorsMessage.HasFlag(ErrorStatusEnum.Required))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.ContactUsForm.Fields.MessageEmptyField, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsMessage.HasFlag(ErrorStatusEnum.InvalidCharacters))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.ContactUsForm.Fields.MessageInvalidCharacters, Model.Item)</div>
+                            }
+                            @if (Model.ErrorsMessage.HasFlag(ErrorStatusEnum.Length))
+                            {
+                                <div class="server-error">@Html.Sitecore().Field(Templates.ContactUsForm.Fields.MessageCharactersLimit, Model.Item)</div>
+                            }
+                        </div>
+                    </div>
+                    <p class="text-small">
+                        <span class="number">1000</span> @Html.Sitecore().Field(Templates.ContactUsForm.Fields.MessageCharactersCount)
+                    </p>
+                </div>
+                <div class="floating-section">
+                    <div class="floating-group">
+                        <div class="g-recaptcha" data-sitekey="@Model.CaptchaKey"></div>
+                        <div class="floating-messages">
+                            <div class="floating-error-messages">
+                                @if (Model.HasCaptchaError)
+                                {
+                                    <div class="server-error">@Html.Sitecore().Field(Templates.ContactUsForm.Fields.RequiredCaptchaError, Model.Item)</div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <button type="submit" class="btn btn-new btn-outline-default">
+                    @Html.Sitecore().Field(Templates.ContactUsForm.Fields.Submit, Model.Item, new { @DisableWebEdit = true })
+                    <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                </button>
+            </div>
+
+            <input type="hidden" name="fhController" value="ContactUsController" data-abide-ignore />
+            <input type="hidden" name="fhAction" value="ContactUs" data-abide-ignore />
+        </form>
+    </div>
+
+</section>
+@if (Model.WasProcessedSuccessfully)
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+			@Html.Raw(Model.GtmAction)
+			$('#thankYouModal').modal('show');
+		})
+    </script>
+    <div id="thankYouModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" class="modal fade modalForms">
+        <div role="document" class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @Html.Sitecore().Field(Templates.ContactUsForm.Fields.Success, Model.Item)
+                </div>
+            </div>
+        </div>
+    </div>
+}

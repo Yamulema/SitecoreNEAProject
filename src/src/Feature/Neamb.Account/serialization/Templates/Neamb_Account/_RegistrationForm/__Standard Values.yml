@@ -1,0 +1,55 @@
+﻿---
+ID: "fc9cfe69-4bfd-4fff-bfa9-b1fdc3130c51"
+Parent: "493ef918-0228-4b59-aec0-3b9fda9a9dd9"
+Template: "493ef918-0228-4b59-aec0-3b9fda9a9dd9"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_RegistrationForm/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e3d003a-96cd-4ed7-ba86-ff7f7e9df1a6"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "19024296-a6b7-465d-a847-e9a83ee43e74"
+      Hint: Title
+      Value: "Welcome!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180419T180533Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8d8a96c4-9097-42bf-ab13-d900529e1a47"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+             <h2 class="header">Thank you for registering!</h2>
+             <p>Now you'll be able to check your eligibility for all of our benefits, discounts and services. When you are done consider <a href="~/link.aspx?_id=6512B2CAADFA4B70A4F4541224FD47CC&amp;_z=z">updating your profile</a>&nbsp;so that you can do the most of your membership.</p>
+             
+             <div class="col-md-5 col-centered">
+              <a href="~/link.aspx?_id=545409FCDB864A7FAC61F74A274B5E30&amp;_z=z" class="btn btn-lg btn-blue btn-block" onclick="$('#continue-form').submit();return false;">Proceed to Home Page</a>
+             </div>
+            </div>
+            <div class="modal-footer hidden-xs hidden-sm">
+                         <div class="col-md-6">
+                      <p>Connect with us, and members like you </p>
+                    </div>            
+        <div class="col-md-6">
+                      <div class="share"><a href="https://www.facebook.com/NEAMemberBenefits/" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a><a href="https://twitter.com/NEABenefits" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/company/nea-member-benefits" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a></div>
+                    </div>
+            </div>
+    - ID: "9a13b8da-85ca-4476-8872-d2d792011720"
+      Hint: Submit
+      Value: Create an Account
+    - ID: "9d2e4558-7692-4a9c-ba15-aec10e11c74e"
+      Hint: Disclaimer
+      Value: By clicking this button you agree to our terms of use and privacy policy. We respect your privacy and never share your personal information with third parties. Privacy Policy
+    - ID: "d156f621-eb4e-4c16-af76-4044f592c623"
+      Hint: Intro
+      Value: Most of the benefits we provide are only available to active NEA Union members and we need to confirm your membership prior to providing access.
+    - ID: "edbf256b-2fad-42d6-8988-f721a26a8425"
+      Hint: Optin
+      Value: I'd like to receive emails about special promotions, discounts and other offers available through NEA Member Benefits.

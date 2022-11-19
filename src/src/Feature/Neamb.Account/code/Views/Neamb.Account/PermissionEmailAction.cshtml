@@ -1,0 +1,62 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Account.Models.PermissionEmailDTO
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor || Model.UserStatus == StatusEnum.Hot)
+{
+    <section id="subscriptions" class="section-normal f-005">
+        <div class="container">
+            <div class="col-md-9 col-centered">
+                <div class="row1 actions">
+
+                    <h2 class="header">@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.TitlePhysicalEmail, Model.Item)</h2>
+                    <p class="subhead"></p>
+
+                    <div class="panel-cta row">
+                        <div class="col-md-12">
+                            <hr />
+                            <h4>@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.HealinePhysicalEmail, Model.Item)</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <p>@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.DescriptionPhysicalEmail, Model.Item)</p>
+                        </div>
+                        <div class="col-md-6 ctas">
+                            @if (Model.NeambPermissionMail)
+                            {
+                                <p class="p-b-sm"><img src="/assets/neamb/images/Checkmark-Icon.png" alt="" /><span class="p-l-sm">
+                                    @Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.SubscribedPhysicalEmail, Model.Item)</span></p>
+                                <div class="btn permissionAction subscribed" data-subscribeLabel="@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.SubscribePhysicalEmail, Model.Item)" 
+                                     data-unsubscribeLabel="@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.UnSubscribePhysicalEmail, Model.Item)" 
+                                     data-checkLabel="@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.SubscribedPhysicalEmail, Model.Item)">
+                                    @Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.UnSubscribePhysicalEmail, Model.Item)
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="btn btn-blue permissionAction" data-subscribeLabel="@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.SubscribePhysicalEmail, Model.Item)" data-unsubscribeLabel="@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.UnSubscribePhysicalEmail, Model.Item)" data-checkLabel="@Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.SubscribedPhysicalEmail, Model.Item)">
+                                    @Html.Sitecore().Field(Templates.SettingsAndSubscriptions.Fields.SubscribePhysicalEmail, Model.Item)
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<script>
+    function operationpermissionemailaction() {
+
+        var url = '/api/PermissionEmail/StopEmail';
+
+        $.ajax({
+            type: 'POST',
+            url: url,
+            dataType: 'json'
+        });
+    }
+</script>

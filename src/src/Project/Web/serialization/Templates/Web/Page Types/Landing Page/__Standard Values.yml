@@ -1,0 +1,123 @@
+﻿---
+ID: "18d69586-6121-4925-bace-addb725eb5a2"
+Parent: "b136d132-50e9-43d2-acc8-83576d5eb51b"
+Template: "b136d132-50e9-43d2-acc8-83576d5eb51b"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Landing Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{A46487D2-F344-4251-B3D1-F5A17F302F88}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{D0BAF64A-DAE0-429C-9FD5-5B0B0A4B6F78}" />
+        <r
+          ds="{320FB78C-3992-47D9-8820-98D5C6A58D2D}"
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{F53FC722-9E8D-4713-8B73-5A2FBFC4A82C}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{26B4B782-02A8-425E-91B0-4936CF89AFDD}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{01BEB32F-629D-4423-99DA-BA09F6796824}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{257EA9D5-44CF-45CA-999F-712C4BD24893}" />
+        <r
+          id="{A239810A-A1DE-49DF-81B3-D55A6369F9EA}"
+          ph="body"
+          uid="{1CE3FCBD-5339-4AC4-9118-65D70ACB3886}" />
+        <r
+          ds="{8C345BA1-253A-4815-A9FC-14D4F583025F}"
+          id="{6A15627D-95C9-4F17-ADBD-4C0F81D90E75}"
+          ph="body"
+          uid="{5A4C504B-48D4-4E36-A498-976ADBB93875}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{216FC0C5-0AC7-42DB-9049-987B7A1D027E}" />
+        <r
+          ds="{46D06DD7-8928-43F3-AC91-64FFC27778DC}"
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{D4572EA2-45A5-44A8-9A97-E1DC32D324C9}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D4572EA2-45A5-44A8-9A97-E1DC32D324C9}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="8CD9E6C57AF5470CA257D038DC1F486C"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T180107Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T191724Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

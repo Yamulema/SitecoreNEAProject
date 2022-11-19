@@ -1,0 +1,11 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Language
+@model Neambc.Neamb.Feature.Language.Models.SpanishLanguageModalDTO
+
+@if (Model.DisplayModal)
+{
+    @Html.Sitecore().Field(Templates.SpanishLanguageModal.Fields.Content, Model.SiteSettings)
+    <script>
+        $("#spanishModal").modal("show")
+    </script>
+}

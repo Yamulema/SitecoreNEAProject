@@ -1,0 +1,92 @@
+﻿---
+ID: "4dd5a325-bcca-43c1-90f7-ad126c537e8a"
+Parent: "f25e5dfe-ff98-40f2-b185-538d75abf38a"
+Template: "f25e5dfe-ff98-40f2-b185-538d75abf38a"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Forgot Email/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{86B6D957-8159-439A-ADD7-0352B90C14EE}" />
+        <r
+          id="{B41C0DD0-91F9-4711-AEBA-2CE98C963ABE}"
+          ph="body"
+          uid="{4B169B2C-EDE2-4CE5-BD36-6A552276F8B2}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{F5DFAAF3-6185-46F2-9A33-EA25843A0F8D}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{F2BBC56E-4248-47E7-8DC1-CACBAE643FC9}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{C7BE3FEC-85B5-4D35-A522-927D1E9DD314}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180704T205142Z
+    - ID: "3c541146-3bfe-421e-aaa3-5336c5dbab7b"
+      Hint: Intro
+      Value: "Provide the information below and we&rsquo;ll retrieve the email address associated with your account. If you no longer have access to that e-mail account (for instance, if you changed internet service providers), you will need to contact us for assistance. Can&rsquo;t remember your password? Reset Password."
+    - ID: "56b3d228-5387-4738-8cfb-b052f4aeb598"
+      Hint: Characters Limit
+      Value: You can enter only 5 characters in this field.
+    - ID: "5d0151d5-dd4b-42c3-94dd-9dce26927b0f"
+      Hint: Age Requirement
+      Value: You must be at least 16 years old and no more than 95 years old to be an NEAMB member.
+    - ID: "6ff1843c-636a-4b82-a884-abde4b1c93da"
+      Hint: Characters Limit
+      Value: You can enter only 30 characters in this field.
+    - ID: "70aa908b-1e48-4c1b-b76b-c84d04cd2142"
+      Hint: Empty Field
+      Value: Please insert your date of birth.
+    - ID: "83a56edf-3bb8-495f-87d8-97d9bdd8f160"
+      Hint: Empty Field
+      Value: Please insert your last name.
+    - ID: "aa6de8d7-399c-4ab8-bc09-3dc995382641"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field.
+    - ID: "c169dc0d-0f6f-42b9-b18f-f826cce5220a"
+      Hint:  Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "e064480a-a8b3-4808-bf8c-a3aa55e19571"
+      Hint:  Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "eca5ecd1-161a-44fe-91de-6710a65cee97"
+      Hint: Empty Field
+      Value: Please insert your first name.
+    - ID: "ecd8619a-5152-4cc2-a135-3d0bc1443b71"
+      Hint:  Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "ef24fe82-855b-41f5-9423-055f5a95ee37"
+      Hint: Empty Field
+      Value: Please insert your zip code.

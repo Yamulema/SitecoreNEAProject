@@ -1,0 +1,36 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Cards.Models.TwoColumnStackableDTO
+@{
+    bool isExperience = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+@if (!isExperience)
+{
+    if (Model.HasHeadline || Model.HasSubheadline)
+    {
+        <text>
+            @Html.Raw("<div class=\"container p-b-xxl\">")
+        </text>
+    }
+    if (Model.HasHeadline)
+    {
+        <h2 class="header text-center">@Html.Sitecore().Field(Templates.ContentDisplayComponents.TwoColumnStackable.Fields.Header, Model.Item)</h2>
+    }
+    if (Model.HasSubheadline)
+    {
+        <p class="subhead text-alpha no-margin-auto text-center">@Html.Sitecore().Field(Templates.ContentDisplayComponents.TwoColumnStackable.Fields.Subhead, Model.Item)</p>
+    }
+    if (Model.HasHeadline || Model.HasSubheadline)
+    {
+        <text>@Html.Raw("</div>")</text>
+    }
+}
+else
+{
+    <div class="container p-b-xxl">
+        <h2 class="header text-center">@Html.Sitecore().Field(Templates.ContentDisplayComponents.TwoColumnStackable.Fields.Header, Model.Item)</h2>
+        <p class="subhead text-alpha no-margin-auto text-center">@Html.Sitecore().Field(Templates.ContentDisplayComponents.TwoColumnStackable.Fields.Subhead, Model.Item)</p>
+    </div>
+}

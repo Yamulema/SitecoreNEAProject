@@ -1,0 +1,312 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Feature.Account.Models
+
+@model Neambc.Neamb.Feature.Account.Models.DuplicateRegistrationDTO
+@{
+    var classname = Model.HasGeneralError ? "show" : "";
+}
+
+<section class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Error, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+<section class="section-normal duplicate-registration bg-gray">
+    <div class="container">
+        <div class="col-md-9 col-centered">
+            <div class="panel panel-default" id="screen1">
+                <h2 class="header">@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Title, Model.Item)</h2><hr>
+                <form class="new-design" name="selectOneRegistration" id="selectOneRegistration" action="/api/Duplicate/DuplicateRegistration" method="post">
+                    <fieldset>
+                        <div class="form-section p-b-md p-t-xs">
+                            @Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Intro, Model.Item)
+                        </div>
+                        @{
+                            string accountInfo = Model.Item.Fields[Templates.DuplicateRegistration.Fields.AccountInfo].Value;
+                            string[] accInfo = accountInfo.Split('|');
+                            <div class="form-section">
+                                <div class="floating-section">
+                                    @foreach (EmailDuplicate userData in Model.EmailList)
+                                    {
+                                        if (userData == null)
+                                        {
+                                            continue;
+                                        }
+                                        string date = (DateTime.ParseExact(userData.Dob, "MM-dd-yyyy", System.Globalization.CultureInfo.InvariantCulture)).ToString("MM/dd/yyyy");
+
+                                        if (!string.IsNullOrEmpty(userData.Email) && userData.Email.ToLower().Trim().Equals(Model.CurrentEmail.ToLower().Trim()))
+                                        {
+                                            <div class="floating-group radio-group">
+                                                <label class="custom-radio blue">
+                                                    <input name="selectedid" type="radio" required="required" value="@userData.Email" onclick="hidePasswordBlock()"
+                                                           data-msg-required="@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.UnselectedEmailsError, Model.Item, new { @DisableWebEdit = true })" />
+                                                    <span class="checkmark"></span>
+                                                    <span class="text-blue">@userData.Email</span> <span class="text-alpha"> (registered as @userData.FirstName @userData.LastName on @date)</span>
+                                                </label>
+                                            </div>
+                                            <hr />
+                                            <div class="text-blue p-b-sm p-t-xs">@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Explanation, Model.Item)</div>
+                                        }
+                                        else
+                                        {
+                                            <div class="floating-group radio-group">
+                                                <label class="custom-radio blue">
+                                                    <input name="selectedid" type="radio" required="required" value="@userData.Email" onclick="showPasswordBlock()"
+                                                           data-msg-required="@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.UnselectedEmailsError, Model.Item, new { @DisableWebEdit = true })" />
+                                                    <span class="checkmark"></span>
+                                                    <span class="text-blue">@userData.Email</span> <span class="text-alpha"> (registered as @userData.FirstName @userData.LastName on @date)</span>
+                                                </label>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                                <div id="errorRadioRequired" class="floating-messages">
+                                    <div class="floating-error-messages"></div>
+                                </div>
+                            </div>
+                        }
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-10 col-sm-11">
+                                    <!--to show server errors print show class on server-errors div-->
+                                    <div id="divgeneralerror" class="server-errors" style="display:none"><span id="generalerror"></span></div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="passwordBlock" style="display:none">
+                            <div class="p-b-sm">
+                                @Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Password, Model.Item)
+                                <span id="temp" class="text-blue"></span>
+                            </div>
+                            <div class="floating-section">
+                                <div class="floating-group">
+                                    <input id="password" name="password" type="password" required="required"
+                                           placeholder="Password"
+                                           data-msg-required="@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.EmptyPassword, Model.Item,new { @DisableWebEdit=true })" />
+                                    <label for="password">Password</label>
+                                    <div class="eye-wrapper showPassword">
+                                        <span class="eye-icon"></span>
+                                    </div>
+                                </div>
+                                <div class="floating-messages">
+                                    <div class="floating-error-messages" id="divpassworderror"></div>
+                                    <div class="server-error"></div>
+                                </div>
+                            </div>
+                        </div>
+                        @if (!Model.HasGeneralError)
+                        {
+                            <div class="text-center m-t-lg">
+                                <button type="submit" class="btn btn-new btn-blue no-box-shadow">
+                                    @Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Send, Model.Item, new { @DisableWebEdit = true })
+                                    <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                                </button>
+                            </div>
+                        }
+                    </fieldset>
+                </form>
+            </div>
+            <div class="panel panel-default" id="screen2" style="display:none">
+                <h2 class="header">@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Title, Model.Item)</h2><hr>
+                <form id="duplicate-registration-4" class="new-design" accept-charset="UTF-8" role="form">
+                    <fieldset>
+                        <div class="form-section">
+                            <div class="p-t-xs p-b-xs">
+                                @Model.MessageSelectedEmailPart1
+                                <span id="screen2-placeholder1" class="text-blue"></span>@Model.MessageSelectedEmailPart2
+                            </div>
+                            <hr />
+                            <div class="text-blue">
+                                @Model.MessageUnSelectedEmailPart1
+                                <span id="screen2-placeholder2" class="text-blue"></span>@Model.MessageUnSelectedEmailPart2
+                            </div>
+                        </div>
+                        <div class="form-section text-center m-t-lg">
+                            <button type="button" class="btn btn-new btn-blue no-box-shadow m-r-sm" onclick="goAjaxIds();">
+                                @Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.ApplyChanges, Model.Item)
+                            </button>
+                            <button type="button" class="btn btn-new btn-blue no-box-shadow" onclick="showScreen1();">
+                                @Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.SelectAnother, Model.Item)
+                            </button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="panel panel-default" id="screen3" style="display:none">
+                <h2 class="header">@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.ConfirmationTitle, Model.Item)</h2><hr>
+                <form id="duplicate-registration-3" accept-charset="UTF-8" role="form" class="new-design">
+                    <fieldset>
+                        <div class="form-section">
+                            <div class="text-alpha p-t-xs p-b-xs">
+                                @{ 
+                                    string confirmationText = Model.Item.Fields[Templates.DuplicateRegistration.Fields.ConfirmationUsername].Value;
+                                    var confirmationTextReplaced = confirmationText.Replace("|", "<span id='screen3-placeholder1' class='text-blue'></span>");
+                                    @Html.Raw(confirmationTextReplaced);
+                                }
+                            </div>
+                        </div>
+                        <div class="form-section text-center m-t-lg">
+                            <a class="btn btn-new btn-blue no-box-shadow" id="screen3-placeholder2" style="display:none" href="@Model.ThankYouUrl">@Model.ThankYouUrlText</a>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="screen4" style="display: none">
+                <div class="sk-circle">
+                    <div class="sk-circle1 sk-child"></div>
+                    <div class="sk-circle2 sk-child"></div>
+                    <div class="sk-circle3 sk-child"></div>
+                    <div class="sk-circle4 sk-child"></div>
+                    <div class="sk-circle5 sk-child"></div>
+                    <div class="sk-circle6 sk-child"></div>
+                    <div class="sk-circle7 sk-child"></div>
+                    <div class="sk-circle8 sk-child"></div>
+                    <div class="sk-circle9 sk-child"></div>
+                    <div class="sk-circle10 sk-child"></div>
+                    <div class="sk-circle11 sk-child"></div>
+                    <div class="sk-circle12 sk-child"></div>
+                </div>
+                <div class="col md-8 col-centered text-center">
+                    <h2 class="laoding-message text-blue">@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Loader, Model.Item)</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+
+	// -------------------------------------------------------------------------------------------------------
+	function showScreen2() {
+		for (var i = 0; i < document.selectOneRegistration.selectedid.length; i++) {
+			if (document.selectOneRegistration.selectedid[i].checked == true)
+				document.getElementById("screen2-placeholder1").innerHTML = document.selectOneRegistration.selectedid[i].value;
+		}
+		for (var i = 0; i < document.selectOneRegistration.selectedid.length; i++) {
+			if (document.selectOneRegistration.selectedid[i].checked == false)
+				document.getElementById("screen2-placeholder2").innerHTML += document.selectOneRegistration.selectedid[i].value +
+					", ";
+        }
+        $("#screen1").hide();
+        $("#screen2").show();
+        $("#screen4").hide();
+        $("#selectOneRegistration").find(".fa-spinner").hide();
+	}
+
+	// -------------------------------------------------------------------------------------------------------
+	function showScreen1() {
+		document.getElementById("screen2-placeholder1").innerHTML = "";
+        document.getElementById("screen2-placeholder2").innerHTML = "";
+        $("#screen1").show();
+        $("#screen2").hide();
+        $("#screen3").hide();
+        $("#screen4").hide();
+	}
+
+	// -------------------------------------------------------------------------------------------------------
+	function showPasswordBlock() {
+		for (var j = 0; j < document.selectOneRegistration.selectedid.length; j++) {
+			if (document.selectOneRegistration.selectedid[j].checked == true)
+				document.getElementById("temp").innerHTML = document.selectOneRegistration.selectedid[j].value;
+        }
+        $("#passwordBlock").show();
+	}
+
+	// -------------------------------------------------------------------------------------------------------
+	function hidePasswordBlock() {
+        document.getElementById("passwordBlock").style.display = "none";
+        $("#password").removeClass("error");
+        $("#divpassworderror").empty();
+	}
+
+	// -------------------------------------------------------------------------------------------------------
+	var returnID = "";
+	var qstring = "";
+
+	function checkPassword() {
+        var passwordBlockVisible = $("#passwordBlock").is(":visible");
+        if (($("#password").val().trim() != "" && passwordBlockVisible) || !passwordBlockVisible) {
+			var selectedID = "";
+			for (var j = 0; j < document.selectOneRegistration.selectedid.length; j++) {
+				if (document.selectOneRegistration.selectedid[j].checked == true)
+					selectedID = document.selectOneRegistration.selectedid[j].value;
+			}
+			var preAjaxLoginId = "@Model.CurrentEmail";
+			if (preAjaxLoginId == selectedID) {
+				showScreen2();
+				return;
+			}
+			qstring = "username=" + selectedID + "&password=" + document.getElementById("password").value;
+			var url = "/api/Duplicate/CheckPassword";
+			$.ajax({
+				type: "POST",
+				url: url,
+                data: qstring,
+				success: function(response) {
+					if (response.Response == 0) {
+						// ALL OK CASE
+						showScreen2();
+                    } else {
+                        $("#divpassworderror").empty();
+                        $("#divpassworderror").append("<div class='server-error'>@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.InvalidPassword, Model.Item)</div>");
+                        showScreen1();
+					}
+                },
+                complete: function () {
+                    $("#selectOneRegistration").find(".fa-spinner").hide();
+                }
+			});
+		}
+    }
+    function goAjaxIds() {
+        document.getElementById("screen2").style.display = "none";
+        showScreen4("@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Loader,Model.Item)");
+
+        $('#selectOneRegistration').ajaxSubmit(function (response) {
+			if (response.errors != null && response.errors.length > 0) {
+                if (response.errors == 'errorduplication') {
+                    $("#divgeneralerror").show();
+					document.getElementById("generalerror").innerHTML =
+						"@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.Error, Model.Item)";
+                } else {
+                    $("#divpassworderror").empty();
+                    $("#divpassworderror").append("<div class='server-error'>@Html.Sitecore().Field(Templates.DuplicateRegistration.Fields.EmptyPassword, Model.Item)</div>");
+				}
+                showScreen1();
+            } else {
+                $("#divgeneralerror").hide();
+                $("#generalerror").empty();
+                $("#password").removeClass("error");
+                $("#divpassworderror").empty();
+                returnID = response.selectedUser;
+                showScreen3();
+            }
+        });
+    }
+    function showScreen3() {
+        document.getElementById("screen3-placeholder1").innerHTML = returnID;
+        var preAjaxLoginId = "@Model.CurrentEmail";
+		if (preAjaxLoginId == returnID)
+			document.getElementById("screen3-placeholder2").style.display = "inline";
+		else
+            document.getElementById("screen3-placeholder2").style.display = "inline";
+        $("#screen2").hide();
+        $("#screen4").hide();
+        $("#screen3").show();
+	}
+	// -------------------------------------------------------------------------------------------------------
+	function showScreen4() {
+        $("#screen4").show();
+	}
+// -------------------------------------------------------------------------------------------------------
+	function signidduplicateregistration() {
+		$("#actionRemoveDuplicateRegistration").submit();
+	}
+</script>
+
+<form class="n-p-t" id="actionRemoveDuplicateRegistration" action="/api/Duplicate/RemoveDuplicateRegistration" method="post"></form>

@@ -1,0 +1,24 @@
+﻿---
+ID: "3c6a9660-b4d0-4acf-baf8-e69b72c2a0fc"
+Parent: "5c04c4c2-bb34-45f9-ba2d-a6ff75a9a558"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Search/_ContentFilter/Content Filter/Items
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "StartSearchLocation={545409FC-DB86-4A7F-AC61-F74A274B5E30}&Filter=_template:{15547760-E485-446C-B7C0-98A660FD577E}|_template:{F228472C-8A4D-4D12-8CC2-216138E6A43A}|_template:{75EF483A-4C9D-4215-A1F6-2A901B9B562E}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Multilist with Search
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180608T221238Z

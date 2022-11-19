@@ -1,0 +1,23 @@
+﻿---
+ID: "3fda0768-1918-4467-a5fc-775358dfff36"
+Parent: "9966d5ea-de43-4971-966e-86627ee74b08"
+Template: "9966d5ea-de43-4971-966e-86627ee74b08"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/SEIUMB Local Code Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1BDFA5B4-51DC-4922-A510-F2843590A4AE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T213340Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

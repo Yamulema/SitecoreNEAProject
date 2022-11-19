@@ -1,0 +1,279 @@
+﻿---
+ID: "65183206-7617-467c-ad56-e672784841a3"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SAVI Student Loan Relief
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: STUDENT LOAN RELIEF
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{EF3CE7AC-052F-4629-AD9F-CECA3B8C73CA}" alt="Struggling student with student loans" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="http://crisishelp-seiumb.bysavi.com/" onclick="ga_event('small module','click','seiu student loan forgiveness navigator > title');">SEIU Student Loan Forgiveness Navigator</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Have you seen a disruption to your income as a result of the Covid-19 Crisis?</span></strong></p>
+        <p>You may be eligible for reduced student loan payments. SEIUMB and Savi have a free tool to help file the paperwork. Click below to get started.</p>
+        <div><a href="http://crisishelp-seiumb.bysavi.com/" class="button panelBtn" onclick="ga_event('small module','click','seiu student loan forgiveness navigator > button');">LEARN MORE</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T191640Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: STUDENT LOAN RELIEF
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{EF3CE7AC-052F-4629-AD9F-CECA3B8C73CA}" alt="Struggling student with student loans" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T191640Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="http://crisishelp-seiumb.bysavi.com/">SEIU Student Debt Navigator</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Have you seen a disruption to your income as a result of the Covid-19 Crisis?</span></strong></p>
+        <p>You may be eligible for reduced student loan payments. SEIUMB and Savi have a free tool to help file the paperwork. Click below to get started.</p>
+        <div><a href="http://crisishelp-seiumb.bysavi.com/" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T200343Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: STUDENT LOAN RELIEF
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{EF3CE7AC-052F-4629-AD9F-CECA3B8C73CA}" alt="Struggling student with student loans" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200707T200343Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="http://crisishelp-seiumb.bysavi.com/">SEIU Student Debt Navigator</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Have you seen a disruption to your income as a result of the Covid-19 Crisis?</span></strong></p>
+        <p>You may be eligible for reduced student loan payments. SEIUMB and Savi have a free tool to help file the paperwork. Click below to get started.</p>
+        <div><a href="http://crisishelp-seiumb.bysavi.com/" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210104T181901Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: STUDENT LOAN RELIEF
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{EF3CE7AC-052F-4629-AD9F-CECA3B8C73CA}" alt="Struggling student with student loans" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210104T181901Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="http://crisishelp-seiumb.bysavi.com/">SEIU Student Debt Navigator</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Have you seen a disruption to your income as a result of the Covid-19 Crisis?</span></strong></p>
+        <p>You may be eligible for reduced student loan payments. SEIUMB and Savi have a free tool to help file the paperwork. Click below to get started.</p>
+        <div><a href="http://crisishelp-seiumb.bysavi.com/" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: ALIVIO
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{01A68A29-7676-4812-9373-99125521353D}" alt="Estudiante luchando con préstamos estudiantiles" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="http://crisishelp-seiumb.bysavi.com/" onclick="ga_event('small module','click','student loan relief esp &gt; title');">Consulta de Condonaci&oacute;n de Pr&eacute;stamos Estudiantiles de SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><span style="color: #4f2e84;"><strong>&iquest;Has visto una interrupci&oacute;n en tus ingresos como resultado de la crisis de Covid-19?</strong></span></p>
+        <p>Puede ser elegible para pagos reducidos de pr&eacute;stamos estudiantiles. SEIU MB y Savi tienen una herramienta gratuita para ayudar a archivar el papeleo. Haga clic a continuaci&oacute;n para comenzar.</p>
+        <div><a href="http://crisishelp-seiumb.bysavi.com/" class="button panelBtn" onclick="ga_event('small module','click','student loan relief esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T200307Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: ALIVIO
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{01A68A29-7676-4812-9373-99125521353D}" alt="Estudiante luchando con préstamos estudiantiles" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200707T200307Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="http://crisishelp-seiumb.bysavi.com/" onclick="ga_event('small module','click','student loan relief esp &gt; title');">Navegador de Deuda Estudiantil de SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><span style="color: #4f2e84;"><strong>&iquest;Has visto una interrupci&oacute;n en tus ingresos como resultado de la crisis de Covid-19?</strong></span></p>
+        <p>Puede ser elegible para pagos reducidos de pr&eacute;stamos estudiantiles. SEIU MB y Savi tienen una herramienta gratuita para ayudar a archivar el papeleo. Haga clic a continuaci&oacute;n para comenzar.</p>
+        <div><a href="http://crisishelp-seiumb.bysavi.com/" class="button panelBtn" onclick="ga_event('small module','click','student loan relief esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210503T145221Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: ALIVIO
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{01A68A29-7676-4812-9373-99125521353D}" alt="Estudiante luchando con préstamos estudiantiles" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210503T145221Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="http://crisishelp-seiumb.bysavi.com/" onclick="ga_event('small module','click','student loan relief esp > title');">Navegador de Deuda Estudiantil de SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><span style="color: #4f2e84;"><strong>¿Has visto una interrupción en tus ingresos como resultado de la crisis de Covid-19?</strong></span></p>
+        <p>Puede ser elegible para pagos reducidos de préstamos estudiantiles. SEIU MB y Savi tienen una herramienta gratuita para ayudar a archivar el papeleo. Haga clic a continuación para comenzar.</p>
+        <div><a href="http://crisishelp-seiumb.bysavi.com/" class="button panelBtn" onclick="ga_event('small module','click','student loan relief esp > button');">APRENDE MÁS</a></div>
+        </div>

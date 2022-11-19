@@ -1,0 +1,21 @@
+﻿---
+ID: "620a3736-8aac-4143-88ed-927d74c23a8a"
+Parent: "07012e2e-1b87-4b2e-9737-a93b0baf26a5"
+Template: "2361dbc4-2834-4d5e-8518-3e774ab4607c"
+Path: /sitecore/content/NEAMBC/Global/Snippet Products/Product code 1
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T164738Z
+    - ID: "3dbbc60d-5f36-4357-84f2-3c6b2c36e986"
+      Hint: Value
+      Value: <p>test product code 1 <p>

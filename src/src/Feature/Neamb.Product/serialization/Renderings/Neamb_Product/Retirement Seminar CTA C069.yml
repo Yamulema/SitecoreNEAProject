@@ -1,0 +1,27 @@
+﻿---
+ID: "c41be6f3-c844-4cc1-ba92-a03947194439"
+Parent: "8c963cf0-8e65-481f-b3f1-306c43e75720"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Product/Retirement Seminar CTA C069
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/NEAMB/Project/Web/Content Type/Retirement Seminar
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{4DCCD12D-2963-4A80-963A-BD4170FD1984}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: RetirementSeminar
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Product.Controllers.RetirementSeminarController,Neambc.Neamb.Feature.Product
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180615T195937Z

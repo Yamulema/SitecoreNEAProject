@@ -1,0 +1,210 @@
+﻿---
+ID: "aadc99bd-6bbe-4d61-8a79-3f93b56c30ea"
+Parent: "268af98e-e434-437d-8ec9-c4be6345ddf1"
+Template: "41fa937e-a872-41e2-958b-2fb9b75396b4"
+Path: /sitecore/content/NEAMBC/Global/Footer/California
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c983212-48b6-4fbe-b1bb-541121e980c1"
+      Hint: MobileLogin
+      Value: |
+        <link text="Log in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171114T215120Z
+    - ID: "28da50cb-fd52-4203-9ab2-2069bb4974a9"
+      Hint: FooterContent
+      Value: |
+        <div id="footerSubMenu" class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-12 large-12 columns">
+        <ul class="menu more_links">
+            <li>
+            <a href="~/link.aspx?_id=DB7BCEFF7A004131A2443A54DE103AF9&amp;_z=z" onclick="ga_event('footer', 'click', 'about us');">About US</a>
+            </li>
+            &nbsp;| &nbsp;
+            <li>
+            <a rel="noopener noreferrer" href="http://www.seiu.org" onclick="ga_event('footer', 'click', 'seiu.org');" target="_blank">SEIU.org</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+        <div id="social" class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-12 large-12 columns">
+        <ul class="menu">
+            <li><a href="https://twitter.com/seiumb" onclick="ga_event('footer', 'click', 'twitter');"><img alt="twitter icon" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx?h=75&amp;w=75&amp;hash=B861C438D075C037FDEE2B59A9657A98A2B11DC3" style="height: 75px; width: 75px;" /></a></li>
+            <li><a href="https://www.facebook.com/seiumb" onclick="ga_event('footer', 'click', 'facebook');"><img alt="facebook icon" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx?h=75&amp;w=75&amp;hash=85AAAA488DE16AE580D46395EB05A2C2AB3BB1D2" style="height: 75px; width: 75px;" /></a></li>
+        </ul>
+        </div>
+        </div>
+        <div id="terms" class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-12 large-12 columns">
+        <ul class="menu privacy">
+            <a href="~/link.aspx?_id=048642BBA9074B5997DBB780FB32C940&amp;_z=z" onclick="ga_event('footer', 'click', 'privacy policy');">Privacy Policy</a>&nbsp; &nbsp;| &nbsp;
+            <a href="~/link.aspx?_id=FB9A02FEE912414A8E033E8BFD23BF4C&amp;_z=z" onclick="ga_event('footer', 'click', 'terms of use');">Terms of Use</a>
+        </ul>
+        </div>
+        </div>
+        <div class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-6 large-6 small-centered medium-centered large-centered columns">
+        <p id="copyRight">&copy; 2019 SEIU Member Benefits ca. All rights reserved.</p>
+        </div>
+        </div>
+        <!-- Signal Tag Management SEIUMB container -->
+        <script id="tagjs" type="text/javascript">
+          (function () {
+            var tagjs = document.createElement("script");
+            var s = document.getElementsByTagName("script")[0];
+            tagjs.async = true;
+            tagjs.src = "//s.btstatic.com/tag.js#site=EPWAdKj";
+            s.parentNode.insertBefore(tagjs, s);
+          }());
+        </script>
+        <noscript>
+        <iframe src="//s.thebrighttag.com/iframe?c=EPWAdKj" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </noscript>
+    - ID: "3195df63-ac35-41cb-b2e9-f637bff61811"
+      Hint: SEIUMBLogo
+      Value: |
+        <image mediaid="{F4B68327-9532-44D8-85D0-536421AA563D}" />
+    - ID: "39cb2088-e064-41db-a2f8-38d83f03ba9b"
+      Hint: Registration
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "daac8cf8-c59d-484b-adc9-12f9e65be30b"
+      Hint: GeneralJavaScriptCodeBottom
+      Value: |
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5M2VWZ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    - ID: "df6f8f62-64db-440f-9055-d7480be9c139"
+      Hint: GeneralJavaScriptCodeTop
+      Value: |
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T5M2VWZ');</script>
+        <!-- End Google Tag Manager -->
+  - Version: 2
+    Fields:
+    - ID: "1c983212-48b6-4fbe-b1bb-541121e980c1"
+      Hint: MobileLogin
+      Value: |
+        <link text="Log in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T214548Z
+    - ID: "28da50cb-fd52-4203-9ab2-2069bb4974a9"
+      Hint: FooterContent
+      Value: |
+        <div id="footerSubMenu" class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-12 large-12 columns">
+        <ul class="menu more_links">
+            <li>
+            <a href="~/link.aspx?_id=DB7BCEFF7A004131A2443A54DE103AF9&amp;_z=z" onclick="ga_event('footer', 'click', 'about us');">About US</a>
+            </li>
+            &nbsp;| &nbsp;
+            <li>
+            <a rel="noopener noreferrer" href="http://www.seiu.org" onclick="ga_event('footer', 'click', 'seiu.org');" target="_blank">SEIU.org</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+        <div id="social" class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-12 large-12 columns">
+        <ul class="menu">
+            <li>
+        
+        <a href="https://twitter.com/seiumb" onclick="dataLayerPush({'event':'social','socialAction':'share','socialPlatform':'twitter'},this);"><img alt="twitter icon" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx?h=75&amp;w=75&amp;hash=B861C438D075C037FDEE2B59A9657A98A2B11DC3" style="height: 75px; width: 75px;" /></a>
+        
+        </li>
+            <li><a href="https://www.facebook.com/seiumb" onclick="dataLayerPush({'event':'social','socialAction':'share','socialPlatform':'facebook'},this);"><img alt="facebook icon" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx?h=75&amp;w=75&amp;hash=85AAAA488DE16AE580D46395EB05A2C2AB3BB1D2" style="height: 75px; width: 75px;" /></a></li>
+        </ul>
+        </div>
+        </div>
+        <div id="terms" class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-12 large-12 columns">
+        <ul class="menu privacy">
+            <a href="~/link.aspx?_id=048642BBA9074B5997DBB780FB32C940&amp;_z=z" onclick="ga_event('footer', 'click', 'privacy policy');">Privacy Policy</a>&nbsp; &nbsp;| &nbsp;
+            <a href="~/link.aspx?_id=FB9A02FEE912414A8E033E8BFD23BF4C&amp;_z=z" onclick="ga_event('footer', 'click', 'terms of use');">Terms of Use</a>
+        </ul>
+        </div>
+        </div>
+        <div class="row" style="background-color: #100719; color:#fff;">
+        <div class="small-12 medium-6 large-6 small-centered medium-centered large-centered columns">
+        <p id="copyRight">&copy; 2019 SEIU Member Benefits ca. All rights reserved.</p>
+        </div>
+        </div>
+        <!-- Signal Tag Management SEIUMB container -->
+        <script id="tagjs" type="text/javascript">
+          (function () {
+            var tagjs = document.createElement("script");
+            var s = document.getElementsByTagName("script")[0];
+            tagjs.async = true;
+            tagjs.src = "//s.btstatic.com/tag.js#site=EPWAdKj";
+            s.parentNode.insertBefore(tagjs, s);
+          }());
+        </script>
+        <noscript>
+        <iframe src="//s.thebrighttag.com/iframe?c=EPWAdKj" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </noscript>
+    - ID: "3195df63-ac35-41cb-b2e9-f637bff61811"
+      Hint: SEIUMBLogo
+      Value: |
+        <image mediaid="{F4B68327-9532-44D8-85D0-536421AA563D}" />
+    - ID: "39cb2088-e064-41db-a2f8-38d83f03ba9b"
+      Hint: Registration
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\editor
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T214548Z
+    - ID: "daac8cf8-c59d-484b-adc9-12f9e65be30b"
+      Hint: GeneralJavaScriptCodeBottom
+      Value: |
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5M2VWZ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    - ID: "df6f8f62-64db-440f-9055-d7480be9c139"
+      Hint: GeneralJavaScriptCodeTop
+      Value: |
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T5M2VWZ');</script>
+        <!-- End Google Tag Manager -->
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c983212-48b6-4fbe-b1bb-541121e980c1"
+      Hint: MobileLogin
+      Value: |
+        <link text="Login" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171221T161958Z
+    - ID: "2cc6500e-edc9-4be8-8bec-cd3fa763793a"
+      Hint: ShareButtons
+      Value: "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56a143394a43b67b"
+    - ID: "39cb2088-e064-41db-a2f8-38d83f03ba9b"
+      Hint: Registration
+      Value: |
+        <link text="Registrar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />

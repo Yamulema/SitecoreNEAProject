@@ -1,0 +1,113 @@
+﻿---
+ID: "e05d203f-bdbc-4996-8066-db8444507423"
+Parent: "07012e2e-1b87-4b2e-9737-a93b0baf26a5"
+Template: "2361dbc4-2834-4d5e-8518-3e774ab4607c"
+Path: /sitecore/content/NEAMBC/Global/Snippet Products/Default
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T164710Z
+    - ID: "3dbbc60d-5f36-4357-84f2-3c6b2c36e986"
+      Hint: Value
+      Value: |
+        <!-- BoldChat Live Chat Button HTML v5.00 (Type=Web,ChatButton=NEAMB,Website=NEAMB.com -->
+        <div style="text-align: center; white-space: nowrap;">
+        <script type="text/javascript">
+          var bccbId = Math.random(); document.write(unescape('%3Cdiv id=' + bccbId + '%3E%3C/div%3E'));
+          window._bcvma = window._bcvma || [];
+          _bcvma.push(["setAccountID", "380629475287665383"]);
+          _bcvma.push(["setParameter", "WebsiteID", "3559120177645827259"]);
+          _bcvma.push(["addStatic", {type: "chat", bdid: "513284739695815241", id: bccbId}]);
+          var bcLoad = function(){
+            if(window.bcLoaded) return; window.bcLoaded = true;
+            var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+            vms.src = ('https:'==document.location.protocol?'https://':'http://') + "vmss.boldchat.com/aid/380629475287665383/bc.vms4/vms.js";
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+          };
+          if(window.pageViewer && pageViewer.load) pageViewer.load();
+          else if(document.readyState=="complete") bcLoad();
+          else if(window.addEventListener) window.addEventListener('load', bcLoad, false);
+          else window.attachEvent('onload', bcLoad);
+        </script>
+        </div>
+        <!-- /BoldChat Live Chat Button HTML v5.00 -->
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T203345Z
+    - ID: "3dbbc60d-5f36-4357-84f2-3c6b2c36e986"
+      Hint: Value
+      Value: |
+        <!-- BoldChat Live Chat Button HTML v5.00 (Type=Web,ChatButton=SEIUMB English Chat Button,Website=SEIUMB) -->
+        <div style="text-align: center; white-space: nowrap;">
+        <script type="text/javascript">
+          var bccbId = Math.random(); document.write(unescape('%3Cdiv id=' + bccbId + '%3E%3C/div%3E'));
+          window._bcvma = window._bcvma || [];
+          _bcvma.push(["setAccountID", "421659361877807029"]);
+          _bcvma.push(["setParameter", "WebsiteID", "340652430883291492"]);
+          _bcvma.push(["addStatic", {type: "chat", bdid: "3608156540215980493", id: bccbId}]);
+          var bcLoad = function(){
+            if(window.bcLoaded) return; window.bcLoaded = true;
+            var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+            vms.src = "https://vmss.boldchat.com/aid/421659361877807029/bc.vms4/vms.js";
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+          };
+          if(window.pageViewer && pageViewer.load) pageViewer.load();
+          else if(document.readyState=="complete") bcLoad();
+          else if(window.addEventListener) window.addEventListener('load', bcLoad, false);
+          else window.attachEvent('onload', bcLoad);
+        </script>
+        </div>
+        <!-- /BoldChat Live Chat Button HTML v5.00 -->
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210805T203345Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T203724Z
+    - ID: "3dbbc60d-5f36-4357-84f2-3c6b2c36e986"
+      Hint: Value
+      Value: |
+        <!-- BoldChat Live Chat Button HTML v5.00 (Type=Web,ChatButton=NEAMB,Website=NEAMB.com -->
+        <div style="text-align: center; white-space: nowrap;">
+        <script type="text/javascript">
+          var bccbId = Math.random(); document.write(unescape('%3Cdiv id=' + bccbId + '%3E%3C/div%3E'));
+          window._bcvma = window._bcvma || [];
+          _bcvma.push(["setAccountID", "421659361877807029"]);
+          _bcvma.push(["setParameter", "WebsiteID", "340652430883291492"]);
+          _bcvma.push(["addStatic", {type: "chat", bdid: "4105383578352334926", id: bccbId}]);
+          var bcLoad = function(){
+            if(window.bcLoaded) return; window.bcLoaded = true;
+            var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+            vms.src = ('https:'==document.location.protocol?'https://':'http://') + "vmss.boldchat.com/aid/421659361877807029/bc.vms4/vms.js";
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+          };
+          if(window.pageViewer && pageViewer.load) pageViewer.load();
+          else if(document.readyState=="complete") bcLoad();
+          else if(window.addEventListener) window.addEventListener('load', bcLoad, false);
+          else window.attachEvent('onload', bcLoad);
+        </script>
+        </div>
+        <!-- /BoldChat Live Chat Button HTML v5.00 -->
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent

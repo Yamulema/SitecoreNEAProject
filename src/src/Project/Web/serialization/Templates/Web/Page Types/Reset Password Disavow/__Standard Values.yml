@@ -1,0 +1,132 @@
+﻿---
+ID: "6c62d1f8-0207-4871-9aab-ab65c9a3b2cd"
+Parent: "8530971f-a906-4fa5-9b37-f089a1d51430"
+Template: "8530971f-a906-4fa5-9b37-f089a1d51430"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Reset Password Disavow/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{039AF4C8-DEC1-431E-AB6A-45445A40958C}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{1BAF3822-BCFD-4315-83E7-320CB3C77CB0}" />
+        <r
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{9546F69A-8EBC-4FE3-A3F4-A6F5A91EC672}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{6D16C5DE-312C-48D0-B9C3-6F0BBBA2E04B}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{42956A12-6836-4D2A-AC81-4429C1499D52}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{9C7CB0A9-127C-40A6-9AFE-6262A27F64DC}" />
+        <r
+          id="{BEDCBFA8-6C3C-49B7-BC0B-BB54FBF9E763}"
+          ph="body"
+          uid="{49262F04-12BA-455F-BB4F-E997C4CE4F92}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{97E792D3-7C17-40A4-B2D1-D4B0B15BDE58}" />
+        <r
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{8BF6430C-CB74-4DDF-9785-38D40463658F}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8BF6430C-CB74-4DDF-9785-38D40463658F}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="DACE249D6D574097953B78CF0144F97F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171218T192035Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <h4>Thank You</h4>
+        <hr />
+        <p>Now, every time you sign in, you'll be able to access all the benefits available to you as an SEIU member. Please <a href="[ioID]E9E28C8C7D434A638775ABD6510AE2E2">contact us</a>&nbsp;any time if you have questions.</p>
+        <p>Stay connected with us and thousands of fellow SEIU members when you follow:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="" src="-/media/9167978AAA74431EA9FEC0725A00BFA4.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="" src="-/media/8F321B39442E41CB99A05C395C9E78DF.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <a class="button" href="/">Continue</a>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T205405Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

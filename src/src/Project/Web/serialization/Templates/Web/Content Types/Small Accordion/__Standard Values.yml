@@ -1,0 +1,23 @@
+﻿---
+ID: "fa68ed09-cafb-452e-8848-dc35e8ddd15e"
+Parent: "af3cc132-bfc8-480f-bd83-15420253c657"
+Template: "af3cc132-bfc8-480f-bd83-15420253c657"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Small Accordion/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{018B901D-ECAD-4748-86E8-BACBE06A5EA7}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201203T223339Z

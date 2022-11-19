@@ -1,0 +1,103 @@
+﻿---
+ID: "af3fca80-c26a-4357-91cb-e64d4a3d2d5a"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/National Car Rental Card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171217T224047Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3><a class="title" href="~/link.aspx?_id=54B239A49EB347EDA3935DA0D9FCE874&amp;_z=z">Get a FREE day on your next rental!<sup><span style="font-size: 13px;">*</span></sup></a></h3>
+        <div class="panelExcerpt">
+        <p>Go like a pro and save on your next car rental with National.</p>
+        </div>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=54B239A49EB347EDA3935DA0D9FCE874&amp;_z=z">BOOK NOW</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: NATIONAL CAR RENTAL
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{D64E0D8B-22C5-41D7-945D-F814179B3163}" ></image>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210406T182023Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3><a class="title" href="~/link.aspx?_id=54B239A49EB347EDA3935DA0D9FCE874&amp;_z=z">Get a FREE day on your next rental!<sup><span style="font-size: 13px;">*</span></sup></a></h3>
+        <div class="panelExcerpt">
+        <p>Go like a pro and save on your next car rental with National.</p>
+        </div>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=54B239A49EB347EDA3935DA0D9FCE874&amp;_z=z">BOOK NOW</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: NATIONAL CAR RENTAL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210406T182023Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{D64E0D8B-22C5-41D7-945D-F814179B3163}" ></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171218T161435Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3><a class="title" href="~/link.aspx?_id=54B239A49EB347EDA3935DA0D9FCE874&amp;_z=z" onclick="ga_event('rail module','click','national car rental esp > title');">¡Obtenga un día SIN CARGO en su próximo alquiler de automóvil!<sup><span style="font-size: 13px;">*</span></sup></a></h3>
+        <p>Viaje como un profesional y ahorre en el próximo alquiler de automóvil con National.</p>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=54B239A49EB347EDA3935DA0D9FCE874&amp;_z=z" onclick="ga_event('rail module','click','national car rental program esp > button');">RESERVA AHORA</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: NATIONAL CAR RENTAL
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{D64E0D8B-22C5-41D7-945D-F814179B3163}" ></image>

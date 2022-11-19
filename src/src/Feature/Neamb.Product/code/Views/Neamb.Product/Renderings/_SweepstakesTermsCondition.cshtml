@@ -1,0 +1,12 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Product.Model
+
+@model SweepstakesBaseDTO
+
+<div class="hidden-xs hidden-sm">
+    <div class="spacer-30"></div>
+</div>
+<div class="col-md-12">
+    <p class="disclaimer">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.TermsAndConditions, Model.Item)</p>
+</div>

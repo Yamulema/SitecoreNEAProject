@@ -1,0 +1,102 @@
+﻿---
+ID: "56784ffc-41f0-4e88-871f-055d8695026d"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Personal Loan more than 5000
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: 
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z">SEIU℠ Personal Loan (More than $5,000)</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <ul>
+            <li>
+            <p>A low FIXED rate loan to help pay off credit card balances and other loans</p>
+            </li>
+            <li>
+            <p>Affordable monthly payments and fixed rates from 5.99% APR to 15.99% APR<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Loan amounts from $5,000 to $30,000</p>
+            </li>
+            <li>
+            <p>Request loan terms from 36-72 months</p>
+            </li>
+        </ul>
+        <div><a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: 
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z" onclick="ga_event('small module','click','seiu personal loan more than $,5000 esp &gt; title');">Pr&eacute;stamo Personal SEIU℠ (M&aacute;s<br />
+        De $5,000)</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <ul>
+            <li>
+            <p>Un pr&eacute;stamos con tasa baja FIJA para ayudar a pagar los saldos de tarjetas de cr&eacute;dito y otros prestamos</p>
+            </li>
+            <li>
+            <p>Pagos mensuales asequibles y tasas fijas de 5.99% APR a 15.99% APR<sup>2</sup></p>
+            </li>
+            <li>
+            <p>Pr&eacute;stamos de $5,000 a $30,000</p>
+            </li>
+            <li>
+            <p>Solicite plazos de pr&eacute;stamo de 36 a 72 meses</p>
+            </li>
+        </ul>
+        <br />
+        <br />
+        <div><a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu personal loan more than $5,000 esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>

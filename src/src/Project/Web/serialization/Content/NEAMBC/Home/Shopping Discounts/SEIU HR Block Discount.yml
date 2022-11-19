@@ -1,0 +1,2800 @@
+﻿---
+ID: "8601e912-0452-4e95-a379-4d62cf1163df"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU HR Block Discount
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20201124T180700Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 850
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: H&R Block
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002520Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block is the nation’s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        
+        <p style="text-align: center;"><em><strong>This discount is available from January to April.</strong></em></p>
+        
+        <!--
+        ><p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>
+        
+        <p><strong>Tax day is Tuesday, April 17, 2018!</strong></p>
+        
+        <p>H&amp;R Block is the nation’s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members:</p>
+        
+        <ul>
+        	<li>$25 off tax preparation services for new clients</li>
+        	<li>Free Tax Identity Shield<sup>®</sup> (up to a $30 value) with paid tax preparation for prior clients</li>
+        	<li>Special pricing on software and online programs</li>
+        	<li>Special offers may be redeemed in retail offices or online.</li>
+        </ul>
+        
+        <p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>
+        
+        <p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Make tax time easier and less expensive with special offers&nbsp;on tax preparation from H&amp;R Block.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE ON TAX PREPARATION WITH H&R BLOCK
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" alt="SEIU Member Benefits in partnership with H&amp;R Block" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181203T220155Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2019.
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Sign in
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--
+        <p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        
+        <p style="text-align: center;"><em><strong>This discount is available from January to April.</strong></em></p>
+        -->
+        <p style="text-align: center;"><em>Offer available January 17, 2019 through April 10, 2019.</em></p>
+        <p><strong>Tax day is Monday, April 15, 2019!</strong></p>
+        <p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members:</p>
+        <ul>
+            <li>$25 off tax preparation services for new clients</li>
+            <li>Free Tax Identity Shield<sup>&reg;</sup> (up to a $30 value) with paid tax preparation for prior clients</li>
+            <li>Special pricing on software and online programs</li>
+            <li>Special offers may be redeemed in retail offices or online.</li>
+        </ul>
+        <p>Coupon required to receive above discounts and benefits. <strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/local-offices/#!/en/office-locator/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>
+        <p><strong>Free Second Look<sup>&reg;</sup> Review</strong><br />
+        We can check your past three years&rsquo; tax returns for missed credits and deductions to ensure you didn&rsquo;t miss any savings available to you.*</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET COUPON" linktype="external" url="http://www.hrblock.com/hrb-offers/seiumb" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Make tax time easier and less expensive with special offers&nbsp;on tax preparation from H&amp;R Block.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: This discount is only available from January to April.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE ON TAX PREPARATION WITH H&R BLOCK
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: |
+        <p style="text-align: center;"><em><span style="font-size: 16px;">In office or online, Block has your back.</span></em></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181203T220100Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190411T163506Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: This discount is available from January to April.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <!--
+        ><p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>
+        
+        <p><strong>Tax day is Tuesday, April 17, 2018!</strong></p>
+        
+        <p>H&amp;R Block is the nation’s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members:</p>
+        
+        <ul>
+        	<li>$25 off tax preparation services for new clients</li>
+        	<li>Free Tax Identity Shield<sup>®</sup> (up to a $30 value) with paid tax preparation for prior clients</li>
+        	<li>Special pricing on software and online programs</li>
+        	<li>Special offers may be redeemed in retail offices or online.</li>
+        </ul>
+        
+        <p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer"  href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>
+        
+        <p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&amp;R Block.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE ON TAX PREPARATION WITH H&R BLOCK
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190411T163500Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191204T161643Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: This discount is available from January to April.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <!--
+        ><p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>
+        
+        <p><strong>Tax day is Tuesday, April 17, 2018!</strong></p>
+        
+        <p>H&amp;R Block is the nation’s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members:</p>
+        
+        <ul>
+        	<li>$25 off tax preparation services for new clients</li>
+        	<li>Free Tax Identity Shield<sup>®</sup> (up to a $30 value) with paid tax preparation for prior clients</li>
+        	<li>Special pricing on software and online programs</li>
+        	<li>Special offers may be redeemed in retail offices or online.</li>
+        </ul>
+        
+        <p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer"  href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>
+        
+        <p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Offer Details Coming Soon
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE ON TAX PREPARATION WITH H&R BLOCK
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191204T161600Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Print In-Store Coupon" linktype="media" target="_blank" id="{D97EAB15-3445-4179-98FF-57AC3BC16186}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200108T195312Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Offer valid through July 10, 2020</p>
+        <p> Members can either sit down with a tax professional or just drop off documents at a local office.  No appointment is needed. Offer is valid at participating offices and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <p>1. 40% off discount is valid online only.</p>
+        <p>2. $25 off discount is valid at participating offices  and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "40% discount will be automatically applied when using this exclusive link.  $25 discount will be applied in-store with printable coupon"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Day Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 40% on online tax preparations<sup>1</sup></li>
+            <li>Take $25 off &amp; drop off your documents at your local H&amp;R Block office<sup>2</sup></li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money and have more time to spend with friends and family this tax season!</p>
+        <p>Prepare your taxes online or print your SEIU member discount coupon now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 40% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 40% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200108T195300Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T151758Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Online offer valid through July 15, 2020. In-Store Offer valid through July 10, 2020</p>
+        <p> Members can either sit down with a tax professional or just drop off documents at a local office.  No appointment is needed. Offer is valid at participating offices and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <p>1. 30% off discount is valid online only.</p>
+        <p>2. $25 off discount is valid at participating offices  and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "30% discount will be automatically applied when using this exclusive link.  $25 discount will be applied in-store with printable coupon"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Deadline Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 30% on online tax preparations<sup>1</sup></li>
+            <li>Take $25 off &amp; drop off your documents at your local H&amp;R Block office<sup>2</sup></li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money on your taxes and spend it on the things you need!</p>
+        <p>Prepare your taxes online or print your SEIU member discount coupon now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200416T151700Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 7
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="In-Store Coupon" linktype="external" url="" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200417T133554Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Online offer valid through July 15, 2020. In-Store Offer valid through July 10, 2020</p>
+        <p> Members can either sit down with a tax professional or just drop off documents at a local office.  No appointment is needed. Offer is valid at participating offices and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <p>1. 30% off discount is valid online only.</p>
+        <p>2. $25 off discount is valid at participating offices  and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "30% discount will be automatically applied when using this exclusive link.  $25 discount will be applied in-store with printable coupon"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Deadline Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 30% on online tax preparations<sup>1</sup></li>
+            <li>Take $25 off &amp; drop off your documents at your local H&amp;R Block office<sup>2</sup></li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money on your taxes and spend it on the things you need!</p>
+        <p>Prepare your taxes online or print your SEIU member discount coupon now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200417T133500Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 8
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Print In-Store Coupon" linktype="external" url="" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200417T134116Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Online offer valid through July 15, 2020. In-Store Offer valid through July 10, 2020</p>
+        <p> Members can either sit down with a tax professional or just drop off documents at a local office.  No appointment is needed. Offer is valid at participating offices and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <p>1. 30% off discount is valid online only.</p>
+        <p>2. $25 off discount is valid at participating offices  and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "30% discount will be automatically applied when using this exclusive link.  $25 discount will be applied in-store with printable coupon"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Deadline Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 30% on online tax preparations<sup>1</sup></li>
+            <li>Take $25 off &amp; drop off your documents at your local H&amp;R Block office<sup>2</sup></li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money on your taxes and spend it on the things you need!</p>
+        <p>Prepare your taxes online or print your SEIU member discount coupon now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="" anchor="" target="" />
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200417T134100Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 9
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Print In-Store Coupon" linktype="external" url="" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200417T134854Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Online offer valid through July 15, 2020. In-Store Offer valid through July 10, 2020</p>
+        <p> Members can either sit down with a tax professional or just drop off documents at a local office.  No appointment is needed. Offer is valid at participating offices and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <p>1. 30% off discount is valid online only.</p>
+        <p>2. $25 off discount is valid at participating offices  and applies to new clients who did not use H&amp;R Block office services to prepare their 2018 tax returns.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "30% discount will be automatically applied when using this exclusive link.  $25 discount will be applied in-store with printable coupon"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Deadline Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 30% on online tax preparations<sup>1</sup></li>
+            <li>Take $25 off &amp; drop off your documents at your local H&amp;R Block office<sup>2</sup></li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money on your taxes and spend it on the things you need!</p>
+        <p>Prepare your taxes online or print your SEIU member discount coupon now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200417T134800Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 10
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T130736Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>*30% off discount in valid online only. Offer valid through July 15, 2020.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 30% discount will be automatically applied when using this exclusive link.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Deadline Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 30% on online tax preparations*</li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money on your taxes and spend it on the things you need!</p>
+        <p>Prepare your taxes online now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions or $25 off when dropping documents off at a local office.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200713T130700Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 11
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T133004Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>*30% off discount in valid online only. Offer valid through July 15, 2020.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 30% discount will be automatically applied when using this exclusive link.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Deadline Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 30% on online tax preparations*</li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money on your taxes and spend it on the things you need!</p>
+        <p>Prepare your taxes online now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200713T133000Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 12
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200714T193724Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>*30% off discount in valid online only. Offer valid through July 15, 2020.</p>
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 30% discount will be automatically applied when using this exclusive link.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--<p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>Details Coming Soon</strong></em></p>
+        <p><em>Offer available January 2, 2018 through April 10, 2018.</em></p>-->
+        <p><strong>Tax Deadline Has Been Extended to July 15, 2020!</strong></p>
+        <ul>
+            <li>Save 30% on online tax preparations*</li>
+        </ul>
+        <p>Take the stress out of tax season with expert tax preparation services from H&amp;R Block.</p>
+        <p>Save money on your taxes and spend it on the things you need!</p>
+        <p>Prepare your taxes online now and save. </p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="File Online Now" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU members get 30% off H&amp;R Block Online Solutions.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200714T193700Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 13
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T145847Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>This discount is available from January to April.</strong></em></p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save on tax preparation with H&amp;R Block.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save on tax preparation with H&amp;R Block.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200715T145800Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 14
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T130636Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>This discount is available from January to April.</strong></em></p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save on tax preparation with H&amp;R Block. This discount is available from January to April.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save on tax preparation with H&amp;R Block.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T130636Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 15
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Make tax time easier and less expensive with special offers on tax preparation from H&R Block.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201124T180704Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        * At participating offices. Fees apply if you have us file an amended return. Results vary. All tax situations are different. The IRS allows taxpayers to amend returns from the previous three tax years to claim additional refunds to which they are entitled. Applies to individual tax returns only. Offer expires 4/10/2018.
+        -->
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{6BF181A9-B92D-4AB0-AB95-B99E58C00881}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{6BF181A9-B92D-4AB0-AB95-B99E58C00881}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block is the nation&rsquo;s largest tax preparation company and a name that millions of Americans know and trust. SEIU Member Benefits and H&amp;R Block have joined forces to offer discounts and special pricing on tax preparation for SEIU members.</p>
+        <p style="text-align: center;"><em><strong>This discount is available from January to April.</strong></em></p>
+        <!--<p><strong>Please register or sign in to print your SEIU member discount coupon.</strong> You can use your coupon at any H&amp;R Block location nationwide! To find an office near you, please visit <a rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> or call 1-800-HRBLOCK (472-5625).</p>-->
+        <!--<p><strong>Free Second Look<sup>®</sup> Review</strong>*<br>
+        We can check your past three years’ tax returns for missed credits and deductions to ensure you didn’t miss any savings available to you.</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save on tax preparation with H&amp;R Block. This discount is available from January to April.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save on tax preparation with H&amp;R Block.
+    - ID: "be5b6e97-47a2-4923-a740-88099873cbcd"
+      Hint: Link
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201124T180704Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+- Language: "es-ES"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: H&R Block
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172621Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        <p>* En las oficinas participantes. Se aplican honorarios si presentamos una declaración de impuestos modificada. Los resultados varían. Todas las situaciones tributarias son diferentes. El IRS permite a los contribuyentes modificar las declaraciones de impuestos de los tres años fiscales anteriores para reclamar los reembolsos adicionales que les correspondan. Se aplica únicamente a las declaraciones de impuestos individuales. Termina el 10 de abril de 2018.</p>
+        -->
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU.</p>
+        
+        <!--
+        <p style="text-align: center;"><em><strong>Este descuento est&aacute; disponible de enero a abril.</strong></em></p>
+        -->
+        
+        <p><em>La oferta es válida del 17 de enero de 2019 hasta el 10 de abril de 2019.</em></p>
+        
+        <p><strong>El plazo para declarar impuestos del 2018 es lunes, 15 de abril de 2019.</strong></p>
+        
+        <p>H&amp;R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU:</p>
+        
+        <ul>
+        	<li>$25 de descuento en servicios de preparación de impuestos para nuevos clientes</li>
+        	<li>Tax Identity Shield<sup>®</sup> gratuito (hasta un valor de $30) con preparación de impuestos pagada para clientes existentes</li>
+        	<li>Precios especiales en software y programas en línea</li>
+        	<li>Las ofertas especiales se pueden canjear en las oficinas minoristas o en línea</li>
+        </ul>
+        
+        <p><strong>Regístrese o inicie sesión para imprimir su cupón de descuento para miembros de SEIU.</strong> Usted puede usar su cupón en cualquier ubicación de H&amp;R Block en todo el país. Para encontrar una oficina cerca de usted, visite <a href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> o llame al 1-800-HRBLOCK (472-5625). <em>Oferta válida hasta el 10 de abril de 2019</em>.</p>
+        
+        <p><strong>Revisión Gratuita de Second Look<sup>®</sup></strong><br>
+        Podemos revisar las declaraciones de impuestos de los últimos tres años en busca de créditos y deducciones que se hayan omitido para así garantizar que no se pierda ningún ahorro que esté a su disposición.*</p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER CUPÓN" linktype="external" url="http://www.hrblock.com/hrb-offers/seiumb" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Haga que el tiempo de impuestos sea m&aacute;s f&aacute;cil y menos costoso con ofertas especiales sobre preparaci&oacute;n de impuestos de H&amp;R Block.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE EN LA PREPARACIÓN DE IMPUESTOS CON H&R BLOCK.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" alt="SEIU Member Benefits en asociación con H&amp;R Block" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181219T164813Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>* En las oficinas participantes. Se aplican honorarios si presentamos una declaraci&oacute;n de impuestos modificada. Los resultados var&iacute;an. Todas las situaciones tributarias son diferentes. El IRS permite a los contribuyentes modificar las declaraciones de impuestos de los tres a&ntilde;os fiscales anteriores para reclamar los reembolsos adicionales que les correspondan. Se aplica &uacute;nicamente a las declaraciones de impuestos individuales. Termina el 10 de abril de 2019.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <!--
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU.</p>
+        
+        <p style="text-align: center;"><em><strong>Este descuento est&aacute; disponible de enero a abril.</strong></em></p>
+        -->
+        <p style="text-align: center;"><em>La oferta es v&aacute;lida del 17 de enero de 2019 hasta el 10 de abril de 2019.</em></p>
+        <p><strong>El plazo para declarar impuestos del 2018 es el lunes, 15 de abril de 2019.</strong></p>
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU:</p>
+        <ul>
+            <li>$25 de descuento en servicios de preparaci&oacute;n de impuestos para nuevos clientes</li>
+            <li>Tax Identity Shield<sup>&reg;</sup> gratuito (hasta un valor de $30) con preparaci&oacute;n de impuestos pagada para clientes existentes</li>
+            <li>Precios especiales en software y programas en l&iacute;nea</li>
+            <li>Las ofertas especiales se pueden canjear en las oficinas minoristas o en l&iacute;nea</li>
+        </ul>
+        <p>Cup&oacute;n requerido para recibir estos descuentos y beneficios. <strong>Reg&iacute;strese o inicie sesi&oacute;n para imprimir su cup&oacute;n de descuento para miembros de SEIU.</strong> Usted puede usar su cup&oacute;n en cualquier ubicaci&oacute;n de H&amp;R Block en todo el pa&iacute;s. Para encontrar una oficina cerca de usted, visite <a rel="noopener noreferrer" href="https://www.hrblock.com/espanol/tax-offices/local-offices/index.html#!/es/office-locator/" target="_blank">hrblock.com</a> o llame al 1-800-HRBLOCK (472-5625). </p>
+        <p><strong>Revisi&oacute;n Gratuita de Second Look<sup>&reg;</sup></strong><br />
+        Podemos revisar las declaraciones de impuestos de los &uacute;ltimos tres a&ntilde;os en busca de cr&eacute;ditos y deducciones que se hayan omitido para as&iacute; garantizar que no se pierda ning&uacute;n ahorro que est&eacute; a su disposici&oacute;n.*</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER CUPÓN" linktype="external" url="http://www.hrblock.com/hrb-offers/seiumb" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Haga que el tiempo de impuestos sea m&aacute;s f&aacute;cil y menos costoso con ofertas especiales sobre preparaci&oacute;n de impuestos de H&amp;R Block.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE EN LA PREPARACIÓN DE IMPUESTOS CON H&R BLOCK.
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: |
+        
+        
+        <p style="text-align: center;"><em><span style="font-size: 16px;">En la oficina o en l&iacute;nea, Block te respalda.</span></em></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181219T164800Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190411T163948Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        <p>* En las oficinas participantes. Se aplican honorarios si presentamos una declaración de impuestos modificada. Los resultados varían. Todas las situaciones tributarias son diferentes. El IRS permite a los contribuyentes modificar las declaraciones de impuestos de los tres años fiscales anteriores para reclamar los reembolsos adicionales que les correspondan. Se aplica únicamente a las declaraciones de impuestos individuales. Termina el 10 de abril de 2018.</p>
+        -->
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Este descuento está disponible de enero a abril.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU.</p>
+        <p style="text-align: center;"><em><strong>Detalles pr&oacute;ximamente</strong></em></p>
+        <!--
+        <p><em>La oferta es válida del 17 de enero de 2019 hasta el 10 de abril de 2019.</em></p>
+        
+        <p><strong>El plazo para declarar impuestos del 2018 es lunes, 15 de abril de 2019.</strong></p>
+        
+        <p>H&amp;R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU:</p>
+        
+        <ul>
+        	<li>$25 de descuento en servicios de preparación de impuestos para nuevos clientes</li>
+        	<li>Tax Identity Shield<sup>®</sup> gratuito (hasta un valor de $30) con preparación de impuestos pagada para clientes existentes</li>
+        	<li>Precios especiales en software y programas en línea</li>
+        	<li>Las ofertas especiales se pueden canjear en las oficinas minoristas o en línea</li>
+        </ul>
+        
+        <p><strong>Regístrese o inicie sesión para imprimir su cupón de descuento para miembros de SEIU.</strong> Usted puede usar su cupón en cualquier ubicación de H&amp;R Block en todo el país. Para encontrar una oficina cerca de usted, visite <a rel="noopener noreferrer"  href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> o llame al 1-800-HRBLOCK (472-5625). <em>Oferta válida hasta el 10 de abril de 2019</em>.</p>
+        
+        <p><strong>Revisión Gratuita de Second Look<sup>®</sup></strong><br>
+        Podemos revisar las declaraciones de impuestos de los últimos tres años en busca de créditos y deducciones que se hayan omitido para así garantizar que no se pierda ningún ahorro que esté a su disposición.*</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER CUPÓN" linktype="external" url="http://www.hrblock.com/hrb-offers/seiumb" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Haga que el tiempo de impuestos sea m&aacute;s f&aacute;cil y menos costoso con ofertas especiales sobre preparaci&oacute;n de impuestos de H&amp;R Block.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE EN LA PREPARACIÓN DE IMPUESTOS CON H&R BLOCK.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190411T163900Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Print In-Store Coupon" linktype="media" target="_blank" id="{D97EAB15-3445-4179-98FF-57AC3BC16186}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{3815D3F7-04B0-4097-ACE9-5E165F97060A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191204T161733Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <!--
+        <p>* En las oficinas participantes. Se aplican honorarios si presentamos una declaración de impuestos modificada. Los resultados varían. Todas las situaciones tributarias son diferentes. El IRS permite a los contribuyentes modificar las declaraciones de impuestos de los tres años fiscales anteriores para reclamar los reembolsos adicionales que les correspondan. Se aplica únicamente a las declaraciones de impuestos individuales. Termina el 10 de abril de 2018.</p>
+        -->
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 0
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Este descuento está disponible de enero a abril.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU.</p>
+        <p style="text-align: center;"><em><strong>Detalles pr&oacute;ximamente</strong></em></p>
+        <!--
+        <p><em>La oferta es válida del 17 de enero de 2019 hasta el 10 de abril de 2019.</em></p>
+        
+        <p><strong>El plazo para declarar impuestos del 2018 es lunes, 15 de abril de 2019.</strong></p>
+        
+        <p>H&amp;R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU:</p>
+        
+        <ul>
+        	<li>$25 de descuento en servicios de preparación de impuestos para nuevos clientes</li>
+        	<li>Tax Identity Shield<sup>®</sup> gratuito (hasta un valor de $30) con preparación de impuestos pagada para clientes existentes</li>
+        	<li>Precios especiales en software y programas en línea</li>
+        	<li>Las ofertas especiales se pueden canjear en las oficinas minoristas o en línea</li>
+        </ul>
+        
+        <p><strong>Regístrese o inicie sesión para imprimir su cupón de descuento para miembros de SEIU.</strong> Usted puede usar su cupón en cualquier ubicación de H&amp;R Block en todo el país. Para encontrar una oficina cerca de usted, visite <a rel="noopener noreferrer"  href="https://www.hrblock.com/tax-offices/" target="_blank">hrblock.com</a> o llame al 1-800-HRBLOCK (472-5625). <em>Oferta válida hasta el 10 de abril de 2019</em>.</p>
+        
+        <p><strong>Revisión Gratuita de Second Look<sup>®</sup></strong><br>
+        Podemos revisar las declaraciones de impuestos de los últimos tres años en busca de créditos y deducciones que se hayan omitido para así garantizar que no se pierda ningún ahorro que esté a su disposición.*</p>  
+        -->
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER CUPÓN" linktype="external" url="http://www.hrblock.com/hrb-offers/seiumb" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Detalles de la oferta pr&oacute;ximamente
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE EN LA PREPARACIÓN DE IMPUESTOS CON H&R BLOCK.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191204T161700Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Imprimir cupón de tienda" linktype="media" target="_blank" id="{D97EAB15-3445-4179-98FF-57AC3BC16186}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200113T163219Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Oferta v&aacute;lida hasta el 10 de julio de 2020</p>
+        <br />
+        <p>Los miembros pueden sentarse con un profesional fiscal o simplemente dejar los documentos en una oficina local. No se necesita cita. La oferta es v&aacute;lida en las oficinas participantes y se aplica a los nuevos clientes que no utilizaron los servicios de oficina de H&amp;R Block para preparar sus declaraciones de impuestos de 2018.</p>
+        <br />
+        <p>1. El 40 % de descuento solo es v&aacute;lido en l&iacute;nea.</p>
+        <br />
+        <p>2. El descuento de 25 $ es v&aacute;lido en las oficinas participantes y se aplica a los clientes nuevos que no utilizaron los servicios de oficina de H&amp;R Block para preparar sus declaraciones de impuestos de 2018.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: El 40 % de descuento se aplicar&aacute; autom&aacute;ticamente si se usa este enlace exclusivo. Se aplicar&aacute; un descuento de $25 en la tienda con un cup&oacute;n imprimible.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>El plazo de presentaci&oacute;n de las declaraciones de los impuestos se ha ampliado hasta el 15 de julio de 2020.</p>
+        <ul>
+            <li>Ahorra un 40 % en las preparaciones en l&iacute;nea de los impuestos <sup>1</sup></li>
+            <li>Consigue 25 $ de descuento y deja los documentos en tu oficina local H&amp;R Block<sup>2</sup></li>
+        </ul>
+        <p>Elimina el estr&eacute;s que supone la temporada de impuestos con los expertos servicios de preparaci&oacute;n de declaraciones de H&amp;R Block.</p>
+        <p>Ahorra dinero y ten m&aacute;s tiempo para estar con tus amigos y familiares durante esta temporada de impuestos.</p>
+        <p>Prepara los impuestos en l&iacute;nea o imprime el cup&oacute;n de descuento para los miembros de SEIU ya y ahorra.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar en línea ahora" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU obtienen un 40% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block o $25 cuando dejan los documentos en una oficina local.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de SEIU obtienen un 40% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block o $25 cuando dejan los documentos en una oficina local.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200113T163200Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T152340Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Oferta en l&iacute;nea v&aacute;lida hasta el 15 de julio de 2020. Oferta en la tienda v&aacute;lida hasta el 10 de julio de 2020.</p>
+        <p>Los miembros pueden sentarse con un profesional fiscal o simplemente dejar los documentos en una oficina local. No se necesita cita. La oferta es v&aacute;lida en las oficinas participantes y se aplica a los nuevos clientes que no utilizaron los servicios de oficina de H&amp;R Block para preparar sus declaraciones de impuestos de 2018.</p>
+        <p>1. El 30% de descuento solo es v&aacute;lido en l&iacute;nea.</p>
+        <p>2. El descuento de $25 es v&aacute;lido en las oficinas participantes y se aplica a los clientes nuevos que no utilizaron los servicios de oficina de H&amp;R Block para preparar sus declaraciones de impuestos de 2018.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: El 30 % de descuento se aplicar&aacute; autom&aacute;ticamente si se usa este enlace exclusivo. Se aplicar&aacute; un descuento de $25 en la tienda con un cup&oacute;n imprimible.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>El plazo de presentaci&oacute;n de las declaraciones de los impuestos se ha ampliado hasta el 15 de julio de 2020.</p>
+        <ul>
+            <li>Ahorra un 30% en las preparaciones en l&iacute;nea de los impuestos <sup>1</sup></li>
+            <li>Consigue $25 de descuento y deja los documentos en tu oficina local H&amp;R Block<sup>2</sup></li>
+        </ul>
+        <p>Elimina el estr&eacute;s que supone la temporada de impuestos con los expertos servicios de preparaci&oacute;n de declaraciones de H&amp;R Block.</p>
+        <p>Ahorre dinero en sus impuestos y g&aacute;stalo en las cosas que necesita</p>
+        <p>Prepara los impuestos en l&iacute;nea o imprime el cup&oacute;n de descuento para los miembros de SEIU ya y ahorra.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar en línea ahora" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block o $25 cuando dejan los documentos en una oficina local.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block o $25 cuando dejan los documentos en una oficina local.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200416T152300Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 7
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Imprimir cupón de tienda" linktype="external" url="" anchor="" target="" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200417T134737Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Oferta en l&iacute;nea v&aacute;lida hasta el 15 de julio de 2020. Oferta en la tienda v&aacute;lida hasta el 10 de julio de 2020.</p>
+        <p>Los miembros pueden sentarse con un profesional fiscal o simplemente dejar los documentos en una oficina local. No se necesita cita. La oferta es v&aacute;lida en las oficinas participantes y se aplica a los nuevos clientes que no utilizaron los servicios de oficina de H&amp;R Block para preparar sus declaraciones de impuestos de 2018.</p>
+        <p>1. El 30% de descuento solo es v&aacute;lido en l&iacute;nea.</p>
+        <p>2. El descuento de $25 es v&aacute;lido en las oficinas participantes y se aplica a los clientes nuevos que no utilizaron los servicios de oficina de H&amp;R Block para preparar sus declaraciones de impuestos de 2018.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: El 30 % de descuento se aplicar&aacute; autom&aacute;ticamente si se usa este enlace exclusivo. Se aplicar&aacute; un descuento de $25 en la tienda con un cup&oacute;n imprimible.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>El plazo de presentaci&oacute;n de las declaraciones de los impuestos se ha ampliado hasta el 15 de julio de 2020.</p>
+        <ul>
+            <li>Ahorra un 30% en las preparaciones en l&iacute;nea de los impuestos <sup>1</sup></li>
+            <li>Consigue $25 de descuento y deja los documentos en tu oficina local H&amp;R Block<sup>2</sup></li>
+        </ul>
+        <p>Elimina el estr&eacute;s que supone la temporada de impuestos con los expertos servicios de preparaci&oacute;n de declaraciones de H&amp;R Block.</p>
+        <p>Ahorre dinero en sus impuestos y g&aacute;stalo en las cosas que necesita</p>
+        <p>Prepara los impuestos en l&iacute;nea o imprime el cup&oacute;n de descuento para los miembros de SEIU ya y ahorra.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar en línea ahora" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block o $25 cuando dejan los documentos en una oficina local.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block o $25 cuando dejan los documentos en una oficina local.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200417T134700Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 8
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T132011Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>*El 30% de descuento solo es v&aacute;lido en l&iacute;nea. Oferta v&aacute;lida hasta el 15 de julio de 2020.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: El 30 % de descuento se aplicar&aacute; autom&aacute;ticamente si se usa este enlace exclusivo.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>El plazo de presentaci&oacute;n de las declaraciones de los impuestos se ha ampliado hasta el 15 de julio de 2020.</p>
+        <ul>
+            <li>Ahorra un 30% en las preparaciones en l&iacute;nea de los impuestos*</li>
+        </ul>
+        <p>Prepara los impuestos en l&iacute;nea ya y ahorra.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar en línea ahora" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200713T132000Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 9
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T142249Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: <p>*El 30% de descuento solo es v&aacute;lido en l&iacute;nea. Oferta v&aacute;lida hasta el 15 de julio de 2020.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: El 30 % de descuento se aplicar&aacute; autom&aacute;ticamente si se usa este enlace exclusivo.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>El plazo de presentaci&oacute;n de las declaraciones de los impuestos se ha ampliado hasta el 15 de julio de 2020.</p>
+        <ul>
+            <li>Ahorra un 30% en las preparaciones en l&iacute;nea de los impuestos*</li>
+        </ul>
+        <p>Elimina el estr&eacute;s que supone la temporada de impuestos con los expertos servicios de preparaci&oacute;n de declaraciones de H&amp;R Block.
+        Ahorre dinero en sus impuestos y g&aacute;stalo en las cosas que necesita.</p>
+        <p>Prepara los impuestos en l&iacute;nea ya y ahorra.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar en línea ahora" linktype="external" url="https://linkto.hrblock.com/c/1311529/743601/5683" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de SEIU obtienen un 30% de descuento en las Soluciones en L&iacute;nea de H&amp;R Block.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200713T142200Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 10
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T150927Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU.</p>
+        <p>&nbsp;</p>
+        <center><em><strong>Prepara los impuestos en l&iacute;nea ya y ahorra.</strong></em></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: AHORRE EN LA PREPARACI&Oacute;N DE IMPUESTOS CON H&amp;R BLOCK.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE EN LA PREPARACI&Oacute;N DE IMPUESTOS CON H&amp;R BLOCK.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200715T150900Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 11
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T033713Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU.</p>
+        <center><em><strong>Prepara los impuestos en l&iacute;nea ya y ahorra.</strong></em></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: AHORRE EN LA PREPARACI&Oacute;N DE IMPUESTOS CON H&amp;R BLOCK.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE EN LA PREPARACI&Oacute;N DE IMPUESTOS CON H&amp;R BLOCK.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T033713Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block
+  - Version: 12
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: H&R Block es la empresa de preparación de impuestos más grande del país y un nombre que millones de estadounidenses conocen y en el que confían. SEIU Member Benefits y H&R Block se unieron para ofrecer descuentos y precios especiales en la preparación de impuestos para los miembros de SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{81191EEC-8627-4C8A-8C68-436B07FA9024}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T130736Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: H&R Block
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: 
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: H&R BLOCK
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>H&amp;R Block es la empresa de preparaci&oacute;n de impuestos m&aacute;s grande del pa&iacute;s y un nombre que millones de estadounidenses conocen y en el que conf&iacute;an. SEIU Member Benefits y H&amp;R Block se unieron para ofrecer descuentos y precios especiales en la preparaci&oacute;n de impuestos para los miembros de SEIU.</p>
+        <center><em><strong>Este descuento est&aacute; disponible de enero a abril.</strong></em></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A368924-04AC-4E2A-94CA-48AB8FAF523C}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: H&R Block
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre en la preparaci&oacute;n de impuestos con H&amp;R Block. Este descuento est&aacute; disponible de enero a abril.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE EN LA PREPARACI&Oacute;N DE IMPUESTOS CON H&amp;R BLOCK.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T130736Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: H&R Block

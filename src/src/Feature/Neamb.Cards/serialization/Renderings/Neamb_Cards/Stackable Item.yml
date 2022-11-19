@@ -1,0 +1,27 @@
+﻿---
+ID: "c8337781-420d-4017-8cff-daadab399abe"
+Parent: "9dbf44d0-811b-4d96-9233-f86ef46423ab"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Cards/Stackable Item
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{17F3F69D-CD7F-45E7-B30C-FE552ADFE86C}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{683C0612-8245-4222-BD5A-A1EA90C4F3DE}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: StackableItem
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Cards.Controllers.StackableItemController,Neambc.Neamb.Feature.Cards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180501T230628Z

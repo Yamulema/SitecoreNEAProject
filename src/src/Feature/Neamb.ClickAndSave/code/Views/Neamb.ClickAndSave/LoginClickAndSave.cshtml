@@ -1,0 +1,65 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+
+@using Neambc.Neamb.Feature.ClickAndSave
+@model Neambc.Neamb.Feature.ClickAndSave.Model.LoginClickAndSaveDto
+
+<section class="section-normal bg-gray login">
+	<div class="container">
+		<div class="col-md-7 col-centered">
+			<h2 class="header text-center">@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.Headline, Model.Item)</h2>
+			<p class="subhead text-alpha no-margin-auto text-center hidden-xs hidden-sm">
+				@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.Subheadline, Model.Item)
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<form method="post" id="login" accept-charset="UTF-8" role="form">
+							<fieldset>
+								<div class="form-group">
+									<p id="click-save">@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.Logo, Model.Item, new {@class = "img-responsive"})</p>
+
+								</div>
+								<div class="form-group password">
+									<label for="password">@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.Password, Model.Item) </label><i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.Tooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"></i><span class="text-blue showpass pull-right">@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.Show, Model.Item)</span>
+									<input id="password" name="Password" type="password" value="" required="required" data-msg="@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.EmptyPassword, Model.Item, new {@DisableWebEdit = true})" class="form-control"/>
+									<!--to show server errors print show class on server-errors div-->
+									<div data-name="Password" class="server-errors show" id="errorgeneralserver">
+										@if (Model.HasErrorInvalidCredentials)
+										{
+											<span>@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.InvalidCredentials, Model.Item)</span>
+										}
+										else if (Model.HasAlreadyLockedTokenValidError)
+										{
+											<span>@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.AccountAlreadyLockedValidToken, Model.Item)</span>
+										}
+										else if (Model.HasErrorTimeout)
+										{
+											<span>@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.TimeOut, Model.Item)</span>
+										}
+										else if (Model.HasLockedError)
+										{
+											<span>@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.AccountLocked, Model.Item)</span>
+										}
+
+										@if (Model.HasErrorEligible)
+										{
+											<span>@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.NotEligible, Model.Item)</span>
+										}
+									</div>
+								</div>
+								<div class="row actions">
+									<div class="col-xs-12 col-md-4">
+										<input type="submit" value="@Html.Sitecore().Field(Templates.LoginFormClickAndSave.Fields.LoginButton, Model.Item)" class="btn btn-lg btn-blue btn-block"/>
+									</div>
+								</div>
+							</fieldset>
+							<input type="hidden" name="fhController" value="LoginClickAndSaveController" data-abide-ignore/>
+							<input type="hidden" name="fhAction" value="LoginClickAndSave" data-abide-ignore/>
+							<input type="hidden" name="Mdsid" value="@Model.Mdsid" data-abide-ignore/>
+							<input type="hidden" name="UserName" value="@Model.UserName" data-abide-ignore/>
+						</form>
+					</div>
+				</div>
+			</p>
+		</div>
+	</div>
+</section>

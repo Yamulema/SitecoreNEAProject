@@ -1,0 +1,10 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.ProductDetailDTO
+
+<div class="not-eligible-top sticky" id="product_cta_sticky_top">
+	<div class="container">
+		@Html.Sitecore().Field(Templates.ProductCTAs.Fields.Notification, Model.Item)
+	</div>
+</div>

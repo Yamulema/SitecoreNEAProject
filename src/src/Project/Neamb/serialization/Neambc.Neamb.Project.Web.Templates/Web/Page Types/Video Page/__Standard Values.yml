@@ -1,0 +1,88 @@
+﻿---
+ID: "9e2bbcf1-8108-4a86-8482-7c59ffb648dc"
+Parent: "f228472c-8a4d-4d12-8cc2-216138e6a43a"
+Template: "f228472c-8a4d-4d12-8cc2-216138e6a43a"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Video Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{4B621176-5BFD-468C-9D15-B939329AF6DE}" />
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{DFFFDA36-463F-496F-B602-22F867474391}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{CB1E0074-DB54-4CD2-A673-05F509D9B67A}" />
+        <r
+          id="{1D654BA4-98E3-4D5A-A159-6D80607E538B}"
+          ph="body"
+          uid="{EBBC2C1D-220B-4C74-999E-08A4C6BFDB6B}" />
+        <r
+          id="{34E02531-2BAF-4365-80B4-23C208A8E826}"
+          ph="body"
+          uid="{34AB34F3-F1D4-44C3-A72E-667DB43AE0FC}" />
+        <r
+          id="{28A2CF9E-52C9-42BC-86E4-873C266E0095}"
+          ph="body"
+          uid="{031F6F30-10BF-4670-A808-9A05035598A0}" />
+        <r
+          id="{D6F3A5B5-845A-45C3-B266-416A8E043971}"
+          ph="body"
+          uid="{37F15055-01EB-4875-8FD4-BCAC19C3F1A6}" />
+        <r
+          id="{6EE66174-FDE6-4331-BB1D-4D5DC3F6BDB6}"
+          ph="body"
+          uid="{E3A1BAB9-8927-4E6A-B838-21AE996AAAE4}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{0B75EBDE-45FA-40EB-97A9-0D2857BC055C}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{17AFCB9B-E408-44C8-A7B2-490B8BAFE046}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180509T223903Z
+    - ID: "2f7eb403-d984-4f90-8653-6ef1c8a37029"
+      Hint: Match Attribute
+      Value: Goal
+    - ID: "72428a2d-b547-4e83-8b2a-3319b6fe8394"
+      Hint: Genre
+      Value: Video
+    - ID: "8e450537-57d3-437e-903b-d6559cc24fcd"
+      Hint: Type
+      Value: "{A2C87E96-6E26-4DC9-8A46-045B415AB7D1}"
+    - ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+      Hint: Last Publish Date
+      Value: 

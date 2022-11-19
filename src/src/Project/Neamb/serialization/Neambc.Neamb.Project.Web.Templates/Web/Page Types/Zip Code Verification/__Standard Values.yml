@@ -1,0 +1,72 @@
+﻿---
+ID: "f84535e4-0e7c-458c-ad89-b69477d349d8"
+Parent: "241d9459-facc-4cf8-accc-444f8327220e"
+Template: "241d9459-facc-4cf8-accc-444f8327220e"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Zip Code Verification/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{CD3E2966-71C4-40F8-A426-E3358D0E5C78}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{1227AF46-0027-407B-8FD9-51E2A0F64077}" />
+        <r
+          id="{9EF47EA4-7D3C-42D0-8214-0AE5D210C001}"
+          ph="body"
+          uid="{0657A366-4EE8-46C2-83DE-807C04489FBE}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{1907E64A-E404-4FE4-809A-7AF1EF2E1001}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{EE26105B-33EC-428A-B05D-A8E977DA8ABE}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{4D59EC71-1C6D-4EAB-9759-9CA3BC08B136}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c764a84-74cd-4978-9a21-19ceacc23102"
+      Hint: Match Not Found
+      Value: We're sorry. The zip code provided does not match the zip code in our files. We are unable to confirm your membership. If you believe you entered the information incorrectly, please try again.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180704T205458Z
+    - ID: "46694bce-32da-46a6-a94c-761fa1007951"
+      Hint: Empty Field
+      Value: Please insert a valid zip code.
+    - ID: "da918ee6-f81b-489b-b5c6-c3ade12d2f93"
+      Hint: Title
+      Value: Confirm Your Zip Code
+    - ID: "fbddf5d8-6355-4d73-9892-bc2b250df9bb"
+      Hint: Characters Limit
+      Value: You can enter only 5 characters in this field.

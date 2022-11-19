@@ -1,0 +1,389 @@
+﻿---
+ID: "03aebe67-27bc-43a2-90c4-7fa9052f04c4"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU GTL Insurance Plan card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T151612Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" alt="Family roasting marshmallows" height="" width="" hspace="" vspace="" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Group Term Life Insurance Plan</h3>
+        </div>
+        <p>Do you know what life insurance is and how much is enough?</p>
+        <p>Experts suggest 5 to 10 times your annual salary in coverage.4 So even if your employer provides coverage, it may not be adequate.</p>
+        <ul>
+            <li>Affordable, group-discounted rates</li>
+            <li>Flexible coverage levels from $25,000 to $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T154444Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" alt="Family roasting marshmallows" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210119T154444Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Group Term Life Insurance Plan</h3>
+        </div>
+        <p>Do you know what life insurance is and how much is enough?</p>
+        <p>Experts suggest 5 to 10 times your annual salary in coverage.4 So even if your employer provides coverage, it may not be adequate.</p>
+        <ul>
+            <li>Affordable, group-discounted rates</li>
+            <li>Flexible coverage levels from $25,000 to $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T231201Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" alt="Family roasting marshmallows" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T231201Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Group Term Life Insurance Plan</h3>
+        </div>
+        <p>Do you know what life insurance is and how much is enough?</p>
+        <p>Experts usually suggest 5 to 10 times your annual salary in coverage.<sup>1</sup> So even if your employer provides coverage, it may not be adequate.</p>
+        <ul>
+            <li>Affordable, group-discounted rates</li>
+            <li>Flexible coverage levels from $25,000 to $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210219T212151Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" alt="Family roasting marshmallows" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210219T212151Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Group Term Life Insurance Plan</h3>
+        </div>
+        <p>Do you know what life insurance is and how much is enough?</p>
+        <p>Experts often recommend having 5 to 10 times your income in
+        life insurance.<sup>1</sup> So even if your employer provides coverage, it may not be adequate.</p>
+        <ul>
+            <li>Affordable, group-discounted rates</li>
+            <li>Flexible coverage levels from $25,000 to $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T195956Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" alt="Family roasting marshmallows" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T195956Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Group Term Life Insurance Plan</h3>
+        </div>
+        <p>Do you know what life insurance is and how much is enough?</p>
+        <p>Experts often recommend having 5 to 10 times your income in
+        life insurance.<sup>1</sup> So even if your employer provides coverage, it may not be adequate.</p>
+        <ul>
+            <li>Affordable, group-discounted rates</li>
+            <li>Flexible coverage levels from $25,000 to $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T195919Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{A2C624E0-587F-482B-B1F4-4E205BBDEFC8}" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro de vida a t&eacute;rmino grupal SEIU</h3>
+        </div>
+        <p>&iquest;Sabe qu&eacute; es el seguro de vida y cu&aacute;nto es suficiente?</p>
+        <p>Los expertos suelen recomendar tener un seguro de vida que sea de 5 a 10 veces superior a sus ingresos.1De modo que, incluso si su empleador le proporciona cobertura, es posible que no sea adecuada.</p>
+        <ul>
+            <li>Tarifas accesibles con descuentos grupales</li>
+            <li>Niveles flexibles de cobertura desde $25,000 hasta $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T201928Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" />
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T201928Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro de vida a t&eacute;rmino grupal SEIU</h3>
+        </div>
+        <p>&iquest;Sabe qu&eacute; es el seguro de vida y cu&aacute;nto es suficiente?</p>
+        <p>Los expertos suelen recomendar tener un seguro de vida que sea de 5 a 10 veces superior a sus ingresos.1De modo que, incluso si su empleador le proporciona cobertura, es posible que no sea adecuada.</p>
+        <ul>
+            <li>Tarifas accesibles con descuentos grupales</li>
+            <li>Niveles flexibles de cobertura desde $25,000 hasta $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T211708Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T211708Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro de vida a término grupal SEIU</h3>
+        </div>
+        <p>¿Sabe qué es el seguro de vida y cuánto es suficiente?</p>
+        <p>Los expertos suelen recomendar tener un seguro de vida que sea de 5 a 10 veces superior a sus ingresos.1De modo que, incluso si su empleador le proporciona cobertura, es posible que no sea adecuada.</p>
+        <ul>
+            <li>Tarifas accesibles con descuentos grupales</li>
+            <li>Niveles flexibles de cobertura desde $25,000 hasta $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">APRENDE MÁS</a></div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210226T143440Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7E6480F8-EA4A-4F46-93E2-F379D6756D2E}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210226T143440Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro de vida a t&eacute;rmino grupal SEIU</h3>
+        </div>
+        <p>&iquest;Sabe qu&eacute; es el seguro de vida y cu&aacute;nto es suficiente?</p>
+        <p>Los expertos suelen recomendar tener un seguro de vida que sea de 5 a 10 veces superior a sus ingresos.<sup>1</sup> De modo que, incluso si su empleador le proporciona cobertura, es posible que no sea adecuada.</p>
+        <ul>
+            <li>Tarifas accesibles con descuentos grupales</li>
+            <li>Niveles flexibles de cobertura desde $25,000 hasta $300,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>

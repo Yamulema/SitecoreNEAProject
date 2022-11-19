@@ -1,0 +1,22 @@
+﻿---
+ID: "acb062dc-c10c-439b-9af3-4b40bc2dbaa3"
+Parent: "d49fb8de-58fd-4151-a709-2cbef2105060"
+Template: "d49fb8de-58fd-4151-a709-2cbef2105060"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Templates/_Searchable/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0439693c-6525-4c91-89bb-84606637fff7"
+      Hint: Include in search results
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180503T185842Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

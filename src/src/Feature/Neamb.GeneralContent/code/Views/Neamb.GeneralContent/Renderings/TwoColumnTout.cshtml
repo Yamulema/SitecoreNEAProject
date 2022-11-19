@@ -1,0 +1,13 @@
+﻿@model Neambc.Neamb.Feature.GeneralContent.Models.TwoColumnTout
+
+@if (Model.HasDatasource)
+{
+    if (Model.AlignmentRight)
+    {
+        @Html.Partial("~/Views/Neamb.GeneralContent/Renderings/TwoColumnRightTout.cshtml", Model)
+    }
+    else
+    {
+        @Html.Partial("~/Views/Neamb.GeneralContent/Renderings/TwoColumnLeftTout.cshtml", Model)
+    }
+}

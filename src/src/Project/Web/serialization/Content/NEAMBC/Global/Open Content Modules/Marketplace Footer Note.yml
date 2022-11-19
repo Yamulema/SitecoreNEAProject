@@ -1,0 +1,44 @@
+﻿---
+ID: "e2898638-b0e7-4446-bc94-a8f64a031545"
+Parent: "485e4456-f411-4af3-82d3-afbcd7e61832"
+Template: "96deaf46-f1f2-44fe-baaa-3f424d0a164f"
+Path: /sitecore/content/NEAMBC/Global/Open Content Modules/Marketplace Footer Note
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T170159Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding:20px;" >* To qualify for a Welcome Bonus, you must be a new Rakuten member and place qualifying orders totaling a minimum of $25 within 90 days of becoming a new member.</p>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210105T021355Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="margin:20px;" >* Para cumplir con los requisitos y acceder a una bonificación de bienvenida, debe ser un miembro nuevo de Rakuten y realizar pedidos calificados por un total mínimo de $25 dentro de 90 días después de registrarse por primera vez.</p>

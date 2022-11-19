@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="CarouselC014Page" urlpath="/UITest/life-insurance">
+      <sections>
+        <section name="Component">
+        </section>
+        <section name="items">
+          <controls>
+            <control key="Topic_item_tax" xpath="//a[@href='/life-insurance-protection/six-myths-about-life-insurance']"/>
+          </controls>
+        </section>
+        <section name="item_tax_prep">
+          <controls>
+            <control key="Topic_tax_prep" xpath="//a[@href='/family-and-wellness/answering-your-questions-about-life-insurance']"/>
+          </controls>
+        </section>
+        <section name="seemore">
+          <controls>
+            <control key="Topic_seemore" xpath="//a[@class='more-items']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

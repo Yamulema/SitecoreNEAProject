@@ -1,0 +1,63 @@
+﻿---
+ID: "80d00f22-f31f-4ff5-8f04-3782afd14d1c"
+Parent: "43344ec6-a203-4289-8a12-4d8fcf397d59"
+Template: "b136d132-50e9-43d2-acc8-83576d5eb51b"
+Path: /sitecore/content/NEAMBC/Home/Landing Pages/SEIU Member Benefits Member Video
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T011207Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "7eaef1c7-c4d4-4c7f-b53e-eaeaee47dd3e"
+      Hint: DefaultContent
+      Value: |
+        <div style="text-align: center;">
+        <p style="color: rgb(79, 46, 132); font-family: verdana, geneva, sans-serif; font-size: 24px;">SEIU Member Benefits</p>
+        
+        <p style="font-size: 18px;"><em>“I love this program… Thank you SEIU.”</em></p>
+        <script src="//content.jwplatform.com/players/x7vEbrAp-XDr5hdIt.js"></script>
+        
+        <p>&nbsp;</p>
+        </div>
+        
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Member Benefits Member Video
+- Language: "es-ES"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: SEIU Member Benefits Quarterly Newsletter
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T233711Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "7eaef1c7-c4d4-4c7f-b53e-eaeaee47dd3e"
+      Hint: DefaultContent
+      Value: |
+        <div style="text-align: center;">
+        <p style="color: rgb(79, 46, 132); font-family: verdana, geneva, sans-serif; font-size: 24px;">SEIU Member Benefits</p>
+        
+        <p style="font-size: 18px;"><em>“I love this program… Thank you SEIU.”</em></p>
+        <script src="//content.jwplatform.com/players/x7vEbrAp-XDr5hdIt.js"></script>
+        
+        <p>&nbsp;</p>
+        </div>
+        
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Member Benefits Member Video

@@ -1,0 +1,128 @@
+﻿---
+ID: "5bbd3d66-adca-487d-b2a7-df30c5b3b73c"
+Parent: "ee80d227-3517-4170-913e-ff48a15d3efa"
+Template: "b0935825-a5f5-4914-b15d-68733c056563"
+Path: /sitecore/content/NEAMBC/Home/UITest/UIHome
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-100"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{68C6BE7A-DE6C-42D5-A06C-79A44C52824A}"
+              s:ds="{CC8DB53E-D6F2-4E68-B1A6-FB9C5CEE6FA5}"
+              s:par="">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{71AA945D-8897-49A6-A1D8-2503ABF153B0}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="C559B38D9DE744B2B6FE9FC426177E21"
+                        s:id="{F49A451D-9FFC-4FD9-BF8B-DAE4336B69ED}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{73E18A0C-3B07-4F16-BC65-4880091F5ADF}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="1508AF332CD14067965A91D09A7CC096"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{265DFA77-38D8-4607-A6D9-2FF984A4F595}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{B9E5C7D2-BC1A-48F6-BFB9-7A3913F57B81}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="9454F0ABA7964B86BE68B5EC25654E7F"
+                        s:id="{F49A451D-9FFC-4FD9-BF8B-DAE4336B69ED}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{89DCF03C-0ED9-4979-A094-09701D551BC3}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="BEE208286FB24FA79ABEECEA533505FE"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{E0630D1E-BDD7-47F3-BD46-4F76E6A4B9AD}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{0B5ED614-C4EF-415E-8B12-2171AE559DB8}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="E65E4B0415CE4AC880E211B02A73A15F"
+                        s:id="{F49A451D-9FFC-4FD9-BF8B-DAE4336B69ED}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{19F193D4-4D15-42C6-8393-5BCFF9811AD2}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="4C033B4795E44EB7BBB8AA3329BC101B"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{6DB67A2C-5F19-4DD7-80C8-58D6AAAB1D76}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{89F55704-B6F9-41EE-9140-C69EB02B77FB}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="3845534C43C243AFA489EABCE255FE48"
+                        s:id="{F49A451D-9FFC-4FD9-BF8B-DAE4336B69ED}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{F7C9BF81-EA30-48D9-BA78-0803E4C069FF}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="0FC5644C5F4B48189A4239D6F9532E05"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{93DF8490-9CF8-4A1D-AFD0-253A71056045}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="5340F54AC03F4B4498BDA3AC61D99F63"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210623T154950Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mmonge
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: UIHome
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: UIHome

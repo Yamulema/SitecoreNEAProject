@@ -1,0 +1,74 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.SweepstakesDTO
+
+@{
+    var classname = Model.SweepstakesBase.HasErrors ? "show" : "";
+    string classNameSecond = Model.SweepstakesBase.IsPositionRight ? "col-md-6 col-md-pull-6" : "col-md-6";
+    var classmainname = Model.HasClassEligibility ? "section-cta top-bar c-34" : "section-cta";
+    var errorSweepstake = String.Format("error{0}", Model.SweepstakesBase.ComponentId);
+}
+<section id="@errorSweepstake" class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.LandingPageCta.Fields.Error, Model.SweepstakesBase.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+<section class="@classmainname">
+    @if (Model.HasCheckEligibility && !Model.HasEligibility && Model.SweepstakesBase.IsAuthenticated)
+    {
+        <div class="not-eligible-top sticky">
+            <div class="container">
+                @Html.Sitecore().Field(Templates.LandingPageCta.Fields.NotEligible, Model.SweepstakesBase.Item)
+            </div>
+        </div>
+    }
+    <div class="container">
+        @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesImageVideo.cshtml", Model.SweepstakesBase)
+        <div class="@classNameSecond">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-11">
+                    <p class="eye-brow">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.Eyebrow, Model.SweepstakesBase.Item)</p>
+                    <h1 class="title">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.Name, Model.SweepstakesBase.Item)</h1>
+                    <h3 class="subtitle text-light">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.Subhead, Model.SweepstakesBase.Item)</h3>
+                    @if (Model.SweepstakesBase.Reminder.Enabled)
+                    {
+                        @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesComingSoon.cshtml", Model.SweepstakesBase.Reminder)
+                    }
+                    else
+                    {
+                        if (!Model.HasCheckEligibility || (Model.HasCheckEligibility && Model.HasEligibility && Model.SweepstakesBase.IsAuthenticated))
+                        {
+                            @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesAction.cshtml", Model)
+                        }
+                        else
+                        {
+                            @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesCold.cshtml", Model.SweepstakesBase)
+                        }
+                    }
+                </div>
+                @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesShare.cshtml", Model.SweepstakesBase)
+
+            </div>
+        </div>
+        @if (Model.SweepstakesBase.HasTermsAndConditions)
+        {
+            @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesTermsCondition.cshtml", Model.SweepstakesBase)
+        }
+    </div>
+</section>
+
+
+@Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesThankYou.cshtml", Model.SweepstakesBase)
+
+@if (Model.SweepstakesBase.IsProcessedSuccessfully)
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sweepstakesModal').modal('show');
+        })
+    </script>
+
+}

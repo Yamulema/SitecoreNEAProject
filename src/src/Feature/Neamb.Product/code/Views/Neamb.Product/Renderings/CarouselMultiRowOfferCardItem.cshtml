@@ -1,0 +1,38 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.CarouselMultiRowOfferDTO
+@{
+    bool isPreviewMode = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    string classImageMain = Model.HasImage ? "with-image" : "";
+}
+
+<section class="c-076 new-design">
+    <div class="container">
+        <div class="carousel-offer-cards slider @classImageMain">
+            @Html.Partial("~/Views/Neamb.Product/Renderings/CarouselMultiRowOfferCardPartial.cshtml", Model)
+        </div>
+
+        <div class="row slider-controls">
+            <div class="col-md-12 col-xs-8 slider-mobile-dots"></div>
+            <div class="col-xs-4 hidden-lg hidden-md slider-mobile-arrows text-right">
+                <button type="button" class="btn custom-arrow slide-prev disabled">
+                    <i class="fa fa-angle-left"></i>
+                </button>
+                <button type="button" class="btn custom-arrow slide-next">
+                    <i class="fa fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    @{ foreach (var carouselItemModel in Model.ItemsCarousel)
+        {
+            if (!carouselItemModel.HasBrokenLink)
+            {
+                @Html.Partial("~/Views/Neamb.Product/Renderings/_MultirowSpecialOfferActions.cshtml", carouselItemModel)
+            }
+        }
+    }
+</section>
+

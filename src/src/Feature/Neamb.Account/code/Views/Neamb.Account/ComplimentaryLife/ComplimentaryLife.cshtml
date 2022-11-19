@@ -1,0 +1,185 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+@using Neambc.Neamb.Foundation.Eligibility.Model
+@using Neambc.Neamb.Foundation.Membership.Enums
+@using Neambc.Neamb.Foundation.Membership.Model
+@model Neambc.Neamb.Feature.Account.Models.ComplimentaryLifeDTO
+@{
+    string tel = String.Format("tel:{0}", Model.PhoneNumber);
+    string mail = String.Format("mailto:{0}", Model.SupportEmail);
+    var isErrorShow = false;
+    var disabled = Model.EditingStatus != EditingStatus.None && ((Model.PayoutTotal > 0 && Model.PayoutTotal < 100) || (Model.PayoutTotal > 100));
+}
+<script>
+    function scrollToErrors_complife() {
+        $(document).ready(function () {
+            $("html, body").animate({
+                scrollTop: $("footer").offset().top - $(window).height()
+            }, 800);
+        })
+    }
+</script>
+@if (Model.ErrorStatus == ErrorStatusEnum.GeneralError)
+{
+    if (!Model.IsWizardStep)
+    {
+        <section class="error-bar">
+            <p>
+                There was an error while trying to save your profile information.
+                <i aria-hidden="true" class="fa fa-times"></i>
+            </p>
+        </section>
+    }
+    <script>
+        document.getElementsByClassName("error-bar")[0].classList.add("show");
+    </script>
+}
+@if (Model.AccountStatus == StatusEnum.Hot || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    if (Model.EligibilityResult == EligibilityResultEnum.Eligible || Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <section id="moreAboutYou" class="section-normal f-005">
+            <div class="container">
+                <div class="col-md-9 col-centered">
+                    @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                    {
+                        <p class="subhead">@Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Header, Model.Item)</p>
+                    }
+                    else
+                    {
+                        <p class="subhead">@Model.Subhead</p>
+                    }
+
+                    <div id="beneficiaries">@Html.Partial("~/Views/Neamb.Account/ComplimentaryLife/_Beneficiaries.cshtml", Model.Beneficiaries)</div>
+                    @if (Model.PayoutTotal > 100 && !isErrorShow)
+                    {
+                        <div class="ben-payout-error show">
+                            @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Payoutleft, Model.Item)
+                            <script>
+                                $("#TotalPercent").html(@Model.PayoutTotal);
+                                scrollToErrors_complife();
+                            </script>
+                        </div>
+                        disabled = true;
+                        isErrorShow = true;
+                    }
+                    else if (Model.PayoutStatus.HasFlag(ErrorStatusEnum.PayoutTotalError) && !isErrorShow)
+                    {
+                        <div class="ben-payout-error show">
+                            @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Payoutleft, Model.Item)
+                            <script>
+                                $("#TotalPercent").html(@Model.PayoutTotal);
+                                scrollToErrors_complife();
+                            </script>
+                        </div>
+                        disabled = true;
+                        isErrorShow = true;
+                    }
+                    else
+                    {
+                        <div>
+                            @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Payoutleft, Model.Item)
+                            <script>
+                                $("#TotalPercent").html(@Model.PayoutTotal);
+                            </script>
+                        </div>
+                    }
+                    <div id="more-about-you">
+                        <section class="new-design form row">
+                            <div class="col-xs-12">
+                                <form id="more-about-you-form" method="post" accept-charset="UTF-8" role="form" @(Model.IsWizardStep ? "style=display:none" : string.Empty)>
+                                    <input type="hidden" name="fhController" value="ComplimentaryLifeController" data-abide-ignore />
+                                    <input type="hidden" name="fhAction" value="ComplimentaryLife" data-abide-ignore />
+
+                                    @if (Model.PayoutTotal == 100 || Model.Beneficiaries.Beneficiaries.Count == 0)
+                                    {
+                                        <input type="hidden" id="percentOK" name="percentOK" value="1" />
+                                    }
+                                    else
+                                    {
+                                        <input type="hidden" id="percentOK" name="percentOK" value="0" />
+                                    }
+                                    <div class="form-section">
+                                        @if (Model.PayoutStatus.HasFlag(ErrorStatusEnum.InvalidValue))
+                                        {
+                                            <div class="floating-messages">
+                                                <div class="floating-error-messages">
+                                                    <div class="error">@Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.PayoutZeroed, Model.Item)</div>
+                                                </div>
+                                            </div>
+                                        }
+                                        <div class="m-t-md @(disabled ? "wrapper-cursor-disabled" : "")">
+                                            <button type="submit" onclick="@Model.GtmAction" class="btn btn-new btn-outline-default @(disabled ? "disabled" : "") submit_comp_life">
+                                                @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Save, Model.Item, new
+                                                {
+                                                    @DisableWebEdit = true
+                                                }) <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+    else
+    {
+        <section class="section-normal">
+            <div class="container">
+                <div class="row">
+                    @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.EligibilityDetails, Model.Item)
+                    <ul class="stacked-icons">
+                        <li class="custom-chat">@Html.Sitecore().Placeholder("chat-body")<span class="text">Chat Now</span></li>
+                        <li><a href="@tel"><img src="/assets/neamb/images/phone-icon.png" alt=""><span class="text text-black">@Model.PhoneNumber</span></a></li>
+                        <li><a href="@mail"><img src="/assets/neamb/images/envelop-icon.png" alt=""><span class="text">@Model.SupportEmail</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    }
+}
+else
+{
+    <section class="section-normal">
+        <div class="container">
+            <div class="row">
+                @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.AnonymousUser, Model.Item)
+            </div>
+        </div>
+    </section>
+}
+
+@if (Model.WasSaved && Model.ErrorStatus == ErrorStatusEnum.None)
+{
+    if (Model.IsWizardStep)
+    {
+        <script>
+            $(document).ready(function () {
+                $('#Wizard').modal('show');
+            })
+        </script>
+    }
+    else
+    {
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#profileModal').modal('show');
+            })
+        </script>
+        <div id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel" class="modal fade modalForms">
+            <div role="document" class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Success, Model.Item)
+                </div>
+            </div>
+        </div>
+    }
+}
+

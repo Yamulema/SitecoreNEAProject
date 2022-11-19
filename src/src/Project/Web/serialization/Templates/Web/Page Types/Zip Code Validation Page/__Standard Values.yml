@@ -1,0 +1,169 @@
+﻿---
+ID: "c68ad38e-d543-4c1e-a044-ab6a8e6f41e2"
+Parent: "eec948c7-dfec-4341-9d81-d3ce8cf6f3c4"
+Template: "eec948c7-dfec-4341-9d81-d3ce8cf6f3c4"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Zip Code Validation Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{0F884590-0AE3-4DEF-8A10-A58A4B16A82C}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{42BD96E4-C7DB-4163-A7D0-0BAB0B4B8FE6}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{574DC2A9-BD68-49EC-ABB9-439D45115C2B}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{0CA24661-B03A-4EC3-A9AF-2AA0DE720ECC}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{0D4B1974-1353-41B9-AF0D-D0122311E9C8}" />
+        <r
+          id="{7756EBEC-7035-4D0E-96FD-695D56B7CAD7}"
+          ph="registration-banner"
+          uid="{FEA4E6A5-5F5A-4F13-9056-A7893B26899B}" />
+        <r
+          id="{E24CEF96-B392-4A15-B821-20E96532EA44}"
+          ph="body"
+          uid="{60B293F1-4854-4B31-A21E-0AA51D25C1B5}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{96803DDD-A513-40DD-A3FE-4FE4A35A5A57}" />
+        <r
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{BC44BCD7-C4E7-41C5-8EBC-33C4A8726E5E}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BC44BCD7-C4E7-41C5-8EBC-33C4A8726E5E}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="2A84D5AEB1AF466C9DD37EA55E8B7312"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171220T233908Z
+    - ID: "2cf5a467-5e5f-4085-ab2f-4eb8285ae2ab"
+      Hint: Salutation
+      Value: Welcome
+    - ID: "50b7e8bb-4026-4a37-8769-16c11d324de4"
+      Hint: Next
+      Value: Next
+    - ID: "68ef14f7-7717-4c7e-8b3d-f1b2aa2a34a8"
+      Hint: Instructions
+      Value: "Let's get started by confirming your Zip Code:"
+    - ID: "69783ee5-4275-4a92-bf07-72a68f2846e6"
+      Hint: Title
+      Value: Confirm Your ZIP code
+    - ID: "a3fbe235-2001-4d35-aeee-4aa7196395d4"
+      Hint: RegistrationLink
+      Value: |
+        <link text="Register with your SEIU information here" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "ab8bb49e-43e8-4187-9cf6-55a64732a290"
+      Hint: MatchError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">We're sorry. The zip code provided does not match the zip code in our files. We are unable to confirm your membership. If you believe you entered the information incorrectly, please try again.</span>
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{140DBF50-F053-4706-93FB-DEBFBF7E8892}" />
+    - ID: "dcdf5906-0475-4526-bd81-bd05cf5dd7f8"
+      Hint: NotYou
+      Value: Not
+    - ID: "de143051-b3e3-4d92-ae2d-ecc26d8ad8fa"
+      Hint: ZipError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">Please insert a valid zip code</span>
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: zip code validation
+    - ID: "f65084a1-da4d-4881-a065-90bdb1284869"
+      Hint: AttemptMessage
+      Value: Attempt(s).
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T205257Z
+    - ID: "2cf5a467-5e5f-4085-ab2f-4eb8285ae2ab"
+      Hint: Salutation
+      Value: Bienvenido(a)
+    - ID: "50b7e8bb-4026-4a37-8769-16c11d324de4"
+      Hint: Next
+      Value: Siguiente
+    - ID: "68ef14f7-7717-4c7e-8b3d-f1b2aa2a34a8"
+      Hint: Instructions
+      Value: "Comencemos por confirmar su código postal:"
+    - ID: "69783ee5-4275-4a92-bf07-72a68f2846e6"
+      Hint: Title
+      Value: Confirme su código postal
+    - ID: "a3fbe235-2001-4d35-aeee-4aa7196395d4"
+      Hint: RegistrationLink
+      Value: |
+        <link text="Regístrese aquí con su información de SEIU" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "ab8bb49e-43e8-4187-9cf6-55a64732a290"
+      Hint: MatchError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">Lo sentimos. El código postal ingresado no coincide con el que tenemos en nuestros archivos. No podemos confirmar su membresía. Si usted considera que que ha ingresado la información correctamente, por favor intente de nuevo.</span>
+    - ID: "dcdf5906-0475-4526-bd81-bd05cf5dd7f8"
+      Hint: NotYou
+      Value: ¿No Es
+    - ID: "de143051-b3e3-4d92-ae2d-ecc26d8ad8fa"
+      Hint: ZipError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">Por favor ingrese un código postal válido<span/>
+    - ID: "f65084a1-da4d-4881-a065-90bdb1284869"
+      Hint: AttemptMessage
+      Value: Intento(s)

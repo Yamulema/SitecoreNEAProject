@@ -1,0 +1,698 @@
+﻿---
+ID: "5f83fd0c-3479-49f3-af0b-d9cfc99ae141"
+Parent: "5fcc69a9-3c7f-45ad-bf12-56869e80b711"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Insurance/SEIU Auto and Home Insurance
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 438
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0EDA3C53-E3E1-423E-8F38-957DDB77C100}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{76924316-B62E-4B69-95FE-4C5622A7FFE9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{47A98791-FBCF-4B69-9185-4114BD2358C2}"
+              p:after="r[@uid='{0EDA3C53-E3E1-423E-8F38-957DDB77C100}']"
+              s:ds="{EB3D1A49-5AFA-4FAE-B784-FAA6B43065C4}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{147899D4-42F6-499E-BB94-CEDB52701258}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Protect your home and vehicles at competitive rates from top carriers! There’s nothing more important than making sure your most costly assets—your home and vehicles—are protected in case of an accident or other losses. The new SEIU Auto and Home Insurance Program, offered in partnership with MyLifeProtected, is designed to provide SEIU members and their families choices when it comes to insuring their homes and vehicles."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{59EF2B63-BF98-467E-9107-8641A3EB7287}" alt="SEIU member benefits in partnership with Liberty Mutual Insurance" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180404T181424Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>1. Members must apply through the MyLifeProtected online portal or by calling to receive the group preferred rate.</p>
+        <p>2. Based on state approvals for select insurance companies.</p>
+        <p>MyLifeProtected is a service of MassDrive Insurance Group, LLC, the licensed agent for all products.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Call 1-855-298-0607 or click “Search Now” to visit MyLifeProtected and live chat with a licensed agent."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Auto and Home Insurance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Protect your home and vehicles at competitive rates from top carriers!</strong></p>
+        <p>There&rsquo;s nothing more important than making sure your most costly assets&mdash;your home and vehicles&mdash;are protected in case of an accident or other loss. The new <strong>SEIU Auto and Home Insurance Program</strong>, offered in partnership with MyLifeProtected, is designed to provide SEIU members and their families choices when it comes to insuring their homes and vehicles.</p>
+        <p>MyLifeProtected is a nationally licensed insurance agency that works with many top-rated national and regional insurance providers, like Liberty Mutual Insurance, to offer customized insurance quotes and coverage based on an SEIU member&rsquo;s specific needs. Key features of the program include:</p>
+        <ul>
+            <li>Fast, easy online application through the MyLifeProtected portal.<sup>1</sup></li>
+            <li>Special preferred rates.<sup>2</sup></li>
+            <li>Receive multiple, no obligation insurance quotes.</li>
+            <li>Enjoy personal service from a MyLifeProtected insurance agent.</li>
+            <li>Several insurance providers to choose from. While Liberty Mutual Insurance is the lead carrier offering preferred rates for SEIU Members, a MyLifeProtected&nbsp;agent will match you with the insurance company that best meets your particular situation and needs.</li>
+            <li>The following insurance coverages are offered: automobile, homeowners, renters, condominium, motorcycle, RV, ATV, trailer, and personal liability coverage.</li>
+            <li>Insurance for new drivers and those with accidents or tickets.</li>
+        </ul>
+        <p>Get peace of mind from knowing you have the best coverage available for your home and vehicles.</p>
+        <p>Register or Sign In above and then click the &ldquo;Search Now&rdquo; button to get started running your free, no obligation insurance quotes.</p>
+        <p>Have questions? We&rsquo;re here to help. See our <a href="~/link.aspx?_id=017BB1FA13044B4BAFA0CB580D8EED10&amp;_z=z">Frequently Asked Questions</a> or contact a MyLifeProtected agent now.&nbsp;Just sign in and call the toll free number to speak with a dedicated agent.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Search Now" linktype="external" url="https://enroll.mylifeprotected.com/userData?MDRefCode=seiu-mlp-web" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Protect your home and vehicles at competitive rates from top carriers.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEARCH NOW FOR AFFORDABLE, PREFERRED RATES
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: MyLifeProtected is a service of MassDrive Insurance Group, LLC, the licensed agent for all products.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0EDA3C53-E3E1-423E-8F38-957DDB77C100}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{76924316-B62E-4B69-95FE-4C5622A7FFE9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{47A98791-FBCF-4B69-9185-4114BD2358C2}"
+              p:after="r[@uid='{0EDA3C53-E3E1-423E-8F38-957DDB77C100}']"
+              s:ds="{EB3D1A49-5AFA-4FAE-B784-FAA6B43065C4}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{147899D4-42F6-499E-BB94-CEDB52701258}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Protect your home and vehicles at competitive rates from top carriers! There’s nothing more important than making sure your most costly assets—your home and vehicles—are protected in case of an accident or other losses. The new SEIU Auto and Home Insurance Program, offered in partnership with MyLifeProtected, is designed to provide SEIU members and their families choices when it comes to insuring their homes and vehicles."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{59EF2B63-BF98-467E-9107-8641A3EB7287}" alt="SEIU member benefits in partnership with Liberty Mutual Insurance" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210310T135231Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>1. Members must apply through the MyLifeProtected online portal or by calling to receive the group preferred rate.</p>
+        <p>2. Based on state approvals for select insurance companies.</p>
+        <p>SEIU has retained Members United Insurance Agency to manage Insurance Programs for its Members.<br />
+        Members United Insurance Agency is not affiliated with MassDrive Insurance Group or Liberty Mutual Insurance.</p>
+        <p>MyLifeProtected is a service of MassDrive Insurance Group, LLC, the licensed agent for all products.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Call 1-855-298-0607 or click “Search Now” to visit MyLifeProtected and live chat with a licensed agent."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Auto and Home Insurance Program
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Protect your home and vehicles at competitive rates from top carriers!</strong></p>
+        <p>There&rsquo;s nothing more important than making sure your most costly assets&mdash;your home and vehicles&mdash;are protected in case of an accident or other loss. The new <strong>SEIU Auto and Home Insurance Program</strong>, offered in partnership with MyLifeProtected, is designed to provide SEIU members and their families choices when it comes to insuring their homes and vehicles.</p>
+        <p>MyLifeProtected is a nationally licensed insurance agency that works with many top-rated national and regional insurance providers, like Liberty Mutual Insurance, to offer customized insurance quotes and coverage based on an SEIU member&rsquo;s specific needs. Key features of the program include:</p>
+        <ul>
+            <li>Fast, easy online application through the MyLifeProtected portal.<sup>1</sup></li>
+            <li>Special preferred rates.<sup>2</sup></li>
+            <li>Receive multiple, no obligation insurance quotes.</li>
+            <li>Enjoy personal service from a MyLifeProtected insurance agent.</li>
+            <li>Several insurance providers to choose from. While Liberty Mutual Insurance is the lead carrier offering preferred rates for SEIU Members, a MyLifeProtected&nbsp;agent will match you with the insurance company that best meets your particular situation and needs.</li>
+            <li>The following insurance coverages are offered: automobile, homeowners, renters, condominium, motorcycle, RV, ATV, trailer, and personal liability coverage.</li>
+            <li>Insurance for new drivers and those with accidents or tickets.</li>
+        </ul>
+        <p>Get peace of mind from knowing you have the best coverage available for your home and vehicles.</p>
+        <p>Register or Sign In above and then click the &ldquo;Search Now&rdquo; button to get started running your free, no obligation insurance quotes.</p>
+        <p>Have questions? We&rsquo;re here to help. See our <a href="~/link.aspx?_id=017BB1FA13044B4BAFA0CB580D8EED10&amp;_z=z">Frequently Asked Questions</a> or contact a MyLifeProtected agent now.&nbsp;Just sign in and call the toll free number to speak with a dedicated agent.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Search Now" linktype="external" url="https://enroll.mylifeprotected.com/userData?MDRefCode=seiu-mlp-web" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Protect your home and vehicles at competitive rates from top carriers.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEARCH NOW FOR AFFORDABLE, PREFERRED RATES
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: MyLifeProtected is a service of MassDrive Insurance Group, LLC, the licensed agent for all products.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210310T135231Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D74CF57D-E6DC-464E-AE85-44D1F99BEB3B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E70E9EF0-8E7A-4E6A-8748-2DDDC2FE874F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{147899D4-42F6-499E-BB94-CEDB52701258}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Protect your home and vehicles at competitive rates from top carriers! There’s nothing more important than making sure your most costly assets—your home and vehicles—are protected in case of an accident or other losses. The new SEIU Auto and Home Insurance Program, offered in partnership with Travelers, is designed to provide SEIU members and their families choices when it comes to insuring their homes and vehicles."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{61AB850D-BC9A-4AD2-ACD6-FAAF1233FA83}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B23FEA69-1285-43C6-9AAD-B21E7072F92A}" alt="SEIU member benefits in partnership with Travelers" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T142640Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>*Average savings is based on new auto policyholders countrywide who reported savings to Travelers through the Affinity marketing channel in 2019. Individual savings may vary. Savings not guaranteed.</p>
+        <br />
+        <p>Insurance is underwritten by The Travelers Indemnity Company or one of its property casualty affiliates, One Tower Square, Hartford, CT 06183. In CA: Insurance is underwritten by Travelers Commercial Insurance Company, One Tower Square, Hartford, CT 06183, Certificate of Authority #6519, or Travelers Property Casualty Insurance Company, One Tower Square, Hartford, CT 06183, Certificate of Authority #6521. In CA: Boat insurance is underwritten by The Standard Fire Insurance Company, One Tower Square, Hartford, CT 06183, Certificate of Authority #3545, State of Domicile: Connecticut. In TX: Auto insurance is offered by Travelers Texas MGA, Inc. and underwritten by Consumers County Mutual Insurance Company (CCM). CCM is not a Travelers company. Coverages, discounts, special program rates or savings, billing options, and other features are subject to availability and individual eligibility. Not all features available in all areas. In FL: Homeowners insurance is not currently offered for new business.</p>
+        <br />
+        <p>&copy; 2021 The Travelers Indemnity Company. All rights reserved. Travelers and the Travelers Umbrella logo are registered trademarks of The Travelers Indemnity Company in the U.S. and other countries.</p>
+        <br />
+        <p>SEIU has retained Members United Insurance Agency to manage Insurance Programs for its Members. Members United Insurance Agency is not affiliated with Travelers.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Call 1-866-903-5052 to speak with a licensed insurance representative"
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Auto and Home Insurance Program
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{FBD1D2AD-A490-41C2-B874-B50B07A1F842}"
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{FBD1D2AD-A490-41C2-B874-B50B07A1F842}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Get Great Coverage with a Savings Advantage from Travelers</strong></p>
+        <p>Everyday life brings the unexpected, along with the things you plan for and look forward to. There&rsquo;s no way to know what&rsquo;s ahead, and details and deadlines can keep you up at night.</p>
+        <p>Through our new partnership with Travelers, we can help provide some peace of mind, whether you&rsquo;re at home or on the road, along with a special savings advantage. In fact, drivers who switch to Travelers save an average of <strong>$604*</strong> on auto insurance.</p>
+        <p>Here are a few perks you don&rsquo;t want to pass up:</p>
+        <ul>
+            <li>Special savings on auto, home, condo and renters insurance</li>
+            <li>Money-saving discounts, like multi-policy and a safe driving history</li>
+            <li>Coverage options and packages to help meet your individual needs</li>
+            <li>Free, no-obligation quotes from licensed insurance representatives or online</li>
+            <li>24/7 claim reporting and customer service</li>
+        </ul>
+        <p>Learn more about the program by reviewing our <a href="~/link.aspx?_id=017BB1FA13044B4BAFA0CB580D8EED10&amp;_z=z">Frequently Asked Questions</a>.</p>
+        <p>It&rsquo;s quick and easy to see if you can get great coverage at a better rate with the SEIU Auto and Home Insurance Program from Travelers. You don&rsquo;t have to wait until your current policy is up for renewal to request a quote and switch.</p>
+        <p>Call a Travelers licensed insurance representative at <strong>1-866-903-5052</strong> or get an online quote with your SEIU member discount today.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{61AB850D-BC9A-4AD2-ACD6-FAAF1233FA83}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="START QUOTE" linktype="external" url="https://www.travelers.com/affinity/sponsor/seiuwebdigital" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get an SEIU member discount on auto, home, condo and renters insurance from Travelers.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "AVERAGE AUTO SAVINGS WITH TRAVELERS: <strong>$604*</strong>"
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T142640Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{AC313E42-F03B-48EF-AE9A-C6C04705CF8D}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{76924316-B62E-4B69-95FE-4C5622A7FFE9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{B980EAFE-2334-425A-8A69-25B4EAC9648B}"
+              p:after="r[@uid='{AC313E42-F03B-48EF-AE9A-C6C04705CF8D}']"
+              s:ds="{EB3D1A49-5AFA-4FAE-B784-FAA6B43065C4}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¡Proteja su hogar y vehículos a precios competitivos de las mejores compañías!
+        No hay nada más importante que asegurarse que sus activos más costosos, su hogar y sus vehículos, estén protegidos en caso de accidente u otras pérdidas. El nuevo Programa de seguros para automóviles y viviendas de SEIU, que se ofrece en conjunto con MyLifeProtected, está diseñado para brindar a los miembros de SEIU y sus familias la opción de asegurar sus hogares y vehículos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{068126E3-49EB-4A45-9544-3A445D4F2329}" alt="SEIU Member Benefits en asociación con Liberty Mutual Insurance" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180404T184404Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACIÓN IMPORTANTE</strong></p>
+        <p>1. Los miembros deben presentar su solicitud a través del portal en línea MyLifeProtected o llamando para recibir la tarifa preferida del grupo.</p>
+        <p>2. Basado en aprobaciones estatales para compañías de seguros seleccionadas.</p>
+        <p>MyLifeProtected es un servicio de MassDrive Insurance Group, LLC, el agente autorizado para todos los productos.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Llame al 1-855-298-0607 o haga clic en &ldquo;Buscar ahora&rdquo; para visitar MyLifeProtected y chatear en vivo con un agente autorizado."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa de seguros para autom&oacute;viles y viviendas de SEIU℠
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>&iexcl;Proteja su hogar y veh&iacute;culos a precios competitivos de las mejores compa&ntilde;&iacute;as!</strong></p>
+        <p>No hay nada m&aacute;s importante que asegurarse que sus activos m&aacute;s costosos, su hogar y sus veh&iacute;culos, est&eacute;n protegidos en caso de accidente u otras p&eacute;rdida. El nuevo <strong>Programa de seguros para autom&oacute;viles y viviendas de SEIU</strong>, que se ofrece en conjunto con MyLifeProtected, est&aacute; dise&ntilde;ado para brindar a los miembros de SEIU y sus familias la opci&oacute;n de asegurar sus hogares y veh&iacute;culos.</p>
+        <p>MyLifeProtected es una agencia de seguros con licencia nacional que trabaja con los mejores proveedores de seguros nacionales y regionales, como el seguro de Liberty Mutual, para ofrecer cotizaciones de seguros y coberturas personalizadas en funci&oacute;n de las necesidades espec&iacute;ficas de un miembro de SEIU. Las caracter&iacute;sticas clave del programa incluyen:</p>
+        <ul>
+            <li>Aplicaci&oacute;n en l&iacute;nea r&aacute;pida y sencilla a trav&eacute;s del portal MyLifeProtected.<sup>1</sup></li>
+            <li>Tarifas especiales preferidas.<sup>2</sup></li>
+            <li>Reciba m&uacute;ltiples cotizaciones de seguros sin ninguna obligaci&oacute;n.</li>
+            <li>Disfrute del servicio personal de un agente de seguros de MyLifeProtected.</li>
+            <li>Puede elegir entre varios proveedores de seguros. Si bien el seguro de Liberty Mutual es la principal compa&ntilde;&iacute;a que ofrece precios preferenciales para los miembros de SEIU, un agente de MyLifeProtected lo vincular&aacute; con la compa&ntilde;&iacute;a de seguros que mejor se adapte a su situaci&oacute;n y necesidades particulares.</li>
+            <li>Se ofrecen las siguientes coberturas de seguros para: autom&oacute;vil, propietarios, inquilinos, condominios, motocicleta, RV, ATV, remolques y cobertura de responsabilidad personal.</li>
+            <li>Seguro para conductores nuevos y aquellos con accidentes o multas.</li>
+        </ul>
+        <p>Garantice la tranquilidad de saber que tiene la mejor cobertura disponible para su hogar y sus veh&iacute;culos.</p>
+        <p>Reg&iacute;strese o inicie sesi&oacute;n arriba y luego haga clic en el bot&oacute;n "Buscar ahora" para comenzar a utilizar sus cotizaciones de seguros gratuitas y sin compromiso.</p>
+        <p>&iquest;Tiene preguntas? Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=017BB1FA13044B4BAFA0CB580D8EED10&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese con un agente de MyLifeProtected ahora. Simplemente inicie sesi&oacute;n y llame al n&uacute;mero gratuito para hablar con un agente exclusivo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Buscar Ahora" linktype="external" url="https://enroll.mylifeprotected.com/userData?MDRefCode=seiu-mlp-web" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Proteja su hogar y vehículos a precios competitivos de las mejores compañías.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: |
+        BUSCAR PRECIOS ASEQUIBLES Y CON DESCUENTOS PARA GRUPOS AHORA 
+        
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{AC313E42-F03B-48EF-AE9A-C6C04705CF8D}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{76924316-B62E-4B69-95FE-4C5622A7FFE9}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{B980EAFE-2334-425A-8A69-25B4EAC9648B}"
+              p:after="r[@uid='{AC313E42-F03B-48EF-AE9A-C6C04705CF8D}']"
+              s:ds="{EB3D1A49-5AFA-4FAE-B784-FAA6B43065C4}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¡Proteja su hogar y vehículos a precios competitivos de las mejores compañías!
+        No hay nada más importante que asegurarse que sus activos más costosos, su hogar y sus vehículos, estén protegidos en caso de accidente u otras pérdidas. El nuevo Programa de seguros para automóviles y viviendas de SEIU, que se ofrece en conjunto con MyLifeProtected, está diseñado para brindar a los miembros de SEIU y sus familias la opción de asegurar sus hogares y vehículos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{068126E3-49EB-4A45-9544-3A445D4F2329}" alt="SEIU Member Benefits en asociación con Liberty Mutual Insurance" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210310T135419Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>1. Los miembros deben presentar su solicitud a trav&eacute;s del portal en l&iacute;nea MyLifeProtected o llamando para recibir la tarifa preferida del grupo.</p>
+        <p>2. Basado en aprobaciones estatales para compa&ntilde;&iacute;as de seguros seleccionadas.</p>
+        <p>SEIU ha contratado a la aseguradora Members United Insurance Agency para administrar los Programas de Seguros de sus Miembros.<br />
+        La aseguradora Members United Insurance Agency no est&aacute; afiliada de ninguna manera con MassDrive Insurance Group ni con Liberty Mutual Insurance.
+        </p>
+        <p>MyLifeProtected es un servicio de MassDrive Insurance Group, LLC, el agente autorizado para todos los productos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Llame al 1-855-298-0607 o haga clic en &ldquo;Buscar ahora&rdquo; para visitar MyLifeProtected y chatear en vivo con un agente autorizado."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa de seguros para autom&oacute;viles y viviendas de SEIU℠
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>&iexcl;Proteja su hogar y veh&iacute;culos a precios competitivos de las mejores compa&ntilde;&iacute;as!</strong></p>
+        <p>No hay nada m&aacute;s importante que asegurarse que sus activos m&aacute;s costosos, su hogar y sus veh&iacute;culos, est&eacute;n protegidos en caso de accidente u otras p&eacute;rdida. El nuevo <strong>Programa de seguros para autom&oacute;viles y viviendas de SEIU</strong>, que se ofrece en conjunto con MyLifeProtected, est&aacute; dise&ntilde;ado para brindar a los miembros de SEIU y sus familias la opci&oacute;n de asegurar sus hogares y veh&iacute;culos.</p>
+        <p>MyLifeProtected es una agencia de seguros con licencia nacional que trabaja con los mejores proveedores de seguros nacionales y regionales, como el seguro de Liberty Mutual, para ofrecer cotizaciones de seguros y coberturas personalizadas en funci&oacute;n de las necesidades espec&iacute;ficas de un miembro de SEIU. Las caracter&iacute;sticas clave del programa incluyen:</p>
+        <ul>
+            <li>Aplicaci&oacute;n en l&iacute;nea r&aacute;pida y sencilla a trav&eacute;s del portal MyLifeProtected.<sup>1</sup></li>
+            <li>Tarifas especiales preferidas.<sup>2</sup></li>
+            <li>Reciba m&uacute;ltiples cotizaciones de seguros sin ninguna obligaci&oacute;n.</li>
+            <li>Disfrute del servicio personal de un agente de seguros de MyLifeProtected.</li>
+            <li>Puede elegir entre varios proveedores de seguros. Si bien el seguro de Liberty Mutual es la principal compa&ntilde;&iacute;a que ofrece precios preferenciales para los miembros de SEIU, un agente de MyLifeProtected lo vincular&aacute; con la compa&ntilde;&iacute;a de seguros que mejor se adapte a su situaci&oacute;n y necesidades particulares.</li>
+            <li>Se ofrecen las siguientes coberturas de seguros para: autom&oacute;vil, propietarios, inquilinos, condominios, motocicleta, RV, ATV, remolques y cobertura de responsabilidad personal.</li>
+            <li>Seguro para conductores nuevos y aquellos con accidentes o multas.</li>
+        </ul>
+        <p>Garantice la tranquilidad de saber que tiene la mejor cobertura disponible para su hogar y sus veh&iacute;culos.</p>
+        <p>Reg&iacute;strese o inicie sesi&oacute;n arriba y luego haga clic en el bot&oacute;n "Buscar ahora" para comenzar a utilizar sus cotizaciones de seguros gratuitas y sin compromiso.</p>
+        <p>&iquest;Tiene preguntas? Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=017BB1FA13044B4BAFA0CB580D8EED10&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese con un agente de MyLifeProtected ahora. Simplemente inicie sesi&oacute;n y llame al n&uacute;mero gratuito para hablar con un agente exclusivo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Buscar Ahora" linktype="external" url="https://enroll.mylifeprotected.com/userData?MDRefCode=seiu-mlp-web" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Proteja su hogar y vehículos a precios competitivos de las mejores compañías.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: |
+        BUSCAR PRECIOS ASEQUIBLES Y CON DESCUENTOS PARA GRUPOS AHORA 
+        
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210310T135419Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{EDF2E6BD-FF35-4ED9-9860-9DC3448C5A5F}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E70E9EF0-8E7A-4E6A-8748-2DDDC2FE874F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¡Proteja su hogar y vehículos a precios competitivos de las mejores compañías!
+        No hay nada más importante que asegurarse que sus activos más costosos, su hogar y sus vehículos, estén protegidos en caso de accidente u otras pérdidas. El nuevo Programa de seguros para automóviles y viviendas de SEIU, que se ofrece en conjunto conTravelers, está diseñado para brindar a los miembros de SEIU y sus familias la opción de asegurar sus hogares y vehículos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{61AB850D-BC9A-4AD2-ACD6-FAAF1233FA83}" alt="Coche de embalaje familiar para ir de vacaciones. Padres, hijos." height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{33B44CC2-4303-4447-845C-656785E4FA1E}" alt="SEIU Member Benefits en asociación con Travelers" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T142715Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>*Este promedio se basa en los ahorros de titulares de p&oacute;lizas de seguro para autom&oacute;viles nuevos de todo el pa&iacute;s informados a Travelers a trav&eacute;s del canal de marketing por afinidad en 2019. Los ahorros individuales pueden variar. Los ahorros no est&aacute;n garantizados.</p>
+        <br />
+        <p><em>Las futuras comunicaciones escritas de Travelers, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <br />
+        <p>El seguro es suscrito por The Travelers Indemnity Company o una de sus afiliadas de propiedades y accidentes, One Tower Square, Hartford, CT 06183. En California: El seguro es suscrito por Travelers Commercial Insurance Company, One Tower Square, Hartford, CT 06183, certificado de autoridad n.&deg; 6519 o Travelers Property Casualty Insurance Company, One Tower Square, Hartford, CT 06183, certificado de autoridad n.&deg; 6521. En California: El seguro para embarcaciones es suscrito por The Standard Fire Insurance Company, One Tower Square, Hartford, CT 06183, certificado de autoridad n.&deg; 3545; estado de domicilio: Connecticut. En Texas: El seguro para autom&oacute;viles es ofrecido por Travelers Texas MGA, Inc. y suscrito por Consumers County Mutual Insurance Company (CCM). CCM no es una compa&ntilde;&iacute;a de Travelers. Las opciones de cobertura, los descuentos, las tarifas o los ahorros de programas especiales, las opciones de facturaci&oacute;n y dem&aacute;s caracter&iacute;sticas se encuentran sujetas a disponibilidad y elegibilidad individual. No todas las caracter&iacute;sticas est&aacute;n disponibles en todas las zonas. En Florida: Por el momento, no se ofrece el seguro de propiedad a nuevos clientes.</p>
+        <br />
+        <p>&copy; 2021 The Travelers Indemnity Company. Todos los derechos reservados. Travelers y el logotipo de paraguas de Travelers son marcas registradas de The Travelers Indemnity Company en los EE. UU. y en otros pa&iacute;ses.</p>
+        <br />
+        <p>SEIU ha contratado a Members United Insurance Agency para que administre los programas de seguro para sus miembros. Members United Insurance Agency no es una compa&ntilde;&iacute;a afiliada de Travelers.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "O llame al 1-866-903-5052 para hablar con un representante de seguros autorizado."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa de seguros para autom&oacute;viles y viviendas de SEIU℠
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Obtenga una excelente cobertura con una ventaja  de ahorro de Travelers</strong></p>
+        <p>La vida cotidiana trae lo inesperado, junto con las cosas que planea y espera. No hay forma de saber lo que se avecina, y los detalles y los plazos pueden mantenerte despierto por la noche.</p>
+        <p>A trav&eacute;s de nuestra nueva asociaci&oacute;n con Travelers, podemos brindarle algo de tranquilidad, en su hogar o en la carretera, adem&aacute;s de beneficios especiales de ahorro. En efecto, los conductores que se cambian a Travelers ahorran un promedio de <strong>$604*</strong> en seguros de autom&oacute;vil.</p>
+        <p>Estos son algunas de las ventajas que no querr&aacute; dejar pasar:</p>
+        <ul>
+            <li>Ahorros especiales en seguro para autom&oacute;viles, vivienda, condominios e inquilinos</li>
+            <li>Descuentos para ahorrar dinero por varias p&oacute;lizas y por antecedentes de manejo seguro</li>
+            <li>Opciones de cobertura y paquetes para ayudarle a satisfacer sus necesidades particulares</li>
+            <li>Cotizaciones gratuitas y sin obligaci&oacute;n de representantes de seguro autorizados o en l&iacute;nea</li>
+            <li>Servicio al cliente e informes de reclamos las 24 horas del d&iacute;a, los siete d&iacute;as de la semana</li>
+        </ul>
+        <p>Obtenga m&aacute;s informaci&oacute;n sobre el programa consultando nuestras <a href="~/link.aspx?_id=017BB1FA13044B4BAFA0CB580D8EED10&amp;_z=z">Preguntas frecuentes</a>.</p>
+        <p>Vea de manera r&aacute;pida y f&aacute;cil si puede obtener una excelente cobertura a un mejor precio con el Programa de seguro para autom&oacute;viles y viviendas de SEIU℠ de Travelers. No tiene que esperar hasta que se renueve su p&oacute;liza actual  para solicitar una cotizaci&oacute;n y cambiar.</p>
+        <p>Llame a un representante de seguros autorizado de Travelers al <strong>1-866-903-5052</strong> u obtenga una cotizaci&oacute;n en l&iacute;nea con su descuento para miembros de SEIU hoy mismo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{61AB850D-BC9A-4AD2-ACD6-FAAF1233FA83}" alt="Coche de embalaje familiar para ir de vacaciones. Padres, hijos." height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de seguros para automóviles y viviendas de SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INICIAR COTIZACIÓN" linktype="external" url="https://www.travelers.com/affinity/sponsor/seiuwebdigital" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Obtenga un descuento para miembros de SEIU en seguro para autom&oacute;viles, vivienda, condominios e inquilinos de Travelers.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "AHORRO PROMEDIO AUTOM&Aacute;TICO CON TRAVELERS: <strong>$604*</strong>"
+    - ID: "bf31300b-5d22-4212-8171-83e85d5d2b79"
+      Hint: Sidebar
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T142715Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de seguros para automóviles y viviendas de SEIU

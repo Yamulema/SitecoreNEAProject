@@ -1,0 +1,41 @@
+﻿---
+ID: "4921f517-f579-4676-a841-e3f9ce8c36fa"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Image Left Tout
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal">
+    <div class="gtm-promo-tout">
+    <div class="container side-by-side">
+    <div class="row">
+    <div class="col-md-6"><a gtm-title="none" gtm-cta-text="none"><img src="/assets/neamb/images/two-column-stackable-624x374.jpg" alt="alt" class="img-fit" /></a></div>
+    <div class="col-md-6">
+    <div class="text-panel">
+    <h2 class="header">Lorem ipsum dolor sit ametr</h2>
+    <p class="subhead">Vestibulum faucibus purus quis sapien suscipit vulputate nec tempor purus. Suspendisse potenti. Suspendisse eget sapien quis elit pellentesque rhoncus id ac nisl. <a href="#" title="title" gtm-title="none" gtm-cta-text="none">Learn more.</a></p>
+    <div class="btn btn-blue"><a gtm-title="none" gtm-cta-text="none">Subscribe</a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180626T170713Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Image Left Tout

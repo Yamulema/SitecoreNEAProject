@@ -1,0 +1,21 @@
+﻿---
+ID: "bbe387fc-ae3f-44d4-8fee-ac00d7bbe121"
+Parent: "ffd2aa18-795e-4368-928f-2c8d64c71085"
+Template: "ffd2aa18-795e-4368-928f-2c8d64c71085"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_EmailWarning/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T165618Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "678eb874-cb56-4a85-bc8d-64776a26b9fd"
+      Hint: Warning
+      Value: "We noticed your email address contains “.EDU” or “K12”, which we interpret as work-related. It is our policy to only accept personal email addresses."

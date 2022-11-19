@@ -1,0 +1,23 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div id="product_details_content" class="row">
+    <div id="contact_us_content" class="row">
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+        <div id="contact_us_form" class="small-12 medium-10 large-10 columns float-center">
+            <div id="thanks_content" class="small-12 medium-12 large-12 columns">
+                <h4>@Html.Sitecore().Field(Templates.ErrorTemplate.Fields.Title, Model.Item)</h4>
+                <hr />
+                @Html.Sitecore().Field(Templates.ErrorTemplate.Fields.Body, Model.Item)
+
+                @Html.Sitecore().Field(Templates.ErrorTemplate.Fields.ContinueButton, Model.Item, new { @class = "button" })
+            </div>
+        </div>
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+    </div>
+</div>

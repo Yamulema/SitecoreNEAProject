@@ -1,0 +1,13 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+
+@if (isExperienceEditor)
+    {
+    <text>
+        Oracle page view component
+    </text>
+ }

@@ -1,0 +1,42 @@
+﻿---
+ID: "b8b3d75f-e1cc-4b4a-9106-fe61f0164902"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Blue Centered Content
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="blue-centered-content new-design">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <span>
+                APR represents the annual cost of a loan as a percentage, factoring in interest and additional fees. Note that when you refinance or consolidate your existing debts, your total finance charges over the life of the loan could be higher than for your current debt(s) because your APR may be higher and/or your loan term may be longer. Different types of debt may be consolidated, including credit card debt, personal loans, car loans and household bills. However, postsecondary educational expenses or tuition, or to consolidate postsecondary educational loans is not eligible for a debt consolidation loan.
+                <br /><br />
+                <sup>1</sup> Your fixed for life APR will be established when we discuss your specific request with you and will be in the range of 5.99% fixed for life APR to 15.99% fixed for life APR, depending on your creditworthiness. <strong>Please note that all applicants may not qualify for the lowest rate. The lowest rate may not be available for the term chosen.</strong>
+                <br /><br />
+                FICO and “The score lenders use” are trademarks and/or registered trademarks of Fair Isaac Corporation in the United States and other countries. Please note, new account holders will generally see their FICO<sup>®</sup> Score 9 (the version of FICO<sup>®</sup> Score we use to manage their account) within 45 days of account opening.
+                <br /><br />
+                Loans are made and Serviced by First National Bank of Omaha (FNBO<sup>®</sup>).
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Blue Centered Content

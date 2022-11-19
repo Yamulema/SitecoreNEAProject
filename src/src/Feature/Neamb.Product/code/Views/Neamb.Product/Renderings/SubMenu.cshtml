@@ -1,0 +1,39 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Product
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    /* Links */
+    //Get the current page using Sitecore Item API
+    var currentPage = Sitecore.Context.Item;
+
+    //Cast to a Sitecore item
+    Sitecore.Data.Items.Item myItem = (Sitecore.Data.Items.Item)currentPage;
+
+    //Read the Multifield List
+    Sitecore.Data.Items.Item[] items = ((Sitecore.Data.Fields.MultilistField)myItem.Fields[Templates.ProductSubMenu.Fields.Links]).GetItems();
+}
+
+<nav class="subnav-headline">
+    <div class="subnav-slider-navigation back flex-center hidden-md hidden-lg">
+        <a class="back-arrow"><span class="fa fa-angle-left"></span></a>
+    </div>
+    <div class="subnav-links-container">
+        <div class="menu-slider">
+            @*Iterate through each item*@
+            @if (!ReferenceEquals(items, null) && items.Length > 0)
+            {
+                for (int i = 0; i < items.Length; i++)
+                {
+                    <a @Html.Raw(currentPage.ID.Equals(items[i].ID) ? "class='active'" : String.Empty) href="@Sitecore.Links.LinkManager.GetItemUrl(items[i])">@(Html.Raw(items[i].Fields[Templates.RetirementProduct.Fields.Name].Value))</a>
+                }
+            }
+            @Html.Sitecore().Field(Templates.ProductSubMenu.Fields.CTALink, Model.Item, new { @class = "right-cta box-shadow-bottom" })
+        </div>
+        @Html.Sitecore().Field(Templates.ProductSubMenu.Fields.CTALink, Model.Item, new { @class = "right-cta box-shadow-bottom" })
+    </div>
+    <div class="subnav-slider-navigation flex-center hidden-md hidden-lg">
+        <a class="next-arrow"><span class="fa fa-angle-right"></span></a>
+    </div>
+</nav>

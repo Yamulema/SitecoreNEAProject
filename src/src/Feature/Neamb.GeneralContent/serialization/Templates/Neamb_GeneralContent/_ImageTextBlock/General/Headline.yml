@@ -1,0 +1,22 @@
+﻿---
+ID: "f8b4f024-f33e-4d72-b8b1-9e94e9b43f41"
+Parent: "c400c2b0-7cbb-4bd8-8d05-7bc1f1646b81"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_ImageTextBlock/General/Headline
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Component Headline Text
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221017T165808Z

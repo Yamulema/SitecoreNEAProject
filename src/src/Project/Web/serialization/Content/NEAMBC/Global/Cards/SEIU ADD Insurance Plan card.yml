@@ -1,0 +1,303 @@
+﻿---
+ID: "38846ec4-361d-4b14-a9d9-a27af9809c3e"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU ADD Insurance Plan card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T153548Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{89AD4ED7-7A75-4841-B3F0-13DB3D5FFFCD}" alt="Mother and daughter" height="" width="" hspace="" vspace="" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accidental Death &amp; Dismemberment Insurance Plan</h3>
+        </div>
+        <p>Help protect your family anytime, anywhere.</p>
+        <p>Whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <ul>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T154446Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{89AD4ED7-7A75-4841-B3F0-13DB3D5FFFCD}" alt="Mother and daughter" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210119T154446Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accidental Death &amp; Dismemberment Insurance Plan</h3>
+        </div>
+        <p>Help protect your family anytime, anywhere.</p>
+        <p>Whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <ul>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T210908Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{89AD4ED7-7A75-4841-B3F0-13DB3D5FFFCD}" alt="Mother and daughter" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T210908Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accidental Death &amp; Dismemberment Insurance Plan</h3>
+        </div>
+        <p>Help protect your family anytime, anywhere.</p>
+        <p>Whether you’re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <ul>
+            <li>Guaranteed acceptance—no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T201156Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{89AD4ED7-7A75-4841-B3F0-13DB3D5FFFCD}" alt="Mother and daughter" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T201156Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accidental Death &amp; Dismemberment Insurance Plan</h3>
+        </div>
+        <p>Help protect your family anytime, anywhere.</p>
+        <p>Whether you’re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <ul>
+            <li>Guaranteed acceptance—no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T201149Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro por muerte accidental y desmembramiento (AD&amp;D) SEIU</h3>
+        </div>
+        <p>Proteja a su familia en todo momento y en cualquier lugar</p>
+        <p>Ya sea que est&eacute; en su casa o de viaje, sabe que usted y sus seres queridos est&aacute;n cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <ul>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T201708Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{89AD4ED7-7A75-4841-B3F0-13DB3D5FFFCD}" />
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T201708Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro por muerte accidental y desmembramiento (AD&amp;D) SEIU</h3>
+        </div>
+        <p>Proteja a su familia en todo momento y en cualquier lugar</p>
+        <p>Ya sea que est&eacute; en su casa o de viaje, sabe que usted y sus seres queridos est&aacute;n cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <ul>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T211709Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{89AD4ED7-7A75-4841-B3F0-13DB3D5FFFCD}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T211709Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro por muerte accidental y desmembramiento (AD&amp;D) SEIU</h3>
+        </div>
+        <p>Proteja a su familia en todo momento y en cualquier lugar</p>
+        <p>Ya sea que esté en su casa o de viaje, sabe que usted y sus seres queridos están cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <ul>
+            <li>Aceptación garantizada, sin exámenes médicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" class="button panelBtn">APRENDE MÁS</a></div>

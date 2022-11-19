@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ForgotEmail">
+      <sections>
+        <section name="ForgotEmailHeader">
+          <controls>
+            <control key="ForgotEmails_fh_Title" xpath="//div[@class='container']//h1"  />
+          </controls>
+        </section>
+
+        <section name="ForgotEmailForm">
+          <controls>
+            <control key="ForgotEmails_f_ForgotEmailFirstName" id= "firstname"  />
+            <control key="ForgotEmails_f_ForgotEmailLastName" id="lastName"  />
+            <control key="ForgotEmails_f_ForgotEmailBirthMonth" id="month"  />
+            <control key="ForgotEmails_f_ForgotEmailBirthDay" id="day"  />
+            <control key="ForgotEmails_f_ForgotEmailBirthYear" id="year"  />
+            <control key="ForgotEmails_f_ForgotEmailZipCode" id="zip"  />
+            <control key="ForgotEmails_f_ForgotEmailSubmitButton" id="submit"  />
+          </controls>
+        </section>
+        <section name="ForgotEmailFormLabels">
+          <controls>
+            <control key="ForgotEmails_f_FirstNameLabel" xpath= "//label[@for='firstname']"  />
+            <control key="ForgotEmails_f_LastNameLabel" xpath="//label[@for='lastName']"  />
+            <control key="ForgotEmails_f_BirthDateLabel" xpath="//label[@for='birthDate']"  />
+            <control key="ForgotEmails_f_ZipCodeLabel" xpath="//label[@for='zip']"  />
+           </controls>
+        </section>
+        <section name="ForgotEmailConfirmation">
+          <controls>
+            <control key="ForgotEmails_f_ForgotEmailRetrieveUsername" xpath="//p[@class='text-alpha']//b"  />
+            <control key="ForgotEmails_f_ForgotEmailSignButton" xpath="(//a[@href='/login'])[4]"  />
+          </controls>
+        </section>
+
+        <section name="WrongUserPwd">
+          <controls>
+            <control key="login_w_wronguserpws" id="errorgeneralserver"  />
+          </controls>
+        </section>
+
+        <section name="ForgotEmailLink">
+          <controls>
+            <control key="login_f_ForgotEmailLink" xpath="(//a[@href='/account/forgot-email'])[1]" />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

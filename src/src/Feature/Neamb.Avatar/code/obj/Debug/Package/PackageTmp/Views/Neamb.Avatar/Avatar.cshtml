@@ -1,0 +1,71 @@
+﻿@using Neambc.Neamb.Feature.Avatar
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Avatar.Models.AvatarDTO
+@{
+	bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+}
+@if (Model.UserStatus!= StatusEnum.Hot && !isExperienceEditor)
+{
+	<section class="section-normal">
+		<div class="container">
+			@Html.Sitecore().Field(Templates.Avatar.Fields.AnonymousUser, Model.Item)
+		</div>
+	</section>
+}
+else
+{
+	<section class="error-bar">
+		<p>@Html.Sitecore().Field(Templates.Avatar.Fields.ErrorUpload, Model.Item)<i aria-hidden="true" class="fa fa-times"></i></p>
+	</section>
+	if (Model.IsInAvatarPage) {
+		 <section class="p-t-md">
+			 <div class="container">
+				 <div class="col-md-12"><a title="title" href="@Model.BackUrl" style="cursor: pointer;" class="form-nav"><i aria-hidden="true" class="fa fa-chevron-left"></i><span>@Model.BackText</span></a></div>
+			 </div>
+		 </section>
+	 }
+	<section class="section-normal">
+		<div class="container">
+			<div class="col-md-9 col-centered text-center">
+				@if (Model.IsProcessedSucessfully)
+				{
+					<p class="subhead text-center"><strong>@Html.Sitecore().Field(Templates.Avatar.Fields.ConfirmationUploadedImage, Model.Item)</strong></p>
+				}
+
+				@if (!String.IsNullOrEmpty(Model.UserImageUrl))
+				{
+					<img id="avatar" src="@Model.UserImageUrl" alt=""/>
+				}
+				else
+				{
+					@Html.Sitecore().Field(Templates.Avatar.Fields.DefaultImage, Model.Item, new
+					{
+						@id = "avatar"
+					})
+				}
+				<div id="upload-avatar" style="width: 350px;"></div>
+				<!--div id="upload-avatar" style="width:350px;height:0;margin-left: -9999px;"></!--div-->
+				<h2 class="title">@Html.Sitecore().Field(Templates.Avatar.Fields.Title, Model.Item)</h2>
+				<p class="text-alpha">@Html.Sitecore().Field(Templates.Avatar.Fields.Description, Model.Item)</p>
+				<div class="col-md-4 col-centered m-t-md">
+					<div class="row">
+						<div id="upload-button">
+							<label id="size-error" style="display: none" class="error m-b-md">@Html.Sitecore().Field(Templates.Avatar.Fields.ErrorImageSize, Model.Item)</label>
+							<a class="btn btn-blue btn-block">
+								<span>@Html.Sitecore().Field(Templates.Avatar.Fields.UploadButton, Model.Item)</span>
+								<input id="upload" type="file" value="Upload" accept="image/*"/>
+							</a>
+						</div>
+						<div id="actions-buttons" style="display: none">
+							<div class="col-md-4 m-b-sm"><a class="rotate btn btn-blue btn-block" style="padding:15px 0;"><i aria-hidden="true" style="line-height: 28px;" class="fa fa-repeat"></i></a></div>
+							<div class="col-md-8 m-b-sm"><a id="send" class="btn btn-blue btn-block">@Html.Sitecore().Field(Templates.Avatar.Fields.SendButton, Model.Item)</a></div>
+							<!--a#cancel.m-t-sm.btn.btn-block Cancel-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+}

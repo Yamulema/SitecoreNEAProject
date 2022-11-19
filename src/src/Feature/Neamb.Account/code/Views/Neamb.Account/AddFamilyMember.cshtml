@@ -1,0 +1,352 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Account.Models.FamilyMemberDTO
+@{
+    int minYear = 16;
+    int maxYear = 95;
+    int startYear = DateTime.Now.Year - maxYear;
+    int endYear = DateTime.Now.Year - minYear;
+    var classname = Model.HasGeneralError ? "show" : "";
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+}
+<div id="allowedage" data-min="@minYear" data-max="@maxYear"></div>
+<section class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.FamilyMember.Fields.Error, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+@if (Model.UserStatus != StatusEnum.Hot && !isExperienceEditor)
+{
+    <section class="section-normal">
+        <div class="container">
+            @Html.Sitecore().Field(Templates.FamilyMember.Fields.AnonymousUser, Model.Item)
+        </div>
+    </section>
+}
+else
+{
+    <section class="p-t-md">
+        <div class="container">
+            <div class="col-md-12"><a href="@Model.BackUrl" title="title" class="form-nav"> <i aria-hidden="true" class="fa fa-chevron-left"> </i><span>@Model.BackText </span></a></div>
+        </div>
+    </section>
+
+    <section class="section-normal">
+        <div class="container">
+            <div class="col-md-9 col-centered">
+                <h2 class="header">@Html.Sitecore().Field(Templates.FamilyMember.Fields.Headline, Model.Item)</h2>
+                <p class="subhead text-alpha">
+                    @Html.Sitecore().Field(Templates.FamilyMember.Fields.Subheadline, Model.Item)
+                    <hr />
+                </p>
+                <form id="add-beneficiary" method="post" accept-charset="UTF-8" role="form" class="profile-forms">
+                    <fieldset>
+                        <div class="form-group groups NamedIndividual">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="firstname">@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameLabel, Model.Item)</label>
+                                    @if (Model.HasTooltipFirstName)
+                                    {
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark m-l-xs hidden-md hidden-lg"></i>
+                                    }
+                                </div>
+                                <div class="col-md-8">
+                                    <input id="firstname" name="FirstName" value="@Model.FirstName" type="text" required="required" data-msg="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameEmptyField, Model.Item, new {@DisableWebEdit = true})" data-rule-maxlength="15" data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameCharacterLimit, Model.Item, new {@DisableWebEdit = true})" data-rule-alphanumber="true" data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" class="form-control" />
+                                    <div data-name="FirstName" class="server-errors show">
+                                        @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Required))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameEmptyField, Model.Item)
+                                            </span>
+                                        }
+                                        @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.InvalidCharacters))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameInvalidCharacters, Model.Item)
+                                            </span>
+                                        }
+                                        @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Length))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameCharacterLimit, Model.Item)
+                                            </span>
+                                        }
+                                        @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.MinLength))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameMinimumCharacterLimit, Model.Item)
+                                            </span>
+                                        }
+                                    </div>
+                                </div>
+                                @if (Model.HasTooltipFirstName)
+                                {
+                                    <div class="col-xs-1 col-md-1 hidden-xs hidden-sm">
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"> </i>
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+                        <div class="form-group groups NamedIndividual">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="lastName">@Html.Sitecore().Field(Templates.Profile.Fields.LastNameLabel, Model.Item)</label>
+                                    @if (Model.HasTooltipLastName)
+                                    {
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark m-l-xs hidden-md hidden-lg"></i>
+                                    }
+                                </div>
+                                <div class="col-md-8">
+                                    <input id="lastName" name="LastName" value="@Model.LastName" type="text" required="required" data-msg="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameEmptyField, Model.Item, new {@DisableWebEdit = true})" data-rule-maxlength="30" data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameCharacterLimit, Model.Item, new {@DisableWebEdit = true})" data-rule-alphanumber="true" data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" class="form-control" />
+                                    <div data-name="LastName" class="server-errors show">
+                                        @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Required))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.LastNameEmptyField, Model.Item)
+                                            </span>
+                                        }
+                                        @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.InvalidCharacters))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.LastNameInvalidCharacters, Model.Item)
+                                            </span>
+                                        }
+                                        @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Length))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.LastNameCharacterLimit, Model.Item)
+                                            </span>
+                                        }
+                                        @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.MinLength))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.LastNameMinimumCharacterLimit, Model.Item)
+                                            </span>
+                                        }
+                                    </div>
+                                </div>
+                                @if (Model.HasTooltipLastName)
+                                {
+                                    <div class="col-xs-1 col-md-1 hidden-xs hidden-sm">
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"> </i>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="email">@Html.Sitecore().Field(Templates.Profile.Fields.EmailLabel, Model.Item)</label>
+                                    @if (Model.HasTooltipEmail)
+                                    {
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.EmailTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark m-l-xs hidden-md hidden-lg"></i>
+                                    }
+                                </div>
+                                <div class="col-md-8">
+                                    <input id="email" value="@Model.Email" name="Email" type="email" required="required" data-msg="@Html.Sitecore().Field(Templates.Profile.Fields.EmailEmptyField, Model.Item, new {@DisableWebEdit = true})" data-msg-validateMail="@Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item, new {@DisableWebEdit = true})" data-warning="warning" data-rule-maxlength="100" data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.EmailCharacterLimit, Model.Item, new {@DisableWebEdit = true})" class="form-control" />
+                                    <div class="warning">
+                                        <span>@Html.Sitecore().Field(Templates.Profile.Fields.EmailWarning, Model.Item)</span>
+                                    </div>
+                                    <div data-name="Email" class="server-errors show">
+                                        @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Required))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.EmailEmptyField, Model.Item)
+                                            </span>
+                                        }
+
+                                        @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.InvalidCharacters))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item)
+                                            </span>
+                                        }
+
+                                        @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Length))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.EmailCharacterLimit, Model.Item)
+                                            </span>
+                                        }
+                                        @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.EmailFormat))
+                                        {
+                                            <span>
+                                                @Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item)
+                                            </span>
+                                        }
+                                    </div>
+                                </div>
+                                @if (Model.HasTooltipEmail)
+                                {
+                                    <div class="col-xs-1 col-md-1 hidden-xs hidden-sm">
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.EmailTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"></i>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="birthDate">@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateLabel, Model.Item)</label>
+                                    @if (Model.HasTooltipBirthDate)
+                                    {
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark m-l-xs hidden-md hidden-lg"></i>
+                                    }
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-md-4">
+                                            <div data-id="month" class="select-warm hide">@Model.Month</div>
+                                            <select id="month" name="month" class="form-control dob-group">
+                                                <option value="">Choose</option>
+                                                <option value="01">Jan</option>
+                                                <option value="02">Feb</option>
+                                                <option value="03">Mar</option>
+                                                <option value="04">Apr</option>
+                                                <option value="05">May</option>
+                                                <option value="06">Jun</option>
+                                                <option value="07">Jul</option>
+                                                <option value="08">Aug</option>
+                                                <option value="09">Sep</option>
+                                                <option value="10">Oct</option>
+                                                <option value="11">Nov</option>
+                                                <option value="12">Dec</option>
+                                            </select>
+                                            <div class="select-error"></div>
+                                        </div>
+                                        <div class="col-xs-4 col-md-4">
+                                            <div data-id="day" class="select-warm hide">@Model.Day</div>
+                                            <select id="day" name="day" class="form-control dob-group">
+                                                <option value="">Choose</option>
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-4 col-md-4">
+                                            <div data-id="year" class="select-warm hide">@Model.Year</div>
+                                            <select id="year" name="year" data-msg="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item, new {@DisableWebEdit = true})" data-msg-validateAge="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateAgeRequirement, Model.Item, new {@DisableWebEdit = true})" class="form-control dob-group">
+                                                <option value="">Choose</option>
+                                                @for (int i = startYear; i <= endYear; i++)
+                                                {
+                                                    <option value="@i">@i</option>
+                                                }
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="dob-error">
+                                                <span class="error">@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item) </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12">
+                                            <div class="server-errors show">
+                                                @if (Model.ErrorsBirthDate.Contains(ErrorStatusEnum.Required))
+                                                {
+                                                    <span>
+                                                        @Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item)
+                                                    </span>
+                                                }
+
+                                                @if (Model.ErrorsBirthDate.Contains(ErrorStatusEnum.AgeRequirement))
+                                                {
+                                                    <span>
+                                                        @Html.Sitecore().Field(Templates.Profile.Fields.BirthDateAgeRequirement, Model.Item)
+                                                    </span>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                @if (Model.HasTooltipBirthDate)
+                                {
+                                    <div class="col-xs-1 col-md-1 hidden-xs hidden-sm">
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"></i>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="birthDate">@Html.Sitecore().Field(Templates.FamilyMember.Fields.RelationshipLabel, Model.Item)</label><i data-toggle="tooltip" title="Custom text" class="text-blue fa fa-question-circle-o tooltipMark m-l-xs hidden-md hidden-lg"></i>
+                                </div>
+                                <div class="col-md-8">
+                                    <select id="relationship" name="relationship" title="@Html.Sitecore().Field(Templates.FamilyMember.Fields.RelationshipEmpty, Model.Item, new {@DisableWebEdit = true})" required="required" class="form-control">
+                                        <option value="">Choose</option>
+                                        @foreach (var selectItem in Model.RelationshipList)
+                                        {
+                                            if (selectItem.Selected)
+                                            {
+                                                <option value="@selectItem.Value" selected="selected">@selectItem.Text</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@selectItem.Value">@selectItem.Text</option>
+                                            }
+                                        }
+                                    </select>
+                                    <div class="select-error"></div>
+                                </div>
+                                @if (Model.HasTooltipRelationship)
+                                {
+                                    <div class="col-xs-1 col-md-1 hidden-xs hidden-sm">
+                                        <i data-toggle="tooltip" title="@Html.Sitecore().Field(Templates.FamilyMember.Fields.RelationshipTooltip, Model.Item, new {@DisableWebEdit = true})" class="text-blue fa fa-question-circle-o tooltipMark"></i>
+                                    </div>
+                                }
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 col-md-push-3 p-t-md p-b-md">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="submit" value="@Html.Sitecore().Field(Templates.FamilyMember.Fields.SendInvitation, Model.Item, new {@DisableWebEdit = true})" class="btn btn-block btn-blue m-b-sm" />
+                                        </div>
+                                        <div class="col-md-6">
+                                            @Html.Sitecore().Field(Templates.FamilyMember.Fields.Cancel, Model.Item, new { @class = "btn btn-block" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <input type="hidden" name="fhController" value="AddFamilyMemberController" data-abide-ignore />
+                    <input type="hidden" name="fhAction" value="AddFamilyMember" data-abide-ignore />
+
+                </form>
+            </div>
+        </div>
+    </section>
+}

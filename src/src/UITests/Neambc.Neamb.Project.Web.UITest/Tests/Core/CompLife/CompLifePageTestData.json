@@ -1,0 +1,40 @@
+{
+  "Test_GTM": [
+    [
+      "nea.peggyf@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'account','accountSection':'complimentary life insurance','accountAction':'More About You','ctaText':'Save'},this);",
+      "Live with relatives"
+    ]
+  ],
+  "Test_Add": [
+    [
+      "nea.peggyf@gmail.com",
+      "secret12",
+      "FirstName",
+      "LastName",
+      "Son",
+      "50",
+      "Others",
+      "50",
+      "Other"
+    ]
+  ],
+  "Profile": [
+    [
+      "nea.peggyf@gmail.com",
+      "secret12",
+      "Peggy-Test",
+      "Peggy-Test",
+      "5555893012",
+      "Own house"
+    ]
+  ],
+  "Test_Del": [
+    [
+      "nea.peggyf@gmail.com",
+      "secret12",
+      "Rent"
+    ]
+  ]
+}

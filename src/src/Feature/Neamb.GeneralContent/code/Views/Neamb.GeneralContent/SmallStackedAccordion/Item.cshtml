@@ -1,0 +1,23 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.GeneralContent.Models.SmallStackedItem
+
+@if (Model.Item != null)
+{
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="item-@Model.Item.ID.ToShortID().ToString()">
+        <h4 class="panel-title">
+            <span data-toggle="collapse" data-parent="#faqs-accordion" href="#collapse-item-@Model.Item.ID.ToShortID().ToString()" aria-expanded="true" aria-controls="collapse-item-@Model.Item.ID.ToShortID().ToString()"
+                  class="collapsed" @Html.Raw(Model.OnClickEvent)>
+                @Html.Sitecore().Field(Templates.SmallAccordionItem.Fields.Header, Model.Item)
+            </span>
+        </h4>
+        <div id="collapse-item-@Model.Item.ID.ToShortID().ToString()" class="panel-collapse collapse @(Sitecore.Context.PageMode.IsExperienceEditor ? "in" : "") " role="tabpanel" aria-labelledby="item-@Model.Item.ID.ToShortID().ToString()" aria-expanded="true">
+            <div class="panel-body">
+                @Html.Sitecore().Field(Templates.SmallAccordionItem.Fields.Subhead, Model.Item)
+            </div>
+        </div>
+    </div>
+</div>
+}

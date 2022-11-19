@@ -1,0 +1,11 @@
+{
+  "Test_GTM_TopNav": [
+    [ "dataLayerPush({'event':'navigation','navType':'top nav','navText':'Finance'},this);" ]
+  ],
+  "Test_GTM_LeftNav": [
+    [ "dataLayerPush({'event':'navigation','navType':'left nav','navText':'SEIU Financial Wellness'},this);" ]
+  ],
+  "Test_GTM_Footer": [
+    [ "dataLayerPush({'event':'navigation','navType':'footer','navText':'Home'},this);" ]
+  ]
+}

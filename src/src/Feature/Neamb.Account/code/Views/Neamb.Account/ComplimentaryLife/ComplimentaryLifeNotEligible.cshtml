@@ -1,0 +1,16 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Eligibility.Model
+@using Neambc.Neamb.Foundation.MBCData.Model
+@using Neambc.Neamb.Foundation.Membership.Enums
+@using Neambc.Neamb.Foundation.Membership.Model
+@model Neambc.Neamb.Feature.Account.Models.ComplimentaryLifeDTO
+
+@if (Model.AccountStatus == StatusEnum.Hot && (Model.EligibilityResult != EligibilityResultEnum.Eligible))
+{
+	<section class="section-cta top-bar n-p-b n-m-b c-34">
+		<div class="not-eligible-top sticky n-m-b">
+			<div class="container">@Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Notification, Model.Item)</div>
+		</div>
+	</section>
+}

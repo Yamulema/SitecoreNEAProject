@@ -1,0 +1,94 @@
+﻿---
+ID: "7226a822-b34c-4439-a59d-96869edab319"
+Parent: "71f83de6-aa9c-4f1d-9fcc-c04b2ef2832d"
+Template: "71f83de6-aa9c-4f1d-9fcc-c04b2ef2832d"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Goal Topic/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {15547760-E485-446C-B7C0-98A660FD577E}
+    {F228472C-8A4D-4D12-8CC2-216138E6A43A}
+    {E34BACDF-686B-4D8A-8FD1-D6A2E52EA1D9}
+    {B496C634-6BCC-43BD-A465-6095DD468467}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{59C1CBDB-C6E9-42D0-BD7F-7E57FA0660F6}" />
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{1513533B-D93D-416F-8816-BC8F301FFAA1}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{6FA6C6B4-5F8B-49A5-A56B-E4898E63FB83}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{CFAC514F-64AF-4C55-8A89-340BB901ED53}" />
+        <r
+          id="{A4ECE677-6C89-4E1D-9E08-D8D29F3A44F0}"
+          ph="body"
+          uid="{2189FEFA-CE3A-400A-A4B6-842258782CBA}" />
+        <r
+          id="{D6F3A5B5-845A-45C3-B266-416A8E043971}"
+          ph="body"
+          uid="{7DAB2A94-561A-4E29-B414-469E14F94A63}" />
+        <r
+          id="{8E1B771D-2644-4988-A199-0C14CE63EDEF}"
+          ph="body"
+          uid="{58AE6D31-FB30-41C6-A147-415ACB35DA59}" />
+        <r
+          id="{7ECFB13F-C0BC-4513-A183-C2827280DF8F}"
+          ph="body"
+          uid="{6E489424-495E-4260-99BD-8614D3849C6C}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{F985A86F-63BD-4582-B605-56C158E5589C}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{530FE4D6-3A77-42F4-8B6C-6A71A7EA37B7}" />
+        <r
+          id="{52F86D05-4C58-4226-B4A9-24F4479317BA}"
+          ph="head-scripts"
+          uid="{639610CE-00A4-4DFB-9D7D-33A81B084B26}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180726T210257Z
+    - ID: "27f558d7-44b9-4585-9d9c-9335c50a19b5"
+      Hint: Background Color
+      Value: Gray
+    - ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+      Hint: Last Publish Date
+      Value: 

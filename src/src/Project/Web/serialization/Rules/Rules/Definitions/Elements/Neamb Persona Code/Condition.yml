@@ -1,0 +1,27 @@
+﻿---
+ID: "40a3e9fb-7a2e-4752-a994-89c54ba6f2f2"
+Parent: "eaf596e8-241d-4650-8e5e-d3f7c79faadb"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Neamb Persona Code/Condition
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Neambc.Neamb.Feature.GeneralContent.Personalization.PersonaCodeRule,Neambc.Neamb.Feature.GeneralContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180702T173421Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: |
+        When the persona code [OperatorID, StringOperator,,compares to] 
+        [value,Tree,root=/sitecore/content/NEAMB/Global/Categories/Personalization Rules/Persona Code,select option]

@@ -1,0 +1,33 @@
+﻿---
+ID: "e1395837-55b9-481d-a544-c2538bb3ab55"
+Parent: "7d036f25-0eb3-4bed-a0f6-d4c0873d1b24"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Membership Card Login Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/keys.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {75FCC427-9025-4B21-8150-31DAF724DF35}
+    {74159DE1-A691-4A83-8CEE-1D7109BC3457}
+    {2D3B7389-4171-406A-8319-03A7807988D5}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{A9B37507-E25F-43A3-805E-74C4D1E5A40E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180816T154110Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,78 @@
+﻿---
+ID: "42a274d0-639a-46d8-bb10-78ead75d2f01"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Red Roof holiday
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Discounts
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{54F4F579-54CD-49CB-9474-C2ABFDC85745}" alt="Red Roof" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=6643932D038B43019F85F9ED3C1D3C9D&amp;_z=z">Red Roof</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Special Limited Time Offer for SEIU Members!<br>
+        Visit family and friends this holiday season and receive a 25% discount at select locations when you book your next stay NOW through 12/31/19!</p>
+        </div>
+        <div class="panelExcerpt">
+        <div><a class="button panelBtn" href="~/link.aspx?_id=6643932D038B43019F85F9ED3C1D3C9D&amp;_z=z">BOOK NOW</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Viajes
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{54F4F579-54CD-49CB-9474-C2ABFDC85745}" alt="Red Roof" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=6643932D038B43019F85F9ED3C1D3C9D&amp;_z=z" onclick="ga_event('small module','click','red roof inn esp> title');"></a><a href="~/link.aspx?_id=6643932D038B43019F85F9ED3C1D3C9D&amp;_z=z">Red Roof</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>¡Oferta especial por tiempo limitado para miembros de SEIU!<br>
+        Visite a familiares y amigos en estas fiestas y reciba un descuento del 25% en ubicaciones seleccionadas cuando reserve su próxima estadía AHORA hasta el 31/12/19!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=6643932D038B43019F85F9ED3C1D3C9D&amp;_z=z" onclick="ga_event('small module','click','red roof inn esp > button');">RESERVE AHORA</a></div>
+        </div>

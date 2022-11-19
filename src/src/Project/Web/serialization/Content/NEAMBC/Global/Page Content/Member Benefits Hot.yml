@@ -1,0 +1,85 @@
+﻿---
+ID: "d15652cc-d1ac-46e0-84a5-3df59433a95d"
+Parent: "5f3523d8-63ae-4ff5-ac68-93de3eacd93c"
+Template: "d06933ef-6873-4cfa-a6d2-1f7da4be30eb"
+Path: /sitecore/content/NEAMBC/Global/Page Content/Member Benefits Hot
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200219T160035Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{07FF840F-0B74-4F83-8D62-54999EE6D936}" />
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Thank you for registering! We&rsquo;re pleased to bring you a variety of great benefits to help you stretch your budget and make your life easier. Over the coming months we&rsquo;ll be rolling out even more benefit programs, so please check back often to see what&rsquo;s new.</p>
+        <p>We&rsquo;ll continue to update this page with a list of benefits that are currently available and ones you can expect to see in the future.</p>
+        <h5>AVAILABLE BENEFITS:</h5>
+        <!--<p>Please <strong><a href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z" onclick="ga_event('about us', 'click', 'about us > seiu benefits at a glance > register or sign in');">Register or Sign In</a></strong> for immediate access and to receive notification by email when new benefits are available.</p>-->
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; finance');"><strong>FINANCE</strong></a></span><br />
+        <a href="~/link.aspx?_id=CE785E474E914851BF457777D3B86178&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu financial wellness');">SEIU℠ Financial Wellness</a><br />
+        <a href="~/link.aspx?_id=A2F234791EB341B4BEF682FF75A1E4FD&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu student loan forgiveness navigator');">SEIU℠ Student Loan Forgiveness Navigator</a><br />
+        <a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu platinum edition visa card with cashback rewards');">SEIU℠ Platinum Edition Visa Card with Cashback Rewards</a><br />
+        <a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu platimun edition visa card');">SEIU℠ Platinum Edition Visa Card</a><br />
+        <a href="~/link.aspx?_id=B537BDD18529490DA7A689571E3358F5&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt;seiu visa secured card');">SEIU℠ Visa Secured Card</a><br />
+        <a href="~/link.aspx?_id=8A8D07C1713447909663CE3DA81ABAF3&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu prepaid card');">SEIU℠ Prepaid Card</a><br />
+        <a href="~/link.aspx?_id=FD8012400F1A41A28F5CA0E23FEFFEF0&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu personal loan less than $5,000');">SEIU℠ Personal Loan (Less than $5,000)</a><br />
+        <a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu personal loan more than $5,000');">SEIU℠ Personal Loan (More than $5,000)</a><br />
+        <a href="~/link.aspx?_id=EDB471D415F148EE8B766242AD70176B&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu home financing program');">SEIU℠ Home Financing Program</a></p>
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; insurance');"><strong>INSURANCE</strong></a></span><br />
+        <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu group term life insurance program');">SEIU℠ Group Term Life Insurance Program</a><br />
+        <a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu guaranteed issue life insurance plan');">SEIU℠ Guaranteed Issue Life Insurance Plan</a><br />
+        <a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu accidental death &amp; dismemberment insurance plan');">SEIU℠ Accidental Death &amp; Dismemberment Insurance Plan</a><br />
+        <a href="~/link.aspx?_id=7311CEF1AD084C76B90B0EC7959C723E&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu famil childcare insurance');">SEIU℠ Family Childcare Insurance</a><br />
+        <a href="~/link.aspx?_id=5F83FD0C347949F3AF0BD9CFC99AE141&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu auto and home insurance program');">SEIU℠ Auto and Home Insurance Program</a></p>
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; discounts');"><strong>DISCOUNTS</strong></a></span><br />
+        <a href="~/link.aspx?_id=1EACD919B20F445FBDFD7EA7777EEA75&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu click &amp; save');">SEIU℠ Click &amp; Save</a><br />
+        <a href="~/link.aspx?_id=4912C9C701E048B488BA289A224EE81A&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; at&amp;t');">AT&amp;T</a><br />
+        <a href="~/link.aspx?_id=75CAD613236748DCA8582F7271943D02&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu auto buying program');">SEIU℠ Auto Buying Program</a><br />
+        <a href="~/link.aspx?_id=8601E91204524E95A3794D62CF1163DF&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; h&amp;r block');">H&amp;R Block</a><br />
+        <a href="~/link.aspx?_id=ECD8C7EE354D4F4ABB66AC388A7BB0F5&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; costco membership');">Costco Membership</a><br />
+        <a href="~/link.aspx?_id=1304D4CFA4594198A90DB8C9028BDEE3&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; 1-800-flowers.com family of brands');">1-800-FLOWERS.COM Family of Brands</a><br />
+        <a href="~/link.aspx?_id=A98EC714C1B1424C883EBE5A7823583B&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu heating oil program');">SEIU℠ Heating Oil Program</a></p>
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; travel');"><strong>TRAVEL</strong></a></span><br />
+        <a href="~/link.aspx?_id=6643932D038B43019F85F9ED3C1D3C9D&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; red roof inn');">Red Roof Inn</a><br />
+        <a href="~/link.aspx?_id=262C7751A405406697BBBB2F2E18F7C0&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; alamo rent a car');">Alamo Rent A Car</a><br />
+        <a href="~/link.aspx?_id=55A67C922377443AA56155B8A49375EE&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; dollar rent a car');">Dollar Rent A Car</a><br />
+        <a href="~/link.aspx?_id=77B55B54018A4E8FB4DE5DE36755E44D&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; enterprise rent-a-car');">Enterprise Rent-A-Car</a><br />
+        <a href="~/link.aspx?_id=E66AA60EF6C64FEAAF90B535BC4C0571&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; hertz car rental');">Hertz Car Rental</a><br />
+        <a href="~/link.aspx?_id=54B239A49EB347EDA3935DA0D9FCE874&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; national car rental');">National Car Rental</a></p>
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; education');"><strong>EDUCATION</strong></a></span><br />
+        <a href="~/link.aspx?_id=E7C482B195E74084A1E44717C9AB1DE3&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu free college benefits');">SEIU℠ Free College Benefit</a><br />
+        <a href="~/link.aspx?_id=1450B2E114B24CDF8E17FE5D025CCA25&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; snhu college for america');">SNHU'S College for America</a><br />
+        <a href="~/link.aspx?_id=278B5220CC3345E9BD275EBF688AEE3D&amp;_z=z" onclick="ga_event('about us', 'click', 'about us &gt; seiu benefits at a glance &gt; seiu student loan forgiveness');">SEIU℠ Student Loan Forgiveness Navigator</a></p>
+        <!--
+        <hr style="border: 0px currentColor; height: 2px; color: #4f2e84; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <h5>BENEFITS COMING SOON:</h5>
+        <p><u><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z" onclick="ga_event('about us', 'click', 'about us > seiu benefits at a glance > finance');"><strong>FINANCE</strong></a></u></p>
+        
+        
+        <p><u><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z" onclick="ga_event('about us', 'click', 'about us > seiu benefits at a glance > discounts');"><strong>DISCOUNTS</strong></a></u></p>
+        
+        <hr style="border: 0px currentColor; height: 2px; color: rgb(79, 46, 132); background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        
+        <h5>BENEFITS IN DEVELOPMENT:</h5>
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z" onclick="ga_event('about us', 'click', 'about us > seiu benefits at a glance > finance');"><strong>FINANCE</strong></a></span><br />
+        Checking Account<br />
+        Online Savings Account<br />
+        Money Market Account<br />
+        Certificate of Deposit</p>
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z" onclick="ga_event('about us', 'click', 'about us > seiu benefits at a glance > insurance');"><strong>INSURANCE</strong></a></span><br />
+        Auto and Home Insurance</p>
+        <p><span style="text-decoration: underline;"><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z" onclick="ga_event('about us', 'click', 'about us > seiu benefits at a glance > discounts');"><strong>DISCOUNTS</strong></a></span><br />
+        Magazine Subscription Discount</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+        -->
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Welcome to SEIU member benefits

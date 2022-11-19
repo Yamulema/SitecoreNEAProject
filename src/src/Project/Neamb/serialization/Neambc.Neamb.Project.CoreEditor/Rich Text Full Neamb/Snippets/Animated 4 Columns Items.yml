@@ -1,0 +1,72 @@
+﻿---
+ID: "cc699212-7412-4ac4-8275-41716d7db233"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Animated 4 Columns Items
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="animated-4-columns bg-gray new-design">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-centered text-center m-b-lg p-b-sm">
+                <h5>Support for educators all year long</h5>
+                <p>You can’t put a price on the advocacy provided by NEA Member Benefits. You’ll get peace of mind knowing we’re on your side – helping you with everything from resolving an issue with your accounts to helping you get back on your feet after a federally declared natural disaster. </p>
+                <p class="text-lg"><strong>Our mission is “making NEA members’ lives better.” We are here to serve you!</strong></p>
+              </div>
+            </div>
+            <div class="card-animated-container">
+              <div class="row">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card-animated text-center">
+                    <div class="icon-round">
+                      <img src="-/media/2bfed29f0dd84a1180c8839560cfe264.ashx" alt="">
+                    </div>
+                    <p>Adding more great benefits with trusted partners to meet your needs</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card-animated text-center">
+                    <div class="icon-round">
+                      <img src="-/media/54763d8b6fba49809caa7296a7b97946.ashx" alt="">
+                    </div>
+                    <p>Advocating for you through our knowledgeable call-center staff</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card-animated text-center">
+                    <div class="icon-round">
+                      <img src="-/media/a710f23ca77940e3b0b2cb38d16e2afb.ashx" alt="">
+                    </div>
+                    <p>Connecting with NEA members across the U.S. to help you maximize your benefits</p>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card-animated text-center">
+                    <div class="icon-round">
+                      <img src="-/media/dd46719620aa415baaeb8930a9b490e1.ashx" alt="">
+                    </div>
+                    <p>Improving our website regularly to give you a great online experience 24/7</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Animated 4 Columns Items

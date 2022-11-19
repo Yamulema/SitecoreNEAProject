@@ -1,0 +1,252 @@
+﻿---
+ID: "ab7afebd-c7c1-4214-9b49-6d659c1c1438"
+Parent: "5eb3a015-da58-4a58-94e5-ae7630d125fc"
+Template: "5eb3a015-da58-4a58-94e5-ae7630d125fc"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Contact Us/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "http://dev-seiumb.neamb.com/temp/iconcache/business/32x32/message.png"
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B497F700-68C9-40CC-8FC5-1B6ADF3D9961}
+    {D613828E-0662-45F9-9A35-D1C6C47271E8}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{888E3554-32C7-4BB9-9CEF-B719CEB07D0E}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{946C1DFD-ECCE-4729-A503-C99D73519FEC}" />
+        <r
+          ds="{320FB78C-3992-47D9-8820-98D5C6A58D2D}"
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{B1DE6F44-F372-43C5-8F97-F25DB30FE89B}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{FD3FABF1-EFE5-4D30-A6D8-47684AA50384}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{0737CDAA-35D9-42B3-8223-B2EB50D9D599}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{E7FF92C0-C3EA-4E31-8A5F-75F6C06E6428}" />
+        <r
+          id="{8C6DDB2D-7CCA-42C2-94D7-5A59146284D1}"
+          ph="body"
+          uid="{39B11536-DE13-4A23-933E-5AC380909916}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{C5D970EE-9637-45B6-B85C-BD7C50BCECD5}" />
+        <r
+          ds="{46D06DD7-8928-43F3-AC91-64FFC27778DC}"
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{EA4B726C-3870-427E-A2E6-F4263D291AC7}" />
+        <r
+          id="{E8A4D677-8320-4050-974E-9F52CC2FF699}"
+          ph="chat"
+          uid="{6EC496F0-6B84-4E01-A810-9822AD923524}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{EA4B726C-3870-427E-A2E6-F4263D291AC7}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="CCB1BDE64EB74467AAD16746EFBB106D"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Contact us by email: ask-us@seiumb.com
+        Contact us by phone: 1-844-836-7348
+        Contact us by mail: SEIU Member Benefits, 900 Clopper Rd., Ste. 300. Gaithersburg MD 20878-1356
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T203959Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "db4d7b10-e8d8-45cb-bd9e-daf95ee4cdd6"
+      Hint: Captcha Error
+      Value: Required field
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Contáctenos por correo electrónico: ask-us@seiumb.com
+        Contáctenos por teléfono: 1-844-836-7348
+        Contáctenos por correo postal: SEIU Member Benefits, 900 Clopper Rd., Ste. 300. Gaithersburg MD 20878-1356
+    - ID: "180734af-bcdb-419e-bc94-8292623ae4ea"
+      Hint: Placeholder
+      Value: "(___)___-____"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T233858Z
+    - ID: "2ac4ec02-e31b-4752-9b44-b7f39b2e0cc1"
+      Hint: Label
+      Value: Correo*
+    - ID: "3608c1ab-2bf4-4de8-a8b3-1a1030058ac1"
+      Hint: Asterisk
+      Value: * Denota campos obligatorios
+    - ID: "3ce45352-1cf6-47f5-a382-eb5d85c135bf"
+      Hint: Label
+      Value: Mensaje*
+    - ID: "5d18a973-914b-4335-a0b2-05ab2ec46c86"
+      Hint: Placeholder
+      Value: unión local
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "675032c5-db2b-4930-bc3d-23ae37e898c1"
+      Hint: Placeholder
+      Value: seleccione uno
+    - ID: "6fcf2ef9-9c7f-4b3c-a795-a53eb28991de"
+      Hint: Label
+      Value: Apellidos*
+    - ID: "718eeb75-d423-414e-b2b2-6715d9e7a575"
+      Hint: FormTitle
+      Value: Contáctenos
+    - ID: "73eb4dbb-cced-4b4e-9c53-804b65f9be37"
+      Hint: Title
+      Value: Contáctenos
+    - ID: "7dcb1f58-2ac8-4350-b18e-ebfd13d0ce8a"
+      Hint: Label
+      Value: Unión Local
+    - ID: "7e94c873-c754-4591-8f4e-079af3a0e1b7"
+      Hint: Label
+      Value: Nombre*
+    - ID: "7ee20e5b-ad0f-41a4-b39b-4e35f0be23c4"
+      Hint: Placeholder
+      Value: correo electrónico
+    - ID: "8279584a-91d9-4b0f-a37c-0806e637f60b"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su nombre
+    - ID: "9789d145-a95d-4c8d-bcde-b16e72025888"
+      Hint: Label
+      Value: Estado
+    - ID: "9dc70b5d-3ead-4b40-bdce-a967c5203d56"
+      Hint: ErrorMessage
+      Value: Por favor ingrese sus apellidos
+    - ID: "aa89f9ff-434d-4659-a434-c58638743b80"
+      Hint: SubmitButton
+      Value: Enviar
+    - ID: "ab35a653-a7a7-4b50-bc5f-74d1df829ec8"
+      Hint: ErrorMessage
+      Value: Por favor seleccione un asunto
+    - ID: "b3292186-70fc-47d8-8d99-d6672cf08cbf"
+      Hint: Label
+      Value: Asunto*
+    - ID: "b47671d4-f84a-4d52-ae71-a16ae6d448be"
+      Hint: Placeholder
+      Value: apellidos
+    - ID: "b6c6b959-722d-4852-a95e-277c7de15baf"
+      Hint: Placeholder
+      Value: nombre
+    - ID: "c7d3e622-2f70-4b51-893d-b8a8d5944627"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su número de teléfono
+    - ID: "df40e090-e8b1-45b2-8fa3-0aed26adec43"
+      Hint: Label
+      Value: Teléfono*
+    - ID: "e466ceb4-ba44-48d9-bb53-be61f96914d3"
+      Hint: Placeholder
+      Value: seleccione uno
+    - ID: "e4771df7-8b06-4bed-b2d8-a990f2668690"
+      Hint: ContactInfo
+      Value: |
+        
+                        <hr>
+                        <div class="row"> 
+                            
+                            <h5>Contáctenos por correo electrónico</h5>
+        
+        <p>ask-us@seiumb.com</p>
+        
+        <small>(Respondemos a la mayoría de mensajes en 3 días hábiles)</small>
+                        </div>
+                        <hr>
+                        <div class="row"> 
+                            
+                            <h5>Contáctenos por teléfono</h5>
+        
+        <p>1-844-836-7348</p>
+        <small>Lun-Vier 8 a.m. - 8 p.m. hora del Este,<br>
+        Sáb: 9 a.m. - 1 p.m. hora del Este</small>
+                        </div>
+                        <hr>
+                        <div class="row"> 
+                            
+                            <h5>Contáctenos por correo postal</h5>
+        
+        <address style="line-height: 21px;">SEIU Member Benefits<br>
+        900 Clopper Rd., Ste. 300<br>
+        Gaithersburg MD 20878-1356</address>
+                        </div>
+                        <hr>
+                        
+        
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Contáctenos
+    - ID: "f10f3068-a705-4e67-a08a-55264337b8d5"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su mensaje
+    - ID: "f50a411b-d6bc-4959-a554-e0e8a49bd1e8"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su correo electrónico

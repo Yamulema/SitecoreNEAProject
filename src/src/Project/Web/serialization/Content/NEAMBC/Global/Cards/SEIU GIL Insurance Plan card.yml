@@ -1,0 +1,303 @@
+﻿---
+ID: "dfa9fedd-8333-4093-a367-a91ca105642e"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU GIL Insurance Plan card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" alt="" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T152302Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{80B17BE6-7C85-4535-A477-2C2D01220917}" alt="Lady cleaning window" height="" width="" hspace="" vspace="" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Guaranteed Issue Life Insurance Plan</h3>
+        </div>
+        <p>Guaranteed coverage for members under 65.</p>
+        <p>If you were to pass away, your family members could be responsible for significant expenses including funeral costs, plus unexpected medical and legal bills.</p>
+        <ul>
+            <li>100% GUARANTEED acceptance</li>
+            <li>$10,000 coverage amount</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" alt="" height="" width="" hspace="" vspace="" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T154445Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{80B17BE6-7C85-4535-A477-2C2D01220917}" alt="Lady cleaning window" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210119T154445Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Guaranteed Issue Life Insurance Plan</h3>
+        </div>
+        <p>Guaranteed coverage for members under 65.</p>
+        <p>If you were to pass away, your family members could be responsible for significant expenses including funeral costs, plus unexpected medical and legal bills.</p>
+        <ul>
+            <li>100% GUARANTEED acceptance</li>
+            <li>$10,000 coverage amount</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" alt="" height="" width="" hspace="" vspace="" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T231314Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{80B17BE6-7C85-4535-A477-2C2D01220917}" alt="Lady cleaning window" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T231314Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Guaranteed Issue Life Insurance Plan</h3>
+        </div>
+        <p>Guaranteed coverage for members under age 65.</p>
+        <p>If you were to pass away, your family members could be responsible for significant expenses including funeral costs, plus unexpected medical and legal bills.</p>
+        <ul>
+            <li>100% GUARANTEED acceptance</li>
+            <li>$10,000 coverage amount</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" alt="" height="" width="" hspace="" vspace="" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T195620Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{80B17BE6-7C85-4535-A477-2C2D01220917}" alt="Lady cleaning window" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T195620Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Guaranteed Issue Life Insurance Plan</h3>
+        </div>
+        <p>Guaranteed coverage for members under age 65.</p>
+        <p>If you were to pass away, your family members could be responsible for significant expenses including funeral costs, plus unexpected medical and legal bills.</p>
+        <ul>
+            <li>100% GUARANTEED acceptance</li>
+            <li>$10,000 coverage amount</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T195437Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CB56B774-EEBF-438D-A1D1-583243BEF18F}" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro de vida con emisi&oacute;n garantizada SEIU</h3>
+        </div>
+        <p>Cobertura garantizada para miembros menores de 65 a&ntilde;os.</p>
+        <p>Si usted falleciera, sus familiares podr&iacute;an ser responsables de gastos importantes, que incluyen los costos del funeral, m&aacute;s facturas m&eacute;dicas y legales inesperadas.</p>
+        <ul>
+            <li>Aceptaci&oacute;n 100% GARANTIZADA</li>
+            <li>Monto de cobertura de $10,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T201840Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{80B17BE6-7C85-4535-A477-2C2D01220917}" />
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T201840Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro de vida con emisi&oacute;n garantizada SEIU</h3>
+        </div>
+        <p>Cobertura garantizada para miembros menores de 65 a&ntilde;os.</p>
+        <p>Si usted falleciera, sus familiares podr&iacute;an ser responsables de gastos importantes, que incluyen los costos del funeral, m&aacute;s facturas m&eacute;dicas y legales inesperadas.</p>
+        <ul>
+            <li>Aceptaci&oacute;n 100% GARANTIZADA</li>
+            <li>Monto de cobertura de $10,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T211708Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{80B17BE6-7C85-4535-A477-2C2D01220917}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T211708Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro de vida con emisión garantizada SEIU</h3>
+        </div>
+        <p>Cobertura garantizada para miembros menores de 65 años.</p>
+        <p>Si usted falleciera, sus familiares podrían ser responsables de gastos importantes, que incluyen los costos del funeral, más facturas médicas y legales inesperadas.</p>
+        <ul>
+            <li>Aceptación 100% GARANTIZADA</li>
+            <li>Monto de cobertura de $10,000</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">APRENDE MÁS</a></div>

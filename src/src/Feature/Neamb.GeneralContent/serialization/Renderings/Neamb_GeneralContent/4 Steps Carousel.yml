@@ -1,0 +1,31 @@
+﻿---
+ID: "7f8e8d08-b813-49f7-83ee-112c3789c1ae"
+Parent: "0a4b5ca9-42ad-4a6e-ad75-60987453292a"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_GeneralContent/4 Steps Carousel
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/NEAMB/Project/Web/Content Type/4 Steps Carousel
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/NEAMB/Global/4 Steps Carousel C078
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: FourStepsCarousel
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.GeneralContent.Controllers.FourStepsCarouselController, Neambc.Neamb.Feature.GeneralContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220613T210236Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,32 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.AttributionDto
+
+<div class="section attribution-wrapper @Model.CssStyle">
+    <div class="container">
+        <div class="col-md-9 col-centered">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    @if (!string.IsNullOrEmpty(Model.Author))
+                    {
+                        <p class="by">by @Model.Author</p>
+                    }
+                    <p class="date">@Model.PublishedDate</p>
+                </div>
+                @if (Model.SocialShare.ShowSocialShare)
+                {
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        @Html.Raw(Model.SocialShare.AddThisHtml)
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.SocialShare.ShowSocialShare)
+{
+    @Html.Raw(Model.SocialShare.AddThisJSContent)
+}

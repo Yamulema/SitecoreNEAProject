@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="HealthProgramRates" urlpath="/Landing%20Pages/NEA%20Retiree%20Health%20Program%20Rate%20Quote">
+      <sections>
+        <section name="Rates">
+          <controls>
+            <control key="Rates_Title"  xpath="//h1[@style='font-size: 2.25em;']"   />
+            <control key="Rates_image"  xpath="//img[@style='border:none;']"  />
+            <control key="Rates_States" xpath="//select[@id='stateSelect']"  />
+            <control key="Rates_Ages" xpath="//select[@id='rqage']"  />
+            <control key="Rates_Submit" xpath="//button[@id='submit']"  />
+          </controls>
+        </section>
+        <section name="Result">
+        <controls>
+          <control key="Result_Table"  xpath="//div[@id='table']"   />
+         </controls>
+        </section>
+        <section name="ZipCode">
+          <controls>
+            <control key="Rates_ZipCode"  xpath="//input[@id='rqzip']"   />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

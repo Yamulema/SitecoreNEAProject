@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="DuplicateReg">
+      <sections>
+        <section name="container">
+          <controls>
+            <control key="duplicateregistration_c_Title" xpath="//*[@id='screen1']/h2"  />
+            <control key="duplicateregistration_c_NewEmail" xpath="(//span[@class='checkmark'])[1]"  />
+            <control key="duplicateregistration_c_sendbutton" xpath="(//input[@type='submit'])"  />
+          </controls>
+        </section>
+
+        <section name="FormSection">
+          <controls>
+            <control key="duplicateregistration_s_applychanges" xpath="(//a[@class='btn btn-lg btn-blue btn-block'])[1]"  />
+            <control key="duplicateregistration_s_continue" xpath="//*[@id='screen3-placeholder2']"  />
+          </controls>
+        </section>
+
+      </sections>
+    </page>
+  </pages>
+</controldata>

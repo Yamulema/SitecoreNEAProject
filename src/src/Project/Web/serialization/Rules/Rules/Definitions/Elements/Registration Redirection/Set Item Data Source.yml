@@ -1,0 +1,25 @@
+﻿---
+ID: "4478acfe-051f-4e9a-8d1b-067f14325573"
+Parent: "86c57026-8438-402c-9743-64a34606bbb7"
+Template: "f90052a5-b4e6-4e6d-9812-1e1b88a6fcea"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Registration Redirection/Set Item Data Source
+DB: master
+SharedFields:
+- ID: "ff55d5a7-6d4b-4cd1-83e0-bac268073f66"
+  Hint: Type
+  Value: Neambc.Neamb.Foundation.MBCData.Managers.SetItemAction,Neambc.Neamb.Foundation.MBCData
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190426T172722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "eeb36a3b-40d9-4af5-862a-de257b84dca3"
+      Hint: Text
+      Value: "set the profile wizard data source to [DataSource,Tree,root=/sitecore/content/NEAMB/Home/Profile Wizards,Item]"

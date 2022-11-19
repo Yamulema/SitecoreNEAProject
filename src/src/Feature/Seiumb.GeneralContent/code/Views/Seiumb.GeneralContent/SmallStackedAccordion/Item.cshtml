@@ -1,0 +1,15 @@
+﻿@using Neambc.Seiumb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Seiumb.Feature.GeneralContent.Models.SmallStackedItem
+
+@if (Model.Item != null)
+{
+    <p class="accordion-title js-accordion-title" @Html.Raw(Model.OnClickEvent)>
+        @Html.Sitecore().Field(Templates.SmallAccordionItem.Fields.Header, Model.Item)
+    </p>
+    <div class="accordion-content">
+        <p>@Html.Sitecore().Field(Templates.SmallAccordionItem.Fields.Subhead, Model.Item)</p>
+    </div>
+    <!--/.accordion-content-->
+}

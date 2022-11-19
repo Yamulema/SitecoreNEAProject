@@ -1,0 +1,272 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Forms
+@using Sitecore.Data.Fields
+@using Sitecore.Links
+@using Neambc.Seiumb.Foundation.Authentication.Enums
+@using Neambc.Seiumb.Feature.Forms.Models
+
+@model Neambc.Seiumb.Feature.Forms.Models.DuplicateRegistrationFormModel
+
+@{
+    int username_does_not_exist = (int)AuthenticatePasswordErrors.USERNAME_DOES_NOT_EXIST;
+    int partner_error = (int)AuthenticatePasswordErrors.PARTNER_ERROR;
+    int username_password_not_match = (int)AuthenticatePasswordErrors.USERNAME_PASSWORD_NOT_MATCH;
+    int validate_error = (int)AuthenticatePasswordErrors.VALIDATE_ERROR;
+
+    string screen2_message1 = Model.Item.Fields[Templates.DuplicateRegistrationTemplate.Fields.SelectedEmail].Value;
+    string screen2_message2 = Model.Item.Fields[Templates.DuplicateRegistrationTemplate.Fields.UnselectedEmails].Value;
+    string[] screen2_intro1 = screen2_message1.Split('|');
+    string[] screen2_intro2 = screen2_message2.Split('|');
+
+    LinkField thankYouField = Model.Item.Fields[Templates.DuplicateRegistrationTemplate.Fields.ContinueButton];
+    string thankYouUrl = "";
+
+    if (String.IsNullOrEmpty(Model.RedirectAction))
+    {
+        thankYouUrl = LinkManager.GetItemUrl(Sitecore.Context.Database.GetItem(thankYouField.TargetItem.ID));
+    }
+    else
+    {
+        thankYouUrl = String.Format("{0}?redirect={1}", LinkManager.GetItemUrl(Sitecore.Context.Database.GetItem(thankYouField.TargetItem.ID)), HttpUtility.UrlEncode(Model.RedirectAction));
+    }
+}
+
+<div class="row" style="border-bottom: 1px solid #4f2e84;">
+    <div class="small-12 medium-9 large-9 columns float-right">
+        <div class="row">
+            @Html.Sitecore().Placeholder("registration-banner")
+        </div>
+    </div>
+    <div class="show-for-medium medium-3 large-3 columns float-right">
+        <div id="shedron">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <br />
+    <div style="margin:20px;">
+        <!--START OF SCREEN 1-->
+        <div id="screen1">
+            <h4>@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.Title, Model.Item)</h4>
+            <hr />
+            <form name="selectOneRegistration" id="selectOneRegistration" action="/api/DuplicateRegistrationForm/FormSubmit" method="post">
+                @Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.General_Intro, Model.Item)
+                <hr />
+                <div>
+                    @{
+                        string accountInfo = Model.Item.Fields[Templates.DuplicateRegistrationTemplate.Fields.AccountInfo].Value;
+                        string[] accInfo = accountInfo.Split('|');
+                        foreach (EmailDuplicate userData in Model.EmailList)
+                        {
+                            if (userData == null)
+                            {
+                                continue;
+                            }
+
+                            string date = (DateTime.ParseExact(userData.Dob, "MMddyyyy", System.Globalization.CultureInfo.InvariantCulture)).ToString("MM/dd/yyyy");
+                            if (!string.IsNullOrEmpty(userData.Email) && userData.Email.Trim().Equals(Model.CurrentEmail.Trim()))
+                            {
+                                <input type="radio" name="selectedid" value="@userData.Email" onclick="hidePasswordBlock()" checked="checked">
+                                <b>@userData.Email</b>
+                                <p>@accInfo[0]&nbsp;@userData.FirstName&nbsp;@userData.LastName&nbsp;@accInfo[1]&nbsp;@date&nbsp;@accInfo[2]</p>
+                                <hr />
+                                <p style="color:#0039AE">@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.Explanation, Model.Item)</p>
+                            }
+                            else
+                            {
+                                <input type="radio" name="selectedid" value="@userData.Email" onclick="showPasswordBlock()">
+                                <b>@userData.Email</b>
+                                <p>@accInfo[0]&nbsp;@userData.FirstName&nbsp;@userData.LastName&nbsp;@accInfo[1]&nbsp;@date&nbsp;@accInfo[2]</p>
+                            }
+                        }
+                    }
+
+                </div>
+                <div id="passwordBlock" style="display:none">
+                    <hr /><br />
+                    @Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.Password, Model.Item)&nbsp;<span id="temp" style="color:#0039AE;font-weight:bold"></span>&nbsp;
+                    <input type="password" id="password" name="password" style="display:inline;width:auto;" />
+                    <br />
+                    <span id="passworderror" style="color:red"></span>
+                </div>
+                <center>
+                    <a class="secondary button round" onclick="checkPassword();" src="/assets/images/buttons/UseThisEmail_Btn.gif" style="" href="javascript:void(0);">@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.SubmitButton, Model.Item)</a>
+                </center>
+            </form>
+        </div>
+        <!--END OF SCREEN 1-->
+        <!--START OF SCREEN 2-->
+        <div id="screen2" style="display:none">
+            <h4>@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.Title, Model.Item)</h4>
+            <hr />
+            <br />
+            @screen2_intro1[0]&nbsp;<b><span id="screen2-placeholder1" style="color:#0039AE"></span></b>&nbsp;@screen2_intro1[1]
+            <br /><br />
+            @screen2_intro2[0]<b><span id="screen2-placeholder2"></span></b>@screen2_intro2[1]<br /><br />
+            <center>
+                <a href="javascript:void(0);" class="secondary button round" onclick="goAjaxIds();" style="margin-bottom: 8px;">@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.ApplyChanges, Model.Item)</a>
+                <br />
+                <br />
+                <a href="javascript:void(0);" class="secondary button round" onclick="showScreen1();">@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.SelectOther, Model.Item)</a>
+            </center>
+            <br />
+        </div>
+        <!--END OF SCREEN 2-->
+        <!--START OF SCREEN 3-->
+        <div id="screen3" style="display:none">
+            <h4>@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.Confirmation_Title, Model.Item)</h4>
+            <hr />
+            <br />
+            @{
+                string confirmationText = Model.Item.Fields[Templates.DuplicateRegistrationTemplate.Fields.Username].Value;
+                var confirmationTextReplaced = confirmationText.Replace("|", "<b><span id='screen3-placeholder1' style='color:#0039AE'></span></b>");
+                @Html.Raw(confirmationTextReplaced);
+            }
+            @*@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.Username, Model.Item) 
+            <b><span id="screen3-placeholder1" style="color:#0039AE"></span></b>*@<br /><br />
+            <center>
+                <a class="secondary button round" id="screen3-placeholder2" style="display:none" href="@thankYouUrl" onclick="goLogin('@thankYouUrl');return false;">@thankYouField.Text</a>
+            </center>
+            <br />
+        </div>
+        <!--END OF SCREEN 3-->
+        <!-- START OF PLEASE WAIT SCREEN 4 -->
+        <div id="screen4" style="display:none">
+            <br />
+            <center>
+                @Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.LoaderImage, Model.Item, new { @style = "vertical-align:middle;margin-right:10px" })
+                <span id="waitingmessage" style="font-weight:bold"></span>
+            </center>
+            <br />
+        </div>
+        <!-- END OF PLEASE WAIT SCREEN 4 -->
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    // -------------------------------------------------------------------------------------------------------
+    function showScreen2() {
+        for (var i = 0; i < document.selectOneRegistration.selectedid.length; i++) {
+            if (document.selectOneRegistration.selectedid[i].checked == true)
+                document.getElementById("screen2-placeholder1").innerHTML = document.selectOneRegistration.selectedid[i].value;
+        }
+        for (var i = 0; i < document.selectOneRegistration.selectedid.length; i++) {
+            if (document.selectOneRegistration.selectedid[i].checked == false)
+                document.getElementById("screen2-placeholder2").innerHTML += document.selectOneRegistration.selectedid[i].value + ", ";
+        }
+        document.getElementById("screen1").style.display = "none";
+        document.getElementById("screen2").style.display = "block";
+        document.getElementById("screen4").style.display = "none";
+    }
+    // -------------------------------------------------------------------------------------------------------
+    function showScreen1() {
+        document.getElementById("screen2-placeholder1").innerHTML = "";
+        document.getElementById("screen2-placeholder2").innerHTML = "";
+        document.getElementById("screen1").style.display = "block";
+        document.getElementById("screen2").style.display = "none";
+        document.getElementById("screen3").style.display = "none";
+        document.getElementById("screen4").style.display = "none";
+    }
+    // -------------------------------------------------------------------------------------------------------
+    function showPasswordBlock() {
+        for (var j = 0; j < document.selectOneRegistration.selectedid.length; j++) {
+            if (document.selectOneRegistration.selectedid[j].checked == true)
+                document.getElementById("temp").innerHTML = document.selectOneRegistration.selectedid[j].value;
+        }
+        document.getElementById("passwordBlock").style.display = "block";
+    }
+    // -------------------------------------------------------------------------------------------------------
+    function hidePasswordBlock() {
+        document.getElementById("passwordBlock").style.display = "none";
+        $("#passworderror").empty();
+    }
+    // -------------------------------------------------------------------------------------------------------
+    var returnID = "";
+    var qstring = "";
+    function checkPassword() {
+        $("#passworderror").empty();
+        var passwordBlockVisible = $("#passwordBlock").is(":visible");
+
+        if (($("#password").val().trim() != "" && passwordBlockVisible) || !passwordBlockVisible) {
+            var selectedID = "";
+            for (var j = 0; j < document.selectOneRegistration.selectedid.length; j++) {
+                if (document.selectOneRegistration.selectedid[j].checked == true)
+                    selectedID = document.selectOneRegistration.selectedid[j].value;
+            }
+            var preAjaxLoginId = "@Model.CurrentEmail";
+            if (preAjaxLoginId == selectedID) {
+                showScreen2();
+                return;
+            }
+            qstring = "username=" + selectedID + "&password=" + document.getElementById("password").value;
+            showScreen4("@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.General_Loader, Model.Item)");
+            var url = "/api/DuplicateRegistrationForm/CheckPassword";
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: qstring,
+                success: function (response) {
+                    if (response.Response == 0) {
+                        // ALL OK CASE
+                        showScreen2();
+                    }
+                    else {
+
+                        switch (response.Response) {
+                            case @username_password_not_match:
+                                document.getElementById("passworderror").innerHTML = "@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.InvalidCurrentPassword, Model.Item)";
+                                break;
+                            case @username_does_not_exist:
+                                document.getElementById("passworderror").innerHTML = "@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.InvalidCurrentPassword, Model.Item)";
+                                break;
+                            case @partner_error:
+                                document.getElementById("passworderror").innerHTML = "@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.InvalidCurrentPassword, Model.Item)";
+                                break;
+                            case @validate_error:
+                                document.getElementById("passworderror").innerHTML = "@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.InvalidCurrentPassword, Model.Item)";
+                                break;
+                        }
+                        showScreen1();
+                    }
+                }
+            });
+        }
+        else if ($("#password").val().trim() == "" && passwordBlockVisible) {
+            document.getElementById("passworderror").innerHTML = "@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.EmptyPassword, Model.Item)";
+        }
+    }
+    function goAjaxIds() {
+        document.getElementById("screen2").style.display = "none";
+        showScreen4("@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.General_Loader,Model.Item)");
+        var screen3html = "";
+        var preAjaxLoginId = "@Model.CurrentEmail";
+
+        $('#selectOneRegistration').ajaxSubmit(function (response) {
+            if (response.errors != null && response.errors.length > 0) {
+                document.getElementById("passworderror").innerHTML = "@Html.Sitecore().Field(Templates.DuplicateRegistrationTemplate.Fields.Error, Model.Item)";
+                showScreen1();
+            } else {
+                returnID = response.selectedUser;
+                showScreen3();
+            }
+        });
+    }
+    function showScreen3() {
+        document.getElementById("screen3-placeholder1").innerHTML = returnID;
+        var preAjaxLoginId = "@Model.CurrentEmail";
+        if (preAjaxLoginId == returnID)
+            document.getElementById("screen3-placeholder2").style.display = "inline";
+        else
+            document.getElementById("screen3-placeholder2").style.display = "inline";
+        document.getElementById("screen2").style.display = "none";
+        document.getElementById("screen4").style.display = "none";
+        document.getElementById("screen3").style.display = "block";
+    }
+    // -------------------------------------------------------------------------------------------------------
+    function showScreen4(str) {
+        document.getElementById("waitingmessage").innerHTML = str;
+        document.getElementById("screen4").style.display = "block";
+    }
+// -------------------------------------------------------------------------------------------------------
+</script>

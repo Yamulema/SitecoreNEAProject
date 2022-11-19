@@ -1,0 +1,288 @@
+﻿---
+ID: "15194603-6cfd-4f09-b31e-2861a6920f2d"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/6 Reasons Why You Probably Need a Financial Advisor
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 3700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{955E7C72-7128-49D0-BCC6-3B5582F750C7}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Got a good grip on your finances for today, tomorrow and the rest of your life? Neither do we. But we know who can help: a financial advisor.
+        Financial advisors are educated professionals who analyze your financial health, identify potential gaps and provide the tools to help you make decisions to meet your short- and long-term financial goals. While you may feel confident about managing money on your own, an advisor can take an objective look at an often emotionally charged topic. Just as you might call attorneys, doctors or auto mechanics because of their education and expertise, a financial advisor has the skills to help you make the most of your financial life.
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="6 Reasons Why You (Probably) Need a Financial Advisor" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2CED2C-5B1E-4FB0-B38D-AEF82DFC1059}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Got a good grip on your finances for today, tomorrow and the rest of your life? Neither do we. But we know who can help: a financial advisor.</p>
+        <p>Financial advisors are educated professionals who analyze your financial health, identify potential gaps and provide the tools to help you make decisions to meet your short- and long-term financial goals. While you may feel confident about managing money on your own, an advisor can take an objective look at an often emotionally charged topic. Just as you might call attorneys, doctors or auto mechanics because of their education and expertise, a financial advisor has the skills to help you make the most of your financial life.</p>
+        <p>Here are six scenarios that could be cause to call in a pro.</p>
+        <p><strong>1. Just starting out. </strong>If you&rsquo;re out of school and entering the full-time workforce for the first time, you may need to plan goals like creating a workable budget, paying off student debt and saving for a down payment on a home. An advisor can help you start on the right foot.</p>
+        <p><strong>2. Out of control. </strong>If you feel your financial life is getting beyond your control&mdash;maybe you have growing debt, no savings or simply have trouble managing your day-to-day cash flow&mdash;it&rsquo;s time to get a professional opinion on why your finances are out of hand. Advisors don't need you to "have it together;" in fact, it&rsquo;s just the opposite. They can help you tame your finances no matter what shape you&rsquo;re in.</p>
+        <p><strong>3. And baby makes</strong>&hellip;If you&rsquo;re further along in life, you likely have other responsibilities&mdash;and potential worries. If you have kids, chances are you&rsquo;re concerned about paying for their education, let alone their upbringing. You might wonder if you and your spouse or partner have enough life insurance (just in case) or if you&rsquo;re making the most of tax rules. Your advisor can help you navigate these concerns with advice on  investments, retirement planning and (later on) estate planning.</p>
+        <p><strong>4. Nothin&rsquo; but debt.</strong> You may find yourself living a lifestyle that exceeds your income. Maybe you&rsquo;re frequently using credit cards for general purchases but unable to pay the balance in full each month. Perhaps unexpected expenses seem to always come up and force you to pay with plastic. These could be signs that it&rsquo;s time to get outside help. A financial advisor can pinpoint where your money is going and help you get organized. They can show you how short-term expenditures impact your long-term goals, and get you back on track.</p>
+        <p><strong>5. Ch-ch-ch-ch-changes.</strong> If you&rsquo;ve experienced a major life change such as marriage, birth (or adoption) of children or loss of a spouse or other loved one, don&rsquo;t wait for things to "settle down" on their own to start planning (they never seem to). A financial advisor can help you make wise financial decisions amid the chaos&mdash;and help you get on with your life.</p>
+        <p><strong>6. You&rsquo;re not rich (or famous).</strong> Financial advisors are like personal trainers for your finances&mdash;no matter how many zeroes are on your bank statement. Qualified advisors will help you determine the right path to get you from where you are to where you want to be. They&rsquo;ll help you negotiate the tough financial aspects of life, and keep you accountable so you can feel comfortable about your future.</p>
+        <p><strong>Bottom Line</strong></p>
+        <p>Many people think financial advisors merely make the rich richer&mdash;but a qualified pro can help you at any stage of your financial life. It can be hard to admit you need help, but the alternative can be a hard, costly lesson. Take pride in your determination to master your money, and take advantage of what a financial advisor can teach you: solid skills you can use for a lifetime.</p>
+        <p>1022888-00001-00</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{955E7C72-7128-49D0-BCC6-3B5582F750C7}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Got a good grip on your finances for today, tomorrow and the rest of your life? Neither do we. But we know who can help: a financial advisor.
+        Financial advisors are educated professionals who analyze your financial health, identify potential gaps and provide the tools to help you make decisions to meet your short- and long-term financial goals. While you may feel confident about managing money on your own, an advisor can take an objective look at an often emotionally charged topic. Just as you might call attorneys, doctors or auto mechanics because of their education and expertise, a financial advisor has the skills to help you make the most of your financial life.
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T151428Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T151428Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="6 Reasons Why You (Probably) Need a Financial Advisor" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2CED2C-5B1E-4FB0-B38D-AEF82DFC1059}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Got a good grip on your finances for today, tomorrow and the rest of your life? Neither do we. But we know who can help: a financial advisor.</p>
+        <p>Financial advisors are educated professionals who analyze your financial health, identify potential gaps and provide the tools to help you make decisions to meet your short- and long-term financial goals. While you may feel confident about managing money on your own, an advisor can take an objective look at an often emotionally charged topic. Just as you might call attorneys, doctors or auto mechanics because of their education and expertise, a financial advisor has the skills to help you make the most of your financial life.</p>
+        <p>Here are six scenarios that could be cause to call in a pro.</p>
+        <p><strong>1. Just starting out. </strong>If you&rsquo;re out of school and entering the full-time workforce for the first time, you may need to plan goals like creating a workable budget, paying off student debt and saving for a down payment on a home. An advisor can help you start on the right foot.</p>
+        <p><strong>2. Out of control. </strong>If you feel your financial life is getting beyond your control&mdash;maybe you have growing debt, no savings or simply have trouble managing your day-to-day cash flow&mdash;it&rsquo;s time to get a professional opinion on why your finances are out of hand. Advisors don't need you to "have it together;" in fact, it&rsquo;s just the opposite. They can help you tame your finances no matter what shape you&rsquo;re in.</p>
+        <p><strong>3. And baby makes</strong>&hellip;If you&rsquo;re further along in life, you likely have other responsibilities&mdash;and potential worries. If you have kids, chances are you&rsquo;re concerned about paying for their education, let alone their upbringing. You might wonder if you and your spouse or partner have enough life insurance (just in case) or if you&rsquo;re making the most of tax rules. Your advisor can help you navigate these concerns with advice on  investments, retirement planning and (later on) estate planning.</p>
+        <p><strong>4. Nothin&rsquo; but debt.</strong> You may find yourself living a lifestyle that exceeds your income. Maybe you&rsquo;re frequently using credit cards for general purchases but unable to pay the balance in full each month. Perhaps unexpected expenses seem to always come up and force you to pay with plastic. These could be signs that it&rsquo;s time to get outside help. A financial advisor can pinpoint where your money is going and help you get organized. They can show you how short-term expenditures impact your long-term goals, and get you back on track.</p>
+        <p><strong>5. Ch-ch-ch-ch-changes.</strong> If you&rsquo;ve experienced a major life change such as marriage, birth (or adoption) of children or loss of a spouse or other loved one, don&rsquo;t wait for things to "settle down" on their own to start planning (they never seem to). A financial advisor can help you make wise financial decisions amid the chaos&mdash;and help you get on with your life.</p>
+        <p><strong>6. You&rsquo;re not rich (or famous).</strong> Financial advisors are like personal trainers for your finances&mdash;no matter how many zeroes are on your bank statement. Qualified advisors will help you determine the right path to get you from where you are to where you want to be. They&rsquo;ll help you negotiate the tough financial aspects of life, and keep you accountable so you can feel comfortable about your future.</p>
+        <p><strong>Bottom Line</strong></p>
+        <p>Many people think financial advisors merely make the rich richer&mdash;but a qualified pro can help you at any stage of your financial life. It can be hard to admit you need help, but the alternative can be a hard, costly lesson. Take pride in your determination to master your money, and take advantage of what a financial advisor can teach you: solid skills you can use for a lifetime.</p>
+        <p>1022888-00001-00</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{85E847E7-FA88-4920-8A68-C2DB311D0D33}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Tienes bajo control tus finanzas para hoy, mañana y el resto de tu vida? Nosotros tampoco. Pero sabemos quién puede ayudarte: un asesor financiero.
+        Los asesores financieros son profesionales calificados que analizan tu salud financiera, identifican posibles brechas y proporcionan las herramientas para ayudarte a tomar decisiones que te permitan alcanzar tus objetivos financieros de corto, mediano y largo plazo. Mientras que puedes sentirte seguro sobre cómo administrar el dinero por tu cuenta, un asesor puede brindarte una mirada objetiva sobre un tema a menudo emocionalmente complejo. Así como podrías llamar a abogados, doctores o mecánicos de automóvil por su educación y experiencia, un asesor financiero tiene las habilidades para ayudarte a sacar el máximo partido de tu vida financiera.
+        A continuación te presentamos seis escenarios que podrían ser la causa para llamar a un profesional...
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B2CED2C-5B1E-4FB0-B38D-AEF82DFC1059}" alt="Seis razones por las que (probablemente) necesitas un asesor financiero" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>&iquest;Tienes bajo control tus finanzas para hoy, ma&ntilde;ana y el resto de tu vida? Nosotros tampoco. Pero sabemos qui&eacute;n puede ayudarte: un asesor financiero.</p>
+        <p>Los asesores financieros son profesionales calificados que analizan tu salud financiera, identifican posibles brechas y proporcionan las herramientas para ayudarte a tomar decisiones que te permitan alcanzar tus objetivos financieros de corto, mediano y largo plazo. Mientras que puedes sentirte seguro sobre c&oacute;mo administrar el dinero por tu cuenta, un asesor puede brindarte una mirada objetiva sobre un tema a menudo emocionalmente complejo. As&iacute; como podr&iacute;as llamar a abogados, doctores o mec&aacute;nicos de autom&oacute;vil por su educaci&oacute;n y experiencia, un asesor financiero tiene las habilidades para ayudarte a sacar el m&aacute;ximo partido de tu vida financiera.</p>
+        <p>A continuaci&oacute;n te presentamos seis escenarios que podr&iacute;an ser la causa para llamar a un profesional...</p>
+        <p><strong>1. Acabas de empezar.</strong> Si est&aacute;s reci&eacute;n egresado de la universidad e ingresando en la fuerza laboral a tiempo completo por primera vez, puede que necesites planificar objetivos como crear un presupuesto viable, pagando la deuda estudiantil y ahorrando para el pago inicial de una vivienda. Un asesor puede ayudarte a empezar con el pie derecho.</p>
+        <p><strong>2. Fuera de control.</strong> Si sientes que tu vida financiera est&aacute; yendo m&aacute;s all&aacute; de tu control (quiz&aacute;s tienes una deuda creciente, no tienes ning&uacute;n ahorro, o simplemente tienes problemas para gestionar tu flujo diario de dinero en efectivo) es el momento de obtener una opini&oacute;n profesional sobre por qu&eacute; tus finanzas est&aacute;n fuera de control. Los asesores no necesitan que &ldquo;lo tengas claro&rdquo;; de hecho, es justamente lo contrario, ellos est&aacute;n para ayudarte a controlar tus finanzas sin importar el estado en que se encuentren.</p>
+        <p><strong>3. Y llegan los beb&eacute;s</strong>...Si vas m&aacute;s adelante en la vida, es probable que tengas otras responsabilidades y posibles obligaciones. Si tienes hijos, lo m&aacute;s seguro es que est&eacute;s preocupado por pagar su educaci&oacute;n, por no hablar de su crianza. Puede que te preguntes si t&uacute; y tu c&oacute;nyuge (o pareja) tienen un seguro de vida suficiente (solo por si acaso), o si est&aacute;n obteniendo el mayor provecho de las normas de impuestos. Tu asesor puede ayudarte a entender estos asuntos con asesoramiento sobre inversiones, planificaci&oacute;n de jubilaci&oacute;n y (m&aacute;s adelante) planificaci&oacute;n de sucesiones.</p>
+        <p><strong>4. Nada m&aacute;s que deudas.</strong> Puede que te encuentres llevando un estilo de vida que excede tu ingreso. Tal vez est&aacute;s usando frecuentemente tarjetas de cr&eacute;dito para las compras generales, pero no puedes pagar el saldo completo cada mes. Quiz&aacute;s los gastos inesperados parecen venir siempre, oblig&aacute;ndote a pagar con esas tarjetas de cr&eacute;dito. Estos podr&iacute;an ser signos de que es el momento de conseguir ayuda externa. Un asesor financiero puede determinar a d&oacute;nde va tu dinero, ayudando a organizarte. Ellos pueden mostrarte c&oacute;mo los gastos a corto plazo afectan tus metas de largo plazo y ayudarte de nuevo a tomar el rumbo adecuado.</p>
+        <p><strong>5. Cambios.</strong> Si has experimentado un cambio importante en la vida, como el matrimonio, nacimiento (o adopci&oacute;n) de un hijo, o la p&eacute;rdida de un c&oacute;nyuge o de otro ser querido, no esperes a que las cosas &ldquo;se calmen&rdquo; por s&iacute; mismas para empezar a planificar (ellas nunca parecen hacerlo). Un asesor financiero puede ayudarte a tomar decisiones financieras inteligentes en medio del caos (y ayudarte a seguir con tu vida).</p>
+        <p><strong>6. No eres rico (ni famoso).</strong> Los asesores financieros son como entrenadores personales para tus finanzas (sin importar cu&aacute;ntos ceros hay en tu cuenta bancaria). Los asesores calificados te ayudar&aacute;n a determinar el camino correcto para llegar desde donde est&aacute;s hasta donde deseas llegar. Ellos te ayudar&aacute;n a negociar los aspectos financieros dif&iacute;ciles de la vida y mantenerte informado para que as&iacute; puedas sentirte c&oacute;modo sobre tu futuro.</p>
+        <p><strong>En resumen</strong></p>
+        <p>Muchas personas piensan que los asesores financieros solo enriquecen a los ricos, pero un profesional calificado puede ayudarte en cualquier etapa de tu vida financiera. Puede ser dif&iacute;cil admitir que se necesita ayuda, pero la alternativa puede ser dura y costosa la lecci&oacute;n. Si&eacute;ntete orgulloso de tu determinaci&oacute;n para controlar tus finanzas, y saca ventaja de lo que un asesor financiero te puede ense&ntilde;ar: habilidades s&oacute;lidas que te servir&aacute;n para toda la vida.</p>
+        <p>1022888-00001-00</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{85E847E7-FA88-4920-8A68-C2DB311D0D33}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Tienes bajo control tus finanzas para hoy, mañana y el resto de tu vida? Nosotros tampoco. Pero sabemos quién puede ayudarte: un asesor financiero.
+        Los asesores financieros son profesionales calificados que analizan tu salud financiera, identifican posibles brechas y proporcionan las herramientas para ayudarte a tomar decisiones que te permitan alcanzar tus objetivos financieros de corto, mediano y largo plazo. Mientras que puedes sentirte seguro sobre cómo administrar el dinero por tu cuenta, un asesor puede brindarte una mirada objetiva sobre un tema a menudo emocionalmente complejo. Así como podrías llamar a abogados, doctores o mecánicos de automóvil por su educación y experiencia, un asesor financiero tiene las habilidades para ayudarte a sacar el máximo partido de tu vida financiera.
+        A continuación te presentamos seis escenarios que podrían ser la causa para llamar a un profesional...
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T152542Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T152542Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B2CED2C-5B1E-4FB0-B38D-AEF82DFC1059}" alt="Seis razones por las que (probablemente) necesitas un asesor financiero" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>&iquest;Tienes bajo control tus finanzas para hoy, ma&ntilde;ana y el resto de tu vida? Nosotros tampoco. Pero sabemos qui&eacute;n puede ayudarte: un asesor financiero.</p>
+        <p>Los asesores financieros son profesionales calificados que analizan tu salud financiera, identifican posibles brechas y proporcionan las herramientas para ayudarte a tomar decisiones que te permitan alcanzar tus objetivos financieros de corto, mediano y largo plazo. Mientras que puedes sentirte seguro sobre c&oacute;mo administrar el dinero por tu cuenta, un asesor puede brindarte una mirada objetiva sobre un tema a menudo emocionalmente complejo. As&iacute; como podr&iacute;as llamar a abogados, doctores o mec&aacute;nicos de autom&oacute;vil por su educaci&oacute;n y experiencia, un asesor financiero tiene las habilidades para ayudarte a sacar el m&aacute;ximo partido de tu vida financiera.</p>
+        <p>A continuaci&oacute;n te presentamos seis escenarios que podr&iacute;an ser la causa para llamar a un profesional...</p>
+        <p><strong>1. Acabas de empezar.</strong> Si est&aacute;s reci&eacute;n egresado de la universidad e ingresando en la fuerza laboral a tiempo completo por primera vez, puede que necesites planificar objetivos como crear un presupuesto viable, pagando la deuda estudiantil y ahorrando para el pago inicial de una vivienda. Un asesor puede ayudarte a empezar con el pie derecho.</p>
+        <p><strong>2. Fuera de control.</strong> Si sientes que tu vida financiera est&aacute; yendo m&aacute;s all&aacute; de tu control (quiz&aacute;s tienes una deuda creciente, no tienes ning&uacute;n ahorro, o simplemente tienes problemas para gestionar tu flujo diario de dinero en efectivo) es el momento de obtener una opini&oacute;n profesional sobre por qu&eacute; tus finanzas est&aacute;n fuera de control. Los asesores no necesitan que &ldquo;lo tengas claro&rdquo;; de hecho, es justamente lo contrario, ellos est&aacute;n para ayudarte a controlar tus finanzas sin importar el estado en que se encuentren.</p>
+        <p><strong>3. Y llegan los beb&eacute;s</strong>...Si vas m&aacute;s adelante en la vida, es probable que tengas otras responsabilidades y posibles obligaciones. Si tienes hijos, lo m&aacute;s seguro es que est&eacute;s preocupado por pagar su educaci&oacute;n, por no hablar de su crianza. Puede que te preguntes si t&uacute; y tu c&oacute;nyuge (o pareja) tienen un seguro de vida suficiente (solo por si acaso), o si est&aacute;n obteniendo el mayor provecho de las normas de impuestos. Tu asesor puede ayudarte a entender estos asuntos con asesoramiento sobre inversiones, planificaci&oacute;n de jubilaci&oacute;n y (m&aacute;s adelante) planificaci&oacute;n de sucesiones.</p>
+        <p><strong>4. Nada m&aacute;s que deudas.</strong> Puede que te encuentres llevando un estilo de vida que excede tu ingreso. Tal vez est&aacute;s usando frecuentemente tarjetas de cr&eacute;dito para las compras generales, pero no puedes pagar el saldo completo cada mes. Quiz&aacute;s los gastos inesperados parecen venir siempre, oblig&aacute;ndote a pagar con esas tarjetas de cr&eacute;dito. Estos podr&iacute;an ser signos de que es el momento de conseguir ayuda externa. Un asesor financiero puede determinar a d&oacute;nde va tu dinero, ayudando a organizarte. Ellos pueden mostrarte c&oacute;mo los gastos a corto plazo afectan tus metas de largo plazo y ayudarte de nuevo a tomar el rumbo adecuado.</p>
+        <p><strong>5. Cambios.</strong> Si has experimentado un cambio importante en la vida, como el matrimonio, nacimiento (o adopci&oacute;n) de un hijo, o la p&eacute;rdida de un c&oacute;nyuge o de otro ser querido, no esperes a que las cosas &ldquo;se calmen&rdquo; por s&iacute; mismas para empezar a planificar (ellas nunca parecen hacerlo). Un asesor financiero puede ayudarte a tomar decisiones financieras inteligentes en medio del caos (y ayudarte a seguir con tu vida).</p>
+        <p><strong>6. No eres rico (ni famoso).</strong> Los asesores financieros son como entrenadores personales para tus finanzas (sin importar cu&aacute;ntos ceros hay en tu cuenta bancaria). Los asesores calificados te ayudar&aacute;n a determinar el camino correcto para llegar desde donde est&aacute;s hasta donde deseas llegar. Ellos te ayudar&aacute;n a negociar los aspectos financieros dif&iacute;ciles de la vida y mantenerte informado para que as&iacute; puedas sentirte c&oacute;modo sobre tu futuro.</p>
+        <p><strong>En resumen</strong></p>
+        <p>Muchas personas piensan que los asesores financieros solo enriquecen a los ricos, pero un profesional calificado puede ayudarte en cualquier etapa de tu vida financiera. Puede ser dif&iacute;cil admitir que se necesita ayuda, pero la alternativa puede ser dura y costosa la lecci&oacute;n. Si&eacute;ntete orgulloso de tu determinaci&oacute;n para controlar tus finanzas, y saca ventaja de lo que un asesor financiero te puede ense&ntilde;ar: habilidades s&oacute;lidas que te servir&aacute;n para toda la vida.</p>
+        <p>1022888-00001-00</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero

@@ -1,0 +1,217 @@
+﻿@using Neambc.Neamb.Feature.Account.Enums
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Foundation.Authentication
+@using Neambc.Seiumb.Foundation.Authentication.Enums
+
+@model Neambc.Seiumb.Feature.Forms.Models.LoginMobileFormModel
+@{
+    var emailPlaceholder = Model.Item.Fields[Templates.LoginForm.Fields.EmailPlaceholder].Value;
+    var passwordPlaceholder = Model.Item.Fields[Templates.LoginForm.Fields.PasswordPlaceholder].Value;
+}
+<script type="text/javascript" language="javascript">
+    window.onload = function () {
+        document.getElementById('logiccta').value = '1';
+        setvariables('@Model.ActionUrl', '@Model.ActionKind', '@Model.ActionTitle', '@Model.ActionProcedurePar1', '@Model.ActionProcedurePar2','@Model.MaterialId','@Model.ProductName','@Model.ActionType', '@Model.Contextitemid','@Model.Calllinkid','@Model.Actiontarget','@Model.Postparameterid');
+    };
+</script>
+<div class="row" style="border-bottom: 1px solid #4f2e84;">
+    <div class="small-12 medium-12 large-12 columns">
+        <div class="row">
+            @Html.Sitecore().Placeholder("login-banner")
+        </div>
+    </div>
+</div>
+
+<div id="loginMobile" class="row">
+    @if (Model.LoginAjaxProcess == LoginAjaxEnum.None)
+    {
+        <text>@Html.Raw("<form class='custom' id='login-form-mobile' method='post' data-abide novalidate>")</text>
+    }
+
+    <div style="border-right: 1px solid #cacaca;" class="small-12 medium-6 large-6 columns">
+        <div class="row show-for-small-only">
+            <div data-abide-error class="callout alert" style="display: none;">
+                @Html.Sitecore().Field(Templates.LoginForm.Fields.EmptyField, Model.Item)
+            </div>
+            @if (Model.Errors != null && Model.Errors.Count > 0)
+            {
+                if (Model.Errors.Contains(LoginErrors.INVALID_USERNAME_PASSWORD) || Model.Errors.Contains(LoginErrors.USERNAME_DOES_NOT_EXIST))
+                {
+                    <div data-abide-error class="callout alert">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.InvalidCredentials, Model.Item)</p>
+                    </div>
+                }
+                else if (Model.Errors.Contains(LoginErrors.ACCOUNT_LOCKED_SENT_MAIL))
+                {
+                    <div data-abide-error class="callout alert">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.AccountLocked, Model.Item)</p>
+                    </div>
+                }
+                else if (Model.Errors.Contains(LoginErrors.ACCOUNT_LOCKED_NOT_SENT_MAIL))
+                {
+                    <div data-abide-error class="callout alert">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.AccountAlreadyLocked, Model.Item)</p>
+                    </div>
+                }
+                else if (Model.Errors.Contains(LoginErrors.TIME_OUT))
+                {
+                    <div data-abide-error class="callout alert">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.TimeOut, Model.Item)</p>
+                    </div>
+                }
+                else if (Model.Errors.Contains(LoginErrors.ALREADY_REGISTERED))
+                {
+                    <div id="errRegistration1" class="callout alert server-error">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.AlreadyRegistered, Model.Item)</p>
+                    </div>
+                }
+            }
+            <div id="login-modal-errors" class="callout alert hide"></div>
+        </div>
+        <fieldset id="loginForm" class="fieldset">
+            <h4>@Html.Sitecore().Field(Templates.LoginForm.Fields.Registered_Headline, Model.Item)</h4>
+            <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.Registered_Subheadline, Model.Item)</p>
+            <label>
+                @Html.TextBoxFor(x => x.Username, null, new { @id = "mobile-login-username", @placeholder = @HttpUtility.HtmlDecode(emailPlaceholder), @required = "true" })
+            </label>
+            <label>
+                @Html.TextBoxFor(x => x.Password, null, new { @id = "mobile-login-password", @type = "password", @placeholder = @HttpUtility.HtmlDecode(passwordPlaceholder), @required = "true" })
+            </label>
+            <div class="remember row">
+                <div class="small-12 columns">
+                    <div id="receive_checkbox">
+                        <input id="ckb_mobile_remember" type="checkbox" checked />
+                        <p>
+                            @Html.Sitecore().Field(Templates.LoginForm.Fields.RememberMe, Model.Item)
+                        </p>
+                        <label for="ckb_mobile_remember"></label>
+                    </div>
+                </div>
+            </div>
+            @Html.HiddenFor(x => x.RememberMe, new { @id = "ckRememberMobile" })
+            @Html.HiddenFor(x => x.IsMobile, new { @id = "ismobile" })
+
+            <input type="hidden" name="fhController" value="LoginMobileFormController" data-abide-ignore />
+            <input type="hidden" name="fhAction" value="LoginMobileForm" data-abide-ignore />
+            <input type="hidden" name="PreviousPage" id="PreviousPage" value="@Model.PreviousPage" data-abide-ignore />
+
+            @if (Model.LoginAjaxProcess == LoginAjaxEnum.None)
+            {
+                <button class="button" form="login-form-mobile" type="submit" value="Submit" onclick="hideAllServerErrors();saveCookie();">@Html.Sitecore().Field(Templates.LoginForm.Fields.LoginButton, Model.Item)</button>
+            }
+            else
+            {
+                <a target="_blank" id="submitLogin" class="button" value="Submit" onclick="var login= $('#mobile-login-username').val();var password=$('#mobile-login-password').val();return operationloginajax(login,password);">@Html.Sitecore().Field(Templates.LoginForm.Fields.LoginButton, Model.Item)</a>
+            }
+
+            @{
+                Sitecore.Data.Fields.LinkField forgotLink = Model.Item.Fields[Templates.LoginForm.Fields.ForgotCredentials];
+                string forgotLinkUrl = string.Empty;
+                if (forgotLink != null && forgotLink.TargetItem != null)
+                {
+                    forgotLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(forgotLink.TargetItem);
+                }
+            }
+            <p><a href="@forgotLinkUrl"><small>@forgotLink.Text</small></a></p>
+        </fieldset>
+    </div>
+    <div class="small-12 medium-6 large-6 columns">
+        <fieldset class="fieldset">
+            <h4>@Html.Sitecore().Field(Templates.LoginForm.Fields.NotRegistered_Headline, Model.Item)</h4>
+            <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.NotRegistered_Subheadline, Model.Item)</p>
+            @{
+                Sitecore.Data.Fields.LinkField registerLink = Model.Item.Fields[Templates.LoginForm.Fields.RegisterButton];
+                string registerLinkUrl = string.Empty;
+                if (registerLink != null && registerLink.TargetItem != null)
+                {
+                    registerLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(registerLink.TargetItem);
+                }
+
+            }
+            <a class="button" href="@registerLinkUrl">@registerLink.Text</a>
+            @{
+                Sitecore.Data.Fields.LinkField helpLink = Model.Item.Fields[Templates.LoginForm.Fields.Help];
+                string helpLinkUrl = string.Empty;
+                if (helpLink != null && helpLink.TargetItem != null)
+                {
+                    helpLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(helpLink.TargetItem);
+                }
+            }
+            <p class="row" id="helpLink">
+                <a href="@helpLinkUrl"><small>@helpLink.Text</small></a>
+            </p>
+        </fieldset>
+        <div id="loginMobileMessage" class="show-for-medium">
+            <div class="callout alert" style="display: none;">
+                @Html.Sitecore().Field(Templates.LoginForm.Fields.EmptyField, Model.Item)
+            </div>
+            @if (Model.Errors != null && Model.Errors.Count > 0)
+            {
+                if (Model.Errors.Contains(LoginErrors.INVALID_USERNAME_PASSWORD) || Model.Errors.Contains(LoginErrors.USERNAME_DOES_NOT_EXIST))
+                {
+                    <div data-abide-error class="callout alert">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.InvalidCredentials, Model.Item)</p>
+                    </div>
+                }
+                else if (Model.Errors.Contains(LoginErrors.ACCOUNT_LOCKED_SENT_MAIL))
+                {
+                    <div data-abide-error class="callout alert">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.AccountLocked, Model.Item)</p>
+                    </div>
+                }
+                else if (Model.Errors.Contains(LoginErrors.ALREADY_REGISTERED))
+                {
+                    <div id="errRegistration1" class="callout alert server-error">
+                        <p>@Html.Sitecore().Field(Templates.LoginForm.Fields.AlreadyRegistered, Model.Item)</p>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    @if (Model.LoginAjaxProcess == LoginAjaxEnum.None)
+    {
+        <text>@Html.Raw("</form>")</text>
+    }
+</div>
+@*1=cta; 2=download; 3=datapass*@
+<input type="hidden" name="actionurl" id="actionurl" value="" />
+<input type="hidden" name="actionkind" id="actionkind" value="" />
+<input type="hidden" name="actiontitle" id="actiontitle" value="" />
+<input type="hidden" name="actionprocedurepar1" id="actionprocedurepar1" value="" />
+<input type="hidden" name="actionprocedurepar2" id="actionprocedurepar2" value="" />
+<input type="hidden" name="materialid" id="materialid" value="" />
+<input type="hidden" name="logiccta" id="logiccta" value="0" />
+<input type="hidden" name="itemcontextid" id="itemcontextid" value="@Model.Item.ID" />
+<input type="hidden" name="loginAjaxProcess" id="loginAjaxProcess" value="@Model.LoginAjaxProcess" />
+<input type="hidden" name="productname" id="productname" value="" />
+<input type="hidden" name="buttontype" id="buttontype" value="" />
+<input type="hidden" name="contextitemidPar" id="contextitemidPar" value="" />
+<input type="hidden" name="calllinkidPar" id="calllinkidPar" value="" />
+<input type="hidden" name="actiontargetPar" id="actiontargetPar" value="" />
+<input type="hidden" name="postparameteridPar" id="postparameteridPar" value="" />
+<input type="hidden" name="storeid" id="storeid" value="@Model.StoreId" />
+<input type="hidden" name="redirecturlid" id="redirecturlid" value="@Model.RedirectUrlId" />
+<input type="hidden" name="hotdeal" id="hotdeal" value="@Model.HotDeal" />
+<input type="hidden" name="ctatext" id="ctatext" value="@Model.CtaText" />
+
+<script>
+    $('#ckb_remember_mobile').change(function () {
+        $('#ckRememberMobile').val($(this).is(':checked'));
+    });
+    $('#mobile-login-password').val('');
+</script>
+
+<form id="downloadPdfForm" enctype="multipart/form-data" target='_blank' action="/api/ProductApi/DownloadEfulfillmentPdf" method="post">
+    <input type="hidden" name="materialId" id="materialId" value="" />
+    <input type="hidden" name="mdsid" id="mdsid" value="" />
+</form>
+<form id="executelinkForm" enctype="multipart/form-data" action="/api/ProductApi/ExecuteLink" method="post">
+    <input type="hidden" name="contextitemid" id="contextitemid" value="" />
+    <input type="hidden" name="calllinkid" id="calllinkid" value="" />
+    <input type="hidden" name="postparameterid" id="postparameterid" value="" />
+</form>
+
+<form name="partnerformdesktop" id="partnerformdesktop" action="@Model.Action" method="POST" target="_blank"></form>
+
+<form id="truecarForm" enctype="multipart/form-data" target='_blank' action="/api/ProductApi/GetTrueCarPartner" method="post"></form>
+

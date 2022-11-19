@@ -1,0 +1,148 @@
+﻿---
+ID: "c79389f0-5a23-4cce-b05d-98ff1e1fd959"
+Parent: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Finance/SEIU Smart Money Account Program
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{7F7C1820-9AAF-49F1-8FB2-F5E149D41718}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{EB61978D-D421-4F30-8D2A-CEA33156120E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210819T192958Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Smart Money Account Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Smart Money Account Program
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{8E77D938-C6DB-4AE5-A821-75DB3BF98D9F}"
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{8E77D938-C6DB-4AE5-A821-75DB3BF98D9F}"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <p style="text-align: center;"><strong>DETAILS COMING SOON</strong></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{7F7C1820-9AAF-49F1-8FB2-F5E149D41718}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Smart Money Account Program
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: A new and unique banking and investing program
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: A new and unique banking and investing program
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Smart Money Account Program
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{7F7C1820-9AAF-49F1-8FB2-F5E149D41718}" alt="Pareja, usar la computadora portátil, en casa" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{88AF1066-51B6-4517-A36D-22F6860645DD}" alt="SEIU Member Benefits en asociación con Investor Cash Management" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210824T145353Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Cuenta de Dinero Inteligente de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE CUENTA DE DINERO INTELIGENTE DE SEIU℠
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <p style="text-align: center;"><strong>DETALLES MUY PRONTO</strong></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{7F7C1820-9AAF-49F1-8FB2-F5E149D41718}" alt="Pareja, usar la computadora portátil, en casa" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Cuenta de Dinero Inteligente de SEIU
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: UN NUEVO Y &Uacute;NICO PROGRAMA BANCARIO E INVERSI&Oacute;N
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: UN NUEVO Y &Uacute;NICO PROGRAMA BANCARIO E INVERSI&Oacute;N
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Cuenta de Dinero Inteligente de SEIU

@@ -1,0 +1,38 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Cards.Models.ProductCardCarouselDto
+
+@if (Model.PageCards.Any() || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="section-normal c-007-1">
+        <div class="container slider-section">
+            <div class="new-header">
+                <h2>@Html.Sitecore().Field(Templates.ProductCardsCarousel.Fields.Headline, Model.Item)</h2>
+            </div>
+            <section class="slider c-007-1-product-card-carousel inner-container">
+                @{
+                    foreach (var card in Model.PageCards) {
+                        <div class="card">
+                            <div class="content">
+                                <div class="title">
+                                    <h3>@Html.Raw(card.Title)</h3>
+                                </div>
+                                <p>@Html.Raw(card.Description)</p>
+                            </div>
+                            <div class="cta">
+                                <a href="@card.Cta" class="btn btn-blue" @Html.Raw(card.OnClickEvent)>SEE OFFER</a>
+                            </div>
+                        </div>
+                    }
+                }
+
+            </section>
+        </div>
+        <div class="container">
+            <div class="bottom-content col-md-5 col-centered">
+                @Html.Sitecore().Field(Templates.ProductCardsCarousel.Fields.BottonText, Model.Item)
+            </div>
+        </div>
+    </section>
+}

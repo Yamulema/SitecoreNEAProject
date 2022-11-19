@@ -1,0 +1,35 @@
+﻿---
+ID: "4a236ec7-6029-4230-a16d-688a1ca89832"
+Parent: "6962a79a-953e-4a5e-a08c-94aa5ce13353"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Site Settings/SiteSettings
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/gear.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {CD1CA8A4-3472-4A6F-BEB4-7AA3D731FA35}
+    {3DFE963F-C723-47CF-8934-91436F43442F}
+    {B7EF8F73-8CE3-442C-B2D0-B0DF3538D5F5}
+    {5682D99D-FB1F-4027-9712-7DD67F6C070A}
+    {9C6C5725-652A-4E05-852A-92AD4000BCC2}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{3C7662CD-750C-490C-AB96-A380E07D7405}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180410T193438Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

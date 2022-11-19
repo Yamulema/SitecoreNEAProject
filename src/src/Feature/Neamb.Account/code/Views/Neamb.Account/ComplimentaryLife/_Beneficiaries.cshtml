@@ -1,0 +1,56 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+
+@model Neambc.Neamb.Feature.Account.Models.BeneficiariesDTO
+<script>
+    $(document).ready(function () {
+        $("[data-beneficiary-id]").on("click",
+            function (e) {
+                e.preventDefault();
+                $("#SelectedBeneficiaryId").val($(this).attr("data-beneficiary-id"));
+                $("#Action").val($(this).attr("data-action"));
+                $("#updateRemoveBeneficiaryForm").submit();
+            });
+    });
+</script>
+
+
+@using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post, new { id = "updateRemoveBeneficiaryForm" }))
+{
+	@Html.Sitecore().FormHandler("ComplimentaryLife", "UpdateRemoveBeneficiary")
+	@Html.HiddenFor(x => x.SelectedBeneficiaryId)
+	@Html.HiddenFor(x => x.Action)
+
+<div class="row actions">
+    <div class="panel-cta">
+        <div class="col-sm-6">
+            <h2 class="header">@Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Beneficiaries_Headline, Model.Item)</h2>
+        </div>
+        <div class="col-sm-6 ctas">
+            <a class="btn btn-blue @(Model.IsCtaEnabled ? string.Empty : "disabled")" href="@Model.AddCta" @(Model.IsCtaEnabled ? Html.Raw(Model.OnClickEvent) : Html.Raw(string.Empty))> @Html.Sitecore().Field(Templates.ComplementaryLifeInsurance.Fields.Add, Model.Item)</a>
+        </div>
+        <div class="col-md-12">
+            <hr />
+        </div>
+
+        @foreach (var beneficiary in Model.Beneficiaries)
+        {
+            <div class="info">
+                <div class="col-sm-8">
+                    <div class="pull-left p-r-md"><img src="/assets/neamb/images/default-avatar-icon.png" /></div>
+                    <div class="pull-left p-b-sm">
+                        <p><strong>@beneficiary.DisplayName</strong></p>
+                        <p>@beneficiary.DisplayRelationship, @beneficiary.DisplayShare</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 ctas">
+                    <a class="btn" id="btnEdit" data-beneficiary-id="@beneficiary.Id" data-action="Edit" @Html.Raw(beneficiary.OnEditClickEvent)>Edit</a>
+                    <a class="btn remove" id="btnRemove" data-beneficiary-id="@beneficiary.Id" data-action="Remove" @Html.Raw(beneficiary.OnRemoveClickEvent)>Remove</a>
+                </div>
+            </div>
+        }
+    </div>
+ 
+</div>
+}

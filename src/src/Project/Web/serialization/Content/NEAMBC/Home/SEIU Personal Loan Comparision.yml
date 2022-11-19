@@ -1,0 +1,172 @@
+﻿---
+ID: "3bf96b3d-1c0f-4527-bbb5-b752133c2126"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/SEIU Personal Loan Comparision
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Which personal loan is right for you
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Which personal loan is right for you
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="6 Reasons Why You (Probably) Need a Financial Advisor" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Which personal loan is right for you
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <!-- CSS property to place div 
+                    side by side -->
+                <style>
+                    #leftbox {
+                    float:left;
+                    background:Red;
+                    width:30%;
+                    height:280px;
+                    }
+                    #middlebox{
+                    float:left;
+                    background:Green;
+                    width:30%;
+                    height:280px;
+                    }
+                    #rightbox{
+                    float:right;
+                    background:blue;
+                    width:30%;
+                    height:280px;
+                    }
+                    h1{
+                    color:green;
+                    text-align:center;
+                    }
+                </style>
+            </head>
+            <body>
+                <div id="boxes">
+                <h1>GeeksforGeeks</h1>
+                <div id="leftbox">
+                <h2>Learn:</h2>
+                It is a good platform to learn programming.It is an educational website. Prepare for
+                the Recruitment drive  of product based
+                companies like Microsoft, Amazon, Adobe
+                etc with a free online placement preparation
+                course.
+                </div>
+                <div id="middlebox">
+                <h2>GeeksforGeeks:</h2>
+                The course focuses on various MCQ's &amp; Coding
+                question likely to be asked in the interviews
+                &amp; make your upcoming placement season efficient
+                and successful.
+                </div>
+                <div id="rightbox">
+                <h2>Contribute:</h2>
+                Any geeks can help other geeks by writing
+                articles on the GeeksforGeeks, publishing
+                articles follow few steps that are Articles
+                that need little modification/improvement
+                from reviewers are published first.
+                </div>
+                </div>
+            </body>
+        </html>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Which personal loan is right for you
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{85E847E7-FA88-4920-8A68-C2DB311D0D33}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Tienes bajo control tus finanzas para hoy, mañana y el resto de tu vida? Nosotros tampoco. Pero sabemos quién puede ayudarte: un asesor financiero.
+        Los asesores financieros son profesionales calificados que analizan tu salud financiera, identifican posibles brechas y proporcionan las herramientas para ayudarte a tomar decisiones que te permitan alcanzar tus objetivos financieros de corto, mediano y largo plazo. Mientras que puedes sentirte seguro sobre cómo administrar el dinero por tu cuenta, un asesor puede brindarte una mirada objetiva sobre un tema a menudo emocionalmente complejo. Así como podrías llamar a abogados, doctores o mecánicos de automóvil por su educación y experiencia, un asesor financiero tiene las habilidades para ayudarte a sacar el máximo partido de tu vida financiera.
+        A continuación te presentamos seis escenarios que podrían ser la causa para llamar a un profesional...
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B2CED2C-5B1E-4FB0-B38D-AEF82DFC1059}" alt="Seis razones por las que (probablemente) necesitas un asesor financiero" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>&iquest;Tienes bajo control tus finanzas para hoy, ma&ntilde;ana y el resto de tu vida? Nosotros tampoco. Pero sabemos qui&eacute;n puede ayudarte: un asesor financiero.</p>
+        <p>Los asesores financieros son profesionales calificados que analizan tu salud financiera, identifican posibles brechas y proporcionan las herramientas para ayudarte a tomar decisiones que te permitan alcanzar tus objetivos financieros de corto, mediano y largo plazo. Mientras que puedes sentirte seguro sobre c&oacute;mo administrar el dinero por tu cuenta, un asesor puede brindarte una mirada objetiva sobre un tema a menudo emocionalmente complejo. As&iacute; como podr&iacute;as llamar a abogados, doctores o mec&aacute;nicos de autom&oacute;vil por su educaci&oacute;n y experiencia, un asesor financiero tiene las habilidades para ayudarte a sacar el m&aacute;ximo partido de tu vida financiera.</p>
+        <p>A continuaci&oacute;n te presentamos seis escenarios que podr&iacute;an ser la causa para llamar a un profesional...</p>
+        <p><strong>1. Acabas de empezar.</strong> Si est&aacute;s reci&eacute;n egresado de la universidad e ingresando en la fuerza laboral a tiempo completo por primera vez, puede que necesites planificar objetivos como crear un presupuesto viable, pagando la deuda estudiantil y ahorrando para el pago inicial de una vivienda. Un asesor puede ayudarte a empezar con el pie derecho.</p>
+        <p><strong>2. Fuera de control.</strong> Si sientes que tu vida financiera est&aacute; yendo m&aacute;s all&aacute; de tu control (quiz&aacute;s tienes una deuda creciente, no tienes ning&uacute;n ahorro, o simplemente tienes problemas para gestionar tu flujo diario de dinero en efectivo) es el momento de obtener una opini&oacute;n profesional sobre por qu&eacute; tus finanzas est&aacute;n fuera de control. Los asesores no necesitan que &ldquo;lo tengas claro&rdquo;; de hecho, es justamente lo contrario, ellos est&aacute;n para ayudarte a controlar tus finanzas sin importar el estado en que se encuentren.</p>
+        <p><strong>3. Y llegan los beb&eacute;s</strong>...Si vas m&aacute;s adelante en la vida, es probable que tengas otras responsabilidades y posibles obligaciones. Si tienes hijos, lo m&aacute;s seguro es que est&eacute;s preocupado por pagar su educaci&oacute;n, por no hablar de su crianza. Puede que te preguntes si t&uacute; y tu c&oacute;nyuge (o pareja) tienen un seguro de vida suficiente (solo por si acaso), o si est&aacute;n obteniendo el mayor provecho de las normas de impuestos. Tu asesor puede ayudarte a entender estos asuntos con asesoramiento sobre inversiones, planificaci&oacute;n de jubilaci&oacute;n y (m&aacute;s adelante) planificaci&oacute;n de sucesiones.</p>
+        <p><strong>4. Nada m&aacute;s que deudas.</strong> Puede que te encuentres llevando un estilo de vida que excede tu ingreso. Tal vez est&aacute;s usando frecuentemente tarjetas de cr&eacute;dito para las compras generales, pero no puedes pagar el saldo completo cada mes. Quiz&aacute;s los gastos inesperados parecen venir siempre, oblig&aacute;ndote a pagar con esas tarjetas de cr&eacute;dito. Estos podr&iacute;an ser signos de que es el momento de conseguir ayuda externa. Un asesor financiero puede determinar a d&oacute;nde va tu dinero, ayudando a organizarte. Ellos pueden mostrarte c&oacute;mo los gastos a corto plazo afectan tus metas de largo plazo y ayudarte de nuevo a tomar el rumbo adecuado.</p>
+        <p><strong>5. Cambios.</strong> Si has experimentado un cambio importante en la vida, como el matrimonio, nacimiento (o adopci&oacute;n) de un hijo, o la p&eacute;rdida de un c&oacute;nyuge o de otro ser querido, no esperes a que las cosas &ldquo;se calmen&rdquo; por s&iacute; mismas para empezar a planificar (ellas nunca parecen hacerlo). Un asesor financiero puede ayudarte a tomar decisiones financieras inteligentes en medio del caos (y ayudarte a seguir con tu vida).</p>
+        <p><strong>6. No eres rico (ni famoso).</strong> Los asesores financieros son como entrenadores personales para tus finanzas (sin importar cu&aacute;ntos ceros hay en tu cuenta bancaria). Los asesores calificados te ayudar&aacute;n a determinar el camino correcto para llegar desde donde est&aacute;s hasta donde deseas llegar. Ellos te ayudar&aacute;n a negociar los aspectos financieros dif&iacute;ciles de la vida y mantenerte informado para que as&iacute; puedas sentirte c&oacute;modo sobre tu futuro.</p>
+        <p><strong>En resumen</strong></p>
+        <p>Muchas personas piensan que los asesores financieros solo enriquecen a los ricos, pero un profesional calificado puede ayudarte en cualquier etapa de tu vida financiera. Puede ser dif&iacute;cil admitir que se necesita ayuda, pero la alternativa puede ser dura y costosa la lecci&oacute;n. Si&eacute;ntete orgulloso de tu determinaci&oacute;n para controlar tus finanzas, y saca ventaja de lo que un asesor financiero te puede ense&ntilde;ar: habilidades s&oacute;lidas que te servir&aacute;n para toda la vida.</p>
+        <p>1022888-00001-00</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero

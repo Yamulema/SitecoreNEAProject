@@ -1,0 +1,82 @@
+﻿---
+ID: "824f5c34-c000-464a-b0eb-12fec570a2f5"
+Parent: "6847aefb-2f69-4f02-9ff2-9734aa811757"
+Template: "018b901d-ecad-4748-86e8-bacbe06a5ea7"
+Path: /sitecore/content/NEAMBC/Global/Small Stacked Accordion/SEIU Marketplace/Already have Rakuten account
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>Earning Cash Back on NEA powered by Rakuten is as easy as 1-2-3:</p>
+        <ol>
+            <li>Register for a Rakuten account at NEAMB.com. Once you register through NEAMB.com, you will create a Rakuten account on RAKUTEN.com.</li>
+            <li>Browse Exclusive Offers and thousands of other top Retailers at NEAMB.com. Click the store where you want to shop.In order to have a successful shopping trip where you earn your cash back, you must have Cookies enabled on your computer.In addition, you must click activate cash back button on the retailer&rsquo;s page before placing items in your cart.</li>
+            <li>Shop Like Always: Place an order and Rakuten will automatically add Cash Back to your account.</li>
+            <li>Choose How to Get Paid: Rakuten will send your Cash Back via check or PayPal. Don&rsquo;t forget to set your address and choose your payment type in <a href="https://www.rakuten.com/my-account.htm">My Account</a> on <a href="http://www.rakuten.com/">Rakuten.com</a>.</li>
+        </ol>
+        <p>That&rsquo;s all you have to do.</p>
+        <p>Once the store confirms your purchase, Rakuten will add your Cash Back to your account and notify you. It usually takes a little time for the store to confirm that your purchase was completed. Depending on the store, this can take from a few hours to several days. Every three months, Rakuten sends you the Cash Back you&rsquo;ve earned, either in a Big Fat Check or via PayPal. If Cash Back for an order is still pending approval, it will carry over to your next payment.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200923T173006Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{F9FE8303-02A0-4542-8D6A-B01533CC83B0}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "How to Earn Cash Back?"
+  - Version: 2
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>If the email address you use to sign in on seiumb.com is the same email address you use for Rakuten, just sign up through the SEIU Discount Marketplace and you&rsquo;ll automatically have access to SEIU-exclusive offers.</p>
+        <p>If the email address you use to sign in on seiumb.com is different than the email address you currently use for your Rakuten account, you can either create a new, separate Rakuten account through SEIU Discount Marketplace or you can <a rel="noopener noreferrer" href="https://www.rakuten.com/help/other-questions" target="_blank">contact Rakuten</a> and ask them to consolidate your accounts. Please note: The email address you use to sign in on seiumb.com is the only one that enables you to access SEIU-exclusive offers. If you consolidate your accounts under the email address you do not use to sign in to seiumb.com you will not have access to the exclusive offers available through the SEIU Discount Marketplace.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T120645Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "What should I do if I already have a Rakuten account?"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T120645Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p><span>Si la direcci&oacute;n de correo electr&oacute;nico que utiliza para iniciar sesi&oacute;n en seiumb.com es la misma que usa para Rakuten, solo debe registrarse en el sitio web del mercado de descuentos de SEIU y tendr&aacute; acceso autom&aacute;ticamente a las ofertas exclusivas de SEIU.</span></p>
+        <p><span>Si la direcci&oacute;n de correo electr&oacute;nico que utiliza para iniciar sesi&oacute;n en seiumb.com es diferente a la direcci&oacute;n de correo electr&oacute;nico que utiliza actualmente para su cuenta de Rakuten, puede crear una cuenta nueva, distinta a la que ya tiene en Rakuten, mediante el mercado de descuentos de SEIU, o puede </span><span><a rel="noopener noreferrer" href="https://www.rakuten.com/help/other-questions" target="_blank"><span style="color: blue;">comunicarse con Rakuten</span></a></span><span> y pedirles que consolide sus cuentas. Tenga en cuenta lo siguiente: La direcci&oacute;n de correo electr&oacute;nico que usa para iniciar sesi&oacute;n en seiumb.com es la &uacute;nica que le permite acceder a ofertas exclusivas de SEIU. Si consolida sus cuentas con la direcci&oacute;n de correo electr&oacute;nico que no utiliza para iniciar sesi&oacute;n en seiumb.com, no tendr&aacute; acceso a las ofertas exclusivas disponibles a trav&eacute;s del mercado de descuentos de SEIU.</span></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201211T151420Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "¿Qué debo hacer si ya tengo una cuenta de Rakuten?"

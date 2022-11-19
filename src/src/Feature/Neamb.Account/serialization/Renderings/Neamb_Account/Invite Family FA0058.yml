@@ -1,0 +1,21 @@
+﻿---
+ID: "6e46632a-35f4-4994-bdca-ac98f355560b"
+Parent: "3dcc040c-823f-4b96-bb76-2cd6a8d407f2"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Account/Invite Family FA0058
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: ListFamilyMembers
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Account.Controllers.InviteFamilyMemberController,Neambc.Neamb.Feature.Account
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T154801Z

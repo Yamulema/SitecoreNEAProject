@@ -1,0 +1,569 @@
+﻿---
+ID: "28b98124-1220-4ed6-bfe6-a3457a960ceb"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Travel Program
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T180127Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: "NEW: SEIU Travel Program"
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NEW: SEIU Travel Program
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>SEIU members can get everything they need for their next vacation, including car rentals, airline tickets, hotel and resort stays, cruises and guided tours at low prices thanks to the new SEIU Travel Program.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Browse Now</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T181306Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Travel
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" />
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T181306Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NEW: SEIU Travel Program
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>SEIU members can get everything they need for their next vacation, including car rentals, airline tickets, hotel and resort stays, cruises and guided tours at low prices thanks to the new SEIU Travel Program.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Browse Now</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T193506Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Travel
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T193506Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NEW: SEIU Travel Program
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>SEIU members can get everything they need for their next vacation, including car rentals, airline tickets, hotel and resort stays, cruises and guided tours at low prices thanks to the new SEIU Travel Program.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Browse Now</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T194510Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Travel
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T194510Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NEW! SEIU Travel Program
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>SEIU members can get everything they need for their next vacation, including car rentals, airline tickets, hotel and resort stays, cruises and guided tours at low prices thanks to the new SEIU Travel Program.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Browse Now</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T220345Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Travel
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T220345Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NEW! SEIU Travel Program
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Get everything you need for your next vacation, at low prices, including car rentals, airline tickets, hotel and resort stays, cruises and guided tours.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Browse Now</a></div>
+        </div>
+  - Version: 6
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T182919Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Travel
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T182919Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NEW! SEIU Travel Program
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Get everything you need for your next vacation, at low prices, including car rentals, airline tickets, hotel and resort stays, cruises and guided tours.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Browse Now</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T180751Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NUEVO: SEIU Travel Program
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Los miembros del SEIU pueden conseguir todo lo que necesitan para sus pr&oacute;ximas vacaciones, incluyendo alquiler de coches, billetes de avi&oacute;n, estancias en hoteles y complejos tur&iacute;sticos, cruceros y visitas guiadas a precios asequibles gracias al nuevo Programa de SEIU Travel.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T184542Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" />
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T184542Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NUEVO: Programa de SEIU Travel
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Los miembros del SEIU pueden conseguir todo lo que necesitan para sus pr&oacute;ximas vacaciones, incluyendo alquiler de coches, billetes de avi&oacute;n, estancias en hoteles y complejos tur&iacute;sticos, cruceros y visitas guiadas a precios asequibles gracias al nuevo Programa de SEIU Travel.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T193739Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T193739Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">NUEVO: Programa de SEIU Travel
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Los miembros del SEIU pueden conseguir todo lo que necesitan para sus pr&oacute;ximas vacaciones, incluyendo alquiler de coches, billetes de avi&oacute;n, estancias en hoteles y complejos tur&iacute;sticos, cruceros y visitas guiadas a precios asequibles gracias al nuevo Programa de SEIU Travel.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T194406Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T194406Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">&iexcl;NUEVO! Programa de SEIU Travel
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Los miembros del SEIU pueden conseguir todo lo que necesitan para sus pr&oacute;ximas vacaciones, incluyendo alquiler de coches, billetes de avi&oacute;n, estancias en hoteles y complejos tur&iacute;sticos, cruceros y visitas guiadas a precios asequibles gracias al nuevo Programa de SEIU Travel.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T220441Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T220441Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">&iexcl;NUEVO! Programa de SEIU Travel
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Consigue todo lo que necesitas para tus pr&oacute;ximas vacaciones, a bajo precio, incluyendo el alquiler de coche, los billetes de avi&oacute;n, la estancia en el hotel o resort, cruceros y tours guiados.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>
+  - Version: 6
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T222932Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T222932Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">&iexcl;NUEVO! Programa de SEIU Travel
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Consigue todo lo que necesitas para tus pr&oacute;ximas vacaciones, a bajo precio, incluyendo el alquiler de auto, los billetes de avi&oacute;n, la estancia en el hotel o complejo tur&iacute;stico, cruceros y visitas guiadas</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>
+  - Version: 7
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210318T223003Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210318T223003Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">&iexcl;NUEVO! Programa de SEIU Travel
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Consigue todo lo que necesitas para tus pr&oacute;ximas vacaciones, a bajo precio, incluyendo el alquiler de auto, los billetes de avi&oacute;n, la estancia en el hotel o complejo tur&iacute;stico, cruceros y visitas guiadas.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>
+  - Version: 8
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210503T145221Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: VIAJES
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{CA0CACE4-F8F2-46DA-AA77-2716011CB4A3}" alt="Familia esperando en un vuelo" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210503T145221Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">¡NUEVO! Programa de SEIU Travel
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Consigue todo lo que necesitas para tus próximas vacaciones, a bajo precio, incluyendo el alquiler de auto, los billetes de avión, la estancia en el hotel o complejo turístico, cruceros y visitas guiadas.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">Explorar</a></div>
+        </div>

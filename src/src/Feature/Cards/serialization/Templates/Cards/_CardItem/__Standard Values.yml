@@ -1,0 +1,37 @@
+﻿---
+ID: "1324dde8-f0c4-4e4c-a0e8-1d9592ae4eda"
+Parent: "4f9366cb-f874-4daa-8479-658961186c6c"
+Template: "4f9366cb-f874-4daa-8479-658961186c6c"
+Path: /sitecore/templates/SEIUMB/Feature/Cards/_CardItem/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T195417Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Insert your title here
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5BB9DF4-B2F2-4A6F-8094-09DD3EFBA73D}" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <p class="panelExcerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis sapien ac mi molestie facilisis. Curabitur in semper felis, at volutpat orci. Nulla pretium purus sit amet faucibus condimentum.</p>
+                        <a href="#" class="button panelBtn">See all </a>

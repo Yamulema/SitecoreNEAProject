@@ -1,0 +1,103 @@
+﻿---
+ID: "61d4ef28-1bd8-4a5e-bc0d-21759e26116c"
+Parent: "ed008400-25e0-494c-8e32-6772fc618d90"
+Template: "ed008400-25e0-494c-8e32-6772fc618d90"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Add Family Member/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{C71506DB-E80A-4930-9E23-45D34E5ADDD5}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{C1AAA9FA-91DF-4B7D-8F63-92E7F244AB04}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{62E8C34F-D4A2-4B96-8842-9DD645261A31}" />
+        <r
+          id="{6C7C66CF-FBBF-4748-AADF-BFACA218600F}"
+          ph="body"
+          uid="{E4B10C25-7C45-4710-8CAD-108AB8924B0A}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{2DD7F644-525E-4632-AF54-1E6D47490587}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{DB3C1BB4-8D16-4D87-AD0F-B1CAD5E17BEA}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{B40EA313-DFED-4973-97CB-E5CF1A3364B2}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "22d2494a-6fee-453a-8508-fc8c350a7580"
+      Hint: Empty Field
+      Value: Please insert your date of birth
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180704T205357Z
+    - ID: "38f547bf-95dd-4960-ab1b-6b2a8ac02b81"
+      Hint: Characters Limit
+      Value: You can enter only 100 characters in this field
+    - ID: "4a08cfd7-853d-478f-8c99-b99e061b0f1d"
+      Hint: Empty Field
+      Value: Please insert your first name
+    - ID: "4bd97032-914a-493f-9cc1-5d1fd6476e90"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "5ee361e9-bf9e-4d1f-8ce0-9403d6d7c838"
+      Hint: Subheadline
+      Value: Invite family members to access many of the same discounts and benefits you enjoy with your account
+    - ID: "852633dc-5a7b-43f5-b533-b9a046e56563"
+      Hint: Empty Field
+      Value: Please insert your email
+    - ID: "9839a40c-eda5-4c83-ab7f-75ff4748525d"
+      Hint: Empty Field
+      Value: Please insert your last name
+    - ID: "9a1bb82c-82a2-4ca7-a5fe-8b6f09fe8b5c"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field
+    - ID: "a89eae5e-8360-4172-9a0c-0c7246c05873"
+      Hint: Age Requirement
+      Value: You must be at least 16 years old and no more than 95 years old to be an NEAMB member
+    - ID: "d164e8f4-3338-4eda-8626-d0783a845dac"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "d71690ea-7c45-4ae3-ac9a-bac5e5a04aae"
+      Hint: Invalid Format
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again
+    - ID: "f71f7747-f88d-499b-ac69-d3a6dc9b0a88"
+      Hint: Page Title
+      Value: Invite Family
+    - ID: "f7620f0c-1c3a-458e-ad51-a0f6395dcd2d"
+      Hint: Characters Limit
+      Value: You can enter only 30 characters in this field

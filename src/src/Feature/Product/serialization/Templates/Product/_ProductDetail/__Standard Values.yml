@@ -1,0 +1,96 @@
+﻿---
+ID: "ecd40c17-7bba-4fa7-a83c-15f63e582b78"
+Parent: "5661f4b3-a9e7-40f5-9f77-2e93aa70def9"
+Template: "5661f4b3-a9e7-40f5-9f77-2e93aa70def9"
+Path: /sitecore/templates/SEIUMB/Feature/Product/_ProductDetail/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C217D7F2-8625-440A-AA25-52A4D7F6BA44}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171120T171341Z
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Share
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Insert your headline here
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Sign in
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: Insert your product description here
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Insert your sub-healine here"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{C217D7F2-8625-440A-AA25-52A4D7F6BA44}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T194204Z
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Insert your product headline here
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: Insert your product description here
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Insert your product sub-headline here"

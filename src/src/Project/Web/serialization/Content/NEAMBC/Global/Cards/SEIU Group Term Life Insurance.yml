@@ -1,0 +1,120 @@
+﻿---
+ID: "2fccb916-5863-4917-b58c-216a48564fd3"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Group Term Life Insurance Plan 1_2_2020
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DB374653-5C79-489E-8FB5-6119F7B4BBD7}" alt=" Familia asando pantanos suaves sobre un fuego abierto" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('small module','click','seiu group term life insurance program &gt; title');">SEIU℠ Group Term Life Insurance Plan</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Enroll now for affordable, group-discounted rates.</p>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu group term life insurance program &gt; button');">LEARN MORE</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210202T165010Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DB374653-5C79-489E-8FB5-6119F7B4BBD7}" alt=" Familia asando pantanos suaves sobre un fuego abierto" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210202T165010Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('small module','click','seiu group term life insurance program &gt; title');">SEIU℠ Group Term Life Insurance Plan</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Enroll now for affordable, group-discounted rates.</p>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu group term life insurance program &gt; button');">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DB374653-5C79-489E-8FB5-6119F7B4BBD7}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('small module','click','seiu group term life insurance program &gt; title');">
+        Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Enroll now for affordable, group-discounted rates.</p>
+        <div><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu group term life insurance program &gt; button');">APRENDE M&Aacute;S </a></div>
+        </div>

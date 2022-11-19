@@ -1,0 +1,30 @@
+﻿---
+ID: "a42b0e43-a6b6-461f-89c7-747a2e0634e6"
+Parent: "96762139-9cd6-4ca8-9668-28f771cc579d"
+Template: "96762139-9cd6-4ca8-9668-28f771cc579d"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_FieldRepForm/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "184efe87-4d19-43f5-a787-9de7cb354531"
+      Hint: Submit
+      Value: Submit
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180718T162652Z
+    - ID: "2bec5727-2af9-4e27-aded-822ed73b63ed"
+      Hint: Title
+      Value: Select the State Where You're Employed
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "956992bc-44ab-479e-ac9b-b0d4c880726f"
+      Hint: Empty Field
+      Value: Please select your state
+    - ID: "e4a12b0b-823b-4b64-a9bb-bfe117740d90"
+      Hint: Label
+      Value: State

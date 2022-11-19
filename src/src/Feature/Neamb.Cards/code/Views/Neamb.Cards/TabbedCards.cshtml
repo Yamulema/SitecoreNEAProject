@@ -1,0 +1,70 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Cards.Models
+@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Mvc
+
+@model TabbedCardsDTO
+
+@if (!Model.HideComponent)
+{
+    <section class="section-normal new-design bg-gray c-093 ">
+        <div class="container">
+            <div class="col-xs-12 text-center">
+                <h4>@Html.Sitecore().Field(Templates.TabbedCards.Fields.Headline, Model)</h4>
+                <p>@Html.Sitecore().Field(Templates.TabbedCards.Fields.Description, Model)</p>
+            </div>
+            <div class="row" id="c-093-desktop">
+                <div class="tabset">
+                    <!-- Tabs -->
+                    @for (int i = 0; i < Model.Cards.Length; i++)
+                    {
+                        <input type="radio" name="tabset" id="tab@(i+1)" aria-controls="@Model.Cards[i].Fields[Templates.TabCard.Fields.TabName].Value.Replace(" ", "-").ToLower()" @(i == 0 ? "checked" : String.Empty)>
+                        <label for="tab@(i+1)">@Model.Cards[i].Fields[Templates.TabCard.Fields.TabName].Value</label>
+                    }
+
+                    <div class="tab-panels">
+                        @for (int i = 0; i < Model.Cards.Length; i++)
+                        {
+                            <div id="@Model.Cards[i].Fields[Templates.TabCard.Fields.TabName].Value.Replace(" ", "-").ToLower()" class="tab-panel">
+                                <div class="col-xs-6">
+                                    <div class="content">
+                                        @Html.Sitecore().Field(Templates.TabCard.Fields.Description, Model.Cards[i])
+                                        @Html.Sitecore().Field(Templates.TabCard.Fields.LearnMore, Model.Cards[i], new { @class = "arrow-link blue" })
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div>
+                                        <img src="@Model.Cards[i].ImageUrl(Templates.TabCard.Fields.Image)" />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="c-093-mobile">
+                <div class="mobile-funds col-xs-12">
+                    @for (int i = 0; i < Model.Cards.Length; i++)
+                    {
+                        <div class="slider-content">
+                            @Html.Sitecore().Field(Templates.TabCard.Fields.Description, Model.Cards[i])
+                            @Html.Sitecore().Field(Templates.TabCard.Fields.LearnMore, Model.Cards[i], new { @class = "arrow-link blue" })
+                            <img src="@Model.Cards[i].ImageUrl(Templates.TabCard.Fields.Image)" />
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="row slider-controls">
+                <div class="col-xs-12 slider-mobile-arrows">
+                    <button type="button" class="btn col-xs-1 custom-arrow slide-prev">
+                        <!-- <i class="fa fa-angle-left"></i> -->
+                    </button>
+                    <div class="col-md-12 col-xs-10 slider-mobile-dots"></div>
+                    <button type="button" class="btn col-xs-1 custom-arrow slide-next text-right">
+                        <!-- <i class="fa fa-angle-right"></i> -->
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+}

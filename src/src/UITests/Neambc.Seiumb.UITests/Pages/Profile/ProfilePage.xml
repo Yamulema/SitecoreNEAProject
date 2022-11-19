@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ProfilePage" urlpath="/my-account">
+      <sections>
+        <section name="Profile">
+          <controls>
+            <control key="FirstNameInput" xpath="//*[@id='firstName']"  />
+            <control key="SubmitButton" xpath="//*[@id='my-account-form']/div[1]/div/fieldset/div[10]/div/button"  />
+          </controls>
+        </section>
+        <section name="Username">
+          <controls>
+           
+          </controls>
+        </section>
+        <section name="Password">
+          <controls>
+            
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

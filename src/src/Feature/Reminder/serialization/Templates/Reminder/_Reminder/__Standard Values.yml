@@ -1,0 +1,69 @@
+﻿---
+ID: "5c548b74-32c0-4283-aa02-3f9de129dc9d"
+Parent: "70409f72-22a9-47a4-9b58-9e4a3fb519e6"
+Template: "70409f72-22a9-47a4-9b58-9e4a3fb519e6"
+Path: /sitecore/templates/SEIUMB/Feature/Reminder/_Reminder/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180122T151511Z
+    - ID: "44d73723-d751-4fb9-af2c-ea2572e8572e"
+      Hint: Body
+      Value: Insert your content here
+    - ID: "45f31dd5-d932-47fd-aae3-c73cbba72432"
+      Hint: Title
+      Value: Insert your title here
+    - ID: "560c0cfc-979b-4d06-a0a7-9cb2fb1b5b0a"
+      Hint: EnrolledUser
+      Value: Reminder Set
+    - ID: "5c20cd1c-bc2f-4d08-b91b-101c530eeb55"
+      Hint: AuthenticatedUser
+      Value: Send Me a Reminder
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6317a76e-aef3-4c77-856f-b00386abd743"
+      Hint: AnonimousUser
+      Value: Log in or Register
+    - ID: "7ad6c79d-76ce-4a84-9b37-db20d2834724"
+      Hint: BottomText
+      Value: Insert your text here
+    - ID: "f17d590a-476c-41c3-ab86-619f8ecc01be"
+      Hint: Image
+      Value: |
+        <image mediaid="{A2705C26-14DA-4460-A90D-5351977E5E5F}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180122T151830Z
+    - ID: "44d73723-d751-4fb9-af2c-ea2572e8572e"
+      Hint: Body
+      Value: 
+    - ID: "45f31dd5-d932-47fd-aae3-c73cbba72432"
+      Hint: Title
+      Value: 
+    - ID: "560c0cfc-979b-4d06-a0a7-9cb2fb1b5b0a"
+      Hint: EnrolledUser
+      Value: Recordatorio Solicitado
+    - ID: "5c20cd1c-bc2f-4d08-b91b-101c530eeb55"
+      Hint: AuthenticatedUser
+      Value: Solicitar Recordatorio
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6317a76e-aef3-4c77-856f-b00386abd743"
+      Hint: AnonimousUser
+      Value: Ingresar o Registrarse
+    - ID: "7ad6c79d-76ce-4a84-9b37-db20d2834724"
+      Hint: BottomText
+      Value: Inserta tu texto aqu&iacute;

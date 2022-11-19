@@ -1,0 +1,458 @@
+﻿---
+ID: "ce785e47-4e91-4851-bf45-7777d3b86178"
+Parent: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Finance/SEIU Financial Wellness
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D8004EE3-022F-46A4-ACA6-3675AADCFDFA}"
+              p:after="r[@uid='{147899D4-42F6-499E-BB94-CEDB52701258}']"
+              s:ds="{1E3B0718-BC57-4F65-B6DB-E1AD0BC6E93D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Explore how well you’re spending, planning and protecting your money and assets, and get tips to do better. Get help with questions about managing debt, saving and investing, family finances, retirement planning and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{21509E03-6CA4-4E36-83B6-2CA9F2B8B5F9}" alt="SEIU member benefits in partnership with Prudential" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190107T153916Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Group Insurance coverages are issued by The Prudential Insurance Company of America, a Prudential Financial company, Newark, NJ.</p>
+        <p>&nbsp;</p>
+        
+        <p>&copy; 2019 Prudential Financial, Inc. and its related entities. Prudential, the Prudential logo, the Rock symbol, and Bring Your Challenges are service marks of Prudential Financial, Inc. and its related entities, registered in many jurisdictions worldwide.</p>
+        <p>&nbsp;</p>
+        <p>1014719-00001-00</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Financial Wellness
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Have questions? Call us! 1-844-836-7348"
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Financial Wellness
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>What Is Financial Wellness?&nbsp;</strong>It&rsquo;s the peace of mind by living well today and planning for tomorrow.</p>
+        <p><strong>How do you achieve it?</strong> By balancing your saving and spending.</p>
+        <p>Explore how well you&rsquo;re spending, planning and protecting your money and assets, and get tips to do better. Our new <strong>Financial Wellness Program</strong>, which is offered through our partnership with <strong>The Prudential Insurance Company of America</strong>, provides articles and videos to help SEIU members with questions about:</p>
+        <ul>
+            <li><strong>Managing Debt</strong>. Build a better relationship with your money&hellip;one step at a time. You don&rsquo;t have to give up your happiness.</li>
+            <li><strong>Savings and Investing</strong>. Make strong decisions with money to achieve your goals and wishes. Learn how to manage and grow your wealth.</li>
+            <li><strong>Family Finances</strong>. Money, love, needs, life&hellip; These are the factors of day-to-day money management. Find balance.</li>
+            <li><strong>Retirement Planning</strong>. Near or far in the future, you&rsquo;ll need to be ready. Enjoy today, while you prepare for a secure and happy retirement.</li>
+            <li><strong>Preparing and Protecting</strong>. A little thought and care goes a long way toward peace of mind. Be ready for whatever life throws your way.</li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Financial Wellness
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.prudential.com/SEIU" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Explore how well you&rsquo;re spending, planning and protecting your money and assets, and get tips to do better. Get help with questions about managing debt, saving and investing, family finances, retirement planning and more!"
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Start your journey on the road to financial wellness
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Financial Wellness
+  - Version: 2
+    Fields:
+    - ID: "01604bf5-3fc0-4fdd-a404-5cee9e257e8b"
+      Hint: ProductHeadline
+      Value: SEIU℠ Financial Wellness test2
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D8004EE3-022F-46A4-ACA6-3675AADCFDFA}"
+              p:after="r[@uid='{147899D4-42F6-499E-BB94-CEDB52701258}']"
+              s:ds="{1E3B0718-BC57-4F65-B6DB-E1AD0BC6E93D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{BEBBEC20-CBD7-428C-888E-1C1006B6D805}">
+              <p:d />
+            </r>
+            <r
+              uid="{E425F02D-F9CA-4E09-831F-58AA31965995}"
+              p:after="r[@uid='{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}']"
+              s:ds="{D5B48C65-9E1A-4EC5-BECC-70F8E75DA07B}"
+              s:id="{8D9E0E04-4E95-498B-BECF-529A7AD3E130}"
+              s:par=""
+              s:ph="product-lite" />
+          </d>
+        </r>
+    - ID: "0a96fcf5-cfdb-4e89-9ff0-b6b89bf7c3c5"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Explore how well you’re spending, planning and protecting your money and assets, and get tips to do better. Get help with questions about managing debt, saving and investing, family finances, retirement planning and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{21509E03-6CA4-4E36-83B6-2CA9F2B8B5F9}" alt="SEIU member benefits in partnership with Prudential" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T121101Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Group Insurance coverages are issued by The Prudential Insurance Company of America, a Prudential Financial company, Newark, NJ.</p>
+        <p>&nbsp;</p>
+        
+        <p>&copy; 2019 Prudential Financial, Inc. and its related entities. Prudential, the Prudential logo, the Rock symbol, and Bring Your Challenges are service marks of Prudential Financial, Inc. and its related entities, registered in many jurisdictions worldwide.</p>
+        <p>&nbsp;</p>
+        <p>1014719-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Financial Wellness
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Have questions? Call us! 1-844-836-7348"
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Financial Wellness test2
+    - ID: "6c2403a3-49d8-4271-8870-37c34e28827c"
+      Hint: PromoDescription
+      Value: "Have questions? Call us! 1-844-836-7348"
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{16D33F20-C8B5-4208-A8BF-4F41E1BA85A9}"
+    - ID: "73439579-c325-4e3e-80e1-b7f4dfef67c5"
+      Hint: ProductSubHeadline
+      Value: Start your journey on the road to financial wellness
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{16D33F20-C8B5-4208-A8BF-4F41E1BA85A9}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>What Is Financial Wellness?&nbsp;</strong>It&rsquo;s the peace of mind by living well today and planning for tomorrow.</p>
+        <p><strong>How do you achieve it?</strong> By balancing your saving and spending.</p>
+        <p>Explore how well you&rsquo;re spending, planning and protecting your money and assets, and get tips to do better. Our new <strong>Financial Wellness Program</strong>, which is offered through our partnership with <strong>The Prudential Insurance Company of America</strong>, provides articles and videos to help SEIU members with questions about:</p>
+        <ul>
+            <li><strong>Managing Debt</strong>. Build a better relationship with your money&hellip;one step at a time. You don&rsquo;t have to give up your happiness.</li>
+            <li><strong>Savings and Investing</strong>. Make strong decisions with money to achieve your goals and wishes. Learn how to manage and grow your wealth.</li>
+            <li><strong>Family Finances</strong>. Money, love, needs, life&hellip; These are the factors of day-to-day money management. Find balance.</li>
+            <li><strong>Retirement Planning</strong>. Near or far in the future, you&rsquo;ll need to be ready. Enjoy today, while you prepare for a secure and happy retirement.</li>
+            <li><strong>Preparing and Protecting</strong>. A little thought and care goes a long way toward peace of mind. Be ready for whatever life throws your way.</li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Financial Wellness
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.prudential.com/SEIU" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Explore how well you&rsquo;re spending, planning and protecting your money and assets, and get tips to do better. Get help with questions about managing debt, saving and investing, family finances, retirement planning and more!"
+    - ID: "b813686b-22e3-4ce6-b86c-6e693ae7cf85"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Start your journey on the road to financial wellness
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T121101Z
+    - ID: "cdd383d2-84b7-40b7-9189-ae2dedb84000"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Financial Wellness
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{EFC12A4E-4BE4-41D3-B4D5-5FBD6CDB6078}"
+              p:after="r[@uid='{147899D4-42F6-499E-BB94-CEDB52701258}']"
+              s:ds="{1E3B0718-BC57-4F65-B6DB-E1AD0BC6E93D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Descubra qué tan bien está gastando, planificando y protegiendo su dinero y activos, y obtenga consejos para hacerlo mejor. Obtenga respuestas a sus preguntas sobre administración de deudas, ahorro e inversiones, finanzas familiares, planificación para la jubilación y más.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" alt="Bienestar Financiero de SEIU" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D51858A5-4C5A-4678-8410-82AFAF7AEA25}" alt="SEIU Member Benefits en asociación con Prudential" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190107T183722Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></p>
+        
+        <p>&nbsp;</p>
+        
+        
+        <p>Las coberturas de seguro de grupo son emitidas por The Prudential Insurance Company of America, una compañía de Prudential Financial, Newark, NJ.</p>
+        <p>&nbsp;</p>
+        
+        <p>&copy; 2019 Prudential Financial, Inc. y sus entidades relacionadas. Prudential, el logotipo de Prudential, el símbolo de la roca y Bring Your Challenges son marcas de servicio de Prudential Financial, Inc. y sus entidades relacionadas, registradas en muchas jurisdicciones en todo el mundo.</p>
+        <p>&nbsp;</p>
+        <p>1014719-00001-00</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Bienestar Financiero de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "¿Tener preguntas? Llamanos 1-844-836-7348"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Bienestar Financiero de SEIU℠
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>¿Qué es el bienestar financiero?&nbsp;</strong> Es la tranquilidad de vivir bien hoy y planificar para el mañana.</p>
+        <p><strong>¿Cómo se logra?</strong>  Equilibrando sus ahorros y sus gastos.</p>
+        <p>Descubra qué tan bien está gastando, planificando y protegiendo su dinero y activos, y obtenga consejos para hacerlo mejor. Nuestro nuevo <strong>Programa de Bienestar Financiero,</strong> ofrecido mediante nuestra asociación con <strong>The Prudential Insurance Company of America,</strong> proporciona artículos y videos para dar respuestas a las preguntas de los miembros de SEIU sobre:</p>
+        <ul>
+            <li><strong>Administración de deudas</strong>. Cree una mejor relación con su dinero... un paso a la vez. No tiene que renunciar a su felicidad.</li>
+            <li><strong>Ahorros e inversiones</strong>. Tome decisiones sólidas sobre el dinero para lograr sus metas y deseos. Aprenda a administrar y a hacer crecer su patrimonio.</li>
+            <li><strong>Finanzas familiares</strong>. Dinero, amor, necesidades, vida... son los factores implicados en la administración diaria del dinero. Encuentre el equilibrio.</li>
+            <li><strong>Planificación de la jubilación</strong>. En un futuro cercano o lejano, tendrá que estar preparado. Disfrute hoy, mientras se prepara para una jubilación segura y feliz.</li>
+            <li><strong>Preparación y protección</strong>. Un poco de consideración y cuidado son de gran ayuda para alcanzar la tranquilidad. Prepárese para cualquier cosa que la vida le presente.</li>
+        </ul>
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Bienestar Financiero de SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="COMENZAR AHORA" linktype="external" url="https://www.prudential.com/SEIU" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Descubra qué tan bien está gastando, planificando y protegiendo su dinero y activos, y obtenga consejos para hacerlo mejor. Obtenga respuestas a sus preguntas sobre administración de deudas, ahorro e inversiones, finanzas familiares, planificación para la jubilación y más.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Comience su viaje en el camino hacia el bienestar financiero
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Bienestar Financiero de SEIU
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{EFC12A4E-4BE4-41D3-B4D5-5FBD6CDB6078}"
+              p:after="r[@uid='{147899D4-42F6-499E-BB94-CEDB52701258}']"
+              s:ds="{1E3B0718-BC57-4F65-B6DB-E1AD0BC6E93D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Descubra qué tan bien está gastando, planificando y protegiendo su dinero y activos, y obtenga consejos para hacerlo mejor. Obtenga respuestas a sus preguntas sobre administración de deudas, ahorro e inversiones, finanzas familiares, planificación para la jubilación y más.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" alt="Bienestar Financiero de SEIU" height="" width="" hspace="" vspace="" />
+    - ID: "10cc799c-9710-4ee0-ae7c-e476825b7ea3"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{D51858A5-4C5A-4678-8410-82AFAF7AEA25}" alt="SEIU Member Benefits en asociación con Prudential" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T121032Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></p>
+        
+        <p>&nbsp;</p>
+        
+        
+        <p>Las coberturas de seguro de grupo son emitidas por The Prudential Insurance Company of America, una compañía de Prudential Financial, Newark, NJ.</p>
+        <p>&nbsp;</p>
+        
+        <p>&copy; 2019 Prudential Financial, Inc. y sus entidades relacionadas. Prudential, el logotipo de Prudential, el símbolo de la roca y Bring Your Challenges son marcas de servicio de Prudential Financial, Inc. y sus entidades relacionadas, registradas en muchas jurisdicciones en todo el mundo.</p>
+        <p>&nbsp;</p>
+        <p>1014719-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Bienestar Financiero de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "¿Tener preguntas? Llamanos 1-844-836-7348"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Bienestar Financiero de SEIU℠
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{16D33F20-C8B5-4208-A8BF-4F41E1BA85A9}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>¿Qué es el bienestar financiero?&nbsp;</strong> Es la tranquilidad de vivir bien hoy y planificar para el mañana.</p>
+        <p><strong>¿Cómo se logra?</strong>  Equilibrando sus ahorros y sus gastos.</p>
+        <p>Descubra qué tan bien está gastando, planificando y protegiendo su dinero y activos, y obtenga consejos para hacerlo mejor. Nuestro nuevo <strong>Programa de Bienestar Financiero,</strong> ofrecido mediante nuestra asociación con <strong>The Prudential Insurance Company of America,</strong> proporciona artículos y videos para dar respuestas a las preguntas de los miembros de SEIU sobre:</p>
+        <ul>
+            <li><strong>Administración de deudas</strong>. Cree una mejor relación con su dinero... un paso a la vez. No tiene que renunciar a su felicidad.</li>
+            <li><strong>Ahorros e inversiones</strong>. Tome decisiones sólidas sobre el dinero para lograr sus metas y deseos. Aprenda a administrar y a hacer crecer su patrimonio.</li>
+            <li><strong>Finanzas familiares</strong>. Dinero, amor, necesidades, vida... son los factores implicados en la administración diaria del dinero. Encuentre el equilibrio.</li>
+            <li><strong>Planificación de la jubilación</strong>. En un futuro cercano o lejano, tendrá que estar preparado. Disfrute hoy, mientras se prepara para una jubilación segura y feliz.</li>
+            <li><strong>Preparación y protección</strong>. Un poco de consideración y cuidado son de gran ayuda para alcanzar la tranquilidad. Prepárese para cualquier cosa que la vida le presente.</li>
+        </ul>
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4FFAB507-EF4C-448F-A111-9DBCA6598924}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Bienestar Financiero de SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="COMENZAR AHORA" linktype="external" url="https://www.prudential.com/SEIU" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Descubra qué tan bien está gastando, planificando y protegiendo su dinero y activos, y obtenga consejos para hacerlo mejor. Obtenga respuestas a sus preguntas sobre administración de deudas, ahorro e inversiones, finanzas familiares, planificación para la jubilación y más.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Comience su viaje en el camino hacia el bienestar financiero
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T121032Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Bienestar Financiero de SEIU
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"

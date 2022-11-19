@@ -1,0 +1,22 @@
+﻿---
+ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+Parent: "8a168275-be68-45e9-a6aa-856fe5eea9a8"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/SEIUMB/Foundation/SitecoreExtensions/_NameValueItem/Data/ItemName
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Item Name
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171114T192527Z

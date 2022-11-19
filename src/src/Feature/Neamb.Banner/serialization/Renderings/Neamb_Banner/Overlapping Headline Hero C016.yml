@@ -1,0 +1,21 @@
+﻿---
+ID: "67175123-ec42-4c98-b086-67ab95b30db1"
+Parent: "6bdc813c-f703-4c19-938e-800be0278d35"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Banner/Overlapping Headline Hero C016
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: OverlappingHeadlineHero
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Banner.Controllers.HeadlineHeroController,Neambc.Neamb.Feature.Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180516T161524Z

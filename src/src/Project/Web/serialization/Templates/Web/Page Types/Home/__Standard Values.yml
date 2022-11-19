@@ -1,0 +1,124 @@
+﻿---
+ID: "8dd14961-58cf-464c-a973-3296c52a2b87"
+Parent: "b0935825-a5f5-4914-b15d-68733c056563"
+Template: "b0935825-a5f5-4914-b15d-68733c056563"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Home/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {F3C06421-5004-40D1-ABDB-008ACCF26AEA}
+    {AD0853BA-639C-44BA-8EF9-EF4AE713B631}
+    {EF07CBF6-E44B-45CE-B502-9A8592266BA1}
+    {2D96EC72-CD15-45E1-BFFB-06AF9804BB68}
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {5EB3A015-DA58-4A58-94E5-AE7630D125FC}
+    {A7672676-784A-4C0C-AD2B-F79B6CCAD850}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{672F6C16-2A09-4340-B58B-56BF296498FD}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{5A54CF10-62CB-4288-85CE-ECA5FF4F0382}" />
+        <r
+          ds="{320FB78C-3992-47D9-8820-98D5C6A58D2D}"
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{9E4D7697-076A-46F4-A77F-BE7DA56E5008}" />
+        <r
+          ds="{320FB78C-3992-47D9-8820-98D5C6A58D2D}"
+          id="{42E6AA24-F575-4DD0-A696-1766273DB0C0}"
+          par=""
+          ph="login-banner"
+          uid="{E5D052EC-1226-49EA-AE12-7395A121E871}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{AF267030-B26D-40AF-B082-156419B93FFA}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{446061F3-1511-4D76-90BB-EAB18C3210DD}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{AEB4620C-E052-42C9-9C86-5F176CC1D64F}" />
+        <r
+          id="{8CEA9E2D-4962-4465-8208-A034B533EA4C}"
+          ph="body"
+          uid="{68C6BE7A-DE6C-42D5-A06C-79A44C52824A}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{3750F550-90A8-4454-83EC-F75533CE5F2D}" />
+        <r
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{41B0089C-5C63-4ABF-B762-40BF192B5B8A}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{41B0089C-5C63-4ABF-B762-40BF192B5B8A}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="A6C32DF854AC4277B3FFDE3814196EEC"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171110T234016Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T205426Z

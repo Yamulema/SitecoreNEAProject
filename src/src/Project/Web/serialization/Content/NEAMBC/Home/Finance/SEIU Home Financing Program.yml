@@ -1,0 +1,922 @@
+﻿---
+ID: "edb471d4-15f1-48ee-8b76-6242ad70176b"
+Parent: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Finance/SEIU Home Financing Program
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{12613A66-0EB2-4FE6-92C6-DCFFE11ED926}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E04C1C86-DBE7-4DE3-A786-2E755C10733B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{B3EAB740-638B-4B90-850C-A10CED661FC2}"
+              p:after="r[@uid='{12613A66-0EB2-4FE6-92C6-DCFFE11ED926}']"
+              s:ds="{9FDBC559-A037-49B9-8307-C8FC51E51DE6}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Home Financing Program offers competitive interest rates and exclusive member discounts on mortgage and refinancing solutions.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B2A6937E-3C65-4909-A300-461ADD4D3F11}" alt="SEIU member benefits in cooperation with amalgamated bank" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002142Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>ADDITIONAL INFORMATION</strong></p>
+        <p>
+        1. <strong>To be eligible for the benefits under SEIU Home Financing Program, applicants must identify themselves as SEIU Members during the loan application process. SEIU membership is subject to verification.</strong><br />
+        &nbsp;</p>
+        <p>
+        2. All loan applications are subject to credit, property approval and income verification. Rates, program terms and conditions are subject to change without notice. Not all products are available in all states or for all amounts. Other restrictions and limitations apply. Amalgamated Bank is authorized for Residential Lending in the following states: CA, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, MA, MD, MI, MN, NJ, NY, NC, NH, NM, OR, PA, SC, TN, TX, UT, VA, VT, WA, WV.<br />
+        &nbsp;</p>
+        <p>
+        3. The discount includes a $300 reduction from Amalgamated Bank&rsquo;s standard application fee and a $700 discount in Amalgamated Bank&rsquo;s Origination fee. Discounts will be applied at closing.<br />
+        &nbsp;</p>
+        <p>
+        4. <strong>First Time Homebuyer Program:</strong> There is no additional cost for Mortgage Insurance with the First-Time Homebuyer Program. The Program is available only to qualified first-time homebuyers. Income, geographic, and other restrictions and limitations apply. Rates, program terms and conditions are subject to change without notice. Not all products are available in all states or for all amounts. All loan applications are subject to credit and property approval, collateral verification, and Amalgamated Bank&rsquo;s terms and conditions.<br />
+        &nbsp;</p>
+        <p>
+        5. Strike protection is only available on loans held in Amalgamated Bank&rsquo;s portfolio. If loan servicing is sold to another financial institution, late fees may not be waived in the event of a strike.<br />
+        &nbsp;</p>
+        <!--<p >
+        5. <strong>+Plus by ValueInsured Down Payment Protection:</strong> There is no additional cost for +Plus by ValueInsured Down Payment Protection on the first 5% down with the First Time Homebuyer Program. For you to receive coverage, your home must be: A single-family home or condo sold for less than it was purchased, as per The Federal Housing Finance Administration (FHFA) Home Price Index from your home’s state; sold at least 2 years after your home purchase but no more than 7 years after your home purchase; owner-occupied during the entire coverage period—no rentals, sold to an unrelated third party and no leasebacks are allowed. Coverage is not yet available for co-op purchases. Check policy terms and conditions. PVI Agency, LLC (dba ValueInsured) is a licensed agency in all 50 states and the District of Columbia, and is not affiliated with Amalgamated Bank. Terms and conditions of the insurance described herein as Down Payment Protection, including pricing, are determined solely by the issuer of the coverage and not by Amalgamated Bank. The description of Down Payment Protection contained herein should not be considered as a solicitation nor an offer to provide such insurance in any jurisdiction whatsoever where it would be unlawful to do so. <strong>The Down Payment Protection product is insurance: not a deposit—not FDIC-insured—not insured by any federal government agency—not guaranteed by the bank. Approval of your mortgage loan will not be conditioned upon your obtaining Down Payment Protection and this insurance may be available from other sources.</strong></p>-->
+        <p>
+        <img alt="" src="-/media/C959EA4CE5F449F5A604983CB77E5076.ashx" style="width: 50px; height: 50px; margin-right: 10px; float: left;" /><br />
+        &copy; 2018 Amalgamated Bank. All rights reserved. Equal Opportunity Lender. Amalgamated Bank NMLS ID# 898791.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value:  SEIU Home Financing Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "TO APPLY, OR IF YOU HAVE ADDITIONAL QUESTIONS, PLEASE CALL AN AMALGAMATED BANK MORTGAGE REPRESENTATIVE AT 1-800-706-0750."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ HOME FINANCING PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Sign in
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>SEIUMB and Amalgamated Bank have joined together to bring SEIU Members the <strong>SEIU Home Financing Program</strong><sup>1</sup>, with competitive interest rates and exclusive discounts on Mortgage and Refinancing solutions&mdash;including a special First Time Homebuyer Program.</p>
+        <p><strong>Save on Mortgage &amp; Refinancing Solutions</strong><sup>2</sup><br />
+        Buying or refinancing a home is a big commitment. That&rsquo;s why Amalgamated Bank will work closely with you to find an affordable mortgage that fits your needs, and they will put you first through every step of the process so you can move forward with confidence.</p>
+        <p>SEIU&rsquo;s Home Financing Program with Amalgamated Bank includes:</p>
+        <ul>
+            <li>Flexible adjustable-rate mortgages and stable fixed-rate mortgages</li>
+            <li>Refinance lending options</li>
+            <li>Competitive rates and timely approvals</li>
+            <li>An easy prequalification and online application process</li>
+            <li><strong>SEIU members get $1,000 in discounts on application and origination fees</strong><sup>1,3</sup></li>
+        </ul>
+        <p><strong>Make Your First Home a Reality</strong><br />
+        We&rsquo;re also pleased to offer a special First Time Homebuyer Program<sup>4</sup>, which includes discounts and features designed to help make homeownership a reality:</p>
+        <ul>
+            <li>Available on certain adjustable-rate and fixed-rate mortgages with a maximum loan amount of $500,000</li>
+            <li>Low 5% down payment</li>
+            <li><strong>SEIU members are eligible for strike protection, where Amalgamated Bank will waive up to three late payment fees in the event that a member&rsquo;s local is on strike</strong><sup>1,5</sup></li>
+        </ul>
+        <!--
+        <p><strong>Get More from Your Home’s Equity</strong><br />
+        If you are already a homeowner, you can put your home’s equity to work to get the cash you need with a <strong>Home Equity Line of Credit</strong><sup>2,6</sup> <strong>(HELOC)</strong> from Amalgamated Bank:</p>
+        
+        <ul>
+        	<li>Consider a HELOC to finance major purchases and expenses, such as home improvements or debt consolidation.</li>
+        	<li>Plus, the interest you pay may be tax deductible. Consult with your tax advisor to determine if your interest payments are eligible.</li>
+        </ul>
+        -->
+        <p><strong>Choose the Bank that Shares Your Values</strong><br />
+        Founded by a union nearly a century ago, Amalgamated Bank has kept their commitment to working people by advocating for workers&rsquo; rights, supporting a fair banking system, and offering affordable financial services for unions and their members. As the largest majority union-owned bank in the nation, Amalgamated Bank is uniquely positioned to serve SEIU members.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Home Financing Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Apply now" linktype="external" url="https://www.amalgamatedbank.com/mortgage-center" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Home Financing Program offers competitive interest rates and exclusive member discounts on mortgage and refinancing solutions.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: A HOME FINANCING PROGRAM CREATED EXCLUSIVELY FOR SEIU MEMBERS.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Home Financing Program
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{12613A66-0EB2-4FE6-92C6-DCFFE11ED926}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E04C1C86-DBE7-4DE3-A786-2E755C10733B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{B48BA700-0755-420C-9A9C-483147AEB013}"
+              p:after="r[@uid='{12613A66-0EB2-4FE6-92C6-DCFFE11ED926}']"
+              s:ds="{66DD9CF8-9795-4CFE-8761-13E304F8E565}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Home Financing Program offers competitive interest rates and exclusive member discounts on mortgage and refinancing solutions.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B2A6937E-3C65-4909-A300-461ADD4D3F11}" alt="SEIU member benefits in cooperation with amalgamated bank" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210503T143310Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>ADDITIONAL INFORMATION</strong></p>
+        <p>
+        1. <strong>To be eligible for the benefits under SEIU Home Financing Program, applicants must identify themselves as SEIU Members during the loan application process. SEIU membership is subject to verification.</strong><br />
+        &nbsp;</p>
+        <p>
+        2. All loan applications are subject to credit, property approval and income verification. Rates, program terms and conditions are subject to change without notice. Not all products are available in all states or for all amounts. Other restrictions and limitations apply. Amalgamated Bank is authorized for Residential Lending in the following states: CA, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, MA, MD, MI, MN, NJ, NY, NC, NH, NM, OR, PA, SC, TN, TX, UT, VA, VT, WA, WV.<br />
+        &nbsp;</p>
+        <p>
+        3. The discount includes a $300 reduction from Amalgamated Bank&rsquo;s standard application fee and a $700 discount in Amalgamated Bank&rsquo;s Origination fee. Discounts will be applied at closing.<br />
+        &nbsp;</p>
+        <p>
+        4. <strong>First Time Homebuyer Program:</strong> There is no additional cost for Mortgage Insurance with the First-Time Homebuyer Program. The Program is available only to qualified first-time homebuyers. Income, geographic, and other restrictions and limitations apply. Rates, program terms and conditions are subject to change without notice. Not all products are available in all states or for all amounts. All loan applications are subject to credit and property approval, collateral verification, and Amalgamated Bank&rsquo;s terms and conditions.<br />
+        &nbsp;</p>
+        <p>
+        5. Strike protection is only available on loans held in Amalgamated Bank&rsquo;s portfolio. If loan servicing is sold to another financial institution, late fees may not be waived in the event of a strike.<br />
+        &nbsp;</p>
+        <!--<p >
+        5. <strong>+Plus by ValueInsured Down Payment Protection:</strong> There is no additional cost for +Plus by ValueInsured Down Payment Protection on the first 5% down with the First Time Homebuyer Program. For you to receive coverage, your home must be: A single-family home or condo sold for less than it was purchased, as per The Federal Housing Finance Administration (FHFA) Home Price Index from your home’s state; sold at least 2 years after your home purchase but no more than 7 years after your home purchase; owner-occupied during the entire coverage period—no rentals, sold to an unrelated third party and no leasebacks are allowed. Coverage is not yet available for co-op purchases. Check policy terms and conditions. PVI Agency, LLC (dba ValueInsured) is a licensed agency in all 50 states and the District of Columbia, and is not affiliated with Amalgamated Bank. Terms and conditions of the insurance described herein as Down Payment Protection, including pricing, are determined solely by the issuer of the coverage and not by Amalgamated Bank. The description of Down Payment Protection contained herein should not be considered as a solicitation nor an offer to provide such insurance in any jurisdiction whatsoever where it would be unlawful to do so. <strong>The Down Payment Protection product is insurance: not a deposit—not FDIC-insured—not insured by any federal government agency—not guaranteed by the bank. Approval of your mortgage loan will not be conditioned upon your obtaining Down Payment Protection and this insurance may be available from other sources.</strong></p>-->
+        <p>
+        <img alt="" src="-/media/C959EA4CE5F449F5A604983CB77E5076.ashx" style="width: 50px; height: 50px; margin-right: 10px; float: left;" /><br />
+        &copy; 2018 Amalgamated Bank. All rights reserved. Equal Opportunity Lender. Amalgamated Bank NMLS ID# 898791.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value:  SEIU Home Financing Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "TO APPLY, OR IF YOU HAVE ADDITIONAL QUESTIONS, PLEASE CALL AN AMALGAMATED BANK MORTGAGE REPRESENTATIVE AT 1-800-706-0750."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ HOME FINANCING PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Sign in
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>SEIUMB and Amalgamated Bank have joined together to bring SEIU Members the <strong>SEIU Home Financing Program</strong><sup>1</sup>, with competitive interest rates and exclusive discounts on Mortgage and Refinancing solutions&mdash;including a special First Time Homebuyer Program.</p>
+        <p><strong>Save on Mortgage &amp; Refinancing Solutions</strong><sup>2</sup><br />
+        Buying or refinancing a home is a big commitment. That&rsquo;s why Amalgamated Bank will work closely with you to find an affordable mortgage that fits your needs, and they will put you first through every step of the process so you can move forward with confidence.</p>
+        <p>SEIU&rsquo;s Home Financing Program with Amalgamated Bank includes:</p>
+        <ul>
+            <li>Flexible adjustable-rate mortgages and stable fixed-rate mortgages</li>
+            <li>Refinance lending options</li>
+            <li>Competitive rates and timely approvals</li>
+            <li>An easy prequalification and online application process</li>
+            <li><strong>SEIU members get $1,000 in discounts on application and origination fees</strong><sup>1,3</sup></li>
+        </ul>
+        <p><strong>Make Your First Home a Reality</strong><br />
+        We&rsquo;re also pleased to offer a special First Time Homebuyer Program<sup>4</sup>, which includes discounts and features designed to help make homeownership a reality:</p>
+        <ul>
+            <li>Available on certain adjustable-rate and fixed-rate mortgages with a maximum loan amount of $500,000</li>
+            <li>Low 5% down payment</li>
+            <li><strong>SEIU members are eligible for strike protection, where Amalgamated Bank will waive up to three late payment fees in the event that a member&rsquo;s local is on strike</strong><sup>1,5</sup></li>
+        </ul>
+        <!--
+        <p><strong>Get More from Your Home’s Equity</strong><br />
+        If you are already a homeowner, you can put your home’s equity to work to get the cash you need with a <strong>Home Equity Line of Credit</strong><sup>2,6</sup> <strong>(HELOC)</strong> from Amalgamated Bank:</p>
+        
+        <ul>
+        	<li>Consider a HELOC to finance major purchases and expenses, such as home improvements or debt consolidation.</li>
+        	<li>Plus, the interest you pay may be tax deductible. Consult with your tax advisor to determine if your interest payments are eligible.</li>
+        </ul>
+        -->
+        <p><strong>Choose the Bank that Shares Your Values</strong><br />
+        Founded by a union nearly a century ago, Amalgamated Bank has kept their commitment to working people by advocating for workers&rsquo; rights, supporting a fair banking system, and offering affordable financial services for unions and their members. As the largest majority union-owned bank in the nation, Amalgamated Bank is uniquely positioned to serve SEIU members.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Home Financing Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Apply now" linktype="external" url="https://www.amalgamatedbank.com/mortgage-center" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Home Financing Program offers competitive interest rates and exclusive member discounts on mortgage and refinancing solutions.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: A HOME FINANCING PROGRAM CREATED EXCLUSIVELY FOR SEIU MEMBERS.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210503T143310Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Home Financing Program
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{12613A66-0EB2-4FE6-92C6-DCFFE11ED926}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E04C1C86-DBE7-4DE3-A786-2E755C10733B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{B48BA700-0755-420C-9A9C-483147AEB013}"
+              p:after="r[@uid='{12613A66-0EB2-4FE6-92C6-DCFFE11ED926}']"
+              s:ds="{66DD9CF8-9795-4CFE-8761-13E304F8E565}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Home Financing Program offers competitive interest rates and exclusive member discounts on mortgage and refinancing solutions.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B2A6937E-3C65-4909-A300-461ADD4D3F11}" alt="SEIU member benefits in cooperation with amalgamated bank" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T125344Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>ADDITIONAL INFORMATION</strong></p>
+        <p>
+        1. <strong>To be eligible for the benefits under SEIU Home Financing Program, applicants must identify themselves as SEIU Members during the loan application process. SEIU membership is subject to verification.</strong><br />
+        &nbsp;</p>
+        <p>
+        2. All loan applications are subject to credit, property approval and income verification. Rates, program terms and conditions are subject to change without notice. Not all products are available in all states or for all amounts. Other restrictions and limitations apply. Amalgamated Bank is authorized for Residential Lending in the following states: CA, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, MA, MD, MI, MN, NJ, NY, NC, NH, NM, OR, PA, SC, TN, TX, UT, VA, VT, WA, WV.<br />
+        &nbsp;</p>
+        <p>
+        3. The discount includes a $300 reduction from Amalgamated Bank&rsquo;s standard application fee and a $700 discount in Amalgamated Bank&rsquo;s Origination fee. Discounts will be applied at closing.<br />
+        &nbsp;</p>
+        <p>
+        4. <strong>First Time Homebuyer Program:</strong> There is no additional cost for Mortgage Insurance with the First-Time Homebuyer Program. The Program is available only to qualified first-time homebuyers. Income, geographic, and other restrictions and limitations apply. Rates, program terms and conditions are subject to change without notice. Not all products are available in all states or for all amounts. All loan applications are subject to credit and property approval, collateral verification, and Amalgamated Bank&rsquo;s terms and conditions.<br />
+        &nbsp;</p>
+        <p>
+        5. Strike protection is only available on loans held in Amalgamated Bank&rsquo;s portfolio. If loan servicing is sold to another financial institution, late fees may not be waived in the event of a strike.<br />
+        &nbsp;</p>
+        <!--<p >
+        5. <strong>+Plus by ValueInsured Down Payment Protection:</strong> There is no additional cost for +Plus by ValueInsured Down Payment Protection on the first 5% down with the First Time Homebuyer Program. For you to receive coverage, your home must be: A single-family home or condo sold for less than it was purchased, as per The Federal Housing Finance Administration (FHFA) Home Price Index from your home’s state; sold at least 2 years after your home purchase but no more than 7 years after your home purchase; owner-occupied during the entire coverage period—no rentals, sold to an unrelated third party and no leasebacks are allowed. Coverage is not yet available for co-op purchases. Check policy terms and conditions. PVI Agency, LLC (dba ValueInsured) is a licensed agency in all 50 states and the District of Columbia, and is not affiliated with Amalgamated Bank. Terms and conditions of the insurance described herein as Down Payment Protection, including pricing, are determined solely by the issuer of the coverage and not by Amalgamated Bank. The description of Down Payment Protection contained herein should not be considered as a solicitation nor an offer to provide such insurance in any jurisdiction whatsoever where it would be unlawful to do so. <strong>The Down Payment Protection product is insurance: not a deposit—not FDIC-insured—not insured by any federal government agency—not guaranteed by the bank. Approval of your mortgage loan will not be conditioned upon your obtaining Down Payment Protection and this insurance may be available from other sources.</strong></p>-->
+        <p>
+        <img alt="" src="-/media/C959EA4CE5F449F5A604983CB77E5076.ashx" style="width: 50px; height: 50px; margin-right: 10px; float: left;" /><br />
+        &copy; 2018 Amalgamated Bank. All rights reserved. Equal Opportunity Lender. Amalgamated Bank NMLS ID# 898791.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value:  SEIU Home Financing Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "TO APPLY, OR IF YOU HAVE ADDITIONAL QUESTIONS, PLEASE CALL AN AMALGAMATED BANK MORTGAGE REPRESENTATIVE AT 1-800-706-0750."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ HOME FINANCING PROGRAM
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{A3C996AB-3AD6-4F44-950C-6CA47AE6FE80}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{A3C996AB-3AD6-4F44-950C-6CA47AE6FE80}"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Sign in
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>SEIUMB and Amalgamated Bank have joined together to bring SEIU Members the <strong>SEIU Home Financing Program</strong><sup>1</sup>, with competitive interest rates and exclusive discounts on Mortgage and Refinancing solutions&mdash;including a special First Time Homebuyer Program.</p>
+        <p><strong>Save on Mortgage &amp; Refinancing Solutions</strong><sup>2</sup><br />
+        Buying or refinancing a home is a big commitment. That&rsquo;s why Amalgamated Bank will work closely with you to find an affordable mortgage that fits your needs, and they will put you first through every step of the process so you can move forward with confidence.</p>
+        <p>SEIU&rsquo;s Home Financing Program with Amalgamated Bank includes:</p>
+        <ul>
+            <li>Flexible adjustable-rate mortgages and stable fixed-rate mortgages</li>
+            <li>Refinance lending options</li>
+            <li>Competitive rates and timely approvals</li>
+            <li>An easy prequalification and online application process</li>
+            <li><strong>SEIU members get $1,000 in discounts on application and origination fees</strong><sup>1,3</sup></li>
+        </ul>
+        <p><strong>Make Your First Home a Reality</strong><br />
+        We&rsquo;re also pleased to offer a special First Time Homebuyer Program<sup>4</sup>, which includes discounts and features designed to help make homeownership a reality:</p>
+        <ul>
+            <li>Available on certain adjustable-rate and fixed-rate mortgages with a maximum loan amount of $500,000</li>
+            <li>Low 5% down payment</li>
+            <li><strong>SEIU members are eligible for strike protection, where Amalgamated Bank will waive up to three late payment fees in the event that a member&rsquo;s local is on strike</strong><sup>1,5</sup></li>
+        </ul>
+        <!--
+        <p><strong>Get More from Your Home’s Equity</strong><br />
+        If you are already a homeowner, you can put your home’s equity to work to get the cash you need with a <strong>Home Equity Line of Credit</strong><sup>2,6</sup> <strong>(HELOC)</strong> from Amalgamated Bank:</p>
+        
+        <ul>
+        	<li>Consider a HELOC to finance major purchases and expenses, such as home improvements or debt consolidation.</li>
+        	<li>Plus, the interest you pay may be tax deductible. Consult with your tax advisor to determine if your interest payments are eligible.</li>
+        </ul>
+        -->
+        <p><strong>Choose the Bank that Shares Your Values</strong><br />
+        Founded by a union nearly a century ago, Amalgamated Bank has kept their commitment to working people by advocating for workers&rsquo; rights, supporting a fair banking system, and offering affordable financial services for unions and their members. As the largest majority union-owned bank in the nation, Amalgamated Bank is uniquely positioned to serve SEIU members.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Home Financing Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Apply now" linktype="external" url="https://www.amalgamatedbank.com/mortgage-center" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Home Financing Program offers competitive interest rates and exclusive member discounts on mortgage and refinancing solutions.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: A HOME FINANCING PROGRAM CREATED EXCLUSIVELY FOR SEIU MEMBERS.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T125344Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Home Financing Program
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{59159520-D1FC-4882-A303-FBC3A89BE809}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E04C1C86-DBE7-4DE3-A786-2E755C10733B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{A58EB8FF-1723-4636-9389-6F67FED5EF74}"
+              p:after="r[@uid='{59159520-D1FC-4882-A303-FBC3A89BE809}']"
+              s:ds="{9FDBC559-A037-49B9-8307-C8FC51E51DE6}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Programa de Financiamiento de Vivienda de SEIU ofrece tasas de interés competitivas y descuentos exclusivos para miembros en soluciones de hipotecas y refinanciamiento.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B2A6937E-3C65-4909-A300-461ADD4D3F11}" alt="SEIU member benefits en cooperción con amalgamated bank" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172706Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N ADICIONAL</strong></p>
+        <p>
+        1. <strong>A fin de ser elegible para los beneficios estipulados en virtud del Programa de Financiaci&oacute;n de Vivienda de SEIU, los solicitantes deben identificarse como miembros de SEIU durante el proceso de solicitud de pr&eacute;stamo. La membres&iacute;a de SEIU est&aacute; sujeta a verificaci&oacute;n.</strong><br>&nbsp;</p>
+        <p>
+        2. Todas las solicitudes de pr&eacute;stamo est&aacute;n sujetas a aprobaci&oacute;n de cr&eacute;dito y de propiedad y a verificaci&oacute;n de ingresos. Las tasas, los t&eacute;rminos y las condiciones del programa est&aacute;n sujetos a cambios sin previo aviso. No todos los productos est&aacute;n disponibles en todos los estados o para todos los montos. Se aplican otras restricciones y limitaciones. Amalgamated Bank est&aacute; autorizado para pr&eacute;stamos residenciales en los siguientes estados: CA, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, MA, MD, MI, MN, NJ, NY, NC, NH, NM, OR, PA, SC, TN, TX, UT, VA, VT, WA, WV.<br>&nbsp;</p>
+        <p>
+        3. El descuento incluye una reducci&oacute;n de $300 en la comisi&oacute;n de la solicitud est&aacute;ndar de Amalgamated Bank y un descuento de $700 en la comisi&oacute;n de iniciaci&oacute;n de Amalgamated Bank. El descuento en la comisi&oacute;n de la solicitud se aplicar&aacute; en el momento de la solicitud y el descuento en la comisi&oacute;n de iniciaci&oacute;n se aplicar&aacute; al cierre del pr&eacute;stamo.<br>&nbsp;</p>
+        <p>
+        4. <strong>Programa de Compra de Primera Vivienda:</strong> No hay costo adicional para el Seguro Hipotecario con el Programa de Compra de Primera Vivienda. Las tasas, los t&eacute;rminos y las condiciones del programa est&aacute;n sujetos a cambios sin previo aviso. No todos los productos est&aacute;n disponibles en todos los estados o para todos los montos. Pueden aplicarse otras restricciones y limitaciones.<br>&nbsp;</p>
+        <p>
+        5. La protecci&oacute;n de huelgas solo est&aacute; disponible para los pr&eacute;stamos que se mantienen en la cartera de Amalgamated Bank. Si el servicio de pr&eacute;stamo se vende a otra instituci&oacute;n financiera, no se pueden eximir los recargos por mora en el caso de una huelga.<br>&nbsp;</p>
+        <!--
+        <p >
+        5. <strong>Protecci&oacute;n de Pago Inicial +Plus de ValueInsured:</strong> No hay costo adicional para la Protecci&oacute;n de Pago Inicial de +Plus de ValueInsured en el primer 5% inicial con el Programa de Compra de Primera Vivienda. Para recibir la cobertura, su casa debe: ser una vivienda unifamiliar o condominio cuyo precio de venta es inferior al precio de compra, esto seg&uacute;n el &Iacute;ndice de Precios de Viviendas de la Administraci&oacute;n Federal de Viviendas (FHFA, Federal Housing Finance Administration) del estado en el que se encuentra su vivienda; venderse por lo menos 2 a&ntilde;os despu&eacute;s de la compra de su vivienda pero no m&aacute;s de 7 a&ntilde;os despu&eacute;s de la compra de su vivienda; ser ocupada por el propietario durante todo el per&iacute;odo de cobertura, no se permiten arrendamientos, ventas a terceros no vinculados ni ventas con cl&aacute;usulas de arrendamiento. La cobertura todav&iacute;a no est&aacute; disponible para las compras cooperativas. Revise los t&eacute;rminos y las condiciones de la pol&iacute;tica. PVI Agency, LLC (dba ValueInsured) es una agencia que cuenta con licencia en los 50 estados y en el Distrito de Columbia y no est&aacute; afiliada a Amalgamated Bank. Los t&eacute;rminos y las condiciones del seguro descrito en el presente documento como Protecci&oacute;n de Pago Inicial, incluidos los precios, son determinados &uacute;nicamente por el emisor de la cobertura y no por Amalgamated Bank. La descripci&oacute;n de la Protecci&oacute;n de Pago Inicial aqu&iacute; contenida no debe considerarse como una solicitud ni una oferta para proporcionar dicho seguro en cualquier jurisdicci&oacute;n donde ser&iacute;a ilegal hacerlo. <strong>El producto de Protecci&oacute;n de Pago Inicial es un seguro: no es un dep&oacute;sito, no est&aacute; asegurado por la FDIC, no est&aacute; asegurado por ninguna agencia del gobierno federal, no cuenta con garant&iacute;a del banco. La aprobaci&oacute;n de su pr&eacute;stamo hipotecario no estar&aacute; condicionada a la obtenci&oacute;n de la Protecci&oacute;n de Pago Inicial y este seguro puede provenir de otros &aacute;mbitos.</strong></p>
+        -->
+        <p>
+        <img alt="" src="-/media/C959EA4CE5F449F5A604983CB77E5076.ashx" style="width: 50px; height: 50px; margin-right: 10px; float: left;" /><br />
+        &copy; 2018 Amalgamated Bank. Todos los derechos reservados. Equal Opportunity Lender. Amalgamated Bank NMLS ID# 898791.</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Financiación de Vivienda SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "PARA SOLICITARLO, O SI TIENE PREGUNTAS ADICIONALES, LLAME A UN REPRESENTANTE DE AMALGAMATED BANK MORTGAGE AL 1-800-706-0750."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE FINANCIACIÓN DE VIVIENDA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>SEIU Member Benefits y Amalgamated Bank se han unido para ofrecer a los miembros de SEIU el <strong>Programa de Financiaci&oacute;n de Vivienda de SEIU</strong><sup>1</sup>, con tasas de inter&eacute;s competitivas y descuentos exclusivos en soluciones de Hipoteca y Refinanciaci&oacute;n, lo que incluye un exclusivo Programa de Compra de Primera Vivienda.</p>
+        <p><strong>Ahorre en soluciones de Hipoteca y Refinanciaci&oacute;n</strong><sup>2</sup><br />
+        Comprar o refinanciar una casa es un gran compromiso. Es por eso que Amalgamated Bank trabajar&aacute; en estrecha relaci&oacute;n con usted para encontrar una hipoteca asequible que se adapte a sus necesidades y lo pondr&aacute; siempre en primer lugar a cada paso del proceso para que pueda avanzar con confianza.</p>
+        <p>El Programa de Financiaci&oacute;n de Vivienda de SEIU con Amalgamated Bank incluye:</p>
+        <ul>
+            <li>Hipotecas flexibles de tasa ajustable e hipotecas estables de tasa fija</li>
+            <li>Refinanciaci&oacute;n de las opciones de pr&eacute;stamo</li>
+            <li>Tasas competitivas y aprobaciones puntuales</li>
+            <li>Una f&aacute;cil precalificaci&oacute;n y proceso de solicitud en l&iacute;nea</li>
+            <li><strong>Los miembros de SEIU obtienen $1,000 de descuentos en las comisiones de solicitud e iniciaci&oacute;n</strong><sup>1,3</sup></li>
+        </ul>
+        <p><strong>Haga de su primera casa una realidad</strong><br />
+        Tambi&eacute;n tenemos el agrado de ofrecer un exclusivo Programa de Compra de Primera Vivienda<sup>4</sup>, que incluye descuentos y caracter&iacute;sticas dise&ntilde;ados para ayudar a que el sue&ntilde;o de la vivienda propia sea una realidad:</p>
+        <ul>
+            <li>Disponible en algunas hipotecas de tasa ajustable y de tasa fija con un monto m&aacute;ximo de pr&eacute;stamo de $500,000</li>
+            <li>Pago m&iacute;nimo del 5%</li>
+            <li><strong>Los miembros de SEIU son elegibles para la protecci&oacute;n contra huelgas; esto quiere decir que Amalgamated Bank renunciar&aacute; a tres cargos por pago retrasado en caso de que la sucursal de un miembro est&eacute; en huelga</strong><sup>1,5</sup></li>
+        </ul>
+        <!--
+        <p><strong>Obtenga m&aacute;s beneficios de su capital inmobiliario</strong><br />
+        Si ya es propietario de una vivienda, puede poner su capital inmobiliario a trabajar para obtener el dinero que necesita con una <strong>L&iacute;nea de Cr&eacute;dito Hipotecario</strong><sup>2,6</sup> <strong>(HELOC, Home Equity Line of Credit)</strong> de Amalgamated Bank:</p>
+        
+        <ul>
+        	<li>Considere una HELOC para financiar compras y gastos importantes, tales como mejoras en el hogar o consolidaci&oacute;n de deudas.</li>
+        	<li>Adem&aacute;s, es posible que el inter&eacute;s que paga sea deducible de impuestos. Consulte con su asesor fiscal para determinar si sus pagos de intereses son elegibles.</li>
+        </ul>
+        -->
+        <p><strong>Elija el banco que comparte sus valores.</strong><br />
+        Fundado por un sindicato hace casi un siglo, Amalgamated Bank ha mantenido su compromiso con los trabajadores abogando por sus derechos, apoyando un sistema bancario justo y ofreciendo servicios financieros asequibles para los sindicatos y sus miembros. Como el principal banco de propiedad sindical del pa&iacute;s, Amalgamated Bank est&aacute; en una posici&oacute;n privilegiada que le permite ofrecer una atenci&oacute;n de excelencia a los miembros de SEIU.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Financiación de Vivienda SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="SOLICITAR AHORA" linktype="external" url="https://www.amalgamatedbank.com/mortgage-center" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El Programa de Financiación de Vivienda de SEIU ofrece tasas de interés competitivas y descuentos exclusivos para miembros en soluciones de hipoteca y refinanciación.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: UN PROGRAMA DE FINANCIACIÓN PARA COMPRA DE VIVIENDA CREADO ESPECIALMENTE PARA LOS MIEMBROS DE SEIU.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Financiación de Vivienda SEIU
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{59159520-D1FC-4882-A303-FBC3A89BE809}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E04C1C86-DBE7-4DE3-A786-2E755C10733B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{D84BF181-05DA-4904-84B1-0851E70F2126}"
+              p:after="r[@uid='{59159520-D1FC-4882-A303-FBC3A89BE809}']"
+              s:ds="{66DD9CF8-9795-4CFE-8761-13E304F8E565}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Programa de Financiamiento de Vivienda de SEIU ofrece tasas de interés competitivas y descuentos exclusivos para miembros en soluciones de hipotecas y refinanciamiento.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B2A6937E-3C65-4909-A300-461ADD4D3F11}" alt="SEIU member benefits en cooperción con amalgamated bank" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210503T143504Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N ADICIONAL</strong></p>
+        <p>
+        1. <strong>A fin de ser elegible para los beneficios estipulados en virtud del Programa de Financiaci&oacute;n de Vivienda de SEIU, los solicitantes deben identificarse como miembros de SEIU durante el proceso de solicitud de pr&eacute;stamo. La membres&iacute;a de SEIU est&aacute; sujeta a verificaci&oacute;n.</strong><br>&nbsp;</p>
+        <p>
+        2. Todas las solicitudes de pr&eacute;stamo est&aacute;n sujetas a aprobaci&oacute;n de cr&eacute;dito y de propiedad y a verificaci&oacute;n de ingresos. Las tasas, los t&eacute;rminos y las condiciones del programa est&aacute;n sujetos a cambios sin previo aviso. No todos los productos est&aacute;n disponibles en todos los estados o para todos los montos. Se aplican otras restricciones y limitaciones. Amalgamated Bank est&aacute; autorizado para pr&eacute;stamos residenciales en los siguientes estados: CA, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, MA, MD, MI, MN, NJ, NY, NC, NH, NM, OR, PA, SC, TN, TX, UT, VA, VT, WA, WV.<br>&nbsp;</p>
+        <p>
+        3. El descuento incluye una reducci&oacute;n de $300 en la comisi&oacute;n de la solicitud est&aacute;ndar de Amalgamated Bank y un descuento de $700 en la comisi&oacute;n de iniciaci&oacute;n de Amalgamated Bank. El descuento en la comisi&oacute;n de la solicitud se aplicar&aacute; en el momento de la solicitud y el descuento en la comisi&oacute;n de iniciaci&oacute;n se aplicar&aacute; al cierre del pr&eacute;stamo.<br>&nbsp;</p>
+        <p>
+        4. <strong>Programa de Compra de Primera Vivienda:</strong> No hay costo adicional para el Seguro Hipotecario con el Programa de Compra de Primera Vivienda. Las tasas, los t&eacute;rminos y las condiciones del programa est&aacute;n sujetos a cambios sin previo aviso. No todos los productos est&aacute;n disponibles en todos los estados o para todos los montos. Pueden aplicarse otras restricciones y limitaciones.<br>&nbsp;</p>
+        <p>
+        5. La protecci&oacute;n de huelgas solo est&aacute; disponible para los pr&eacute;stamos que se mantienen en la cartera de Amalgamated Bank. Si el servicio de pr&eacute;stamo se vende a otra instituci&oacute;n financiera, no se pueden eximir los recargos por mora en el caso de una huelga.<br>&nbsp;</p>
+        <!--
+        <p >
+        5. <strong>Protecci&oacute;n de Pago Inicial +Plus de ValueInsured:</strong> No hay costo adicional para la Protecci&oacute;n de Pago Inicial de +Plus de ValueInsured en el primer 5% inicial con el Programa de Compra de Primera Vivienda. Para recibir la cobertura, su casa debe: ser una vivienda unifamiliar o condominio cuyo precio de venta es inferior al precio de compra, esto seg&uacute;n el &Iacute;ndice de Precios de Viviendas de la Administraci&oacute;n Federal de Viviendas (FHFA, Federal Housing Finance Administration) del estado en el que se encuentra su vivienda; venderse por lo menos 2 a&ntilde;os despu&eacute;s de la compra de su vivienda pero no m&aacute;s de 7 a&ntilde;os despu&eacute;s de la compra de su vivienda; ser ocupada por el propietario durante todo el per&iacute;odo de cobertura, no se permiten arrendamientos, ventas a terceros no vinculados ni ventas con cl&aacute;usulas de arrendamiento. La cobertura todav&iacute;a no est&aacute; disponible para las compras cooperativas. Revise los t&eacute;rminos y las condiciones de la pol&iacute;tica. PVI Agency, LLC (dba ValueInsured) es una agencia que cuenta con licencia en los 50 estados y en el Distrito de Columbia y no est&aacute; afiliada a Amalgamated Bank. Los t&eacute;rminos y las condiciones del seguro descrito en el presente documento como Protecci&oacute;n de Pago Inicial, incluidos los precios, son determinados &uacute;nicamente por el emisor de la cobertura y no por Amalgamated Bank. La descripci&oacute;n de la Protecci&oacute;n de Pago Inicial aqu&iacute; contenida no debe considerarse como una solicitud ni una oferta para proporcionar dicho seguro en cualquier jurisdicci&oacute;n donde ser&iacute;a ilegal hacerlo. <strong>El producto de Protecci&oacute;n de Pago Inicial es un seguro: no es un dep&oacute;sito, no est&aacute; asegurado por la FDIC, no est&aacute; asegurado por ninguna agencia del gobierno federal, no cuenta con garant&iacute;a del banco. La aprobaci&oacute;n de su pr&eacute;stamo hipotecario no estar&aacute; condicionada a la obtenci&oacute;n de la Protecci&oacute;n de Pago Inicial y este seguro puede provenir de otros &aacute;mbitos.</strong></p>
+        -->
+        <p>
+        <img alt="" src="-/media/C959EA4CE5F449F5A604983CB77E5076.ashx" style="width: 50px; height: 50px; margin-right: 10px; float: left;" /><br />
+        &copy; 2018 Amalgamated Bank. Todos los derechos reservados. Equal Opportunity Lender. Amalgamated Bank NMLS ID# 898791.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Financiación de Vivienda SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "PARA SOLICITARLO, O SI TIENE PREGUNTAS ADICIONALES, LLAME A UN REPRESENTANTE DE AMALGAMATED BANK MORTGAGE AL 1-800-706-0750."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE FINANCIACIÓN DE VIVIENDA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>SEIU Member Benefits y Amalgamated Bank se han unido para ofrecer a los miembros de SEIU el <strong>Programa de Financiaci&oacute;n de Vivienda de SEIU</strong><sup>1</sup>, con tasas de inter&eacute;s competitivas y descuentos exclusivos en soluciones de Hipoteca y Refinanciaci&oacute;n, lo que incluye un exclusivo Programa de Compra de Primera Vivienda.</p>
+        <p><strong>Ahorre en soluciones de Hipoteca y Refinanciaci&oacute;n</strong><sup>2</sup><br />
+        Comprar o refinanciar una casa es un gran compromiso. Es por eso que Amalgamated Bank trabajar&aacute; en estrecha relaci&oacute;n con usted para encontrar una hipoteca asequible que se adapte a sus necesidades y lo pondr&aacute; siempre en primer lugar a cada paso del proceso para que pueda avanzar con confianza.</p>
+        <p>El Programa de Financiaci&oacute;n de Vivienda de SEIU con Amalgamated Bank incluye:</p>
+        <ul>
+            <li>Hipotecas flexibles de tasa ajustable e hipotecas estables de tasa fija</li>
+            <li>Refinanciaci&oacute;n de las opciones de pr&eacute;stamo</li>
+            <li>Tasas competitivas y aprobaciones puntuales</li>
+            <li>Una f&aacute;cil precalificaci&oacute;n y proceso de solicitud en l&iacute;nea</li>
+            <li><strong>Los miembros de SEIU obtienen $1,000 de descuentos en las comisiones de solicitud e iniciaci&oacute;n</strong><sup>1,3</sup></li>
+        </ul>
+        <p><strong>Haga de su primera casa una realidad</strong><br />
+        Tambi&eacute;n tenemos el agrado de ofrecer un exclusivo Programa de Compra de Primera Vivienda<sup>4</sup>, que incluye descuentos y caracter&iacute;sticas dise&ntilde;ados para ayudar a que el sue&ntilde;o de la vivienda propia sea una realidad:</p>
+        <ul>
+            <li>Disponible en algunas hipotecas de tasa ajustable y de tasa fija con un monto m&aacute;ximo de pr&eacute;stamo de $500,000</li>
+            <li>Pago m&iacute;nimo del 5%</li>
+            <li><strong>Los miembros de SEIU son elegibles para la protecci&oacute;n contra huelgas; esto quiere decir que Amalgamated Bank renunciar&aacute; a tres cargos por pago retrasado en caso de que la sucursal de un miembro est&eacute; en huelga</strong><sup>1,5</sup></li>
+        </ul>
+        <!--
+        <p><strong>Obtenga m&aacute;s beneficios de su capital inmobiliario</strong><br />
+        Si ya es propietario de una vivienda, puede poner su capital inmobiliario a trabajar para obtener el dinero que necesita con una <strong>L&iacute;nea de Cr&eacute;dito Hipotecario</strong><sup>2,6</sup> <strong>(HELOC, Home Equity Line of Credit)</strong> de Amalgamated Bank:</p>
+        
+        <ul>
+        	<li>Considere una HELOC para financiar compras y gastos importantes, tales como mejoras en el hogar o consolidaci&oacute;n de deudas.</li>
+        	<li>Adem&aacute;s, es posible que el inter&eacute;s que paga sea deducible de impuestos. Consulte con su asesor fiscal para determinar si sus pagos de intereses son elegibles.</li>
+        </ul>
+        -->
+        <p><strong>Elija el banco que comparte sus valores.</strong><br />
+        Fundado por un sindicato hace casi un siglo, Amalgamated Bank ha mantenido su compromiso con los trabajadores abogando por sus derechos, apoyando un sistema bancario justo y ofreciendo servicios financieros asequibles para los sindicatos y sus miembros. Como el principal banco de propiedad sindical del pa&iacute;s, Amalgamated Bank est&aacute; en una posici&oacute;n privilegiada que le permite ofrecer una atenci&oacute;n de excelencia a los miembros de SEIU.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Financiación de Vivienda SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="SOLICITAR AHORA" linktype="external" url="https://www.amalgamatedbank.com/mortgage-center" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El Programa de Financiación de Vivienda de SEIU ofrece tasas de interés competitivas y descuentos exclusivos para miembros en soluciones de hipoteca y refinanciación.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: UN PROGRAMA DE FINANCIACIÓN PARA COMPRA DE VIVIENDA CREADO ESPECIALMENTE PARA LOS MIEMBROS DE SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210503T143504Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Financiación de Vivienda SEIU
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{59159520-D1FC-4882-A303-FBC3A89BE809}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E04C1C86-DBE7-4DE3-A786-2E755C10733B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{D84BF181-05DA-4904-84B1-0851E70F2126}"
+              p:after="r[@uid='{59159520-D1FC-4882-A303-FBC3A89BE809}']"
+              s:ds="{66DD9CF8-9795-4CFE-8761-13E304F8E565}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Programa de Financiamiento de Vivienda de SEIU ofrece tasas de interés competitivas y descuentos exclusivos para miembros en soluciones de hipotecas y refinanciamiento.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B2A6937E-3C65-4909-A300-461ADD4D3F11}" alt="SEIU member benefits en cooperción con amalgamated bank" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T130626Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N ADICIONAL</strong></p>
+        <p>
+        1. <strong>A fin de ser elegible para los beneficios estipulados en virtud del Programa de Financiaci&oacute;n de Vivienda de SEIU, los solicitantes deben identificarse como miembros de SEIU durante el proceso de solicitud de pr&eacute;stamo. La membres&iacute;a de SEIU est&aacute; sujeta a verificaci&oacute;n.</strong><br>&nbsp;</p>
+        <p>
+        2. Todas las solicitudes de pr&eacute;stamo est&aacute;n sujetas a aprobaci&oacute;n de cr&eacute;dito y de propiedad y a verificaci&oacute;n de ingresos. Las tasas, los t&eacute;rminos y las condiciones del programa est&aacute;n sujetos a cambios sin previo aviso. No todos los productos est&aacute;n disponibles en todos los estados o para todos los montos. Se aplican otras restricciones y limitaciones. Amalgamated Bank est&aacute; autorizado para pr&eacute;stamos residenciales en los siguientes estados: CA, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, MA, MD, MI, MN, NJ, NY, NC, NH, NM, OR, PA, SC, TN, TX, UT, VA, VT, WA, WV.<br>&nbsp;</p>
+        <p>
+        3. El descuento incluye una reducci&oacute;n de $300 en la comisi&oacute;n de la solicitud est&aacute;ndar de Amalgamated Bank y un descuento de $700 en la comisi&oacute;n de iniciaci&oacute;n de Amalgamated Bank. El descuento en la comisi&oacute;n de la solicitud se aplicar&aacute; en el momento de la solicitud y el descuento en la comisi&oacute;n de iniciaci&oacute;n se aplicar&aacute; al cierre del pr&eacute;stamo.<br>&nbsp;</p>
+        <p>
+        4. <strong>Programa de Compra de Primera Vivienda:</strong> No hay costo adicional para el Seguro Hipotecario con el Programa de Compra de Primera Vivienda. Las tasas, los t&eacute;rminos y las condiciones del programa est&aacute;n sujetos a cambios sin previo aviso. No todos los productos est&aacute;n disponibles en todos los estados o para todos los montos. Pueden aplicarse otras restricciones y limitaciones.<br>&nbsp;</p>
+        <p>
+        5. La protecci&oacute;n de huelgas solo est&aacute; disponible para los pr&eacute;stamos que se mantienen en la cartera de Amalgamated Bank. Si el servicio de pr&eacute;stamo se vende a otra instituci&oacute;n financiera, no se pueden eximir los recargos por mora en el caso de una huelga.<br>&nbsp;</p>
+        <!--
+        <p >
+        5. <strong>Protecci&oacute;n de Pago Inicial +Plus de ValueInsured:</strong> No hay costo adicional para la Protecci&oacute;n de Pago Inicial de +Plus de ValueInsured en el primer 5% inicial con el Programa de Compra de Primera Vivienda. Para recibir la cobertura, su casa debe: ser una vivienda unifamiliar o condominio cuyo precio de venta es inferior al precio de compra, esto seg&uacute;n el &Iacute;ndice de Precios de Viviendas de la Administraci&oacute;n Federal de Viviendas (FHFA, Federal Housing Finance Administration) del estado en el que se encuentra su vivienda; venderse por lo menos 2 a&ntilde;os despu&eacute;s de la compra de su vivienda pero no m&aacute;s de 7 a&ntilde;os despu&eacute;s de la compra de su vivienda; ser ocupada por el propietario durante todo el per&iacute;odo de cobertura, no se permiten arrendamientos, ventas a terceros no vinculados ni ventas con cl&aacute;usulas de arrendamiento. La cobertura todav&iacute;a no est&aacute; disponible para las compras cooperativas. Revise los t&eacute;rminos y las condiciones de la pol&iacute;tica. PVI Agency, LLC (dba ValueInsured) es una agencia que cuenta con licencia en los 50 estados y en el Distrito de Columbia y no est&aacute; afiliada a Amalgamated Bank. Los t&eacute;rminos y las condiciones del seguro descrito en el presente documento como Protecci&oacute;n de Pago Inicial, incluidos los precios, son determinados &uacute;nicamente por el emisor de la cobertura y no por Amalgamated Bank. La descripci&oacute;n de la Protecci&oacute;n de Pago Inicial aqu&iacute; contenida no debe considerarse como una solicitud ni una oferta para proporcionar dicho seguro en cualquier jurisdicci&oacute;n donde ser&iacute;a ilegal hacerlo. <strong>El producto de Protecci&oacute;n de Pago Inicial es un seguro: no es un dep&oacute;sito, no est&aacute; asegurado por la FDIC, no est&aacute; asegurado por ninguna agencia del gobierno federal, no cuenta con garant&iacute;a del banco. La aprobaci&oacute;n de su pr&eacute;stamo hipotecario no estar&aacute; condicionada a la obtenci&oacute;n de la Protecci&oacute;n de Pago Inicial y este seguro puede provenir de otros &aacute;mbitos.</strong></p>
+        -->
+        <p>
+        <img alt="" src="-/media/C959EA4CE5F449F5A604983CB77E5076.ashx" style="width: 50px; height: 50px; margin-right: 10px; float: left;" /><br />
+        &copy; 2018 Amalgamated Bank. Todos los derechos reservados. Equal Opportunity Lender. Amalgamated Bank NMLS ID# 898791.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Financiación de Vivienda SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "PARA SOLICITARLO, O SI TIENE PREGUNTAS ADICIONALES, LLAME A UN REPRESENTANTE DE AMALGAMATED BANK MORTGAGE AL 1-800-706-0750."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE FINANCIACIÓN DE VIVIENDA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>SEIU Member Benefits y Amalgamated Bank se han unido para ofrecer a los miembros de SEIU el <strong>Programa de Financiaci&oacute;n de Vivienda de SEIU</strong><sup>1</sup>, con tasas de inter&eacute;s competitivas y descuentos exclusivos en soluciones de Hipoteca y Refinanciaci&oacute;n, lo que incluye un exclusivo Programa de Compra de Primera Vivienda.</p>
+        <p><strong>Ahorre en soluciones de Hipoteca y Refinanciaci&oacute;n</strong><sup>2</sup><br />
+        Comprar o refinanciar una casa es un gran compromiso. Es por eso que Amalgamated Bank trabajar&aacute; en estrecha relaci&oacute;n con usted para encontrar una hipoteca asequible que se adapte a sus necesidades y lo pondr&aacute; siempre en primer lugar a cada paso del proceso para que pueda avanzar con confianza.</p>
+        <p>El Programa de Financiaci&oacute;n de Vivienda de SEIU con Amalgamated Bank incluye:</p>
+        <ul>
+            <li>Hipotecas flexibles de tasa ajustable e hipotecas estables de tasa fija</li>
+            <li>Refinanciaci&oacute;n de las opciones de pr&eacute;stamo</li>
+            <li>Tasas competitivas y aprobaciones puntuales</li>
+            <li>Una f&aacute;cil precalificaci&oacute;n y proceso de solicitud en l&iacute;nea</li>
+            <li><strong>Los miembros de SEIU obtienen $1,000 de descuentos en las comisiones de solicitud e iniciaci&oacute;n</strong><sup>1,3</sup></li>
+        </ul>
+        <p><strong>Haga de su primera casa una realidad</strong><br />
+        Tambi&eacute;n tenemos el agrado de ofrecer un exclusivo Programa de Compra de Primera Vivienda<sup>4</sup>, que incluye descuentos y caracter&iacute;sticas dise&ntilde;ados para ayudar a que el sue&ntilde;o de la vivienda propia sea una realidad:</p>
+        <ul>
+            <li>Disponible en algunas hipotecas de tasa ajustable y de tasa fija con un monto m&aacute;ximo de pr&eacute;stamo de $500,000</li>
+            <li>Pago m&iacute;nimo del 5%</li>
+            <li><strong>Los miembros de SEIU son elegibles para la protecci&oacute;n contra huelgas; esto quiere decir que Amalgamated Bank renunciar&aacute; a tres cargos por pago retrasado en caso de que la sucursal de un miembro est&eacute; en huelga</strong><sup>1,5</sup></li>
+        </ul>
+        <!--
+        <p><strong>Obtenga m&aacute;s beneficios de su capital inmobiliario</strong><br />
+        Si ya es propietario de una vivienda, puede poner su capital inmobiliario a trabajar para obtener el dinero que necesita con una <strong>L&iacute;nea de Cr&eacute;dito Hipotecario</strong><sup>2,6</sup> <strong>(HELOC, Home Equity Line of Credit)</strong> de Amalgamated Bank:</p>
+        
+        <ul>
+        	<li>Considere una HELOC para financiar compras y gastos importantes, tales como mejoras en el hogar o consolidaci&oacute;n de deudas.</li>
+        	<li>Adem&aacute;s, es posible que el inter&eacute;s que paga sea deducible de impuestos. Consulte con su asesor fiscal para determinar si sus pagos de intereses son elegibles.</li>
+        </ul>
+        -->
+        <p><strong>Elija el banco que comparte sus valores.</strong><br />
+        Fundado por un sindicato hace casi un siglo, Amalgamated Bank ha mantenido su compromiso con los trabajadores abogando por sus derechos, apoyando un sistema bancario justo y ofreciendo servicios financieros asequibles para los sindicatos y sus miembros. Como el principal banco de propiedad sindical del pa&iacute;s, Amalgamated Bank est&aacute; en una posici&oacute;n privilegiada que le permite ofrecer una atenci&oacute;n de excelencia a los miembros de SEIU.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2FD65C00-59AF-4E02-AE5F-17C45B9E9567}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Financiación de Vivienda SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="SOLICITAR AHORA" linktype="external" url="https://www.amalgamatedbank.com/mortgage-center" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El Programa de Financiación de Vivienda de SEIU ofrece tasas de interés competitivas y descuentos exclusivos para miembros en soluciones de hipoteca y refinanciación.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: UN PROGRAMA DE FINANCIACIÓN PARA COMPRA DE VIVIENDA CREADO ESPECIALMENTE PARA LOS MIEMBROS DE SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T130626Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Financiación de Vivienda SEIU
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"

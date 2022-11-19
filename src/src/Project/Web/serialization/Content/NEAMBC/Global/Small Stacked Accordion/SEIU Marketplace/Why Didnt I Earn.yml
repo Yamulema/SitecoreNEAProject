@@ -1,0 +1,99 @@
+﻿---
+ID: "d074d96a-caff-4820-aa70-6e14bf8e3141"
+Parent: "6847aefb-2f69-4f02-9ff2-9734aa811757"
+Template: "018b901d-ecad-4748-86e8-bacbe06a5ea7"
+Path: /sitecore/content/NEAMBC/Global/Small Stacked Accordion/SEIU Marketplace/Why Didnt I Earn
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>If you made a purchase and don&rsquo;t see Cash Back in your account, it may be due to one of these reasons:</p>
+        <ul>
+            <li>Using coupons you found outside of Rakuten. Using or even attempting to use any coupon codes, offers or promotions that are not on Rakuten can void your Cash Back. There could be conflicts between Cash Back and the discounts offered by other coupon sites, exclusive emails or rewards programs.</li>
+            <li>Visiting other sites during your shopping session. Going to other sites, especially ones that offer shopping rewards, coupons or discounts, can result in the store giving the credit for your purchase to another site. In addition, browser extensions from other shopping programs can interfere with linking your purchase to your Rakuten account.</li>
+            <li>Switching to a different browser window or tab. You should only use the initial tab opened for you by Rakuten at the beginning of your shopping session. If you complete your purchase in a different tab or window, we may be unable to link your purchase to your Rakuten account.</li>
+            <li>Waiting too long after activating Cash Back to complete your purchase. Additionally, some stores do not allow us to link a purchase to your Rakuten account if items were added to your shopping cart before you activated Cash Back. It&rsquo;s best to activate Cash Back before adding items to your cart and check out as soon as you can.</li>
+            <li>Not activating Cash Back when using the Button extension. On the store site, make sure to click &ldquo;Activate Cash Back&rdquo; before you start shopping. If you don&rsquo;t see the &ldquo;Activate Cash Back&rdquo; button, then that store may not be available for the extension and you should activate Cash Back from Rakuten.com. Learn more about stores and the Button extension.</li>
+            <li>Longer store reporting times. Stores must report your order information to Rakuten, so they know how much Cash Back to add to your account. Reporting time can range from a few hours to up to 3 months for travel bookings. To see a store&rsquo;s reporting time, check its store page on Rakuten.com </li>
+            <li>Ineligible store categories or products. Some stores limit Cash Back to certain categories or products. You may have purchased an item that&rsquo;s not Cash Back eligible. To see a store&rsquo;s eligible categories, check its store page on Rakuten.com.</li>
+        </ul>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200923T173548Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "Why Didn’t I Earn Cash Back?"
+  - Version: 2
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>If you made a purchase and don&rsquo;t see Cash Back in your account, it may be due to one of these reasons:</p>
+        <ul>
+            <li><strong>Using coupons you found outside of Rakuten</strong>. Using or even attempting to use any coupon codes, offers or promotions that are not on Rakuten can void your Cash Back. There could be conflicts between Cash Back and the discounts offered by other coupon sites, exclusive emails or rewards programs.</li>
+            <li><strong>Visiting other sites during your shopping session</strong>. Going to other sites, especially ones that offer shopping rewards, coupons or discounts, can result in the store giving the credit for your purchase to another site. In addition, browser extensions from other shopping programs can interfere with linking your purchase to your Rakuten account.</li>
+            <li><strong>Switching to a different browser window or tab</strong>. You should only use the initial tab opened for you by Rakuten at the beginning of your shopping session. If you complete your purchase in a different tab or window, we may be unable to link your purchase to your Rakuten account.</li>
+            <li><strong>Waiting too long after activating Cash Back to complete your purchase</strong>. Additionally, some stores do not allow us to link a purchase to your Rakuten account if items were added to your shopping cart before you activated Cash Back. It&rsquo;s best to activate Cash Back before adding items to your cart and check out as soon as you can.</li>
+            <li><strong>Not activating Cash Back when using the Button extension</strong>. On the store site, make sure to click &ldquo;Activate Cash Back&rdquo; before you start shopping. If you don&rsquo;t see the &ldquo;Activate Cash Back&rdquo; button, then that store may not be available for the extension and you should activate Cash Back from Rakuten.com. Learn more about stores and the Button extension.</li>
+            <li><strong>Longer store reporting times.</strong> Stores must report your order information to Rakuten, so they know how much Cash Back to add to your account. Reporting time can range from a few hours to up to 3 months for travel bookings. To see a store&rsquo;s reporting time, check its store page on Rakuten.com </li>
+            <li><strong>Ineligible store categories or products.</strong> Some stores limit Cash Back to certain categories or products. You may have purchased an item that&rsquo;s not Cash Back eligible. To see a store&rsquo;s eligible categories, check its store page on Rakuten.com.</li>
+        </ul>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T130711Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "Why didn’t I earn Cash Back?"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T130711Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p><span>Si realiz&oacute; una compra y no ve la devoluci&oacute;n de dinero en su cuenta, puede deberse a uno de estos motivos:</span></p>
+        <ul style="list-style-type: disc;">
+            <li><strong><span>Utiliz&oacute; cupones que no pertenecen a Rakuten</span></strong><span>. Si utiliz&oacute; o incluso intent&oacute; usar c&oacute;digos de cupones, ofertas o promociones que no pertenecen a Rakuten, se puede anular su reembolso en efectivo. Podr&iacute;a haber conflictos entre el reembolso en efectivo y los descuentos ofrecidos por otros sitios de cupones, correos electr&oacute;nicos exclusivos o programas de recompensas.</span></li>
+            <li><strong><span>Visit&oacute; otros sitios durante la sesi&oacute;n de compra</span></strong><span>. Si visita otros sitios, especialmente aquellos que ofrecen recompensas, cupones o descuentos de compras, puede que la tienda se lleve el cr&eacute;dito por su compra en otro sitio. Adem&aacute;s, las extensiones de navegador de otros programas de compra pueden interferir en la vinculaci&oacute;n de su compra con su cuenta de Rakuten.</span></li>
+            <li><strong><span>Cambi&oacute; a una pesta&ntilde;a o ventana diferente del explorador</span></strong><span>. Solo debe utilizar la pesta&ntilde;a inicial que Rakuten abri&oacute; para usted al comienzo de su sesi&oacute;n de compra. Si completa su compra en una pesta&ntilde;a o ventana diferente, es posible que no podamos vincular su compra con su cuenta de Rakuten.</span></li>
+            <li><strong><span>Esper&oacute; demasiado tiempo despu&eacute;s de activar el reembolso en efectivo para completar su compra</span></strong><span>. Adem&aacute;s, algunas tiendas no nos permiten vincular la compra a su cuenta de Rakuten si agreg&oacute; art&iacute;culos a su carrito de compras antes de que se solicitara el reembolso en efectivo. Le recomendamos solicitar el reembolso en efectivo antes de agregar art&iacute;culos a su carrito y hacer la compra tan pronto como pueda.</span></li>
+            <li><strong><span>No solicit&oacute; el reembolso en efectivo cuando us&oacute; la extensi&oacute;n del bot&oacute;n</span></strong><span>. En el sitio de la tienda, aseg&uacute;rese de hacer clic en &ldquo;Solicitar reembolso en efectivo&rdquo; antes de comenzar a comprar. Si no ve el bot&oacute;n &ldquo;Solicitar reembolso en efectivo&rdquo;, entonces es posible que esa tienda no tenga disponible la extensi&oacute;n y deba solicitar la devoluci&oacute;n en Rakuten.com. Obtenga m&aacute;s informaci&oacute;n sobre las tiendas y la extensi&oacute;n del bot&oacute;n.</span></li>
+            <li><strong><span>Tiempo prolongado para presentar los informes de la tienda.</span></strong><span> Las tiendas deben reportar sobre la informaci&oacute;n de su pedido a Rakuten para que sepan cu&aacute;nto es el reembolso en efectivo que deben agregar a su cuenta. El tiempo de generaci&oacute;n de informes puede variar desde unas horas hasta tres meses, en el caso de reservas de viajes. Para saber cu&aacute;nto tiempo tardar&aacute; una tienda en presentar el informe, consulte la p&aacute;gina de esa tienda en Rakuten.com </span></li>
+            <li><strong><span>Productos o categor&iacute;as de tiendas no habilitadas.</span></strong><span> Algunas tiendas limitan el reembolso en efectivo a determinadas categor&iacute;as o productos. Es posible que haya comprado un art&iacute;culo que no sea elegible para el reembolso en efectivo. Para ver las categor&iacute;as habilitadas de una tienda, consulte la p&aacute;gina de la tienda en Rakuten.com.</span></li>
+        </ul>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201223T152329Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "¿Por qué no obtuve un reembolso en efectivo?"

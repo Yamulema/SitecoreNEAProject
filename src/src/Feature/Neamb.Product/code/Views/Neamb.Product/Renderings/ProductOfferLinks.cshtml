@@ -1,0 +1,38 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.ProductOfferLinksDTO
+
+<section class="section-normal f-005">
+	<div class="container">
+		<div class="col-md-9 col-centered">
+			<div class="actions">
+				<div class="panel panel-default services">
+					<div class="panel-heading">
+						<div class="content">
+							<div class="col-md-4">
+								@Html.Sitecore().Field(Templates.OfferLinkList.Fields.Logo, Model.Item, new { @class = "img-responsive", loading = "lazy" })
+							</div>
+							<div class="col-md-4">&nbsp;</div>
+							@if (Model.UserStatus == StatusEnum.Cold || Model.UserStatus == StatusEnum.Unknown)
+							{
+								<div class="col-md-4">@Html.Sitecore().Field(Templates.OfferLinkList.Fields.LoginButton, Model.Item, new {@class = "btn btn-blue btn-block", @id= "product_offer_sign_in_cold_button" })</div>
+							}
+						</div>
+					</div>
+					<div class="panel-body">
+						<div class="content">
+							<div class="col-md-12">
+								<h3>@Html.Sitecore().Field(Templates.OfferLinkList.Fields.Headline, Model.Item)</h3>
+								@Html.Partial("~/Views/Neamb.Product/Renderings/_ProductOfferLinksDynamic.cshtml")
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+

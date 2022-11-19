@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="FreqAQPage" urlpath="/frequently-asked-questions">
+      <sections>
+        <section name="FQA">
+        </section>
+        <section name="reset">
+          <controls>
+            <control key="Topic_reset" xpath="//a[@class='collapsed']"/>
+          </controls>
+        </section>
+        <section name="account">
+          <controls>
+            <control key="Topic_account" xpath="//a[@class='collapsed']"/>
+          </controls>
+        </section>
+        <section name="login">
+          <controls>
+            <!--<control key="Topic_login" id="item-A210CD1607A94001A3D4DC677406051B" xpath="//a[@href='#collapse-item-A210CD1607A94001A3D4DC677406051B']"/>-->
+            <control key="Topic_login" xpath="//a[@class='collapsed']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

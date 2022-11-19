@@ -1,0 +1,1361 @@
+﻿---
+ID: "bbe0a752-bef2-4e5b-a2ed-bb718d1e5bbd"
+Parent: "5fcc69a9-3c7f-45ad-bf12-56869e80b711"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Insurance/US Legal Services
+DB: master
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 450
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Legal Services, Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{48E32339-C11E-4B6E-B49A-D55AE968ECB8}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190910T161315Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, and dependents under the age of 26.</p>
+        <p>2. Family law matters are limited to 15 hours of complete coverage with a 33.3% discount on attorney&rsquo;s fees thereafter. EEOC and FMLA issues not covered. Bankruptcy, Foreclosure and Family Law have a 120 day waiting period. Once the waiting period is over a member can consult with an attorney on the bankruptcy, foreclosure, or family law matter.</p>
+        <p>3. Pre-existing matters are covered at 33.3% off the attorney&rsquo;s normal hourly rate.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Legal Services Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click to enroll or call 855-518-LAWS (5297) to talk to an advisor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ LEGAL SERVICES PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>What is a legal services plan?</strong></p>
+        <p>A legal services plan is designed to make legal coverage accessible and affordable by offering access to over 11,000 attorneys.</p>
+        <ul>
+            <li>
+            <p><strong>Attorney&rsquo;s Fees</strong> - U.S. Legal pays 100% of the attorney&rsquo;s fees for all covered matters.</p>
+            </li>
+            <li>
+            <p><strong>Family Coverage</strong><sup>1</sup> - you, your spouse/domestic partner and dependent children are covered.</p>
+            </li>
+            <li>
+            <p><strong>Unlimited Consultations </strong>- by phone or in person for each separate legal matter.</p>
+            </li>
+            <li>
+            <p><strong>Comprehensive Benefits</strong><sup>2</sup> - Family Law, Bankruptcy, Trusts, Wills, Civil Law, Immigration and more.</p>
+            </li>
+            <li>
+            <p><strong>Defense Services</strong>  &ndash; Criminal Misdemeanors, Juvenile Matters and Civil.</p>
+            </li>
+            <li>
+            <p><strong>Estate Planning</strong> &ndash; Wills, Codicils, Powers of Attorney and Estate Administration.</p>
+            </li>
+            <li>
+            <p><strong>Document Preparation and Review.</strong></p>
+            </li>
+            <li>
+            <p><strong>No annual deductible, no copays, and no claim forms.</strong></p>
+            </li>
+        </ul>
+        <p><strong>Why consider a legal services plan?</strong></p>
+        <p>Every day people face common legal matters and are often unprepared to properly defend themselves. By taking the guesswork out of which attorney to call and how the attorney will be paid, a legal benefits plan saves time and money by eliminating undue stress.</p>
+        <p><strong>Affordable Premium</strong></p>
+        <p>For only $16.90 a month, SEIU Members, can protect their families with comprehensive legal benefits and access to a nationwide attorney network.</p>
+        <p><strong>Gain peace of mind knowing your attorney&rsquo;s fees will be paid by U.S. Legal.</strong></p>
+        <p><strong>Additional Benefits</strong></p>
+        <ul>
+            <li>
+            <p>Online Legal Form Document Preparation</p>
+            </li>
+            <li>
+            <p>State Specific Legal Library</p>
+            </li>
+            <li>
+            <p>Identity Theft Restoration Program</p>
+            </li>
+            <li>
+            <p>Mobile App</p>
+            </li>
+            <li>
+            <p>Member Portal</p>
+            </li>
+        </ul>
+        <p>Pre-existing issues are eligible for a discounted rate of 33.3% off the attorney&rsquo;s usual hourly rate.<sup>3</sup> Out of Network benefits are available.</p>
+        <p>See the <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>FAQs</strong></a>&nbsp;and <a href="-/media/43d07ec6110e403f9242c284322cf1d8.ashx" target="_blank"><strong>Coverage Chart</strong></a>&nbsp;for more details about additional coverage and exceptions.</p>
+        <p>U.S. Legal Services has been helping to make attorney services more accessible and affordable for more than 40 years. This high-quality legal plan gives you the power to manage legal matters simply and effectively.</p>
+        <p>Dedicated customer service representatives are available Monday &ndash; Friday, in English and Spanish. 24/7 Emergency Services are also available.</p>
+        <p>Protect yourself and your family today&mdash;enroll now.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Legal Services Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190910T161300Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Legal Services Program
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BCCD86CA-2FF4-4A92-AF4E-9B2656A4017E}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{A32216D4-2740-4B5E-9181-4BEE9232F49F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Legal Services, Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{48E32339-C11E-4B6E-B49A-D55AE968ECB8}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200422T190133Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, and dependents under the age of 26.</p>
+        <p>2. Family law matters are limited to 15 hours of complete coverage with a 33.3% discount on attorney&rsquo;s fees thereafter. EEOC and FMLA issues not covered. Bankruptcy, Foreclosure and Family Law have a 120 day waiting period. Once the waiting period is over a member can consult with an attorney on the bankruptcy, foreclosure, or family law matter.</p>
+        <p>3. Pre-existing matters are covered at 33.3% off the attorney&rsquo;s normal hourly rate.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Legal Services Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click to enroll or call 855-518-LAWS (5297) to talk to an advisor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ LEGAL SERVICES PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>What is a legal services plan?</strong></p>
+        <p>A legal services plan is designed to make legal coverage accessible and affordable by offering access to over 11,000 attorneys.</p>
+        <ul>
+            <li>
+            <p><strong>Attorney&rsquo;s Fees</strong> - U.S. Legal pays 100% of the attorney&rsquo;s fees for all covered matters.</p>
+            </li>
+            <li>
+            <p><strong>Family Coverage</strong><sup>1</sup> - you, your spouse/domestic partner and dependent children are covered.</p>
+            </li>
+            <li>
+            <p><strong>Unlimited Consultations </strong>- by phone or in person for each separate legal matter.</p>
+            </li>
+            <li>
+            <p><strong>Comprehensive Benefits</strong><sup>2</sup> - Family Law, Bankruptcy, Trusts, Wills, Civil Law, Immigration and more.</p>
+            </li>
+            <li>
+            <p><strong>Defense Services</strong>  &ndash; Criminal Misdemeanors, Juvenile Matters and Civil.</p>
+            </li>
+            <li>
+            <p><strong>Estate Planning</strong> &ndash; Wills, Codicils, Powers of Attorney and Estate Administration.</p>
+            </li>
+            <li>
+            <p><strong>Document Preparation and Review.</strong></p>
+            </li>
+            <li>
+            <p><strong>No annual deductible, no copays, and no claim forms.</strong></p>
+            </li>
+        </ul>
+        <p><strong>Why consider a legal services plan?</strong></p>
+        <p>Every day people face common legal matters and are often unprepared to properly defend themselves. By taking the guesswork out of which attorney to call and how the attorney will be paid, a legal benefits plan saves time and money by eliminating undue stress.</p>
+        <p><strong>Affordable Premium</strong></p>
+        <p>For only $16.90 a month, SEIU Members, can protect their families with comprehensive legal benefits and access to a nationwide attorney network.</p>
+        <p><strong>Gain peace of mind knowing your attorney&rsquo;s fees will be paid by U.S. Legal.</strong></p>
+        <p><strong>Additional Benefits</strong></p>
+        <ul>
+            <li>
+            <p>Online Legal Form Document Preparation</p>
+            </li>
+            <li>
+            <p>State Specific Legal Library</p>
+            </li>
+            <li>
+            <p>Identity Theft Restoration Program</p>
+            </li>
+            <li>
+            <p>Mobile App</p>
+            </li>
+            <li>
+            <p>Member Portal</p>
+            </li>
+        </ul>
+        <p>Pre-existing issues are eligible for a discounted rate of 33.3% off the attorney&rsquo;s usual hourly rate.<sup>3</sup> Out of Network benefits are available.</p>
+        <p>See the <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>FAQs</strong></a>&nbsp;and <a href="-/media/43d07ec6110e403f9242c284322cf1d8.ashx" target="_blank"><strong>Coverage Chart</strong></a>&nbsp;for more details about additional coverage and exceptions.</p>
+        <p>U.S. Legal Services has been helping to make attorney services more accessible and affordable for more than 40 years. This high-quality legal plan gives you the power to manage legal matters simply and effectively.</p>
+        <p>Dedicated customer service representatives are available Monday &ndash; Friday, in English and Spanish. 24/7 Emergency Services are also available.</p>
+        <p>Protect yourself and your family today&mdash;enroll now.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Legal Services Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200422T190133Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Legal Services Program
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BCCD86CA-2FF4-4A92-AF4E-9B2656A4017E}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{A32216D4-2740-4B5E-9181-4BEE9232F49F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Legal Services, Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{48E32339-C11E-4B6E-B49A-D55AE968ECB8}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200422T192435Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>*American Bar Association Research</p>
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, and dependents under the age of 26.</p>
+        <p>2. Family law matters are limited to 15 hours of complete coverage with a 33.3% discount on attorney&rsquo;s fees thereafter. EEOC and FMLA issues not covered. Bankruptcy, Foreclosure and Family Law have a 120 day waiting period. Once the waiting period is over a member can consult with an attorney on the bankruptcy, foreclosure, or family law matter.</p>
+        <p>3. Pre-existing matters are covered at 33.3% off the attorney&rsquo;s normal hourly rate.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Legal Services Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click to enroll or call 855-518-LAWS (5297) to talk to an advisor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ LEGAL SERVICES PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>What is a legal services plan?</strong></p>
+        <p>A legal services plan is designed to make legal coverage accessible and affordable by offering access to over 11,000 attorneys.</p>
+        <ul>
+            <li>
+            <p><strong>Attorney&rsquo;s Fees</strong> - U.S. Legal pays 100% of the attorney&rsquo;s fees for all covered matters.</p>
+            </li>
+            <li>
+            <p><strong>Family Coverage</strong><sup>1</sup> - you, your spouse/domestic partner and dependent children are covered.</p>
+            </li>
+            <li>
+            <p><strong>Unlimited Consultations </strong>- by phone or in person for each separate legal matter.</p>
+            </li>
+            <li>
+            <p><strong>Comprehensive Benefits</strong><sup>2</sup> - Family Law, Bankruptcy, Trusts, Wills, Civil Law, Immigration and more.</p>
+            </li>
+            <li>
+            <p><strong>Defense Services</strong>  &ndash; Criminal Misdemeanors, Juvenile Matters and Civil.</p>
+            </li>
+            <li>
+            <p><strong>Estate Planning</strong> &ndash; Wills, Codicils, Powers of Attorney and Estate Administration.</p>
+            </li>
+            <li>
+            <p><strong>Document Preparation and Review.</strong></p>
+            </li>
+            <li>
+            <p><strong>No annual deductible, no copays, and no claim forms.</strong></p>
+            </li>
+        </ul>
+        <p><strong>Why consider a legal services plan?</strong></p>
+        <p>Every day people face common legal matters and are often unprepared to properly defend themselves. By taking the guesswork out of which attorney to call and how the attorney will be paid, a legal benefits plan saves time and money by eliminating undue stress.</p>
+        <p><strong>Affordable Premium</strong></p>
+        <p>For only $16.90 a month, SEIU Members, can protect their families with comprehensive legal benefits and access to a nationwide attorney network.</p>
+        <p><strong>Gain peace of mind knowing your attorney&rsquo;s fees will be paid by U.S. Legal.</strong></p>
+        <p><strong>Additional Benefits</strong></p>
+        <ul>
+            <li>
+            <p>Online Legal Form Document Preparation</p>
+            </li>
+            <li>
+            <p>State Specific Legal Library</p>
+            </li>
+            <li>
+            <p>Identity Theft Restoration Program</p>
+            </li>
+            <li>
+            <p>Mobile App</p>
+            </li>
+            <li>
+            <p>Member Portal</p>
+            </li>
+        </ul>
+        <p>Pre-existing issues are eligible for a discounted rate of 33.3% off the attorney&rsquo;s usual hourly rate.<sup>3</sup> Out of Network benefits are available.</p>
+        <p>See the <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>FAQs</strong></a>&nbsp;and <a href="-/media/43d07ec6110e403f9242c284322cf1d8.ashx" target="_blank"><strong>Coverage Chart</strong></a>&nbsp;for more details about additional coverage and exceptions.</p>
+        <p>U.S. Legal Services has been helping to make attorney services more accessible and affordable for more than 40 years. This high-quality legal plan gives you the power to manage legal matters simply and effectively.</p>
+        <p>Dedicated customer service representatives are available Monday &ndash; Friday, in English and Spanish. 24/7 Emergency Services are also available.</p>
+        <p>Protect yourself and your family today&mdash;enroll now.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Legal Services Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200422T192435Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Legal Services Program
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BCCD86CA-2FF4-4A92-AF4E-9B2656A4017E}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{A32216D4-2740-4B5E-9181-4BEE9232F49F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Legal Services, Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{48E32339-C11E-4B6E-B49A-D55AE968ECB8}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210308T200500Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>*American Bar Association Research</p>
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, and dependents under the age of 26.</p>
+        <p>2. Family law matters are limited to 15 hours of complete coverage with a 33.3% discount on attorney&rsquo;s fees thereafter. EEOC and FMLA issues not covered. Bankruptcy, Foreclosure and Family Law have a 120 day waiting period. Once the waiting period is over a member can consult with an attorney on the bankruptcy, foreclosure, or family law matter.</p>
+        <p>3. Pre-existing matters are covered at 33.3% off the attorney&rsquo;s normal hourly rate.</p>
+        <p>SEIU has retained Members United Insurance Agency to manage Insurance Programs for its Members.<br />
+        Members United Insurance Agency is not affiliated with U.S. Legal Services, Inc.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Legal Services Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click to enroll or call 855-518-LAWS (5297) to talk to an advisor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ LEGAL SERVICES PROGRAM
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{FF57F2B7-A7F6-46BB-A85E-C0693CBB77E2}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{FF57F2B7-A7F6-46BB-A85E-C0693CBB77E2}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>What is a legal services plan?</strong></p>
+        <p>A legal services plan is designed to make legal coverage accessible and affordable by offering access to over 11,000 attorneys.</p>
+        <ul>
+            <li>
+            <p><strong>Attorney&rsquo;s Fees</strong> - U.S. Legal pays 100% of the attorney&rsquo;s fees for all covered matters.</p>
+            </li>
+            <li>
+            <p><strong>Family Coverage</strong><sup>1</sup> - you, your spouse/domestic partner and dependent children are covered.</p>
+            </li>
+            <li>
+            <p><strong>Unlimited Consultations </strong>- by phone or in person for each separate legal matter.</p>
+            </li>
+            <li>
+            <p><strong>Comprehensive Benefits</strong><sup>2</sup> - Family Law, Bankruptcy, Trusts, Wills, Civil Law, Immigration and more.</p>
+            </li>
+            <li>
+            <p><strong>Defense Services</strong>  &ndash; Criminal Misdemeanors, Juvenile Matters and Civil.</p>
+            </li>
+            <li>
+            <p><strong>Estate Planning</strong> &ndash; Wills, Codicils, Powers of Attorney and Estate Administration.</p>
+            </li>
+            <li>
+            <p><strong>Document Preparation and Review.</strong></p>
+            </li>
+            <li>
+            <p><strong>No annual deductible, no copays, and no claim forms.</strong></p>
+            </li>
+        </ul>
+        <p><strong>Why consider a legal services plan?</strong></p>
+        <p>Every day people face common legal matters and are often unprepared to properly defend themselves. By taking the guesswork out of which attorney to call and how the attorney will be paid, a legal benefits plan saves time and money by eliminating undue stress.</p>
+        <p><strong>Affordable Premium</strong></p>
+        <p>For only $16.90 a month, SEIU Members, can protect their families with comprehensive legal benefits and access to a nationwide attorney network.</p>
+        <p><strong>Gain peace of mind knowing your attorney&rsquo;s fees will be paid by U.S. Legal.</strong></p>
+        <p><strong>Additional Benefits</strong></p>
+        <ul>
+            <li>
+            <p>Online Legal Form Document Preparation</p>
+            </li>
+            <li>
+            <p>State Specific Legal Library</p>
+            </li>
+            <li>
+            <p>Identity Theft Restoration Program</p>
+            </li>
+            <li>
+            <p>Mobile App</p>
+            </li>
+            <li>
+            <p>Member Portal</p>
+            </li>
+        </ul>
+        <p>Pre-existing issues are eligible for a discounted rate of 33.3% off the attorney&rsquo;s usual hourly rate.<sup>3</sup> Out of Network benefits are available.</p>
+        <p>See the <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>FAQs</strong></a>&nbsp;and <a href="-/media/43d07ec6110e403f9242c284322cf1d8.ashx" target="_blank"><strong>Coverage Chart</strong></a>&nbsp;for more details about additional coverage and exceptions.</p>
+        <p>U.S. Legal Services has been helping to make attorney services more accessible and affordable for more than 40 years. This high-quality legal plan gives you the power to manage legal matters simply and effectively.</p>
+        <p>Dedicated customer service representatives are available Monday &ndash; Friday, in English and Spanish. 24/7 Emergency Services are also available.</p>
+        <p>Protect yourself and your family today&mdash;enroll now.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Legal Services Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Access to affordable legal services for the whole family with SEIU and U.S. Legal Services.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210308T200500Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Legal Services Program
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, el grupo de compra de combustible para calefacción más grande de EE. UU., utiliza su alto poder adquisitivo para negociar precios más bajos, un mejor servicio y contratos gratuitos de servicio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits en asociación con Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172635Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>* Contrato de servicio anual gratuito que incluye un servicio anual de limpieza, ajuste y servicio emergencia requiere un consumo mínimo de 600 galones por año.</p>
+        
+        <p><br>
+        ** Certificado de actualización se puede utilizar para la compra de un nuevo quemador de combustible para calefacción de alta eficiencia o de la caldera de su proveedor HEAT USA.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Combustible para Calefacción SEIU 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Para obtener más información o para inscribirse, llame al 1-888-632-4645.
+        
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>Ahorre en el costo de la calefacción de su hogar con el Programa de combustible para calefacción SEIU de HEAT USA.</p>
+        
+        <p>HEAT USA es el grupo de compra de combustible para calefacción más grande del país. HEAT USA utiliza su alto poder adquisitivo para negociar precios más bajos, un mejor servicio y contratos gratuitos de servicio en empresas locales de combustible para calefacción de servicio completo y cuidadosamente seleccionadas.</p>
+        
+        <p><strong>Los beneficios del programa de HEAT USA incluyen:</strong></p>
+        
+        <p><strong>Programa de precios especiales</strong><br>
+        Los miembros disfrutan de un programa de precios especiales llamado Protección de precios justos. Los precios de HEAT USA se basan en el precio al por mayor el día de la entrega además de un margen de ganancia reducido especialmente negociado que es considerablemente inferior al cobro que realizan los distribuidores locales de combustible a sus clientes habituales. Los descuentos varían durante el año ya que los precios al por mayor cambian, sin embargo, en promedio, los miembros pueden ahorrar entre 15 a 25 centavos por galón. Los miembros siempre pueden consultar los precios actuales llamando a HEAT USA.</p>
+        
+        <p><strong>Otros beneficios</strong></p>
+        
+        <ul>
+        	<li>Contrato de servicio anual gratuito* o con descuento que incluye un servicio anual de limpieza, ajuste y emergencia</li>
+        	<li>$50 gratis en combustible para calefacción</li>
+        	<li>Certificado de $100 para actualización de equipos**</li>
+        	<li>$10 de descuento en la tarifa de afiliación durante el primer año (normalmente $35, usted solo paga $25 durante el primer año)</li>
+        	<li>El personal de HEAT USA monitorea los precios, lo representa ante los distribuidores locales de combustible para calefacción y también pueden entregar información sobre equipos, conservación de energía y actualizaciones del mercado</li>
+        </ul>
+        
+        <p>HEAT USA está disponible en ciudades de 12 estados, desde Nueva Hampshire hasta Virginia. Para averiguar si HEAT USA está disponible en su área y cuánto puede ahorrar, inicie sesión para ver la información de contacto.</p>
+        
+        <p><em>Nota: los descuentos de HEAT USA no están disponibles en todas las áreas. Los miembros de áreas sin servicio pueden entregar su información de contacto a HEAT USA para recibir actualizaciones del programa.</em></p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: HEAT USA, el grupo de compra de combustible para calefacci&oacute;n m&aacute;s grande de EE.&nbsp;UU., utiliza su alto poder adquisitivo para negociar precios m&aacute;s bajos, un mejor servicio y contratos gratuitos de servicio.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: LOS MIEMBROS DE SEIU Y SUS FAMILIAS PUEDEN AHORRAR EN EL COSTO DEL COMBUSTIBLE PARA CALEFACCIÓN.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Combustible para Calefacción SEIU
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: ACCEDA A SERVICIOS LEGALES ASEQUIBLES PARA TODA LA FAMILIA CON SEIU Y U.S. LEGAL SERVICES.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37FF1ED7-8ADF-48EC-B62B-7C7CA6C3B423}" alt="SEIU Member Benefits en asociación con DE SERVICIOS LEGALES SEIU" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190910T173139Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los miembros elegibles de SEIU son aquellos miembros acreditados que pagan sus cuotas completas y sus c&oacute;nyuges o parejas de hecho y dependientes menores de 26 a&ntilde;os.</p>
+        <p>2. Los asuntos legales familiares se limitan a 15 horas de cobertura completa con un descuento del 33.3% en los honorarios del abogado a partir de ese momento. Los asuntos relacionados con la EEOC y la FMLA no est&aacute;n cubiertos. Quiebra, ejecuci&oacute;n hipotecaria y derecho de familia tienen un per&iacute;odo de espera de 120 d&iacute;as. Una vez que finaliza el per&iacute;odo de espera, un miembro puede consultar con un abogado sobre la quiebra, la ejecuci&oacute;n hipotecaria o el asunto de derecho de familia.</p>
+        <p>3. Los asuntos preexistentes est&aacute;n cubiertos con un 33.3% de descuento sobre la tarifa por hora normal del abogado.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Servicios Legales SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Haga clic aqu&iacute; para inscribirse o llame al 855-518-LAWS (5297) para hablar con un asesor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Servicios Legales SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>&iquest;Qu&eacute; es un plan de servicios legales?</strong></p>
+        <p>El plan de servicios legales est&aacute; dise&ntilde;ado para hacer que la cobertura legal sea accesible y asequible, ya que ofrecen acceso a m&aacute;s de 11,000 abogados.</p>
+        <ul>
+            <li>
+            <p><strong>Honorarios del abogado</strong>: U.S. Legal paga el 100% de los honorarios de los abogados por todos los servicios cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Cobertura familiar</strong><sup>1</sup>: usted, su c&oacute;nyuge o pareja de hecho y sus hijos dependientes est&aacute;n cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Consultas ilimitadas</strong>: por tel&eacute;fono o en persona para cada servicio legal por separado.</p>
+            </li>
+            <li>
+            <p><strong>Beneficios integrales</strong><sup>2</sup>: derecho familiar, insolvencia, fideicomisos, testamentos, derecho civil e inmigraci&oacute;n, entre otros.</p>
+            </li>
+            <li>
+            <p><strong>Servicios de defensa</strong>: delitos penales, asuntos juveniles y civiles.</p>
+            </li>
+            <li>
+            <p><strong>Planificaci&oacute;n patrimonial</strong>: testamentos, disposiciones adicionales, poderes y administraci&oacute;n del patrimonio.</p>
+            </li>
+            <li>
+            <p><strong>Preparaci&oacute;n y revisi&oacute;n de documentos.</strong></p>
+            </li>
+            <li>
+            <p><strong>Sin deducible anual, copagos ni formularios de reclamo.</strong></p>
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; deber&iacute;a considerar un plan de servicios legales?</strong></p>
+        <p>Todos los d&iacute;as, las personas se enfrentan a asuntos legales comunes y, a menudo, no est&aacute;n preparadas para defenderse debidamente. Al eliminar las conjeturas sobre a qu&eacute; abogado llamar y c&oacute;mo se le pagar&aacute;, contar con un plan de beneficios legales ahorra tiempo y dinero, ya que elimina el estr&eacute;s innecesario.</p>
+        <p><strong>Primas asequibles</strong></p>
+        <p>Por solo $16.90 al mes, los miembros de SEIU pueden proteger a sus familias con beneficios legales integrales y acceso a una red nacional de abogados.</p>
+        <p><strong>Gane tranquilidad al saber que U.S. Legal se har&aacute; cargo de los honorarios de su abogado.</strong></p>
+        <p><strong>Beneficios adicionales</strong></p>
+        <ul>
+            <li>
+            <p>Preparaci&oacute;n de documentos y formularios legales en l&iacute;nea</p>
+            </li>
+            <li>
+            <p>Biblioteca legal espec&iacute;fica del estado</p>
+            </li>
+            <li>
+            <p>Programa de restauraci&oacute;n en casos de robo de identidad</p>
+            </li>
+            <li>
+            <p>Aplicaci&oacute;n m&oacute;vil</p>
+            </li>
+            <li>
+            <p>Portal para miembros</p>
+            </li>
+        </ul>
+        <p>Los problemas preexistentes cumplen los requisitos para que se aplique una tarifa con descuento del 33.3% con respecto a la tarifa por hora habitual del abogado.<sup>3</sup> Se encuentran disponibles beneficios fuera de la red.</p>
+        <p>Consulte la secci&oacute;n <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>Preguntas frecuentes</strong></a> la <a href="-/media/5d07752a767348178752c123a94a869a.ashx" target="_blank"><strong>Tabla de cobertura</strong></a>&nbsp;para conocer m&aacute;s detalles sobre la cobertura adicional y las excepciones.</p>
+        <p>U.S. Legal Services ha contribuido durante m&aacute;s de 40 a&ntilde;os a que los servicios de abogados sean m&aacute;s accesibles y asequibles. Este plan legal de alta calidad le brinda la posibilidad de gestionar asuntos legales de manera simple y eficaz.</p>
+        <p>Los representantes de atenci&oacute;n al cliente est&aacute;n disponibles de lunes a viernes, y hablan ingl&eacute;s y espa&ntilde;ol. Tambi&eacute;n ofrecemos servicios de emergencia las 24 horas, los 7 d&iacute;as de la semana.</p>
+        <p>Prot&eacute;jase y proteja a su familia a partir de hoy: inscr&iacute;base hoy mismo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Servicios Legales SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190910T173100Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Servicios Legales SEIU
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{23004519-07D6-468D-87E0-242AA8A4D6BB}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{A32216D4-2740-4B5E-9181-4BEE9232F49F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: ACCEDA A SERVICIOS LEGALES ASEQUIBLES PARA TODA LA FAMILIA CON SEIU Y U.S. LEGAL SERVICES.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37FF1ED7-8ADF-48EC-B62B-7C7CA6C3B423}" alt="SEIU Member Benefits en asociación con DE SERVICIOS LEGALES SEIU" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200422T190345Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los miembros elegibles de SEIU son aquellos miembros acreditados que pagan sus cuotas completas y sus c&oacute;nyuges o parejas de hecho y dependientes menores de 26 a&ntilde;os.</p>
+        <p>2. Los asuntos legales familiares se limitan a 15 horas de cobertura completa con un descuento del 33.3% en los honorarios del abogado a partir de ese momento. Los asuntos relacionados con la EEOC y la FMLA no est&aacute;n cubiertos. Quiebra, ejecuci&oacute;n hipotecaria y derecho de familia tienen un per&iacute;odo de espera de 120 d&iacute;as. Una vez que finaliza el per&iacute;odo de espera, un miembro puede consultar con un abogado sobre la quiebra, la ejecuci&oacute;n hipotecaria o el asunto de derecho de familia.</p>
+        <p>3. Los asuntos preexistentes est&aacute;n cubiertos con un 33.3% de descuento sobre la tarifa por hora normal del abogado.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Servicios Legales SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Haga clic aqu&iacute; para inscribirse o llame al 855-518-LAWS (5297) para hablar con un asesor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Servicios Legales SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>&iquest;Qu&eacute; es un plan de servicios legales?</strong></p>
+        <p>El plan de servicios legales est&aacute; dise&ntilde;ado para hacer que la cobertura legal sea accesible y asequible, ya que ofrecen acceso a m&aacute;s de 11,000 abogados.</p>
+        <ul>
+            <li>
+            <p><strong>Honorarios del abogado</strong>: U.S. Legal paga el 100% de los honorarios de los abogados por todos los servicios cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Cobertura familiar</strong><sup>1</sup>: usted, su c&oacute;nyuge o pareja de hecho y sus hijos dependientes est&aacute;n cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Consultas ilimitadas</strong>: por tel&eacute;fono o en persona para cada servicio legal por separado.</p>
+            </li>
+            <li>
+            <p><strong>Beneficios integrales</strong><sup>2</sup>: derecho familiar, insolvencia, fideicomisos, testamentos, derecho civil e inmigraci&oacute;n, entre otros.</p>
+            </li>
+            <li>
+            <p><strong>Servicios de defensa</strong>: delitos penales, asuntos juveniles y civiles.</p>
+            </li>
+            <li>
+            <p><strong>Planificaci&oacute;n patrimonial</strong>: testamentos, disposiciones adicionales, poderes y administraci&oacute;n del patrimonio.</p>
+            </li>
+            <li>
+            <p><strong>Preparaci&oacute;n y revisi&oacute;n de documentos.</strong></p>
+            </li>
+            <li>
+            <p><strong>Sin deducible anual, copagos ni formularios de reclamo.</strong></p>
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; deber&iacute;a considerar un plan de servicios legales?</strong></p>
+        <p>Todos los d&iacute;as, las personas se enfrentan a asuntos legales comunes y, a menudo, no est&aacute;n preparadas para defenderse debidamente. Al eliminar las conjeturas sobre a qu&eacute; abogado llamar y c&oacute;mo se le pagar&aacute;, contar con un plan de beneficios legales ahorra tiempo y dinero, ya que elimina el estr&eacute;s innecesario.</p>
+        <p><strong>Primas asequibles</strong></p>
+        <p>Por solo $16.90 al mes, los miembros de SEIU pueden proteger a sus familias con beneficios legales integrales y acceso a una red nacional de abogados.</p>
+        <p><strong>Gane tranquilidad al saber que U.S. Legal se har&aacute; cargo de los honorarios de su abogado.</strong></p>
+        <p><strong>Beneficios adicionales</strong></p>
+        <ul>
+            <li>
+            <p>Preparaci&oacute;n de documentos y formularios legales en l&iacute;nea</p>
+            </li>
+            <li>
+            <p>Biblioteca legal espec&iacute;fica del estado</p>
+            </li>
+            <li>
+            <p>Programa de restauraci&oacute;n en casos de robo de identidad</p>
+            </li>
+            <li>
+            <p>Aplicaci&oacute;n m&oacute;vil</p>
+            </li>
+            <li>
+            <p>Portal para miembros</p>
+            </li>
+        </ul>
+        <p>Los problemas preexistentes cumplen los requisitos para que se aplique una tarifa con descuento del 33.3% con respecto a la tarifa por hora habitual del abogado.<sup>3</sup> Se encuentran disponibles beneficios fuera de la red.</p>
+        <p>Consulte la secci&oacute;n <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>Preguntas frecuentes</strong></a> la <a href="-/media/5d07752a767348178752c123a94a869a.ashx" target="_blank"><strong>Tabla de cobertura</strong></a>&nbsp;para conocer m&aacute;s detalles sobre la cobertura adicional y las excepciones.</p>
+        <p>U.S. Legal Services ha contribuido durante m&aacute;s de 40 a&ntilde;os a que los servicios de abogados sean m&aacute;s accesibles y asequibles. Este plan legal de alta calidad le brinda la posibilidad de gestionar asuntos legales de manera simple y eficaz.</p>
+        <p>Los representantes de atenci&oacute;n al cliente est&aacute;n disponibles de lunes a viernes, y hablan ingl&eacute;s y espa&ntilde;ol. Tambi&eacute;n ofrecemos servicios de emergencia las 24 horas, los 7 d&iacute;as de la semana.</p>
+        <p>Prot&eacute;jase y proteja a su familia a partir de hoy: inscr&iacute;base hoy mismo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Servicios Legales SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200422T190345Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Servicios Legales SEIU
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{23004519-07D6-468D-87E0-242AA8A4D6BB}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{A32216D4-2740-4B5E-9181-4BEE9232F49F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: ACCEDA A SERVICIOS LEGALES ASEQUIBLES PARA TODA LA FAMILIA CON SEIU Y U.S. LEGAL SERVICES.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37FF1ED7-8ADF-48EC-B62B-7C7CA6C3B423}" alt="SEIU Member Benefits en asociación con DE SERVICIOS LEGALES SEIU" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200422T192707Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* Investigaci&oacute;n de American Bar Association</p>
+        <p>1. Los miembros elegibles de SEIU son aquellos miembros acreditados que pagan sus cuotas completas y sus c&oacute;nyuges o parejas de hecho y dependientes menores de 26 a&ntilde;os.</p>
+        <p>2. Los asuntos legales familiares se limitan a 15 horas de cobertura completa con un descuento del 33.3% en los honorarios del abogado a partir de ese momento. Los asuntos relacionados con la EEOC y la FMLA no est&aacute;n cubiertos. Quiebra, ejecuci&oacute;n hipotecaria y derecho de familia tienen un per&iacute;odo de espera de 120 d&iacute;as. Una vez que finaliza el per&iacute;odo de espera, un miembro puede consultar con un abogado sobre la quiebra, la ejecuci&oacute;n hipotecaria o el asunto de derecho de familia.</p>
+        <p>3. Los asuntos preexistentes est&aacute;n cubiertos con un 33.3% de descuento sobre la tarifa por hora normal del abogado.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Servicios Legales SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Haga clic aqu&iacute; para inscribirse o llame al 855-518-LAWS (5297) para hablar con un asesor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Servicios Legales SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>&iquest;Qu&eacute; es un plan de servicios legales?</strong></p>
+        <p>El plan de servicios legales est&aacute; dise&ntilde;ado para hacer que la cobertura legal sea accesible y asequible, ya que ofrecen acceso a m&aacute;s de 11,000 abogados.</p>
+        <ul>
+            <li>
+            <p><strong>Honorarios del abogado</strong>: U.S. Legal paga el 100% de los honorarios de los abogados por todos los servicios cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Cobertura familiar</strong><sup>1</sup>: usted, su c&oacute;nyuge o pareja de hecho y sus hijos dependientes est&aacute;n cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Consultas ilimitadas</strong>: por tel&eacute;fono o en persona para cada servicio legal por separado.</p>
+            </li>
+            <li>
+            <p><strong>Beneficios integrales</strong><sup>2</sup>: derecho familiar, insolvencia, fideicomisos, testamentos, derecho civil e inmigraci&oacute;n, entre otros.</p>
+            </li>
+            <li>
+            <p><strong>Servicios de defensa</strong>: delitos penales, asuntos juveniles y civiles.</p>
+            </li>
+            <li>
+            <p><strong>Planificaci&oacute;n patrimonial</strong>: testamentos, disposiciones adicionales, poderes y administraci&oacute;n del patrimonio.</p>
+            </li>
+            <li>
+            <p><strong>Preparaci&oacute;n y revisi&oacute;n de documentos.</strong></p>
+            </li>
+            <li>
+            <p><strong>Sin deducible anual, copagos ni formularios de reclamo.</strong></p>
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; deber&iacute;a considerar un plan de servicios legales?</strong></p>
+        <p>Todos los d&iacute;as, las personas se enfrentan a asuntos legales comunes y, a menudo, no est&aacute;n preparadas para defenderse debidamente. Al eliminar las conjeturas sobre a qu&eacute; abogado llamar y c&oacute;mo se le pagar&aacute;, contar con un plan de beneficios legales ahorra tiempo y dinero, ya que elimina el estr&eacute;s innecesario.</p>
+        <p><strong>Primas asequibles</strong></p>
+        <p>Por solo $16.90 al mes, los miembros de SEIU pueden proteger a sus familias con beneficios legales integrales y acceso a una red nacional de abogados.</p>
+        <p><strong>Gane tranquilidad al saber que U.S. Legal se har&aacute; cargo de los honorarios de su abogado.</strong></p>
+        <p><strong>Beneficios adicionales</strong></p>
+        <ul>
+            <li>
+            <p>Preparaci&oacute;n de documentos y formularios legales en l&iacute;nea</p>
+            </li>
+            <li>
+            <p>Biblioteca legal espec&iacute;fica del estado</p>
+            </li>
+            <li>
+            <p>Programa de restauraci&oacute;n en casos de robo de identidad</p>
+            </li>
+            <li>
+            <p>Aplicaci&oacute;n m&oacute;vil</p>
+            </li>
+            <li>
+            <p>Portal para miembros</p>
+            </li>
+        </ul>
+        <p>Los problemas preexistentes cumplen los requisitos para que se aplique una tarifa con descuento del 33.3% con respecto a la tarifa por hora habitual del abogado.<sup>3</sup> Se encuentran disponibles beneficios fuera de la red.</p>
+        <p>Consulte la secci&oacute;n <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>Preguntas frecuentes</strong></a> la <a href="-/media/5d07752a767348178752c123a94a869a.ashx" target="_blank"><strong>Tabla de cobertura</strong></a>&nbsp;para conocer m&aacute;s detalles sobre la cobertura adicional y las excepciones.</p>
+        <p>U.S. Legal Services ha contribuido durante m&aacute;s de 40 a&ntilde;os a que los servicios de abogados sean m&aacute;s accesibles y asequibles. Este plan legal de alta calidad le brinda la posibilidad de gestionar asuntos legales de manera simple y eficaz.</p>
+        <p>Los representantes de atenci&oacute;n al cliente est&aacute;n disponibles de lunes a viernes, y hablan ingl&eacute;s y espa&ntilde;ol. Tambi&eacute;n ofrecemos servicios de emergencia las 24 horas, los 7 d&iacute;as de la semana.</p>
+        <p>Prot&eacute;jase y proteja a su familia a partir de hoy: inscr&iacute;base hoy mismo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Servicios Legales SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200422T192707Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Servicios Legales SEIU
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{23004519-07D6-468D-87E0-242AA8A4D6BB}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{A32216D4-2740-4B5E-9181-4BEE9232F49F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: ACCEDA A SERVICIOS LEGALES ASEQUIBLES PARA TODA LA FAMILIA CON SEIU Y U.S. LEGAL SERVICES.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{37FF1ED7-8ADF-48EC-B62B-7C7CA6C3B423}" alt="SEIU Member Benefits en asociación con DE SERVICIOS LEGALES SEIU" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210308T200714Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* Investigaci&oacute;n de American Bar Association</p>
+        <p>1. Los miembros elegibles de SEIU son aquellos miembros acreditados que pagan sus cuotas completas y sus c&oacute;nyuges o parejas de hecho y dependientes menores de 26 a&ntilde;os.</p>
+        <p>2. Los asuntos legales familiares se limitan a 15 horas de cobertura completa con un descuento del 33.3% en los honorarios del abogado a partir de ese momento. Los asuntos relacionados con la EEOC y la FMLA no est&aacute;n cubiertos. Quiebra, ejecuci&oacute;n hipotecaria y derecho de familia tienen un per&iacute;odo de espera de 120 d&iacute;as. Una vez que finaliza el per&iacute;odo de espera, un miembro puede consultar con un abogado sobre la quiebra, la ejecuci&oacute;n hipotecaria o el asunto de derecho de familia.</p>
+        <p>3. Los asuntos preexistentes est&aacute;n cubiertos con un 33.3% de descuento sobre la tarifa por hora normal del abogado.</p>
+        <p>SEIU ha contratado a Members United Insurance Agency para administrar los programas de seguros de sus miembros.<br />
+        Members United Insurance Agency no est&aacute; afiliada a U.S. Legal Services, Inc.
+        </p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa De Servicios Legales SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Haga clic aqu&iacute; para inscribirse o llame al 855-518-LAWS (5297) para hablar con un asesor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Programa De Servicios Legales SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>&iquest;Qu&eacute; es un plan de servicios legales?</strong></p>
+        <p>El plan de servicios legales est&aacute; dise&ntilde;ado para hacer que la cobertura legal sea accesible y asequible, ya que ofrecen acceso a m&aacute;s de 11,000 abogados.</p>
+        <ul>
+            <li>
+            <p><strong>Honorarios del abogado</strong>: U.S. Legal paga el 100% de los honorarios de los abogados por todos los servicios cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Cobertura familiar</strong><sup>1</sup>: usted, su c&oacute;nyuge o pareja de hecho y sus hijos dependientes est&aacute;n cubiertos.</p>
+            </li>
+            <li>
+            <p><strong>Consultas ilimitadas</strong>: por tel&eacute;fono o en persona para cada servicio legal por separado.</p>
+            </li>
+            <li>
+            <p><strong>Beneficios integrales</strong><sup>2</sup>: derecho familiar, insolvencia, fideicomisos, testamentos, derecho civil e inmigraci&oacute;n, entre otros.</p>
+            </li>
+            <li>
+            <p><strong>Servicios de defensa</strong>: delitos penales, asuntos juveniles y civiles.</p>
+            </li>
+            <li>
+            <p><strong>Planificaci&oacute;n patrimonial</strong>: testamentos, disposiciones adicionales, poderes y administraci&oacute;n del patrimonio.</p>
+            </li>
+            <li>
+            <p><strong>Preparaci&oacute;n y revisi&oacute;n de documentos.</strong></p>
+            </li>
+            <li>
+            <p><strong>Sin deducible anual, copagos ni formularios de reclamo.</strong></p>
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; deber&iacute;a considerar un plan de servicios legales?</strong></p>
+        <p>Todos los d&iacute;as, las personas se enfrentan a asuntos legales comunes y, a menudo, no est&aacute;n preparadas para defenderse debidamente. Al eliminar las conjeturas sobre a qu&eacute; abogado llamar y c&oacute;mo se le pagar&aacute;, contar con un plan de beneficios legales ahorra tiempo y dinero, ya que elimina el estr&eacute;s innecesario.</p>
+        <p><strong>Primas asequibles</strong></p>
+        <p>Por solo $16.90 al mes, los miembros de SEIU pueden proteger a sus familias con beneficios legales integrales y acceso a una red nacional de abogados.</p>
+        <p><strong>Gane tranquilidad al saber que U.S. Legal se har&aacute; cargo de los honorarios de su abogado.</strong></p>
+        <p><strong>Beneficios adicionales</strong></p>
+        <ul>
+            <li>
+            <p>Preparaci&oacute;n de documentos y formularios legales en l&iacute;nea</p>
+            </li>
+            <li>
+            <p>Biblioteca legal espec&iacute;fica del estado</p>
+            </li>
+            <li>
+            <p>Programa de restauraci&oacute;n en casos de robo de identidad</p>
+            </li>
+            <li>
+            <p>Aplicaci&oacute;n m&oacute;vil</p>
+            </li>
+            <li>
+            <p>Portal para miembros</p>
+            </li>
+        </ul>
+        <p>Los problemas preexistentes cumplen los requisitos para que se aplique una tarifa con descuento del 33.3% con respecto a la tarifa por hora habitual del abogado.<sup>3</sup> Se encuentran disponibles beneficios fuera de la red.</p>
+        <p>Consulte la secci&oacute;n <a href="~/link.aspx?_id=A454FFD8D646487ABAEC6643F831DA0E&amp;_z=z"><strong>Preguntas frecuentes</strong></a> la <a href="-/media/5d07752a767348178752c123a94a869a.ashx" target="_blank"><strong>Tabla de cobertura</strong></a>&nbsp;para conocer m&aacute;s detalles sobre la cobertura adicional y las excepciones.</p>
+        <p>U.S. Legal Services ha contribuido durante m&aacute;s de 40 a&ntilde;os a que los servicios de abogados sean m&aacute;s accesibles y asequibles. Este plan legal de alta calidad le brinda la posibilidad de gestionar asuntos legales de manera simple y eficaz.</p>
+        <p>Los representantes de atenci&oacute;n al cliente est&aacute;n disponibles de lunes a viernes, y hablan ingl&eacute;s y espa&ntilde;ol. Tambi&eacute;n ofrecemos servicios de emergencia las 24 horas, los 7 d&iacute;as de la semana.</p>
+        <p>Prot&eacute;jase y proteja a su familia a partir de hoy: inscr&iacute;base hoy mismo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{B1052942-FD49-4509-AA26-04F72AF1C64F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa De Servicios Legales SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://ext.uslegalservices.net/nea-enrollment/#!/enroll?mdsid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Acceda a servicios legales asequibles para toda la familia con SEIU y U.S. LEGAL SERVICES.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210308T200714Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Servicios Legales SEIU

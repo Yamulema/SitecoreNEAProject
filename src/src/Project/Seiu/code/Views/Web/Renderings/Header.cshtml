@@ -1,0 +1,286 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@using Neambc.Seiumb.Foundation.Authentication.Constants
+@using Sitecore.Mvc.Configuration
+
+
+@using Sitecore.Mvc
+
+@model Neambc.Seiumb.Project.Seiu.Model.Header
+
+<div class="callout hide" id="menuSearch" data-toggler=".hide" data-closable>
+    <div class="medium-4 large-4 columns show-for-medium">
+        @if (@Sitecore.Context.PageMode.IsExperienceEditor)
+        {
+
+            <div id="logoBtn">
+                @Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.SEIUMBLogo, Model.SiteSettings)
+            </div>
+
+        }
+        else
+        {
+            <a id="logoBtn" href="@Model.HomeUrl">
+                <img id="SEIUlogo" alt="" loading="lazy" src="@Model.SiteSettings.ImageUrl(Templates.SitecoreExtensions.SiteSettings.Fields.SEIUMBLogo, null)">
+            </a>
+        }
+    </div>
+    <div class="small-11 medium-4 large-4 columns">
+        @using (Html.BeginRouteForm(MvcSettings.SitecoreRouteName, FormMethod.Post, htmlAttributes: new { id = "formsearch" }))
+        {
+            @Html.Sitecore().FormHandler("SearchSeiumb", "Search")
+
+            <div class="input-group">
+                <input class="input-group-field" type="text" placeholder="@Model.SiteSettings[Templates.SitecoreExtensions.SiteSettings.Fields.SearchText]" id="searchtext" name="searchtext">
+                <span class="input-group-label" id="searchicon"> <a href="" class="icon-search"></a></span>
+            </div>
+        }
+    </div>
+    <div class="small-1 medium-4 large-4 columns">
+        <button class="close-button" aria-label="Close alert" data-toggle="menuSearch" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+
+
+
+
+<!-- Start the login and language menu for desktop -->
+<div class="row show-for-large">
+    <div class="medium-3 large-3 columns">
+
+    </div>
+    <div class="medium-9 large-9 columns">
+        <p id="login">
+            @{//COLD USER
+                if (Model.UserStatus.Equals(UserStatusCons.COLD) && Model.Mdsidco.Equals(string.Empty) && Model.Mdsidqs.Equals(string.Empty))
+                {
+                    <a data-open="loginModal" @Html.Raw(Model.OnClickEventContentLogin)>
+                        @Model.LoginLink.Text
+                    </a>
+                    @:|
+                    <a @Html.Raw(Model.OnClickEventContentRegistration) href="@Model.RegistrationLinkUrl">  @Model.RegistrationLink.Text </a>
+                }
+                //HOT USER
+                else if (Model.UserStatus.Equals(UserStatusCons.HOT))
+                {
+                    <span>@Model.FirstSalutation <a data-toggle="menu-dropdown" href="@Model.ProfileUrl">@Model.FirstName</a><span>@Model.SecondSalutation @Model.SeaName</span> | </span>
+                    <a onclick="$('#logout-form').submit();">@Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.Logout, Model.SiteSettings)</a>
+                }
+                //WARM
+                else if (!Model.UserStatus.Equals(UserStatusCons.HOT) &&
+                    (!string.IsNullOrEmpty(Model.Mdsid) ||
+                     Model.UserStatus.Equals(UserStatusCons.WARM_HOT) ||
+                     Model.UserStatus.Equals(UserStatusCons.WARM_COLD)))
+                {
+
+
+                    //WARM HOT
+                    if (Model.UserStatus.Equals(UserStatusCons.WARM_HOT))
+                    {
+                        <span>@Model.FirstSalutation <a data-toggle="menu-dropdown" href="@Model.ProfileUrl">@Model.FirstName</a><span>@Model.SecondSalutation @Model.SeaName</span> | </span>
+                        <a onclick="deleteCookie('@FormConstants.SEIUMBUsername'); $('#not-you-form').submit();">@Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.NotYou, Model.SiteSettings)</a> <span> | </span>
+
+                        <a data-open="loginModal" @Html.Raw(Model.OnClickEventContentLogin)>
+                            @Model.LoginLink.Text
+                        </a>
+                    }//WARM COLD
+                    if (Model.UserStatus.Equals(UserStatusCons.WARM_COLD))
+                    {
+                        <span>@Model.FirstSalutation <a data-toggle="menu-dropdown" href="@Model.ProfileUrl">@Model.FirstName</a><span>@Model.SecondSalutation @Model.SeaName</span> | </span>
+                        <a onclick="deleteCookie('@FormConstants.SEIUMBUsername'); $('#not-you-form').submit();">@Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.NotYou, Model.SiteSettings)</a> <span> | </span>
+
+                        <a @Html.Raw(Model.OnClickEventContentRegistration) href="@Model.RegistrationLinkUrl">  @Model.RegistrationLink.Text </a>
+                    }
+
+                }
+
+            }
+
+            @Html.Sitecore().Placeholder("language-selector")
+
+        </p>
+        @if (Neambc.Seiumb.Project.Web.Templates.ProfilePage.ID != Sitecore.Context.Item.ID)
+        {
+            <div class="dropdown-pane" id="menu-dropdown" data-dropdown data-vOffset="50" data-hover-pane="true" data-hover="true" data-auto-focus="true">
+                <ul>
+                    <li><a href="@string.Format("{0}#profile", Model.ProfileUrl)">@Model.SiteSettings[Templates.SitecoreExtensions.SiteSettings.Fields.Profile]</a></li>
+                    <li><a href="@string.Format("{0}#username", Model.ProfileUrl)">@Model.SiteSettings[Templates.SitecoreExtensions.SiteSettings.Fields.Username]</a></li>
+                    <li><a href="@string.Format("{0}#password", Model.ProfileUrl)">@Model.SiteSettings[Templates.SitecoreExtensions.SiteSettings.Fields.Password]</a></li>
+                </ul>
+            </div>
+        }
+    </div>
+</div>
+
+<script id="scriptGtm">
+
+    var userMdsid = '@Model.UserMdsid';
+
+</script>
+
+<form id="logout-form" method="post" style="display:none;" action="/api/loginform/LogoutForm">
+    <input type="hidden" name="logout" id="logout" value="true" />
+    <input type="hidden" name="fhController" value="LoginFormController" data-abide-ignore />
+    <input type="hidden" name="fhAction" value="LogoutForm" data-abide-ignore />
+</form>
+
+<form id="not-you-form" name="not-you-form" method="post" style="display:none;" action="/api/loginform/NotYouForm">
+    <input type="hidden" name="logout" id="logout" value="true" />
+    <input type="hidden" name="notyou" id="notyou" value="true" />
+    <input type="hidden" name="loginmodal" id="loginmodal" value="1" />
+    <input type="hidden" name="fhController" value="LoginFormController" data-abide-ignore />
+    <input type="hidden" name="fhAction" value="NotYouForm" data-abide-ignore />
+</form>
+
+<form id="not-you-form-mobile" name="not-you-form-mobile" method="post" style="display:none;" action="/api/loginform/NotYouFormMobile">
+    <input type="hidden" name="logout" id="logout" value="true" />
+    <input type="hidden" name="notyou" id="notyou" value="true" />
+    <input type="hidden" name="fhController" value="LoginFormController" data-abide-ignore />
+    <input type="hidden" name="fhAction" value="NotYouFormMobile" data-abide-ignore />
+</form>
+
+@{
+    string notyou = Request.QueryString["notyou"];
+    if (!string.IsNullOrEmpty(notyou))
+    {
+        <div id="display-login-modal" style="display:none;"></div>
+    }
+}
+
+<!-- End the login and language menu for desktop -->
+
+@Html.Sitecore().Placeholder("login")
+
+<div class="row">
+    <div class="small-12 medium-12 large-12 columns">
+        <div class="title-bar hide-for-large" data-responsive-toggle="mainMenu" data-hide-for="large">
+            <div class="row">
+                <div class="small-8 columns">
+                    <button class="menu-icon" type="button" data-toggle="mainMenu"></button>
+                    @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                    {
+                        <div id="logoBtn">
+                            @Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.SEIUMBLogo, Model.SiteSettings)
+                        </div>
+                    }
+                    else
+                    {
+                        <a href="@Model.HomeUrl">
+                            <img id="SEIUlogo" alt="" loading="lazy" src="@Model.SiteSettings.ImageUrl(Templates.SitecoreExtensions.SiteSettings.Fields.SEIUMBLogo, null)">
+                        </a>
+                    }
+                </div>
+                <div style="text-align: right;" class="small-4 columns">
+                    <a id="searchBtn" class="icon-search" onclick="openSearch()"></a>
+                    @Html.Sitecore().Placeholder("language-selector-mobile")
+                </div>
+            </div>
+        </div>
+
+        <!-- Start the responsive main menu -->
+        <div class="row" id="mainMenu">
+            <div class="top-bar-left show-for-large large-4 columns">
+                <ul id="logo" class="dropdown menu vertical large-horizontal" data-dropdown-menu>
+                    <li class="menu-text">
+                        @*Login page mobile*@
+                        @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                        {
+                            <div id="logoBtn">
+                                @Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.SEIUMBLogo, Model.SiteSettings)
+                            </div>
+                        }
+                        else
+                        {
+                            <a id="logoBtn" href="@Model.HomeUrl">
+                                <img id="SEIUlogo" alt="" loading="lazy" src="@Model.SiteSettings.ImageUrl(Templates.SitecoreExtensions.SiteSettings.Fields.SEIUMBLogo, null)">
+                            </a>
+                        }
+                    </li>
+                </ul>
+            </div>
+
+            @{
+                //WARM
+                if (!Model.UserStatus.Equals(UserStatusCons.HOT) &&
+                    (!string.IsNullOrEmpty(Model.Mdsidco) || !string.IsNullOrEmpty(Model.Mdsidqs) ||
+                     Model.UserStatus.Equals(UserStatusCons.WARM_HOT) ||
+                     Model.UserStatus.Equals(UserStatusCons.WARM_COLD)))
+                {
+
+
+                    //WARM HOT
+                    if (Model.UserStatus.Equals(UserStatusCons.WARM_HOT))
+                    {
+                        <div class="top-bar-left small-12 medium-12 large-12 columns hide-for-large">
+                            <p>
+                                <span>@Model.FirstSalutation <a href="@Model.ProfileUrl">@Model.FirstName</a><span>@Model.SecondSalutation @Model.SeaName</span></span>
+                            </p>
+                        </div>
+                        <div class="top-bar-left small-12 medium-12 large-12 columns hide-for-large">
+                            <p>
+                                <a onclick="deleteCookie('@FormConstants.SEIUMBUsername'); $('#not-you-form-mobile').submit();">@Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.NotYou, Model.SiteSettings)</a> <span> | </span>
+                                <a href="@Model.LoginLinkUrl" @Html.Raw(Model.OnClickEventContentLogin)>
+                                    @Model.LoginLink.Text
+                                </a>
+                            </p>
+                        </div>
+                    }//WARM COLD
+                    if (Model.UserStatus.Equals(UserStatusCons.WARM_COLD))
+                    {
+                        <div class="top-bar-left small-12 medium-12 large-12 columns hide-for-large">
+                            <p>
+                                <span>@Model.FirstSalutation <a href="@Model.ProfileUrl">@Model.FirstName</a><span>@Model.SecondSalutation @Model.SeaName</span></span>
+                            </p>
+                        </div>
+                        <div class="top-bar-left small-12 medium-12 large-12 columns hide-for-large">
+                            <p>
+                                <a onclick="deleteCookie('@FormConstants.SEIUMBUsername'); $('#not-you-form-mobile').submit();">@Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.NotYou, Model.SiteSettings)</a> <span> | </span>
+                                <a @Html.Raw(Model.OnClickEventContentRegistration) href="@Model.RegistrationLinkUrl">  @Model.RegistrationLink.Text </a>
+                            </p>
+                        </div>
+
+
+                    }
+
+                }
+                //COLD USER
+                else if (Model.UserStatus.Equals(UserStatusCons.COLD) && Model.Mdsidco.Equals(string.Empty))
+                {
+                    <div class="top-bar-left small-12 medium-12 large-12 columns hide-for-large">
+                        <p>
+                            <a href="@Model.LoginLinkUrl" @Html.Raw(Model.OnClickEventContentLogin)>
+                                @Model.LoginLink.Text
+                            </a>
+                            <span> | </span>
+                            <a @Html.Raw(Model.OnClickEventContentRegistration) href="@Model.RegistrationLinkUrl">@Model.RegistrationLink.Text </a>
+                        </p>
+                    </div>
+                }
+
+                //HOT USER
+                else if (Model.UserStatus.Equals(UserStatusCons.HOT))
+                {
+                    <div class="top-bar-left small-12 medium-12 large-12 columns hide-for-large">
+                        <p>
+                            @Model.FirstSalutation<a href="@Model.ProfileUrl">@Model.FirstName</a><span>@Model.SecondSalutation @Model.SeaName</span>
+                            <span> | </span>
+                            <a onclick="$('#logout-form').submit();">@Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.Logout, Model.SiteSettings)</a>
+                        </p>
+                    </div>
+                }
+            }
+
+            @Html.Sitecore().Placeholder("navbar-top")
+            <div class="top-bar-left large-1 columns show-for-large">
+                <a data-toggle="menuSearch" id="searchBtn" class="icon-search"></a>
+            </div>
+        </div>
+        <!-- End the responsive main menu -->
+    </div>
+</div>
+
+<div id="login-content-data" style="display:none;" mobileUrl="@Model.LoginLinkUrl" userStatus="@Model.UserStatus"></div>

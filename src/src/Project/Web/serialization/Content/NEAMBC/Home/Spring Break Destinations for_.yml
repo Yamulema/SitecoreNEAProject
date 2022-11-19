@@ -1,0 +1,192 @@
+﻿---
+ID: "d4725ff8-4da4-4830-aea8-7fa296ac9f98"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Spring Break Destinations for Grownups
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{991D0194-669A-4D8B-B084-E98EA4CD2F34}"
+              p:before="*"
+              s:ds="{87587639-10BF-482D-9CEF-692A52E81DCC}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{E6B4EA34-3419-461B-8851-B5B221BCA0AA}"
+              p:after="r[@uid='{991D0194-669A-4D8B-B084-E98EA4CD2F34}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Your vacation is finally here! Chances are, you want to be as far away from partying college kids as possible—fortunately, we’ve brought in three travel experts to help you get the most out of your break this year (and save money in the process!)."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Spring Break Destinations for Grownups
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "Here’s how to avoid the college crowds and book a rejuvenating, budget-friendly getaway."
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="Spring Break Destinations for Grownups" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{24F4171A-87B4-470E-A147-258340DFF6CF}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: by SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Spring Break Destinations for Grownups
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Your vacation is finally here! Chances are, you want to be as far away from partying college kids as possible&mdash;fortunately, we&rsquo;ve brought in three travel experts to help you get the most out of your break this year (and save money in the process!).</p>
+        <p><strong>Set travel goals</strong></p>
+        <p>&ldquo;The first step is to decide what sort of vacation you want,&rdquo; says Hope S. Philbrick, founder and editor-in-chief of GetawaysforGrownups.com, an online magazine for adults seeking travel options sans children. Choices can be anything from urban or rural to beach or mountain, near or far, luxurious or frugal!</p>
+        <p> <!--For seaside destination ideas, read "<a href="~/link.aspx?_id=547FB2851B054AE0AEFE2412020A8321&amp;_z=z" >Pick Your Perfect Summer Getaway from These 8 Unique Beaches</a>."--></p>
+        <p>Once you determine the overall setting, it&rsquo;s time choose a specific destination. &ldquo;College students are far more likely to congregate at a beachside strip mall than a national or state park, at a resort pool than an art museum, at an amusement park than a historic site,&rdquo; explains Philbrick. &ldquo;Families will flock to Disney World, the Wisconsin Dells, etc., so choose accordingly.&rdquo;</p>
+        <p>The good news: There&rsquo;s no shortage of destinations offering a respite from the partying stereotypes often associated with this travel season, says Jeanenne Tornatore, senior editor at Orbitz.com. To wit, a few of our experts&rsquo; favorite locales:</p>
+        <ul>
+            <li><strong>Sedona, AZ.</strong> &ldquo;If you&rsquo;re looking for warm weather, pool, spas, golf, hiking, biking and even catching some MLB baseball games on the cheap, Sedona will meet your expectations,&rdquo; says Tornatore. &ldquo;This area is known for its beautiful natural surroundings, plethora of outdoor activities and great full-service resorts.&rdquo;</li>
+            <li>If peace and quiet is your ultimate goal, consider renting a cabin at <strong>a national or state park</strong>. Philbrick recommends Burnham Cottage at General Coffee State Park in Nicholls, Georgia&mdash;it&rsquo;s a three-bedroom house you can have all to yourself while surrounded by over 1,500 acres&mdash;while Gray suggests Steamboat Springs. &ldquo;It&rsquo;s a popular destination for outdoor lovers and is [just] five miles away from Routt National Forest and Fish Creek Falls, which boasts a 283-foot-tall waterfall.&rdquo;</li>
+            <li>You can&rsquo;t go wrong with <strong>a ski vacation,</strong> and resorts out West are devoid of that crazy party atmosphere, says Tornatore, who favors Beaver Creek. &ldquo;It&rsquo;s a bit more off-the-beaten-path than some of it&rsquo;s neighboring resort towns and offers so many different lodging options, yet still maintains an upscale atmosphere.&rdquo;</li>
+            <li>If you&rsquo;re really trying to get an adults-only experience, Philbrick suggests scheduling plenty of 21-and-over activities into your itinerary, <strong>like comedy clubs, casinos and spas</strong>. Every city has something; for example, in Atlanta, there&rsquo;s an adults-only bowling alley (The Painted Pin), restaurant (Viande Rouge) and events (Georgia Craft Beer Festival). &ldquo;Options like these can provide an adult escape even close to home,&rdquo; explains Philbrick who also recommends exploring towns like Napa Valley. &ldquo;[Since] wineries, distilleries and breweries are also adult-focused,&nbsp;have a great time exploring Napa, drive the Kentucky Bourbon Trail or ride the Colorado Brewery Bus.&rdquo;</li>
+        </ul>
+        <p><strong>Do your research</strong></p>
+        <p>If you&rsquo;re unsure about the vibe in a destination, hop online and read customer reviews&mdash;&ldquo;they&rsquo;ve stayed at the properties and offer unbiased, firsthand accounts of what to expect,&rdquo; says Gray. You can also just call the resort and ask them what the atmosphere is like during your vacation dates,&rdquo; adds Tornatore, noting that most will be upfront with you.</p>
+        <p><strong>Ways to save money</strong></p>
+        <p>Traveling during peak seasons can be costly, but there are some clever ways to save.</p>
+        <ul>
+            <li><strong>Book early.</strong> This is one of the busiest travel seasons of the year&mdash;it&rsquo;s not a time to wait for last minute deals, says Tornatore. Booking early will also give you more options to choose from, adds Gray.</li>
+            <li><strong>Rent a house or condo with a group.</strong> &ldquo;Vacation rentals are an ideal option for groups and families, as they offer twice the space at half the cost of a hotel room, and come with other budget-friendly amenities such as kitchens to prepare your own meals, washers and dryers to avoid pricey bag checking fees [and privacy],&rdquo; says Gray.</li>
+            <li><strong>Stay off the beaten path.</strong> Look for lodging that&rsquo;s not located near popular attractions, such as the waterfront or theme parks, says Gray. &ldquo;The farther you are from tourist areas, the better the deal.&rdquo; Likewise, properties in lesser-known destinations cost less because demand isn&rsquo;t as high.</li>
+            <li><strong>Look for value-adds.</strong> &ldquo;[Many resorts offer] things like free breakfast, free Wi-Fi, and resort credits that are basically free cash to use towards on-property amenities like golf and spa services,&rdquo; says Tornatore. All-inclusives can be another great option.</li>
+            <li><strong>Travel on the off-peak days.</strong>&nbsp; &ldquo;Fridays and Saturdays are typically the most popular days for travelers to head out, so if you can wait until Sunday or Monday to depart, you&rsquo;ll often find better seat options and lower fares for flights,&rdquo; says Tornatore.</li>
+            <li><strong>Use your member discounts. </strong>SEIU members get special discounts on flights, rental cars, hotel rooms and more. Check out all of your travel discounts to find out <a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">how much you can save on your next trip</a>.</li>
+        </ul>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Spring Break Destinations for Grownups
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B7CAAF85-21CA-42A3-974F-95959AB7813E}"
+              p:before="*"
+              s:ds="{87587639-10BF-482D-9CEF-692A52E81DCC}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{51BFCFCE-42D5-4060-BA43-0FD5E18CD8C6}"
+              p:after="r[@uid='{B7CAAF85-21CA-42A3-974F-95959AB7813E}']"
+              s:ds="{AF3FCA80-C26A-4357-91CB-E64D4A3D2D5A}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¡Sus vacaciones finalmente han llegado! Lo más probable es que desee estar lo más lejos posible de las fiestas de los jóvenes universitarios; afortunadamente, hemos consultado a tres expertos en viajes para ayudarlo a sacar el máximo provecho de su receso este año (¡y ahorrar algo de dinero en el proceso!)."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Destinos de receso de primavera para adultos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: A continuación, le ofrecemos algunas opciones para mantenerse alejado de las multitudes de estudiantes universitarios y reservar una escapada rejuvenecedora y de bajo presupuesto.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{24F4171A-87B4-470E-A147-258340DFF6CF}" alt="Seis razones por las que (probablemente) necesitas un asesor financiero" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Por SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Destinos de receso de primavera para adultos
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>&iexcl;Sus vacaciones finalmente han llegado! Lo m&aacute;s probable es que desee estar lo m&aacute;s lejos posible de las fiestas de los j&oacute;venes universitarios; afortunadamente, hemos consultado a tres expertos en viajes para ayudarlo a sacar el m&aacute;ximo provecho de su receso este a&ntilde;o (&iexcl;y ahorrar algo de dinero en el proceso!).</p>
+        <p><strong>Establezca sus objetivos de viaje</strong></p>
+        <p>&ldquo;El primer paso es decidir qu&eacute; tipo de vacaciones desea&rdquo;, comenta Hope S. Philbrick, fundadora y editora en jefe de GetawaysforGrownups.com, una revista por Internet para adultos que buscan opciones de vacaciones sin ni&ntilde;os. Se incluyen opciones para todos los gustos, desde destinos urbanos o rurales, en la playa o la monta&ntilde;a, cercanos o lejanos, lujosos o frugales.</p>
+        <p> <!--For seaside destination ideas, read "<a href="~/link.aspx?_id=547FB2851B054AE0AEFE2412020A8321&amp;_z=z" >Pick Your Perfect Summer Getaway from These 8 Unique Beaches</a>."--></p>
+        <p>Una vez que determine el entorno general, es hora de elegir un destino espec&iacute;fico. &ldquo;Es mucho m&aacute;s probable que los estudiantes universitarios se re&uacute;nan en un centro comercial al lado de la playa que en un parque nacional o estatal, en la piscina de un complejo que en un museo de arte, en un parque de diversiones que en un sitio hist&oacute;rico&rdquo;, explica Philbrick. &ldquo;Las familias ir&aacute;n en masa a Disney World, Wisconsin Dells, etc., as&iacute; que tome una decisi&oacute;n con esto en mente&rdquo;.</p>
+        <p>Las buenas noticias: No son pocos los destinos que ofrecen un descanso de los estereotipos de fiestas que, con frecuencia, se asocian a esta temporada de viajes, explica Jeanenne Tornatore, editora s&eacute;nior de Orbitz.com. Como ejemplo, estos son algunos de los destinos favoritos de nuestros expertos:</p>
+        <ul>
+            <li><strong>Sedona, AZ.</strong> &ldquo;Si busca un clima m&aacute;s c&aacute;lido, piscinas, spas, golf, caminatas, paseos en bicicleta e, incluso, ir a algunos partidos de b&eacute;isbol de la MLB por poco dinero, Sedona cumplir&aacute; con sus expectativas&rdquo;, indica Tornatore. &ldquo;Esta &aacute;rea es conocida por sus bellos entornos naturales, gran cantidad de actividades al aire libre y excelentes complejos tur&iacute;sticos con servicio completo&rdquo;.</li>
+            <li>Si su objetivo principal son la paz y la tranquilidad, considere rentar una caba&ntilde;a en un <strong>parque nacional o estatal</strong>. Hope Philbrick recomienda Burnham Cottage en el parque estatal General Coffee en Nicholls, Georgia (es una casa con tres habitaciones que puede tener solo para usted, rodeada de m&aacute;s de 1,500 acres), mientras Gray sugiere Steamboat Springs. &ldquo;Es un destino popular para los amantes del aire libre y est&aacute; a (solo) cinco millas del bosque nacional Routt y Fish Creek Falls, que alberga un salto de agua de 283 pies de alto&rdquo;.</li>
+            <li><strong>Unas vacaciones para esquiar</strong> son siempre una excelente opci&oacute;n, y los complejos tur&iacute;sticos en el oeste est&aacute;n libres de la loca atm&oacute;sfera de fiesta, afirma Tornatore, cuyo favorito es Beaver Creek. &ldquo;Est&aacute; un poco m&aacute;s alejado de las rutas populares que algunos de los pueblos tur&iacute;sticos cercanos y ofrece muchas opciones diferentes de alojamiento, pero mantiene una atm&oacute;sfera exclusiva&rdquo;.</li>
+            <li>Si realmente est&aacute; tratando de vivir una experiencia solo para adultos, Philbrick sugiere programar muchas actividades para mayores de 21 a&ntilde;os en su itinerario, <strong>como clubes de comedia, casinos y spas.</strong> Cada ciudad tiene algo; por ejemplo, en Atlanta, hay un lugar para jugar bolos (The Painted Pin), un restaurante (Viande Rouge) y eventos (Festival de cerveza artesanal de Georgia) que son exclusivos para adultos. &ldquo;Opciones como estas permiten tener una escapada para adultos incluso cerca de casa&rdquo;, explica Philbrick, quien tambi&eacute;n recomienda explorar pueblos como Napa Valley. &ldquo;[Dado que] los vi&ntilde;edos, las destiler&iacute;as y las cervecer&iacute;as tambi&eacute;n se centran en los adultos, puede divertirse mucho explorando Napa, recorriendo el Kentucky Bourbon Trail en autom&oacute;vil o viajando en el Colorado Brewery Bus&rdquo;.</li>
+        </ul>
+        <p><strong>Investigue</strong></p>
+        <p>Si no est&aacute; seguro de la vibra de un destino, busque en Internet y lea los comentarios de los clientes; &ldquo;se han quedado en las propiedades y ofrecen relatos imparciales y de primera mano sobre qu&eacute; esperar&rdquo;, indica Gray. &ldquo;Tambi&eacute;n puede simplemente llamar al complejo tur&iacute;stico y preguntarles c&oacute;mo es la atm&oacute;sfera durante sus fechas de vacaciones&rdquo;, agrega Tornatore, e indica que la mayor&iacute;a ser&aacute;n sinceros.</p>
+        <p><strong>Maneras de ahorrar dinero</strong></p>
+        <p>Viajar durante las temporadas altas puede ser costoso, pero estas son algunas maneras inteligentes de ahorrar.</p>
+        <ul>
+            <li><strong>Reserve con anticipaci&oacute;n.</strong> Esta es una de las temporadas de viaje m&aacute;s populares del a&ntilde;o, por lo cual no es el momento para esperar por las ofertas de &uacute;ltimo minuto, indica Tornatore. Reservar con anticipaci&oacute;n tambi&eacute;n le brinda m&aacute;s opciones entre las cuales elegir, agrega Gray.</li>
+            <li><strong>Alquile una casa o un apartamento con un grupo.</strong> &ldquo;Los alquileres vacacionales son ideales para grupos y familias, ya que ofrecen el doble de espacio por la mitad del costo de una habitaci&oacute;n de hotel, e incluyen otras caracter&iacute;sticas que ayudan a ahorrar dinero, como cocinas para preparar sus propias comidas, lavarropas y secadoras para no tener que pagar los altos precios por registrar las maletas [y privacidad]&rdquo;, se&ntilde;ala Gray.</li>
+            <li><strong>Al&eacute;jese de las rutas m&aacute;s populares.</strong> Busque alojamientos que no est&eacute;n cerca de atracciones populares, como la zona costera o los parques tem&aacute;ticos, indica Gray. &ldquo;Mientras m&aacute;s lejos est&eacute; de las &aacute;reas tur&iacute;sticas, mejor ser&aacute; el precio&rdquo;. Del mismo modo, las propiedades en destinos menos conocidos cuestan menos, porque la demanda no es tan alta.</li>
+            <li><strong>Busque caracter&iacute;sticas que agreguen valor.</strong> &ldquo;[Muchos complejos tur&iacute;sticos ofrecen] servicios, como desayuno gratis, conexi&oacute;n wifi sin costo y cr&eacute;ditos para el complejo que son, b&aacute;sicamente, dinero gratuito para usar en actividades en la propiedad, como golf y servicios de spa&rdquo;, indica Tornatore. Los lugares con todo incluido pueden ser otra excelente opci&oacute;n.</li>
+            <li><strong>Viaje en los d&iacute;as de baja demanda.</strong>&nbsp;&ldquo;Los viernes y los s&aacute;bados son, normalmente, los d&iacute;as m&aacute;s populares para emprender viajes, por lo cual si puede esperar hasta el domingo o el lunes para partir, con frecuencia encontrar&aacute; mejores opciones de asientos y vuelos a menor precio&rdquo;, dice Tornatore.</li>
+            <li><strong>Use sus descuentos para miembros. </strong>de SEIU obtienen descuentos especiales en vuelos, alquileres de autom&oacute;viles, habitaciones de hotel y m&aacute;s. Revise todos sus descuentos de viaje para enterarse de <a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z">cu&aacute;nto puede ahorrar en su pr&oacute;ximo viaje</a>.</li>
+        </ul>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Destinos de receso de primavera para adultos

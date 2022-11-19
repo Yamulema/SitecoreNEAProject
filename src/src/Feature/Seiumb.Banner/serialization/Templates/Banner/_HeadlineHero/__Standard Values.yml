@@ -1,0 +1,25 @@
+﻿---
+ID: "4d4fdd8f-5fba-4977-8b18-0919e6432139"
+Parent: "82ddfe8d-69cf-4ba5-a727-5e298f893768"
+Template: "82ddfe8d-69cf-4ba5-a727-5e298f893768"
+Path: /sitecore/templates/SEIUMB/Feature/Banner/_HeadlineHero/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201201T232512Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: $name

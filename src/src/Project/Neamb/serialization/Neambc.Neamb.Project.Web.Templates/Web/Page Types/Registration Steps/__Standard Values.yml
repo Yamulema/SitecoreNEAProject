@@ -1,0 +1,155 @@
+﻿---
+ID: "15f98a56-346c-4b42-847a-59c94bb64372"
+Parent: "04574ad2-0718-45e0-9b70-7e574db8dc46"
+Template: "04574ad2-0718-45e0-9b70-7e574db8dc46"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Registration Steps/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "042c1e3b-833a-475d-b150-e6a79dbce6c5"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+            <r
+              id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+              ph="body"
+              uid="{620AE009-6748-443A-B812-719C44E11A36}" />
+            <r
+              ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+              id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+              par=""
+              ph="header-offer"
+              uid="{4DA616FD-F587-495A-97AD-B044C9B5B337}"
+              ccb="Clear on publish" />
+            <r
+              ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+              id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+              par=""
+              ph="header"
+              uid="{514B62B6-B5E9-4A64-AECF-B1044658840E}"
+              ccb="Clear on publish" />
+            <r
+              id="{587A669F-31A3-458C-B2F2-026144AEB6FA}"
+              ph="body"
+              uid="{A8D7FDCC-1A59-4EA4-9E3E-402F97109E3A}" />
+            <r
+              ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+              id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+              par=""
+              ph="footer"
+              uid="{84552E69-BD31-41B0-B41F-61AA2B8E0C8A}"
+              ccb="Clear on publish" />
+            <r
+              ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+              id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+              par=""
+              ph="modal"
+              uid="{3ECD946D-1230-45F3-9640-79EE00B6BF76}"
+              ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "1808c5d8-8f6c-4ce2-833b-9f47e8da400a"
+      Hint: Title
+      Value: Step 1 of 3
+    - ID: "1a696f6f-3dac-4185-93f7-c3d0bf6f5372"
+      Hint: Next Step
+      Value: Continue
+    - ID: "1d854634-8800-49bf-af31-eb8233a3423e"
+      Hint: Opt In
+      Value: I'd like to receive emails about special discounts, promotions,  and other offers.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220117T214147Z
+    - ID: "50b7bb71-bae0-4893-8b5b-23fac8863d7c"
+      Hint: Password Section
+      Value: Login Information
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6193fb54-3434-468f-a8c1-d70f29403f29"
+      Hint: Empty Field
+      Value: Please confirm your password to proceed
+    - ID: "6eb22d48-7e0e-4ff5-999d-bd3355cc74e2"
+      Hint: Empty Field
+      Value: Please enter your password
+    - ID: "70853990-1d72-4e87-82fa-010dd43a7dbb"
+      Hint: Minimum Character Count
+      Value: You must enter at least 8 characters in this field
+    - ID: "70e1dad5-6ad1-4f97-af6c-f4bc7a649948"
+      Hint: Tooltip
+      Value: At least 8 characters long including one letter and one number. No spaces or special characters.
+    - ID: "8472d847-10d9-4f8b-a04e-87edcb951dac"
+      Hint: Intro
+      Value: |
+        <p>
+        Confirm your NEA Membership to access your benefits, we need to verify your address and birth date.
+        </p>
+    - ID: "929b275e-59f3-4a34-aae6-79002b5948f5"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Thank you for registering!</h2>
+        <p>Now you'll be able to check your eligibility for all of our benefits, discounts and services. When you are done, consider <a href="~/link.aspx?_id=6512B2CAADFA4B70A4F4541224FD47CC&amp;_z=z">updating your profile</a> so that you can make the most of your membership.</p>
+        <div class="col-md-5 col-centered">
+        <a id="btnModalRegistration" href="~/link.aspx?_id=545409FCDB864A7FAC61F74A274B5E30&amp;_z=z" class="btn btn-lg btn-blue btn-block">Proceed to Home Page</a>
+        </div>
+        </div>
+        <div class="modal-footer hidden-xs hidden-sm">
+        <div class="col-md-6">
+        <p>Connect with us, and members like you </p>
+        </div>
+        <div class="col-md-6">
+        <div class="share"><a rel="noopener noreferrer" href="https://www.facebook.com/NEAMemberBenefits/" target="_blank"><em aria-hidden="true" class="fa fa-facebook"></em></a><a rel="noopener noreferrer" href="https://twitter.com/NEABenefits" target="_blank"><em aria-hidden="true" class="fa fa-twitter"></em></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/nea-member-benefits" target="_blank"><em aria-hidden="true" class="fa fa-linkedin"></em></a></div>
+        </div>
+        </div>
+    - ID: "933b3e91-c0cc-4220-97ba-6542afd83460"
+      Hint: Address Section
+      Value: Address
+    - ID: "95583438-533a-4423-86f2-e1a733b99486"
+      Hint: Submit
+      Value: Create an Account
+    - ID: "973d20db-6ad3-43da-8039-15c7048b8a89"
+      Hint: Birth Date Section
+      Value: Birth Date
+    - ID: "a0789d92-22f3-4726-b79b-dd1c91ee4ece"
+      Hint: Label
+      Value: Personal Email Address
+    - ID: "a89eae5e-8360-4172-9a0c-0c7246c05873"
+      Hint: Age Requirement
+      Value: You must be at least 16 years old and no more than 95 years old to be an NEAMB member so, please enter a value between 1927 and 2006
+    - ID: "af096608-4272-4feb-982b-bd06c7982731"
+      Hint: Title
+      Value: Step 2 of 3
+    - ID: "d0055a84-6b46-4e57-9180-4a3e135198c6"
+      Hint: Disclaimer
+      Value: |
+        By clicking this button you agree to our terms of use and <a href="~/link.aspx?_id=097C54EE322C4E98A31171BF6501E0A2&amp;_z=z" target="_blank">Privacy Policy</a>. We respect your privacy and never share your personal information with third parties.
+        
+    - ID: "d53243d3-5e33-49de-aeaa-e01b364384dd"
+      Hint: Description
+      Value: |
+        <p>
+        Your personal email address will be your <a href="http://www.neamb.com">NEAMB.com</a> login name and will be used to inform you of exclusive benefits made available to NEA members. You can manage your communication preferences at any time.
+        </p>
+    - ID: "dbbd8875-2e06-4a3f-aa54-5b2381d3ae8e"
+      Hint: Name Section
+      Value: Name
+    - ID: "fd137f7d-9d44-4523-b678-b8136d580d0f"
+      Hint: Intro
+      Value: |
+        <p>
+        To get started, please fill out the information below. Next, we'll verify your email address.
+        </p>
+        <span class="bold-message">Already have an account?</span>
+        <a class="form-link" href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">Sign in</a>

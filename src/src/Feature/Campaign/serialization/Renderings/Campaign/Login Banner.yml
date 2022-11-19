@@ -1,0 +1,24 @@
+﻿---
+ID: "42e6aa24-f575-4dd0-a696-1766273db0c0"
+Parent: "894614f2-b6b5-4869-bf48-8fa8662180fe"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/SEIUMB/Feature/Campaign/Login Banner
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{8F79708B-506D-4407-95EB-36846B4326E1}"
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Forms/LoginBanner.cshtml
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{049E8731-D604-4D14-AB6D-4E1D25B0109D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171226T174349Z

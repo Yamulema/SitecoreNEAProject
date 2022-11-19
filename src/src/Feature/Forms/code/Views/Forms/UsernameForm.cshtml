@@ -1,0 +1,166 @@
+﻿@using Neambc.Seiumb.Feature.Forms
+@using Neambc.Seiumb.Feature.Forms.Enums
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Neambc.Seiumb.Feature.Forms.Models.UsernameFormModel
+
+@{
+    string alreadyExistErrorMessage = string.Empty;
+    string baseAlreadyExistErrorMessage = Model.Item.Fields[Templates.ProfileTemplate.Fields.Email_InUse].Value;
+    string invalidUsernameErrorMessage = string.Empty;
+    if (Model.Errors != null && Model.Errors.Count > 0)
+    {
+        if (Model.Errors.Contains(ProfileErrors.USERNAME_NOT_AVAILABLE))
+        {
+            string alreadyExist = Model.Item.Fields[Templates.ProfileTemplate.Fields.Email_InUse].Value;
+
+            if (!string.IsNullOrEmpty(alreadyExist))
+            {
+                alreadyExistErrorMessage = alreadyExist.Replace("|", Model.NewUsername);
+            }
+        }
+        else if (Model.Errors.Contains(ProfileErrors.INVALID_USERNAME))
+        {
+
+            string invaidUsername = Model.Item.Fields[Templates.ProfileTemplate.Fields.Email_InvalidFormat].Value;
+            if (!string.IsNullOrEmpty(invaidUsername))
+            {
+                invalidUsernameErrorMessage = invaidUsername.Replace("|", Model.NewUsername);
+            }
+
+        }
+
+    }
+
+    var newUsernamePlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.NewUsername_Placeholder].Value;
+    var usernamePlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.UsernameConfirmation_Placeholder].Value;
+}
+
+<div class="row">
+    <div id="accountForm" class="small-12 medium-12 large-12 columns float-center">
+        <form id="resetUsernameForm" data-abide novalidate action="" method="post">
+            <div class="small-12 medium-9 large-9 columns">
+                <div class="row">
+                    <fieldset class="fieldset">
+                        <h4>@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.UsernameHeadline, Model.Item)</h4>
+                        <span>@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.UsernameSubheadline, Model.Item)</span>
+                        <hr>
+                        <div class="row">
+                            <div class="small-12 medium-4 large-4 columns columns">
+                                <label for="current_username" class="text-left bottom">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.CurrentUsername_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-12 medium-6 large-6 columns">
+                                @Html.TextBoxFor(x => x.CurrentUsername, null, new
+                           {
+                               @id = "current_username",
+                               @disabled = "true",
+                               @placeholder = "current user dude"
+                           })
+                            </div>
+                            <div class="show-for-medium medium-2 large-2 columns">
+                                &nbsp;
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 medium-4 large-4 columns columns">
+                                <label for="newUsername" class="text-left bottom">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.NewUsername_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-12 medium-6 large-6 columns">
+                                @Html.TextBoxFor(x => x.NewUsername, null, new
+                           {
+                               @id = "newUsername",
+                               @data_validator = "myEmailValidator onFocusOutEmailValidator",
+                               @required = "true",
+                               @onkeyup = "onKeyPressEmailValidator(this)",
+                               @placeholder = @HttpUtility.HtmlDecode(newUsernamePlaceholder)
+                           })
+                                <span id="warning-format-newUsername" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_Warning, Model.Item)
+                                </span>
+                                <span id="required-newUsername" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_Empty, Model.Item)
+                                </span>
+                                <span id="max-characters-newUsername" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_CharactersLimit, Model.Item)
+                                </span>
+                                <span id="invalid-format-newUsername" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_InvalidFormat, Model.Item)
+                                </span>
+                                <span id="already-registered-newUsername" style='display: none;' class="custom-form-error">
+                                    @baseAlreadyExistErrorMessage
+                                </span>
+                                <div id="server-error-newUsername" class="server-error">
+                                    @alreadyExistErrorMessage
+                                    @invalidUsernameErrorMessage
+                                    @if (Model.HasErrorNewUsernameLength)
+                                    {
+                                        if (!String.IsNullOrEmpty(alreadyExistErrorMessage))
+                                        {
+                                            <br />
+                                        }
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_CharactersLimit, Model.Item)
+                                    }
+                                    else if (Model.HasErrorNewUsername)
+                                    {
+                                        if (!String.IsNullOrEmpty(alreadyExistErrorMessage))
+                                        {
+                                            <br />
+                                        }
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_InvalidFormat, Model.Item)
+                                    }
+                                </div>
+                            </div>
+                            <div class="show-for-medium medium-2 large-2 columns">
+                                &nbsp;
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 medium-4 large-4 columns columns">
+                                <label for="confirm_new_username" class="text-left bottom">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.UsernameConfirmation_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-12 medium-6 large-6 columns">
+                                @Html.TextBoxFor(x => x.ConfirmNewUsername, null, new
+                           {
+                               @id = "confirm_new_username",
+                               @data_equalto = "newUsername",
+                               @required = "true",
+                               @pattern = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,3}$",
+                               @placeholder = @HttpUtility.HtmlDecode(usernamePlaceholder)
+                           })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_NoMatch, Model.Item)
+                                </span>
+                                <div id="server-error-confirmUsername" class="server-error">
+                                    @if (Model.HasErrorConfirmNewUsernameLength)
+                                    {
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Email_CharactersLimit, Model.Item)
+                                    }
+                                </div>
+                            </div>
+                            <div class="show-for-medium medium-2 large-2 columns">
+                                &nbsp;
+                            </div>
+                        </div>
+                        <input type="hidden" name="fhController" value="UsernameFormController" data-abide-ignore />
+                        <input type="hidden" name="fhAction" value="UsernameForm" data-abide-ignore />
+                        <div class="row">
+                            <div class="small-12 columns buttonContainer">
+                                <input id="btnRegistrationForm" class="button"
+                                       onmousedown="submitForm(this, 'resetUsernameForm');"
+                                       type="submit"
+                                       value="@Model.Item.Fields[Templates.ProfileTemplate.Fields.UsernameSubmitButton].Value" />
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="show-for-medium medium-3 large-3 columns">
+                <div class="row">
+                    <fieldset id="quick-links" class="fieldset buttonContainer">
+                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.UsernameQuickLinks, Model.Item)
+                    </fieldset>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

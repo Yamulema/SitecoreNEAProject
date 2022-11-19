@@ -1,0 +1,98 @@
+﻿---
+ID: "559e584c-7d02-4819-9320-baa4da823b86"
+Parent: "bbe611d3-3402-4397-9b19-4045699090f3"
+Template: "bbe611d3-3402-4397-9b19-4045699090f3"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Retirement Seminar/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1014eb0b-613f-4f30-b828-dae6a6a967f9"
+      Hint: Link
+      Value: Reserve Your Seat
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191218T224309Z
+    - ID: "31fd9495-a12e-49f9-a5d8-24e61d93e29e"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Way to Go! You have reserved your seat!</h2>
+        <p>[FirstName], your RSVP has been received. You will receive an email confirmation from us shortly.
+        </p>
+        <div class="col-md-5 col-centered"><a href="~/link.aspx?_id=1C9814DE3BEA44E3A2ECF5333E0103A3&amp;_z=z" class="btn btn-lg btn-blue btn-block">Return to the RSVP Page</a></div>
+        </div>
+    - ID: "5af52daa-419a-4da2-9d48-d08f31346563"
+      Hint: Show social share
+      Type: Checkbox
+      Value: 1
+    - ID: "6cbecbb2-1374-4a50-8f14-acac4920606c"
+      Hint: Campaign Code
+      Value: TGRS0220
+    - ID: "726d32e5-8648-495f-b7c2-b501ada2cacf"
+      Hint: Name
+      Value: |
+        <p style="text-align: center;">Way to go <br />
+        [FirstNameExclamation] <span style="font-size: 20px;">[Notyou]</span> </p>
+    - ID: "73da7401-76af-43f5-9b88-ce1ad1f858da"
+      Hint: Eyebrow
+      Value: 
+    - ID: "7aa5219b-b2b8-4c2d-95c4-8710b3d63a88"
+      Hint: Subhead
+      Value: |
+        <div style="line-height: 1.75em;"><span style="font-size: 40px;">You're ready to Bring More to your retirement</span></div>
+    - ID: "a02d086c-f869-4b1b-b50e-43356af241e8"
+      Hint: Login Details
+      Value: |
+        <p><strong><span style="font-size: 24px;">[SeminarName]
+        </span><br />
+        exclusive for
+        [SeaName]
+        </strong></p>
+        <p><strong><span style="font-size: 24px;">This FREE workshop can help you better plan and enjoy your retirement</span></strong></p>
+        <p><strong>Workshop Details:</strong><br />
+        [LeaName]</p>
+        <p><strong>Date &amp; Time:</strong><br />
+        [SeminarDate]<br />
+        [SeminarTime]</p>
+        <p><strong>Location:</strong><br />
+        [SeminarLocation1]<br />
+        [SeminarLocation2] <br />
+        [SeminarAddress]<br />
+        [SeminarCityStateZipCode]</p>
+        <p><strong>Presented by:</strong><br />
+        [PresenterName]</p>
+    - ID: "b7f8583b-1988-4f64-a4eb-eec81726eaed"
+      Hint: Registered User Message
+      Value: "Great news, [FirstName].&nbsp; You have successfully submitted your RSVP for this workshop."
+    - ID: "c25d0cb0-fcbc-4420-a34b-ed195fd0a69b"
+      Hint: Terms and Conditions
+      Value: |
+        <p><strong><span style="font-size: 24px;">[SeminarName]
+        </span><br />
+        exclusive for
+        [SeaName]
+        </strong></p>
+        <p><strong><span style="font-size: 24px;">This FREE workshop can help you better plan and enjoy your retirement</span></strong></p>
+        <p><strong>Workshop Details:</strong><br />
+        [LeaName]</p>
+        <p><strong>Date &amp; Time:</strong><br />
+        [SeminarDate]<br />
+        [SeminarTime]</p>
+        <p><strong>Location:</strong><br />
+        [SeminarLocation1]<br />
+        [SeminarLocation2] <br />
+        [SeminarAddress]<br />
+        [SeminarCityStateZipCode]</p>
+        <p><strong>Presented by:</strong></p>
+        [PresenterName]
+        <p>&nbsp;</p>
+    - ID: "ef4758bd-b1ed-4886-ad8a-ca2b9829c22c"
+      Hint: Cell Code
+      Value: TG001548

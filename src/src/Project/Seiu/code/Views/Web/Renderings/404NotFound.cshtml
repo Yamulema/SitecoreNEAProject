@@ -1,0 +1,5 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@Html.Sitecore().Field(Templates.SitecoreExtensions.Error.Fields.Body, Model.Item)

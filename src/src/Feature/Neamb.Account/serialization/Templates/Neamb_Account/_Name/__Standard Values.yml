@@ -1,0 +1,52 @@
+﻿---
+ID: "fb8a2e25-2de4-4cf0-ac20-3dfba451fd41"
+Parent: "14b21118-f060-4d0d-922d-42d4f720589a"
+Template: "14b21118-f060-4d0d-922d-42d4f720589a"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Name/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e31ca98-49c0-417c-aafd-191a6504089e"
+      Hint: Label
+      Value: Last Name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T165207Z
+    - ID: "3f535fb5-4d08-485d-a712-72570256d4bf"
+      Hint: Minimum Character Limit
+      Value: You must enter at least 2 characters in this field
+    - ID: "4a08cfd7-853d-478f-8c99-b99e061b0f1d"
+      Hint: Empty Field
+      Value: Please insert your first name
+    - ID: "4bd97032-914a-493f-9cc1-5d1fd6476e90"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "5b02f656-8c0e-49aa-a594-e89dd3333a1e"
+      Hint: Label
+      Value: First Name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9839a40c-eda5-4c83-ab7f-75ff4748525d"
+      Hint: Empty Field
+      Value: Please insert your last name
+    - ID: "9a1bb82c-82a2-4ca7-a5fe-8b6f09fe8b5c"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field
+    - ID: "a4f6a83b-5de3-4035-bbc7-88823f4b61a7"
+      Hint: Minimum Character Limit
+      Value: You must enter at least 2 characters in this field
+    - ID: "d164e8f4-3338-4eda-8626-d0783a845dac"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "f7620f0c-1c3a-458e-ad51-a0f6395dcd2d"
+      Hint: Characters Limit
+      Value: You can enter only 30 characters in this field

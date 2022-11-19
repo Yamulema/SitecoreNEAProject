@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="NeaLTCPage" urlpath="/products/nea-long-term-care-program">
+      <sections>
+        <section name="Component">
+        </section>
+        <section name="CtaCold">
+          <controls>
+            <control key="NEALTC_CtaCold_SignIn" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"/>
+            <control key="NEALTC_CtaCold_StickySignIn" xpath="//a[@class='btn btn-blue pull-right m-r-xs']"/>
+          </controls>
+        </section>
+        <section name="CtaWarm">
+          <controls>
+            <control key="NEALTC_CtaWarm_PrimaryCta" xpath="//a[@class='btn btn-orange m-b-xs m-r-sm']"/>
+            <control key="NEALTC_CtaWarm_SecondaryCta" xpath="//a[@class='btn btn-gray']"/>
+            <control key="NEALTC_CtaWarm_StickyPrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="NEALTC_CtaWarm_StickySecondaryCta" xpath="(//a[@class='btn btn-gray'])[1]"/>
+
+          </controls>
+        </section>
+        <section name="CtaHot">
+          <controls>
+            <control key="NEALTC_CtaHot_PrimaryCta" xpath="//a[@class='btn btn-orange m-b-xs m-r-sm']"/>
+            <control key="NEALTC_CtaHot_SecondaryCta" xpath="//a[@class='btn btn-gray']"/>
+            <control key="NEALTC_CtaHot_StickyPrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="NEALTC_CtaHot_StickySecondaryCta" xpath="(//a[@class='btn btn-gray'])[1]"/>
+
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

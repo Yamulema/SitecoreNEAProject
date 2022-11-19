@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="GeAppliancePage" urlpath="https://www.myapstore.com/GEStore/Appliances/RegistrationNEA">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="GeAppliancePage_Input_FirstName" xpath="//*[@name='firstName']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>
+

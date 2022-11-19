@@ -1,0 +1,50 @@
+﻿---
+ID: "3a7fe976-fc78-4c8a-a1e6-7c1cb9788467"
+Parent: "2edd18c4-2f55-4075-bdd2-6b97f5c5e5c1"
+Template: "2edd18c4-2f55-4075-bdd2-6b97f5c5e5c1"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Reset Password Disavow/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{86B6D957-8159-439A-ADD7-0352B90C14EE}" />
+        <r
+          id="{19E77388-DF29-4740-B457-DD08852C4E4E}"
+          ph="body"
+          uid="{0066E18F-BE9F-4DEC-8EF2-316AA3358F7B}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{F5DFAAF3-6185-46F2-9A33-EA25843A0F8D}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{3E2B4DD3-5949-4EE4-B701-112CB0FE6040}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180622T173131Z

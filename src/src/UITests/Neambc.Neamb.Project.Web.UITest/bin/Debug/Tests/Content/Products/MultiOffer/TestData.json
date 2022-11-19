@@ -1,0 +1,18 @@
+{
+
+  "WarmState": [
+    [ "999", "dataLayerPush({'event':'multi-offer card','cardTitle':'Income Protection PDF- Efulfillment|Test pdf','ctaText':' Save up to 30% on movie tickets. See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!','clickHref':'https://qa.neamb.com/login'},this);" ]
+  ],
+  "DataPass": [
+    [ "nea.nadine@gmail.com", "secret12", "dataLayerPush({'event':'multi-offer card','cardTitle':'Income Protection - Data Pass|Start Shopping','ctaText':' Save up to 30% on movie tickets. See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!','clickHref':'https://neamb.affinityperks.com/gateway/neaid'},this);" ]
+  ],
+  "SSO": [
+    [ "nea.nadine@gmail.com", "secret12", "dataLayerPush({'event':'multi-offer card','cardTitle':'Auto Buying - SSO|Enroll Online','ctaText':' Save up to 30% on movie tickets. See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!','clickHref':'https://nea.staging.truecardev.com/ws/submitRegisteredMemberInformation'},this);" ]
+  ],
+  "PDF": [
+    [ "nea.nadine@gmail.com", "secret12", "dataLayerPush({'event':'multi-offer card','cardTitle':'Income Protection PDF- Efulfillment|Test pdf','ctaText':' Save up to 30% on movie tickets. See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!','clickHref':'/api/ProductRoute/DownloadEfulfillmentPdfMultirow'},this);" ]
+  ],
+  "Link": [
+    [ "nea.nadine@gmail.com", "secret12", "dataLayerPush({'event':'multi-offer card','cardTitle':'Link Get Your First Month|Enroll Online','ctaText':' Save up to 30% on movie tickets. See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!See the latest blockbusters for less using the NEA Click & Save Entertainment Store!','clickHref':'https://neamb.lifestylecollection.com/'},this);" ]
+  ]
+}

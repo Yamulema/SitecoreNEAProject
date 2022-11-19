@@ -1,0 +1,28 @@
+﻿---
+ID: "711b3c60-1fe8-49e5-9815-13567403f2df"
+Parent: "d8be87a5-ad90-45b3-9b5b-af2963f14423"
+Template: "d8be87a5-ad90-45b3-9b5b-af2963f14423"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Search/_ContentFilter/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180522T171944Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6f1b79d1-c060-45a9-bae9-4b1512c27216"
+      Hint: Match Attribute
+      Type: Multilist
+      Value: "{B68625DC-2329-4A78-9BAD-A8101E8BA96E}"
+    - ID: "83fd5a48-2cfa-4322-9a7d-dc035613ee4b"
+      Hint: Header
+      Value: Insert your header here
+    - ID: "f1cfe31c-4c09-483f-a5d7-d9c0e993295d"
+      Hint: See More Text
+      Value: See More

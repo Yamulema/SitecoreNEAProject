@@ -1,0 +1,115 @@
+﻿---
+ID: "3f000367-a246-4c0d-b286-bbdb85a01e05"
+Parent: "a2ce3a94-3500-4bbf-94b3-67a637097dd0"
+Template: "a2ce3a94-3500-4bbf-94b3-67a637097dd0"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Home/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B496C634-6BCC-43BD-A465-6095DD468467}
+    {71F83DE6-AA9C-4F1D-9FCC-C04B2EF2832D}
+    {E34BACDF-686B-4D8A-8FD1-D6A2E52EA1D9}
+    {12EF3A31-C3C4-49C3-A1CC-AAA54364C242}
+    {073A5AAF-424C-410F-8958-F6F650920186}
+    {1DD78A72-ED45-429C-9167-0A255887AA4E}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{7DC5DADE-6F59-47DC-BB0A-C2E373E1441E}" />
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{82A4A826-19A9-47EA-8BE8-32550BAE9976}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{C4C7D7AA-77F7-4E76-8580-F68E40928A89}" />
+        <r
+          ds="{091EB19A-DEAF-413A-B222-BA307CB60F7C}"
+          id="{28010D10-ADA2-4756-B204-208A17624E88}"
+          ph="body"
+          uid="{CB60C543-6B1B-47C4-80AA-715C9CECE307}" />
+        <r
+          ds="{25C3007A-1F1B-40B7-B804-93C3CFF8A1B6}"
+          id="{F2895698-DF06-44CF-8A88-734A1524E63E}"
+          ph="body"
+          uid="{E7E8ACE0-7B76-400E-ADD5-41B2660997D1}" />
+        <r
+          id="{16CABA61-56E3-4847-B307-8015CFD5128B}"
+          ph="body"
+          uid="{792C4CD8-7F2E-4445-95C0-72D3EB80E824}" />
+        <r
+          ds="{1F3F4137-FAB3-49AA-A113-7FB86C512BE7}"
+          id="{B00BF627-11B1-4A5A-97E3-C254EA847D08}"
+          ph="body"
+          uid="{5435E1EB-DE58-444B-9623-F28B4ADBADCE}" />
+        <r
+          id="{B4501362-456F-4232-886E-7EBF4D431007}"
+          ph="body"
+          uid="{9F5BC52E-F9EE-49FC-A537-F48555369D84}" />
+        <r
+          id="{D6500E20-464F-4803-AE60-2D1F1FC77409}"
+          ph="body"
+          uid="{E7E3CA56-C242-44D5-A2F2-4E8616BB1DEA}" />
+        <r
+          id="{77CBFF29-2756-46CE-9474-B727863A436D}"
+          ph="body"
+          uid="{17911FA0-0BB2-458B-A59B-8676E9396966}" />
+        <r
+          id="{D6F3A5B5-845A-45C3-B266-416A8E043971}"
+          ph="body"
+          uid="{F5D5CB63-CF0A-450D-B884-071982F38574}" />
+        <r
+          id="{8F2C8A9B-F21C-4680-8C82-90AEFE795E01}"
+          ph="body"
+          uid="{F2F63047-8BC0-440B-8914-3911704EB571}" />
+        <r
+          id="{6EE66174-FDE6-4331-BB1D-4D5DC3F6BDB6}"
+          ph="body"
+          uid="{A4271018-0EAA-427B-8D78-69749097A02B}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{8739C889-9CE3-42A0-8BF8-99E373E43462}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          ph="header-offer"
+          uid="{13713AEC-E2F7-43FC-9BDE-D9448B367081}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180409T135849Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+      Hint: Last Publish Date
+      Value: 

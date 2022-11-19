@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="NeaIncomeProtectionPlanPage" urlpath="/products/nea-income-protection-plan">
+      <sections>
+        <section name="Component">
+          <controls>
+            <control key="NeaIncomeProtectionPlanPage_Component_Eyebrow"  xpath="//p[@id='product_cta_eyebrown']" />
+            <control key="NeaIncomeProtectionPlanPage_Component_ProductName"  xpath="//h1[@id='product_cta_title']" />
+            <control key="NeaIncomeProtectionPlanPage_Component_ProductImage"  xpath="//img[@class='img-fit']" />
+            <control key="NeaIncomeProtectionPlanPage_Component_SocialMedia"  xpath="//div[@id='product_cta_social_media']" />
+          </controls>
+        </section>
+        <section name="CtaCold">
+          <controls>
+            <control key="NeaIncomeProtectionPlanPage_CtaCold_SignIn" xpath="//a[@id='product_cta_sign_in_cold_button']"/>
+            <control key="NeaIncomeProtectionPlanPage_CtaCold_SignInDetail"  xpath="//p[@id='product_cta_sign_in_cold_detail']" />
+            <control key="IncomeProtection_CtaCold_SignIn" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"/>
+            <control key="IncomeProtection_CtaCold_StickySignIn" xpath="//a[@class='btn btn-blue pull-right m-r-xs']"/>
+
+          </controls>
+        </section>
+        <section name="CtaWarm">
+          <controls>
+            <control key="NeaIncomeProtectionPlanPage_CtaWarm_EnrollNow" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="NeaIncomeProtectionPlanPage_CtaWarm_PrintAnApplication" xpath="/html/body/div[2]/section[1]/div/div[2]/div/div[1]/div/div/a[2]"/>
+            <control key="IncomeProtection_CtaWarm_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="IncomeProtection_CtaWarm_SecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+            <control key="IncomeProtection_CtaWarm_StickyPrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="IncomeProtection_CtaWarm_StickySecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+
+          </controls>
+        </section>
+        <section name="CtaHot">
+          <controls>
+            <control key="NeaIncomeProtectionPlanPage_CtaHot_EnrollNow" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="NeaIncomeProtectionPlanPage_CtaHot_PrintAnApplication" xpath="//a[@id='product_cta_secondary_action_button']"/>
+            <control key="IncomeProtection_CtaHot_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="IncomeProtection_CtaHot_SecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+            <control key="IncomeProtection_CtaHot_StickyPrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+            <control key="IncomeProtection_CtaHot_StickySecondaryCta" xpath="//a[@id='product_cta_secondary_action_button']"/>
+
+          </controls>
+        </section>
+        <section name="ComponentEligible">
+          <controls>
+            <control key="NeaIncomeProtectionPlanPage_ComponentEligible_ProductDescription"  xpath="//h3[@id='product_cta_detail']" />
+            <control key="NeaIncomeProtectionPlanPage_ComponentEligible_Partnership"  xpath="//p[@id='product_cta_partnership']" />
+          </controls>
+        </section>
+        <section name="NotEligible">
+          <controls>
+            <control key="NeaIncomeProtectionPlanPage_NotEligible_StickyBanner"  xpath="//div[@id='product_cta_sticky_top']" />
+            <control key="NeaIncomeProtectionPlanPage_NotEligible_StackedIcons"  xpath="//ul[@id='product_cta_stacked_icons']" />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

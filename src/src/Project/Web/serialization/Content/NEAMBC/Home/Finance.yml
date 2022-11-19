@@ -1,0 +1,795 @@
+﻿---
+ID: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "f3c06421-5004-40d1-abdb-008accf26aea"
+Path: /sitecore/content/NEAMBC/Home/Finance
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 450
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0266338E-6003-49C7-8489-AAF0FBB7A457}"
+              p:after="r[@uid='{86D32045-B248-4583-B4B5-C47641A12A4B}']"
+              s:ds="{1003DDDE-F363-48D4-9C65-988737A0C766}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:par=""
+              s:ph="left-column-card" />
+            <r
+              uid="{DE04388B-3AE7-488A-9218-A9FC2C56B43C}"
+              s:par="" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T211022Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finance
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finance
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finance 
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C80B1BB5-7E71-4917-A1C7-3AAE029F3BD3}"
+              p:before="*"
+              s:ds="{8BF10112-FB3E-4EF8-BB38-F923642C4178}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{1ACA598B-D4A4-4AAF-B82B-66A36A6A2538}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="3BE8B3258E414245A137890441FC46C7"
+                        s:id="{8FCC0B6B-B01E-4EFB-B059-6ECCB49F00EC}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{8800EC50-DD84-4E4E-BE58-6F98941618E7}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="9FAF83D6D5C941A68A4197B3BE4C4334"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="C813572909C241719A43181866BB8C96"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{DE04388B-3AE7-488A-9218-A9FC2C56B43C}"
+              s:par="" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190329T203154Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finance
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190329T203154Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finance
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finance 
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C80B1BB5-7E71-4917-A1C7-3AAE029F3BD3}"
+              p:before="*"
+              s:ds="{8BF10112-FB3E-4EF8-BB38-F923642C4178}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{1ACA598B-D4A4-4AAF-B82B-66A36A6A2538}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="3BE8B3258E414245A137890441FC46C7"
+                        s:id="{8FCC0B6B-B01E-4EFB-B059-6ECCB49F00EC}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{8800EC50-DD84-4E4E-BE58-6F98941618E7}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="9FAF83D6D5C941A68A4197B3BE4C4334"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="C813572909C241719A43181866BB8C96"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{915EE2CC-A29A-46D5-ADE3-07D51D14B292}"
+              p:after="r[@uid='{C80B1BB5-7E71-4917-A1C7-3AAE029F3BD3}']"
+              s:ds="{1D9425FB-0DFE-4C37-9727-46544FF775E1}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DE04388B-3AE7-488A-9218-A9FC2C56B43C}"
+              s:par="" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T153409Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finance
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201001T153409Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finance
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finance 
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C80B1BB5-7E71-4917-A1C7-3AAE029F3BD3}"
+              p:before="*"
+              s:ds="{8BF10112-FB3E-4EF8-BB38-F923642C4178}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{1ACA598B-D4A4-4AAF-B82B-66A36A6A2538}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="3BE8B3258E414245A137890441FC46C7"
+                        s:id="{8FCC0B6B-B01E-4EFB-B059-6ECCB49F00EC}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:value="{8800EC50-DD84-4E4E-BE58-6F98941618E7}" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="9FAF83D6D5C941A68A4197B3BE4C4334"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="C813572909C241719A43181866BB8C96"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{915EE2CC-A29A-46D5-ADE3-07D51D14B292}"
+              p:after="r[@uid='{C80B1BB5-7E71-4917-A1C7-3AAE029F3BD3}']"
+              s:ds="{1D9425FB-0DFE-4C37-9727-46544FF775E1}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{05D091EF-CF29-4045-B4AF-2C51205CA0DA}"
+              p:after="r[@uid='{915EE2CC-A29A-46D5-ADE3-07D51D14B292}']"
+              s:ds="{A3229040-F7FD-4005-9DD7-5EE1EEB87120}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DE04388B-3AE7-488A-9218-A9FC2C56B43C}"
+              s:par="" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T181127Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finance
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201001T181127Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finance
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finance 
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{915EE2CC-A29A-46D5-ADE3-07D51D14B292}"
+              p:before="*"
+              s:ds="{1D9425FB-0DFE-4C37-9727-46544FF775E1}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{05D091EF-CF29-4045-B4AF-2C51205CA0DA}"
+              p:after="r[@uid='{915EE2CC-A29A-46D5-ADE3-07D51D14B292}']"
+              s:ds="{A3229040-F7FD-4005-9DD7-5EE1EEB87120}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DE04388B-3AE7-488A-9218-A9FC2C56B43C}"
+              s:par="" />
+            <p
+              uid="{F92A2957-F81A-4F07-AAEF-9DCECB6DC7F8}"
+              p:after="*[1=2]" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210625T204844Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: A variety of products to give you the financial flexibility you need.
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finance
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210625T204844Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finance
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finance 
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E570CDEB-D2B6-4803-90A2-663030C94878}"
+              p:after="r[@uid='{86D32045-B248-4583-B4B5-C47641A12A4B}']"
+              s:ds="{1003DDDE-F363-48D4-9C65-988737A0C766}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171116T194259Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finanzas
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finanzas
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finanzas
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{01CD9CA7-53AA-47A1-AD99-33B082AFB2F4}"
+              p:before="*"
+              s:ds="{8BF10112-FB3E-4EF8-BB38-F923642C4178}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190401T192819Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finanzas
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190401T192819Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finanzas
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finanzas
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{FE6E35C4-A011-4BF5-9456-8373ACDEFCE6}"
+              p:before="*"
+              s:ds="{1D9425FB-0DFE-4C37-9727-46544FF775E1}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T174731Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finanzas
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201001T174731Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finanzas
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finanzas
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{FE6E35C4-A011-4BF5-9456-8373ACDEFCE6}"
+              p:before="*"
+              s:ds="{1D9425FB-0DFE-4C37-9727-46544FF775E1}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{27A18988-FCA0-4DAA-A38D-1439F53A977C}"
+              p:after="r[@uid='{FE6E35C4-A011-4BF5-9456-8373ACDEFCE6}']"
+              s:ds="{A3229040-F7FD-4005-9DD7-5EE1EEB87120}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201001T181008Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Una variedad de productos para ofrecerle la flexibilidad financiera que necesita.
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {CE785E47-4E91-4851-BF45-7777D3B86178}
+        {A2F23479-1EB3-41B4-BEF6-82FF75A1E4FD}
+        {8F1107D5-AE6C-4E94-9632-90DB3EE8762B}
+        {2BF39D2D-F6B2-4F05-A628-8596EF683A9D}
+        {B537BDD1-8529-490D-A7A6-89571E3358F5}
+        {8A8D07C1-7134-4790-9663-CE3DA81ABAF3}
+        {FD801240-0F1A-41A2-8F5C-A0E23FEFFEF0}
+        {4C2742A9-F07A-44E8-B038-54F848D6D37A}
+        {EDB471D4-15F1-48EE-8B76-6242AD70176B}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Finanzas
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201001T181008Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B2BD19A-ACEF-4AE5-9673-C29ABB691CC1}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Finanzas
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Finanzas

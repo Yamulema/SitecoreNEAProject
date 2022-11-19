@@ -1,0 +1,51 @@
+﻿---
+ID: "eff9f9f9-2a0f-4d94-abbf-13613c506931"
+Parent: "0f605483-0c3e-4382-86df-a7aef4b3483d"
+Template: "0f605483-0c3e-4382-86df-a7aef4b3483d"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Hero Banner Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210426T205152Z
+    - ID: "3c02e8cc-71d4-45bd-8b83-aa94438464a2"
+      Hint: Mobile Backgrond Image
+      Value: |
+        <image mediaid="{0E9D5E54-6715-4792-A321-78563E07524B}" />
+    - ID: "4470e4cd-35e8-4a35-8061-eabd6242bdc1"
+      Hint: Top Layer Image
+      Value: |
+        <image mediaid="{99E3E902-E9D7-4610-80BB-DE16FF59B554}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7e4afa07-1019-43e9-a764-521083aaf322"
+      Hint: Headline
+      Value: "<h4>What's the one thing educators deserve?</h4>"
+    - ID: "882937ed-57b1-48a6-a39a-6e5bc3a11e72"
+      Hint: Tab Text
+      Value: |
+        <div class="ribbon">
+        <a href="#">VIEW MEMBER INCENTIVES <i></i></a>
+        </div>
+    - ID: "a5a84ebf-3ddc-4d79-944d-ab7c47bd9bcb"
+      Hint: Desktop Brackground Image
+      Value: |
+        <image mediaid="{A48967F7-8CCE-4559-80C7-0EF251419C0E}" />
+    - ID: "a5f0edc6-64a4-4d9b-8fb6-64297b030ddc"
+      Hint: Body
+      Value: |
+        <p>We know you could use more perks, more discounts, more savings, so let's do this.</p>
+                      <button class="btn btn-new-design cta btn-aquamarine">Create Account to Access Benefits</button>
+    - ID: "aeff1615-518f-476c-b6a2-a25739ce3dc7"
+      Hint: Background Color
+      Value: Dark Blue
+    - ID: "f47f7454-f4dd-499c-b416-be84c94d03fa"
+      Hint: Sub headline
+      Value: |
+        <h1 class="text-cyan">MORE.</h1>

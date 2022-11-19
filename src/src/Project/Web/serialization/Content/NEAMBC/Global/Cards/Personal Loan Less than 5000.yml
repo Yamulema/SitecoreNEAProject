@@ -1,0 +1,107 @@
+﻿---
+ID: "f6874d53-e9d4-4828-95fe-c961e1a78cc3"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Personal Loan Less than 5000
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20200325T145200Z
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: 
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=FD8012400F1A41A28F5CA0E23FEFFEF0&amp;_z=z">SEIU℠ Personal Loan (Less than $5,000)</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <ul>
+            <li>
+            <p>Get funds deposited into your account as fast as the next<br />
+            day</p>
+            </li>
+            <li>
+            <p>Simple installment loans with affordable monthly payments that can help build your credit history</p>
+            </li>
+            <li>
+            <p>No application fees or pre-payment penalties&mdash;ever</p>
+            </li>
+            <li>
+            <p>Complimentary FICO score, an easy way to monitor your credit</p>
+            </li>
+        </ul>
+        <div><a href="~/link.aspx?_id=FD8012400F1A41A28F5CA0E23FEFFEF0&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: 
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=FD8012400F1A41A28F5CA0E23FEFFEF0&amp;_z=z" onclick="ga_event('small module','click','seiu personal loan less than $5,000 esp &gt; title');">Pr&eacute;stamo Personal SEIU℠ (Menos De $5,000)</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <ul>
+            <li>
+            <p>Los fondos se depositan en su cuenta tan pronto como al d&iacute;a siguiente</p>
+            </li>
+            <li>
+            <p>Pr&eacute;stamos a plazos simples con pagos mensuales asequibles que pueden ayudarle a mejorar su historial crediticio</p>
+            </li>
+            <li>
+            <p>Jam&aacute;s tendr&aacute; que pagar cargos de solicitud ni multas por pago anticipado.</p>
+            </li>
+            <li>
+            <p>Puntaje FICO de cortes&iacute;a, una manera f&aacute;cil de monitorear su cr&eacute;dito</p>
+            </li>
+        </ul>
+        <div><a href="~/link.aspx?_id=FD8012400F1A41A28F5CA0E23FEFFEF0&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu personal loan less than $5,000 esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>

@@ -1,0 +1,71 @@
+﻿---
+ID: "5b862fd4-c054-4f60-aa88-8ca4ababe8b9"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Repayment Tips
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171217T224047Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{ABA2F09B-9494-4D28-850C-FDE212D6E2B8}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>4 Tips for Student Loan Repayment</h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Whether you&rsquo;re a recent college graduate or the parent or the partner of a recent college graduate, you might be starting to feel a bit of pressure trying to figure out how to manage your student loan debt.</p>
+        <p><strong>Register or sign in to watch this video. Already signed in? Just click &ldquo;Watch Video&rdquo;&nbsp;</strong>and find out some things you can do together to get ready to repay those student loans.</p>
+        </div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Video
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{39266587-F58F-4A71-B2E6-CB6CA424A7A3}"></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171218T161435Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=75CAD613236748DCA8582F7271943D02&amp;_z=z" onclick="ga_event('small module','click','seiu auto buying program esp &gt; title');">Programa de Compra de Autom&oacute;vil SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Ahorre $3,026 en promedio en el MSRP1 de su siguiente auto con TrueCar</p>
+        <div><a href="~/link.aspx?_id=75CAD613236748DCA8582F7271943D02&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu auto buying program esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+        </div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: DESCUENTOS
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{11FB3146-A6FA-4290-8D01-53B5EAADD4D1}" alt="TrueCar" height="" width="" hspace="" vspace=""></image>

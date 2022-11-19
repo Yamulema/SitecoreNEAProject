@@ -1,0 +1,27 @@
+﻿---
+ID: "b943dc71-8c5f-469a-a7b2-e027535690e7"
+Parent: "e99c8db9-9a93-4d7f-a85c-e5a93691bb35"
+Template: "e99c8db9-9a93-4d7f-a85c-e5a93691bb35"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_BirthDate/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1aa39c4c-e420-4765-aae4-40aa43e9fced"
+      Hint: Label
+      Value: Birth Date
+    - ID: "22d2494a-6fee-453a-8508-fc8c350a7580"
+      Hint: Empty Field
+      Value: Please insert your date of birth
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T174429Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "a89eae5e-8360-4172-9a0c-0c7246c05873"
+      Hint: Age Requirement
+      Value: You must be at least 16 years old and no more than 90 years old to be an NEAMB member

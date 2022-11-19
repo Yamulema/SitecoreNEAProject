@@ -1,0 +1,21 @@
+﻿---
+ID: "76ee9334-4ca0-4359-971a-9ab1a71a4c0b"
+Parent: "b1e8982c-1990-4ee3-b06c-aae780dbabb8"
+Template: "b1e8982c-1990-4ee3-b06c-aae780dbabb8"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Retirement Income Calculator/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180726T203558Z

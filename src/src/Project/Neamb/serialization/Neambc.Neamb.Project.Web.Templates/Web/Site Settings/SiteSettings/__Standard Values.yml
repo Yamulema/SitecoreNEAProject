@@ -1,0 +1,343 @@
+﻿---
+ID: "3c7662cd-750c-490c-ab96-a380e07d7405"
+Parent: "4a236ec7-6029-4230-a16d-688a1ca89832"
+Template: "4a236ec7-6029-4230-a16d-688a1ca89832"
+Path: /sitecore/templates/NEAMB/Project/Web/Site Settings/SiteSettings/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "051e5acf-950a-4733-b339-54ac5701b998"
+      Hint: Code Snippet
+      Value: |
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5afc6d4ab9e289b2"></script>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180410T194408Z
+    - ID: "403daa95-9b98-49b7-94b5-3cbb3ad87251"
+      Hint: Navigation
+      Value: "{2D751EE4-6F00-4938-86E8-BB56F4DECBB8}"
+    - ID: "56d767ad-7c8e-4837-b5e1-9db1fa136b6e"
+      Hint: Sign In
+      Value: |
+        <link text="Sign In" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="" />
+    - ID: "5c0454a1-397e-4368-b0d9-56ef1a27baf9"
+      Hint: Create Account
+      Value: |
+        <link text="Create Account" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="" />
+    - ID: "64d1543d-7017-4487-a7c5-1b03d77b4a94"
+      Hint: Content
+      Value: |
+        <section>
+        <div class="container">
+        <div class="footer-menu row hidden-xs hidden-sm">
+        <div class="col">
+        <p class="header">How We Help</p>
+        <a>Your Travel</a>
+        <a>Your Money</a>
+        <a>Your Retirement</a>
+        <a>Your Work Life</a>
+        <a>Your Family</a>
+        <a>Your Home</a>
+        <a>Your Car</a>
+        <a>Your Membership</a>
+        <div class="divider">&nbsp;</div>
+        <p class="header">About Us</p>
+        <a>Why We're Here</a>
+        <a>Disaster Relief</a>
+        <a>Careers</a>
+        <a>Contact Us</a>
+        </div>
+        <!--col-->
+        <div class="col">
+        <p class="header">Banking &amp; Lending</p>
+        <a>Credit Cards</a>
+        <a>Prepaid Card</a>
+        <a>Home Loans</a>
+        <a>Personal Loans</a>
+        <a>Student Loans</a>
+        <a>Saving Accounts</a>
+        <a>Online Banking Services</a>
+        <div class="divider">&nbsp;</div>
+        <p class="header">Investing &amp; Retirement</p>
+        <a>Managed Investments</a>
+        <a>Self-Directed Investing</a>
+        <a>Retirement Accounts</a>
+        </div>
+        <!--col-->
+        <div class="col">
+        <p class="header">Insurance</p>
+        <a>Life</a>
+        <a>Accident</a>
+        <a>Dental &amp; Vision</a>
+        <a>Medicare Supplement</a>
+        <a>Hospital, Disability &amp; Long Term Care</a>
+        <a>Home &amp; Auto Coverage</a>
+        <a>Specialty Vehicle</a>
+        <a>Pet Health</a>
+        </div>
+        <!--col-->
+        <div class="col">
+        <p class="header">Everyday Savings</p>
+        <a>Online Shopping</a>
+        <a>Costco Membership</a>
+        <a>AT&amp;T Cell Phone</a>
+        <a>Magazine Subscriptions</a>
+        <a>Hearing Aid Program</a>
+        <a>LifeLock Identity Protection</a>
+        </div>
+        <!--col-->
+        <div class="col">
+        <p class="header">Home &amp; Auto</p>
+        <a>GE Appliances</a>
+        <a>Heating Oil Program</a>
+        <a>DIRECTV</a>
+        <a>Auto Buying &amp; Extended</a>
+        <a>Warranty</a>
+        </div>
+        <!--col-->
+        </div>
+        <!--footer-menu-->
+        <!--MOBILE APPROACH-->
+        <div class="panel-group hidden-md hidden-lg" id="accordion-footer" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        How we help <em class="fa fa-plus pull-right"></em><em class="fa fa-minus pull-right"></em>
+        </a>
+        </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+        <a>Your Travel</a>
+        <a>Your Money</a>
+        <a>Your Retirement</a>
+        <a>Your Work Life</a>
+        <a>Your Family</a>
+        <a>Your Home</a>
+        <a>Your Car</a>
+        <a>Your Membership</a>
+        </div>
+        </div>
+        </div>
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        About Us <em class="fa fa-plus pull-right"></em><em class="fa fa-minus pull-right"></em>
+        </a>
+        </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+        <a>Why We're Here</a>
+        <a>Disaster Relief</a>
+        <a>Careers</a>
+        <a>Contact Us</a>
+        </div>
+        </div>
+        </div>
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Banking &amp; Lending <em class="fa fa-plus pull-right"></em><em class="fa fa-minus pull-right"></em>
+        </a>
+        </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+        <a>Credit Cards</a>
+        <a>Prepaid Card</a>
+        <a>Home Loans</a>
+        <a>Personal Loans</a>
+        <a>Student Loans</a>
+        <a>Saving Accounts</a>
+        <a>Online Banking Services</a>
+        </div>
+        </div>
+        </div>
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+        <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Investment &amp; Retirement <em class="fa fa-plus pull-right"></em><em class="fa fa-minus pull-right"></em>
+        </a>
+        </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div class="panel-body">
+        <a>Managed Investments</a>
+        <a>Self-Directed Investing</a>
+        <a>Retirement Accounts</a>
+        </div>
+        </div>
+        </div>
+        <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+        <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Insurance <em class="fa fa-plus pull-right"></em><em class="fa fa-minus pull-right"></em>
+        </a>
+        </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+        <div class="panel-body">
+        <a>Life</a>
+        <a>Accident</a>
+        <a>Dental &amp; Vision</a>
+        <a>Medicare Eligible</a>
+        <a>Hospital, disability &amp; Long</a>
+        <a>Term Care</a>
+        <a>Home &amp; Auto Coverage</a>
+        <a>Specialty Vehicle</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!--MOBILE APPROACH-->
+        <!-- bootom -->
+        <div class="row">
+        <div class="col-md-9">
+        <a class="footer-logo" href="/">
+        <img alt="" class="img-responsive" src="/assets/neamb/images/neamb-logo-footer-149x30.png" />
+        </a>
+        <ul class="sub-menu">
+            <li>
+            <a>Account Access</a>
+            </li>
+            <li>
+            <a>Advertising</a>
+            </li>
+            <li>
+            <a>Privacy</a>
+            </li>
+            <li>
+            <a>FAQs</a>
+            </li>
+            <li>
+            <a>Espa&ntilde;ol</a>
+            </li>
+            <li>
+            <a>nea.org</a>
+            </li>
+            <li>
+            <a>State Affiliates</a>
+            </li>
+        </ul>
+        <p class="copy hidden-xs hidden-sm">
+        &copy; 2018 NEA&rsquo;s Member Benefits Corp. NEA, NEA Member Benefits and the NEA Member Benefits logo are registered service
+        marks of NEA&rsquo;s Member Benefits Corporation.
+        </p>
+        </div>
+        <!--col-md-8-->
+        <div class="col-md-3">
+        <div class="share">
+        <a>
+        <em class="fa fa-facebook fa"></em>
+        </a>
+        <a>
+        <em class="fa fa-twitter fa"></em>
+        </a>
+        <a>
+        <em class="fa fa-pinterest fa"></em>
+        </a>
+        <a>
+        <em class="fa fa-linkedin fa"></em>
+        </a>
+        </div>
+        <div class="address">
+        <p>
+        <a href="mailto:ask-us@neamb.com">ask-us@neamb.com</a>
+        </p>
+        <p class="m-b-sm">
+        800-637-4636
+        <span class="text-small">M-F: 8am - 8pm, S: 9am - 1pm (ET)</span>
+        </p>
+        <p>NEA Member Benefits </p>
+        <p>900 Clopper Road, Ste. 300 </p>
+        <p>Gaithersburg, MD 20878-1356</p>
+        </div>
+        <p class="copy hidden-md hidden-lg">
+        &copy; 2018 NEA&rsquo;s Member Benefits Corp. NEA, NEA Member Benefits and the NEA Member Benefits logo are registered service
+        marks of NEA&rsquo;s Member Benefits Corporation.
+        </p>
+        </div>
+        </div>
+        <!--row-->
+        </div>
+        </section>
+    - ID: "81d552ea-dafc-4561-8344-ba44ec1489bd"
+      Hint: Snippet 1
+      Value: |
+        <!-- ALL OTHER PLACES -->
+        <!-- BoldChat Live Chat Button HTML v5.00 (Type=HTML,ChatWindow=Member Benefits Support,Department=- None -,Website=NEAMB) -->
+        <div style="text-align: center; white-space: nowrap;"><script type="text/javascript">
+        var bccbId = Math.random(); document.write(unescape('%3Cdiv id=' + bccbId + '%3E%3C/div%3E'));
+        window._bcvma = window._bcvma || [];
+        _bcvma.push(["setAccountID", "421659361877807029"]);
+        _bcvma.push(["setParameter", "WebsiteID", "418615892234412209"]);
+        _bcvma.push(["addText", {type: "chat", window: "418615892422083380", available: "<img src='-/media/5f5b1a91c4614fcd896001ed28094809.ashx'/>", unavailable: "<img src='-/media/dfee3a90bc3947a0963f3780fecabaeb.ashx'/>", id: bccbId}]);
+        var bcLoad = function(){
+        if(window.bcLoaded) return; window.bcLoaded = true;
+        var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+        vms.src = ('https:'==document.location.protocol?'https://':'http://') + "vmss.boldchat.com/aid/421659361877807029/bc.vms4/vms.js";
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+        };
+        if(window.pageViewer && pageViewer.load) pageViewer.load();
+        else if(document.readyState=="complete") bcLoad();
+        else if(window.addEventListener) window.addEventListener('load', bcLoad, false);
+        else window.attachEvent('onload', bcLoad);
+        </script></div>
+        <!-- /BoldChat Live Chat Button HTML v5.00 -->
+    - ID: "826ecfa8-7526-42a1-ba6b-cddd30c0a7a3"
+      Hint: Results
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{EDA29787-F819-4759-A1D6-3C20074DFF99}" />
+    - ID: "abbbec1f-4935-4a2a-8586-d0417f65f797"
+      Hint: Inline Buttons
+      Value: |
+        <div class="addthis_inline_share_toolbox"></div>
+    - ID: "af18d301-47d2-4a63-93c9-edbc24b468dc"
+      Hint: Content
+      Value: |
+        <div id="spanishModal" tabindex="-1" role="dialog" aria-labelledby="spanishModalLabel" class="modal fade modalForms no-footer">
+        <div role="document" class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+        <h2 class="header">&iexcl;Bienvenido!</h2>
+        <p>Nuestro sitio web no esta actualmente optimizado para hispanohablantes, pero a&uacute;n tenemos mucho para ofrecerle.<br />
+        Visite nuestra p&aacute;gina para hispanohablantes para obtener m&aacute;s informaci&oacute;n sobre c&oacute;mo acceder a nuestros productos y servicios. <a href="~/link.aspx?_id=A6417D222D6348B8B05ACBA581435A77&amp;_z=z" title="title">cont&aacute;ctenos </a></p>
+        <div class="div text-center">
+        <div><a href="/Spanish Page" class="btn btn-lg btn-blue">Ll&eacute;vame a la p&aacute;gina en Espa&ntilde;ol</a></div>
+        <div class="p-t-sm"><a data-dismiss="modal" href="#">No, gracias. Ll&eacute;vame al sitio en Ingl&eacute;s</a></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "b4f7a597-feda-4810-a874-b2471b792317"
+      Hint: Links
+      Type: Treelist
+      Value: |
+        {6512B2CA-ADFA-4B70-A4F4-541224FD47CC}
+        {2ECD1913-1DA4-4156-B4E9-529501AA03EE}
+        {861BCE65-8DAB-4B4B-B983-12A0CF873FED}
+        {F2F45499-7C4D-4D89-8925-4C153400DA05}
+        {604334A6-4842-49AD-8A3C-47E618543EEC}
+    - ID: "e0a29ab9-1ab2-425a-b3c0-5eb830b25514"
+      Hint: Email
+      Value: memberservices@neamb.com
+    - ID: "f949bc80-eed6-475f-82cb-ec62f180c3b0"
+      Hint: Phone
+      Value: "1-800-637-4636"

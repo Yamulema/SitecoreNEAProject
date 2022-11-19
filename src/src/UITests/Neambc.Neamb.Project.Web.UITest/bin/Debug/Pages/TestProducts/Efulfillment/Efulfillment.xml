@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="Efulfillment" urlpath="/uitest/products/prodefulfillment">
+      <sections>
+        <section name="Component">
+          <controls>
+            <control key="Efulfillment_Component_Title" xpath="//h1[@class='title p-t-xs']"/>
+            <control key="Efulfillment_Component_Description" xpath="//h3[@class='subtitle text-light m-t-md m-b-md']"/>
+            <control key="Efulfillment_Component_Image" xpath="//img[@class='img-fit']"/>
+            <control key="Efulfillment_Component_Share" xpath="//div[@class='attribution col-md-10 pull-right hidden-xs hidden-sm']"/>
+          </controls>
+        </section>
+        <section name="CtaCold">
+          <controls>
+            <control key="Efulfillment_CtaCold_SignIn" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"/>
+          </controls>
+        </section>
+        <section name="CtaWarm">
+          <controls>
+            <control key="Efulfillent_CtaHot_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+          </controls>
+        </section>
+        <section name="CtaHot">
+          <controls>
+            <control key="Efulfillment_CtaHot_PrimaryCta" xpath="//a[@id='product_cta_primary_action_button']"/>
+                       
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

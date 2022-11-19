@@ -1,0 +1,25 @@
+﻿---
+ID: "ebf13ec3-7cba-4f37-9216-e09beaa7323a"
+Parent: "28f9d496-1563-4c68-9dc9-587cb347707e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Types/_Product/Product Detail/Hide Terms and Conditions on Product Card
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Hides Terms And Conditions Link/Anchor on Product Cards
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180828T161351Z

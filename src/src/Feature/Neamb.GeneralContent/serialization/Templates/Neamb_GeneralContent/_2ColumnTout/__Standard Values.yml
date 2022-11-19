@@ -1,0 +1,33 @@
+﻿---
+ID: "426b75e7-63b8-4233-a1a6-1683306beb10"
+Parent: "67526e0a-50e9-4b06-a17e-3ff4837f6a04"
+Template: "67526e0a-50e9-4b06-a17e-3ff4837f6a04"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_2ColumnTout/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201020T002448Z
+    - ID: "3028e1f8-8f51-4cfe-98c7-51262079823c"
+      Hint: Background Color
+      Value: cccccc
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6b42b684-a0e3-4c15-ac1e-b3b7f18688a8"
+      Hint: Right Image Position
+      Type: Checkbox
+      Value: 1
+    - ID: "f906a079-e335-4026-a1ca-c744cdd558ff"
+      Hint: Image
+      Value: |
+        <image mediaid="{6C92E2E2-504C-4A54-B042-4318EEAFD57E}" />

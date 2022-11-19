@@ -1,0 +1,27 @@
+﻿---
+ID: "f907ca6b-9018-429f-be2e-974af2a78030"
+Parent: "a5d40fa1-4de2-4dda-bfea-0d9c37cc9e01"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Neamb User authentication State/Condition
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Neambc.Neamb.Feature.GeneralContent.Personalization.UserStateRule,Neambc.Neamb.Feature.GeneralContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180702T173421Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: |
+        When the user authentication state [OperatorID, StringOperator,,compares to] 
+        [value,Tree,root=/sitecore/content/NEAMB/Global/Categories/Personalization Rules/Authentication State,select option]

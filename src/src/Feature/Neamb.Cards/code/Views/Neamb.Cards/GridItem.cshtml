@@ -1,0 +1,30 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Cards.Models.GridItemDTO
+
+@{
+    bool isExperience = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+<div style="background-image:url('@Model.Item.ImageUrl(Templates.GridItem.Fields.Image)')" loading="lazy" class="card @Model.BackgroundColorClass">
+    <div class="text">
+        <h3>@Html.Sitecore().Field(Templates.GridItem.Fields.Header, Model.Item)</h3>
+        @if (!isExperience)
+        {
+            if (Model.HasSubheadline)
+            {
+                <p>@Html.Sitecore().Field(Templates.GridItem.Fields.Subhead, Model.Item)</p>
+            }
+        }
+        else
+        {
+            <p>@Html.Sitecore().Field(Templates.GridItem.Fields.Subhead, Model.Item)</p>
+        }
+    </div>
+	<div class="cta">
+		<a class="btn btn-block" href="@Model.UrlCta" onclick="@Model.GtmAction" target="@Model.TargetCta" >@Model.UrlText</a>
+	</div>
+</div>

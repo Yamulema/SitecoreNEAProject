@@ -1,0 +1,80 @@
+﻿---
+ID: "3d1593e7-b052-4b8a-93da-4773e3e2d795"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Personal Loan 1_2_2020
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{4AD9006E-641E-4536-BE64-684AE73303E8}" alt="Madre e hija pasando tiempo juntas" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=0F2CC436FB7A4A72A1FA4B3A9D2691EE&amp;_z=z">Is A Personal Loan Right For You?</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Do you need a personal loan?<br>
+        Learn about the SEIU Personal Loan Program and choose which one is right for you.
+        </p>
+        <div><a href="~/link.aspx?_id=0F2CC436FB7A4A72A1FA4B3A9D2691EE&amp;_z=z" class="button panelBtn">FIND OUT NOW</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANZAS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{4AD9006E-641E-4536-BE64-684AE73303E8}" ></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=0F2CC436FB7A4A72A1FA4B3A9D2691EE&amp;_z=z" onclick="ga_event('small module','click','seiu personal loan esp > title');">¿Es un préstamo personal adecuado para usted?</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>¿Necesitas un préstamo personal?<br>
+        Conozca el Programa de préstamos personales de SEIUSM y elija cuál es el adecuado para usted.</p>
+        <div><a href="~/link.aspx?_id=0F2CC436FB7A4A72A1FA4B3A9D2691EE&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu personal loan esp > button');">ENCUÉNTRALO AHORA</a></div>
+        </div>

@@ -1,0 +1,23 @@
+﻿---
+ID: "f0ef5278-684c-446f-a985-c7243db472f5"
+Parent: "51f050de-ced6-472f-b813-4f3043f970a0"
+Template: "51f050de-ced6-472f-b813-4f3043f970a0"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Exclusive Offers/__Standard Values
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201215T202606Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

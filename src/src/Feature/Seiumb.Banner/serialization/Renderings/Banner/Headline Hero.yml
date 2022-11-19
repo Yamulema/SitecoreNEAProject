@@ -1,0 +1,25 @@
+﻿---
+ID: "cbbfd196-b15a-4bdd-9eab-22bd983a9577"
+Parent: "c23e65a4-0f19-4e8a-b137-b3df54af558c"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/SEIUMB/Feature/Banner/Headline Hero
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: HeadlineHero
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Seiumb.Feature.Banner.Controllers.HeadlineHeroController,Neambc.Seiumb.Feature.Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201201T232926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

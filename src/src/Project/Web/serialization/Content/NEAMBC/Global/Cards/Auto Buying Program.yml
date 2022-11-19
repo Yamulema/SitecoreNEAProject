@@ -1,0 +1,76 @@
+﻿---
+ID: "ed88f30f-a0de-4360-8b4c-26a06a6b53e6"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Auto Buying Program
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 450
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Discounts
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{B0B35EE4-508E-4FFF-A24A-C08BECE734B3}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=75CAD613236748DCA8582F7271943D02&amp;_z=z" onclick="ga_event('small module','click','seiu auto buying program &gt; title');">SEIU Auto Buying Program</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Don't Miss the Biggest Car Savings of the Season!<br />
+        Plus, save an average of $3,026 off MSRP on your next car with TrueCar.</p>
+        <div><a href="~/link.aspx?_id=75CAD613236748DCA8582F7271943D02&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu auto buying program &gt; button');">SHOP NOW</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Descuentos
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{B0B35EE4-508E-4FFF-A24A-C08BECE734B3}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=75CAD613236748DCA8582F7271943D02&amp;_z=z" onclick="ga_event('small module','click','seiu auto buying program esp &gt; title');">Programa de Compra de Autom&oacute;vil SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>&iexcl;No se pierda el mayor ahorro en autom&oacute;viles de la temporada!<br />
+        M&aacute;s, ahorre $3,402 en promedio en el MSRP de su siguiente auto con TrueCar.</p>
+        <div><a href="~/link.aspx?_id=75CAD613236748DCA8582F7271943D02&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu auto buying program esp &gt; button');">COMENZAR A COMPRAR</a></div>
+        </div>

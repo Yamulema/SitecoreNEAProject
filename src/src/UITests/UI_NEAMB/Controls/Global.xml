@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="Global" urlpath="Login">
+      <sections>
+        <section name="ProfileSection">
+          <controls>
+            <control key="sign_in_option"  xpath="//p[@class='navbar-text']"/>
+            <control key="create_sign_in_option"  xpath="//p[@class='navbar-text text-alpha text-message']//a[contains(text(),'Create Account')]"/>
+            <control key="sign_out_option"  xpath="//div[@class='bottom']//a[contains(text(),'Sign Out')]"/>
+            <control key="C"  xpath="//div[@class='bottom']//a[contains(text(),'Sign Out')]"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

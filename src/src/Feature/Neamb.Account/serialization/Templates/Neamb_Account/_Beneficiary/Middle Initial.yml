@@ -1,0 +1,22 @@
+﻿---
+ID: "f3773c88-b349-42a1-9c5d-4ceb063a7519"
+Parent: "2f5c116a-4080-4304-b6b4-3eeac019bec3"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Beneficiary/Middle Initial
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180622T204959Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

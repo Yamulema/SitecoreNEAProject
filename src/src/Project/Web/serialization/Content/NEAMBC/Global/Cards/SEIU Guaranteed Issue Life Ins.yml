@@ -1,0 +1,75 @@
+﻿---
+ID: "35aba04a-376e-41c1-8987-937f828730ec"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Guaranteed Issue Life Insurance Plan
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{F7F27681-9304-424D-B45B-5EFAB543D934}" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" onclick="ga_event('small module','click','guaranteed issue life insurance plan &gt; title');"></a><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z">SEIU<sup>SM</sup> GUARANTEED ISSUE LIFE INSURANCE PLAN</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Working actively and with less than 50 years? Get $ 10,000 in life insurance coverage, guaranteed.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','guaranteed issue life insurance plan  &gt; button');">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGURO
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{F7F27681-9304-424D-B45B-5EFAB543D934}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" onclick="ga_event('small module','click','seiu guaranteed issue life insurance plan esp &gt; title');">PLAN DE SEGURO DE VIDA DE EMISI&Oacute;N GARANTIZADA SEIU<sup>SM</sup></a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>&iquest;Trabajando activamente y con menos de 50 a&ntilde;os? Obtenga $10,000 en cobertura de seguro de vida, garantizado</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" onclick="ga_event('small module','click','seiu guaranteed issue life insurance plan esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>

@@ -1,0 +1,49 @@
+﻿---
+ID: "ba8efdd4-7852-4b50-a0a8-1b68ccca4911"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/seiu GIL comparison card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210115T205532Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Guaranteed Issue Life Insurance Plan</h3>
+        </div>
+        <p>Guaranteed coverage for members under 65.</p>
+        <p>Ifyou were to pass away, your family members could be responsible for significant expenses including funeral costs, plus unexpected medical and legal bills.</p>
+        <ul>
+            <li>100% GUARANTEED acceptance</li>
+            <li>$10,000 coverage amount</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=31F95D10E9C24EA783B74A02A15B0C70&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{CB56B774-EEBF-438D-A1D1-583243BEF18F}" />

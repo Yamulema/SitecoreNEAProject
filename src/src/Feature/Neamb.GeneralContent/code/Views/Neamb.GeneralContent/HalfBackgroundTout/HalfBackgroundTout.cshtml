@@ -1,0 +1,38 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.HalfBackgroundTout
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+<section class="c-077 new-design">
+    <div class="gtm-promo-tout">
+        <div class="bg-container" style="background-color: rgb(@Model.RGBLight)">
+            <div class="bg-left hidden-xs" style="background-color: rgb(@Model.RGBDark)"></div>
+            <div class="bg-right hidden-xs" style="background-color: rgb(@Model.RGBLight)"></div>
+            <div class="container">
+                <div class="img-bg" style="background-color: rgb(@Model.RGBLight); background-image: url('@Model.Item.ImageUrl(Templates.HalfBackgroundTout.Fields.LeftBackgroundImage)')" loading="lazy">
+                    <div class="img-bg-mobile visible-xs">
+                        @Html.Sitecore().Field(Templates.HalfBackgroundTout.Fields.MobileBackgroundImage, Model.Item)
+                    </div>
+                    <div class="row wrapper">
+                        <div class="col-md-3 text-center">
+                            <a href="@Model.Link" @Html.Raw(Model.LinkHtmlProperties)>
+                                @Html.Sitecore().Field(Templates.HalfBackgroundTout.Fields.FloatingImage, Model.Item, new { loading = "lazy" })
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            @if (isExperienceEditor) {
+                                @Html.Sitecore().Field(Templates.HalfBackgroundTout.Fields.Body, Model.Item)
+                            } else {
+                                @Html.Raw(Model.Body)
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

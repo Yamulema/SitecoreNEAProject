@@ -1,0 +1,169 @@
+﻿---
+ID: "f15d0830-2788-49f5-886d-7873c298e887"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Recreational Vehicle Insurance
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7C66F0D1-7FD1-4672-955F-236F8349506C}"
+              p:before="*"
+              s:ds="{9FDBC559-A037-49B9-8307-C8FC51E51DE6}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Motor homes, also referred to as “recreational vehicles” (RVs), are treated much differently than mobile homes for insurance purposes.  While the protection for motor homes is similar to automobile insurance, there are nevertheless many differences.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Recreational Vehicle Insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="Recreational Vehicle Insurance" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{9578AC8E-E58F-45FB-ADB4-F5D0FF1DFB5D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Recreational Vehicle Insurance
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Motor homes, also referred to as &ldquo;recreational vehicles&rdquo; (RVs), are treated much differently than mobile homes for insurance purposes.  While the protection for motor homes is similar to automobile insurance, there are nevertheless many differences.</p>
+        <p>According to the Recreational Vehicle Industry Association, RVs are specialized vehicles with unique insurance needs.  Coverage on furnishings, fixtures, appliances and personal items are among the many differences between regular automobile and RV insurance.  The high cost of RVs and the potential for extensive physical damage in an accident mean the ordinary coverage minimums that apply to passenger cars are too low.  Additionally, since many RVs are driven by people who aren't accustomed to the extra size and length, insurers believe there is a greater risk for accidents.</p>
+        <p>Some carriers will issue a certificate of insurance that applies to an RV.  In other cases, if you have rental car coverage as part of your automobile insurance package, it will apply, but only if your physical damage limits are increased.  Always discuss your personal insurance needs with your own insurance agent/representative.</p>
+        <p>If you are renting an RV, you will need to make sure you have adequate insurance.  Many companies that rent RVs offer insurance, but it might not be the best deal.  Here are some of the things to watch for when renting an RV: </p>
+        <ul>
+            <li>
+            <p><strong>Is the insurance included in the rental price?</strong><br />
+            If not, does the stand-alone price make sense?  A $12-a-day insurance policy might not seem like much, but over a year's time that would work out to more than $4,300 for the policy. </p>
+            </li>
+            <li>
+            <p><strong>What is the deductible amount?</strong><br />
+            Most RV policies start with a $500 deductible and go as high as $2,000.</p>
+            </li>
+            <li>
+            <p><strong>Is the liability coverage adequate?</strong><br />
+            You should have at least $100,000 of liability protection, as well as $100,000 of property damage protection.</p>
+            </li>
+            <li>
+            <p><strong>Are you covered for towing?</strong><br />
+            Your policy should provide for high towing limits.</p>
+            </li>
+            <li>
+            <p><strong>Are you covered for medical expenses if someone is injured?</strong><br />
+            Check the medical payment and personal injury provisions of the policy to make sure that you or your passengers are covered for medical expenses.</p>
+            </li>
+            <li>
+            <p><strong>Does the policy provide replacement cost for personal property damaged or stolen from inside the motor home?</strong><br />
+            Check to see if your homeowners insurance might cover these items.</p>
+            </li>
+        </ul>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Recreational Vehicle Insurance
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{451196F1-8C79-4F30-957A-B3FE0D09C132}"
+              p:before="*"
+              s:ds="{9FDBC559-A037-49B9-8307-C8FC51E51DE6}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A los fines de los seguros, las casas rodantes, también conocidas como “vehículos recreativos” (VR), se tratan de forma muy distinta a las casas móviles.  Si bien la protección para las casas rodantes es similar al seguro de automóviles, existen muchas diferencias. 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Seguro para vehículos recreativos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{9578AC8E-E58F-45FB-ADB4-F5D0FF1DFB5D}" alt="Seguro para vehículos recreativos" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Seguro para vehículos recreativos
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>A los fines de los seguros, las casas rodantes, tambi&eacute;n conocidas como &ldquo;veh&iacute;culos recreativos&rdquo; (VR), se tratan de forma muy distinta a las casas m&oacute;viles.  Si bien la protecci&oacute;n para las casas rodantes es similar al seguro de autom&oacute;viles, existen muchas diferencias. </p>
+        <p>De acuerdo con la Asociaci&oacute;n de la Industria de Veh&iacute;culos Recreativos, los VR son veh&iacute;culos especializados con necesidades de seguro &uacute;nicas. La cobertura para muebles, accesorios, artefactos dom&eacute;sticos y art&iacute;culos personales es una de las muchas diferencias entre el seguro de VR y de autom&oacute;viles regular. El alto costo de los VR y el potencial da&ntilde;o f&iacute;sico extensivo que puede haber en un accidente significan que los montos m&iacute;nimos de cobertura com&uacute;n que se aplican a los autom&oacute;viles de pasajeros son demasiado bajos. Adem&aacute;s, dado que muchos VR son conducidos por personas que no est&aacute;n acostumbradas a la longitud y el tama&ntilde;o adicionales, las aseguradoras creen que hay un mayor riesgo de accidente.</p>
+        <p>Algunas aseguradoras emitir&aacute;n un certificado de seguro que se aplica a un VR. En otros casos, si tiene cobertura de autom&oacute;viles de alquiler como parte de su paquete de seguro de autom&oacute;viles, esta se aplicar&aacute;, pero solo si aumentan sus l&iacute;mites de da&ntilde;o f&iacute;sico.  Analice siempre sus necesidades de seguro personales con su representante/agente de seguro.</p>
+        <p>Si alquila un VR, deber&aacute; asegurarse de que este cuenta con el seguro adecuado.  Muchas empresas que alquilan VR ofrecen seguro, pero quiz&aacute;s esta no sea la mejor oferta.  Estos son algunos aspectos que debe tener en cuenta cuando alquile un VR:</p>
+        <ul>
+            <li>
+            <p><strong>&iquest;Est&aacute; el seguro incluido en el precio de alquiler?</strong><br />
+            Si no es as&iacute;, &iquest;tiene sentido el precio independiente? Una p&oacute;liza de seguro de $12 por d&iacute;a quiz&aacute;s no parezca mucho, pero durante un a&ntilde;o esto significar&iacute;a una p&oacute;liza de m&aacute;s de $4,300.</p>
+            </li>
+            <li>
+            <p><strong>&iquest;Cu&aacute;l es el monto del deducible?</strong><br />
+            La mayor&iacute;a de las p&oacute;lizas de VR comienza con un deducible de $500 y ascienden hasta $2,000.</p>
+            </li>
+            <li>
+            <p><strong>&iquest;Es adecuada la cobertura de responsabilidad civil?</strong><br />
+            Debe tener al menos $100,000 de protecci&oacute;n de responsabilidad civil y $100,000 de protecci&oacute;n contra da&ntilde;os a la propiedad.</p>
+            </li>
+            <li>
+            <p><strong>&iquest;Tiene cobertura de remolque?</strong><br />
+            Su p&oacute;liza debe proporcionar l&iacute;mites de remolque altos.</p>
+            </li>
+            <li>
+            <p><strong>&iquest;Tiene cobertura de gastos m&eacute;dicos si alguien sufre una lesi&oacute;n?</strong><br />
+            Revise las disposiciones de lesiones personales y pago de gastos m&eacute;dicos de la p&oacute;liza para asegurarse de que usted o sus pasajeros tengan cobertura de gastos m&eacute;dicos.</p>
+            </li>
+            <li>
+            <p><strong>&iquest;Proporciona la p&oacute;liza el costo de reemplazo de la propiedad personal da&ntilde;ada o robada del interior de la casa rodante?</strong><br />
+            Consulte si su seguro de propietario de vivienda podr&iacute;a cubrir estos elementos.</p>
+            </li>
+        </ul>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Seguro para vehículos recreativos

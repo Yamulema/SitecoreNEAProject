@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+@using Neambc.Neamb.Feature.GeneralContent
+@using Neambc.Neamb.Foundation.Analytics.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.PageBodyDTO
+
+<div class="@Model.BodyBackgroundColorClass">
+    @Html.Sitecore().Field(Templates.BasePageTemplates.Article.Fields.PageBodyBody, Model.Item).Process(Model.StringProcessor)
+</div>

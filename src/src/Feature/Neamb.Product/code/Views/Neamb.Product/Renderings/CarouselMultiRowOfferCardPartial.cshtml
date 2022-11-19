@@ -1,0 +1,113 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.CarouselMultiRowOfferDTO
+@{
+    bool isPreviewMode = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    string classImageMain = Model.HasImage ? "with-image" : "";
+}
+
+
+            @{
+                int counter = 0;
+                foreach (var carouselItemModel in Model.ItemsCarousel)
+                {
+                    counter++;
+                    bool isNotEligible = !isPreviewMode && carouselItemModel.HasCheckEligibility &&
+                        !carouselItemModel.ResultCheckEligibility && carouselItemModel.UserStatus != StatusEnum.Cold &&
+                        carouselItemModel.UserStatus != StatusEnum.Unknown;
+                    string classImage = carouselItemModel.HasImage ? "with-image" : "";
+                    string idbuttonCold = "product_carousel_sign_in_cold_button" + counter;
+                    string idbuttonNoCold = "product_carousel_primary_action_button" + counter;
+                    var id = "";
+                    var onClickEvent = "";
+                    var onClickEventWithPosition = "";
+                    var hrefValue = "";
+                    var targetValue = "";
+                    var linkText = "";
+
+                    if (!carouselItemModel.HasBrokenLink)
+                    {
+                        if (!isPreviewMode && (carouselItemModel.HasCheckEligibility && (carouselItemModel.UserStatus == StatusEnum.Cold || carouselItemModel.UserStatus == StatusEnum.Unknown)))
+                        {
+                            id = idbuttonCold;
+                            onClickEvent = carouselItemModel.AnonymousFunctionAction;
+                            linkText = carouselItemModel.AnonymousText;
+                        }
+                        else if (!string.IsNullOrEmpty(carouselItemModel.ActionPrimary) || !string.IsNullOrEmpty(carouselItemModel.ActionClickPrimary))
+                        {
+                            id = idbuttonNoCold;
+                            onClickEvent = carouselItemModel.ActionClickPrimary;
+                            hrefValue = carouselItemModel.ActionPrimary;
+                            targetValue = carouselItemModel.ActionPrimaryTargetBlank;
+                            linkText = carouselItemModel.ActionPrimaryDescription;
+                        }
+
+                        if (onClickEvent.Contains("dataLayerPush"))
+                        {
+                            onClickEventWithPosition = onClickEvent.Replace("'position':'0'", "'position':'" + counter + "'");
+                        }
+                        else
+                        {
+                            onClickEventWithPosition = onClickEvent;
+                        }
+                        <div class="card @classImage @Model.CardClass @(isNotEligible ? "no-footer" : "")">
+                            @if (carouselItemModel.HasImage)
+                            {
+                                if (isNotEligible)
+                                {
+                                    @Html.Sitecore().Field(Templates.CarouselOfferItem.Fields.Image, carouselItemModel.Item, new { @class = "img-fit", loading = "lazy" })
+                                }
+                                else
+                                {
+                                    <a onclick="@onClickEventWithPosition"
+                                       @Html.Raw(!string.IsNullOrEmpty(hrefValue) ? "href='" + hrefValue + "'" : "")
+                                       @Html.Raw(!string.IsNullOrEmpty(targetValue) ? "target='" + targetValue + "'" : "")>
+                                        @Html.Sitecore().Field(Templates.CarouselOfferItem.Fields.Image, carouselItemModel.Item, new { @class = "img-fit", loading = "lazy" })
+                                    </a>
+                                }
+                            }
+                            <div class="subtitle">
+                                @Html.Sitecore().Field(Templates.CarouselOfferItem.Fields.Title, carouselItemModel.Item)
+                            </div>
+                            <div class="title">
+                                @if (isNotEligible)
+                                {
+                                    @Html.Sitecore().Field(Templates.CarouselOfferItem.Fields.PromotionalText, carouselItemModel.Item)
+                                }
+                                else
+                                {
+                                    <a onclick="@onClickEventWithPosition"
+                                       @Html.Raw(!string.IsNullOrEmpty(hrefValue) ? "href='" + hrefValue + "'" : "")
+                                       @Html.Raw(!string.IsNullOrEmpty(targetValue) ? "target='" + targetValue + "'" : "")>
+                                        @Html.Sitecore().Field(Templates.CarouselOfferItem.Fields.PromotionalText, carouselItemModel.Item)
+                                    </a>
+                                }
+                            </div>
+                            @if (isNotEligible)
+                            {
+                                <div class="content">
+                                    @Html.Sitecore().Field(Templates.CarouselOfferItem.Fields.EligibilityDetails, carouselItemModel.Item)
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="content">
+                                    @Html.Sitecore().Field(Templates.CarouselOfferItem.Fields.Description, carouselItemModel.Item)
+                                </div>
+                                <div class="footer">
+                                    <a id="@id" onclick="@onClickEventWithPosition" class="btn btn-new btn-block @carouselItemModel.ButtonClass"
+                                       @Html.Raw(!string.IsNullOrEmpty(hrefValue) ? "href='" + hrefValue + "'" : "")
+                                       @Html.Raw(!string.IsNullOrEmpty(targetValue) ? "target='" + targetValue + "'" : "")>
+                                        @linkText
+                                    </a>
+                                    <img class="img-center" src="@carouselItemModel.Item.ImageUrl(Templates.CarouselOfferItem.Fields.Logo)" alt="" loading="lazy">
+                                </div>
+                            }
+                        </div>
+                    }
+                }
+            }
+        
+

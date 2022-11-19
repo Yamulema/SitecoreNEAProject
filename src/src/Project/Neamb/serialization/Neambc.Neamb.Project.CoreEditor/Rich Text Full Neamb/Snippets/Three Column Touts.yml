@@ -1,0 +1,72 @@
+﻿---
+ID: "16c13c03-905e-4203-bdfa-d10d3fdd116d"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Three Column Touts
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal slider-section c-007 bg-gray">
+    <div class="gtm-promo-tout">
+    <div class="container">
+    <h2 class="header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+    <p class="subhead no-margin-auto text-center">Suspendisse sit amet risus ut ex ultrices.</p>
+    <section class="regular slider product-card-carousel slick-initialized slick-slider">
+    <div class="slick-list draggable">
+    <div class="slick-track" style="opacity: 1; width: 15000px; transform: translate3d(0px, 0px, 0px);">
+    <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false">
+    <div>
+    <div class="card" style="width: 100%; display: inline-block;">
+    <div class="text">
+    <h3>1 NEA Accidental Death and Dismemberment Insurance</h3>
+    <p>Ut a magna vulputate, eleifend nulla eu, congue justo.</p>
+    </div>
+    <div class="cta"><a class="btn btn-aquamarine btn-block" tabindex="0" gtm-title="none" gtm-cta-text="none">Learn more</a></div>
+    </div>
+    </div>
+    </div>
+    <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false">
+    <div>
+    <div class="card" style="width: 100%; display: inline-block;">
+    <div class="text">
+    <h3>2 NEA Accidental Death and Dismemberment Insurance</h3>
+    <p>Ut a magna vulputate, eleifend nulla eu, congue justo</p>
+    </div>
+    <div class="cta"><a class="btn btn-aquamarine btn-block" tabindex="0" gtm-title="none" gtm-cta-text="none">Learn more</a></div>
+    </div>
+    </div>
+    </div>
+    <div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false">
+    <div>
+    <div class="card" style="width: 100%; display: inline-block;">
+    <div class="text">
+    <h3>3 NEA Accidental Death and Dismemberment Insurance</h3>
+    <p>Ut a magna vulputate, eleifend nulla eu, congue justo</p>
+    </div>
+    <div class="cta"><a class="btn btn-aquamarine btn-block" tabindex="0" gtm-title="none" gtm-cta-text="none">Learn more</a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    <span class="pagingInfoSlider hidden-md hidden-lg">1 OF 3</span>      </div>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T200355Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Three Column Touts

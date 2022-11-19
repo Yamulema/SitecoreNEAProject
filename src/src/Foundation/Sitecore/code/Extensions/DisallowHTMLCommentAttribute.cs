@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+
+namespace Neambc.Seiumb.Foundation.Sitecore.Extensions
+{
+	public class DisallowHTMLCommentAttribute : RegularExpressionAttribute
+	{
+		public DisallowHTMLCommentAttribute()
+			: base(@"^[a-zñáéíóúA-ZÑÁÉÍÓÚ0-9ü\¡\!string.Empty\?\¿#%@,_./ '\-:;()*\r\n]*$")
+		{
+		}
+
+		public override string FormatErrorMessage(string name)
+		{
+			return "EH";
+		}
+	}
+}

@@ -1,0 +1,24 @@
+﻿---
+ID: "96927c92-b706-40b8-8418-fa771f36aa2e"
+Parent: "0a4b5ca9-42ad-4a6e-ad75-60987453292a"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_GeneralContent/Small Stacked Accordion C043
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{DA9BE276-44F8-418C-B3AA-EE686107A015}"
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Neamb.GeneralContent/SmallStackedAccordion/Render.cshtml
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{5B36CF0D-118A-4502-B192-D6F79C5B013F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180509T174027Z

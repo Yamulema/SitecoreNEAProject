@@ -1,0 +1,34 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.Reminder
+
+<script type="text/javascript">
+    $(function () {
+        @if (Model.HasResultAuthentication)
+        {
+        <text>$('#setReminderForm').submit(); </text>
+        }
+    })
+</script>
+
+@if (Model.Notified)
+{
+	<p class="check m-r-sm text-alpha">
+		<i aria-hidden="true" class="fa fa-check-circle"></i>
+		@Html.Sitecore().Field(Templates.Reminder.Fields.ReminderSet, Model.Datasource)
+	</p>
+}
+else
+{
+    <form id="setReminderForm" class="no-padding" action="/api/ReminderService/SetReminder" method="post">
+        <input type="hidden" name="reminderIdSweepstake" id="reminderIdSweepstake" value="@Model.Id" />
+        <input type="hidden" name="componentIdSweepstake" id="componentIdSweepstake" value="@Model.ComponentIdAuthentication" />
+        @if (!Model.Datasource.Fields[Templates.Sweepstakes.Fields.HideCTAButton].IsChecked())
+        {
+            <input type="submit" value="@Html.Sitecore().Field(Templates.ProductCTAs.Fields.ReminderCTA, Model.Datasource)" class="btn btn-aquamarine m-b-md">
+        }
+        <p class="text-alpha">@Html.Sitecore().Field(Templates.Reminder.Fields.ReminderDetails, Model.Datasource) </p>
+
+    </form>
+}

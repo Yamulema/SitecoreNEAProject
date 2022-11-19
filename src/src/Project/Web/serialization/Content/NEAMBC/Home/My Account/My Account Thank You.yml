@@ -1,0 +1,45 @@
+﻿---
+ID: "8346d39f-5e72-4ea2-8bdb-cac58939317a"
+Parent: "c544123b-e481-4a1f-ad74-8ef77d48ddc7"
+Template: "b497f700-68c9-40cc-8fc5-1b6adf3d9961"
+Path: /sitecore/content/NEAMBC/Home/My Account/My Account Thank You
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T214047Z
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: <p>Thank you for updating your SEIUMB.com account.</p>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continue" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: My Account Thank You
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180103T204609Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: <p>Gracias por actualizar su cuenta en SEIUMB.com.</p>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continuar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Mi Cuenta Gracias

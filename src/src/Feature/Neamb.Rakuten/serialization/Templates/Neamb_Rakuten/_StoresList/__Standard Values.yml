@@ -1,0 +1,106 @@
+﻿---
+ID: "233896a2-2655-4bd6-8a07-22dfdb32aa9f"
+Parent: "d31e8af4-08c6-4255-88ed-2a3f4f51189d"
+Template: "d31e8af4-08c6-4255-88ed-2a3f4f51189d"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Rakuten/_StoresList/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00db4323-f3fa-485b-866b-3f2349ddb7c1"
+      Hint: Confirmation Button Label
+      Value: I Agree
+    - ID: "0f7a57a3-4427-4c55-8e3f-ac8d78af9c5e"
+      Hint: More Questions
+      Value: |
+        <link text="Already have a Rakuten account? Other questions? See our FAQs" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': 'Already have a Rakuten account? Other questions? See our FAQs' }, this);$('#mktpModal').modal('hide');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200823T070000Z
+    - ID: "2c0b2b43-35ea-477a-add7-48e2a86bacf1"
+      Hint: No Favorite Stores
+      Value: |
+        <h3 class="text-center">There are no favorite stores available</h3>
+    - ID: "35bb9375-3545-4fb3-9d6a-1222b7fdb783"
+      Hint: Stores List Label
+      Value: Browse Cash Back Stores
+    - ID: "433ff397-4368-4ce0-a8a3-ea8670ce4585"
+      Hint: No Results Text
+      Value: No Search Results
+    - ID: "43d7ffa7-c35c-45a3-8800-65e9759dd81c"
+      Hint: Registration Title
+      Value: Discounts Marketplace
+    - ID: "594ae445-2abf-4d72-9b83-0951bdfb9a97"
+      Hint: Subheadline
+      Value: |
+        <strong>Cash Back powered by</strong>
+        <img class='p-l-xs' src="./images/Image 14.png" alt="">
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ccd8f631-e199-4d09-b1fe-74b97d9ab9ae"
+      Hint: See More Text Button
+      Value: See More Cash Back
+    - ID: "d259edb2-1a5b-4969-8f1d-a8d51ee06c8f"
+      Hint: Cancel Button Label
+      Value: Cancel
+    - ID: "dfd10365-c9a8-4c71-abc1-d09adca11bd2"
+      Hint: Registration Banner
+      Value: |
+        <div class="text-center">
+                            <h6>Four simple steps to starting earning Cash Back on qualifying purchases.</h6>
+                        </div>
+                        <div class="wrap-modal-slider">
+                            <div class="ord-list slider">
+                                <div>
+                                    <div class="item">
+                                        <p class='bullet'> 1 </p>
+                                        <p>Shop the NEAMB Discounts Marketplace for Cash Back offers.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="item">
+                                        <p class='bullet'> 2 </p>
+                                        <p>Shop the NEAMB Discounts Marketplace for Cash Back offers.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="item">
+                                        <p class='bullet'> 3 </p>
+                                        <p>Shop the NEAMB Discounts Marketplace for Cash Back offers.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="item">
+                                        <p class='bullet'> 4 </p>
+                                        <p>Shop the NEAMB Discounts Marketplace for Cash Back offers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    - ID: "e228a4ce-b5a9-4f30-8b4d-c3032a08a37b"
+      Hint: Terms & Conditions
+      Value: |
+        <p class='text-center'>
+                    <small id="emailHelp" class="form-text">
+                        By activating Cash Back, you will create a
+                        Rakuten account with
+                        this email address and agree to NEA’s MBC Terms of Service and Privacy Policy, and
+                        to Rakuten’s Terms
+                        of Service and Privacy Policy.
+                    </small>
+                </p>
+                <p class='text-center'>
+                    <small id="emailHelp" class="form-text">
+                        New Rakuten members will receive an email to
+                        finish account set
+                        up.
+                    </small>
+                </p>

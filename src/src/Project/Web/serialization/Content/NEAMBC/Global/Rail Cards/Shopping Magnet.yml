@@ -1,0 +1,61 @@
+﻿---
+ID: "bef81a55-db17-4a79-86c5-56a4270dc66e"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Shopping Magnet
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T180515Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3><a href="-/media/6a03d26640794e8abd58b1be0ca345e7.ashx">SHOPPING CALENDAR</a></h3>
+        <p>Knowing when seasonal and big-ticket items go on sale can mean huge savings year-round. <a href="-/media/6a03d26640794e8abd58b1be0ca345e7.ashx" onclick="ga_event('rail module','click','shopping calendar &gt; button');">Click here to download</a>.</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Best Time To Shop
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{C7120AA9-EDAB-4746-B9BA-C5CE4A3D46E8}"></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T180139Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3><a href="-/media/6a03d26640794e8abd58b1be0ca345e7.ashx" onclick="ga_event('rail module','click','shopping calendar esp &gt; title');">CALENDARIO DE COMPRAS</a></h3>
+        <p>Saber cu&aacute;ndo salen a la venta los art&iacute;culos de temporada y caros puede significar grandes ahorros durante todo el a&ntilde;o. <a href="-/media/6a03d26640794e8abd58b1be0ca345e7.ashx" onclick="ga_event('rail module','click','shopping calendar esp &gt; button');">Haga click aqu&iacute; para descargar</a>.</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: El mejor momento para comprar
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{02288E6D-C906-4239-87D9-9974179A3905}" alt="El mejor momento para comprar" height="" width="" hspace="" vspace="" />

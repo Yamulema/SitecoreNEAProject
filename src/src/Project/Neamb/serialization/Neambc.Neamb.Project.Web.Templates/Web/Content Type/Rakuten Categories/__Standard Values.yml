@@ -1,0 +1,23 @@
+﻿---
+ID: "3ef6c36e-adeb-42ce-b00e-821a11d2b85e"
+Parent: "54c60467-11ce-4087-9e94-840f54bc6005"
+Template: "54c60467-11ce-4087-9e94-840f54bc6005"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Rakuten Categories/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{40E9D39E-1F56-48A8-BB70-CA76353C5E21}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200722T185626Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

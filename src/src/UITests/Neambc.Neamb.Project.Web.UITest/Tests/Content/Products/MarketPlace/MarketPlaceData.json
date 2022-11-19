@@ -1,0 +1,58 @@
+{
+  "MarketPlaceHot": [
+    [ "nea.jessica@gmail.com", "secret12", "https://www.olivela.com" ]
+  ],
+  "MarketPlaceWarm": [
+    [ "nea.jessica@gmail.com", "secret12", "991", "https://www.olivela.com" ]
+  ],
+  "MarketPlaceCold": [
+    [ "nea.jessica@gmail.com", "secret12", "991", "https://www.olivela.com" ]
+  ],
+  "MemberOnly": [
+    [ "nea.jessica@gmail.com" ]
+  ],
+  "MarketPlaceColdHotDeals": [
+    [ "nea.jessica@gmail.com", "secret12", "991" ]
+  ],
+  "MarketPlaceWarmHotDeals": [
+    [ "nea.jessica@gmail.com", "secret12", "991" ]
+  ],
+  "MarketPlaceHotDeals": [
+    [ "nea.jessica@gmail.com", "secret12" ]
+  ],
+  "MarketPlaceWarmNotRakuten": [
+    [ "nea.rosae@gmail.com", "secret12", "994" ]
+  ],
+  "FavoriteStores": [
+    [ "nea.jessica@gmail.com", "secret12" ]
+  ],
+  "SearchStore": [
+    [ "amazon" ]
+  ],
+  "EligibleUserForRakuten": [
+    [
+      "nea.rosae@gmail.com",
+      "secret12",
+      "994",
+      "/login",
+      "mktpModal"
+    ]
+  ],
+  "NotEligibleUserForRakuten": [
+    [
+      "test@oshyn.com",
+      "secret12",
+      "938",
+      "/login",
+      "eligibilitymodel"
+    ]
+  ],
+  "RegisteredRakutenUser": [
+    [
+      "nea.jessica@gmail.com",
+      "secret12",
+      "991",
+      "/login"
+    ]
+  ]
+}

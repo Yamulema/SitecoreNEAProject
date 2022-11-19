@@ -1,0 +1,41 @@
+{
+  "Test_ColdAction": [
+    [ "PEOPLE AND BENEFITS working for you." ]
+  ],
+  "Test_WarmAction": [
+    [ "WARM working for you.", "991" ]
+  ],
+  "Test_HotAction": [
+    [ "EXCLUSIVE BENEFITS THAT DO MORE for you.", "nea.nadine@gmail.com", "secret12" ]
+  ],
+  "Test_CarouselCardHotAction": [
+    [ "nea.nadine@gmail.com", "secret12", "dataLayerPush({'position':'3','event':'multi-offer card','cardTitle':'SSO - NEA Customized Cash Rewards4 Visa Signature Credit Card2|SSO','ctaText':'Get your $200 Amazon gift card, plus earn 1% on ALL purchases.','clickHref':'https://nea.staging.truecardev.com/ws/submitRegisteredMemberInformation'}", "newzag.com" ]
+  ],
+  "Test_CarouselCardWarmAction": [
+    [ "999", "nea.nadine@gmail.com", "secret12", "newzag.com" ]
+  ],
+  "Test_CarouselCardColdAction": [
+    [ "nea.nadine@gmail.com", "secret12", "newzag.com" ]
+  ],
+  "Test_CarouselCardHotActionLink": [
+    [ "nea.nadine@gmail.com", "secret12", "PostDataInspector.aspx", "999", "1234", "0000", "dataLayerPush({'position':'2','event':'multi-offer card','cardTitle':'LINK - NEA Customized Cash Rewards4 Visa Signature Credit Card2|LinkTokens','ctaText':'Get your $200 Amazon gift card, plus earn 1% on ALL purchases.','clickHref':'https://qa.neamb.com/PostDataInspector.aspx'},this)" ]
+  ],
+  "Test_CarouselCardHotActionDatapass": [
+    [ "nea.jessica@gmail.com", "secret12", "Jessica Millennial (000000991) |", "dataLayerPush({'position':'1','event':'multi-offer card','cardTitle':'DATAPASS - NEA Customized Cash Rewards4 Visa Signature Credit Card2|Datapass','ctaText':'Get your $200 Amazon gift card, plus earn 1% on ALL purchases.','clickHref':'https://afenroll.benselect.com/Enroll/Login.aspx'},this);" ]
+  ],
+  "Test_CarouselCardWarmActionDatapass": [
+    [ "991", "nea.jessica@gmail.com", "secret12", "Jessica Millennial (000000991) |" ]
+  ],
+  "Test_CarouselCardColdActionDatapass": [
+    [ "nea.jessica@gmail.com", "secret12", "Jessica Millennial (000000991) |" ]
+  ],
+  "Test_CarouselCardHotActionEfulfillment": [
+    [ "nea.jessica@gmail.com", "secret12", "neamb-efulfillment", "dataLayerPush({'position':'4','event':'multi-offer card','cardTitle':'PDF - NEA Customized Cash Rewards4 Visa Signature Credit Card2|PDF','ctaText':'Get your $200 Amazon gift card, plus earn 1% on ALL purchases.','clickHref':'/api/ProductRoute/DownloadEfulfillmentPdfMultirow'},this)" ]
+  ],
+  "Test_CarouselCardWarmActionEfulfillment": [
+    [ "991", "nea.jessica@gmail.com", "secret12", "neamb-efulfillment" ]
+  ],
+  "Test_CarouselCardWarmActionEfulfillmentCold": [
+    [ "nea.jessica@gmail.com", "secret12", "neamb-efulfillment" ]
+  ]
+}

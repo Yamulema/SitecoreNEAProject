@@ -1,0 +1,62 @@
+﻿---
+ID: "7fe5202d-f1a4-46af-8ba1-5dada986fa10"
+Parent: "180d9464-ad67-4a34-ab79-048b4d617645"
+Template: "180d9464-ad67-4a34-ab79-048b4d617645"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Field Rep/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{D3E96D33-7326-4E97-AADD-F2CA184F13BC}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{F290A33E-3924-4EFC-B2D2-0A99F8938E98}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{CFB94E7A-0989-4356-B9B6-F780BBFAEAF8}" />
+        <r
+          id="{0A4AA8F9-6BE5-41BD-8B48-85020B75D35B}"
+          ph="body"
+          uid="{E800A2B0-C13F-4D98-872D-BEDF085325FC}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{EFEECFB3-799E-4159-81C1-E1A57952D59D}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{C768A805-E392-410A-9C8E-03CB1A418E8C}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T202148Z
+    - ID: "f71f7747-f88d-499b-ac69-d3a6dc9b0a88"
+      Hint: Page Title
+      Value: Find Your Field Representative

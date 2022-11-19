@@ -1,0 +1,101 @@
+﻿---
+ID: "49a85560-f6d0-4f04-99c6-6e919efff773"
+Parent: "0b3845c3-566d-4100-a961-0c32c9018320"
+Template: "0b3845c3-566d-4100-a961-0c32c9018320"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Sweepstakes/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{D1C2D3ED-C54D-49D1-8920-B6C4FB941309}" />
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{CB3DD05F-7F80-42D6-89E7-67427876A5D6}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{A7ED7B8A-41C9-4798-BF19-C3F2AAFA72EA}" />
+        <r
+          id="{8E279983-0803-4AA4-B907-73CABC43EA08}"
+          ph="body"
+          uid="{C05194F5-EF4B-4641-875F-2BE0BB93C44B}" />
+        <r
+          id="{28A2CF9E-52C9-42BC-86E4-873C266E0095}"
+          ph="body"
+          uid="{4E774F0E-E1E5-454D-9054-2BBE0D561324}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{4C3B8F99-49EF-4A3A-AFED-9F91AF27B47B}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{19736C87-7E13-4B91-BC1C-838292BAD758}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "182160d2-b7b0-4cfc-a894-a23d86a02186"
+      Hint: Program Code
+      Value: 701 01
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180509T222536Z
+    - ID: "31fd9495-a12e-49f9-a5d8-24e61d93e29e"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Thanks for entering the New Member Giveaway!</h2>
+        <p>Your entry has been received.
+        You&rsquo;ll receive an email confirmation from us shortly.
+        </p>
+        <div class="col-md-5 col-centered">Proceed to Home Page</div>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8aa6cae7-1e5a-4929-80a4-79bd58783812"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "a3a184c1-207a-45ec-a516-40104a3c7976"
+      Hint: ReminderSet
+      Value: You’ve signed up to recieve a notification when this product becomes available.
+    - ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+      Hint: Last Publish Date
+      Value: 
+    - ID: "cf0926ab-8b16-4c35-8dd7-d942519d8c2c"
+      Hint: CTA
+      Value: Notify Me When Available
+    - ID: "e37c684a-f980-4372-b566-5e4349648e8e"
+      Hint: ReminderDetails
+      Value: This product is coming soon. Sign up to be notified once it becomes available.
+    - ID: "fdf37aea-86e1-4eae-a546-7ea6e6ea8ad1"
+      Hint: Send Email Notification
+      Type: Checkbox
+      Value: 1

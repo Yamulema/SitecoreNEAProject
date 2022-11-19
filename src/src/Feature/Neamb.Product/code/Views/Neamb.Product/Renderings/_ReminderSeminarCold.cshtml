@@ -1,0 +1,25 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Product.Model
+
+@model RetirementSeminarDTO
+@{
+    var functionOnClick = string.Format("{0};{1}", Model.GtmAction, Model.SweepstakesBase.ActionClickAuthentication);
+}
+@if (!Model.SweepstakesBase.Item.Fields[Templates.Sweepstakes.Fields.HideCTAButton].IsChecked())
+{
+    <div class="row">
+        <div class="col-md-12">
+            @if (Model.IsWarmUser)
+            {
+                <a class="btn pull-left btn-cyan" onclick="@functionOnClick">@Model.SweepstakesBase.CtaText</a>
+            }
+            else
+            {
+                <a class="btn pull-left btn-cyan" onclick="@functionOnClick">@Model.SweepstakesBase.LoginText</a>
+            }
+        </div>
+    </div>
+}
+@Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesPartner.cshtml", Model.SweepstakesBase)
+

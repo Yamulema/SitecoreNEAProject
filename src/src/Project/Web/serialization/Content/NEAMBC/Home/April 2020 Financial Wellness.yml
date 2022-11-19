@@ -1,0 +1,844 @@
+﻿---
+ID: "9725efd0-a066-4dfe-aee0-ed0d8acea376"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ad0853ba-639c-44ba-8ef9-ef4ae713b631"
+Path: /sitecore/content/NEAMBC/Home/April 2020 Financial Wellness
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Smart tips for giving and getting this holiday season
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171226T182825Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Smart tips for giving and getting this holiday season
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {8FF92495-2C6E-4290-8DBC-8F18035C68BB}
+        {2CD55091-F33F-474F-BDCA-E032F2515F35}
+        {4ABF69B1-AA5E-43E2-9ECF-AADBA774AE40}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Winter 2016
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{C1BB6C60-BE83-4C1C-B7FE-E45508E04C3C}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Winter 2016
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Member Benefits Tips & Advice - Winter 2016"
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Member Benefits Quarterly Newsletter
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T175716Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: April 2020
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T175716Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: April 2020
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T185537Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T185537Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T185728Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Financial Wellness
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T185728Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 5
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T190810Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Financial Wellness
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T190810Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 6
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T204517Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Financial Wellness
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T204517Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 7
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T215533Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Financial Wellness
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T215533Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 8
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T183145Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Financial Wellness
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T183145Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "Financial Wellness!"
+  - Version: 9
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T183329Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Financial Wellness!"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T183329Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 10
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T183545Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T183545Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+  - Version: 11
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T183648Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        Learn how to maintain your financial health during these difficult times
+        
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T183648Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Financial Wellness
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Financial Wellness
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Consejos inteligentes para dar y recibir esta temporada de fiestas.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171226T194320Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Consejos inteligentes para dar y recibir esta temporada de fiestas.
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {8FF92495-2C6E-4290-8DBC-8F18035C68BB}
+        {2CD55091-F33F-474F-BDCA-E032F2515F35}
+        {4ABF69B1-AA5E-43E2-9ECF-AADBA774AE40}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Invierno 2016
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{C1BB6C60-BE83-4C1C-B7FE-E45508E04C3C}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Invierno 2016
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Member Benefits Consejos y Asesoramiento - Invierno 2016"
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Boletín Electrónico Trimestral de Seiu Member Benefits
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T194145Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Invierno 2016
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T154100Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU MB Boletín de Bienestar Financiero
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU MB Boletín de Bienestar Financiero
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T200057Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Bienestar Financiero
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T160000Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Bienestar Financiero
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Bienestar Financiero
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T215637Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Bienestar Financiero
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T215637Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Bienestar Financiero
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Bienestar Financiero
+  - Version: 5
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T191023Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Aprenda cómo mantener su salud financiera durante estos tiempos difíciles
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {27468BA8-B3A5-4FAD-83D4-ACD6A7ECE6D4}
+        {DCD293B2-277D-40AE-89D9-23C127AEAB0D}
+        {A3791501-2244-4966-83C6-3FD7A694434A}
+        {9370E67D-5552-4AD4-A53A-B4DC3040D283}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T191023Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{96C32CB9-DF42-4D5D-A50A-C9B32DF2D3A1}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Bienestar Financiero
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Bienestar Financiero

@@ -1,0 +1,22 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@using Sitecore.Mvc
+@model Neambc.Seiumb.Project.Seiu.Model.Footer
+
+<div id="footerMenu" class="row">
+    @Html.Sitecore().Placeholder("navbar-bottom")
+</div>
+
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <div class="xpEditor_Footer">
+        @Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.FooterContent, Model.Datasource)
+    </div>
+}
+else
+{
+    @Html.Sitecore().Field(Templates.SitecoreExtensions.SiteSettings.Fields.FooterContent, Model.Datasource)
+}
+
+

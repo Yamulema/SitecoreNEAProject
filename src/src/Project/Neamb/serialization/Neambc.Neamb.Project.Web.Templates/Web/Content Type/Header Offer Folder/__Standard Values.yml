@@ -1,0 +1,23 @@
+﻿---
+ID: "85172d4b-2939-4db2-bc78-876400e32c65"
+Parent: "2feba070-c8a4-4f2c-b11e-a4e022a0b153"
+Template: "2feba070-c8a4-4f2c-b11e-a4e022a0b153"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Header Offer Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{2BFABCAE-86DA-48CF-A140-849C44B30574}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210419T172319Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

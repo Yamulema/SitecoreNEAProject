@@ -1,0 +1,339 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+
+@model Neambc.Neamb.Feature.Account.Models.RegistrationDTO
+@{
+    int minYear = 16;
+    int maxYear = 95;
+    int startYear = DateTime.Now.Year - maxYear;
+    int endYear = DateTime.Now.Year - minYear;
+}
+
+<section class="error-bar">
+    <p>
+        @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.Errormessage, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+<div id="allowedage" data-min="@minYear" data-max="@maxYear"></div>
+
+<section class="new-design form registration col-centered">
+    <div class="col-xs-12">
+        <div class="animation-container">
+            <!-- Step one -->
+            <div class="form-step js-form-step" data-step="1">
+                <form id="registrationStep1" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+                    <div class="step-header">
+                        <h5>@Html.Sitecore().Field(Templates.RegistrationSteps.Fields.Step1Title, Model.Item)</h5>
+                        @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.Step1Intro, Model.Item)
+                    </div>
+
+                    <div class="form-section m-t-lg">
+                        <div class="section-name">
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.NameSectionLabel, Model.Item)
+                            <span class="line"></span>
+                        </div>
+                        <div class="floating-section" data-group="firstName">
+                            <div class="floating-group">
+                                <input id="firstName" value="@Model.FirstName" name="firstName" type="text"
+                                       placeholder="First name" required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-maxlength="15" maxlength="15"
+                                       data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-minlength="2"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameMinimumCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-alphanumber="true"
+                                       data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+                                <label for="firstName">@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                                @if (Model.HasTooltipFirstName)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameTooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="floating-section" data-group="lastName">
+                            <div class="floating-group">
+                                <input id="lastName" name="lastName" value="@Model.LastName" type="text" placeholder="Last name" required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-maxlength="30" maxlength="30"
+                                       data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-minlength="2"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameMinimumCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-alphanumber="true"
+                                       data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+                                <label for="lastName">@Html.Sitecore().Field(Templates.Profile.Fields.LastNameLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                                @if (Model.HasTooltipLastName)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Profile.Fields.LastNameTooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <div class="section-name">
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.PasswordSectionLabel, Model.Item)
+                            <span class="line"></span>
+                        </div>
+                        <div class="floating-section" data-group="email">
+                            <input style="display: none" id="emailconfirmation" name="Emailconfirmation">
+                            <input style="display: none" name="phone">
+                            <div class="floating-group">
+                                <input id="email" name="email" value="@Model.Email" type="email" placeholder="Email address" required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.EmailEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-msg-email="@Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-maxlength="100" maxlength="100"
+                                       data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.EmailCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-emailInUse="@Html.Sitecore().Field(Templates.Profile.Fields.EmailInUse, Model.Item, new { DisableWebEdit = true })"
+                                       data-msg-remote="@Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item, new { DisableWebEdit = true })"
+                                       data-msg-hasReservedDomain="@Html.Sitecore().Field(Templates.Profile.Fields.EmailWarning, Model.Item)" />
+                                <label for="email">@Html.Sitecore().Field(Templates.Profile.Fields.EmailLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages">
+                                    <div class="server-error">
+                                        @Model.ErrorMessageEmailInUse
+                                    </div>
+                                </div>
+                                @if (Model.HasTooltipEmail)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Profile.Fields.EmailTooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="floating-section" data-group="password">
+                            <div class="floating-group">
+                                <input id="password" name="password" type="password" placeholder="Create password" required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Password.Fields.PasswordEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-minlength="8"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.Password.Fields.PasswordCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-msg-strongpassword="@Html.Sitecore().Field(Templates.Password.Fields.PasswordRequirements, Model.Item, new { DisableWebEdit = true })" />
+                                <label for="password">@Html.Sitecore().Field(Templates.Password.Fields.PasswordLabel, Model.Item)</label>
+                                <div class="eye-wrapper showPassword">
+                                    <span class="eye-icon"></span>
+                                </div>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                                @if (Model.HasTooltipPassword)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Password.Fields.Tooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="floating-section" data-group="confirmPassword">
+                            <div class="floating-group">
+                                <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirm password"
+                                       required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Password.Fields.ConfirmPasswordEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-equalto="#password"
+                                       data-msg-equalto="@Html.Sitecore().Field(Templates.Password.Fields.ConfirmPasswordInvalid, Model.Item, new { DisableWebEdit = true })" />
+                                <label for="confirmPassword">@Html.Sitecore().Field(Templates.Password.Fields.ConfirmPasswordLabel, Model.Item)</label>
+                                <div class="eye-wrapper showPassword">
+                                    <span class="eye-icon"></span>
+                                </div>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <button type="submit" class="btn btn-new btn-outline-default m-t-sm">
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.NextStepButton, Model.Item)
+                        </button>
+                        <div>
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.Setp1DescriptionText, Model.Item)
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+
+            <!-- Step two -->
+            <div class="form-step js-form-step waiting hidden-step" data-step="2">
+                <form id="registrationStep2" action="/api/registration/registration" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+                    <div class="step-header">
+                        <h5>@Html.Sitecore().Field(Templates.RegistrationSteps.Fields.Step2Title, Model.Item)</h5>
+                        @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.Step2Intro, Model.Item)
+                    </div>
+                    <div class="form-section m-t-lg">
+                        <div class="section-name">
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.AddressSectionLabel, Model.Item)
+                            <span class="line"></span>
+                        </div>
+                        <div class="floating-section" data-group="address">
+                            <div class="floating-group">
+                                <input id="address" value="@Model.Address" name="address" type="text" placeholder="Street address" required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.AddressEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-maxlength="44" maxlength="44"
+                                       data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.AddressCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-minlength="2"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.AddressMinimumCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-address="true"
+                                       data-msg-address="@Html.Sitecore().Field(Templates.Profile.Fields.AddressInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+                                <label for="address">@Html.Sitecore().Field(Templates.Profile.Fields.AddressLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                                @if (Model.HasTooltipAddress)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Profile.Fields.AddressTooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="floating-section" data-group="city">
+                            <div class="floating-group">
+                                <input id="city" value="@Model.City" name="city" type="text" placeholder="City" required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.CityEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-maxlength="44" maxlength="44"
+                                       data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.CityCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-minlength="2"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.CityMinimumCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-alphanumber="true"
+                                       data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.CityInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+                                <label for="city">@Html.Sitecore().Field(Templates.Profile.Fields.CityLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                                @if (Model.HasTooltipCity)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Profile.Fields.CityTooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="floating-section" data-group="state2">
+                            <div class="floating-group">
+                                <select id="state" name="state" required="required"
+                                        onclick="this.setAttribute('value', this.value);" onchange="this.setAttribute('value', this.value);"
+                                        value="@(string.IsNullOrEmpty(Model.State) ? "" : Model.State)"
+                                        data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.StateEmptyField, Model.Item, new { DisableWebEdit = true })">
+                                    <option value="">Select an option...</option>
+                                    @foreach (var selectItem in Model.StatesList)
+                                    {
+                                        if (Model.State == selectItem.Value || selectItem.Selected)
+                                        {
+                                            <option value="@selectItem.Value" selected="selected">@selectItem.Text</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@selectItem.Value">@selectItem.Text</option>
+                                        }
+                                    }
+                                </select>
+                                <label for="state">@Html.Sitecore().Field(Templates.Profile.Fields.StateLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                                @if (Model.HasTooltipState)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Profile.Fields.StateTooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="floating-section" data-group="zip">
+                            <div class="floating-group">
+                                <input id="zip" name="zip" type="text" value="@Model.Zip" placeholder="ZIP" required="required" number="number"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.ZipEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                       data-rule-minlength="5"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.ZipCharacterLimit, Model.Item, new {bDisableWebEdit = true })"
+                                       data-rule-maxlength="5"
+                                       data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.ZipCharacterLimit, Model.Item, new {bDisableWebEdit = true })"
+                                       data-msg="@Html.Sitecore().Field(Templates.Profile.Fields.ZipInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+                                <label for="zip">@Html.Sitecore().Field(Templates.Profile.Fields.ZipLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                                @if (Model.HasTooltipZip)
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.Profile.Fields.ZipTooltip, Model.Item, new { DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <div class="section-name">
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.BirthDateSectionLabel, Model.Item)
+                            <span class="line"></span>
+                        </div>
+                        <div class="floating-section" data-group="birthDate">
+                            <div class="floating-group full-date">
+                                <div class="date-group">
+                                    <input id="month" name="month" value="@Model.Month" type="text" placeholder="MM" required="required"
+                                           data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                           data-rule-range="[1, 12]" />
+                                    <label for="month">Month</label>
+                                </div>
+                                <div class="date-group">
+                                    <input id="day" name="day" value="@Model.Day" type="text" placeholder="DD" required="required"
+                                           data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                           data-rule-range="[1, 31]" />
+                                    <label for="day">Day</label>
+                                </div>
+                                <div class="date-group">
+                                    <input id="year" name="year" value="@Model.Year" type="text" placeholder="YYYY" required="required"
+                                           data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                           data-rule-range="[@startYear, @endYear]"
+                                           data-msg-range="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateAgeRequirement, Model.Item, new { DisableWebEdit = true })"
+                                           data-msg-isValidDate="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateInvalidDOB, Model.Item, new { DisableWebEdit = true })" />
+                                    <label for="year">Year</label>
+                                </div>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <a href="" class="form-link back-link">
+                            <i class="fa fa-chevron-left"></i>Back
+                        </a>
+                        <button type="submit" class="btn btn-new btn-outline-default m-b-sm">
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.SubmitButton, Model.Item, new { DisableWebEdit = true })
+                            <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                        </button>
+                        <div>
+                            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.Disclaimer, Model.Item)
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModalLabel" class="modal fade modalForms">
+    <div role="document" class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            @Html.Sitecore().Field(Templates.RegistrationSteps.Fields.SuccessMessage, Model.Item)
+        </div>
+    </div>
+</div>

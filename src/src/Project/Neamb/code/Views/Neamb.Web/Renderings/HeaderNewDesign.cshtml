@@ -1,0 +1,445 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Neambc.Neamb.Project.Web
+@using Sitecore.Mvc
+@using Sitecore.Data.Fields
+@using Sitecore.Links
+
+
+@model Neambc.Neamb.Project.Web.Models.HeaderDTO
+
+@{
+    var logo = Model.SiteSettings.ImageUrl(Templates.SiteSettings.Fields.HeaderLogo, null);
+
+    LinkField headerSignInLink = Model.SiteSettings.Fields[Templates.SiteSettings.Fields.HeaderSignIn];
+    string headerSignInUrl = string.Empty;
+    string signInText = "";
+    if (headerSignInLink != null && headerSignInLink.TargetItem != null)
+    {
+        headerSignInUrl = LinkManager.GetItemUrl(headerSignInLink.TargetItem);
+        signInText = headerSignInLink.Text;
+    }
+    LinkField createAccountField = Model.SiteSettings.Fields[Templates.SiteSettings.Fields.CreateAccount];
+    string createAccountUrl = string.Empty;
+    if (createAccountField != null && createAccountField.TargetItem != null)
+    {
+        createAccountUrl = LinkManager.GetItemUrl(createAccountField.TargetItem);
+    }
+
+    string hiddenClass = "";
+    string userStatusClass = "";
+    string classLink = "";
+    string classDropdown = "";
+    string loginPopUpClass = Model.DisplaLoginPopup ? "show-login-curtain" : string.Empty;
+    if (Model.IsLoginPage)
+    {
+        hiddenClass = "hidden";
+    }
+    else
+    {
+        if (Model.Status == StatusEnum.Hot || Model.Status == StatusEnum.WarmCold || Model.Status == StatusEnum.WarmHot)
+        {
+            classLink = "dropdown-toggle";
+            classDropdown = "dropdown";
+            userStatusClass = "warm-hot";
+        }
+        else
+        {
+            userStatusClass = "cold";
+        }
+    }
+
+    var searchItem = (LinkField)(Sitecore.Context.Database.GetItem(Configuration.SiteSettingsId).Fields[Templates.SiteSettings.Fields.SearchPage]);
+    var searchUrl = string.Empty;
+
+    if (searchItem != null && searchItem.TargetItem != null)
+    {
+        searchUrl = LinkManager.GetItemUrl(searchItem.TargetItem);
+    }
+
+}
+@if (!string.IsNullOrEmpty(Model.GtmAction))
+{
+    <script type="text/javascript">
+		$(function () {
+			@Html.Raw(Model.GtmAction)
+		})
+    </script>
+}
+
+<script id="scriptGtm">
+    var userMdsid = '@Model.UserIdentifier.UserMdsid';
+    var userPersonaCode = '@Model.UserIdentifier.UserPersonaCode';
+    var userSeaCode = '@Model.UserIdentifier.SeaCode';
+    var userLeaCode = '@Model.UserIdentifier.LeaCode';
+    var userSeaName = '@Model.UserIdentifier.SeaName';
+    var userLeaName = '@Model.UserIdentifier.LeaName';
+</script>
+<!--@Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderGetStartedHeading, Model.SiteSettings)-->
+<!--@Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderGetStartedSubheading, Model.SiteSettings)-->
+@if (!string.IsNullOrEmpty(Model.OnLoadEvent))
+{
+    <script type="text/javascript">
+        @Html.Raw(Model.OnLoadEvent)
+    </script>
+
+
+}
+
+<div class="loader">
+    <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+    </div>
+</div>
+
+<section data-redirect="@searchUrl" data-keyword="@Configuration.SearchParmTerm" class="new-design">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="@logo" alt="Logo NEAMB">
+            </a>
+
+            <div class="nav-center collapse navbar-collapse js-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    @foreach (var menu in Model.Menus)
+                    {
+                        <li class="@menu.MenuClass">
+                            <a href="@menu.UrlItem" class="@menu.ClassAnchor" data-toggle="@menu.Toggle" @Html.Raw(menu.ClickAction)>
+                                @Html.Sitecore().Field(Templates.NavigationItem.Fields.MenuItem, menu.Item)
+                            </a>
+                            @if (menu.HasSubMenu && !Sitecore.Context.PageMode.IsExperienceEditor)
+                            {
+                                @Html.Sitecore().Field(Templates.NavigationItem.Fields.Submenu, menu.Item)
+                            }
+                        </li>
+                    }
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <div class="nav-right-desktop hidden-xs hidden-sm hidden-md @hiddenClass @userStatusClass">
+                    <div id="desktop-search" class="search new-search hidden-xs hidden-sm hidden-md">
+                        <input id="search" placeholder="Search" type="text">
+                        <i class="search-icon blue"></i>
+                        <i class="close-search erase" aria-hidden="true">×</i>
+                        <div class="suggesstion-box"></div>
+                    </div>
+                    <li class="dropdown m-r-lg">
+                        <a id="searchButton" href="#" class="" data-toggle="">
+                            <div class="navbar-text">
+                                <span class="name">
+                                    Search
+                                </span>
+                                <span class="avatar-container">
+                                    <i class="search-icon white" aria-hidden="true"></i>
+                                    <span class="close-icon" aria-hidden="true">×</span>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+
+                    @if (!String.IsNullOrEmpty(Model.StateLogo))
+                    {
+                        <img class="state-img" src="/assets/neamb/images/states/@Model.StateLogo" alt="state logo">
+                    }
+                    @if (Model.Status == StatusEnum.Cold || Model.Status == StatusEnum.Unknown)
+                    {
+                        <li class="dropdown">
+                            <a href="@headerSignInUrl" class="login-desktop-link @loginPopUpClass" data-toggle="">
+                                <div class="navbar-text">
+                                    <span class="name">
+                                        @signInText
+                                    </span>
+                                    <span class="avatar-container">
+                                        <img class="avatar-cold" alt="avatar cold"
+                                             src="@Model.SiteSettings.ImageUrl(Templates.SiteSettings.Fields.HeaderAvatar)" />
+                                    </span>
+                                </div>
+                            </a>
+                            <div class="login-curtain">
+                                <a class="btn btn-orange" href="@headerSignInUrl">@signInText</a>
+                                <p>Don't have an account? <a class="link link-underline" href="@createAccountUrl">Start Here</a></p>
+                            </div>
+                        </li>
+                    }
+                    else
+                    {
+                        <div class="dropdown">
+                            <a tabindex="0" href="@headerSignInUrl" class="@classLink" data-toggle="@classDropdown">
+                                <div class="navbar-text">
+                                    <span class="name">
+                                        @if (Model.Status == StatusEnum.Cold || Model.Status == StatusEnum.Unknown)
+                                        {
+                                            @signInText
+                                        }
+                                        else
+                                        {
+                                            @Model.Name
+                                        }
+                                    </span>
+                                    <span class="avatar-container">
+                                        @if (Model.Status == StatusEnum.Hot || Model.Status == StatusEnum.WarmCold || Model.Status == StatusEnum.WarmHot)
+                                        {
+                                            if (!String.IsNullOrEmpty(Model.UserImageUrl))
+                                            {
+                                                <img class="avatar-hot" src="@Model.UserImageUrl" alt="avatar" />
+                                            }
+                                            else
+                                            {
+                                                <img class="avatar-hot" alt="avatar"
+                                                     src="@Model.SiteSettings.ImageUrl(Templates.SiteSettings.Fields.HeaderAvatarWarmHot)" />
+                                            }
+                                            <i class="up-down-arrow"></i>
+                                            if (Model.HasNotificationAvatar)
+                                            {
+                                                <i class="fa fa-circle red"></i>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <img class="avatar-cold" alt="avatar cold"
+                                                 src="@Model.SiteSettings.ImageUrl(Templates.SiteSettings.Fields.HeaderAvatar)" />
+                                        }
+                                    </span>
+                                </div>
+                            </a>
+                            @if (Model.Status != StatusEnum.Cold && Model.Status != StatusEnum.Unknown)
+                            {
+                                <div class="profile-menu dropdown-menu">
+                                    <div class="row">
+                                        <div class="col-md-12 profile-links">
+                                            @foreach (var linkItem in Model.LinkPages)
+                                            {
+                                                if (linkItem.IsOffer)
+                                                {
+                                                    <a class="profile-menu-accordion" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                                        @Html.Raw(linkItem.LinkName)
+                                                    </a>
+                                                    <ul class="profile-menu-actions">
+                                                        @Html.Partial("~/Views/Neamb.Web/Renderings/_HeaderOfferProduct.cshtml", linkItem)
+                                                    </ul>
+                                                }
+                                                else
+                                                {
+                                                    <a href="@linkItem.LinkUrl" @Html.Raw(linkItem.ClickAction)>
+                                                        <span>@Html.Raw(linkItem.LinkName)</span>
+                                                        @if (linkItem.HasNotification)
+                                                        {
+                                                            <i class="fa fa-circle red"></i>
+                                                        }
+                                                    </a>
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 profile-actions p-t-xs">
+                                            @if (Model.Status == StatusEnum.Hot)
+                                            {
+                                                <a class="blue" href="#" onclick="$('#logout-form').submit();">
+                                                    @Html.Sitecore().Field(Templates.AccountMenu.Fields.SignOut, Model.SiteSettings)
+                                                </a>
+                                            }
+                                            else if (Model.Status == StatusEnum.WarmCold)
+                                            {
+                                                <a class="blue" href="#" onclick="logout('@headerSignInUrl');">
+                                                    @Html.Sitecore().Field(Templates.AccountMenu.Fields.NotYou, Model.SiteSettings)
+                                                </a>
+                                                <span class="pipeline"></span>
+                                                @Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderCreateAccount, Model.SiteSettings, new
+                                                {
+                                                    @class = "blue"
+                                                })
+                                            }
+                                            else if (Model.Status == StatusEnum.WarmHot)
+                                            {
+                                                <a class="blue" href="#" onclick="logout('@headerSignInUrl');">
+                                                    @Html.Sitecore().Field(Templates.AccountMenu.Fields.NotYou, Model.SiteSettings)
+                                                </a>
+                                                <span class="pipeline"></span>
+                                                @Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderSignIn, Model.SiteSettings, new
+                                                {
+                                                    @class = "blue"
+                                                })
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+
+
+                    <div class="divider"></div>
+                    @Html.Sitecore().Placeholder("header-offer")
+                </div>
+                <div class="nav-right-mobile hidden-lg @userStatusClass">
+                    <button class="btn-link profile-toggle">
+                        <span class="avatar-container @hiddenClass">
+                            @if (Model.Status == StatusEnum.Hot || Model.Status == StatusEnum.WarmCold || Model.Status == StatusEnum.WarmHot)
+                            {
+                                if (!String.IsNullOrEmpty(Model.UserImageUrl))
+                                {
+                                    <img class="avatar-hot" src="@Model.UserImageUrl" alt="avatar" />
+                                }
+                                else
+                                {
+                                    <img class="avatar-hot" alt="avatar"
+                                         src="@Model.SiteSettings.ImageUrl(Templates.SiteSettings.Fields.HeaderAvatarWarmHot)" />
+                                }
+                                <i class="up-down-arrow"></i>
+                                if (Model.HasNotificationAvatar)
+                                {
+                                    <i class="fa fa-circle red"></i>
+                                }
+                            }
+                            else
+                            {
+                                <img class="avatar-cold" alt="avatar cold"
+                                     src="@Model.SiteSettings.ImageUrl(Templates.SiteSettings.Fields.HeaderAvatar)" />
+                                <img class="avatar-cold-circle" alt="avatar cold"
+                                     src="@Model.SiteSettings.ImageUrl(Templates.SiteSettings.Fields.HeaderAvatarWarmHot)" />
+                            }
+                            <span class="close-icon">&times;</span>
+                        </span>
+                    </button>
+
+                    <a href="javascript:void(0)" class="navbar-toggle collapsed" type="button" onclick="openNavMenu()">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a href="javascript:void(0)" class="icon-close" onclick="closeNavMenu()"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="overlay-mobile hidden-lg">
+        <div id="mobile-menu" class="overlay-content hidden">
+            <ul>
+                @foreach (var menu in Model.Menus)
+                {
+                    <li>
+                        <a href="@menu.UrlItem" class="@menu.ClassAnchor" data-toggle="@menu.Toggle" @Html.Raw(menu.ClickAction)>
+                            @Html.Sitecore().Field(Templates.NavigationItem.Fields.MenuItem, menu.Item)
+                        </a>
+                        @if (menu.HasSubMenu && !Sitecore.Context.PageMode.IsExperienceEditor)
+                        {
+                            @Html.Sitecore().Field(Templates.NavigationItem.Fields.SubmenuMobile, menu.Item)
+                        }
+                    </li>
+                }
+                <li id="mobile-search" class="search">
+                    <input id="search-mobile" placeholder="Search" type="text" class="form-control">
+                    <i class="search-icon gray"></i>
+                    <i class="close-search erase" aria-hidden="true">×</i>
+                    <div class="suggesstion-box"></div>
+                </li>
+            </ul>
+            @Html.Sitecore().Placeholder("header-offer")
+        </div>
+        <div id="profile-menu" class="overlay-content hidden">
+            @if (Model.Status == StatusEnum.Cold || Model.Status == StatusEnum.Unknown)
+            {
+                <div class="get-started">
+                    <h5>@Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderGetStartedHeading, Model.SiteSettings)</h5>
+                    <p>@Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderGetStartedSubheading, Model.SiteSettings)</p>
+                    <div class="actions text-center">
+                        @Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderCreateAccount, Model.SiteSettings, new { @class = "btn m-t-xxxl" })
+                        @Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderSignIn, Model.SiteSettings, new { @class = "link" })
+                    </div>
+                </div>
+            }
+            @if (Model.Status != StatusEnum.Cold && Model.Status != StatusEnum.Unknown)
+            {
+                <div class="profile-header">
+                    <div class="profile-name">
+                        @if (!String.IsNullOrEmpty(Model.StateLogo))
+                        {
+                            <img src="/assets/neamb/images/states/@Model.StateLogo" alt="state logo">
+                        }
+                        <span class="name">@Model.Name</span>
+                    </div>
+                    <div class="profile-actions">
+                        @if (Model.Status != StatusEnum.Cold && Model.Status != StatusEnum.Unknown)
+                        {
+                            if (Model.Status == StatusEnum.Hot)
+                            {
+                                <a class="blue" href="#" onclick="$('#logout-form').submit();">
+                                    @Html.Sitecore().Field(Templates.AccountMenu.Fields.SignOut, Model.SiteSettings)
+                                </a>
+                            }
+                            else if (Model.Status == StatusEnum.WarmCold)
+                            {
+                                <a class="blue" href="#" onclick="logout('@headerSignInUrl');">
+                                    @Html.Sitecore().Field(Templates.AccountMenu.Fields.NotYou, Model.SiteSettings)
+                                </a>
+                                <span class="pipeline"></span>
+                                @Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderCreateAccount, Model.SiteSettings,
+                                    new { @class = "blue" })
+                            }
+                            else if (Model.Status == StatusEnum.WarmHot)
+                            {
+                                <a class="blue" href="#" onclick="logout('@headerSignInUrl');">
+                                    @Html.Sitecore().Field(Templates.AccountMenu.Fields.NotYou, Model.SiteSettings)
+                                </a>
+                                <span class="pipeline"></span>
+                                @Html.Sitecore().Field(Templates.SiteSettings.Fields.HeaderSignIn, Model.SiteSettings,
+                                    new { @class = "blue" })
+                            }
+                        }
+                    </div>
+                </div>
+                <div class="profile-links">
+                    @foreach (var linkItem in Model.LinkPages)
+                    {
+                        if (linkItem.IsOffer)
+                        {
+                            <a class="profile-menu-accordion" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                @Html.Raw(linkItem.LinkName)
+                            </a>
+                            <ul class="profile-menu-actions">
+                                @Html.Partial("~/Views/Neamb.Web/Renderings/_HeaderOfferProduct.cshtml", linkItem)
+                            </ul>
+                        }
+                        else
+                        {
+                            <a href="@linkItem.LinkUrl" @Html.Raw(linkItem.ClickAction)>
+                                <span>@Html.Raw(linkItem.LinkName)</span>
+                                @if (linkItem.HasNotification)
+                                {
+                                    <i class="fa fa-circle red"></i>
+                                }
+                            </a>
+                        }
+
+                    }
+                </div>
+            }
+            @Html.Sitecore().Placeholder("header-offer")
+        </div>
+    </div>
+</section>
+
+<form id="logout-form" method="post" style="display: none;" action="/api/AuthenticationAccount/LogoutForm">
+    <input type="hidden" name="linkpage" id="linkpage" value="" />
+</form>
+
+<script type="text/javascript">
+
+    // -------------------------------------------------------------------------------------------------------
+    function logout(linkpage) {
+        $('#linkpage').val(linkpage); $('#logout-form').submit();
+    }
+</script>

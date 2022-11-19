@@ -1,0 +1,125 @@
+﻿---
+ID: "daac140b-7b7e-4535-b473-64789c375916"
+Parent: "dfbcccc4-891e-4677-b499-a0b0739482c9"
+Template: "dfbcccc4-891e-4677-b499-a0b0739482c9"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_RegistrationThankYou/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180111T170841Z
+    - ID: "40b3fb3f-b0f2-46c0-8b56-4c570f6a3508"
+      Hint: Title
+      Value: Thank You
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7191cb07-19d5-4574-a5d2-cee11318614b"
+      Hint: UnverifiedMember
+      Value: |
+        <p>Thank you for registering on SEIUMB.com. Unfortunately, we were unable to validate you as a current SEIU member. This may be a result of having your name / address on file incorrectly or incorrect information regarding your current status with the union in our records.</p>
+        <p>We want to ensure you have access to all the Union's programs available to you immediately. Please contact our Member Service Center by calling 1-844-836-7348. We are open Mon-Fri: 8am to 8pm ET and Saturday from 9am to 1pm ET.</p>
+        <p>Our goal at SEIU Member Benefits is to make your membership in our union as valuable in your personal life as it is in your professional life. Our team is ready to help and will promptly solve the issue so that you can begin accessing our benefits right away.</p>
+        <p>We look forward to hearing from you!</p>
+        <p>Stay connected with us and thousands of fellow SEIU members when you follow:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p>Now, every time you sign in, you'll be able to access all the benefits available to you as an SEIU member. Please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a>&nbsp;any time if you have questions.</p>
+        <p>Stay connected with us and thousands of fellow SEIU members when you follow:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continue" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180111T171547Z
+    - ID: "40b3fb3f-b0f2-46c0-8b56-4c570f6a3508"
+      Hint: Title
+      Value: Gracias
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7191cb07-19d5-4574-a5d2-cee11318614b"
+      Hint: UnverifiedMember
+      Value: |
+        <p>Gracias por registrarse en SEIUMB.com. Lamentablemente, no pudimos validarlo como miembro actual de SEIU. Esto puede deberse a que su nombre, direcci&oacute;n o la informaci&oacute;n con relaci&oacute;n a su estado actual en el sindicato en nuestros registros sean incorrectos.</p>
+        <p>Queremos asegurarnos de que tenga acceso inmediato a todos los beneficios de el Sindicato que est&aacute;n disponibles para usted. Comun&iacute;quese con nuestro Centro de servicio para miembros llamando al 1-844-836-7348. Nuestro horario de atenci&oacute;n es de lunes a viernes, de 8 a.m. a 8 p.m., hora del este, y los s&aacute;bados de 9 a.m. a 1 p.m., hora del este.</p>
+        <p>Nuestra meta en los Beneficios para miembros de SEIU es hacer que su membres&iacute;a en nuestro sindicato sea tan valiosa en su vida personal como lo es en su vida profesional. Nuestro equipo est&aacute; listo para ayudar y resolver&aacute; r&aacute;pidamente el problema para que pueda comenzar a acceder a nuestros beneficios de inmediato.</p>
+        <p>&iexcl;Ansiamos tener noticias suyas pronto!</p>
+        <p>Permanezca conectado con nosotros y miles de miembros siguiendo:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p>Ahora cada vez que ingrese usted tendr&aacute; acceso a los beneficios disponibles para su membres&iacute;a en SEIU.&nbsp;Por favor <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">cont&aacute;ctenos</a> en cualquier momento si usted necesita ayuda.</p>
+        <p>Permanezca conectado con nosotros y miles de miembros siguiendo:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="facebook" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="twitter" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continuar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />

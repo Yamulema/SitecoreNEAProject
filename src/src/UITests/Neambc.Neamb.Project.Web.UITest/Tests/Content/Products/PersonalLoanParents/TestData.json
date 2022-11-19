@@ -1,0 +1,23 @@
+{
+  "ColdState": [
+    [
+      "dataLayerPush({'event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "WarmState": [
+    [
+      "999",
+      "dataLayerPush({'event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Get Started','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Get Started','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "HotState": [
+    [
+      "nea.nadine@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'product cta','productName':'NEA Parent Loan Program','ctaText':'Get Started','clickHref':'https://www.collegeavestudentloans.com/lp/parent-loans/'},this)",
+      "dataLayerPush({'event':'product cta','productName':'NEA Parent Loan Program','ctaText':'Get Started','clickHref':'https://www.collegeavestudentloans.com/lp/parent-loans/'},this)"
+    ]
+  ]
+}

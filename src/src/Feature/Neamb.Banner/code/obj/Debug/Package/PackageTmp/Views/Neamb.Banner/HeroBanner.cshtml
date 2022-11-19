@@ -1,0 +1,70 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Banner
+@using Neambc.Neamb.Feature.Banner.Repositories.Enums
+@using Sitecore.Data.Templates
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    string cssBackground = "";
+    var backColorSitecore = Model.Item[Templates.HeroBanner.Fields.BackgroundColor];
+    if (backColorSitecore == "Dark Blue") {
+        cssBackground = "bg-blue";
+    }
+    else if (backColorSitecore == "Gray")
+    {
+        cssBackground = "bg-gray";
+    }
+    else if (backColorSitecore == "White")
+    {
+        cssBackground = "bg-white";
+    }
+}
+<section class="c-075 new-design">
+
+    <div class="container-fluid @cssBackground">
+        <div class="hero-banner-desktop" style="background-image: url('@Model.Item.ImageUrl(Templates.HeroBanner.Fields.DesktopBackgroundImage)');">
+
+            <div class="hero-container">
+
+                @Html.Sitecore().Field(Templates.HeroBanner.Fields.TopLayerImage, Model.Item, new { @class = "hero-image-secondary", loading = "lazy" })
+
+                <div class="hero-text">
+
+                    <div class="top">
+
+                        @Html.Sitecore().Field(Templates.HeroBanner.Fields.Headline, Model.Item)
+
+                        @Html.Sitecore().Field(Templates.HeroBanner.Fields.Subheadline, Model.Item)
+
+                    </div>
+
+                    <div class="bottom">
+                        @Html.Sitecore().Field(Templates.HeroBanner.Fields.Body, Model.Item)
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-banner-mobile" style="background-image: url('@Model.Item.ImageUrl(Templates.HeroBanner.Fields.MobileBackgroundImage)');">
+            <div class="hero-text">
+                <div class="top">
+                    @Html.Sitecore().Field(Templates.HeroBanner.Fields.Headline, Model.Item)
+
+                    @Html.Sitecore().Field(Templates.HeroBanner.Fields.Subheadline, Model.Item)
+                </div>
+                <div class="bottom">
+                    @Html.Sitecore().Field(Templates.HeroBanner.Fields.Body, Model.Item)
+                </div>
+            </div>
+        </div>
+
+    </div>
+    @Html.Sitecore().Field(Templates.HeroBanner.Fields.TabText, Model.Item)
+
+</section>

@@ -1,0 +1,101 @@
+﻿---
+ID: "6a53f97a-14a2-4158-a028-c565b9259b72"
+Parent: "65a3b35c-d1fd-4c36-b0c8-79b0244b746a"
+Template: "65a3b35c-d1fd-4c36-b0c8-79b0244b746a"
+Path: /sitecore/templates/SEIUMB/Feature/Rakuten/_StoresList/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIUMB Member Discount Marketplace</h2>
+        <div class="row">
+        <div class="image-carousel">
+        <div class="small-12 medium-12 large-12 columns">
+        <img alt="" src="-/media/bc3e1bfbcf444e8c9dd6051c07bd8096.ashx" />
+        </div>
+        <div class="small-12 medium-12 large-12 columns">
+        <img alt="" src="-/media/680fb09c92ef4fca8f2d5b35531a1b11.ashx" />
+        </div>
+        <div class="small-12 medium-12 large-12 columns">
+        <img alt="" src="-/media/e18c545f23534ceeb21f295793d19185.ashx" />
+        </div>
+        <div class="small-12 medium-12 large-12 columns">
+        <img alt="" src="-/media/dc7df0b5c3f04442b6c20be05a55cb88.ashx" />
+        </div>
+        <div class="small-12 medium-12 large-12 columns">
+        <img alt="" src="-/media/6acaa167c7704e4bbfe76e1d6ec699cb.ashx" /> alt=""&gt;
+        </div>
+        </div>
+        </div>
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: Discounts Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201117T225556Z
+    - ID: "37d4c808-bd7d-445f-af45-8fda7828f1ae"
+      Hint: Cancel Button Label
+      Value: Cancel
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="#">Contact Us</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="More questions? Read the FAQs" linktype="anchor" url="faq" anchor="faq" title="" class="" />
+    - ID: "79bca8e0-1d55-4783-a297-2d9d9e155b95"
+      Hint: Registration Error Message
+      Value: There was an error trying to signing up with Rakuten. Please try again.
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <p class="text-center">There are no favorite stores available</p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: See More Cash Back
+    - ID: "8577c63a-b7a4-4680-ac7a-640c7a6824ff"
+      Hint: Confirmation Button Label
+      Value: I Agree
+    - ID: "8fc91357-60a2-487d-b269-d1a2e7b6a2cc"
+      Hint: Subheadline
+      Value: |
+        <p>Cash Back powered by <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="#" data-open="not-elegible-modal">Contact Us</a>
+        </div>
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: |
+        By activating cash back, you will create a Rakuten account with this email address and agree to NEA's MBC Terms of Service and Privacy Policy, and to Rakuten's Terms of Service and Privacy Policy.
+        
+        New Rakuten members will receive and email to finish account set up.
+    - ID: "be9da227-4864-45c2-b138-8c856a662de2"
+      Hint: Store List Label
+      Value: Browse Cash Back Stores
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Skip and start shopping
+    - ID: "f9eba9ae-2634-4ca3-8ade-a8c446335792"
+      Hint: No Results Text
+      Value: No Search Results

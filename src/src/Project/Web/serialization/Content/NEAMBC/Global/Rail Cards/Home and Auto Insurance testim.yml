@@ -1,0 +1,61 @@
+﻿---
+ID: "76924316-b62e-4b69-95fe-4c5622a7ffe9"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Home and Auto Insurance testimonial Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175025Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3 style="text-align: center;">Joe&rsquo;s Story</h3>
+        <p><em>&ldquo;I received an offer from SEIU Member Benefits to possibly lower my homeowner&rsquo;s insurance, and when I got the quote, IT was indeed half of what I could find elsewhere, so I&rsquo;m now saving over $1,500 annually from utilizing SEIU MEMBER Benefits! I recommend looking into our member benefits for auto or home insurance.&rdquo;</em></p>
+        <p>&ndash;Joe, SEIU Local 32BJ</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Member Testimonial
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: 
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175652Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3 style="text-align: center;">La historia de Joe</h3>
+        <p><em>“Recibí una oferta de Beneficios para Miembros de SEIU para posiblemente reducir mi seguro de hogar, y cuando me enviaron el presupuesto, en efecto era la mitad de lo que encontraba en cualquier otro lugar, ¡así que estoy ahorrando más de $1 500 por año por utilizar los beneficios para miembros de SEIU! Recomiendo analizar los beneficios para miembros al buscar un seguro de auto o de hogar.”</em></p>
+        <p>–Joe, SEIU Local 32BJ</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Testimonial de los miembros
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: 

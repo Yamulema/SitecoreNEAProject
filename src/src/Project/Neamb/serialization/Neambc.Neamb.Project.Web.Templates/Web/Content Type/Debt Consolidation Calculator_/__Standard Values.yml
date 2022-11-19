@@ -1,0 +1,23 @@
+﻿---
+ID: "4f3de1cb-f6c9-4635-9938-0325c9b6483f"
+Parent: "0c40bfa4-32c3-4c22-a0d5-f85580932c49"
+Template: "0c40bfa4-32c3-4c22-a0d5-f85580932c49"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Debt Consolidation Calculator C085 Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{BCAB5682-C085-4190-B6A3-25FA1180A293}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220914T023308Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,22 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Banner
+@using Neambc.Neamb.Feature.Banner.Repositories.Enums
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Banner.Models.HeadlineHeroDto
+
+@switch (Model.Type)
+{
+    case HeadlineType.NoImage:
+        @Html.Partial("~/Views/Neamb.Banner/Partials/_NoImageHero.cshtml", Model)
+        break;
+    case HeadlineType.HeroImage:
+        @Html.Partial("~/Views/Neamb.Banner/Partials/_HeroImage.cshtml", Model)
+        break;
+    case HeadlineType.LargeHeroImage:
+        @Html.Partial("~/Views/Neamb.Banner/Partials/_LargeHeroImage.cshtml", Model)
+        break;
+    case HeadlineType.NoImageLight:
+        @Html.Partial("~/Views/Neamb.Banner/Partials/_HeadlineImageHeroLight.cshtml", Model)
+        break;
+}

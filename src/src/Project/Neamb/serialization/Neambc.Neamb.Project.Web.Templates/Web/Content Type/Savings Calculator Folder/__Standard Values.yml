@@ -1,0 +1,52 @@
+﻿---
+ID: "5f4d1ade-197f-4849-ac4d-4ae04a0551f9"
+Parent: "c7084e70-6434-49fb-bc06-7b7ad02b2941"
+Template: "c7084e70-6434-49fb-bc06-7b7ad02b2941"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Savings Calculator Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{ED76AF4C-2772-4307-A86C-30429D08059E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1973c952-1e61-4dab-9b9d-5bf17f54b9cc"
+      Hint: Button Text
+      Value: "Ring it Up!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220728T172005Z
+    - ID: "32d7eb3e-4fd1-41e4-932e-acfb3f09eb91"
+      Hint: Result Descripton
+      Value: |
+        <p class="result-description text-justify">Insert description here</p>
+    - ID: "38fa9ec7-9824-45f4-b43f-9aebb24650fd"
+      Hint: Post Result Text
+      Value: "<h5>this year by using your NEA member benefits!</h5>"
+    - ID: "439294e8-3ab8-426c-8263-f9fd00fd9a17"
+      Hint: Image
+      Value: |
+        <image mediaid="{2343ABA8-F712-4CAA-8168-4D110368F4AD}" />
+    - ID: "5b792f13-c9d9-4429-b452-1ea77f1784b8"
+      Hint: Button Text
+      Value: Check My Savings
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6018abcb-ce07-436c-af98-1b467b2543a9"
+      Hint: Back Button Text
+      Value: Recalculate
+    - ID: "6abad63d-d920-498f-8302-96cd80b74c07"
+      Hint: Pre Result Text
+      Value: "<h5>Wow! You might be able to save at least</h5>"
+    - ID: "9aff6f4c-96bd-496c-9a83-7594a29ef310"
+      Hint: Description
+      Value: <h5>Insert Description Here</h5>
+    - ID: "b455cec7-9c28-4d2a-9abd-8dd07d769a48"
+      Hint: Headline Text
+      Value: <h5>Insert Headline Here</h5>

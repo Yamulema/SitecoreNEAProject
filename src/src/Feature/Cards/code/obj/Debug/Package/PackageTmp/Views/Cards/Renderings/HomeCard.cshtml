@@ -1,0 +1,16 @@
+﻿@using Neambc.Seiumb.Feature.Cards
+@using Sitecore.Data.Items
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var xpRowClass = @isExperienceEditor ? "xpEditor_CardRow" : "";
+}
+
+<section id="cards" class="row @xpRowClass">
+    <div class="small-12 medium-12 large-12 columns">
+        <div class="row">
+            @Html.Sitecore().DynamicPlaceholder("cards-row")
+        </div>
+    </div>
+</section>

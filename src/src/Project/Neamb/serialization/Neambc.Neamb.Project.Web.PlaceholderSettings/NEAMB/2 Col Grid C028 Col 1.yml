@@ -1,0 +1,22 @@
+﻿---
+ID: "cc62ed7d-f17f-4b7e-8bca-801538d85f27"
+Parent: "91b8a564-b0b5-4943-b331-7dd62021ba49"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/NEAMB/2 Col Grid C028 Col 1
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "two-column-grid-item-col1"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{267E5891-C9D9-435E-99A9-A8B443B1E636}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180529T212617Z

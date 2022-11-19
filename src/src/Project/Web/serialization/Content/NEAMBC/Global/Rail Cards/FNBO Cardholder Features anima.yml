@@ -1,0 +1,165 @@
+﻿---
+ID: "6770843b-9f1c-40e8-a6d8-126516a40c38"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/FNBO Cardholder Features animated rail card 7_1_2020
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T141415Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Fraud Protection</strong> - We monitor your account 24/7, and if we suspect fraudulent activity on your credit card, we notify you immediately.</p>
+        <p><strong>Online Services</strong> - Enjoy an easy and secure way to check your balance and monitor spending, set up Account Alerts and AutoPay.</p>
+        <p><strong>Mobile App</strong> - Manage your account from your mobile phone--wherever you are. It's secure, simple and at your fingertips.</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Cardholder Features
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{EFF32629-FC96-4E7E-B277-342C00A895B8}" />
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T144642Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Fraud Protection</strong> - We monitor your account 24/7, and if we suspect fraudulent activity on your credit card, we notify you immediately.</p>
+        <p><strong>Online Services</strong> - Enjoy an easy and secure way to check your balance and monitor spending, set up Account Alerts and AutoPay.</p>
+        <p><strong>Mobile App</strong> - Manage your account from your mobile phone--wherever you are. It's secure, simple and at your fingertips.</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Cardholder Features
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T144642Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{EFF32629-FC96-4E7E-B277-342C00A895B8}" ></image>
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T150337Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Fraud Protection</strong> - We monitor your account 24/7, and if we suspect fraudulent activity on your credit card, we notify you immediately.</p>
+        <p><strong>Online Services</strong> - Enjoy an easy and secure way to check your balance and monitor spending, set up Account Alerts and AutoPay.</p>
+        <p><strong>Mobile App</strong> - Manage your account from your mobile phone--wherever you are. It's secure, simple and at your fingertips.</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Cardholder Features
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T150337Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{EFF32629-FC96-4E7E-B277-342C00A895B8}" ></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T150126Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Protecci&oacute;n contra fraudes</strong> - Monitoreamos su cuenta de manera continua. Si sospechamos que hay actividad fraudulenta en su tarjeta de cr&eacute;dito, le notificaremos de inmediato.</p>
+        <p><strong>Servicios en l&iacute;nea</strong> - Disfrute de una forma f&aacute;cil y segura de revisar su saldo y monitorear sus gastos, configurar las alertas de su cuenta y el pago autom&aacute;tico.</p>
+        <p><strong>Aplicaci&oacute;n m&oacute;vil</strong> - Administre su cuenta desde su tel&eacute;fono m&oacute;vil donde sea que est&eacute;. Es segura, sencilla y de f&aacute;cil acceso.</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Características del titular de la tarjeta
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{EFF32629-FC96-4E7E-B277-342C00A895B8}" alt="Características del titular de la tarjeta" height="" width="" hspace="" vspace="" />
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T151641Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Protecci&oacute;n contra fraudes</strong> - Monitoreamos su cuenta de manera continua. Si sospechamos que hay actividad fraudulenta en su tarjeta de cr&eacute;dito, le notificaremos de inmediato.</p>
+        <p><strong>Servicios en l&iacute;nea</strong> - Disfrute de una forma f&aacute;cil y segura de revisar su saldo y monitorear sus gastos, configurar las alertas de su cuenta y el pago autom&aacute;tico.</p>
+        <p><strong>Aplicaci&oacute;n m&oacute;vil</strong> - Administre su cuenta desde su tel&eacute;fono m&oacute;vil donde sea que est&eacute;. Es segura, sencilla y de f&aacute;cil acceso.</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Beneficios de la tarjeta
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T151641Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{EFF32629-FC96-4E7E-B277-342C00A895B8}" alt="Características del titular de la tarjeta" height="" width="" hspace="" vspace="" ></image>

@@ -1,0 +1,74 @@
+﻿@using Neambc.Seiumb.Feature.Forms
+@using Neambc.Seiumb.Feature.Forms.Enums
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Neambc.Seiumb.Feature.Forms.Models.SessionFormModel
+
+<div class="reveal" id="debug-modal" data-reveal>
+	<h2>Debug Modal</h2>
+	<div class="row">
+		<div class="medium-12 columns">
+			<div class="panel">
+				<p>
+					<b>Session Id:</b>@Model.SessionId
+					<br>
+					<b>Is Authenticated:</b>@Model.IsAuthenticated
+					<br>
+					<b>Profile Email:</b>@Model.ProfileEmail
+					<br>
+					<b>CD:</b>@Model.IPCD
+					<br>
+					<b>MDSID:</b>@Model.MdsId
+					<br>
+					<b>User status:</b>@Model.UserStatus
+					<br>
+					<b>First Name:</b>@Model.FirstName
+					<br>
+					<b>Last Name:</b>@Model.LastName
+					<br>
+					<b>Birthdate:</b>@Model.BirthDate
+					<br>
+					<b>City:</b>@Model.City
+					<br>
+					<b>Duplicate Email:</b>@Model.DuplicateEmail
+					<br>
+					<b>Email:</b>@Model.Email
+					<br>
+					<b>Email List:</b>@Model.EmailList
+					<br>
+					<b>Email Permission:</b>@Model.EmailPermission
+					<br>
+					<b>Membership Category Code:</b>@Model.MembershipCategoryCode
+					<br>
+					<b>Membership Type:</b>@Model.MembershipType
+					<br>
+					<b>Phone:</b>@Model.Phone
+					<br>
+					<b>Registered:</b>@Model.Registered
+					<br>
+					<b>Sea name:</b>@Model.SeaName
+					<br>
+					<b>Sea number:</b>@Model.SeaNumber
+					<br>
+					<b>Seiu Current Member:</b>@Model.SeiuCurrentMember
+					<br>
+					<b>Seiu Local Name:</b>@Model.SeiuLocalName
+					<br>
+					<b>Seiu Local Number:</b>@Model.SeiuLocalNumber
+					<br>
+					<b>State code:</b>@Model.StateCode
+					<br>
+					<b>Street address:</b>@Model.StreetAddress
+					<br>
+					<b>Web user id:</b>@Model.WebUserId
+					<br>
+					<b>Zip code:</b>@Model.ZipCode
+				</p>
+			</div>
+		</div>
+	</div>
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>
+
+<button id="debug-button" class="menu-icon" data-open="debug-modal"></button>

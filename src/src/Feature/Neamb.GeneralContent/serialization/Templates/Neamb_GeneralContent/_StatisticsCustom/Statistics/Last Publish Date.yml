@@ -1,0 +1,18 @@
+﻿---
+ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+Parent: "a3a56924-a3ab-4058-8eea-44f9d07768bf"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_StatisticsCustom/Statistics/Last Publish Date
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Datetime
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180730T154616Z

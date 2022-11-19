@@ -1,0 +1,32 @@
+﻿---
+ID: "7b5227bd-3abe-4aa7-897d-587a1ad9390d"
+Parent: "7d036f25-0eb3-4bed-a0f6-d4c0873d1b24"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Product Passthrough
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/16x16/phone_redirect.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {3D72C5CE-6691-4E51-AEFC-59D1C19CF688}
+    {2D3B7389-4171-406A-8319-03A7807988D5}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{C164A734-0D68-415B-B832-F75DCC97B7EB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200513T193839Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

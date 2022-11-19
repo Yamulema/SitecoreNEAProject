@@ -1,0 +1,31 @@
+﻿---
+ID: "afc7175b-3c60-4309-8bee-18ec57cdf5b9"
+Parent: "e69311dc-e7d8-4882-8c82-4d274b9218cf"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Project/Web/Header C039
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/NEAMB/Project/Web/Site Settings/SiteSettings
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/NEAMB/Global/Site Settings
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: HeaderNewDesign
+- ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+  Hint: Compatible Renderings
+  Type: Treelist
+  Value: "{9B9F5F37-2460-4119-B48E-971922C4C899}"
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Project.Web.Controllers.HeaderController,Neambc.Neamb.Project.Web
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180417T192758Z

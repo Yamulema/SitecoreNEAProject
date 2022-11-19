@@ -1,0 +1,484 @@
+﻿---
+ID: "29a1da1c-80c4-4426-85b4-8d10e6ee3739"
+Parent: "488e9493-1e67-4e2e-89ad-675a188e6a4e"
+Template: "488e9493-1e67-4e2e-89ad-675a188e6a4e"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_Profile/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0099c2ba-3b94-45ea-b770-c7a61528ce6d"
+      Hint: CurrentPasswordError
+      Value: Please insert your current password
+    - ID: "04aa478e-aa4a-4538-a705-27698570e227"
+      Hint: DateOfBirthAgeRequirement
+      Value: You must be at least 16 years old and no more than 90 years old to be an SEIU member.
+    - ID: "07df3e3a-6929-4bf5-aba1-aabd791cdeb7"
+      Hint: LastNamePlaceholder
+      Value: last name
+    - ID: "0909640c-24dd-4a73-9c42-23b75b867a0e"
+      Hint: FirstNameCharactersLimit
+      Value: You can enter only '15' characters in this field.
+    - ID: "0a844b49-a6fd-4d87-b257-7022d27a21bf"
+      Hint: TabTitle
+      Value: Password
+    - ID: "12b51fb0-11ea-4b00-b385-7a23648bc495"
+      Hint: Subheadline
+      Value: Please use this form to change the password you use to login to the SEIUMB.com website.
+    - ID: "14078523-0f1b-486c-98c8-01e246081c98"
+      Hint: SubmitButton
+      Value: Change Username
+    - ID: "1a235878-e5c6-4903-8ed1-43f48171a74b"
+      Hint: CityCharactersLimit
+      Value: You can enter only '44' characters in this field.
+    - ID: "2186bf61-163a-477d-bda2-c4f795f081b9"
+      Hint: Headline
+      Value: Change your password
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T193747Z
+    - ID: "26031da4-6278-41f0-a01e-c756d8a407b6"
+      Hint: LastNameCharactersLimit
+      Value: You can enter only '30' characters in this field.
+    - ID: "27fee4ed-819d-4ea9-b80b-37b9ae2d3a7d"
+      Hint: ZipCodePlaceholder
+      Value: _____
+    - ID: "2dee9291-7a63-4403-92da-ad99810537c5"
+      Hint: ConfirmNewPasswordPlaceholder
+      Value: confirm new password
+    - ID: "387dd14d-667b-49a4-9c03-45ca8088aaa8"
+      Hint: LastNameErrorMessage
+      Value: Please insert your last name
+    - ID: "3a29a784-280b-4393-b05e-cbc720470fe5"
+      Hint: CityLabel
+      Value: City*
+    - ID: "3bd498ca-b468-483f-83ea-511737ef57cc"
+      Hint: OptIn
+      Value: Yes, I want to receive information about financial, insurance and discount benefits exclusively available to SEIU members, including special offers and other perks of SEIU membership.
+    - ID: "401afc4a-102a-42ba-9d23-17178c567b73"
+      Hint: Title
+      Value: My Account
+    - ID: "44440e30-24dc-4adb-bf5b-412acce179c7"
+      Hint: Subheadline
+      Value: Please use this form to change the email you use to login to the SEIUMB.com website.
+    - ID: "4b4b4e04-a4a2-4a20-ba33-230adb79322b"
+      Hint: ZipCodeCharactersLimit
+      Value: You can enter only '5' characters in this field.
+    - ID: "4bc50b8a-3fd8-4ba0-9a04-e17076ecdc10"
+      Hint: UsernameConfirmationLabel
+      Value: Confirm New Username*
+    - ID: "4ceff60c-6943-4567-9b16-223500db62f8"
+      Hint: TabTitle
+      Value: Profile
+    - ID: "4fb5c21a-fe6b-4c01-8616-b183a65e5bce"
+      Hint: SubmitButton
+      Value: Save Changes
+    - ID: "524d9a4b-e3e4-488f-a162-faa777e263f3"
+      Hint: CityPlaceholder
+      Value: city
+    - ID: "5413d1c2-9515-4633-86e4-21e4b37f8b4f"
+      Hint: NewUsernameLabel
+      Value: New Username*
+    - ID: "550e7a7c-be80-4052-a0c5-2b8d9e541bee"
+      Hint: AddressCharactersLimit
+      Value: You can enter only '44' characters in this field.
+    - ID: "555997ed-797c-4481-bfdc-cb24ccca0ce4"
+      Hint: StateLabel
+      Value: State*
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "646a313a-590f-48ab-8b0d-d10aeb12358c"
+      Hint: QuickLinks
+      Value: |
+        <h5>Quick links</h5>
+        <ul>
+            <li><a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a></li>
+        </ul>
+    - ID: "64e0b9f1-4564-4bd6-9412-fb4b5d4509cf"
+      Hint: PhoneNumberLabel
+      Value: Phone*
+    - ID: "6bb22f35-95a3-416f-b7db-774648698967"
+      Hint: Email In Use
+      Value: User | already exists
+    - ID: "7c0b94a0-16cd-4b91-a793-6fc083b3e0fa"
+      Hint: InvalidCharacters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "7e5cb933-e978-490e-bbe6-6ef0a7c3a146"
+      Hint: QuickLinks
+      Value: |
+        <h5>Quick links</h5>
+        <ul>
+            <li><a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a></li>
+        </ul>
+    - ID: "83486c75-9a54-4437-9eac-2a42a0c37640"
+      Hint: PasswordError
+      Value: Current password does not match on record stored password, please try again.
+    - ID: "8682210d-0d92-40d3-a527-0b99d358a207"
+      Hint: StatePlaceholder
+      Value: please select
+    - ID: "8c682a25-475d-4d4b-8538-9ef1c4ebed89"
+      Hint: AddressLabel
+      Value: Address*
+    - ID: "8dd16797-ab4a-4b5a-a65d-dbbc94ff8aa2"
+      Hint: InvalidPassword
+      Value: "Invalid!"
+    - ID: "936d9cb1-7f43-4d67-9625-aef7e2b7d748"
+      Hint: AddressPlaceholder
+      Value: address
+    - ID: "97b8b630-9ec7-4052-807a-2470919b6975"
+      Hint: FirstNameErrorMessage
+      Value: Please insert your first name
+    - ID: "98448c9d-3e35-4b5f-bc4c-46ed828ad308"
+      Hint: ZipCodeErrorMessage
+      Value: Please insert your zip code
+    - ID: "a0650335-0fe2-46eb-b01e-7e7c9dea0d2d"
+      Hint: DateOfBirthLabel
+      Value: Date of Birth*
+    - ID: "a6196f8d-033b-4505-b398-f423951c2aeb"
+      Hint: PhoneNumberPlaceholder
+      Value: "(___)___-____"
+    - ID: "a8c88300-19d7-483b-82cf-5f641481cb54"
+      Hint: TabTitle
+      Value: Username / Email
+    - ID: "ab47eb62-870b-4564-9289-61a2fcd60822"
+      Hint: CurrentPasswordLabel
+      Value: Your Current Password*
+    - ID: "ab5122b5-c170-4207-bcba-86e480b4bb84"
+      Hint: ZipCodeLabel
+      Value: Zip Code*
+    - ID: "b37a6b0f-0049-4b5e-a3a3-dcbc053cb6e2"
+      Hint: Headline
+      Value: Update your account profile
+    - ID: "b4593e80-2eed-421a-a3dc-723409054a7c"
+      Hint: PhoneCharactersLimit
+      Value: You can enter only '10' characters in this field.
+    - ID: "b481ed26-3261-491e-bf93-e97744022842"
+      Hint: DateOfBirthPlaceholder
+      Value: mm/dd/yyyy
+    - ID: "b540c072-076c-45e8-99b7-e0592e3a7715"
+      Hint: LastNameLabel
+      Value: Last Name*
+    - ID: "b6eca548-3f44-4702-959a-d67533bf9edc"
+      Hint: DateOfBirthErrorMessage
+      Value: Please insert a valid date (mm/dd/yyyy)
+    - ID: "b7ab67ad-dd0a-4692-ad90-b6d1ded8d9f2"
+      Hint: Username Empty Field
+      Value: Please insert your email
+    - ID: "ba176d84-4cc9-4a81-a6d9-a442db504deb"
+      Hint: NewPassworldLabel
+      Value: New Password*
+    - ID: "ba425b33-cb3f-4c18-a2d8-3ee6c4cc8b6e"
+      Hint: CurrentUsernameLabel
+      Value: Your Current Username
+    - ID: "bc26d75e-a341-474a-a399-de172d709bc2"
+      Hint: Username Warning
+      Value: |
+        The email address provided is considered a "work" email address because it contains ".k12" or ".edu".  You can still use it as your SEIUMB.com username. However, due to SEIUMB policy, we may not be able to send valuable information to this email address, such as special offers, discounts and other benefits of membership.
+    - ID: "c4833ee6-34e9-4bf9-8fb4-79bf2c2b3467"
+      Hint: NewUsernameError
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again.
+    - ID: "c6c03ab2-75e5-4bdb-addc-fe81cfa557b9"
+      Hint: UsernameConfirmationError
+      Value: Usernames entered do not match.
+    - ID: "cdfb3197-bdaf-4280-86dc-9a9a38a5e49f"
+      Hint: NewUsernameCharactersLimit
+      Value: You can enter only '100' characters in this field
+    - ID: "d12908ac-1b76-4a12-b8bb-b1870d662e4d"
+      Hint: CityErrorMessage
+      Value: Please insert your city
+    - ID: "d1d6bb8e-5bdd-4c20-9bf3-ea77a0d60ed9"
+      Hint: UsernameConfirmationCharactersLimit
+      Value: You can enter only '100' characters in this field
+    - ID: "d44c3e87-72f3-4589-a2d1-e0113a840994"
+      Hint: AddressErrorMessage
+      Value: Please insert your address
+    - ID: "d509ba1c-a2c6-43fb-a3ea-181c3ba9da1d"
+      Hint: ConfirmNewPasswordLabel
+      Value: Confirm New Password*
+    - ID: "d9bdfa53-a68c-4e74-bb73-c42689c2f253"
+      Hint: FirstNamePlaceholder
+      Value: first name
+    - ID: "db3367ae-7b4d-429b-8ebf-bd30d2a57677"
+      Hint: FirstNameLabel
+      Value: First Name*
+    - ID: "db9e6aae-cb64-4fa2-876b-afdcdb83e785"
+      Hint: NewUsernamePlaceholder
+      Value: new username
+    - ID: "dbdb0427-40a1-4a0f-aa3b-ab39a20ed7f2"
+      Hint: PhoneNumberErrorMessage
+      Value: Please insert your phone number
+    - ID: "e1214e99-d714-48f7-9eb7-c3949fec6d9b"
+      Hint: ValidPassword
+      Value: "Valid!"
+    - ID: "e54e600f-b4e9-45a9-9281-1197c9575004"
+      Hint: UsernameConfirmationPlaceholder
+      Value: confirm new username
+    - ID: "eb52c971-c5c6-41c7-bccd-eca742ba9921"
+      Hint: Headline
+      Value: Change your username/email
+    - ID: "f15657a2-0ca1-481e-b01f-0166043c36ed"
+      Hint: SubmitButton
+      Value: Change Password
+    - ID: "f5a86667-c734-44df-b2b0-3c63fd8fff8d"
+      Hint: NewPassworldPlaceholder
+      Value: new password
+    - ID: "f7882f79-3d9b-4567-adda-aec51339b083"
+      Hint: StateErrorMessage
+      Value: Please select your state
+    - ID: "f7a121e8-3c05-4aa0-a24a-f1602ef53a93"
+      Hint: ConfirmNewPasswordError
+      Value: "Hey, passwords are supposed to match!"
+    - ID: "f8b04407-8ecc-490b-a2b1-73d970b1066e"
+      Hint: CurrentPasswordPlaceholder
+      Value: your current password
+    - ID: "fa2f0029-ff17-493c-b349-9a6fe90ec44b"
+      Hint: PasswordRequirements
+      Value: Please enter a password that is at least 8 characters long, contains at least 1 letter, contains at least 1 number and does not contain any spaces.
+    - ID: "fa4fcde3-cf69-4f84-be93-c7aff9b0ecee"
+      Hint: QuickLinks
+      Value: |
+        <h5>Quick links</h5>
+        <ul>
+            <li><a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a></li>
+        </ul>
+    - ID: "fdbc4029-7a1e-4d6f-8d8f-9ea6ef8a2909"
+      Hint: Subheadline
+      Value: Please use this form to update your account profile
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0099c2ba-3b94-45ea-b770-c7a61528ce6d"
+      Hint: CurrentPasswordError
+      Value: Por favor ingrese su contraseña actual
+    - ID: "04aa478e-aa4a-4538-a705-27698570e227"
+      Hint: DateOfBirthAgeRequirement
+      Value: Usted debe tener al menos 16 años y no más de 90 años para ser miembro de SEIU.
+    - ID: "07df3e3a-6929-4bf5-aba1-aabd791cdeb7"
+      Hint: LastNamePlaceholder
+      Value: apellido
+    - ID: "0909640c-24dd-4a73-9c42-23b75b867a0e"
+      Hint: FirstNameCharactersLimit
+      Value: Usted puede ingresar solo '15' caracteres en este campo.
+    - ID: "0a844b49-a6fd-4d87-b257-7022d27a21bf"
+      Hint: TabTitle
+      Value: Contraseña
+    - ID: "12b51fb0-11ea-4b00-b385-7a23648bc495"
+      Hint: Subheadline
+      Value: Por favor use el siguiente formulario para cambiar la contraseña que usted usa para ingresar a SEIUMB.com
+    - ID: "14078523-0f1b-486c-98c8-01e246081c98"
+      Hint: SubmitButton
+      Value: Cambiar Usuario
+    - ID: "1a235878-e5c6-4903-8ed1-43f48171a74b"
+      Hint: CityCharactersLimit
+      Value: Usted puede ingresar solo '44' caracteres en este campo.
+    - ID: "2186bf61-163a-477d-bda2-c4f795f081b9"
+      Hint: Headline
+      Value: Actualice su contraseña
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T194411Z
+    - ID: "26031da4-6278-41f0-a01e-c756d8a407b6"
+      Hint: LastNameCharactersLimit
+      Value: Usted puede ingresar solo '30' caracteres en este campo.
+    - ID: "27fee4ed-819d-4ea9-b80b-37b9ae2d3a7d"
+      Hint: ZipCodePlaceholder
+      Value: _____
+    - ID: "2dee9291-7a63-4403-92da-ad99810537c5"
+      Hint: ConfirmNewPasswordPlaceholder
+      Value: confirmar nueva contraseña
+    - ID: "387dd14d-667b-49a4-9c03-45ca8088aaa8"
+      Hint: LastNameErrorMessage
+      Value: Por favor ingrese su apellido
+    - ID: "3a29a784-280b-4393-b05e-cbc720470fe5"
+      Hint: CityLabel
+      Value: Ciudad*
+    - ID: "3bd498ca-b468-483f-83ea-511737ef57cc"
+      Hint: OptIn
+      Value: Sí, quiero recibir información sobre beneficios exclusivos para miembros de SEIU, incluídas ofertas especiales y otras ventajas de esta membresía.
+    - ID: "401afc4a-102a-42ba-9d23-17178c567b73"
+      Hint: Title
+      Value: Mi Cuenta
+    - ID: "44440e30-24dc-4adb-bf5b-412acce179c7"
+      Hint: Subheadline
+      Value: Por favor use este formulario para cambiar el correo electrónico que usted usa para ingresar a SEIUMB.com.
+    - ID: "4b4b4e04-a4a2-4a20-ba33-230adb79322b"
+      Hint: ZipCodeCharactersLimit
+      Value: Usted puede ingresar solo '5' caracteres en este campo.
+    - ID: "4bc50b8a-3fd8-4ba0-9a04-e17076ecdc10"
+      Hint: UsernameConfirmationLabel
+      Value: Confirm New Username*
+    - ID: "4ceff60c-6943-4567-9b16-223500db62f8"
+      Hint: TabTitle
+      Value: Perfil de Usuario
+    - ID: "4fb5c21a-fe6b-4c01-8616-b183a65e5bce"
+      Hint: SubmitButton
+      Value: Guardar Cambios
+    - ID: "524d9a4b-e3e4-488f-a162-faa777e263f3"
+      Hint: CityPlaceholder
+      Value: ciudad
+    - ID: "5413d1c2-9515-4633-86e4-21e4b37f8b4f"
+      Hint: NewUsernameLabel
+      Value: Nuevo Usuario*
+    - ID: "550e7a7c-be80-4052-a0c5-2b8d9e541bee"
+      Hint: AddressCharactersLimit
+      Value: Usted puede ingresar solo '44' caracteres en este campo.
+    - ID: "555997ed-797c-4481-bfdc-cb24ccca0ce4"
+      Hint: StateLabel
+      Value: Estado*
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "646a313a-590f-48ab-8b0d-d10aeb12358c"
+      Hint: QuickLinks
+      Value: |
+        <h5>Enlaces R&aacute;pidos</h5>
+        <ul>
+            <li><a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Cont&aacute;ctenos</a></li>
+        </ul>
+    - ID: "64e0b9f1-4564-4bd6-9412-fb4b5d4509cf"
+      Hint: PhoneNumberLabel
+      Value: Teléfono*
+    - ID: "7c0b94a0-16cd-4b91-a793-6fc083b3e0fa"
+      Hint: InvalidCharacters
+      Value: Usted ha ingresado caracteres inválidos en este campo, por favor verifique
+    - ID: "7e5cb933-e978-490e-bbe6-6ef0a7c3a146"
+      Hint: QuickLinks
+      Value: |
+        <h5>Enlaces R&aacute;pidos</h5>
+        <ul>
+            <li><a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Cont&aacute;ctenos</a></li>
+        </ul>
+    - ID: "83486c75-9a54-4437-9eac-2a42a0c37640"
+      Hint: PasswordError
+      Value: Contraseña actual no es igual a la almacenada en nuestros registros, por favor intente de nuevo.
+    - ID: "8682210d-0d92-40d3-a527-0b99d358a207"
+      Hint: StatePlaceholder
+      Value: seleccione uno
+    - ID: "8c682a25-475d-4d4b-8538-9ef1c4ebed89"
+      Hint: AddressLabel
+      Value: Dirección*
+    - ID: "8dd16797-ab4a-4b5a-a65d-dbbc94ff8aa2"
+      Hint: InvalidPassword
+      Value: "¡Inválido!"
+    - ID: "936d9cb1-7f43-4d67-9625-aef7e2b7d748"
+      Hint: AddressPlaceholder
+      Value: dirección
+    - ID: "97b8b630-9ec7-4052-807a-2470919b6975"
+      Hint: FirstNameErrorMessage
+      Value: Por favor ingrese su nombre
+    - ID: "98448c9d-3e35-4b5f-bc4c-46ed828ad308"
+      Hint: ZipCodeErrorMessage
+      Value: Por favor seleccione su código postal
+    - ID: "a0650335-0fe2-46eb-b01e-7e7c9dea0d2d"
+      Hint: DateOfBirthLabel
+      Value: Fecha de Nacimiento*
+    - ID: "a6196f8d-033b-4505-b398-f423951c2aeb"
+      Hint: PhoneNumberPlaceholder
+      Value: "(___)___-____"
+    - ID: "a8c88300-19d7-483b-82cf-5f641481cb54"
+      Hint: TabTitle
+      Value: Usuario / Correo
+    - ID: "ab47eb62-870b-4564-9289-61a2fcd60822"
+      Hint: CurrentPasswordLabel
+      Value: Contraseña Actual*
+    - ID: "ab5122b5-c170-4207-bcba-86e480b4bb84"
+      Hint: ZipCodeLabel
+      Value: Código Postal*
+    - ID: "b37a6b0f-0049-4b5e-a3a3-dcbc053cb6e2"
+      Hint: Headline
+      Value: Actualice su perfil de usuario
+    - ID: "b481ed26-3261-491e-bf93-e97744022842"
+      Hint: DateOfBirthPlaceholder
+      Value: (mm/dd/aaaa)
+    - ID: "b540c072-076c-45e8-99b7-e0592e3a7715"
+      Hint: LastNameLabel
+      Value: Apellido*
+    - ID: "b6eca548-3f44-4702-959a-d67533bf9edc"
+      Hint: DateOfBirthErrorMessage
+      Value: Por favor ingrese una fecha válida (mm/dd/aaaa)
+    - ID: "ba176d84-4cc9-4a81-a6d9-a442db504deb"
+      Hint: NewPassworldLabel
+      Value: Nueva Contraseña*
+    - ID: "ba425b33-cb3f-4c18-a2d8-3ee6c4cc8b6e"
+      Hint: CurrentUsernameLabel
+      Value: Usuario Actual
+    - ID: "c4833ee6-34e9-4bf9-8fb4-79bf2c2b3467"
+      Hint: NewUsernameError
+      Value: Correo electrónico inválido. Por favor verifique su correo electrónico e intente de nuevo.
+    - ID: "c6c03ab2-75e5-4bdb-addc-fe81cfa557b9"
+      Hint: UsernameConfirmationError
+      Value: Los nombres de usuario no coinciden.
+    - ID: "cdfb3197-bdaf-4280-86dc-9a9a38a5e49f"
+      Hint: NewUsernameCharactersLimit
+      Value: Usted puede ingresar solo '100' caracteres en este campo.
+    - ID: "d12908ac-1b76-4a12-b8bb-b1870d662e4d"
+      Hint: CityErrorMessage
+      Value: Por favor ingrese su ciudad
+    - ID: "d1d6bb8e-5bdd-4c20-9bf3-ea77a0d60ed9"
+      Hint: UsernameConfirmationCharactersLimit
+      Value: Usted puede ingresar solo '100' caracteres en este campo.
+    - ID: "d44c3e87-72f3-4589-a2d1-e0113a840994"
+      Hint: AddressErrorMessage
+      Value: Por favor ingrese su dirección
+    - ID: "d509ba1c-a2c6-43fb-a3ea-181c3ba9da1d"
+      Hint: ConfirmNewPasswordLabel
+      Value: Confirmar Nueva Contraseña*
+    - ID: "d9bdfa53-a68c-4e74-bb73-c42689c2f253"
+      Hint: FirstNamePlaceholder
+      Value: nombre
+    - ID: "db3367ae-7b4d-429b-8ebf-bd30d2a57677"
+      Hint: FirstNameLabel
+      Value: Nombre*
+    - ID: "db9e6aae-cb64-4fa2-876b-afdcdb83e785"
+      Hint: NewUsernamePlaceholder
+      Value: nuevo usuario
+    - ID: "dbdb0427-40a1-4a0f-aa3b-ab39a20ed7f2"
+      Hint: PhoneNumberErrorMessage
+      Value: Por favor ingrese su teléfono
+    - ID: "e1214e99-d714-48f7-9eb7-c3949fec6d9b"
+      Hint: ValidPassword
+      Value: "¡Válido!"
+    - ID: "e54e600f-b4e9-45a9-9281-1197c9575004"
+      Hint: UsernameConfirmationPlaceholder
+      Value: confirm new username
+    - ID: "eb52c971-c5c6-41c7-bccd-eca742ba9921"
+      Hint: Headline
+      Value: Actualice su usuario / correo
+    - ID: "f15657a2-0ca1-481e-b01f-0166043c36ed"
+      Hint: SubmitButton
+      Value: Cambiar Contraseña
+    - ID: "f5a86667-c734-44df-b2b0-3c63fd8fff8d"
+      Hint: NewPassworldPlaceholder
+      Value: nueva contraseña
+    - ID: "f7882f79-3d9b-4567-adda-aec51339b083"
+      Hint: StateErrorMessage
+      Value: Por favor seleccione su estado
+    - ID: "f7a121e8-3c05-4aa0-a24a-f1602ef53a93"
+      Hint: ConfirmNewPasswordError
+      Value: Las contraseñas no coinciden
+    - ID: "f8b04407-8ecc-490b-a2b1-73d970b1066e"
+      Hint: CurrentPasswordPlaceholder
+      Value: contraseña actual
+    - ID: "fa2f0029-ff17-493c-b349-9a6fe90ec44b"
+      Hint: PasswordRequirements
+      Value: Por favor ingrese una contraseña de al menos 8 caracteres, que contenga al menos 1 letra, contenga al menos 1 número y no contenga espacios.
+    - ID: "fa4fcde3-cf69-4f84-be93-c7aff9b0ecee"
+      Hint: QuickLinks
+      Value: |
+        <h5>Enlaces R&aacute;pidos</h5>
+        <ul>
+            <li><a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Cont&aacute;ctenos</a></li>
+        </ul>
+    - ID: "fdbc4029-7a1e-4d6f-8d8f-9ea6ef8a2909"
+      Hint: Subheadline
+      Value: Por favor utilice este formulario para actualizar su perfil

@@ -1,0 +1,185 @@
+﻿---
+ID: "45d389a1-71b6-4488-a7d8-524f67a24c44"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Do I Need Renters Insurance
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A43D925C-2E2A-497A-A076-1179D31FEDAB}"
+              p:before="*"
+              s:ds="{9FDBC559-A037-49B9-8307-C8FC51E51DE6}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: If you rent your living space, you need insurance to protect your belongings.  The landlord does not insure your personal property in case of loss or damage.  This article will review what is covered under a renter’s insurance policy.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Do I Need Renters Insurance?"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="Do I Need Renters Insurance?" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{97685F49-A98E-42EB-B143-0A7AB810A6CF}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Do I Need Renters Insurance?"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>If you rent your living space, you need insurance to protect your belongings. The landlord does not insure your personal property in case of loss or damage.  This article will review what is covered under a renter&rsquo;s insurance policy.</p>
+        <p><strong>Renter&rsquo;s Insurance Policy</strong></p>
+        <p>Most insurance companies use a standard renter&rsquo;s insurance policy which covers losses to your personal property such as: </p>
+        <ul>
+            <li>Fire or lightning</li>
+            <li>Windstorm or hail</li>
+            <li>Vehicles</li>
+            <li>Smoke</li>
+            <li>Vandalism or malicious mischief </li>
+            <li>Theft</li>
+            <li>Falling objects </li>
+            <li>Weight of ice, snow, or sleet </li>
+            <li>Water-related damage from home utilities</li>
+            <li>Sudden and accidental tearing apart, cracking, burning, or bulging</li>
+            <li>Freezing</li>
+            <li>Electrical surge damage</li>
+        </ul>
+        <p>Floods and earthquakes are excluded from most personal insurance policies; you will need to buy a separate policy or a rider for those natural disasters (for flood insurance, check with the National Flood Insurance Program at <a rel="noopener noreferrer" href="http://www.fema.gov/nfip" target="_blank">www.fema.gov/nfip</a>).  In some coastal regions where hurricanes pose a threat, you might also need to buy a separate rider to cover wind damage.</p>
+        <p><strong>Actual Cash Value versus Replacement Cost</strong></p>
+        <p>One thing to look at is whether the insurance company offers &ldquo;actual cash value&rdquo; (ACV) or &ldquo;replacement cost coverage&rdquo; for your belongings.  As the name implies, ACV coverage will pay only what your property was actually worth at the time it was damaged or stolen. For example, if you bought a television five years ago for $300, it would be worth significantly less today.  While you would still need to spend about $300 for a new TV, your insurance company will pay only the current depreciated value, minus your deductible.</p>
+        <p>Replacement cost coverage, on the other hand, will pay what it actually costs to replace the items you lost.  An insurer will generally make an advance payment for the &lsquo;used value&rsquo; of the property, less the deductible.  Then if the property is replaced, you can receive reimbursement for the actual price paid.  The claims representative will explain this part of the claim process in more detail.</p>
+        <p>Let your agent know about any particularly valuable items you have.  Jewelry, antiques, musical instruments, and electronics might be covered up to a certain amount.  If you have some items that are unusually expensive, such as a diamond ring, you'll probably want to purchase a separate rider/endorsement.  If you don<span>&rsquo;</span>t talk to your agent about an expensive item when you buy the policy, you probably won<span>&rsquo;</span>t be able to recover a loss later.</p>
+        <p><strong>Take Inventory</strong></p>
+        <p>To ensure you are compensated for any belongings you lose from a fire, storm or other catastrophe, you should take inventory all of your personal belongings.  The easiest way to inventory your belongings is to videotape them.  Keep the videotape, as well as receipts for major items, in a fireproof place (or safe deposit box).</p>
+        <p><strong>Additional Living Expenses</strong></p>
+        <p>If your apartment or condominium becomes uninhabitable due to a fire, burst pipes, or any other reason covered by your policy, your insurance will cover your &ldquo;additional living expenses.&rdquo;  Generally, that means paying for you to live somewhere else.</p>
+        <p>This coverage has a limit of about 20 percent of the total value of the policy.  So, if you<span>&rsquo;</span>re insured for $40,000, your &ldquo;additional living expenses&rdquo; limit will be $8,000, depending on your policy terms.  Your insurance company will continue to pay while your home is being repaired or rebuilt, or until you permanently relocate.  Sometimes 12 months is the longest an insurance company will continue paying.  With some policies, you<span>&rsquo;</span>re limited to what the insurance company considers a &ldquo;reasonable length of time.&rdquo;</p>
+        <p><strong>Liability Insurance</strong></p>
+        <p>Your renter&rsquo;s insurance policy will include liability coverage.  This means if someone slips and falls in your residence, you<span>&rsquo;</span>re covered for any costs, up to your liability limit.  If the person sues you, you<span>&rsquo;</span>re covered for what they win in a court judgment as well as your legal expenses, up to your policy<span>&rsquo;</span>s limit.</p>
+        <p>Most policies will also include a Medical Payments to Others coverage amount that provides monetary benefits to an injured party.  For example, if someone slips on your walkway, your insurance policy will help pay for any immediate medical costs (e.g., those incurred at an emergency room).  This coverage is minimal (usually under $5,000), but may encourage the injured party <span style="text-decoration: underline;">not</span> to sue you for additional medical costs.</p>
+        <p><strong>Premium</strong></p>
+        <p>Just like any other type of insurance policy, your premium depends on a number of factors: where you live, your deductible, your insurance company, and whether you need any additional coverage.  There are ways to reduce your renter&rsquo;s insurance bill:</p>
+        <ul>
+            <li>Increase the deductible (the amount you pay before your coverage kicks in).  Make sure you can afford whatever deductible you choose.</li>
+            <li>Most insurers offer a discount for &ldquo;protective devices,&rdquo; including smoke and fire detectors, burglar alarms, and fire extinguishers. </li>
+            <li>Some insurers will provide a multi-policy discount if you have your auto insurance and home/renter/condo insurance policies with them.</li>
+            <li>Some insurers might offer discounts to policyholders who are over age 55 and retired.</li>
+        </ul>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "Do I Need Renters Insurance?"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{37EC70EF-C781-4F01-8408-EE51C8C0F710}"
+              p:before="*"
+              s:ds="{9FDBC559-A037-49B9-8307-C8FC51E51DE6}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Si alquila su espacio de vivienda, necesita un seguro para proteger sus pertenencias.  El propietario no asegura sus pertenencias en caso de robo o daño.  En este artículo, se revisará lo que está cubierto con una póliza de seguro para inquilinos.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "¿Necesito seguro para inquilinos?"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{97685F49-A98E-42EB-B143-0A7AB810A6CF}" alt="¿Necesito seguro para inquilinos?" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "¿Necesito seguro para inquilinos?"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Si alquila su espacio de vivienda, necesita un seguro para proteger sus pertenencias.  El propietario no asegura sus pertenencias en caso de robo o da&ntilde;o.  En este art&iacute;culo, se revisar&aacute; lo que est&aacute; cubierto con una p&oacute;liza de seguro para inquilinos.</p>
+        <p><strong>P&oacute;liza de seguro para inquilinos </strong></p>
+        <p>La mayor&iacute;a de las compa&ntilde;&iacute;as de seguros usan una p&oacute;liza de seguro para inquilinos est&aacute;ndar que cubre las p&eacute;rdidas de sus pertenencias, por ejemplo:</p>
+        <ul>
+            <li>Incendio o ca&iacute;da de rayos </li>
+            <li>Huracanes o granizo</li>
+            <li>Veh&iacute;culos</li>
+            <li>Humo</li>
+            <li>Vandalismo o actos maliciosos </li>
+            <li>Robo</li>
+            <li>Ca&iacute;da de objetos</li>
+            <li>Peso del hielo, la nieve o aguanieve</li>
+            <li>Da&ntilde;o relacionado con el agua en los servicios p&uacute;blicos de la vivienda </li>
+            <li>Rasgado, agrietamiento, quemado o revent&oacute;n repentinos y accidentales</li>
+            <li>Congelamiento</li>
+            <li>Da&ntilde;o por corriente el&eacute;ctrica</li>
+        </ul>
+        <p>Las inundaciones y los terremotos no se incluyen en la mayor&iacute;a de las p&oacute;lizas de seguro personal; deber&aacute; adquirir otra p&oacute;liza o una cl&aacute;usula adicional para cubrir esos desastres naturales (para obtener informaci&oacute;n sobre el seguro contra inundaciones, consulte el Programa Nacional de Seguros contra Inundaciones en <a rel="noopener noreferrer" href="http://www.fema.gov/nfip" target="_blank">www.fema.gov/nfip</a>). En algunas regiones costeras donde los huracanes son una amenaza, quiz&aacute;s tambi&eacute;n deba adquirir una cl&aacute;usula adicional aparte para tener cobertura contra el da&ntilde;o causado por el viento. </p>
+        <p><strong>Valor en efectivo real frente al costo de reemplazo</strong></p>
+        <p>Un aspecto que debe considerar es si la compa&ntilde;&iacute;a de seguros ofrece "cobertura de valor en efectivo real" (Actual cash value, ACV) o "cobertura de costo de reemplazo" para sus pertenencias.  Como su nombre lo indica, la cobertura de ACV solo pagar&aacute; lo que sus pertenencias val&iacute;an realmente en el momento en que se da&ntilde;aron o fueron robadas. Por ejemplo, si compr&oacute; un televisor hace cinco a&ntilde;os por $300, este valdr&iacute;a mucho menos en la actualidad.  Si bien usted seguir&iacute;a necesitando aproximadamente $300 para un televisor nuevo, su compa&ntilde;&iacute;a de seguros pagar&aacute; solo el valor depreciado actual menos su deducible.</p>
+        <p>Por otro lado, la cobertura de costo de reemplazo pagar&aacute; lo que sus pertenencias cuestan realmente para que pueda reemplazar los art&iacute;culos que perdi&oacute;.  En general, una compa&ntilde;&iacute;a de seguros har&aacute; un pago adelantado por el valor usado del art&iacute;culo, menos el deducible.  Luego, si se reemplaza el art&iacute;culo, podr&aacute; recibir un reembolso por el precio real pagado.  El representante de reclamos explicar&aacute; esta parte del proceso de reclamos de forma m&aacute;s detallada.</p>
+        <p>Informe a su gente sobre los art&iacute;culos especialmente valiosos que tenga.  Las joyas, las antig&uuml;edades, los instrumentos musicales y los art&iacute;culos de electr&oacute;nica podr&iacute;an tener cobertura hasta cierto monto.  Si tiene algunos art&iacute;culos que son inusualmente costosos, como un anillo de diamantes, quiz&aacute;s deber&iacute;a adquirir otra cl&aacute;usula adicional/aval.  Si no habla con su agente sobre un art&iacute;culo costoso cuando adquiere la p&oacute;liza, es probable que no pueda recuperar la p&eacute;rdida posteriormente. </p>
+        <p><strong>Lleve un inventario</strong></p>
+        <p>Para asegurarse de que lo compensar&aacute;n por las pertenencias que pierda en un incendio, tormenta u otra cat&aacute;strofe, debe llevar un inventario de todas sus pertenencias.  La manera m&aacute;s f&aacute;cil de realizar un inventario de sus pertenencias es grabarlas en video.  Conserve la cinta de video y los recibos de los art&iacute;culos principales en un lugar a prueba de incendio (o en una caja fuerte).</p>
+        <p><strong>Gastos de subsistencia adicionales</strong></p>
+        <p>Si su departamento o condominio se vuelve inhabitable debido a un incendio, explosi&oacute;n de tuber&iacute;as o cualquier otro motivo cubierto por su p&oacute;liza, su seguro cubrir&aacute; sus "gastos de subsistencia adicionales".  En general, eso significa que le pagar&aacute; para que usted vida en otro lado. </p>
+        <p>Esta cobertura tiene un l&iacute;mite de aproximadamente el 20 % del valor total de la p&oacute;liza.  Por lo tanto, si tiene un seguro por $40,000, su l&iacute;mite de "gastos de subsistencia adicionales" ser&aacute; de $8,000, seg&uacute;n los t&eacute;rminos de su p&oacute;liza.  Su compa&ntilde;&iacute;a de seguros seguir&aacute; pagando mientras su vivienda se repara o se vuelve a construir, o hasta que usted se reubique de forma permanente.  Algunas veces las compa&ntilde;&iacute;as de seguros pagar&aacute;n durante un m&aacute;ximo de 12 meses.  Con algunas p&oacute;lizas, est&aacute; limitado a lo que la compa&ntilde;&iacute;a de seguros considera un "per&iacute;odo de tiempo razonable".</p>
+        <p><strong>Seguro de responsabilidad civil</strong></p>
+        <p>Su p&oacute;liza de seguro para inquilinos incluye la cobertura de responsabilidad civil.  Esto significa que si alguien se resbala y se cae en su vivienda, est&aacute; cubierto por cualquier costo que surja, hasta su l&iacute;mite de responsabilidad civil.  Si la persona lo demanda, usted est&aacute; cubierto por lo que ella gane en un juicio en un tribunal y por sus costas legales, hasta el l&iacute;mite de su p&oacute;liza. </p>
+        <p>La mayor&iacute;a de las p&oacute;lizas tambi&eacute;n incluir&aacute; un monto de cobertura de Pagos de gastos m&eacute;dicos a terceros que proporciona beneficios monetarios a una parte lesionada.  Por ejemplo, si alguien se resbala en su acera, su p&oacute;liza de seguro le ayudar&aacute; a pagar los costos m&eacute;dicos inmediatos (p. ej., aquellos incurridos en una sala de emergencia).  Esta cobertura es m&iacute;nima (normalmente menos de $5,000), pero puede alentar a la parte lesionada a no demandarlo por costos m&eacute;dicos adicionales.</p>
+        <p><strong>Prima</strong></p>
+        <p>Al igual que cualquier otro tipo de p&oacute;liza de seguro, su prima depende de varios factores: el lugar donde vive, su deducible, su compa&ntilde;&iacute;a de seguros y si necesita o no cobertura adicional.  Existen formas de reducir la factura del seguro para inquilinos:</p>
+        <ul>
+            <li>Aumente el deducible (el monto que paga antes de que comience a actuar su cobertura).  Aseg&uacute;rese de que podr&aacute; pagar el deducible que elija. </li>
+            <li>La mayor&iacute;a de las compa&ntilde;&iacute;as de seguros ofrece un descuento por "dispositivos de protecci&oacute;n", incluidos detectores de humo y de incendio, alarmas antirrobo y extintores de incendio.</li>
+            <li>Algunas compa&ntilde;&iacute;as de seguros proporcionan un descuento de varias p&oacute;lizas si contrata con ellas las p&oacute;lizas de seguro de autom&oacute;vil y de seguro de vivienda/para inquilinos/de condominios.</li>
+            <li>Algunas compa&ntilde;&iacute;as de seguros pueden ofrecer descuentos a los titulares de p&oacute;liza mayores de 55 a&ntilde;os que est&aacute;n jubilados.</li>
+        </ul>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "¿Necesito seguro para inquilinos?"

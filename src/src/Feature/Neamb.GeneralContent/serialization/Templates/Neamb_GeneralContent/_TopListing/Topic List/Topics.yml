@@ -1,0 +1,28 @@
+﻿---
+ID: "0eed3edc-413e-4904-959f-e6fb74e1dcd5"
+Parent: "a5e8eb4d-9bbc-40e3-a5de-a2023979fb36"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_TopListing/Topic List/Topics
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "StartSearchLocation={BB7B06F2-76AE-45E6-BA69-8592F0EADDCD}&TemplateFilter={EEA0A232-C12B-4422-99C4-216A4E16FCDF}&Filter=_latestversion:true"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Multilist with Search
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Topics to present on the Listing
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201007T222915Z

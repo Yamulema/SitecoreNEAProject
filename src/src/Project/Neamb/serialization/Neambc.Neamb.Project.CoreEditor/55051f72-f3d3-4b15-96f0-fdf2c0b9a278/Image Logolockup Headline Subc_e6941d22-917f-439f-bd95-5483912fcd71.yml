@@ -1,0 +1,58 @@
+﻿---
+ID: "e6941d22-917f-439f-bd95-5483912fcd71"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Image Logolockup Headline Subcopy Cardart CTA Dark
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section section-promotional logolockup bg-blue">
+    <div class="gtm-promo-tout">
+          <div class="container">
+            <div class="row">
+              <div class="col-centered col-md-12">
+                <div class="promotion-container bg-blue">
+                  <div class="promotion">
+                    <div class="row">
+                      <div class="col-md-3 no-p-r img-full"><a gtm-title="none" gtm-cta-text="none"><img src="-/media/7926A817F92B49D18FCBDC211EF0FE73.ashx" alt=""></a></div>
+                      <div class="col-md-6">
+                        <h6>Find out how much money you can save!</h6>
+                        <div class="row m-t-md">
+                          <div class="col-xs-5 col-sm-3 col-md-3 card"><img src="-/media/9504968464C844E1BF9022AB93937690.ashx" alt=""></div>
+                          <div class="col-xs-7 col-sm-9 col-md-9">                                           
+                            <p>Call for a free quote and receive a complimentary $25 Amazon.com GIft Card.                                       </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="top"><a href="#" title="title" class="btn" gtm-title="none" gtm-cta-text="none">Learn More </a>
+                        </div>
+                        <div class="bottom"><img src="-/media/98A0ED8EAE8846B1961DB0BC69103B28.ashx" alt="">
+                          <p class="condition">*Gift card is for an auto quote</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T211231Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Image Logolockup Headline Subcopy Cardart CTA Dark

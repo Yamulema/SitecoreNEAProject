@@ -1,0 +1,27 @@
+﻿---
+ID: "d7384c2a-15bd-45b8-b8fd-22ba1a58595e"
+Parent: "baee2174-a4ee-4f12-9ad0-e9d056043503"
+Template: "baee2174-a4ee-4f12-9ad0-e9d056043503"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_AnalyticsCategorization/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190522T205255Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9696566f-f13b-4cce-b532-e94bfc8c2227"
+      Hint: "Sub-Category"
+      Value: "{078EF215-75B4-4CA5-9897-924D3CB41B47}"
+    - ID: "ad8e3ba4-0806-4278-b131-dffa69f84bc3"
+      Hint: Category
+      Value: "{012EE368-6F03-445D-B6F2-C4B78B567846}"
+    - ID: "f4a6a478-cd21-4e0f-ada0-b3e065d55ec2"
+      Hint: "Sub-Group"
+      Value: "{B0D3D176-BFF7-4935-A5FE-A72663161E26}"

@@ -1,0 +1,51 @@
+﻿---
+ID: "65c3ae6f-bb62-4ddd-90be-94d10b9b9509"
+Parent: "8c9d68ca-77ec-45c6-9bf8-d485afff2e6c"
+Template: "8c9d68ca-77ec-45c6-9bf8-d485afff2e6c"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_ChangePassword/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "019c25ca-5a98-4009-9957-1b3d1eb719a1"
+      Hint: Required Password
+      Value: Please enter your new password
+    - ID: "06c1f572-b06b-4a90-8928-fa54767443b2"
+      Hint: Confirm Label
+      Value: Confirm Password
+    - ID: "13058662-cb9a-446c-9dfb-aa6e0542321f"
+      Hint: No Special Characters Error
+      Value: Only chars and numbers, no special characters.
+    - ID: "24585508-fa9f-4cea-8ff9-7b9bdf6c4bb5"
+      Hint: Label
+      Value: Current Password
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180529T223136Z
+    - ID: "3392dbaa-4d87-4656-b6a3-01df2e597542"
+      Hint: Confirmation Message
+      Value: Please confirm your new password to proceed.
+    - ID: "564bd487-3910-468c-8ff7-569c3da4c0d1"
+      Hint: Minimum Character Count
+      Value: You must enter at least 8 characters in this field
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "677b0202-22cb-49d9-b7ef-6962863bb510"
+      Hint: Invalid
+      Value: Current password does not match on record stored password
+    - ID: "bfc6eeb2-75b9-4912-949c-d7ff32c0a35a"
+      Hint: Requirements
+      Value: 8 character minimum, No spaces, One number, One letter
+    - ID: "c18ebd8b-d381-4b41-89f8-488971e2559d"
+      Hint: Empty
+      Value: Please insert your current password
+    - ID: "f03c039e-63c4-44b2-9ca3-2418ec5f9415"
+      Hint: Mismatch
+      Value: Passwords do not match. Please try again
+    - ID: "fff72422-7e2f-4b2e-a841-1ff22db99959"
+      Hint: New Label
+      Value: New Password

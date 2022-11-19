@@ -1,0 +1,304 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+@using Neambc.Neamb.Foundation.Membership.Enums
+
+@model Neambc.Neamb.Feature.Account.Models.BeneficiaryDTO
+
+<div class="form-section m-t-lg">
+    <div class="floating-section">
+        <div class="floating-group radio-group">
+            <div class="single-label">@Html.Sitecore().Field(Templates.Beneficiary.Fields.TypeLabel, Model.Item)</div>
+            @switch (Model.Type)
+            {
+                case BeneficiaryType.NamedIndividual:
+                    {
+                        <label class="custom-radio blue">
+                            @Html.RadioButtonFor(x => x.SelectedType, BeneficiaryType.NamedIndividual, new { id = BeneficiaryType.NamedIndividual, @checked = "checked", @required = "required" })<span class="checkmark"></span>
+                            <span class="text-blue">@Html.Sitecore().Field(Templates.CategoryItem.Fields.Value, Sitecore.Context.Database.GetItem(Configuration.NamedIndividualId))</span>
+                        </label>
+                        <label class="custom-radio blue">
+                            @Html.RadioButtonFor(x => x.SelectedType, BeneficiaryType.OtherEntity, new { id = BeneficiaryType.OtherEntity, @required = "required" })<span class="checkmark"></span>
+                            <span class="text-blue">@Html.Sitecore().Field(Templates.CategoryItem.Fields.Value, Sitecore.Context.Database.GetItem(Configuration.OtherEntityId))</span>
+                        </label>
+                    }
+                    break;
+                case BeneficiaryType.OtherEntity:
+                    {
+                        <label class="custom-radio blue">
+                            @Html.RadioButtonFor(x => x.SelectedType, BeneficiaryType.NamedIndividual, new { id = BeneficiaryType.NamedIndividual, @required = "required" })<span class="checkmark"></span>
+                            <span class="text-blue">@Html.Sitecore().Field(Templates.CategoryItem.Fields.Value, Sitecore.Context.Database.GetItem(Configuration.NamedIndividualId))</span>
+                        </label>
+                        <label class="custom-radio blue">
+                            @Html.RadioButtonFor(x => x.SelectedType, BeneficiaryType.OtherEntity, new { id = BeneficiaryType.OtherEntity, @checked = "checked", @required = "required" })<span class="checkmark"></span>
+                            <span class="text-blue">@Html.Sitecore().Field(Templates.CategoryItem.Fields.Value, Sitecore.Context.Database.GetItem(Configuration.OtherEntityId))</span>
+                        </label>
+                    }
+                    break;
+            }
+
+        </div>
+    </div>
+    <div class="floating-section group NamedIndividual">
+        <div class="floating-group">
+            <input id="firstName" name="firstName" type="text" placeholder="First name" required="required" value="@Model.FirstName"
+                   data-msg-required="@Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameEmpty, Model.Item, new {@DisableWebEdit = true})"
+                   maxlength="15" data-rule-maxlength="15"
+                   data-msg-maxlength="@Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameCharactersLimit, Model.Item, new {@DisableWebEdit = true})" data-rule-minlength="2"
+                   data-msg-minlength="@Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameMinimumCharactersLimit, Model.Item, new {@DisableWebEdit = true})"
+                   data-rule-alphanumber="true"
+                   data-msg-alphanumber="@Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+            <label for="firstName">@Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameLabel, Model.Item)</label>
+        </div>
+        <div class="floating-messages">
+            <div class="floating-error-messages">
+                @if (Model.FirstNameErrorStatus.HasFlag(ErrorStatusEnum.Required))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameEmpty, Model.Item)
+                    </div>
+                }
+                @if (Model.FirstNameErrorStatus.HasFlag(ErrorStatusEnum.InvalidCharacters))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameInvalidCharacters, Model.Item)
+                    </div>
+                }
+                @if (Model.FirstNameErrorStatus.HasFlag(ErrorStatusEnum.Length))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameCharactersLimit, Model.Item)
+                    </div>
+                }
+            </div>
+
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.Beneficiary.Fields.FirstNameTooltip]))
+            {
+                <div class="floating-info-messages">
+                    @Html.Sitecore().Field(Templates.Beneficiary.Fields.FirstNameTooltip, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            }
+        </div>
+    </div>
+    <div class="floating-section group NamedIndividual">
+        <div class="floating-group">
+            <input id="middleInitial" name="middleInitial" type="text" placeholder="Middle Initial" maxlength="1" data-rule-maxlength="1" value="@Model.MiddleInitial"
+                   data-msg-maxlength="@Html.Sitecore().Field(Templates.Beneficiary.Fields.MiddleInitialCharactersLimit, Model.Item,new {@DisableWebEdit = true})"
+                   data-rule-alphanumberwithspace="true"
+                   data-msg-alphanumberwithspace="@Html.Sitecore().Field(Templates.Beneficiary.Fields.MiddleInitialInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+
+            <label for="middleInitial">@Html.Sitecore().Field(Templates.Beneficiary.Fields.MiddleInitialLabel, Model.Item)</label>
+        </div>
+        <div class="floating-messages">
+            <div class="floating-error-messages">
+                @if (Model.MiddleInitialErrorStatus.HasFlag(ErrorStatusEnum.InvalidCharacters))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.MiddleInitialInvalidCharacters, Model.Item)
+                    </div>
+                }
+                @if (Model.MiddleInitialErrorStatus.HasFlag(ErrorStatusEnum.Length))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.MiddleInitialCharactersLimit, Model.Item)
+                    </div>
+                }
+            </div>
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.Beneficiary.Fields.MiddleInitialTooltip]))
+            {
+                <div class="floating-info-messages">
+                    @Html.Sitecore().Field(Templates.Beneficiary.Fields.MiddleInitialTooltip, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            }
+        </div>
+    </div>
+    <div class="floating-section group NamedIndividual">
+        <div class="floating-group">
+            <input id="lastName" name="lastName" type="text" placeholder="Last name" required="required" value="@Model.LastName"
+                   data-msg-required="@Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameEmpty, Model.Item, new {@DisableWebEdit = true})"
+                   maxlength="30" data-rule-maxlength="30"
+                   data-msg-maxlength="@Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameCharactersLimit, Model.Item, new {@DisableWebEdit = true})"
+                   data-rule-minlength="2"
+                   data-msg-minlength="@Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameMinimumCharactersLimit, Model.Item, new {@DisableWebEdit = true})"
+                   data-rule-alphanumber="true"
+                   data-msg-alphanumber="@Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+            <label for="lastName">@Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameLabel, Model.Item)</label>
+        </div>
+        <div class="floating-messages">
+            <div class="floating-error-messages">
+                @if (Model.LastNameErrorStatus.HasFlag(ErrorStatusEnum.Required))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameEmpty, Model.Item)
+                    </div>
+                }
+                @if (Model.LastNameErrorStatus.HasFlag(ErrorStatusEnum.InvalidCharacters))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameInvalidCharacters, Model.Item)
+                    </div>
+                }
+                @if (Model.LastNameErrorStatus.HasFlag(ErrorStatusEnum.Length))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameCharactersLimit, Model.Item)
+                    </div>
+                }
+            </div>
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.Beneficiary.Fields.LastNameTooltip]))
+            {
+                <div class="floating-info-messages">
+                    @Html.Sitecore().Field(Templates.Beneficiary.Fields.LastNameTooltip, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            }
+        </div>
+    </div>
+    <div class="floating-section group OtherEntity">
+        <div class="floating-group">
+            <input id="otherEntityName" name="otherEntityName" type="text" placeholder="Other Entity Name" required="required" value="@Model.OtherEntityName"
+                   data-msg-required="@Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameEmpty, Model.Item, new {@DisableWebEdit = true})" maxlength="40" data-rule-maxlength="40"
+                   data-msg-maxlength="@Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameCharactersLimit, Model.Item, new {@DisableWebEdit = true})"
+                   data-rule-alphanumber="true"
+                   data-msg-alphanumber="@Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameInvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+            <label for="otherEntityName">@Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameLabel, Model.Item)</label>
+        </div>
+        <div class="floating-messages">
+            <div class="floating-error-messages">
+                @if (Model.OtherEntityNameErrorStatus.HasFlag(ErrorStatusEnum.Required))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameEmpty, Model.Item)
+                    </div>
+                }
+                @if (Model.OtherEntityNameErrorStatus.HasFlag(ErrorStatusEnum.InvalidCharacters))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameInvalidCharacters, Model.Item)
+                    </div>
+                }
+                @if (Model.OtherEntityNameErrorStatus.HasFlag(ErrorStatusEnum.Length))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameCharactersLimit, Model.Item)
+                    </div>
+                }
+            </div>
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.Beneficiary.Fields.OtherEntityNameTooltip]))
+            {
+                <div class="floating-info-messages">
+                    @Html.Sitecore().Field(Templates.Beneficiary.Fields.OtherEntityNameTooltip, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            }
+        </div>
+    </div>
+    <div class="floating-section">
+        <div class="floating-group">
+            <input id="email" name="email" type="email" value="@Model.Email" placeholder="Email address"
+                   data-msg-email="@Html.Sitecore().Field(Templates.Beneficiary.Fields.EmailInvalidCharacters, Model.Item, new {@DisableWebEdit = true})"
+                   data-rule-maxlength="100" maxlength="100"
+                   data-msg-maxlength="@Html.Sitecore().Field(Templates.Beneficiary.Fields.EmailCharactersLimit, Model.Item, new {@DisableWebEdit = true})" />
+            <label for="email">@Html.Sitecore().Field(Templates.Beneficiary.Fields.EmailLabel, Model.Item)</label>
+        </div>
+        <div class="floating-messages">
+            <div class="floating-error-messages">
+                @if (Model.EmailErrorStatus.HasFlag(ErrorStatusEnum.InvalidCharacters))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.EmailInvalidCharacters, Model.Item)
+                    </div>
+                }
+                @if (Model.EmailErrorStatus.HasFlag(ErrorStatusEnum.Length))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.EmailCharactersLimit, Model.Item)
+                    </div>
+                }
+                @if (Model.EmailErrorStatus.HasFlag(ErrorStatusEnum.InvalidValue))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.EmailInvalidCharacters, Model.Item)
+                    </div>
+                }
+            </div>
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.Beneficiary.Fields.EmailTooltip]))
+            {
+                <div class="floating-info-messages">
+                    @Html.Sitecore().Field(Templates.Beneficiary.Fields.EmailTooltip, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            }
+        </div>
+    </div>
+    <div class="floating-section group NamedIndividual">
+        <div class="floating-group">
+            <select id="Relationship_SelectedValue" name="Relationship.SelectedValue" onclick="this.setAttribute('value', this.value);"
+                    onchange="this.setAttribute('value', this.value);" required="required" value="@(string.IsNullOrEmpty(Model.Relationship.SelectedValue) ? "" : Model.Relationship.SelectedValue)"
+                    data-msg-required="@Model.Item.Fields[Templates.Beneficiary.Fields.RelationshipEmpty].Value">
+                <option value="">Select an option...</option>
+                @foreach (var option in Model.Relationship.Values)
+                {
+                    if (Model.Relationship.SelectedValue == option.Key)
+                    {
+                        <option selected="selected" value="@option.Key">@option.Value</option>
+                    }
+                    else
+                    {
+                        <option value="@option.Key">@option.Value</option>
+                    }
+                }
+            </select>
+            <label for="Relationship_SelectedValue">@Html.Sitecore().Field(Templates.Beneficiary.Fields.RelationshipLabel, Model.Item)</label>
+        </div>
+        <div class="floating-messages">
+            <div class="floating-error-messages"></div>
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.Beneficiary.Fields.RelationshipTooltip]))
+            {
+                <div class="floating-info-messages">
+                    @Html.Sitecore().Field(Templates.Beneficiary.Fields.RelationshipTooltip, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            }
+        </div>
+    </div>
+    <div class="floating-section">
+        <input id="payoutAvailable" class="hidden" value="@Model.PayoutTotal" type="number">
+        <input id="currentPayout" class="hidden" value="@Model.PayoutPercentage" type="number">
+        <div class="floating-group">
+            <input id="payoutPercentage" name="payoutPercentage" type="number" placeholder="Payout Percentage" value="@Model.PayoutPercentage"
+                   required="required" data-msg-required="@Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageEmptyField, Model.Item, new {@DisableWebEdit = true})"
+                   data-msg-min="@Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageInvalidValue, Model.Item, new {@DisableWebEdit = true})"
+                   data-msg-max="@Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageInvalidValue, Model.Item, new {@DisableWebEdit = true})" min="1" max="100" />
+            <label for="payoutPercentage">@Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageLabel, Model.Item)</label>
+        </div>
+        <div class="floating-messages">
+            <div class="floating-error-messages">
+                @if (Model.PayoutPercentageErrorStatus.HasFlag(ErrorStatusEnum.Required))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageEmptyField, Model.Item)
+                    </div>
+                }
+                @if (Model.PayoutPercentageErrorStatus.HasFlag(ErrorStatusEnum.Length))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageCharactersLimit, Model.Item)
+                    </div>
+                }
+                @if (Model.PayoutPercentageErrorStatus.HasFlag(ErrorStatusEnum.InvalidValue))
+                {
+                    <div class="server-error">
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageInvalidValue, Model.Item)
+                    </div>
+                }
+            </div>
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.Beneficiary.Fields.PayoutPercentageTooltip]))
+            {
+                <div class="floating-info-messages">
+                    @Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutPercentageTooltip, Model.Item, new { @DisableWebEdit = true })
+                </div>
+            }
+        </div>
+        <div class="ben-payout-error" id="payoutErr">
+            @Html.Sitecore().Field(Templates.Beneficiary.Fields.PayoutLeft, Model.Item)
+        </div>
+    </div>
+</div>
+

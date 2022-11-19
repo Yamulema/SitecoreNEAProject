@@ -1,0 +1,18 @@
+﻿@using System.Web.Mvc.Html
+@using Sitecore.Mvc
+
+<section id="faq" class="section-normal">
+    <div class="container">
+        @Html.Partial("~/Views/Neamb.GeneralContent/SmallStackedAccordion/Header.cshtml")
+        <div class="row">
+            <div class="col-md-12">
+                <div class="spacer-50"></div>
+            </div>
+        </div>
+        <div class="col-md-9 col-centered">
+            <div id="faqs-accordion" role="tablist" aria-multiselectable="true" class="panel-group accordion">
+                @Html.Sitecore().DynamicPlaceholder("small-stacked-accordion-item")
+            </div>
+        </div>
+    </div>
+</section>

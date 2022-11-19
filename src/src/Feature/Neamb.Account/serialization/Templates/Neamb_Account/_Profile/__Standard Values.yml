@@ -1,0 +1,66 @@
+﻿---
+ID: "b094f8d9-0e8d-4f55-8de9-abb82e738747"
+Parent: "4f62a9ef-bf7e-477a-ad9f-72b393bddd83"
+Template: "4f62a9ef-bf7e-477a-ad9f-72b393bddd83"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Profile/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "030268f3-ed8a-4c83-b41d-e3a4e4495dd2"
+      Hint: Minimum Character Limit
+      Value: You must enter at least 2 characters in this field
+    - ID: "1327e79b-b86e-4709-a401-d31036b9ed5f"
+      Hint: Characters Limit
+      Value: You can enter only 44 characters in this field
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T165323Z
+    - ID: "32adedb0-ea1e-43e1-b344-277e44cd5023"
+      Hint: Empty Field
+      Value: Please select your state
+    - ID: "3a0dba9f-f047-4ac1-aeb9-db4aaf046c1b"
+      Hint: Empty Field
+      Value: Please insert your address
+    - ID: "4108ee1d-0c10-4163-ae2a-23e2cc56d1c8"
+      Hint: Label
+      Value: Address
+    - ID: "4b568afc-f8d5-4ee8-893b-be3c5f54e65e"
+      Hint: Characters Limit
+      Value: You can enter only 5 characters in this field
+    - ID: "4c8fe107-2167-495f-b4a7-7577d07e087d"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "4e713c65-91d4-4d4c-9e71-e5aafd95b4eb"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "81f59fee-be1c-4216-be33-33cfeb3a422e"
+      Hint: Minimum Character Limit
+      Value: You must enter at least 2 characters in this field
+    - ID: "835467ae-a55f-45d8-993d-e33ddbb83b93"
+      Hint: Empty Field
+      Value: Please insert your zip code
+    - ID: "9f341c34-8072-4e55-b13a-532cbaa00b7a"
+      Hint: Label
+      Value: State
+    - ID: "b458f507-6781-4954-87a9-09e56eb7cbaf"
+      Hint: Label
+      Value: Zip
+    - ID: "bc45d3fd-efcb-46b5-9669-3d75a396535f"
+      Hint: Empty Field
+      Value: Please insert your city
+    - ID: "bd995065-8e92-4b97-826d-e25ea1078578"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "c2051581-7df1-428b-ab7c-539b7fea7ed4"
+      Hint: Characters Limit
+      Value: You can enter only 44 characters in this field
+    - ID: "c4b62c9e-911e-4915-889e-54f0e861eeca"
+      Hint: Label
+      Value: City

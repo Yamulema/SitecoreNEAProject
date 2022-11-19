@@ -1,0 +1,53 @@
+﻿@model Neambc.Neamb.Feature.Rakuten.Model.StoreCategories
+@{
+    var counter = 1;
+    string cssClass;
+}
+
+<div class="form-group top-filter">
+    @if (Model.ShowFavorites)
+    {
+        <div class="primary-filters-container row">
+            <label class="switch">
+                <input id="store-favorites-only" value="My Favorite Stores" type="checkbox">
+                <span class="slider-toggle round"></span>
+            </label><span>My Favorite Stores <i class="fa fa-heart"></i></span>
+        </div>
+    }
+    <div class="row">
+        <div id="accordion" class="accordion-container">
+            @foreach (var category in Model.Categories)
+            {
+                if (category.SeiumbEnabled)
+                {
+                    var counterCategories = 1;
+                    <p class="accordion-title js-accordion-title">@category.Name</p>
+                    <div class="accordion-content">
+                        @foreach (var subcategory in category.Subcategories)
+                        {
+                            if (subcategory.SeiumbEnabled)
+                            {
+                                cssClass = counterCategories == 1 ? "all-category" : "child-category";
+                                <div class="large-12 checkbox @cssClass">
+                                    <input id="category-ckb@(counter)" type="checkbox" value="@subcategory.Guid">
+                                    <label for="category-ckb@(counter)">@subcategory.Name</label>
+                                </div>
+                                counter++;
+                                counterCategories++;
+                            }
+                        }
+                    </div>
+                }
+            }
+        </div>
+        <div></div>
+    </div>
+</div>
+<div class="row continue">
+    <div class="small-6 columns">
+        <a class="button continue-btn" tabindex="0">Apply</a>
+    </div>
+    <div class="small-6 columns">
+        <a class="reset-all">Reset All</a>
+    </div>
+</div>

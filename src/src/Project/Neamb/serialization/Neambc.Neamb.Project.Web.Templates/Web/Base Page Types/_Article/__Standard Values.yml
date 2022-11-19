@@ -1,0 +1,25 @@
+﻿---
+ID: "c214f2f3-9362-402f-b789-3f9f60bab60f"
+Parent: "81549af0-8e19-4fed-b839-1717a7850dc9"
+Template: "81549af0-8e19-4fed-b839-1717a7850dc9"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Types/_Article/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "037c5ae6-c685-4707-bdd1-a741d5ecf65f"
+      Hint: Subheadline
+      Value: Insert your subheadline text here
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180426T164813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "adabede9-5073-4b40-bd3b-129d451b160b"
+      Hint: Hero Image
+      Value: |
+        <image mediapath="" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{F683EF17-C29C-4E08-82C9-B348CFA57FD8}" />

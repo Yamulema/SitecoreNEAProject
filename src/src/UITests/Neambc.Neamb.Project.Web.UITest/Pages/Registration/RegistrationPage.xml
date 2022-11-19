@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="RegistrationPage" urlpath="/account/registration">
+      <sections>
+        <section name="Welcome">
+          <controls>
+            <control key="Registration_Welcome_Title" xpath="//form[@id='registrationStep1']/div/h5"  />
+            <control key="Registration_Welcome_Subtitle" xpath="//form[@id='registrationStep1']/div/p"  />
+          </controls>
+        </section>
+        <section name="WizardStep1">
+          <controls>
+            <control key="Registration_Form_FirstName" id="firstName"  />
+            <control key="Registration_Form_LastName" id="lastName"  />
+			<control key="Registration_Form_Email" id="email"  />
+			<control key="Registration_Form_Password" id="password"  />
+            <control key="Registration_Form_ConfirmPassword" id="confirmPassword"  />
+
+          </controls>
+        </section>
+	      <section name="WizardStep2">
+		      <controls>
+			      <control key="Registration_Form_Address" id="address"  />
+			      <control key="Registration_Form_City" id="city"  />
+			      <control key="Registration_Form_State" id="state"  />
+			      <control key="Registration_Form_Zip" id="zip"  />
+				  <control key="Registration_Form_BirthDate_Month1" xpath="(//div[@class='date-group'])[1]"  />
+			      <control key="Registration_Form_BirthDate_Month" xpath="//*[@id='month']"  />
+			      <control key="Registration_Form_BirthDate_Day" id="day"  />
+			      <control key="Registration_Form_BirthDate_Year" id="year"  />
+			      <control key="Registration_Form_Submit_Div" xpath="(//div[@class='form-section'])[6]"  />
+
+				  <control key="Registration_Form_Submit" xpath="//button[@type='submit']"  />
+			      <control key="Registration_Form_Submit2" xpath="(//button[@type='submit'])[2]"  />
+		      </controls>
+	      </section>
+        <section name="DuplicateRegistrationWizard1">
+          <controls>
+            <control key="DuplicateRegistrationDiv" xpath="//*[@class='col-md-9 col-centered']"  />
+            <control key="FirstEmailToCheck" xpath="(//span[@class='checkmark'])[2]"  />
+            <control key="Duplicate_Password_Field" id="password"  />
+            <control key="SubmitEmailSelected" xpath="//input[@class='btn btn-lg btn-blue btn-block']"  />
+          </controls>
+        </section>
+        <section name="DuplicateRegistrationWizard2">
+          <controls>
+            <control key="ApplyChanges" xpath="//a[@class='btn btn-lg btn-blue btn-block'][1]"  />
+            <!--control key="ApplyChanges" xpath="//a[contains(@id,'applychanges')]"  /-->
+          </controls>
+        </section>
+        <section name="DuplicateRegistrationWizard3">
+          <controls>
+            <control key="ContinueButton" id="screen3-placeholder2"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

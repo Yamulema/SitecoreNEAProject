@@ -1,0 +1,41 @@
+﻿@using Neambc.Seiumb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Seiumb.Feature.GeneralContent.Models.FourStepsCarousel
+
+<section id="steps">
+    <div class="row get-started">
+        @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.HeaderText, Model.Item)
+        <div class="steps carousel">
+            @if (Model.HasStep1)
+            {
+                <div class="small-12 medium-12 large-3 columns">
+                    <div class="step">1</div>
+                    <p>@Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step1, Model.Item)</p>
+                </div>
+            }
+            @if (Model.HasStep2)
+            {
+                <div class="small-12 medium-12 large-3 columns">
+                    <div class="step">2</div>
+                    <p>@Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step2, Model.Item)</p>
+                </div>
+            }
+            @if (Model.HasStep3)
+            {
+                <div class="small-12 medium-12 large-3 columns">
+                    <div class="step">3</div>
+                    <p>@Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step3, Model.Item)</p>
+                </div>
+            }
+            @if (Model.HasStep4)
+            {
+                <div class="small-12 medium-12 large-3 columns">
+                    <div class="step">4</div>
+                    <p>@Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step4, Model.Item)</p>
+                </div>
+            }
+        </div>
+    </div>
+    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.BottomText, Model.Item)
+</section>

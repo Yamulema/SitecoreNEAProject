@@ -1,0 +1,163 @@
+﻿@using System.Web.Mvc.Html
+@using Sitecore.Data.Items
+@using Neambc.Seiumb.Project.Web
+@using Sitecore.Data.Fields
+@using Sitecore.Layouts
+@using Sitecore.SecurityModel
+@using Sitecore.Text
+@using System.Xml
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Extensions
+@using System.Xml.Linq
+@using Sitecore.Links
+@using Neambc.Seiumb.Foundation.Sitecore.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+@{
+    Layout = null;
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+    var xpHeaderClass = isExperienceEditor ? "xpEditor_Header" : "";
+    if (Sitecore.Context.PageMode.IsPreview)
+    {
+        xpHeaderClass = "previewHeader";
+    }
+    bool isPreviewMode = Sitecore.Context.PageMode.IsPreview;
+    Item duplicateRegistrationPage = Sitecore.Context.Database.GetItem(Templates.DuplicateRegistrationPage.ID);
+    var duplicateRegistrationUrl = LinkManager.GetItemUrl(duplicateRegistrationPage);
+    Item notFoundPage = Sitecore.Context.Database.GetItem(Templates.NotFoundPage.ID);
+    var notFoundPageUrl = LinkManager.GetItemUrl(notFoundPage);
+    var sessionValue = Session[ConstantsSeiumb.DuplicateLogin];
+
+    if (!Request.Url.AbsolutePath.Contains(notFoundPageUrl) && !Request.Url.AbsolutePath.Contains(duplicateRegistrationUrl) && sessionValue != null && sessionValue.Equals("1"))
+    {
+        Response.Redirect(duplicateRegistrationUrl);
+    }
+}
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    @{
+        var siteSettings = Sitecore.Context.Database.GetItem(Neambc.Seiumb.Project.Web.Templates.SitecoreExtensions.SiteSettingsGlobal.ID);
+    }
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>@Model.PageItem["MetaTitle"] | SEIU Member Benefits</title>
+
+    <meta name="description" content="@(string.IsNullOrEmpty(Model.PageItem["MetaDescription"])?Model.PageItem["Summary"]:Model.PageItem["MetaDescription"])" />
+
+    @if (Model.PageItem["DisableIndexing"] == "1")
+    {
+        <meta name="robots" content="noindex">
+    }
+
+    @if (Model.PageItem["DoNotFollowLinks"] == "1")
+    {
+        <meta name="robots" content="nofollow" />
+    }
+
+
+    @if (!string.IsNullOrEmpty(siteSettings["GeneralMetadata"]))
+    {
+        @Html.Raw(siteSettings["GeneralMetadata"])
+    }
+
+    @if (!string.IsNullOrEmpty(Model.PageItem["Metadata"]))
+    {
+        @Html.Raw(Model.PageItem["Metadata"])
+    }
+
+    <link rel="stylesheet" href="/assets/seiumb/styles/app.css">
+    <link rel="stylesheet" href="/assets/seiumb/styles/xpeditor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+    <link href="/assets/seiumb/styles/marketplace.css" rel="stylesheet" />
+
+    @if (!isExperienceEditor)
+    {
+        @Html.Sitecore().VisitorIdentification()
+    }
+
+    @if (!string.IsNullOrEmpty(siteSettings["GeneralJavaScriptCodeTop"]))
+    {
+        @Html.Raw(siteSettings["GeneralJavaScriptCodeTop"])
+    }
+
+    @if (!string.IsNullOrEmpty(Model.PageItem["JavaScriptCodeTop"]))
+    {
+        @Html.Raw(Model.PageItem["JavaScriptCodeTop"])
+    }
+    <link rel="icon" href="/assets/seiumb/images/favicon.ico">
+    <script src="/assets/seiumb/scripts/jquery.min.js"></script>
+</head>
+<body>
+    <header class="@xpHeaderClass">
+        <section>
+            @Html.Sitecore().Placeholder("header")
+        </section>
+
+    </header>
+    <main>
+        @Html.Sitecore().Placeholder("body")
+    </main>
+    <footer>
+        @Html.Sitecore().Placeholder("footer")
+    </footer>
+
+    <div>
+        @Html.Sitecore().Placeholder("chat")
+    </div>
+    @Html.Sitecore().Placeholder("session-modal")
+
+    @if (!string.IsNullOrEmpty(siteSettings["GeneralJavaScriptCodeBottom"]))
+    {
+        @Html.Raw(siteSettings["GeneralJavaScriptCodeBottom"])
+    }
+
+    @if (!string.IsNullOrEmpty(Model.PageItem["JavaScriptCodeBottom"]))
+    {
+        @Html.Raw(Model.PageItem["JavaScriptCodeBottom"])
+    }
+
+
+    @if (!isExperienceEditor)
+    {
+        <script src="/assets/seiumb/scripts/jquery-ui.min.js"></script>
+    }
+    <script src="/assets/seiumb/scripts/foundation.js"></script>
+    @if (isPreviewMode)
+    {
+        <script src="/assets/seiumb/scripts/app_android.js"></script>
+    }
+    else
+    {
+        <script src="/assets/seiumb/scripts/app.js"></script>
+    }
+    <script src="/assets/seiumb/scripts/remove-ref.js"></script>
+
+    <form id="storeForm" class="no-padding" action="/api/SeiumbRakutenRoute/GetStoreLinkPartnerSeiumb" target="_blank" method="post">
+        <input type="hidden" name="storeIdSeiumb" id="storeIdSeiumb" value="" />
+    </form>
+    <script>
+        function executestoreredirectionseiumb(storeIdSeiumb) {
+            $("#storeIdSeiumb").val(storeIdSeiumb);
+            $("#storeForm").submit();
+        }
+    </script>
+    <script src="/assets/seiumb/scripts/language.js"></script>
+    <script src="/assets/seiumb/scripts/search.js"></script>
+    <script src="/assets/seiumb/scripts/lodash.js"></script>
+    <script src="/assets/seiumb/scripts/jquery.flip.min.js"></script>
+    <script src="/assets/seiumb/scripts/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="/assets/seiumb/scripts/jquery.form.js" type="text/javascript"></script>
+    <script src="/assets/seiumb/scripts/product-detail.js"></script>
+    <script src="/assets/seiumb/scripts/jquery.mask.min.js "></script>
+    <script src="/assets/seiumb/scripts/gtm.js"></script>
+    <script src="https://use.fontawesome.com/1bc818e2ac.js"></script>
+    <script src="/assets/seiumb/scripts/marketplace.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+</html>

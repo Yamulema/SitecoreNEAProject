@@ -1,0 +1,28 @@
+﻿---
+ID: "24bbddf9-508c-483c-8752-c96e57dd7bdd"
+Parent: "718e8563-77c2-42f7-baae-1d8ec1f78994"
+Template: "718e8563-77c2-42f7-baae-1d8ec1f78994"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Sweepstake Item/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190723T200615Z
+    - ID: "31fd9495-a12e-49f9-a5d8-24e61d93e29e"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Thanks for entering the New Member Giveaway!</h2>
+        <p>Your entry has been received.
+        You&rsquo;ll receive an email confirmation from us shortly.
+        </p>
+        <div class="col-md-5 col-centered">Proceed to Home Page</div>
+        </div>

@@ -1,0 +1,19 @@
+﻿@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Product.Model.MultiRowOfferItemDto
+@{
+    bool isPreviewMode = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var isDisabled = !isPreviewMode && ((Model.HasCheckEligibility && (Model.UserStatus == StatusEnum.Cold || Model.UserStatus == StatusEnum.Unknown)) || (!Model.HasCheckEligibility && String.IsNullOrEmpty(Model.ActionPrimary) && String.IsNullOrEmpty(Model.ActionClickPrimary)) || Model.HasErrorLink);
+    string disabled = isDisabled ? "disabled" : "";
+}
+@if (!Model.HasBrokenLink) {
+    if (isPreviewMode || !Model.HasCheckEligibility || (Model.HasCheckEligibility && Model.ResultCheckEligibility && (Model.UserStatus != StatusEnum.Cold || Model.UserStatus != StatusEnum.Unknown)) || (Model.HasCheckEligibility && (Model.UserStatus == StatusEnum.Cold || Model.UserStatus == StatusEnum.Unknown))) {
+        if (string.IsNullOrEmpty(disabled)) {
+            <a id="product_offer_primary_action_button" style="cursor: pointer" href="@Model.ActionPrimary" target="@Model.ActionPrimaryTargetBlank" onclick="@Model.ActionClickPrimary">@Model.ActionPrimaryDescription</a>
+        } else {
+            <a id="product_offer_primary_action_button" style="cursor: pointer" disabled="@disabled" href="@Model.ActionPrimary">@Model.ActionPrimaryDescription</a>
+        }
+    }
+
+    @Html.Partial("~/Views/Neamb.Product/Renderings/_MultirowSpecialOfferActions.cshtml", Model)
+}

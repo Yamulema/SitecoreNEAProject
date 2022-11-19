@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ProductLinkPostPage" urlpath="/UITest/Products/Product-Link-Post">
+      <sections>
+        <section name="SectionC7">
+          <controls>
+            <control key="ProductLinkPostPage_TitleCard" xpath="//h1[@id='product_cta_title']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

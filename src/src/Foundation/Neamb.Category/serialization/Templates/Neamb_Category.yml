@@ -1,0 +1,18 @@
+﻿---
+ID: "414dcb3e-c0ab-43d5-b476-a466a876a9f0"
+Parent: "67595b7c-3411-4e39-8ed8-ff7d5a98a1a8"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/NEAMB/Foundation/Neamb_Category
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "Business/32x32/dot-chart.png"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20180417T235752:636596062729966980Z"

@@ -1,0 +1,418 @@
+﻿---
+ID: "23c87aa5-2796-4498-b177-dc4aaf6083ed"
+Parent: "db7bceff-7a00-4131-a244-3a54de103af9"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/About Us/Welcome to SEIU member benefits
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Take advantage of all of the benefit programs you find on this website—everything from insurance and credit cards to discounts on travel and everyday items. We’re proud to bring you this assortment of great benefits—at no cost or obligation—just for being an SEIU member!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171212T200738Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Welcome to SEIU member benefits
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Welcome to SEIU member benefits
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Welcome to SEIU Member Benefits&mdash;A new benefit program exclusively for SEIU members!</strong></p>
+        <p>Take advantage of all of the benefit programs you find on this website&mdash;everything from insurance and credit cards to discounts&nbsp;on travel and everyday items. We&rsquo;re proud to bring you this assortment of great benefits&mdash;at no cost or obligation&mdash;just for being an SEIU member!</p>
+        <p>See how the buying power of millions of SEIU members helps you:</p>
+        <ul>
+            <li><strong>Manage finances better:</strong> Get competitive rates on everything from credit cards to personal loans</li>
+            <li><strong>Protect your family:</strong> Benefit from group rates on a growing portfolio of insurance products</li>
+            <li><strong>Cut your cost of living: </strong>Get special discounts at thousands of stores and favorite merchants.</li>
+            <li><strong>Travel for less: </strong>Enjoy specially negotiated rates and travel programs</li>
+        </ul>
+        <p>There&rsquo;s no cost or obligation! Get started today by registering on this website. Keep coming back to see the new benefits we're adding. You can also sign up for email communications from us to be the first to know when new benefits are added.</p>
+        <p>Click on the categories below to explore your new and exclusive member benefits:</p>
+        <div style="text-align: center;">
+        <p><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finance" width="200" src="-/media/724BA400D00347CCA60AD1185D9BB54C.ashx" /></a></p>
+        <p><a href="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx"></a><a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Insurance" width="200" src="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx" /></a><!--<br />
+        (coming soon)--></p>
+        <p><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Discounts" width="200" src="-/media/874BB921F29D4711975DF78EDB47FE6B.ashx" /></a></p>
+        <p><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Travel" width="200" src="-/media/54C6054B25E741579151B2DEDC1E556D.ashx" /></a><br />
+        <br />
+        <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Education" width="200" src="-/media/670e1cf8ba9d4d2f9769b39c3a6d85a6.ashx" /></a></p>
+        <p>To get started accessing your benefits, please</p>
+        <a class="button" href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">REGISTER NOW</a></div>
+        <p>
+        <br />
+        Questions? Please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a> so we can help!<br />
+        (<a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z?sc_lang=es-es">Se habla espa&ntilde;ol</a>.)</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Welcome to SEIU member benefits
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C56BBA45-A2FD-4D69-94D3-4735257108A9}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="41D19FF00C3E417B9C8071C0AB8650C5"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Take advantage of all of the benefit programs you find on this website—everything from insurance and credit cards to discounts on travel and everyday items. We’re proud to bring you this assortment of great benefits—at no cost or obligation—just for being an SEIU member!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200211T163133Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Welcome to SEIU member benefits
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200211T163133Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Welcome to SEIU member benefits
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Welcome to SEIU Member Benefits&mdash;A special benefit program exclusively for SEIU members!</strong></p>
+        <p>As an SEIU Member, you work so hard to improve your lives, the lives of your families and the communities you serve. We feel you deserve something special too.</p>
+        <p>We&rsquo;re proud to bring you this assortment of great benefits&mdash;at no cost or obligation&mdash;just for being an SEIU member!</p>
+        <p>Take advantage of all of the benefit programs you find on this website&mdash;everything from insurance and credit cards to discounts on travel and everyday items. We&rsquo;re proud to bring you this assortment of great benefits&mdash;at no cost or obligation&mdash;just for being an SEIU member!</p>
+        <p>See how the buying power of millions of SEIU members helps you:</p>
+        <ul>
+            <li><strong>Manage finances better:</strong> Get competitive rates on everything from credit cards to personal loans</li>
+            <li><strong>Protect your family:</strong> Benefit from group rates on a growing portfolio of insurance products</li>
+            <li><strong>Cut your cost of living: </strong>Get special discounts at thousands of stores and favorite merchants.</li>
+            <li><strong>Travel for less: </strong>Enjoy specially negotiated rates and travel programs</li>
+        </ul>
+        <p>There&rsquo;s no cost or obligation! Get started today by registering on this website. Keep coming back to see the new benefits we're adding. You can also sign up for email communications from us to be the first to know when new benefits are added.</p>
+        <p>Click on the categories below to explore your new and exclusive member benefits:</p>
+        <!--New div tag starts here-->
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;">
+        <a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finance" width="200" src="-/media/724BA400D00347CCA60AD1185D9BB54C.ashx" /></a></div>
+        <a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Insurance" width="200" src="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx?h=59&amp;w=200" style="height: 59px; width: 200px;" /></a>
+        </div>
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;">
+        <a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Discounts" width="200" src="-/media/874BB921F29D4711975DF78EDB47FE6B.ashx" /></a>
+        </div>
+        <a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Travel" width="200" src="-/media/54C6054B25E741579151B2DEDC1E556D.ashx" /></a>
+        </div>
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;"> <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Education" width="200" src="-/media/670e1cf8ba9d4d2f9769b39c3a6d85a6.ashx?h=59&amp;w=200" style="height: 59px; width: 200px;" /></a>
+        <p>&nbsp;</p>
+        </div>
+        </div>
+        <!--Old div tag starts here-->
+        <div style="text-align: center;">
+        <!--<p><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finance" width="200" src="-/media/724BA400D00347CCA60AD1185D9BB54C.ashx" /></a></p>
+        <p><a href="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx"></a><a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Insurance" width="200" src="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx" /></a>--><!--<br />
+        (coming soon)-->
+        <!--<p>&nbsp;</p>
+        <p><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Discounts" width="200" src="-/media/874BB921F29D4711975DF78EDB47FE6B.ashx" /></a></p>
+        <p><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Travel" width="200" src="-/media/54C6054B25E741579151B2DEDC1E556D.ashx" /></a><br />
+        <br />
+        <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Education" width="200" src="-/media/670e1cf8ba9d4d2f9769b39c3a6d85a6.ashx" /></a></p>
+        -->
+        <p>To get started accessing your benefits, please</p>
+        <a class="button" href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">REGISTER NOW</a>
+        <p>
+        <br />
+        Questions? Please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a> so we can help!<br />
+        (<a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z?sc_lang=es-es">Se habla espa&ntilde;ol</a>.)</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+        </div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Welcome to SEIU member benefits
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C56BBA45-A2FD-4D69-94D3-4735257108A9}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="41D19FF00C3E417B9C8071C0AB8650C5"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Take advantage of all of the benefit programs you find on this website—everything from insurance and credit cards to discounts on travel and everyday items. We’re proud to bring you this assortment of great benefits—at no cost or obligation—just for being an SEIU member!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200929T203257Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Welcome to SEIU member benefits
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200929T203257Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Welcome to SEIU member benefits
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Welcome to SEIU Member Benefits&mdash;A special benefit program exclusively for SEIU members!</strong></p>
+        <p>As an SEIU Member, you work so hard to improve your lives, the lives of your families and the communities you serve. We feel you deserve something special too.</p>
+        <p>We&rsquo;re proud to bring you this assortment of great benefits&mdash;at no cost or obligation&mdash;just for being an SEIU member!</p>
+        <p>Take advantage of all of the benefit programs you find on this website&mdash;everything from insurance and credit cards to discounts on travel and everyday items.</p>
+        <p>See how the buying power of millions of SEIU members helps you:</p>
+        <ul>
+            <li><strong>Manage finances better:</strong> Get competitive rates on everything from credit cards to personal loans</li>
+            <li><strong>Protect your family:</strong> Benefit from group rates on a growing portfolio of insurance products</li>
+            <li><strong>Cut your cost of living: </strong>Get special discounts at thousands of stores and favorite merchants.</li>
+            <li><strong>Travel for less: </strong>Enjoy specially negotiated rates and travel programs</li>
+        </ul>
+        <p>There&rsquo;s no cost or obligation! Get started today by registering on this website. Keep coming back to see the new benefits we're adding. You can also sign up for email communications from us to be the first to know when new benefits are added.</p>
+        <p>Click on the categories below to explore your new and exclusive member benefits:</p>
+        <!--New div tag starts here-->
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;">
+        <a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finance" width="200" src="-/media/724BA400D00347CCA60AD1185D9BB54C.ashx" /></a></div>
+        <a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Insurance" width="200" src="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx?h=59&amp;w=200" style="height: 59px; width: 200px;" /></a>
+        </div>
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;">
+        <a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Discounts" width="200" src="-/media/874BB921F29D4711975DF78EDB47FE6B.ashx" /></a>
+        </div>
+        <a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Travel" width="200" src="-/media/54C6054B25E741579151B2DEDC1E556D.ashx" /></a>
+        </div>
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;"> <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Education" width="200" src="-/media/670e1cf8ba9d4d2f9769b39c3a6d85a6.ashx?h=59&amp;w=200" style="height: 59px; width: 200px;" /></a>
+        <p>&nbsp;</p>
+        </div>
+        </div>
+        <!--Old div tag starts here-->
+        <div style="text-align: center;">
+        <!--<p><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finance" width="200" src="-/media/724BA400D00347CCA60AD1185D9BB54C.ashx" /></a></p>
+        <p><a href="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx"></a><a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Insurance" width="200" src="-/media/4D1FB7B579B849CDAA68AD427234B0CF.ashx" /></a>--><!--<br />
+        (coming soon)-->
+        <!--<p>&nbsp;</p>
+        <p><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Discounts" width="200" src="-/media/874BB921F29D4711975DF78EDB47FE6B.ashx" /></a></p>
+        <p><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Travel" width="200" src="-/media/54C6054B25E741579151B2DEDC1E556D.ashx" /></a><br />
+        <br />
+        <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Education" width="200" src="-/media/670e1cf8ba9d4d2f9769b39c3a6d85a6.ashx" /></a></p>
+        -->
+        <p>To get started accessing your benefits, please</p>
+        <a class="button" href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">REGISTER NOW</a>
+        <p>
+        <br />
+        Questions? Please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a> so we can help!<br />
+        (<a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z?sc_lang=es-es">Se habla espa&ntilde;ol</a>.)</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+        </div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Welcome to SEIU member benefits
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Saque provecho de todos los programas de beneficios que encuentre en este sitio web: desde seguros y tarjetas de crédito, a descuentos en viajes y artículos de uso diario. Estamos orgullosos de presentar esta variedad de grandes beneficios, sin costos ni obligaciones, ¡solo por ser miembro de SEIU!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171212T223937Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "8c4cdcaa-57af-4ca8-9d6b-97b61f114efa"
+      Hint: JavascriptCodeTop
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Bienvenido a SEIU member benefits
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Bienvenido a SEIU member benefits
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Bienvenido a SEIU Member Benefits: &iexcl;un nuevo programa de beneficios exclusivos para los miembros de SEIU!</strong></p>
+        <p>Saque provecho de todos los programas de beneficios que encuentre en este sitio web: desde seguros y tarjetas de cr&eacute;dito, a descuentos en viajes y art&iacute;culos de uso diario. Estamos orgullosos de presentar esta variedad de grandes beneficios, sin costos ni obligaciones, &iexcl;solo por ser miembro de SEIU!</p>
+        <p>Vea c&oacute;mo el poder adquisitivo de los millones de miembros de SEIU le ayuda a:</p>
+        <ul>
+            <li><strong>Manejar mejor las finanzas:</strong> consiga tarifas competitivas en todo, desde tarjetas de cr&eacute;dito hasta pr&eacute;stamos personales.</li>
+            <li><strong>Proteger a su familia:</strong> benef&iacute;ciese de tarifas de grupo en una creciente cartera de productos de seguros.</li>
+            <li><strong>Reducir el costo de la vida:</strong> consiga descuentos especiales en miles de tiendas de primera categor&iacute;a.</li>
+            <li><strong>Viajar por menos:</strong> disfrute de programas de viajes y tarifas especiales.</li>
+        </ul>
+        <p>&iexcl;Sin costos ni obligaciones! Comience hoy registr&aacute;ndose en este sitio web. Siga visit&aacute;ndonos para conocer los nuevos beneficios que vamos a agregar. Tambi&eacute;n puede inscribirse para recibir nuestras comunicaciones por correo electr&oacute;nico y ser el primero en saber cu&aacute;ndo se agregan nuevos beneficios.</p>
+        <p>Haga clic en las categor&iacute;as siguientes para descubrir los nuevos y exclusivos beneficios para miembros:</p>
+        <div style="text-align: center;">
+        <p><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finanzas" width="200" src="-/media/736f90a2080249a7b8ad470fc85fd523.ashx?la=es-es" /></a></p>
+        <p><a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Seguros" width="200" src="-/media/fcd7b77d3b554d67a3faf4f44ef1f4c5.ashx?la=es-es" /></a><!--<br />
+        (coming soon)--></p>
+        <p><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Descuentos" width="210" src="-/media/e9f547bd3fde44ef81e9e80c3b2ddd00.ashx?la=es-es" /></a></p>
+        <p><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Viajes" width="200" src="-/media/de3e702d73fc4c51ab5416dfcb3574db.ashx?la=es-es" /></a><br />
+        <br />
+        <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Educacion" width="200" src="-/media/8b300cd1ef8b43d48d2edbbdb5d926ca.ashx?la=es-es" /></a></p>
+        <p>Para comenzar a acceder a sus beneficios, por favor</p>
+        <a class="button" href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">REG&Iacute;STRESE YA</a></div>
+        <p>
+        &iquest;Preguntas? &iexcl;<a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Comun&iacute;quese con nosotros</a> para que le ayudemos!</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Bienvenido a SEIU member benefits
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Saque provecho de todos los programas de beneficios que encuentre en este sitio web: desde seguros y tarjetas de crédito, a descuentos en viajes y artículos de uso diario. Estamos orgullosos de presentar esta variedad de grandes beneficios, sin costos ni obligaciones, ¡solo por ser miembro de SEIU!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200218T193534Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "8c4cdcaa-57af-4ca8-9d6b-97b61f114efa"
+      Hint: JavascriptCodeTop
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Bienvenido a SEIU member benefits
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200218T193534Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Bienvenido a SEIU member benefits
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Bienvenidos a SEIU Member Benefits: &iexcl;Un programa de beneficios especiales destinado exclusivamente a los miembros de SEIU!</strong></p>
+        <p>Como miembros de SEIU, sabemos que trabajan arduamente para mejorar sus vidas, las vidas de sus familias y las comunidades a las que sirven. Por ello, creemos que ustedes tambi&eacute;n se merecen algo especial.</p>
+        <p>Estamos orgullosos de ofrecer esta serie de excelentes beneficios, sin costos ni obligaciones, &iexcl;solo por ser miembro de SEIU!</p>
+        <p>Vea c&oacute;mo el poder adquisitivo de los millones de miembros de SEIU le ayuda a:</p>
+        <ul>
+            <li><strong>Manejar mejor las finanzas:</strong> consiga tarifas competitivas en todo, desde tarjetas de cr&eacute;dito hasta pr&eacute;stamos personales.</li>
+            <li><strong>Proteger a su familia:</strong> benef&iacute;ciese de tarifas de grupo en una creciente cartera de productos de seguros.</li>
+            <li><strong>Reducir el costo de la vida:</strong> consiga descuentos especiales en miles de tiendas de primera categor&iacute;a.</li>
+            <li><strong>Viajar por menos:</strong> disfrute de programas de viajes y tarifas especiales.</li>
+        </ul>
+        <p>&iexcl;Sin costos ni obligaciones! Comience hoy registr&aacute;ndose en este sitio web. Siga visit&aacute;ndonos para conocer los nuevos beneficios que vamos a agregar. Tambi&eacute;n puede inscribirse para recibir nuestras comunicaciones por correo electr&oacute;nico y ser el primero en saber cu&aacute;ndo se agregan nuevos beneficios.</p>
+        <p>Haga clic en las categor&iacute;as siguientes para descubrir los nuevos y exclusivos beneficios para miembros:</p>
+        <!--New div tag starts here-->
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;">
+        <a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finance" width="200" src="-/media/736f90a2080249a7b8ad470fc85fd523.ashx?la=es-es" /></a></div>
+        <a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Insurance" width="200" src="-/media/fcd7b77d3b554d67a3faf4f44ef1f4c5.ashx?la=es-es" h="59&amp;w=200'" style="height: 59px; width: 200px;" /></a>
+        </div>
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;">
+        <a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Discounts" width="200" src="-/media/e9f547bd3fde44ef81e9e80c3b2ddd00.ashx?la=es-es" /></a>
+        </div>
+        <a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Travel" width="200" src="-/media/de3e702d73fc4c51ab5416dfcb3574db.ashx?la=es-es" /></a>
+        </div>
+        <div style="width: 100%; overflow: hidden;">
+        <div style="width: 300px; float: left;"> <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Education" width="200" src="-/media/8b300cd1ef8b43d48d2edbbdb5d926ca.ashx?la=es-es" style="height: 59px; width: 200px;" /></a>
+        <p>&nbsp;</p>
+        </div>
+        </div>
+        <!--<div style="text-align: center;">
+        <p><a href="~/link.aspx?_id=2A7E506D239B473FBB7E16C11E079B0F&amp;_z=z"><img height="59" alt="Finanzas" width="200" src="-/media/736f90a2080249a7b8ad470fc85fd523.ashx?la=es-es" /></a></p>
+        <p><a href="~/link.aspx?_id=5FCC69A93C7F45ADBF1256869E80B711&amp;_z=z"><img height="59" alt="Seguros" width="200" src="-/media/fcd7b77d3b554d67a3faf4f44ef1f4c5.ashx?la=es-es" /></a><!--<br />
+        (coming soon)-->
+        <p>&nbsp;</p>
+        <!--<p><a href="~/link.aspx?_id=836A3996445148A4AA1F013F0FB261A1&amp;_z=z"><img height="59" alt="Descuentos" width="210" src="-/media/e9f547bd3fde44ef81e9e80c3b2ddd00.ashx?la=es-es" /></a></p>
+        <p><a href="~/link.aspx?_id=01A71E867A96486D8EED82FB99928311&amp;_z=z"><img height="59" alt="Viajes" width="200" src="-/media/de3e702d73fc4c51ab5416dfcb3574db.ashx?la=es-es" /></a><br />
+        <br />
+        <a href="~/link.aspx?_id=10FC3269DA0B4202ABE4DE3AAE36ECA0&amp;_z=z"><img height="59" alt="Educacion" width="200" src="-/media/8b300cd1ef8b43d48d2edbbdb5d926ca.ashx?la=es-es" /></a></p>-->
+        <p style="text-align: center;">Para comenzar a acceder a sus beneficios, por favor</p>
+        <p style="text-align: center;"><a class="button" href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">REG&Iacute;STRESE YA</a></p>
+        <p style="text-align: center;">
+        &iquest;Preguntas? &iexcl;<a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Comun&iacute;quese con nosotros</a> para que le ayudemos!</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Bienvenido a SEIU member benefits

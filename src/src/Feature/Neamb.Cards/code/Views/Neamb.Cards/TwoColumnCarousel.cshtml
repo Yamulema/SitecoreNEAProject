@@ -1,0 +1,28 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Cards.Models.TwoColumnCarouselDto
+
+@if (Model.PageCards.Any() || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="section-normal slider-section c-006">
+        <div class="container">
+            <h2 class="header">@Html.Sitecore().Field(Templates.TwoColumCarousel.Fields.Header, Model.Item)</h2>
+            <section class="regular slider content-carousel">
+                @{
+                    foreach (var card in Model.PageCards)
+                    {
+                        <div class="card">
+                            <a href="@card.Cta" target="@card.Target">
+                                <img src="@card.ThumbnailSrc" alt="@card.ThumbnailAlt" class="thumb img-responsive" loading="lazy" />
+                                <h3>@Html.Raw(card.Title)</h3>
+								<p>@Html.Raw(card.Description)</p>
+                            </a>
+                        </div>
+                    }
+                }
+            </section>
+            <span class="pagingInfoSlider hidden-md hidden-lg"></span>
+        </div>
+    </section>
+}

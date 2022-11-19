@@ -1,0 +1,33 @@
+﻿---
+ID: "a556c0b5-4bd5-4db2-80b6-16b1b529c9b6"
+Parent: "367b8e27-d435-49a7-ba34-5d8f44fc1eb8"
+Template: "367b8e27-d435-49a7-ba34-5d8f44fc1eb8"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Templates/_PageInfo/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180426T160946Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "a552581c-7279-4485-9bcd-32cf536565f8"
+      Hint: Thumbnail
+      Value: |
+        <image mediaid="{79D6F7AC-5A85-458B-9EEA-EC574D320E20}" />
+    - ID: "c7aaffe4-93ca-4337-ad6e-fa700f6720ee"
+      Hint: Large Thumbnail
+      Value: |
+        <image mediaid="{5A7B7E07-53B6-4B2F-B4ED-DF676C46C822}" />
+    - ID: "d37a047f-6e3f-4290-b281-6c9c4f71f0e7"
+      Hint: Small Thumbnail
+      Value: |
+        <image mediaid="{F1E1C0E0-3625-4CC3-8BB7-DBA451904FB6}" />
+    - ID: "fec5d746-a317-48ea-bd97-d81d7ff151d6"
+      Hint: Short Description
+      Value: Provide a brief summary of the content to display in promotional areas across the site.

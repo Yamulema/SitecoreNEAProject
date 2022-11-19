@@ -1,0 +1,886 @@
+﻿---
+ID: "e9fc81fe-ecc4-44b7-9a95-70cb82ad9807"
+Parent: "01a71e86-7a96-486d-8eed-82fb99928311"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Travel/SEIU Travel Program FAQs
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T171748Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Earn Reward Credits to use on future travel bookings.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What is the SEIU Travel Program?</strong> A great new benefit from SEIU Member Benefits where you can book car rentals, hotels, airfare, resorts, cruises and guided tours all in one place. Plan a trip now and receive amazing low prices on everything you need to take the vacation of your dreams or make a quick weekend getaway.</p>
+        <p><strong>Is there a cost to sign up for the SEIU Travel Program?</strong> The SEIU Travel Program is available to you as part of your SEIU membership and there is no extra charge.</p>
+        <p><strong>What is the Rewards Program?</strong> We reward you for taking a vacation. With this exclusive Rewards Program, you earn credits every time you travel. Then, you can redeem those credits for discounts on travel.</p>
+        <p><strong>How many credits do I receive?</strong> You will receive up to 1.5% of the purchase price of all products in Rewards Credits.</p>
+        <p><strong>How does the Rewards Program work?</strong> If you spend $1,314 on a 5-Day trip to Pigeon Forge, Tenn. for to adults, you will earn $1,643 Rewards Credits. Then spend $238.46 on airfare from New York City to Knoxville, Tenn., you&rsquo;d earn $355 Reward Credits for a total of $1,998 credits from one trip. Redeem those Reward Credits on a future trip. For example, you could use $1,230 Reward Credits on a trip to San Diego. You pay $0 out-of-pocket and have $768 Reward Credits remaining to use on even more travel.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>5-day Pigeon Forge, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>From JFK to TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2-Nights San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $1,643 USD for 2<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $283.46 for 2<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Redeem $1,230 Reward Credit (0 out-of-pocket)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $1,643 Reward<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $355 Rewards<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 Reward Credits<br />
+                    Remaining</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1,998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Can you use partial Reward Credits?</strong> No, you must redeem all Reward Credits on a purchase. If there is a remaining balance, you will pay by cash or credit card.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T184045Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Earn Reward Credits to use on future travel bookings.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T184045Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What is the SEIU Travel Program?</strong> A great new benefit from SEIU Member Benefits where you can book car rentals, hotels, airfare, resorts, cruises and guided tours all in one place. Plan a trip now and receive amazing low prices on everything you need to take the vacation of your dreams or make a quick weekend getaway.</p>
+        <p><strong>Is there a cost to sign up for the SEIU Travel Program?</strong> The SEIU Travel Program is available to you as part of your SEIU membership and there is no extra charge.</p>
+        <p><strong>What is the Rewards Program?</strong> We reward you for taking a vacation. With this exclusive Rewards Program, you earn credits every time you travel. Then, you can redeem those credits for discounts on travel.</p>
+        <p><strong>How many credits do I receive?</strong> You will receive up to 1.5% of the purchase price of all products in Rewards Credits.</p>
+        <p><strong>How does the Rewards Program work?</strong> If you spend $1,314 on a 5-Day trip to Pigeon Forge, Tenn. for two adults, you will earn $1,643 Rewards Credits. Then spend $238.46 on airfare from New York City to Knoxville, Tenn., you&rsquo;d earn $355 Reward Credits for a total of $1,998 credits from one trip. Redeem those Reward Credits on a future trip. For example, you could use $1,230 Reward Credits on a trip to San Diego. You pay $0 out-of-pocket and have $768 Reward Credits remaining to use on even more travel.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>5-day Pigeon Forge, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>From JFK to TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2-Nights San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $1,643 USD for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $283.46 for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Redeem $1,230 Reward Credit (0 out-of-pocket)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $1,643 Reward<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $355 Rewards<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 Reward Credits<br />
+                    Remaining</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1,998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Can you use partial Reward Credits?</strong> No, you must redeem all Reward Credits on a purchase. If there is a remaining balance, you will pay by cash or credit card.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T190240Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Earn Reward Credits to use on future travel bookings.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T190240Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What is the SEIU Travel Program?</strong> A great new benefit from SEIU Member Benefits where you can book car rentals, hotels, airfare, resorts, cruises and guided tours all in one place. Plan a trip now and receive amazing low prices on everything you need to take the vacation of your dreams or make a quick weekend getaway.</p>
+        <p><strong>Is there a cost to sign up for the SEIU Travel Program?</strong> The SEIU Travel Program is available to you as part of your SEIU membership and there is no extra charge.</p>
+        <p><strong>What is the Rewards Program?</strong> We reward you for taking a vacation. With this exclusive Rewards Program, you earn credits every time you travel. Then, you can redeem those credits for discounts on travel.</p>
+        <p><strong>How many credits do I receive?</strong> You will receive up to 1.5% of the purchase price of all products in Rewards Credits.</p>
+        <p><strong>How does the Rewards Program work?</strong> If you spend $1,314 on a 5-Day trip to Pigeon Forge, Tenn. for two adults, you will earn $1,643 Rewards Credit. Then spend $238.46 on airfare from New York City to Knoxville, Tenn., you&rsquo;d earn $355 Reward Credits for a total of $1,998 credits from one trip. Redeem those Reward Credits on a future trip. For example, you could use $1,230 Reward Credits on a trip to San Diego. You pay $0 out-of-pocket and have $768 Reward Credits remaining to use on even more travel.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>5-day Pigeon Forge, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>From JFK to TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2-Nights San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $1,643 USD for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $283.46 for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Redeem $1,230 Reward Credit (0 out-of-pocket)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $1,643 Reward<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $355 Rewards<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 Reward Credits<br />
+                    Remaining</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1,998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Can you use partial Reward Credits?</strong> No, you must redeem all Reward Credits on a purchase. If there is a remaining balance, you will pay by cash or credit card.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T190346Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Earn Reward Credits to use on future travel bookings.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T190346Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What is the SEIU Travel Program?</strong> A great new benefit from SEIU Member Benefits where you can book car rentals, hotels, airfare, resorts, cruises and guided tours all in one place. Plan a trip now and receive amazing low prices on everything you need to take the vacation of your dreams or make a quick weekend getaway.</p>
+        <p><strong>Is there a cost to sign up for the SEIU Travel Program?</strong> The SEIU Travel Program is available to you as part of your SEIU membership and there is no extra charge.</p>
+        <p><strong>What is the Rewards Program?</strong> We reward you for taking a vacation. With this exclusive Rewards Program, you earn credits every time you travel. Then, you can redeem those credits for discounts on travel.</p>
+        <p><strong>How many credits do I receive?</strong> You will receive up to 1.5% of the purchase price of all products in Rewards Credits.</p>
+        <p><strong>How does the Rewards Program work?</strong> If you spend $1,314 on a 5-Day trip to Pigeon Forge, Tenn. for two adults, you will earn $1,643 Reward Credits. Then spend $238.46 on airfare from New York City to Knoxville, Tenn., you&rsquo;d earn $355 Reward Credits for a total of $1,998 credits from one trip. Redeem those Reward Credits on a future trip. For example, you could use $1,230 Reward Credits on a trip to San Diego. You pay $0 out-of-pocket and have $768 Reward Credits remaining to use on even more travel.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>5-day Pigeon Forge, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>From JFK to TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2-Nights San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $1,643 USD for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $283.46 for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Redeem $1,230 Reward Credit (0 out-of-pocket)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $1,643 Reward<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $355 Rewards<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 Reward Credits<br />
+                    Remaining</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1,998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Can you use partial Reward Credits?</strong> No, you must redeem all Reward Credits on a purchase. If there is a remaining balance, you will pay by cash or credit card.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T191434Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Earn Reward Credits to use on future travel bookings.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T191434Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What is the SEIU Travel Program?</strong> A great new benefit from SEIU Member Benefits where you can book car rentals, hotels, airfare, resorts, cruises and guided tours all in one place. Plan a trip now and receive amazing low prices on everything you need to take the vacation of your dreams or make a quick weekend getaway.</p>
+        <p><strong>Is there a cost to sign up for the SEIU Travel Program?</strong> The SEIU Travel Program is available to you as part of your SEIU membership and there is no extra charge.</p>
+        <p><strong>What is the Rewards Program?</strong> We reward you for taking a vacation. With this exclusive Rewards Program, you earn credits every time you travel. Then, you can redeem those credits for discounts on travel.</p>
+        <p><strong>How many credits do I receive?</strong> You will receive up to 1.5% of the purchase price of all products in Reward Credits.</p>
+        <p><strong>How does the Rewards Program work?</strong> If you spend $1,314 on a 5-Day trip to Pigeon Forge, Tenn. for two adults, you will earn $1,643 Reward Credits. Then spend $238.46 on airfare from New York City to Knoxville, Tenn., you&rsquo;d earn $355 Reward Credits for a total of $1,998 credits from one trip. Redeem those Reward Credits on a future trip. For example, you could use $1,230 Reward Credits on a trip to San Diego. You pay $0 out-of-pocket and have $768 Reward Credits remaining to use on even more travel.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>5-day Pigeon Forge, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>From JFK to TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2-Nights San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $1,643 USD for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $283.46 for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Redeem $1,230 Reward Credit (0 out-of-pocket)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $1,643 Reward<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $355 Rewards<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 Reward Credits<br />
+                    Remaining</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1,998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Can you use partial Reward Credits?</strong> No, you must redeem all Reward Credits on a purchase. If there is a remaining balance, you will pay by cash or credit card.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T171014Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Earn Reward Credits to use on future travel bookings.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T171014Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What is the SEIU Travel Program?</strong> A great new benefit from SEIU Member Benefits where you can book car rentals, hotels, airfare, resorts, cruises and guided tours all in one place. Plan a trip now and receive amazing low prices on everything you need to take the vacation of your dreams or make a quick weekend getaway.</p>
+        <p><strong>Is there a cost to sign up for the SEIU Travel Program?</strong> The SEIU Travel Program is available to you as part of your SEIU membership and there is no extra charge.</p>
+        <p><strong>What is the Rewards Program?</strong> We reward you for taking a vacation. With this exclusive Rewards Program, you earn credits every time you travel. Then, you can redeem those credits for discounts on travel.</p>
+        <p><strong>How many credits do I receive?</strong> You will receive up to 1.5% of the purchase price of all products in Reward Credits.</p>
+        <p><strong>How does the Rewards Program work?</strong> If you spend $1,314 on a 5-Day trip to Pigeon Forge, Tenn. for two adults, you will earn $1,643 Reward Credits. Then spend $238.46 on airfare from New York City to Knoxville, Tenn., you&rsquo;d earn $355 Reward Credits for a total of $1,998 credits from one trip. Redeem those Reward Credits on a future trip. For example, you could use $1,230 Reward Credits on a trip to San Diego. You pay $0 out-of-pocket and have $768 Reward Credits remaining to use on even more travel.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>5-day Pigeon Forge, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>From JFK to TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2-Nights San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $1,643 USD for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $283.46 for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Redeem $1,230 Reward Credit (0 out-of-pocket)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $1,643 Reward<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $355 Rewards<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 Reward Credits<br />
+                    Remaining</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1,998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Can you use partial Reward Credits?</strong> No, you must redeem all Reward Credits on a purchase. If there is a remaining balance, you will pay by cash or credit card.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T193542Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Earn Reward Credits to use on future travel bookings.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T193542Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What is the SEIU Travel Program?</strong> A great new benefit from SEIU Member Benefits where you can book car rentals, hotels, airfare, resorts, cruises and guided tours all in one place. Plan a trip now and receive amazing low prices on everything you need to take the vacation of your dreams or make a quick weekend getaway.</p>
+        <p><strong>Is there a cost to sign up for the SEIU Travel Program?</strong> The SEIU Travel Program is available to you as part of your SEIU membership and there is no extra charge.</p>
+        <p><strong>What is the Rewards Program?</strong> We reward you for taking a vacation. With this exclusive Rewards Program, you earn credits every time you travel. Then, you can redeem those credits for discounts on travel.</p>
+        <p><strong>How many credits do I receive?</strong> You will receive up to 1.5% of the purchase price of all products in Reward Credits.</p>
+        <p><strong>How does the Rewards Program work?</strong> If you spend $1,314 on a 5-Day trip to Pigeon Forge, Tenn. for two adults, you will earn $1,643 Reward Credits. Then spend $238.46 on airfare from New York City to Knoxville, Tenn., you&rsquo;d earn $355 Reward Credits for a total of $1,998 credits from one trip. Redeem those Reward Credits on a future trip. For example, you could use $1,230 Reward Credits on a trip to San Diego. You pay $0 out-of-pocket and have $768 Reward Credits remaining to use on even more travel.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>5-day Pigeon Forge, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>From JFK to TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2-Nights San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $1,643 USD for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Spend $283.46 for two<br />
+                    adults</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Redeem $1,230 Reward Credit (0 out-of-pocket)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $1,643 Reward<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Earn $355 Rewards<br />
+                    Credits</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 Reward Credits<br />
+                    Remaining</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1,998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Can you use partial Reward Credits?</strong> No, you must redeem all Reward Credits on a purchase. If there is a remaining balance, you will pay by cash or credit card.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T171051Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" alt="Horizonte de San Diego con palmera, bahía y cielo azul" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Qu&eacute; es el Programa de SEIU Travel?</strong> Se trata de un nuevo y magn&iacute;fico beneficio de SEIU Member Benefits con el que podr&aacute; reservar coches de alquiler, hoteles, pasajes a&eacute;reos, complejos tur&iacute;sticos, cruceros y visitas guiadas, todo en un solo lugar. Planifique su viaje hoy mismo y consiga precios incre&iacute;blemente bajos en todo lo que necesite para disfrutar de unas vacaciones so&ntilde;adas o de una escapada r&aacute;pida de fin de semana.</p>
+        <p><strong>&iquest;El Programa de SEIU Travel tiene alg&uacute;n costo?</strong> El Programa de SEIU Travel se encuentra disponible como parte de su membres&iacute;a de SEIU, por lo que no tiene ning&uacute;n costo adicional.</p>
+        <p><strong>&iquest;Qu&eacute; es el programa de recompensas?</strong> Le recompensamos por tomarse vacaciones. Con este exclusivo programa de recompensas, usted gana puntos cada vez que viaja. Luego, puede canjear esos puntos para obtener descuentos en viajes.</p>
+        <p><strong>&iquest;Cu&aacute;ntos puntos recibo?</strong> Recibir&aacute; hasta un 1.5% del precio de compra de todos los productos en puntos de recompensa. </p>
+        <p><strong>&iquest;C&oacute;mo funciona el programa de recompensas?&nbsp;</strong>Si gasta 1314 d&oacute;lares en un viaje de 5 d&iacute;as para dos personas a Pigeon Forge, Tennessee, usted recibir&aacute; 1643 puntos de recompensa. Y si luego gasta, por ejemplo, 238.46 d&oacute;lares en un pasaje a&eacute;reo de Nueva York a Knoxville, Tennessee, usted recibir&aacute; 355 puntos de recompensa, lo que supone un total de 1998 puntos en un solo viaje. Luego usted podr&aacute; canjear esos puntos de recompensa en alg&uacute;n viaje que planee a futuro. Por ejemplo, si utilizara 1230 puntos de recompensa en un viaje a San Diego, usted pagar&iacute;a 0 d&oacute;lares de su bolsillo y le quedar&iacute;an 768 puntos de recompensa que podr&iacute;a utilizar en otros viajes.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>Pigeon Forge de 5 d&iacute;as, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>De JFK a TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2 noches en San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gasta $1,643 USD por dos<br />
+                    adultas</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gasta $283.46 por dos<br />
+                    adultas</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Canjee $1,230 de cr&eacute;dito de recompensa (0 de su bolsillo)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gana $1,643 en cr&eacute;ditos de<br />
+                    recompensa</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gane $355 en cr&eacute;ditos de<br />
+                    recompensa</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 cr&eacute;ditos de recompensa<br />
+                    restantes</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1.998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>&iquest;Se pueden utilizar puntos de recompensa de forma parcial?</strong> No, debe canjear todos los puntos de recompensa en una misma compra. Si quedara un saldo restante, deber&aacute; abonarlo en efectivo o con tarjeta de cr&eacute;dito.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Preguntas Frecuentes Sobre el Programa de SEIU Travel
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T173423Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T173423Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" alt="Horizonte de San Diego con palmera, bahía y cielo azul" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Qu&eacute; es el Programa de SEIU Travel?</strong> Se trata de un nuevo y magn&iacute;fico beneficio de SEIU Member Benefits con el que podr&aacute; reservar coches de alquiler, hoteles, pasajes a&eacute;reos, complejos tur&iacute;sticos, cruceros y visitas guiadas, todo en un solo lugar. Planifique su viaje hoy mismo y consiga precios incre&iacute;blemente bajos en todo lo que necesite para disfrutar de unas vacaciones so&ntilde;adas o de una escapada r&aacute;pida de fin de semana.</p>
+        <p><strong>&iquest;El Programa de SEIU Travel tiene alg&uacute;n costo?</strong> El Programa de SEIU Travel se encuentra disponible como parte de su membres&iacute;a de SEIU, por lo que no tiene ning&uacute;n costo adicional.</p>
+        <p><strong>&iquest;Qu&eacute; es el programa de recompensas?</strong> Le recompensamos por tomarse vacaciones. Con este exclusivo programa de recompensas, usted gana puntos cada vez que viaja. Luego, puede canjear esos puntos para obtener descuentos en viajes.</p>
+        <p><strong>&iquest;Cu&aacute;ntos puntos recibo?</strong> Recibir&aacute; hasta un 1.5% del precio de compra de todos los productos en puntos de recompensa. </p>
+        <p><strong>&iquest;C&oacute;mo funciona el programa de recompensas?&nbsp;</strong>Si gasta 1314 d&oacute;lares en un viaje de 5 d&iacute;as para dos personas a Pigeon Forge, Tennessee, usted recibir&aacute; 1643 puntos de recompensa. Y si luego gasta, por ejemplo, 238.46 d&oacute;lares en un pasaje a&eacute;reo de Nueva York a Knoxville, Tennessee, usted recibir&aacute; 355 puntos de recompensa, lo que supone un total de 1998 puntos en un solo viaje. Luego usted podr&aacute; canjear esos puntos de recompensa en alg&uacute;n viaje que planee a futuro. Por ejemplo, si utilizara 1230 puntos de recompensa en un viaje a San Diego, usted pagar&iacute;a 0 d&oacute;lares de su bolsillo y le quedar&iacute;an 768 puntos de recompensa que podr&iacute;a utilizar en otros viajes.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>Pigeon Forge de 5 d&iacute;as, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>De JFK a TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2 noches en San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gasta $1,643 USD por dos<br />
+                    adultas</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gasta $283.46 por dos<br />
+                    adultas</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Canjee $1,230 de cr&eacute;dito de recompensa (0 de su bolsillo)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gana $1,643 en cr&eacute;ditos de
+                    recompensa</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gane $355 en cr&eacute;ditos de<br />
+                    recompensa</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 cr&eacute;ditos de recompensa
+                    restantes</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1.998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>&iquest;Se pueden utilizar puntos de recompensa de forma parcial?</strong> No, debe canjear todos los puntos de recompensa en una misma compra. Si quedara un saldo restante, deber&aacute; abonarlo en efectivo o con tarjeta de cr&eacute;dito.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Preguntas Frecuentes Sobre el Programa de SEIU Travel
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T193509Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Program FAQs
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T193509Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{A5964C79-E2FB-4DCC-86E6-E47F2455540D}" alt="Horizonte de San Diego con palmera, bahía y cielo azul" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Program FAQs
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Qu&eacute; es el Programa de SEIU Travel?</strong> Se trata de un nuevo y magn&iacute;fico beneficio de SEIU Member Benefits con el que podr&aacute; reservar coches de alquiler, hoteles, pasajes a&eacute;reos, complejos tur&iacute;sticos, cruceros y visitas guiadas, todo en un solo lugar. Planifique su viaje hoy mismo y consiga precios incre&iacute;blemente bajos en todo lo que necesite para disfrutar de unas vacaciones so&ntilde;adas o de una escapada r&aacute;pida de fin de semana.</p>
+        <p><strong>&iquest;El Programa de SEIU Travel tiene alg&uacute;n costo?</strong> El Programa de SEIU Travel se encuentra disponible como parte de su membres&iacute;a de SEIU, por lo que no tiene ning&uacute;n costo adicional.</p>
+        <p><strong>&iquest;Qu&eacute; es el programa de recompensas?</strong> Le recompensamos por tomarse vacaciones. Con este exclusivo programa de recompensas, usted gana puntos cada vez que viaja. Luego, puede canjear esos puntos para obtener descuentos en viajes.</p>
+        <p><strong>&iquest;Cu&aacute;ntos puntos recibo?</strong> Recibir&aacute; hasta un 1.5% del precio de compra de todos los productos en puntos de recompensa. </p>
+        <p><strong>&iquest;C&oacute;mo funciona el programa de recompensas?&nbsp;</strong>Si gasta 1314 d&oacute;lares en un viaje de 5 d&iacute;as para dos personas a Pigeon Forge, Tennessee, usted recibir&aacute; 1643 puntos de recompensa. Y si luego gasta, por ejemplo, 238.46 d&oacute;lares en un pasaje a&eacute;reo de Nueva York a Knoxville, Tennessee, usted recibir&aacute; 355 puntos de recompensa, lo que supone un total de 1998 puntos en un solo viaje. Luego usted podr&aacute; canjear esos puntos de recompensa en alg&uacute;n viaje que planee a futuro. Por ejemplo, si utilizara 1230 puntos de recompensa en un viaje a San Diego, usted pagar&iacute;a 0 d&oacute;lares de su bolsillo y le quedar&iacute;an 768 puntos de recompensa que podr&iacute;a utilizar en otros viajes.</p>
+        <table width="auto" border="1" cellpadding="5" cellspacing="5">
+            <tbody>
+                <tr>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>Pigeon Forge de 5 d&iacute;as, TN:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>De JFK a TYS:</strong></td>
+                    <td align="left" valign="top" style="color: #ffffff; background-color: #4a327f; width: 236px;"><strong>2 noches en San Diego, CA:</strong></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gasta $1,643 USD por dos<br />
+                    adultas</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gasta $283.46 por dos<br />
+                    adultas</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Canjee $1,230 de cr&eacute;dito de recompensa (0 de su bolsillo)</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gana $1,643 en cr&eacute;ditos de
+                    recompensa</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Gane $355 en cr&eacute;ditos de<br />
+                    recompensa</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">$768 cr&eacute;ditos de recompensa
+                    restantes</td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">Total = 1.998</td>
+                    <td align="left" valign="top" style="background-color: #ffffff; width: 236px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>&iquest;Se pueden utilizar puntos de recompensa de forma parcial?</strong> No, debe canjear todos los puntos de recompensa en una misma compra. Si quedara un saldo restante, deber&aacute; abonarlo en efectivo o con tarjeta de cr&eacute;dito.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Preguntas Frecuentes Sobre el Programa de SEIU Travel

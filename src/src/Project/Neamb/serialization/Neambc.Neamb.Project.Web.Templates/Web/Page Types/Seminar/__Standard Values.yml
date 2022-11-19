@@ -1,0 +1,115 @@
+﻿---
+ID: "a411418d-0b56-45f1-9a60-6293d1697d09"
+Parent: "f017a1a0-182f-4f32-8eb1-92270a76dd2f"
+Template: "f017a1a0-182f-4f32-8eb1-92270a76dd2f"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Seminar/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{D1C2D3ED-C54D-49D1-8920-B6C4FB941309}" />
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{E5D32996-B675-4E18-8223-DF6C7D803DEF}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{A7ED7B8A-41C9-4798-BF19-C3F2AAFA72EA}" />
+        <r
+          id="{C41BE6F3-C844-4CC1-BA92-A03947194439}"
+          ph="body"
+          uid="{B7872E2B-5CCE-4006-9465-797F2D754E33}" />
+        <r
+          id="{28A2CF9E-52C9-42BC-86E4-873C266E0095}"
+          ph="body"
+          uid="{4E774F0E-E1E5-454D-9054-2BBE0D561324}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{4C3B8F99-49EF-4A3A-AFED-9F91AF27B47B}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{6E9523FE-81EB-4DE1-B700-FE910E0D6590}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0439693c-6525-4c91-89bb-84606637fff7"
+      Hint: Include in search results
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180509T222536Z
+    - ID: "5af52daa-419a-4da2-9d48-d08f31346563"
+      Hint: Show social share
+      Type: Checkbox
+      Value: 0
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "73da7401-76af-43f5-9b88-ce1ad1f858da"
+      Hint: Eyebrow
+      Value: 
+    - ID: "a02d086c-f869-4b1b-b50e-43356af241e8"
+      Hint: Login Details
+      Value: |
+        <p style="margin-right: 0px; margin-bottom: 5px; margin-left: 0px; padding: 5px 0px;">[SeminarName]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">This FREE workshop can help you better plan and enjoy your retirement</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong>Workshop Details</strong></p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[LeaName]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong>Date &amp; Time</strong></p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarDate]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarTime]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong>Location:</strong></p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong></strong>[SeminarLocation1]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarLocation2]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarAddress]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarCityStateZipCode]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">&nbsp;</p>
+        <p style="margin-top: 5px; margin-right: 0px; margin-left: 0px; padding: 5px 0px;">&nbsp;</p>
+    - ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+      Hint: Last Publish Date
+      Value: 
+    - ID: "c25d0cb0-fcbc-4420-a34b-ed195fd0a69b"
+      Hint: Terms and Conditions
+      Value: |
+        <p style="margin-right: 0px; margin-bottom: 5px; margin-left: 0px; padding: 5px 0px;">[SeminarName]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">exclusively for [SeaName]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">This FREE workshop can help you better plan and enjoy your retirement</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong>Workshop Details</strong></p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[LeaName]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong>Date &amp; Time</strong></p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarDate]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarTime]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong>Location:</strong></p>
+        <p style="margin: 5px 0px; padding: 5px 0px;"><strong></strong>[SeminarLocation1]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarLocation2]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarAddress]</p>
+        <p style="margin: 5px 0px; padding: 5px 0px;">[SeminarCityStateZipCode]</p>

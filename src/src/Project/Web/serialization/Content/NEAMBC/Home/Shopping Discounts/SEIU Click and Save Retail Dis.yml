@@ -1,0 +1,1809 @@
+﻿---
+ID: "1eacd919-b20f-445f-bdfd-7ea7777eea75"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU Click and Save Retail Discounts
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20210119T142100Z
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: SEIU Click & Save
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{AE1EEE52-7954-45D0-9537-B58CDE0D094B}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Invite a friend" linktype="external" url="https://seiumb.affinityperks.com/invitefriend/invite" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{D6CF68AD-DBD5-488F-B679-DE73C28933FF}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002346Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div class="small-12 medium-12 large-12 columns">
+        <p>Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!</p>
+        <p><img height="160" alt="SEIU click and save retail discount" width="600" src="-/media/775EB49CC2674C21B87A5AB2092367A0.ashx" /></p>
+        <p><strong>Great Savings Have Never Been Easier!</strong></p>
+        <p>Take advantage of hundreds of exclusive offers available every day through SEIU Click &amp; Save. Just register or sign in to start shopping! New offers are added every day&mdash;from cell phones to Disney Cruises&mdash;and you can set email reminders for your favorite merchants so you&rsquo;ll be notified in advance of upcoming sales and discounts.</p>
+        <p><strong>Overwhelming Offers: Black Friday Deals, Every Day!</strong></p>
+        <p>Planning a trip and need a great rate on a hotel? Looking for a big discount on the latest gaming console? These deep, limited discounts change every day. You never know what you&rsquo;ll find&mdash;don&rsquo;t miss out!</p>
+        <p><strong>Share the Savings with Your Friends and Family</strong></p>
+        <p>Give the gift of SEIU Click &amp; Save to your friends and family. Click &amp; Save members can invite&nbsp;5 friends to join. Just register or sign in and click on the &ldquo;Invite a Friend&rdquo; button.</p>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{D6CF68AD-DBD5-488F-B679-DE73C28933FF}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start shopping" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Our most popular discount program for SEIU members. Save on brand name merchandise from hundreds of top retailers, online stores and local merchants.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E206C1AF-8D1B-4C4B-AB16-D1C3E4A23349}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Invite a friend" linktype="external" url="https://seiumb.affinityperks.com/invitefriend/invite" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C569BF75-8E15-487E-9B09-1799FC173BF5}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190812T200602Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div class="small-12 medium-12 large-12 columns">
+        <p><img alt="SEIU click and save retail discount" src="-/media/663DED3E2D3941F1AA538A030B8F78BF.ashx?h=160&amp;w=600" style="height: 160px; width: 600px;" /></p>
+        <p>&nbsp;</p>
+        <ul>
+            <li>
+            <p>Find deep discounts on clothing, home goods, electronics, dining, vacations, entertainment, and more</p>
+            </li>
+            <li>
+            <p>Shop 100s of brands names, online and at local stores</p>
+            </li>
+            <li>
+            <p>Sign up for email reminders from our favorite brands so you'll always know about upcoming deals</p>
+            </li>
+            <li>
+            <p>Invite up to 5 friends and family members to share the savings</p>
+            </li>
+            <li>
+            <p>New deals are added daily!</p>
+            </li>
+        </ul>
+        <p>SEIU Click &amp; Save helps your paycheck go farther with deep discounts on everything you need and want from movie tickets to family vacations and much more.</p>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{C569BF75-8E15-487E-9B09-1799FC173BF5}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start shopping" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Your access to exclusive shopping discounts. For SEIU members and your family and friends.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Your access to exclusive shopping discounts - for SEIU members and your family and friends"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190812T200600Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E206C1AF-8D1B-4C4B-AB16-D1C3E4A23349}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Invite a friend" linktype="external" url="https://seiumb.affinityperks.com/invitefriend/invite" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200508T185752Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div class="small-12 medium-12 large-12 columns">
+        <p><img alt="SEIU click and save retail discount" src="-/media/663DED3E2D3941F1AA538A030B8F78BF.ashx?h=160&amp;w=600" style="height: 160px; width: 600px;" /></p>
+        <p>&nbsp;</p>
+        <ul>
+            <li>
+            <p>Find deep discounts on clothing, home goods, electronics, dining, vacations, entertainment, and more</p>
+            </li>
+            <li>
+            <p>Shop 100s of brands names, online and at local stores</p>
+            </li>
+            <li>
+            <p>Sign up for email reminders from our favorite brands so you'll always know about upcoming deals</p>
+            </li>
+            <li>
+            <p>Invite up to 5 friends and family members to share the savings</p>
+            </li>
+            <li>
+            <p>New deals are added daily!</p>
+            </li>
+        </ul>
+        <p>SEIU Click &amp; Save helps your paycheck go farther with deep discounts on everything you need and want from movie tickets to family vacations and much more.</p>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start shopping" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Your access to exclusive shopping discounts. For SEIU members and your family and friends.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Your access to exclusive shopping discounts - for SEIU members and your family and friends"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200508T185752Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E206C1AF-8D1B-4C4B-AB16-D1C3E4A23349}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201221T194614Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save is being discontinued.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong> Redeem your WOWPoints by January 18th.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save will be discontinued as of January 18, 2021.</strong><br />
+        In response to valuable feedback from SEIU members, we&rsquo;re replacing SEIU Click &amp; Save with the new SEIU℠ Discount Marketplace to give you a smoother, more rewarding online shopping experience. SEIU Click &amp; Save will be available through January 18, 2021. If you have any unused WOWPoints in your SEIU Click &amp; Save account, please make sure you redeem them before they&nbsp;go away.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>What&rsquo;s coming next:</strong><br />
+        We think you&rsquo;ll love the new SEIU Discount Marketplace. Instead of earning points, you&rsquo;ll earn cash back when you shop and save on brand-name merchandise from over 2,500 top retailers, online stores, and local restaurants and shops.</center></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Redeem your WOWPoints now!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201221T194614Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E206C1AF-8D1B-4C4B-AB16-D1C3E4A23349}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201221T215526Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save is being discontinued.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong> Redeem your WOWPoints by January 18th.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save will be discontinued as of January 18, 2021.</strong><br />
+        In response to valuable feedback from SEIU members, we&rsquo;re replacing SEIU Click &amp; Save with the new SEIU℠ Discount Marketplace to give you a smoother, more rewarding online shopping experience. SEIU Click &amp; Save will be available through January 18, 2021. If you have any unused WOWPoints in your SEIU Click &amp; Save account, please make sure you redeem them before they&nbsp;go away.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>What&rsquo;s coming next:</strong><br />
+        We think you&rsquo;ll love the new SEIU Discount Marketplace. Instead of earning points, you&rsquo;ll earn cash back when you shop and save on brand-name merchandise from over 2,500 top retailers, online stores, and local restaurants and shops.</center></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Redeem your WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201221T215526Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E206C1AF-8D1B-4C4B-AB16-D1C3E4A23349}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T182120Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save is being discontinued.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong> Redeem your WOWPoints by January 18th.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save will be discontinued as of January 18, 2021.</strong><br />
+        In response to valuable feedback from SEIU members, we&rsquo;re replacing SEIU Click &amp; Save with the new <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a>&nbsp;to give you a smoother, more rewarding online shopping experience. SEIU Click &amp; Save will be available through January 18, 2021. If you have any unused WOWPoints in your SEIU Click &amp; Save account, please make sure you redeem them before they&nbsp;go away.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>What&rsquo;s coming next:</strong><br />
+        We think you&rsquo;ll love the new <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a>. Instead of earning points, you&rsquo;ll earn cash back when you shop and save on brand-name merchandise from over 2,500 top retailers, online stores, and local restaurants and shops.</center></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Redeem your WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T182120Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E206C1AF-8D1B-4C4B-AB16-D1C3E4A23349}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T191319Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save is being discontinued.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong> Redeem your WOWPoints by January 18th.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save will be discontinued as of January 18, 2021.</strong><br />
+        In response to valuable feedback from SEIU members, we&rsquo;re replacing SEIU Click &amp; Save with the new <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z"><strong>SEIU Discount Marketplace</strong></a>&nbsp;to give you a smoother, more rewarding online shopping experience. SEIU Click &amp; Save will be available through January 18, 2021. If you have any unused WOWPoints in your SEIU Click &amp; Save account, please make sure you redeem them before they&nbsp;go away.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>What&rsquo;s coming next:</strong><br />
+        We think you&rsquo;ll love the new <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z"><strong>SEIU Discount Marketplace</strong></a>. Instead of earning points, you&rsquo;ll earn cash back when you shop and save on brand-name merchandise from over 2,500 top retailers, online stores, and local restaurants and shops.</center></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Redeem your WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T191319Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E206C1AF-8D1B-4C4B-AB16-D1C3E4A23349}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Our most popular discount program for SEIU members and their families. This exclusive shopping service offers savings on brand name merchandise from hundreds of top retailers, online stores, and local merchants. Save on clothing, electronics, restaurants, jewelry, movie tickets and more!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T142105Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{282F07BA-6BE5-44DD-889E-0BC2F8908702}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{282F07BA-6BE5-44DD-889E-0BC2F8908702}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save is being discontinued.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong> Redeem your WOWPoints by January 18th.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save will be discontinued as of January 18, 2021.</strong><br />
+        In response to valuable feedback from SEIU members, we&rsquo;re replacing SEIU Click &amp; Save with the new <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z"><strong>SEIU Discount Marketplace</strong></a>&nbsp;to give you a smoother, more rewarding online shopping experience. SEIU Click &amp; Save will be available through January 18, 2021. If you have any unused WOWPoints in your SEIU Click &amp; Save account, please make sure you redeem them before they&nbsp;go away.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>What&rsquo;s coming next:</strong><br />
+        We think you&rsquo;ll love the new <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z"><strong>SEIU Discount Marketplace</strong></a>. Instead of earning points, you&rsquo;ll earn cash back when you shop and save on brand-name merchandise from over 2,500 top retailers, online stores, and local restaurants and shops.</center></center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Click & Save
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Redeem your WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210119T142105Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{90DBFE95-CEB8-4894-8165-E8F78FBF6B0A}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Invitar a un amigo" linktype="external" url="https://seiumb.affinityperks.com/invitefriend/invite" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{D6CF68AD-DBD5-488F-B679-DE73C28933FF}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172610Z
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>Nuestro programa de descuentos m&aacute;s popular para socios de SEIU y sus familias. Este servicio de compras exclusivo ofrece descuentos en productos de marca en cientos de los mejores minoristas, tiendas en l&iacute;nea y comercios locales. &iexcl;Ahorre en vestuario, art&iacute;culos electr&oacute;nicos, restaurantes, joyas, boletos para el cine y m&aacute;s!</p>
+        <p><img height="160" alt="SEIU descuento click and save" width="600" src="-/media/775EB49CC2674C21B87A5AB2092367A0.ashx" /></p>
+        <p><strong>&iexcl;Ahorrar en grande nunca hab&iacute;a sido tan f&aacute;cil!</strong></p>
+        <p>Aproveche cientos de ofertas exclusivas disponibles cada d&iacute;a a trav&eacute;s de SEIU Click &amp; Save. &iexcl;Solo reg&iacute;strese o inicie sesi&oacute;n para comenzar a comprar! Todos los d&iacute;as se incorporan nuevas ofertas, desde tel&eacute;fonos celulares hasta cruceros Disney, y puede configurar recordatorios por correo electr&oacute;nico de sus tiendas favoritas para que reciba informaci&oacute;n por anticipado sobre las ofertas y descuentos futuros.</p>
+        <p><strong>Ofertas irresistibles: &iexcl;precios de Black Friday todos los d&iacute;as!</strong></p>
+        <p>&iquest;Tiene planificado un viaje y necesita un hotel a buen precio? &iquest;Busca obtener un gran descuento en la &uacute;ltima consola de juegos? Estos descuentos enormes y limitados cambian todos los d&iacute;as. &iexcl;No se los pierda! Nunca sabr&aacute; lo que puede encontrar.</p>
+        <p><strong>Comparta los descuentos con sus amigos y familiares</strong></p>
+        <p>Regale SEIU Click &amp; Save a sus amigos y familiares. Los miembros de Click &amp; Save pueden invitar a 5 amigos para que participen. Solo reg&iacute;strese o inicie sesi&oacute;n y haga clic en el bot&oacute;n &ldquo;Invitar a un amigo&rdquo;.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{D6CF68AD-DBD5-488F-B679-DE73C28933FF}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="COMENZAR A COMPRAR" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Nuestro programa de descuentos más popular para miembros de SEIU. Ahorre en productos de marca en cientos de los mejores minoristas, tiendas en línea y comercios locales.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "¡EXCELENTES DESCUENTOS EN LOS PRODUCTOS QUE COMPRA A DIARIO!"
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{198A8306-FB57-4251-AFB8-CA690C4E4A5C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Invitar a un amigo" linktype="external" url="https://seiumb.affinityperks.com/invitefriend/invite" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C569BF75-8E15-487E-9B09-1799FC173BF5}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190812T200616Z
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div class="small-12 medium-12 large-12 columns">
+        <p><img alt="SEIU click and save retail discount" src="-/media/663DED3E2D3941F1AA538A030B8F78BF.ashx?h=160&amp;w=600" style="height: 160px; width: 600px;" /></p>
+        <p>&nbsp;</p>
+        <ul>
+            <li>
+            <p>Encuentre grandes descuentos en ropa, art&iacute;culos para el hogar, productos electr&oacute;nicos, restaurantes, vacaciones, entretenimiento y m&aacute;s.</p>
+            </li>
+            <li>
+            <p>Compre cientos de marcas, en l&iacute;nea y en tiendas locales</p>
+            </li>
+            <li>
+            <p>Reg&iacute;strese para recibir recordatorios por correo electr&oacute;nico de sus marcas favoritas para que siempre se entere de las pr&oacute;ximas ofertas</p>
+            </li>
+            <li>
+            <p>Invite a hasta 5 amigos y familiares a compartir los ahorros</p>
+            </li>
+            <li>
+            <p>&iexcl;Se a&ntilde;aden nuevas ofertas a diario!</p>
+            </li>
+        </ul>
+        <p>SEIU Click &amp; Save ayuda a que su cheque de pago vaya m&aacute;s all&aacute; con grandes descuentos en todo lo que necesita y desea, desde entradas de cine hasta vacaciones familiares y mucho m&aacute;s.</p>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C569BF75-8E15-487E-9B09-1799FC173BF5}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="COMENZAR A COMPRAR" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Su acceso a descuentos exclusivos de compras. Para miembros de SEIU y su familia y amigos.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Su acceso a descuentos exclusivos de compras - para miembros de SEIU y su familia y amigos"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190812T200600Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{198A8306-FB57-4251-AFB8-CA690C4E4A5C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Invitar a un amigo" linktype="external" url="https://seiumb.affinityperks.com/invitefriend/invite" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200508T185919Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div class="small-12 medium-12 large-12 columns">
+        <p><img alt="SEIU click and save retail discount" src="-/media/663DED3E2D3941F1AA538A030B8F78BF.ashx?h=160&amp;w=600" style="height: 160px; width: 600px;" /></p>
+        <p>&nbsp;</p>
+        <ul>
+            <li>
+            <p>Encuentre grandes descuentos en ropa, art&iacute;culos para el hogar, productos electr&oacute;nicos, restaurantes, vacaciones, entretenimiento y m&aacute;s.</p>
+            </li>
+            <li>
+            <p>Compre cientos de marcas, en l&iacute;nea y en tiendas locales</p>
+            </li>
+            <li>
+            <p>Reg&iacute;strese para recibir recordatorios por correo electr&oacute;nico de sus marcas favoritas para que siempre se entere de las pr&oacute;ximas ofertas</p>
+            </li>
+            <li>
+            <p>Invite a hasta 5 amigos y familiares a compartir los ahorros</p>
+            </li>
+            <li>
+            <p>&iexcl;Se a&ntilde;aden nuevas ofertas a diario!</p>
+            </li>
+        </ul>
+        <p>SEIU Click &amp; Save ayuda a que su cheque de pago vaya m&aacute;s all&aacute; con grandes descuentos en todo lo que necesita y desea, desde entradas de cine hasta vacaciones familiares y mucho m&aacute;s.</p>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="COMENZAR A COMPRAR" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Su acceso a descuentos exclusivos de compras. Para miembros de SEIU y su familia y amigos.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Su acceso a descuentos exclusivos de compras - para miembros de SEIU y su familia y amigos"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200508T185919Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{198A8306-FB57-4251-AFB8-CA690C4E4A5C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201221T212225Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save est&aacute; siendo descontinuado.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>Canjea tus WOWPoints antes del 18 de enero.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save dejar&aacute; de estar disponible a partir del 18 de enero de 2021.</strong><br />
+        En respuesta a los valiosos comentarios de los miembros de SEIU, estamos reemplazando SEIU Click &amp; Save por el nuevo Mercado de Descuentos SEIU℠ para brindarte una experiencia de compra en l&iacute;nea m&aacute;s fluida y gratificante. SEIU Click &amp; Save estar&aacute; disponible hasta el 18 de enero de 2021. Si tienes puntos WOW sin usar en tu cuenta de SEIU Click &amp; Save, aseg&uacute;rate de canjearlos antes de que desaparezcan.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>Pr&oacute;ximamente:</strong><br />
+        Creemos que te encantar&aacute; el nuevo Mercado de Descuentos SEIUSM. En lugar de ganar puntos, ganar&aacute;s dinero en efectivo cuando compres y ahorres en productos de marca de m&aacute;s de 2500 minoristas, tiendas en l&iacute;nea y restaurantes y tiendas locales.</center>
+        </center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="¡CANJEA TUS WOWPoints AHORA!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa SEIU Click and Save ser&aacute; reemplazado pronto. Act&uacute;a ahora para canjear tus recompensas
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Su acceso a descuentos exclusivos de compras - para miembros de SEIU y su familia y amigos"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201221T212225Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{198A8306-FB57-4251-AFB8-CA690C4E4A5C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201221T215607Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save est&aacute; siendo descontinuado.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>Canjea tus WOWPoints antes del 18 de enero.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save dejar&aacute; de estar disponible a partir del 18 de enero de 2021.</strong><br />
+        En respuesta a los valiosos comentarios de los miembros de SEIU, estamos reemplazando SEIU Click &amp; Save por el nuevo Mercado de Descuentos SEIU℠ para brindarte una experiencia de compra en l&iacute;nea m&aacute;s fluida y gratificante. SEIU Click &amp; Save estar&aacute; disponible hasta el 18 de enero de 2021. Si tienes puntos WOW sin usar en tu cuenta de SEIU Click &amp; Save, aseg&uacute;rate de canjearlos antes de que desaparezcan.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>Pr&oacute;ximamente:</strong><br />
+        Creemos que te encantar&aacute; el nuevo Mercado de Descuentos SEIUSM. En lugar de ganar puntos, ganar&aacute;s dinero en efectivo cuando compres y ahorres en productos de marca de m&aacute;s de 2500 minoristas, tiendas en l&iacute;nea y restaurantes y tiendas locales.</center>
+        </center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="¡CANJEA TUS WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa SEIU Click and Save ser&aacute; reemplazado pronto. Act&uacute;a ahora para canjear tus recompensas
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Su acceso a descuentos exclusivos de compras - para miembros de SEIU y su familia y amigos"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201221T215607Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{198A8306-FB57-4251-AFB8-CA690C4E4A5C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201223T212003Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save est&aacute; siendo descontinuado.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>Canjea tus WOWPoints antes del 18 de enero.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save dejar&aacute; de estar disponible a partir del 18 de enero de 2021.</strong><br />
+        En respuesta a los valiosos comentarios de los miembros de SEIU, estamos reemplazando SEIU Click &amp; Save por el nuevo SEIU℠ Discount Marketplace para brindarte una experiencia de compra en l&iacute;nea m&aacute;s fluida y gratificante. SEIU Click &amp; Save estar&aacute; disponible hasta el 18 de enero de 2021. Si tienes WOWPoints sin usar en tu cuenta de SEIU Click &amp; Save, aseg&uacute;rate de canjearlos antes de que desaparezcan.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>Pr&oacute;ximamente:</strong><br />
+        Creemos que te encantar&aacute; el nuevo SEIU℠ Discount Marketplace. En lugar de ganar puntos, ganar&aacute;s dinero en efectivo cuando compres y ahorres en productos de marca de m&aacute;s de 2500 minoristas, tiendas en l&iacute;nea y restaurantes y tiendas locales.</center>
+        </center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="¡CANJEA TUS WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa SEIU Click and Save ser&aacute; reemplazado pronto. Act&uacute;a ahora para canjear tus recompensas
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Su acceso a descuentos exclusivos de compras - para miembros de SEIU y su familia y amigos"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201223T212003Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{198A8306-FB57-4251-AFB8-CA690C4E4A5C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T182238Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save est&aacute; siendo descontinuado.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>Canjea tus WOWPoints antes del 18 de enero.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save dejar&aacute; de estar disponible a partir del 18 de enero de 2021.</strong><br />
+        En respuesta a los valiosos comentarios de los miembros de SEIU, estamos reemplazando SEIU Click &amp; Save por el nuevo <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a>&nbsp;para brindarte una experiencia de compra en l&iacute;nea m&aacute;s fluida y gratificante. SEIU Click &amp; Save estar&aacute; disponible hasta el 18 de enero de 2021. Si tienes WOWPoints sin usar en tu cuenta de SEIU Click &amp; Save, aseg&uacute;rate de canjearlos antes de que desaparezcan.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>Pr&oacute;ximamente:</strong><br />
+        Creemos que te encantar&aacute; el nuevo <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a>. En lugar de ganar puntos, ganar&aacute;s dinero en efectivo cuando compres y ahorres en productos de marca de m&aacute;s de 2500 minoristas, tiendas en l&iacute;nea y restaurantes y tiendas locales.</center>
+        </center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="¡CANJEA TUS WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa SEIU Click and Save ser&aacute; reemplazado pronto. Act&uacute;a ahora para canjear tus recompensas
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Su acceso a descuentos exclusivos de compras - para miembros de SEIU y su familia y amigos"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T182238Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{198A8306-FB57-4251-AFB8-CA690C4E4A5C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{9B621B93-C91B-489D-857C-55F0100EC386}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Nuestro programa de descuento más popular para los miembros de SEIU y sus familias. Este exclusivo servicio de compras ofrece ahorros en productos de marca de cientos de los principales minoristas, tiendas en línea y comerciantes locales. ¡Ahorre en ropa, artículos electrónicos, restaurantes, joyas, entradas para el cine y más!"
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{468CA56A-B5A3-441A-8ABF-13BF96186E11}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T191219Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ CLICK &amp; SAVE
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>SEIU Click &amp; Save est&aacute; siendo descontinuado.</strong></p>
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 16px; font-style: italic; margin-bottom: 0px;"><strong>Canjea tus WOWPoints antes del 18 de enero.</strong></p>
+        </div>
+        &nbsp;
+        <p>&nbsp;</p>
+        <center><strong>SEIU Click &amp; Save dejar&aacute; de estar disponible a partir del 18 de enero de 2021.</strong><br />
+        En respuesta a los valiosos comentarios de los miembros de SEIU, estamos reemplazando SEIU Click &amp; Save por el nuevo <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z"><strong>SEIU Discount Marketplace</strong></a>&nbsp;para brindarte una experiencia de compra en l&iacute;nea m&aacute;s fluida y gratificante. SEIU Click &amp; Save estar&aacute; disponible hasta el 18 de enero de 2021. Si tienes WOWPoints sin usar en tu cuenta de SEIU Click &amp; Save, aseg&uacute;rate de canjearlos antes de que desaparezcan.
+        </center>
+        <p>&nbsp;</p>
+        <center><center><strong>Pr&oacute;ximamente:</strong><br />
+        Creemos que te encantar&aacute; el nuevo <a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z"><strong>SEIU Discount Marketplace</strong></a>. En lugar de ganar puntos, ganar&aacute;s dinero en efectivo cuando compres y ahorres en productos de marca de m&aacute;s de 2500 minoristas, tiendas en l&iacute;nea y restaurantes y tiendas locales.</center>
+        </center>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{4ADD1A5E-5EEA-4B71-9E54-28DC6266F339}" alt="SEIU Click &amp; Save" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU CLICK & SAVE
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="¡CANJEA TUS WOWPoints!" linktype="external" url="https://seiumb.affinityperks.com/store/index/uSource/rdrdr/type/holidayfair" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa SEIU Click and Save ser&aacute; reemplazado pronto. Act&uacute;a ahora para canjear tus recompensas
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro en el 1-844-836-SEIU (-7348)"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Su acceso a descuentos exclusivos de compras - para miembros de SEIU y su familia y amigos"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T191219Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Click & Save

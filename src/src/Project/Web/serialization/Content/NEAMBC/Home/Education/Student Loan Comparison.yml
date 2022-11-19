@@ -1,0 +1,294 @@
+﻿---
+ID: "cc3d175f-6db8-4557-954a-b753bf6073f5"
+Parent: "10fc3269-da0b-4202-abe4-de3aae36eca0"
+Template: "2d96ec72-cd15-45e1-bffb-06af9804bb68"
+Path: /sitecore/content/NEAMBC/Home/Education/Student Loan Comparison
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200303T200529Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Private Student Loans With Your Needs in Mind. 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{421BB17E-802A-4CF2-AB63-F396C4826E50}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Federal loans, grants and financial aid packages don't always cover all of the cost of higher education. Let us help you bridge that gap.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Student Loan Comparison
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <div class="row" id="products">
+        <div class="large-12 columns">
+        <div class="row" id="product">
+        <div class="large-5 medium-5 columns"><img height="350" alt="College Ave Student Loans" width="500" src="-/media/44436078a8e745fa971b85b909f9890b.ashx" /></div>
+        <div class="large-7 medium-7 columns">
+        <h2><a href="~/link.aspx?_id=230F5EB0FD834CC7B2B949C578028BA0&amp;_z=z"><span style="font-size: 24px; color: #4f2e84;">SEIU℠ Undergraduate Loan Program</span></a></h2>
+        <p><span style="font-size: 13px;">The SEIU Undergraduate Loan Program can help undergraduate students pay for college so you and they can focus on learning&mdash;with less financial stress.</span></p>
+        <ul style="color: #0a0a0a; background-color: #efeef0;">
+            <li>
+            A special 0.25% interest rate discount.<sup>1</sup>
+            </li>
+            <li>
+            An additional 0.25% interest rate discount with auto-pay enrollment.<sup>2</sup>
+            </li>
+            <li>
+            Coverage of up to 100% of the school-certified cost of attendance.<sup>3</sup>
+            </li>
+            <li>
+            No origination or application fees, or pre-payment penalties.
+            </li>
+            <li>
+            Choice of loan terms of 5, 8, 10, or 15 years.<sup>4</sup>
+            </li>
+        </ul>
+        <a class="button" href="~/link.aspx?_id=230F5EB0FD834CC7B2B949C578028BA0&amp;_z=z">LEARN MORE</a></div>
+        </div>
+        <div style="margin: 0px -25px; height: 10px; background-color: white;">&nbsp;</div>
+        <div class="row" id="product">
+        <div class="large-5 medium-5 columns"><img height="350" alt="College Ave Student Loans" width="500" src="-/media/65dfc2ef6973496bae392de48465389f.ashx" />
+        </div>
+        <div class="large-7 medium-7 columns">
+        <h2><a href="~/link.aspx?_id=B3A8C6EC940F45A2998FC562C7C25E56&amp;_z=z"><span style="font-size: 24px; color: #4f2e84;">SEIU℠ Graduate Loan Program</span></a></h2>
+        <p><span style="font-size: 13px;">Flexible, competitive private student Loans to help pay for expenses financial aid may not fully cover. (For students seeking graduate or professional degrees)</span></p>
+        <p>
+        </p>
+        <ul style="color: #0a0a0a; background-color: #efeef0;">
+            <li>
+            A special 0.25% interest rate discount.<sup>1</sup>
+            </li>
+            <li>
+            An additional 0.25% interest rate discount with auto-pay enrollment.<sup>2</sup>
+            </li>
+            <li>
+            Coverage of up to 100% of the school-certified cost of attendance.<sup>3</sup>
+            </li>
+            <li>
+            No origination or application fees, or pre-payment penalties.
+            </li>
+            <li>
+            Choice of loan terms of 5, 8, 10, or 15 years.<sup>4</sup>
+            </li>
+            <li>
+            <strong>Four repayment options - full principal and interest. Interest only, flat payment and deferred payment.</strong>
+            </li>
+        </ul>
+        <a class="button" href="~/link.aspx?_id=B3A8C6EC940F45A2998FC562C7C25E56&amp;_z=z">LEARN MORE</a></div>
+        </div>
+        <div style="margin: 0px -25px; height: 10px; background-color: white;">&nbsp;</div>
+        <div class="row" id="product">
+        <div class="large-5 medium-5 columns"><img height="350" alt="College Ave Student Loans" width="500" src="-/media/e5901ffff94f47f7a249bdae13200fd5.ashx" />
+        </div>
+        <div class="large-7 medium-7 columns">
+        <h2><a href="~/link.aspx?_id=E834A4E50ECC4F0E9A0295C39C68057E&amp;_z=z"><span style="font-size: 24px; color: #4f2e84;">SEIU℠ Parent Loan</span></a></h2>
+        <p><span style="font-size: 13px;">The SEIU Parent Loan Program can help a student you care about pay for their degree so they can focus on learning&mdash;with less financial stress.</span></p>
+        <ul>
+            <li>
+            A special 0.25% interest rate discount.<sup>1</sup>
+            </li>
+            <li>
+            An additional 0.25% interest rate discount with auto-pay enrollment.<sup>2</sup>
+            </li>
+            <li>
+            Coverage of up to 100% of the school-certified cost of attendance.<sup>3</sup>
+            </li>
+            <li>
+            No origination or application fees, or pre-payment penalties.
+            </li>
+            <li>
+            Choice of loan terms of 5, 8, 10, or 15 years. <strong>You can even have up to $2,500 sent directly to you for education costs outside of tuition and fees</strong>.<sup>4</sup>
+            </li>
+        </ul>
+        <a class="button" href="~/link.aspx?_id=E834A4E50ECC4F0E9A0295C39C68057E&amp;_z=z">LEARN MORE</a></div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p style="text-align: center;"><span style="font-size: 24px;">Apply now and get the extra money you need to make college a reality!</span></p>
+        <p style="text-align: center;">
+        </p>
+        <p>&nbsp;</p>
+        <hr style="border: 0px currentColor; height: 2px; color: #4f2e84; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <p><span style="font-size: 10px;">1. SEIU members receive a 0.25% interest rate reduction on Undergraduate, Graduate and Parent loans that are opened through the SEIU member benefits portal. The SEIU member discount will be applied to your loan account after the initial disbursement occurs.</span></p>
+        <p><span style="font-size: 10px;">2. The 0.25% auto-pay interest rate reduction applies as long as a valid bank account is designated for required monthly payments. Variable rates may increase after consummation.</span></p>
+        <p><span style="font-size: 10px;">3. As certified by your school and less any other financial aid you might receive; minimum $1,000.</span></p>
+        <p><span style="font-size: 10px;">4. This informational repayment example uses typical loan terms for a freshman borrower who selects the Deferred Repayment Option with a 10-year repayment term, has a $10,000 loan that is disbursed in one disbursement and a 8.35% fixed Annual Percentage Rate (&ldquo;APR&rdquo;): 120 monthly payments of $179.18 while in the repayment period, for a total amount of payments of $21,501.54. Loans will never have a full principal and interest monthly payment of less than $50. Your actual rates and repayment terms may vary.  *Direct Funds &ndash; In order to receive up to $2,500 direct, a valid bank account must be designated for direct deposit of funds, and $1,000 or more must be certified by, and scheduled for direct disbursement to, the school.</span></p>
+        <p><span style="font-size: 10px;">The SEIU Undergraduate Loan, the SEIU Private Student Loan Program &ndash; Graduate and the SEIU Private Parent Loan &ndash; Undergraduate are provided by College Ave Student Loans. College Ave Student Loans products are made available through either Firstrust Bank, member FDIC or M.Y. Safra Bank, FSB, member FDIC. All loans are subject to individual approval and adherence to underwriting guidelines. Program restrictions, other terms, and conditions apply.</span></p>
+        <p>&nbsp;</p>
+        <img height="100" alt="College Ave logo" width="600" src="-/media/5a0a5a81b97c4b28b9164e9d516dc9b2.ashx" />
+        <p>&nbsp;</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200303T202050Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: |
+        
+        Préstamos privados para estudiantes con sus necesidades en mente.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{421BB17E-802A-4CF2-AB63-F396C4826E50}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Los préstamos federales, las subvenciones y los paquetes de ayuda financiera no siempre cubren todos los costos de la educación superior. Permítanos ayudarlo a cerrar esa brecha.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Comparación de préstamos estudiantiles
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <div class="row" id="products">
+        <div class="large-12 columns">
+        <div class="row" id="product">
+        <div class="large-5 medium-5 columns"><img height="350" alt="College Ave Student Loans" width="500" src="-/media/44436078a8e745fa971b85b909f9890b.ashx" /></div>
+        <div class="large-7 medium-7 columns">
+        <h2><a href="~/link.aspx?_id=230F5EB0FD834CC7B2B949C578028BA0&amp;_z=z"><span style="font-size: 24px; color: #4f2e84;">Programa De Prestamos De Pregrado SEIU℠</span></a></h2>
+        <p><span style="font-size: 13px;">El Programa de pr&eacute;stamos para estudiantes universitarios de SEIU puede ayudar a los estudiantes universitarios a mejorar su situaci&oacute;n o a pagar los gastos b&aacute;sicos, como las cuotas de laboratorio y los gastos de comedor; de ese modo, usted o su ser querido podr&aacute;n concentrarse en el aprendizaje y no en cuestiones financieras.</span></p>
+        <ul style="color: #0a0a0a; background-color: #efeef0;">
+            <li>
+            Los miembros de SEIU son elegibles para recibir un descuento especial del 0.25% sobre la tasa de inter&eacute;s.<sup>1</sup>
+            </li>
+            <li>
+            Adem&aacute;s, es posible obtener un descuento adicional del 0.25% sobre la tasa de inter&eacute;s al inscribirse en el programa de pago autom&aacute;tico.<sup>2</sup>
+            </li>
+            <li>
+            Cubra hasta el 100% del gasto por estudio acreditado por el centro educativo.<sup>3</sup>
+            </li>
+            <li>
+            Sin comisi&oacute;n de apertura, costos de solicitud ni multas por pago anticipado.
+            </li>
+            <li>
+            Puede elegir pr&eacute;stamos con plazos a 5, 8, 10 o 15 a&ntilde;os.<sup>4</sup>
+            </li>
+        </ul>
+        <a class="button" href="~/link.aspx?_id=230F5EB0FD834CC7B2B949C578028BA0&amp;_z=z">APRENDE M&Aacute;S</a></div>
+        </div>
+        <div style="margin: 0px -25px; height: 10px; background-color: white;">&nbsp;</div>
+        <div class="row" id="product">
+        <div class="large-5 medium-5 columns"><img height="350" alt="College Ave Student Loans" width="500" src="-/media/65dfc2ef6973496bae392de48465389f.ashx" />
+        </div>
+        <div class="large-7 medium-7 columns">
+        <h2><a href="~/link.aspx?_id=B3A8C6EC940F45A2998FC562C7C25E56&amp;_z=z"><span style="font-size: 24px; color: #4f2e84;">Programa De Pr&eacute;stamos De Posgraso SEIU℠</span></a></h2>
+        <p><span style="font-size: 13px;">Pr&eacute; privados, flexibles y competitivos para estudiantes destinados a ayudar a solventar los gastos que no quedan totalmente cubiertos con la ayuda financeiera. (Para estudiantes que aspiran a obtener un t&iacute;tulo de postgrado o profesional)</span></p>
+        <p>
+        </p>
+        <ul style="color: #0a0a0a; background-color: #efeef0;">
+            <li>
+            Los miembros de SEIU son elegibles para recibir un descuento especial del 0.25% sobre la tasa de inter&eacute;s.<sup>1</sup>
+            </li>
+            <li>
+            Adem&aacute;s, es posible obtener un descuento adicional del 0.25% sobre la tasa de inter&eacute;s al inscribirse en el programa de pago autom&aacute;tico.<sup>2</sup>
+            </li>
+            <li>
+            Cubra hasta el 100% del gasto por estudio acreditado por el centro educativo.<sup>3</sup>
+            </li>
+            <li>
+            Sin comisi&oacute;n de apertura, costos de solicitud ni multas por pago anticipado.
+            </li>
+            <li>
+            Puede elegir pr&eacute;stamos con plazos a 5, 8, 10 o 15 a&ntilde;os.<sup>4</sup>
+            </li>
+            <li>
+            <strong>Cuatro opciones de devoluci&oacute;n: pago completo del capital y los intereses, solo pago de intereses, pago fijo o pago diferido.
+            </strong>
+            </li>
+        </ul>
+        <a class="button" href="~/link.aspx?_id=B3A8C6EC940F45A2998FC562C7C25E56&amp;_z=z">APRENDE M&Aacute;S</a></div>
+        </div>
+        <div style="margin: 0px -25px; height: 10px; background-color: white;">&nbsp;</div>
+        <div class="row" id="product">
+        <div class="large-5 medium-5 columns"><img height="350" alt="College Ave Student Loans" width="500" src="-/media/e5901ffff94f47f7a249bdae13200fd5.ashx" />
+        </div>
+        <div class="large-7 medium-7 columns">
+        <h2><a href="~/link.aspx?_id=E834A4E50ECC4F0E9A0295C39C68057E&amp;_z=z"><span style="font-size: 24px; color: #4f2e84;">Programa De Pr&eacute;stamos Para Padres SEIU℠</span></a></h2>
+        <p><span style="font-size: 13px;">El Programa de pr&eacute;stamos para padres de SEIU puede ayudar a un estudiante que usted aprecie a mejorar su situaci&oacute;n o a pagar los gastos b&aacute;sicos; de ese modo, su ser querido podr&aacute; concentrarse en el aprendizaje y no en cuestiones financieras.</span></p>
+        <ul>
+            <li>
+            Los miembros de SEIU son elegibles para recibir un descuento especial del 0.25% sobre la tasa de inter&eacute;s.<sup>1</sup>
+            </li>
+            <li>
+            Adem&aacute;s, es posible obtener un descuento adicional del 0.25% sobre la tasa de inter&eacute;s al inscribirse en el programa de pago autom&aacute;tico.<sup>2</sup>
+            </li>
+            <li>
+            Cubra hasta el 100% del gasto por estudio acreditado por el centro educativo.<sup>3</sup>
+            </li>
+            <li>
+            Sin comisi&oacute;n de apertura, costos de solicitud ni multas por pago anticipado.
+            </li>
+            <li>
+            Puede elegir pr&eacute;stamos con plazos a 5, 8, 10 o 15 a&ntilde;os. Incluso puede recibir hasta $2,500 de forma directa para los gastos de educaci&oacute;n, aparte de la matr&iacute;cula y las cuotas..<sup>4</sup>
+            </li>
+        </ul>
+        <a class="button" href="~/link.aspx?_id=E834A4E50ECC4F0E9A0295C39C68057E&amp;_z=z">APRENDE M&Aacute;S</a></div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p style="text-align: center;"><span style="font-size: 24px;">
+        &iexcl;Solicite ahora y obtenga el dinero extra que necesita para hacer realidad la universidad!</span></p>
+        <p style="text-align: center;">
+        </p>
+        <p>&nbsp;</p>
+        <hr style="border: 0px currentColor; height: 2px; color: #4f2e84; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <p><span style="font-size: 10px;">Las solicitudes y la informaci&oacute;n de los pr&eacute;stamos solo est&aacute;n disponibles en ingl&eacute;s</span></p>
+        <p><span style="font-size: 10px;">1. Los miembros de SEIU gozan de un descuento del 0.25% sobre la tasa de inter&eacute;s de los pr&eacute;stamos para estudiantes universitarios que se tramiten a trav&eacute;s del portal de beneficios para miembros de SEIU. El descuento de miembro de SEIU se aplicar&aacute; en su cuenta de pr&eacute;stamo despu&eacute;s de que se efect&uacute;e el desembolso inicial.</span></p>
+        <p><span style="font-size: 10px;">2. El descuento del 0.25% sobre la tasa de inter&eacute;s por pago autom&aacute;tico se aplica con la condici&oacute;n de que se designe una cuenta bancaria v&aacute;lida para los pagos mensuales obligatorios. Es posible que las tasas variables aumenten despu&eacute;s de la ejecuci&oacute;n.</span></p>
+        <p><span style="font-size: 10px;">3. . Seg&uacute;n lo que acredite su centro educativo, menos el monto de cualquier otra ayuda financiera que pudiera recibir; m&iacute;nimo de $1,000.</span></p>
+        <p><span style="font-size: 10px;">4. Este ejemplo de reembolso se basa en los t&eacute;rminos habituales de un pr&eacute;stamo para un prestatario estudiante de primer a&ntilde;o de universidad, quien selecciona la opci&oacute;n Reembolso diferido con un plazo de devoluci&oacute;n a 10 a&ntilde;os, tiene un pr&eacute;stamo de $10,000 que se paga en un solo desembolso y una tasa de porcentaje anual (Annual Percentage Rate, APR) fija del 8.35%: 120 pagos mensuales de $179.18 durante el per&iacute;odo de reembolso, por un total de $21,501.54. Los pr&eacute;stamos nunca tendr&aacute;n un pago mensual completo de capital ni intereses de menos de $50. Las tasas y los plazos de reembolso reales pueden variar.</span></p>
+        <p><span style="font-size: 10px;">El Pr&eacute;stamo para estudiantes de pregrado de SEIU, el Programa de pr&eacute;stamos para estudiantes privados de SEIU para graduados y el Pr&eacute;stamo para padres privados de SEIU para estudiantes de pregrado son proporcionados por College Ave Student Loans. Los productos de College Ave Student Loans se ofrecen a trav&eacute;s de Firstrust Bank, miembro de FDIC o M.Y., Safra Bank o FSB, miembro de FDIC. Todos los pr&eacute;stamos est&aacute;n sujetos a la aprobaci&oacute;n de cada persona y al cumplimiento de las pautas del asegurador. Se pueden aplicar restricciones del programa y otros t&eacute;rminos y condiciones.</span></p>
+        <p>&nbsp;</p>
+        <img alt="" height="100" width="600" src="-/media/37e9cc9694bd4106893ce27095128422.ashx?la=es-es" />&nbsp;
+        <p>&nbsp;</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 

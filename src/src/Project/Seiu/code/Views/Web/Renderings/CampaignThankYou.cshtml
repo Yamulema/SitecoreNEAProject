@@ -1,0 +1,21 @@
+﻿@using Neambc.Seiumb.Project.Web
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div id="product_details_content" class="row">
+    <div id="contact_us_content" class="row">
+        <div class="show-for-medium medium-1 large-1 columns">       
+            &nbsp;
+        </div>
+        <div id="contact_us_form" class="small-12 medium-10 large-10 columns float-center">
+            @Html.Sitecore().ImageField(Templates.CampaignThankYouTemplate.Fields.Image)
+            <div id="thanks_content" class="small-12 medium-12 large-12 columns">
+                @Html.Sitecore().Field(Templates.CampaignThankYouTemplate.Fields.Body, Model.Item)
+            </div>
+        </div>
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+    </div>
+</div>

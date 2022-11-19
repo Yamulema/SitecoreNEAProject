@@ -1,0 +1,23 @@
+﻿---
+ID: "eb72036c-f9a7-499d-880b-ec40262956a9"
+Parent: "cae44480-6c8d-42da-8c7f-505be9a39799"
+Template: "cae44480-6c8d-42da-8c7f-505be9a39799"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Product Form Options Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1FC23063-5539-4C05-8707-B171C255FA32}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220928T181158Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

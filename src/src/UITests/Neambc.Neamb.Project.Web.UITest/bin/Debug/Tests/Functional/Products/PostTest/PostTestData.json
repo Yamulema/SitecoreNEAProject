@@ -1,0 +1,20 @@
+{
+  "PostTestCtaPageHot": [
+    [ "nea.nadine@gmail.com", "secret12", "PostDataInspector.aspx", "999", "123" ]
+  ],
+  "PostTestMultiCardPageHot": [
+    [ "nea.nadine@gmail.com", "secret12", "PostDataInspector.aspx", "999" ]
+  ],
+  "PostTestSpecialPageHot": [
+    [ "nea.nadine@gmail.com", "secret12", "PostDataInspector.aspx", "999" ]
+  ],
+  "PostTestCtaPageWarm": [
+    [ "999", "nea.nadine@gmail.com", "secret12", "PostDataInspector.aspx", "999", "123" ]
+  ],
+  "PostTestMultiCardPageWarm": [
+    [ "999", "nea.nadine@gmail.com", "secret12", "PostDataInspector.aspx", "999" ]
+  ],
+  "PostTestSpecialOfferPageWarm": [
+    [ "999", "nea.nadine@gmail.com", "secret12", "PostDataInspector.aspx", "999" ]
+  ]
+}

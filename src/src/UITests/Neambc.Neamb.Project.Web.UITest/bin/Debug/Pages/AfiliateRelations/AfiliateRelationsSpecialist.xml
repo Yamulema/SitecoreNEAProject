@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+	<pages>
+		<page name="AfiliateRelationsSpecialist" urlpath="/affiliate-relations/affiliate-relations-specialist">
+			<sections>
+				<section name="header">
+					
+				</section>
+				<section name="form">
+					<controls>
+						<control key="State_Dropdown" xpath="//*[@id='state']" />
+						<control key="Submit_Button" xpath="//*[@id='field-rep']/div[3]/button" />
+					</controls>
+				</section>
+				<section name="finalStep">
+					<control key="Representative_Name" xpath="/html/body/div[2]/div/section/div/div/div/div[2]/div[3]/p[1]/strong"/>
+				</section>
+			</sections>
+		</page>
+	</pages>
+</controldata>

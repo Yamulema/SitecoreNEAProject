@@ -1,0 +1,562 @@
+﻿---
+ID: "be21a356-ced1-4e70-b57c-113cca701cac"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SNHU College Testimonial 7_27_2020
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7424C882-32CF-464B-A168-C79EA373BBF2}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">In Members' Own Words</a></h3>
+        </div>-->
+        <div class="panelExcerpt">
+        <p><em>"Whatever excuses you&rsquo;re telling yourself, quit listening to them&hellip;You&rsquo;re not too old, your time has not passed, you do have time, and you can afford it, because it&rsquo;s free. SEIU is investing in you and your future and now it&rsquo;s time that you do the same!" "I&rsquo;m forever grateful for this opportunity&hellip;"</em></p>
+        <p>-Denee, SEIU HCIIMK</p>
+        <div><a href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','in members' own words &gt; button');">READ MORE</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T192101Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7424C882-32CF-464B-A168-C79EA373BBF2}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T192101Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">In Members' Own Words</a></h3>
+        </div>-->
+        <div class="panelExcerpt">
+        <p><em>"Whatever excuses you&rsquo;re telling yourself, quit listening to them&hellip;You&rsquo;re not too old, your time has not passed, you do have time, and you can afford it, because it&rsquo;s free. SEIU is investing in you and your future and now it&rsquo;s time that you do the same!" "I&rsquo;m forever grateful for this opportunity&hellip;"</em></p>
+        <p>-Denee, SEIU HCIIMK</p>
+        <div><a href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" class="button panelBtn" >READ MORE</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T163637Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T163637Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">In Members' Own Words</a></h3>
+        </div>-->
+        <div class="panelExcerpt">
+        &nbsp;
+        <p><em>"Nothing can provide the comforts of life like equipping yourself with the educational qualifications that market you for the most rewarding jobs,"</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn">READ MORE</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T185114Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T185114Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">In Members' Own Words</a></h3>
+        </div>-->
+        <div class="panelExcerpt">
+        &nbsp;
+        <p><em>"Nothing can provide the comforts of life like equipping yourself with the educational qualifications that market you for the most rewarding jobs...,"</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn">READ MORE</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T201851Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T201851Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">Mom, Career Goals Motivate SNHU Grad to Finish Her Bachelor's Degree</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        &nbsp;
+        <p><em>"Nothing can provide the comforts of life like equipping yourself with the educational qualifications that market you for the most rewarding jobs...,"</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn">READ MORE</a></div>
+        </div>
+  - Version: 6
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T202230Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T202230Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">Mom, Career Goals Motivate SNHU Grad to Finish Her Bachelor's Degree</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><em>"Nothing can provide the comforts of life like equipping yourself with the educational qualifications that market you for the most rewarding jobs...,"</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn">READ MORE</a></div>
+        </div>
+  - Version: 7
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T204840Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T204840Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">Mom, Career Goals Motivate SNHU Grad to Finish Her Bachelor's Degree</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><em>"Nothing can provide the comforts of life like equipping yourself with the educational qualifications that market you for the most rewarding jobs...,"</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn">READ MORE</a></div>
+        </div>
+  - Version: 8
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200728T140102Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: MEMBER'S OWN WORDS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Members' own words" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200728T140102Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words &gt; title');">Mom, Career Goals Motivate SNHU Grad to Finish Her Bachelor's Degree</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><em>"Nothing can provide the comforts of life like equipping yourself with the educational qualifications that market you for the most rewarding jobs...,"</em></p>
+        <p>-Shereka, SEIU Local 5000</p>
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn">READ MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: PALABRAS DE MIEMBROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{7424C882-32CF-464B-A168-C79EA373BBF2}" alt="Las propias palabras de los miembros" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" onclick="ga_event('small module','click','in members' own words esp&gt; title');">En las propias palabras de los miembros</a></h3>
+        </div>-->
+        <p><em>&ldquo;&iquest;Cu&aacute;les son sus miedos? Deje de atormentarse con excusas.&rdquo; &ldquo;No es muy vieja, no pas&oacute; su tiempo, tiene tiempo y puede pagarlo, porque es gratuito. SEIU invierte en usted y en su futuro, as&iacute; que &iexcl;es hora de que usted haga lo mismo! &ldquo;Agradezco eternamente esta oportunidad.&rdquo;</em></p>
+        <p>-Denee, SEIU HCIIMK</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','in members' own words esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T170039Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: PALABRAS DE MIEMBROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Testimonio del College for America de la SNHU" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T170039Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words esp&gt; title');">En las propias palabras de los miembros</a></h3>
+        </div>-->
+        <p><em>&ldquo;Nada puede brindar las comodidades de la vida como equiparte con el nivel educativo que te promocionan para los empleos m&aacute;s gratificantes, dijo Johnson-Bean&rdquo;</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','in members' own words esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T184948Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: PALABRAS DE MIEMBROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Testimonio del College for America de la SNHU" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T184948Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words esp&gt; title');">En las propias palabras de los miembros</a></h3>
+        </div>-->
+        <p><em>&ldquo;Nada puede brindar las comodidades de la vida como equiparte con el nivel educativo que te promocionan para los empleos m&aacute;s gratificantes, dijo...&rdquo;</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','in members' own words esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T192059Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: PALABRAS DE MIEMBROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Testimonio del College for America de la SNHU" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T192059Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <!--<div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words esp&gt; title');">En las propias palabras de los miembros</a></h3>
+        </div>-->
+        <p><em>&ldquo;Nada puede brindar las comodidades de la vida como equiparte con el nivel educativo que te promocionan para los empleos m&aacute;s gratificantes, dijo...&rdquo;</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','in members' own words esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T202055Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: PALABRAS DE MIEMBROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Testimonio del College for America de la SNHU" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T202055Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words esp&gt; title');">Sus metas como mam&aacute; y las profesionales motivan a graduada de la SNHU a concluir su licenciatura</a></h3>
+        </div>
+        <p><em>&ldquo;Nada puede brindar las comodidades de la vida como equiparte con el nivel educativo que te promocionan para los empleos m&aacute;s gratificantes, dijo...&rdquo;</em></p>
+        <p>-Shreka, SEIU Local 5000</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','in members' own words esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+        </div>
+  - Version: 6
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200728T140138Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: PALABRAS DE MIEMBROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8C1B054F-C578-46CF-AACA-3C69828059D1}" alt="Testimonio del College for America de la SNHU" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200728T140138Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" onclick="ga_event('small module','click','in members' own words esp&gt; title');">Sus metas como mam&aacute; y las profesionales motivan a graduada de la SNHU a concluir su licenciatura</a></h3>
+        </div>
+        <p><em>&ldquo;Nada puede brindar las comodidades de la vida como equiparte con el nivel educativo que te promocionan para los empleos m&aacute;s gratificantes, dijo...&rdquo;</em></p>
+        <p>-Shereka, SEIU Local 5000</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=B071F6D84C264CC58BC68126CF347A34&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','in members' own words esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+        </div>

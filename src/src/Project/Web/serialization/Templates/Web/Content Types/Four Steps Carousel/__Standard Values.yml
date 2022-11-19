@@ -1,0 +1,113 @@
+﻿---
+ID: "f24541f0-05f2-4f22-8c39-b5c934723021"
+Parent: "242d5767-e764-4aba-9c2f-1294f1b5d5d2"
+Template: "242d5767-e764-4aba-9c2f-1294f1b5d5d2"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Four Steps Carousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e762114-9ca2-44b3-a5f3-b443c6a21b42"
+      Hint: Step 1
+      Value: |
+        <a style="color: #512E85;" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()" ><strong>Sign Up</strong></a> for a Rakuten account through SEIUMB.com.
+    - ID: "228d453f-074a-400c-b433-96fb677e2b8e"
+      Hint: Step 3
+      Value: Earn Cash Back on qualifying purchases.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220614T002712Z
+    - ID: "4d6aa53a-0d10-439c-9abb-f499207351c6"
+      Hint: Step 2
+      Value: Browse the SEIU Discount Marketplace for Cash Back offers.
+    - ID: "5cc48f30-bd75-407a-81f3-b33384adc5c9"
+      Hint: Bottom Text
+      Value: |
+        <p style="padding:20px; text-align:center;" >Plus, spend $25 or more at any qualifying Rakuten store, and receive a $10 Welcome Bonus... just for joining!*</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "65960079-9a43-4d63-a5c2-9d6f51fb5a23"
+      Hint: Step 4
+      Value: Get paid via PayPal or by check.
+    - ID: "69a4f025-08ab-4ae5-9bd3-45655d39cc5a"
+      Hint: Bottom Text
+      Value: |
+        <p style="padding:20px; text-align:center;" >Plus, spend $25 or more at any qualifying Rakuten store, and receive a $10 Welcome Bonus... just for joining!*</p>
+    - ID: "6bcf3bdb-ba4d-4be3-95d9-8eeb6f009ae4"
+      Hint: Step 3
+      Value: Earn Cash Back on qualifying purchases.
+    - ID: "79c2aa69-593a-4451-b921-a3274a725097"
+      Hint: Step 1
+      Value: |
+        <a style="color: #512E85;" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()" ><strong>Sign Up</strong></a> for a Rakuten account through SEIUMB.com.
+    - ID: "956d3f25-92de-4aff-81a6-660827f51aa3"
+      Hint: Header Text
+      Value: |
+        <h2 class="text-center mt-2 title-get-started">It’s quick and easy to get started!</h2>
+    - ID: "98c3a5bd-65f0-41ee-a65f-7390f88791e7"
+      Hint: Step 2
+      Value: Browse the SEIU Discount Marketplace for Cash Back offers.
+    - ID: "98e756ec-b53a-44e0-9f8d-16cc36b7a53c"
+      Hint: Header Text
+      Value: |
+        <h2 class="text-center mt-2 title-get-started">It’s quick and easy to get started!</h2>
+    - ID: "d434d885-9470-458c-8eba-fc28c4d0ce75"
+      Hint: Step 4
+      Value: Get paid via PayPal or by check.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e762114-9ca2-44b3-a5f3-b443c6a21b42"
+      Hint: Step 1
+      Value: |
+        <a style="color: #512E85" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Regístrese', 'clickHref':'https://www.seiumb.com/seiu discount marketplace'},this);executeLogin()" tabindex="0"><strong>Regístrese</strong></a> para obtener una cuenta de Rakuten en SEIUMB.com
+    - ID: "228d453f-074a-400c-b433-96fb677e2b8e"
+      Hint: Step 3
+      Value: Obtenga reembolsos en efectivo por compras calificadas.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220614T002848Z
+    - ID: "4d6aa53a-0d10-439c-9abb-f499207351c6"
+      Hint: Step 2
+      Value: Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.
+    - ID: "5cc48f30-bd75-407a-81f3-b33384adc5c9"
+      Hint: Bottom Text
+      Value: |
+        <p style="padding:20px; text-align:center;" >Además, puede gastar $25 o más en cualquier tienda calificada de Rakuten y recibir una bonificación de bienvenida de $10, y ¡solo por unirse!*</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "65960079-9a43-4d63-a5c2-9d6f51fb5a23"
+      Hint: Step 4
+      Value: Reciba su pago via PayPal o cheque.
+    - ID: "69a4f025-08ab-4ae5-9bd3-45655d39cc5a"
+      Hint: Bottom Text
+      Value: |
+        <p style="padding:20px; text-align:center;" >Además, puede gastar $25 o más en cualquier tienda calificada de Rakuten y recibir una bonificación de bienvenida de $10, y ¡solo por unirse!*</p>
+    - ID: "6bcf3bdb-ba4d-4be3-95d9-8eeb6f009ae4"
+      Hint: Step 3
+      Value: Obtenga reembolsos en efectivo por compras calificadas
+    - ID: "79c2aa69-593a-4451-b921-a3274a725097"
+      Hint: Step 1
+      Value: |
+        <a style="color: #512E85" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Regístrese', 'clickHref':'https://www.seiumb.com/seiu discount marketplace'},this);executeLogin()" tabindex="0"><strong>Regístrese</strong></a> para obtener una cuenta de Rakuten en SEIUMB.com
+    - ID: "956d3f25-92de-4aff-81a6-660827f51aa3"
+      Hint: Header Text
+      Value: |
+        <h2 class="text-center mt-2 title-get-started">Cómo comenzar a recibir reembolsos en efectivo!</h2>
+    - ID: "98c3a5bd-65f0-41ee-a65f-7390f88791e7"
+      Hint: Step 2
+      Value: Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.
+    - ID: "98e756ec-b53a-44e0-9f8d-16cc36b7a53c"
+      Hint: Header Text
+      Value: |
+        <h2 class="text-center mt-2 title-get-started">Cómo comenzar a recibir reembolsos en efectivo!</h2>
+    - ID: "d434d885-9470-458c-8eba-fc28c4d0ce75"
+      Hint: Step 4
+      Value: Reciba su pago via PayPal o cheque.

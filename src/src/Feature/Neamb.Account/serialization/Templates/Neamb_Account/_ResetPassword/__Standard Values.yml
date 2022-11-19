@@ -1,0 +1,40 @@
+﻿---
+ID: "e3cbf63f-da17-49f6-b633-c8f803ceae14"
+Parent: "9b34e6b8-e546-486e-9576-c5f5bcfae0a1"
+Template: "9b34e6b8-e546-486e-9576-c5f5bcfae0a1"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_ResetPassword/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a4ca60f-8b6d-478d-8db0-a24fab4229f0"
+      Hint: Submit
+      Value: Submit
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180622T172524Z
+    - ID: "3799d6f1-80a1-4c04-9030-6eeeb0226e96"
+      Hint: Subheadline
+      Value: Please enter your new password in both fields below, then Submit.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "793e7496-9ec1-4bf0-b72b-a57c73191460"
+      Hint: Expired
+      Value: The request has expired or is invalid.
+    - ID: "7b2ca140-9c6b-49c9-9d72-06deedfb5bd3"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "92debd9b-4651-4515-82cd-9eb8ea545bc0"
+      Hint: Success
+      Value: |
+        <p>Your password has been changed.</p>
+        <p>Please sign in again with your new password</p>
+        <div class="col-md-5 col-centered"><a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z" class="btn btn-lg btn-blue btn-block">Sign in</a></div>
+        
+    - ID: "9f9e88c7-5822-4203-a199-b4d1113ada46"
+      Hint: Headline
+      Value: Reset Password

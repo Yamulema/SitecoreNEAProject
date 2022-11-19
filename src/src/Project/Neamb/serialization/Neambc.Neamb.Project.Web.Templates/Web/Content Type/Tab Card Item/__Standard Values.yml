@@ -1,0 +1,30 @@
+﻿---
+ID: "f2fad92b-f19b-443f-ae12-d64c20b24b58"
+Parent: "5e570d7f-1039-4af1-994d-5dc96ce0d44c"
+Template: "5e570d7f-1039-4af1-994d-5dc96ce0d44c"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Tab Card Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221020T200733Z
+    - ID: "5024367a-f4bd-4f35-bc8e-830097dad8e7"
+      Hint: Image
+      Value: |
+        <image mediaid="{137B2C76-FD56-4587-8977-5896B16F2818}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "94c76a30-0a01-4dd3-bd25-66d637ca3866"
+      Hint: Tab Name
+      Value: Tab Name
+    - ID: "ff6e82dd-c5ae-4a38-8a2a-8490e5239310"
+      Hint: Description
+      Value: |
+        <h5>Insert your description here</h5>
+        <p>Insert your description here</p>

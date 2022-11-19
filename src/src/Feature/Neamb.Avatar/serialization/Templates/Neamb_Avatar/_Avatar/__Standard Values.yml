@@ -1,0 +1,51 @@
+﻿---
+ID: "79ee8a8c-bbc2-4596-986d-554f2b243648"
+Parent: "bcb561da-f436-4bb8-812b-b716798b30d4"
+Template: "bcb561da-f436-4bb8-812b-b716798b30d4"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Avatar/_Avatar/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "028a559a-6463-4469-b3aa-b197687daafc"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page</h2>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180928T194536Z
+    - ID: "408d275b-e42b-4662-a07e-97f0c0627e17"
+      Hint: Title
+      Value: Upload a Profile Photo
+    - ID: "58cb6799-5a86-4040-acc3-fd93088d575f"
+      Hint: Description
+      Value: "Recommended Dimensions 240 x 240 maximum file size: 5MB"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8503fc15-6163-47ce-bdb0-b64cb464a230"
+      Hint: Upload Button
+      Value: Upload
+    - ID: "9e748a55-016e-44b1-bc42-e507357f9d76"
+      Hint: Default Image
+      Value: |
+        <image mediapath="" alt="avatar" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{4D09836B-AA65-48DE-9FAD-B10EF8D5914D}" />
+    - ID: "aa24174d-3298-4a8f-ac26-19fceb570d46"
+      Hint: Save Button
+      Value: Save
+    - ID: "c7c7c062-9bac-428e-bb97-da5d340dfda6"
+      Hint: Confirmation Uploaded Image
+      Value: "Great, you've just added your avatar image! "
+    - ID: "c831e1fd-5253-466e-a3f3-78fff1237fea"
+      Hint: Error Image Size
+      Value: The image could not be uploaded please try with an image less than 5MB
+    - ID: "de8f48c0-c4f4-4589-843c-0dee5649dc7e"
+      Hint: Error Upload
+      Value: There was an error uploading the image please try again
+    - ID: "f5dd0218-9910-4eb4-8662-e971f40f4f11"
+      Hint: Back Link
+      Value: |
+        <link text="Back" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{6512B2CA-ADFA-4B70-A4F4-541224FD47CC}" />

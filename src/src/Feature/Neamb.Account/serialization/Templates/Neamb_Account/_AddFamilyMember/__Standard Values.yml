@@ -1,0 +1,50 @@
+﻿---
+ID: "1e39cdfd-756d-44ad-a389-b47293d45313"
+Parent: "e3a5d04c-4a1b-48db-9603-7a4a754375bb"
+Template: "e3a5d04c-4a1b-48db-9603-7a4a754375bb"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_AddFamilyMember/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T174611Z
+    - ID: "364c6846-2b6a-436f-82c4-b98985fd1c03"
+      Hint: Headline
+      Value: Add a Family Member
+    - ID: "475bac36-e5b8-4a1e-8b62-075dc83323f2"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page</h2>
+    - ID: "57b11314-d4b9-4604-bf8b-b3d06b5a6b69"
+      Hint: Subheadline
+      Value: |
+        When you add a new family member to your list, they will receive an email invitation to join NEA
+        Member Benefits to the email address you provide. To learn more about managing family member <a class = "text-alpha link-underline" href="~/link.aspx?_id=D93C619494F8421B8EA016EC2065E8D5&amp;_z=z">click here</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9451e63b-5772-43f7-8eb3-b97a21f4623d"
+      Hint: Label
+      Value: Relationship
+    - ID: "966de172-5ee4-44e3-b81f-c639ca70db6c"
+      Hint: Empty
+      Value: Please select your relationship to this beneficiary
+    - ID: "a9f58d07-7864-4e01-b0c5-4d828077425b"
+      Hint: Back
+      Value: |
+        <link text="Back" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{7C9DC1C9-228D-4885-961A-1CBA0BBCEA06}" />
+    - ID: "aab95e8f-444c-4ede-b1fc-717c4a462147"
+      Hint: Error
+      Value: There was an error while processing your request, please try again
+    - ID: "d00621c3-2181-4da4-a7d7-68a88c452405"
+      Hint: Send Invitation
+      Value: Send Invitation
+    - ID: "d5103c30-5784-42b4-a437-614337f89c60"
+      Hint: Cancel
+      Value: |
+        <link text="Cancel" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{7C9DC1C9-228D-4885-961A-1CBA0BBCEA06}" />

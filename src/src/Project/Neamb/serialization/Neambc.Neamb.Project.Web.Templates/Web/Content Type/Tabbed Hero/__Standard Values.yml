@@ -1,0 +1,25 @@
+﻿---
+ID: "27549761-31d1-447c-b7a9-54290e23c264"
+Parent: "d2b9f1db-0a1e-47e2-9d1f-a3ac9637dc2e"
+Template: "d2b9f1db-0a1e-47e2-9d1f-a3ac9637dc2e"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Tabbed Hero/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A0D9E7B4-57E2-4220-A334-40A496A1F446}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180713T234146Z

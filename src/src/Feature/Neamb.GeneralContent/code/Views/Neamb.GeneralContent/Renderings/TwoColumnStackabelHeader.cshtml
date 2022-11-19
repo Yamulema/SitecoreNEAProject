@@ -1,0 +1,11 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+
+}
+<div class="container p-b-xxl">
+    <h2 class="header text-center">@Html.Sitecore().Field(Templates.ContentDisplayComponents.TwoColumnStackable.Fields.Header, Model.Item)</h2>
+    <p class="subhead text-alpha no-margin-auto text-center">@Html.Sitecore().Field(Templates.ContentDisplayComponents.TwoColumnStackable.Fields.Subhead, Model.Item)</p>
+</div>

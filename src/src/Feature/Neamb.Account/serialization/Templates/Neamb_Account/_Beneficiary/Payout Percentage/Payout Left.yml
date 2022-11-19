@@ -1,0 +1,18 @@
+﻿---
+ID: "4990ad0c-01aa-456d-b5f4-6cb0a6b0db21"
+Parent: "f2df6f52-1fae-4f76-a56f-cfc0e12c0c2d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Beneficiary/Payout Percentage/Payout Left
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20190925T180926:637050317663256240Z"

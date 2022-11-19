@@ -1,0 +1,34 @@
+﻿---
+ID: "b00bf627-11b1-4a5a-97e3-c254ea847d08"
+Parent: "0a4b5ca9-42ad-4a6e-ad75-60987453292a"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_GeneralContent/Half Background Tout C077
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/NEAMB/Project/Web/Content Type/Half Background Tout Item
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Neamb.GeneralContent/HalfBackgroundTout/HalfBackgroundTout.cshtml
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/NEAMB/Global/Half Background Tout C077
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: HalfBackgroundTout
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.GeneralContent.Controllers.HalfBackgroundToutController,Neambc.Neamb.Feature.GeneralContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210505T173719Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

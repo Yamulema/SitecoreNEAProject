@@ -1,0 +1,767 @@
+﻿---
+ID: "b537bdd1-8529-490d-a7a6-89571e3358f5"
+Parent: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Finance/SEIU Visa Secured Card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A secured credit card designed to help you establish, strengthen or rebuild your credit history.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E73A0E81-07B9-44BE-80B4-1DBF217001D1}" alt="SEIU member benefits in cooperation with First National Bank Omaha" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T001959Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>1. For additional information about Annual Percentage Rates (APRs), fees and other costs, please see the <a rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a>.</p>
+        <p>
+        2. Subject to credit approval.</p>
+        <p>
+        FICO is a registered trademark of Fair Isaac Corporation in the United States and other countries. Please note, new cardmembers will generally see their FICO<sup>&reg;</sup> Bankcard Score 9 (the version of FICO<sup>&reg;</sup> Credit Score we use to manage your account) within 45 days of account opening.</p>
+        <p>
+        Cards are issued by First Bankcard<sup>&reg;</sup>, a division of First National Bank of Omaha, pursuant to a license from Visa U.S.A., Inc. VISA and VISA SIGNATURE are registered trademarks of Visa International Service Association and used under license.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Visa Secured Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to apply. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ VISA<sup>®</sup> SECURED CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Take Control of Your Credit History</strong></p>
+        <ul>
+            <li>Automatic reporting to the 3 major credit bureaus, which can help build a positive credit history.</li>
+            <li>Request your credit limit by providing a single deposit between $300 and $5,000 (multiples of $50) when you apply.<sup>2</sup></li>
+            <li>U.S. citizenship is not required, but you must have a valid SSN or ITIN and U.S. address.</li>
+            <li>View your FICO<sup>&reg;</sup> Credit Score each month online &ndash; for FREE!</li>
+            <li>Knowing your FICO<sup>&reg;</sup> Credit Score can help you better understand your financial health.</li>
+            <li>Opportunity to move to a deposit free card in as little as 11 months when you maintain good credit habits.<sup>2</sup></li>
+            <li>You could qualify for a credit limit increase without an additional deposit in as little as 7 months when you use your card and make regular, on-time bill payments.<sup>2</sup></li>
+            <li>No Annual Fee<sup>1</sup></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12px;">Please see the <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a> for important information on rates, fees, costs, conditions and limitations.</span></p>
+        <p><span style="font-size: 12px;">By applying for the credit card, you understand and agree that all disclosures and other important documents related to the credit card that are required by law will be provided to you in English only. If you are unable to read and understand the English language, it is very important that you seek the assistance of a trusted, qualified person who can translate these disclosures and important documents for you.</span></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Visa Secured Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Apply now" linktype="external" url="https://www.firstbankcard.com/lynx/#/apply?promo=QD5XRB6M44VVJ" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: A secured credit card designed to help you establish, strengthen or rebuild your credit history.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Visa Secured Card
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{97C5A4A5-8427-429E-987C-690BB6342E00}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{6770843B-9F1C-40E8-A6D8-126516A40C38}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A secured credit card designed to help you establish, strengthen or rebuild your credit history.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E73A0E81-07B9-44BE-80B4-1DBF217001D1}" alt="SEIU member benefits in cooperation with First National Bank Omaha" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200701T152836Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>1. For additional information about Annual Percentage Rates (APRs), fees and other costs, please see the <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a>.</p>
+        <p>
+        2. Subject to credit approval.</p>
+        <p>
+        FICO is a registered trademark of Fair Isaac Corporation in the United States and other countries. Please note, new cardmembers will generally see their FICO<sup>&reg;</sup> Bankcard Score 9 (the version of FICO<sup>&reg;</sup> Credit Score we use to manage your account) within 45 days of account opening.</p>
+        <p>
+        Cards are issued by First Bankcard<sup>&reg;</sup>, a division of First National Bank of Omaha, pursuant to a license from Visa U.S.A., Inc. Visa and Visa Signature are registered trademarks of Visa International Service Association and used under license.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Visa Secured Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exlcusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ VISA<sup>®</sup> SECURED CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Take Control of Your Credit History</strong></p>
+        <ul>
+            <li>Automatic reporting to the 3 major credit bureaus, which can help build a positive credit history.</li>
+            <li>Request your credit limit by providing a single deposit between $300 and $5,000 (multiples of $50) when you apply.<sup>2</sup></li>
+            <li>U.S. citizenship is not required, but you must have a valid SSN or ITIN and U.S. address.</li>
+            <li>View your FICO<sup>&reg;</sup> Credit Score each month online &ndash; for FREE!<br />
+            Knowing your FICO<sup>&reg;</sup> Credit Score can help you better understand your financial health.</li>
+            <li>Opportunity to move to a deposit free card in as little as 11 months when you maintain good credit habits.<sup>2</sup></li>
+            <li>You could qualify for a credit limit increase without an additional deposit in as little as 7 months when you use your card and make regular, on-time bill payments.<sup>2</sup></li>
+            <li><strong>No Annual Fee</strong><sup>1</sup></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12px;">Please see the <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a> for important information on rates, fees, costs, conditions and limitations.</span></p>
+        <p><span style="font-size: 12px;">By applying for the credit card, you understand and agree that all disclosures and other important documents related to the credit card that are required by law will be provided to you in English only. If you are unable to read and understand the English language, it is very important that you seek the assistance of a trusted, qualified person who can translate these disclosures and important documents for you.</span></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Visa Secured Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Apply now" linktype="external" url="https://www.firstbankcard.com/lynx/#/apply?promo=QD5XRB6M44VVJ" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: A secured credit card designed to help you establish, strengthen or rebuild your credit history.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200701T152800Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Visa Secured Card
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{97C5A4A5-8427-429E-987C-690BB6342E00}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{6770843B-9F1C-40E8-A6D8-126516A40C38}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: A secured credit card designed to help you establish, strengthen or rebuild your credit history.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E73A0E81-07B9-44BE-80B4-1DBF217001D1}" alt="SEIU member benefits in cooperation with First National Bank Omaha" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T122707Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>1. For additional information about Annual Percentage Rates (APRs), fees and other costs, please see the <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a>.</p>
+        <p>
+        2. Subject to credit approval.</p>
+        <p>
+        FICO is a registered trademark of Fair Isaac Corporation in the United States and other countries. Please note, new cardmembers will generally see their FICO<sup>&reg;</sup> Bankcard Score 9 (the version of FICO<sup>&reg;</sup> Credit Score we use to manage your account) within 45 days of account opening.</p>
+        <p>
+        Cards are issued by First Bankcard<sup>&reg;</sup>, a division of First National Bank of Omaha, pursuant to a license from Visa U.S.A., Inc. Visa and Visa Signature are registered trademarks of Visa International Service Association and used under license.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Visa Secured Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exlcusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ VISA<sup>®</sup> SECURED CARD
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{DF3B8FBD-0507-4C84-BDAE-9B9F7873AC4A}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{DF3B8FBD-0507-4C84-BDAE-9B9F7873AC4A}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Take Control of Your Credit History</strong></p>
+        <ul>
+            <li>Automatic reporting to the 3 major credit bureaus, which can help build a positive credit history.</li>
+            <li>Request your credit limit by providing a single deposit between $300 and $5,000 (multiples of $50) when you apply.<sup>2</sup></li>
+            <li>U.S. citizenship is not required, but you must have a valid SSN or ITIN and U.S. address.</li>
+            <li>View your FICO<sup>&reg;</sup> Credit Score each month online &ndash; for FREE!<br />
+            Knowing your FICO<sup>&reg;</sup> Credit Score can help you better understand your financial health.</li>
+            <li>Opportunity to move to a deposit free card in as little as 11 months when you maintain good credit habits.<sup>2</sup></li>
+            <li>You could qualify for a credit limit increase without an additional deposit in as little as 7 months when you use your card and make regular, on-time bill payments.<sup>2</sup></li>
+            <li><strong>No Annual Fee</strong><sup>1</sup></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12px;">Please see the <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Summary of Credit Terms</a> for important information on rates, fees, costs, conditions and limitations.</span></p>
+        <p><span style="font-size: 12px;">By applying for the credit card, you understand and agree that all disclosures and other important documents related to the credit card that are required by law will be provided to you in English only. If you are unable to read and understand the English language, it is very important that you seek the assistance of a trusted, qualified person who can translate these disclosures and important documents for you.</span></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Visa Secured Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Apply now" linktype="external" url="https://www.firstbankcard.com/lynx/#/apply?promo=QD5XRB6M44VVJ" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: A secured credit card designed to help you establish, strengthen or rebuild your credit history.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T122707Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exlcusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Visa Secured Card
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta de crédito asegurada diseñada para ayudarlo a establecer, fortalecer o reconstruir su historial crediticio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" alt="Tarjeta SEIU Visa Platinum Edition" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{22862F55-9B34-447C-9EFF-91E0B94CA469}" height="" hspace="" width="" alt="SEIU member benefits en cooperción con First National Bank Omaha" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172656Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>1. Para obtener m&aacute;s informaci&oacute;n sobre las tasas de porcentaje anual (APR), las comisiones y otros costos, consulte el <a rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>.</p>
+        <p>
+        2. Sujeto a aprobaci&oacute;n crediticia.</p>
+        <p>
+        FICO es una marca registrada de Fair Isaac Corporation en los Estados Unidos y en otros pa&iacute;ses. Tenga en cuenta que, en general, los nuevos titulares de tarjeta ver&aacute;n su puntaje de tarjeta bancaria FICO<sup>&reg;</sup> Score 9 (la versi&oacute;n de calificaci&oacute;n crediticia FICO<sup>&reg;</sup> que utilizamos para gestionar su cuenta) dentro de los 45 d&iacute;as de la apertura de la cuenta.</p>
+        <p>
+        Las tarjetas son emitidas por First Bankcard<sup>&reg;</sup>, una divisi&oacute;n de First National Bank of Omaha, en virtud de una licencia de Visa U.S.A., Inc. VISA y VISA SIGNATURE son marcas registradas de Visa International Service Association y se utilizan bajo licencia.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe ingresar a su cuenta para aplicar. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA SEIU℠ VISA<sup>&reg;</sup> SECURED
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Asuma el control de su historial crediticio</strong></p>
+        <ul>
+            <li>Informes autom&aacute;ticos a las 3 agencias de cr&eacute;dito m&aacute;s importantes que pueden ayudarle a tener un historial crediticio positivo.</li>
+            <li>Solicite su l&iacute;mite de cr&eacute;dito mediante un dep&oacute;sito de $300 a $5,000 (en m&uacute;ltiplos de $50) al momento de solicitarla.<sup>2</sup></li>
+            <li>No se requiere ser ciudadano estadounidense, pero debe contar con un SSN o ITIN v&aacute;lido y una direcci&oacute;n en EE. UU.</li>
+            <li>Consulte todos los meses su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> en l&iacute;nea, &iexcl;SIN COSTO!</li>
+            <li>Conocer su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> puede ayudarle a entender mejor su situaci&oacute;n financiera.</li>
+            <li>Oportunidad de obtener una tarjeta sin dep&oacute;sito en solo 11 meses si mantiene buenos h&aacute;bitos de cr&eacute;dito.<sup>2</sup></li>
+            <li>Podr&aacute; calificar para obtener un aumento en el l&iacute;mite de cr&eacute;dito sin un dep&oacute;sito adicional en solo 7 meses si usa su tarjeta y realiza pagos de&nbsp;la tarjeta&nbsp;regulares y a tiempo.<sup>2</sup></li>
+            <li>Sin comisi&oacute;n anual<sup>1</sup></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12px;">Consulte el <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a> para obtener informaci&oacute;n importante sobre las tasas, las comisiones, los costos, las condiciones y las limitaciones.</span></p>
+        <p><span style="font-size: 12px;">Al solicitar la tarjeta de cr&eacute;dito, usted sabe y acepta que toda la informaci&oacute;n y otros documentos importantes relacionados con la tarjeta de cr&eacute;dito que exige la ley le ser&aacute;n entregados solo en idioma ingl&eacute;s. Si usted no puede leer y comprender el idioma ingl&eacute;s, es muy importante que solicite la ayuda de una persona confiable y calificada que pueda traducirle esta informaci&oacute;n y los documentos importantes.</span></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar ahora" linktype="external" url="https://www.firstbankcard.com/lynx/#/apply?promo=QD5XRB6M44VVJ" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Una tarjeta de crédito Secured puede ayudarlo a establecer, fortalecer o recomponer su historial crediticio.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta SEIU Visa Secured
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta de crédito asegurada diseñada para ayudarlo a establecer, fortalecer o reconstruir su historial crediticio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" alt="Tarjeta SEIU Visa Platinum Edition" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F5E1E671-ADC7-49BA-A1CB-6DCAEE827639}" height="" hspace="" width="" alt="SEIU member benefits en cooperción con First National Bank Omaha" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T161159Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>1. Para obtener m&aacute;s informaci&oacute;n sobre las tasas de porcentaje anual (APR), las comisiones y otros costos, consulte el <a rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>.</p>
+        <p>
+        2. Sujeto a aprobaci&oacute;n crediticia.</p>
+        <p>
+        FICO es una marca registrada de Fair Isaac Corporation en los Estados Unidos y en otros pa&iacute;ses. Tenga en cuenta que, en general, los nuevos titulares de tarjeta ver&aacute;n su puntaje de tarjeta bancaria FICO<sup>&reg;</sup> Score 9 (la versi&oacute;n de calificaci&oacute;n crediticia FICO<sup>&reg;</sup> que utilizamos para gestionar su cuenta) dentro de los 45 d&iacute;as de la apertura de la cuenta.</p>
+        <p>
+        Las tarjetas son emitidas por First Bankcard<sup>&reg;</sup>, una divisi&oacute;n de First National Bank of Omaha, en virtud de una licencia de Visa U.S.A., Inc. VISA y VISA SIGNATURE son marcas registradas de Visa International Service Association y se utilizan bajo licencia.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe ingresar a su cuenta para aplicar. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA SEIU℠ VISA<sup>&reg;</sup> SECURED
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Asuma el control de su historial crediticio</strong></p>
+        <ul>
+            <li>Informes autom&aacute;ticos a las 3 agencias de cr&eacute;dito m&aacute;s importantes que pueden ayudarle a tener un historial crediticio positivo.</li>
+            <li>Solicite su l&iacute;mite de cr&eacute;dito mediante un dep&oacute;sito de $300 a $5,000 (en m&uacute;ltiplos de $50) al momento de solicitarla.<sup>2</sup></li>
+            <li>No se requiere ser ciudadano estadounidense, pero debe contar con un SSN o ITIN v&aacute;lido y una direcci&oacute;n en EE. UU.</li>
+            <li>Consulte todos los meses su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> en l&iacute;nea, &iexcl;SIN COSTO!</li>
+            <li>Conocer su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> puede ayudarle a entender mejor su situaci&oacute;n financiera.</li>
+            <li>Oportunidad de obtener una tarjeta sin dep&oacute;sito en solo 11 meses si mantiene buenos h&aacute;bitos de cr&eacute;dito.<sup>2</sup></li>
+            <li>Podr&aacute; calificar para obtener un aumento en el l&iacute;mite de cr&eacute;dito sin un dep&oacute;sito adicional en solo 7 meses si usa su tarjeta y realiza pagos de&nbsp;la tarjeta&nbsp;regulares y a tiempo.<sup>2</sup></li>
+            <li>Sin comisi&oacute;n anual<sup>1</sup></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12px;">Consulte el <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a> para obtener informaci&oacute;n importante sobre las tasas, las comisiones, los costos, las condiciones y las limitaciones.</span></p>
+        <p><span style="font-size: 12px;">Al solicitar la tarjeta de cr&eacute;dito, usted sabe y acepta que toda la informaci&oacute;n y otros documentos importantes relacionados con la tarjeta de cr&eacute;dito que exige la ley le ser&aacute;n entregados solo en idioma ingl&eacute;s. Si usted no puede leer y comprender el idioma ingl&eacute;s, es muy importante que solicite la ayuda de una persona confiable y calificada que pueda traducirle esta informaci&oacute;n y los documentos importantes.</span></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar ahora" linktype="external" url="https://www.firstbankcard.com/lynx/#/apply?promo=QD5XRB6M44VVJ" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Una tarjeta de crédito Secured puede ayudarlo a establecer, fortalecer o recomponer su historial crediticio.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T161159Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta SEIU Visa Secured
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{AF353A62-9037-44C0-9DD9-09CECCA41075}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{6770843B-9F1C-40E8-A6D8-126516A40C38}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta de crédito asegurada diseñada para ayudarlo a establecer, fortalecer o reconstruir su historial crediticio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" alt="Tarjeta SEIU Visa Platinum Edition" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F5E1E671-ADC7-49BA-A1CB-6DCAEE827639}" height="" hspace="" width="" alt="SEIU member benefits en cooperción con First National Bank Omaha" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200701T153230Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>1. Para obtener m&aacute;s informaci&oacute;n sobre las tasas de porcentaje anual (APR), las comisiones y otros costos, consulte el <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>.</p>
+        <p>
+        2. Sujeto a aprobaci&oacute;n crediticia.</p>
+        <p>
+        FICO es una marca registrada de Fair Isaac Corporation en los Estados Unidos y en otros pa&iacute;ses. Tenga en cuenta que, en general, los nuevos titulares de tarjeta ver&aacute;n su puntaje de tarjeta bancaria FICO<sup>&reg;</sup> Score 9 (la versi&oacute;n de calificaci&oacute;n crediticia FICO<sup>&reg;</sup> que utilizamos para gestionar su cuenta) dentro de los 45 d&iacute;as de la apertura de la cuenta.</p>
+        <p>
+        Las tarjetas son emitidas por First Bankcard<sup>&reg;</sup>, una divisi&oacute;n de First National Bank of Omaha, en virtud de una licencia de Visa U.S.A., Inc. Visa y Visa Signature son marcas registradas de Visa International Service Association y se utilizan bajo licencia.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA SEIU℠ VISA<sup>&reg;</sup> SECURED
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Asuma el control de su historial crediticio</strong></p>
+        <ul>
+            <li>Informes autom&aacute;ticos a las 3 agencias de cr&eacute;dito m&aacute;s importantes que pueden ayudarle a tener un historial crediticio positivo.</li>
+            <li>Solicite su l&iacute;mite de cr&eacute;dito mediante un dep&oacute;sito de $300 a $5,000 (en m&uacute;ltiplos de $50) al momento de solicitarla.<sup>2</sup></li>
+            <li>No se requiere ser ciudadano estadounidense, pero debe contar con un SSN o ITIN v&aacute;lido y una direcci&oacute;n en EE. UU.</li>
+            <li>Consulte todos los meses su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> en l&iacute;nea, &iexcl;SIN COSTO!<br />
+            Conocer su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> puede ayudarle a entender mejor su situaci&oacute;n financiera.</li>
+            <li>Oportunidad de obtener una tarjeta sin dep&oacute;sito en solo 11 meses si mantiene buenos h&aacute;bitos de cr&eacute;dito.<sup>2</sup></li>
+            <li>Podr&aacute; calificar para obtener un aumento en el l&iacute;mite de cr&eacute;dito sin un dep&oacute;sito adicional en solo 7 meses si usa su tarjeta y realiza pagos de&nbsp;la tarjeta&nbsp;regulares y a tiempo.<sup>2</sup></li>
+            <li><strong>Sin comisi&oacute;n anual</strong><sup>1</sup></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12px;">Consulte el <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a> para obtener informaci&oacute;n importante sobre las tasas, las comisiones, los costos, las condiciones y las limitaciones.</span></p>
+        <p><span style="font-size: 12px;">Al solicitar la tarjeta de cr&eacute;dito, usted sabe y acepta que toda la informaci&oacute;n y otros documentos importantes relacionados con la tarjeta de cr&eacute;dito que exige la ley le ser&aacute;n entregados solo en idioma ingl&eacute;s. Si usted no puede leer y comprender el idioma ingl&eacute;s, es muy importante que solicite la ayuda de una persona confiable y calificada que pueda traducirle esta informaci&oacute;n y los documentos importantes.</span></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar ahora" linktype="external" url="https://www.firstbankcard.com/lynx/#/apply?promo=QD5XRB6M44VVJ" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Una tarjeta de crédito Secured puede ayudarlo a establecer, fortalecer o recomponer su historial crediticio.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200701T153230Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta SEIU Visa Secured
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{AF353A62-9037-44C0-9DD9-09CECCA41075}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{6770843B-9F1C-40E8-A6D8-126516A40C38}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta de crédito asegurada diseñada para ayudarlo a establecer, fortalecer o reconstruir su historial crediticio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" alt="Tarjeta SEIU Visa Platinum Edition" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F5E1E671-ADC7-49BA-A1CB-6DCAEE827639}" height="" hspace="" width="" alt="SEIU member benefits en cooperción con First National Bank Omaha" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T122741Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>1. Para obtener m&aacute;s informaci&oacute;n sobre las tasas de porcentaje anual (APR), las comisiones y otros costos, consulte el <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>.</p>
+        <p>
+        2. Sujeto a aprobaci&oacute;n crediticia.</p>
+        <p>
+        FICO es una marca registrada de Fair Isaac Corporation en los Estados Unidos y en otros pa&iacute;ses. Tenga en cuenta que, en general, los nuevos titulares de tarjeta ver&aacute;n su puntaje de tarjeta bancaria FICO<sup>&reg;</sup> Score 9 (la versi&oacute;n de calificaci&oacute;n crediticia FICO<sup>&reg;</sup> que utilizamos para gestionar su cuenta) dentro de los 45 d&iacute;as de la apertura de la cuenta.</p>
+        <p>
+        Las tarjetas son emitidas por First Bankcard<sup>&reg;</sup>, una divisi&oacute;n de First National Bank of Omaha, en virtud de una licencia de Visa U.S.A., Inc. Visa y Visa Signature son marcas registradas de Visa International Service Association y se utilizan bajo licencia.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <a rel="noopener noreferrer"  href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA SEIU℠ VISA<sup>&reg;</sup> SECURED
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Asuma el control de su historial crediticio</strong></p>
+        <ul>
+            <li>Informes autom&aacute;ticos a las 3 agencias de cr&eacute;dito m&aacute;s importantes que pueden ayudarle a tener un historial crediticio positivo.</li>
+            <li>Solicite su l&iacute;mite de cr&eacute;dito mediante un dep&oacute;sito de $300 a $5,000 (en m&uacute;ltiplos de $50) al momento de solicitarla.<sup>2</sup></li>
+            <li>No se requiere ser ciudadano estadounidense, pero debe contar con un SSN o ITIN v&aacute;lido y una direcci&oacute;n en EE. UU.</li>
+            <li>Consulte todos los meses su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> en l&iacute;nea, &iexcl;SIN COSTO!<br />
+            Conocer su calificaci&oacute;n crediticia FICO<sup>&reg;</sup> puede ayudarle a entender mejor su situaci&oacute;n financiera.</li>
+            <li>Oportunidad de obtener una tarjeta sin dep&oacute;sito en solo 11 meses si mantiene buenos h&aacute;bitos de cr&eacute;dito.<sup>2</sup></li>
+            <li>Podr&aacute; calificar para obtener un aumento en el l&iacute;mite de cr&eacute;dito sin un dep&oacute;sito adicional en solo 7 meses si usa su tarjeta y realiza pagos de&nbsp;la tarjeta&nbsp;regulares y a tiempo.<sup>2</sup></li>
+            <li><strong>Sin comisi&oacute;n anual</strong><sup>1</sup></li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12px;">Consulte el <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.firstbankcard.com/lynx/#/soct/QD5XRB6M44VVJ" target="_blank">Resumen de las condiciones del cr&eacute;dito</a> para obtener informaci&oacute;n importante sobre las tasas, las comisiones, los costos, las condiciones y las limitaciones.</span></p>
+        <p><span style="font-size: 12px;">Al solicitar la tarjeta de cr&eacute;dito, usted sabe y acepta que toda la informaci&oacute;n y otros documentos importantes relacionados con la tarjeta de cr&eacute;dito que exige la ley le ser&aacute;n entregados solo en idioma ingl&eacute;s. Si usted no puede leer y comprender el idioma ingl&eacute;s, es muy importante que solicite la ayuda de una persona confiable y calificada que pueda traducirle esta informaci&oacute;n y los documentos importantes.</span></p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{A0BF74A4-C522-4709-BDC4-A2DC8322F9E2}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Solicitar ahora" linktype="external" url="https://www.firstbankcard.com/lynx/#/apply?promo=QD5XRB6M44VVJ" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Una tarjeta de crédito Secured puede ayudarlo a establecer, fortalecer o recomponer su historial crediticio.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T122741Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta SEIU Visa Secured
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"

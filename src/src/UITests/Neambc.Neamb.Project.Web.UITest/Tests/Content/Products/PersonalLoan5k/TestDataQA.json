@@ -1,0 +1,23 @@
+{
+  "@jdt.replace": [
+    {
+      "@jdt.path": "$.ColdState",
+      "@jdt.value": [
+        [
+          "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Sign In to Check Eligibility','clickHref':'https://qa.neamb.com/login'},this)",
+          "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Sign In to Check Eligibility','clickHref':'https://qa.neamb.com/login'},this)"
+        ]
+      ]
+    },
+    {
+      "@jdt.path": "$.WarmState",
+      "@jdt.value": [
+        [
+          "991",
+          "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Apply Now','clickHref':'https://qa.neamb.com/login'},this)",
+          "dataLayerPush({'event':'login cta','productName':'NEA Personal Loan','ctaText':'Apply Now','clickHref':'https://qa.neamb.com/login'},this)"
+        ]
+      ]
+    }
+  ]
+}

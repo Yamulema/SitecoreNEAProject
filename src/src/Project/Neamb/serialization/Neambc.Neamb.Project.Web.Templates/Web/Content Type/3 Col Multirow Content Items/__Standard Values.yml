@@ -1,0 +1,21 @@
+﻿---
+ID: "f7d1022d-6135-4a8d-9764-1ba0d77da887"
+Parent: "8b06dfad-80fb-48f0-8b68-c71748371815"
+Template: "8b06dfad-80fb-48f0-8b68-c71748371815"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/3 Col Multirow Content Items/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180726T202932Z

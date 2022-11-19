@@ -1,0 +1,30 @@
+﻿---
+ID: "fe123367-3013-4a06-a91e-82e44cb21951"
+Parent: "044a2abe-5ae5-468c-9668-2f800c44d585"
+Template: "044a2abe-5ae5-468c-9668-2f800c44d585"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Produc Special Offer/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180815T204453Z
+    - ID: "34221f91-e371-4fc0-a3be-570f7f41561b"
+      Hint: CTA
+      Value: Notify Me When Available
+    - ID: "56d1a132-befe-4559-9242-1898af3246c2"
+      Hint: Reminder Set
+      Value: You’ve signed up to recieve a notification when this product becomes available
+    - ID: "817ba51e-b65e-4b6e-bd69-3186c7203b84"
+      Hint: Reminder Details
+      Value: This product is coming soon. Sing up to be notified once it becomes available
+    - ID: "8c999be6-d52e-4792-903d-d7a788f76780"
+      Hint: Fine Print
+      Value: 

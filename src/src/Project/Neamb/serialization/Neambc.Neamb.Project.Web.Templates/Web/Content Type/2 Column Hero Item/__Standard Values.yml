@@ -1,0 +1,34 @@
+﻿---
+ID: "ece2057d-cf5a-45c3-872c-435f1c57f880"
+Parent: "ad46c12c-fc9b-40a0-b891-eafe36cb1811"
+Template: "ad46c12c-fc9b-40a0-b891-eafe36cb1811"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/2 Column Hero Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201014T143556Z
+    - ID: "5ca177ec-504a-4fb4-b0d9-2193f86403fb"
+      Hint: HeroImage
+      Value: |
+        <image mediapath="" alt="1440x630 placeholder" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{C6B0AB29-6378-4F90-9FBC-BB07AF5E3C6C}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7653675e-a81b-483c-808f-628584286303"
+      Hint: Hero CTA Color
+      Value: "{45857DEB-F323-471B-B2D2-5AC5B5154CEE}"
+    - ID: "81580431-1742-48a9-92a3-7178b308be44"
+      Hint: Modal Title
+      Value: "Am I eligible for NEA Member Benefits?"
+    - ID: "af1f3029-835e-4a07-9ce0-ee877b4e3a00"
+      Hint: Background Color
+      Value: "{F3D9D735-9CBC-4252-A164-0EA407AFDBA6}"
+    - ID: "b88abbd1-a9ec-4c18-ad32-2d2819fc3342"
+      Hint: Overlay Link
+      Value: "Am I eligible?"

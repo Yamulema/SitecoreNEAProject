@@ -1,0 +1,183 @@
+﻿---
+ID: "254e8967-dc01-4277-91c4-87bd32dc61fb"
+Parent: "7547ef37-7745-4030-992d-5cd099aba7e6"
+Template: "7547ef37-7745-4030-992d-5cd099aba7e6"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_RetrieveUsername/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f60322a-1ae5-4646-9a8a-30f31a9680d3"
+      Hint: Label
+      Value: Date of Birth *
+    - ID: "149e5cf9-3c26-49be-9fc9-5cc60d1a2aa5"
+      Hint: ErrorMessage
+      Value: Please insert your last name
+    - ID: "1ade25e0-a510-4b63-be5c-56f0450ba677"
+      Hint: CharactersLimit
+      Value: You can enter only '30' characters in this field
+    - ID: "23714cd9-c12f-4f20-8599-e516567a3945"
+      Hint: Username
+      Value: "Your username is:"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T202903Z
+    - ID: "38569d12-dad5-45e5-a301-6801cfbe6399"
+      Hint: NotFound
+      Value: |
+        Oops, we can't seem to find a username that matches the information you provided. Can you verify your information and try again? If it indeed is correct, it may mean that you haven't registered on our website. Click <a href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">here</a> to register now. Or click here to <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a>.
+    - ID: "43bfaf32-1530-4ce7-8664-7f2373a3d13a"
+      Hint: Login
+      Value: Log in
+    - ID: "46538e14-7b4f-4556-9202-29a3146ccfde"
+      Hint: ErrorMessage
+      Value: Please insert your first name
+    - ID: "4d49f3f6-256d-49a1-b8d8-d514e07f8fc7"
+      Hint: AgeRequirement
+      Value: You must be at least 16 years old and no more than 90 years old to be an SEIU member.
+    - ID: "4fe2b3a2-7c3b-46a7-a089-a08d53275e31"
+      Hint: ErrorMessage
+      Value: Please insert your zip code
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "758d4287-e186-4f7d-aa45-3fbf3c19df51"
+      Hint: Headline
+      Value: "Forgot your username?"
+    - ID: "78f96575-2638-4bb5-a109-8d17e1d98010"
+      Hint: Placeholder
+      Value: zipcode
+    - ID: "827ef3e8-0b73-42df-93e2-288369911305"
+      Hint: ErrorMessage
+      Value: Please insert a valid date (mm/dd/yyyy)
+    - ID: "861e30b1-ac0c-49dc-be51-90d9b3a31f0f"
+      Hint: Label
+      Value: Zip Code *
+    - ID: "939e68a4-ba20-477c-8b22-db28a63f1898"
+      Hint: ForgotPassword
+      Value: "<p><strong>Forgot your password? Click below to get a reset password link sent to your email address.</strong></p>"
+    - ID: "95b6a6f2-4e66-453b-9460-744038b18d06"
+      Hint: Label
+      Value: Last Name *
+    - ID: "9e75352f-2c1a-4e3a-b4d1-02b545fecfe6"
+      Hint: Label
+      Value: First Name *
+    - ID: "a037aa90-7a81-4ab9-824a-fc6a8fc9d8b8"
+      Hint: CharactersLimit
+      Value: You can enter only '5' characters in this field
+    - ID: "acdf90c3-00a5-48ae-8fec-81e767311828"
+      Hint: InvalidCharacters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "b566dbfa-950a-4846-b04a-21ffc36248be"
+      Hint: SubmitButton
+      Value: Submit
+    - ID: "bc3cade1-725d-4ca5-a127-adbfc0e36830"
+      Hint: Placeholder
+      Value: first name
+    - ID: "c30dccd3-61bb-4379-bab8-93a5e62145a1"
+      Hint: Placeholder
+      Value: last name
+    - ID: "d2b42926-5afc-4ca8-8ad3-3dcb627dbae1"
+      Hint: Placeholder
+      Value: mm/dd/yyyy
+    - ID: "e4a3a899-36dc-4b75-8862-eb6c971f08a8"
+      Hint: Subheadline
+      Value: <p>Please provide the following information so that we can retrieve your username.</p>
+    - ID: "e849e4ea-7b4e-4687-8d4a-0cacb164c616"
+      Hint: RetrievePassword
+      Value: |
+        <link text="Send" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{19655CE0-B8B6-4944-98E8-EE394D59F6C9}" />
+    - ID: "f8aa7a42-423d-4995-9812-d70a28565a90"
+      Hint: CharactersLimit
+      Value: You can enter only '15' characters in this field
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f60322a-1ae5-4646-9a8a-30f31a9680d3"
+      Hint: Label
+      Value: Fecha de Nacimiento *
+    - ID: "149e5cf9-3c26-49be-9fc9-5cc60d1a2aa5"
+      Hint: ErrorMessage
+      Value: Por favor ingrese sus apellidos
+    - ID: "1ade25e0-a510-4b63-be5c-56f0450ba677"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '30' caracteres en este campo.
+    - ID: "23714cd9-c12f-4f20-8599-e516567a3945"
+      Hint: Username
+      Value: "Su nombre de usuario es:"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T203617Z
+    - ID: "38569d12-dad5-45e5-a301-6801cfbe6399"
+      Hint: NotFound
+      Value: |
+        &iexcl;Uy!, al parecer no encontramos un nombre de usuario que coincida con la informaci&oacute;n que usted ha ingresado. &iquest;Puede verificar sus datos e intentar nuevamente? Si los datos son correctos, es posible que no est&eacute; registrado en nuestro sitio web. Haga clic aqu&iacute; para <a href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">registrase</a> ahora. O aqu&iacute; para <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contactarnos</a>.
+    - ID: "43bfaf32-1530-4ce7-8664-7f2373a3d13a"
+      Hint: Login
+      Value: Ingresar
+    - ID: "46538e14-7b4f-4556-9202-29a3146ccfde"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su nombre
+    - ID: "4d49f3f6-256d-49a1-b8d8-d514e07f8fc7"
+      Hint: AgeRequirement
+      Value: Usted debe tener al menos 16 años y no más de 90 años para ser miembro de SEIU.
+    - ID: "4fe2b3a2-7c3b-46a7-a089-a08d53275e31"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su código postal
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "758d4287-e186-4f7d-aa45-3fbf3c19df51"
+      Hint: Headline
+      Value: "¿Olvidó su nombre de usuario?"
+    - ID: "78f96575-2638-4bb5-a109-8d17e1d98010"
+      Hint: Placeholder
+      Value: zipcode
+    - ID: "827ef3e8-0b73-42df-93e2-288369911305"
+      Hint: ErrorMessage
+      Value: Por favor ingrese una fecha válida (mm/dd/aaaa)
+    - ID: "861e30b1-ac0c-49dc-be51-90d9b3a31f0f"
+      Hint: Label
+      Value: Código Postal *
+    - ID: "939e68a4-ba20-477c-8b22-db28a63f1898"
+      Hint: ForgotPassword
+      Value: "<p><strong>&iquest;Olvid&oacute; su contrase&ntilde;a? Haga clic abajo para recibir un enlace de recuperaci&oacute;n de contrase&ntilde;a en su correo electr&oacute;nico.</strong></p>"
+    - ID: "95b6a6f2-4e66-453b-9460-744038b18d06"
+      Hint: Label
+      Value: Apellidos *
+    - ID: "9e75352f-2c1a-4e3a-b4d1-02b545fecfe6"
+      Hint: Label
+      Value: Nombre *
+    - ID: "a037aa90-7a81-4ab9-824a-fc6a8fc9d8b8"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '5' caracteres en este campo.
+    - ID: "acdf90c3-00a5-48ae-8fec-81e767311828"
+      Hint: InvalidCharacters
+      Value: Usted ha ingresado caracteres inválidos en este campo, por favor verifique
+    - ID: "b566dbfa-950a-4846-b04a-21ffc36248be"
+      Hint: SubmitButton
+      Value: Enviar
+    - ID: "bc3cade1-725d-4ca5-a127-adbfc0e36830"
+      Hint: Placeholder
+      Value: nombre
+    - ID: "c30dccd3-61bb-4379-bab8-93a5e62145a1"
+      Hint: Placeholder
+      Value: apellidos
+    - ID: "d2b42926-5afc-4ca8-8ad3-3dcb627dbae1"
+      Hint: Placeholder
+      Value: mm/dd/aaaa
+    - ID: "e4a3a899-36dc-4b75-8862-eb6c971f08a8"
+      Hint: Subheadline
+      Value: <p>Por favor proporcione la siguiente informaci&oacute;n para que podamos recuperar su nombre de usuario.</p>
+    - ID: "e849e4ea-7b4e-4687-8d4a-0cacb164c616"
+      Hint: RetrievePassword
+      Value: |
+        <link text="Enviar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{19655CE0-B8B6-4944-98E8-EE394D59F6C9}" />
+    - ID: "f8aa7a42-423d-4995-9812-d70a28565a90"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '15' caracteres en este campo.

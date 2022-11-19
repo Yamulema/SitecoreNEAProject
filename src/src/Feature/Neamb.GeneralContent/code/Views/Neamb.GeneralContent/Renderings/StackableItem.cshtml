@@ -1,0 +1,50 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.StackableItemDTO
+
+@{
+    string stackableClass1;
+    string stackableClass2;
+    if (Model.HasTextPlacementLeft)
+    {
+        stackableClass1 = "col-md-6 col-md-push-6";
+        stackableClass2 = "col-md-6 col-md-pull-6";
+    }
+    else
+    {
+        stackableClass1 = "col-md-6";
+        stackableClass2 = "col-md-6";
+    }
+}
+
+<div class="container c-30">
+    <div class="@stackableClass1">
+        @if (Model.HasImage)
+        {
+            @Html.Sitecore().Field(Templates.ContentDisplayComponents.StackableItem.Fields.Image, Model.Item, new { @class = "img-responsive" })
+        }
+        else if (Model.HasVideo)
+        {
+            <div class="col-md-12 bg-dark-blue video-container">
+                @if (Model.IsJWPlatformVideo)
+                {
+                    <script src="@Model.VideoUrl"></script>
+                }
+                else
+                {
+                    <iframe frameborder="0" height="315" src="@Model.VideoUrl" width="100%"></iframe>
+                }
+            </div>
+        }
+        else if (Model.HasCallout)
+        {
+            @Html.Sitecore().Field(Templates.ContentDisplayComponents.StackableItem.Fields.Callout, Model.Item)
+        }
+    </div>
+    <div class="@stackableClass2">
+        @Html.Sitecore().Field(Templates.ContentDisplayComponents.StackableItem.Fields.TextBlock, Model.Item)
+    </div>
+</div>

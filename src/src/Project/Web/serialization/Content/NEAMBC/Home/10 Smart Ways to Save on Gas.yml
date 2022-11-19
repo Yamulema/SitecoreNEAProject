@@ -1,0 +1,419 @@
+﻿---
+ID: "88b9e17e-9fcd-491d-90f4-c3f23d6ea63f"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/10 Smart Ways to Save on Gas
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210326T154222Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "Want to spend less at the pump? How you drive, where you buy gas and how you pay can help you fuel up on savings."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{2E8F6605-65D7-422B-8D60-13B119492DB0}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: By SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Key takeaways</p>
+        <ul class="bullets strong">
+            <li>It&rsquo;s possible to cut costs at the pump by adjusting your approach to driving and vehicle care.</li>
+            <li>Checking apps and websites that alert you to the cheapest gas, keeping up with auto maintenance and more will help you save money on your next road trip.</li>
+        </ul>
+        <p>If you&rsquo;re one of the millions of Americans who will be taking a road trip this summer, you&rsquo;ll likely feel a big pinch at the pump. But you can cut your costs significantly all year round&mdash;even if you&rsquo;re just commuting to work&mdash;simply by adjusting your approach to driving and vehicle care.</p>
+        <p>To find out how, check out these 10 expert tips, many of which are backed by research from the U.S. Department of Energy&rsquo;s highly respected Oak Ridge National Laboratory:</p>
+        <p><strong>1. Don&rsquo;t drive too far to fill up.</strong> The &ldquo;victory&rdquo; in buying the cheapest gas possible is exciting, but what&rsquo;s the point in driving all around town to compare prices when you&rsquo;re burning fuel to save on fuel?</p>
+        <p>&ldquo;Thanks to technology, you don&rsquo;t have to do this,&rdquo; Hamilton says. &ldquo;There are apps and websites that will tell you where to go.&rdquo; One of the most popular&mdash;and reliable&mdash;ones is GasBuddy, which is regularly updated via crowdsourcing.</p>
+        <p><strong>2. Sign up for gas&nbsp;rewards. </strong>Many grocery stores offer gas rewards through their loyalty programs. Earn points while shopping and redeem for cents-per-gallon savings at the pump. <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.shopnsavefood.com/savings/pump-perks" target="_blank">SHOP 'n SAVE</a>&nbsp;and <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/gas-rewards" target="_blank">Weis</a> are just a few stores that participate.</p>
+        <p><strong>3. Keep your car in tip-top shape.</strong> Preventive maintenance nearly always costs far less than the price you pay for putting it off. By staying on top of the many moving parts in your car, you can improve your gas mileage by 4%.</p>
+        <p>&ldquo;This should include the inspection of your ignition and the charging system, along with the battery and the powertrain,&rdquo; says Jordan Perch, analyst at <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.dmv.com/" target="_blank">DMV.com</a>, a top website for advice about cars and driving. &ldquo;Your spark plugs should get checked, too, to see if they&rsquo;re worn out. The air filter must be replaced if it gets too dirty. All of this will contribute to a better-performing engine, which consumes less than you would otherwise.&rdquo;</p>
+        <p><strong>4. Drive the speed limit.</strong> Consumption goes up once the speedometer heads north of 50 mph. In fact, for every 5 mph over 50 mph, you&rsquo;ll pay an additional 24 cents per gallon.</p>
+        <p>&ldquo;Many people drive 5 to 10 miles above the posted speed limit, especially on the highway,&rdquo; says Stacey Hamilton, manager of service sales and operations for <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.pepboys.com/" target="_blank">Pep Boys</a>, the Philadelphia-based auto parts, accessories and car-repair chain. &ldquo;While this will get you to your destination a little faster, driving the speed limit will help you conserve. You may arrive at your destination a few minutes later, but you can plan for this by leaving a few minutes earlier.&rdquo;</p>
+        <p><strong>5. Be an even-keeled driver. </strong>Rapid acceleration and braking lowers gas mileage by 33% on a highway and 5% while driving around town.</p>
+        <p>&ldquo;Some experts suggest that, when a light turns green, you should take your foot off the brake and allow the car to start coasting on its own,&rdquo; Hamilton says. &ldquo;After this, you can accelerate. It only takes a few extra seconds and will certainly help on gas.&rdquo;</p>
+        <p>Aggressive drivers&mdash;who speed, accelerate and brake quickly, and cause accidents&mdash;also drain their wallets via traffic citations and the ensuing higher insurance premiums.</p>
+        <p><strong>6. Don&rsquo;t idle.</strong> If you leave the motor running while waiting for someone to run an errand, you&rsquo;ll pay the price. Idling will use a quarter to a half gallon of fuel every hour.</p>
+        <p><strong>7. Use the AC on the highway.</strong> Many believe running the AC burns up fuel. But that&rsquo;s not always the case. &ldquo;It&rsquo;s true if you&rsquo;re driving in town or in stop-and-go traffic,&rdquo; Hamilton says. &ldquo;But it&rsquo;s not true if you&rsquo;re on the highway, where it&rsquo;s better to keep the windows up and the AC on to cut back on wind resistance, which increases gas usage.&rdquo;</p>
+        <p><strong>8. Monitor your tire pressure.</strong> Proper tire inflation accounts for as much as a 3% improvement in mileage performance. However, you don&rsquo;t want to overinflate tires either, so it&rsquo;s always best to consult with the manufacturer for the designated pressure level.</p>
+        <p>&ldquo;The phrase &lsquo;rolling resistance&rsquo; refers to the friction created when the tires of your car roll along the road,&rdquo; Hamilton says. &ldquo;To optimize efficiency, you want resistance to be as low as possible, to reduce the friction. That&rsquo;s why you should regularly check tire pressure and fill them up when it&rsquo;s low.&rdquo;</p>
+        <p><strong>9. Lighten your load. </strong>When you clear out any excess heavy items in your trunk or storage space, you&rsquo;ll save money in the process. Every 100 pounds you remove increases mileage by 2%. A good rule of thumb: If you haven&rsquo;t touched something in three months, you can probably unload it.</p>
+        <p>You also don&rsquo;t want to lug too much stuff on top of your roof. &ldquo;A roof rack is very practical and convenient,&rdquo; Perch says, &ldquo;but it reduces your aerodynamic capabilities, causing more consumption. In addition, it&rsquo;s wise to remove the rack when it&rsquo;s not in use.&rdquo;</p>
+        <p><strong>10. Just say &ldquo;no!&rdquo;</strong> The most obvious way to save gas is not to drive. At a minimum, make an effort to gang up your errands so you don&rsquo;t have to make repeat trips. If possible, carpool to split the costs of driving. Or walk or ride your bike instead. Not only will you cut fuel costs, you&rsquo;ll get a great workout.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210326T173152Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "Want to spend less at the pump? How you drive, where you buy gas and how you pay can help you fuel up on savings."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210326T173152Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{2E8F6605-65D7-422B-8D60-13B119492DB0}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: By SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Key takeaways</p>
+        <ul class="bullets strong">
+            <li>It&rsquo;s possible to cut costs at the pump by adjusting your approach to driving and vehicle care.</li>
+            <li>Checking apps and websites that alert you to the cheapest gas, keeping up with auto maintenance, and more will help you save money on your next road trip.</li>
+        </ul>
+        <p>If you&rsquo;re one of the millions of Americans who will be taking a road trip this summer, you&rsquo;ll likely feel a big pinch at the pump. But you can cut your costs significantly all year round&mdash;even if you&rsquo;re just commuting to work&mdash;simply by adjusting your approach to driving and vehicle care.</p>
+        <p>To find out how, check out these 10 expert tips, many of which are backed by research from the U.S. Department of Energy&rsquo;s highly respected Oak Ridge National Laboratory:</p>
+        <p><strong>1. Don&rsquo;t drive too far to fill up.</strong> The &ldquo;victory&rdquo; in buying the cheapest gas possible is exciting, but what&rsquo;s the point in driving all around town to compare prices when you&rsquo;re burning fuel to save on fuel?</p>
+        <p>&ldquo;Thanks to technology, you don&rsquo;t have to do this,&rdquo; Hamilton says. &ldquo;There are apps and websites that will tell you where to go.&rdquo; One of the most popular&mdash;and reliable&mdash;ones is GasBuddy, which is regularly updated via crowdsourcing.</p>
+        <p><strong>2. Sign up for gas&nbsp;rewards. </strong>Many grocery stores offer gas rewards through their loyalty programs. Earn points while shopping and redeem for cents-per-gallon savings at the pump. <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://giantfood.com/rewards" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.shopnsavefood.com/savings/pump-perks" target="_blank">SHOP 'n SAVE</a>&nbsp;and <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/gas-rewards" target="_blank">Weis</a> are just a few stores that participate.</p>
+        <p><strong>3. Keep your car in tip-top shape.</strong> Preventive maintenance nearly always costs far less than the price you pay for putting it off. By staying on top of the many moving parts in your car, you can improve your gas mileage by 4%.</p>
+        <p>&ldquo;This should include the inspection of your ignition and the charging system, along with the battery and the powertrain,&rdquo; says Jordan Perch, analyst at <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.dmv.com/" target="_blank">DMV.com</a>, a top website for advice about cars and driving. &ldquo;Your spark plugs should get checked, too, to see if they&rsquo;re worn out. The air filter must be replaced if it gets too dirty. All of this will contribute to a better performing engine, which consumes less than you would otherwise.&rdquo;</p>
+        <p><strong>4. Drive the speed limit.</strong> Consumption goes up once the speedometer heads north of 50 mph. In fact, for every 5 mph over 50 mph, you&rsquo;ll pay an additional 24 cents per gallon.</p>
+        <p>&ldquo;Many people drive 5 to 10 miles above the posted speed limit, especially on the highway,&rdquo; says Stacey Hamilton, manager of service sales and operations for Pep Boys, the Philadelphia-based auto parts, accessories and car-repair chain. &ldquo;While this will get you to your destination a little faster, driving the speed limit will help you conserve. You may arrive at your destination a few minutes later, but you can plan for this by leaving a few minutes earlier.&rdquo;</p>
+        <p><strong>5. Be an even-keeled driver. </strong>Rapid acceleration and braking lowers gas mileage by 33% on a highway and 5% while driving around town.</p>
+        <p>&ldquo;Some experts suggest that when a light turns green, you should take your foot off the brake and allow the car to start coasting on its own,&rdquo; Hamilton says. &ldquo;After this, you can accelerate. It only takes a few extra seconds and will certainly help on gas.&rdquo;</p>
+        <p>Aggressive drivers&mdash;who speed, accelerate and brake quickly, and cause accidents&mdash;also drain their wallets via traffic citations and the ensuing higher insurance premiums.</p>
+        <p><strong>6. Don&rsquo;t idle.</strong> If you leave the motor running while waiting for someone to run an errand, you&rsquo;ll pay the price. Idling will use a quarter to a half gallon of fuel every hour.</p>
+        <p><strong>7. Use the AC on the highway.</strong> Many believe running the AC burns up fuel. But that&rsquo;s not always the case. &ldquo;It&rsquo;s true if you&rsquo;re driving in town or in stop-and-go traffic,&rdquo; Hamilton says. &ldquo;But it&rsquo;s not true if you&rsquo;re on the highway, where it&rsquo;s better to keep the windows up and the AC on to cut back on wind resistance, which increases gas usage.&rdquo;</p>
+        <p><strong>8. Monitor your tire pressure.</strong> Proper tire inflation accounts for as much as a 3% improvement in mileage performance. However, you don&rsquo;t want to overinflate tires either, so it&rsquo;s always best to consult with the manufacturer for the designated pressure level.</p>
+        <p>&ldquo;The phrase &lsquo;rolling resistance&rsquo; refers to the friction created when the tires of your car roll along the road,&rdquo; Hamilton says. &ldquo;To optimize efficiency, you want resistance to be as low as possible, to reduce the friction. That&rsquo;s why you should regularly check tire pressure and fill them up when it&rsquo;s low.&rdquo;</p>
+        <p><strong>9. Lighten your load. </strong>When you clear out any excess heavy items in your trunk or storage space, you&rsquo;ll save money in the process. Every 100 pounds you remove increases mileage by 2%. A good rule of thumb: If you haven&rsquo;t touched something in three months, you can probably unload it.</p>
+        <p>You also don&rsquo;t want to lug too much stuff on top of your roof. &ldquo;A roof rack is very practical and convenient,&rdquo; Perch says, &ldquo;but it reduces your aerodynamic capabilities, causing more consumption. In addition, it&rsquo;s wise to remove the rack when it&rsquo;s not in use.&rdquo;</p>
+        <p><strong>10. Just say &ldquo;no!&rdquo;</strong> The most obvious way to save gas is not to drive. At a minimum, make an effort to gang up your errands so you don&rsquo;t have to make repeat trips. If possible, carpool to split the costs of driving. Or walk or ride your bike instead. Not only will you cut fuel costs, you&rsquo;ll get a great workout.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210326T202214Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "Want to spend less at the pump? How you drive, where you buy gas and how you pay can help you fuel up on savings."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210326T202214Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{2E8F6605-65D7-422B-8D60-13B119492DB0}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: By SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Key takeaways</p>
+        <ul class="bullets strong">
+            <li>It&rsquo;s possible to cut costs at the pump by adjusting your approach to driving and vehicle care.</li>
+            <li>Checking apps and websites that alert you to the cheapest gas, keeping up with auto maintenance, and more will help you save money on your next road trip.</li>
+        </ul>
+        <p>If you&rsquo;re one of the millions of Americans who will be taking a road trip this summer, you&rsquo;ll likely feel a big pinch at the pump. But you can cut your costs significantly all year round&mdash;even if you&rsquo;re just commuting to work&mdash;simply by adjusting your approach to driving and vehicle care.</p>
+        <p>To find out how, check out these 10 expert tips, many of which are backed by research from the U.S. Department of Energy&rsquo;s highly respected Oak Ridge National Laboratory:</p>
+        <p><strong>1. Don&rsquo;t drive too far to fill up.</strong> The &ldquo;victory&rdquo; in buying the cheapest gas possible is exciting, but what&rsquo;s the point in driving all around town to compare prices when you&rsquo;re burning fuel to save on fuel?</p>
+        <p>&ldquo;Thanks to technology, you don&rsquo;t have to do this,&rdquo; Hamilton says. &ldquo;There are apps and websites that will tell you where to go.&rdquo; One of the most popular&mdash;and reliable&mdash;ones is GasBuddy, which is regularly updated via crowdsourcing.</p>
+        <p><strong>2. Sign up for gas&nbsp;rewards. </strong>Many grocery stores offer gas rewards through their loyalty programs. Earn points while shopping and redeem for cents-per-gallon savings at the pump. <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://giantfood.com/rewards" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.shopnsavefood.com/savings/pump-perks" target="_blank">SHOP 'n SAVE</a>&nbsp;and <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/gas-rewards" target="_blank">Weis</a> are just a few stores that participate.</p>
+        <p><strong>3. Keep your car in tip-top shape.</strong> Preventive maintenance nearly always costs far less than the price you pay for putting it off. By staying on top of the many moving parts in your car, you can improve your gas mileage by 4%.</p>
+        <p>&ldquo;This should include the inspection of your ignition and the charging system, along with the battery and the powertrain,&rdquo; says Jordan Perch, analyst at <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.dmv.com/" target="_blank">DMV.com</a>, a top website for advice about cars and driving. &ldquo;Your spark plugs should get checked, too, to see if they&rsquo;re worn out. The air filter must be replaced if it gets too dirty. All of this will contribute to a better performing engine, which consumes less than you would otherwise.&rdquo;</p>
+        <p><strong>4. Drive the speed limit.</strong> Consumption goes up once the speedometer heads north of 50 mph. In fact, for every 5 mph over 50 mph, you&rsquo;ll pay an additional 24 cents per gallon.</p>
+        <p>&ldquo;Many people drive 5 to 10 miles above the posted speed limit, especially on the highway,&rdquo; says Stacey Hamilton, manager of service sales and operations for Pep Boys, the Philadelphia-based auto parts, accessories and car-repair chain. &ldquo;While this will get you to your destination a little faster, driving the speed limit will help you conserve. You may arrive at your destination a few minutes later, but you can plan for this by leaving a few minutes earlier.&rdquo;</p>
+        <p><strong>5. Be an even-keeled driver. </strong>Rapid acceleration and braking lowers gas mileage by 33% on a highway and 5% while driving around town.</p>
+        <p>&ldquo;Some experts suggest that when a light turns green, you should take your foot off the brake and allow the car to start coasting on its own,&rdquo; Hamilton says. &ldquo;After this, you can accelerate. It only takes a few extra seconds and will certainly help on gas.&rdquo;</p>
+        <p>Aggressive drivers&mdash;who speed, accelerate and brake quickly, and cause accidents&mdash;also drain their wallets via traffic citations and the ensuing higher insurance premiums.</p>
+        <p><strong>6. Don&rsquo;t idle.</strong> If you leave the motor running while waiting for someone to run an errand, you&rsquo;ll pay the price. Idling will use a quarter to a half gallon of fuel every hour.</p>
+        <p><strong>7. Use the AC on the highway.</strong> Many believe running the AC burns up fuel. But that&rsquo;s not always the case. &ldquo;It&rsquo;s true if you&rsquo;re driving in town or in stop-and-go traffic,&rdquo; Hamilton says. &ldquo;But it&rsquo;s not true if you&rsquo;re on the highway, where it&rsquo;s better to keep the windows up and the AC on to cut back on wind resistance, which increases gas usage.&rdquo;</p>
+        <p><strong>8. Monitor your tire pressure.</strong> Proper tire inflation accounts for as much as a 3% improvement in mileage performance. However, you don&rsquo;t want to overinflate tires either, so it&rsquo;s always best to consult with the manufacturer for the designated pressure level.</p>
+        <p>&ldquo;The phrase &lsquo;rolling resistance&rsquo; refers to the friction created when the tires of your car roll along the road,&rdquo; Hamilton says. &ldquo;To optimize efficiency, you want resistance to be as low as possible, to reduce the friction. That&rsquo;s why you should regularly check tire pressure and fill them up when it&rsquo;s low.&rdquo;</p>
+        <p><strong>9. Lighten your load. </strong>When you clear out any excess heavy items in your trunk or storage space, you&rsquo;ll save money in the process. Every 100 pounds you remove increases mileage by 2%. A good rule of thumb: If you haven&rsquo;t touched something in three months, you can probably unload it.</p>
+        <p>You also don&rsquo;t want to lug too much stuff on top of your roof. &ldquo;A roof rack is very practical and convenient,&rdquo; Perch says, &ldquo;but it reduces your aerodynamic capabilities, causing more consumption. In addition, it&rsquo;s wise to remove the rack when it&rsquo;s not in use.&rdquo;</p>
+        <p><strong>10. Just say &ldquo;no!&rdquo;</strong> The most obvious way to save gas is not to drive. At a minimum, make an effort to gang up your errands so you don&rsquo;t have to make repeat trips. If possible, carpool to split the costs of driving. Or walk or ride your bike instead. Not only will you cut fuel costs, you&rsquo;ll get a great workout.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210326T200503Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "¿Quiere gastar menos en el surtidor? Su manera de manejar, el lugar donde compra la gasolina y su forma de pago pueden ayudarle a ahorrar."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{2E8F6605-65D7-422B-8D60-13B119492DB0}" alt="10 FORMAS INTELIGENTES DE AHORRAR EN GASOLINA" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Por SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Puntos clave a tener en cuenta</p>
+        <ul>
+            <li>Es posible reducir los costos en el surtidor ajustando su forma de manejar y el cuidado del veh&iacute;culo.
+            </li>
+            <li>Consultar las aplicaciones y sitios web que le avisan de la gasolina m&aacute;s barata, estar al d&iacute;a con el mantenimiento del autom&oacute;vil y mucho m&aacute;s le ayudar&aacute; a ahorrar dinero en su pr&oacute;ximo viaje por carretera.
+            </li>
+        </ul>
+        <p>Si usted es uno de los millones de estadounidenses que har&aacute; un viaje por carretera este verano, es probable que le den un gran pellizco en el surtidor. Pero puede reducir sus gastos de forma significativa durante todo el a&ntilde;o &mdash;incluso si solo se desplaza para ir a trabajar&mdash; simplemente ajustando su forma de manejar y el cuidado del veh&iacute;culo.</p>
+        <p>Para saber c&oacute;mo, eche un vistazo a estos diez consejos de expertos, muchos de los cuales est&aacute;n respaldados por investigaciones del respetado Laboratorio Nacional Oak Ridge del Departamento de Energ&iacute;a de los EE. UU.:</p>
+        <p><strong>1. No vaya demasiado lejos para repostar</strong>. TLa "victoria" de comprar la gasolina m&aacute;s barata posible es ilusionante, pero &iquest;qu&eacute; sentido tiene manejar por toda la ciudad para comparar precios cuando est&aacute; quemando combustible para ahorrarlo?</p>
+        <p>"Gracias a la tecnolog&iacute;a, no es necesario hacerlo", dice Hamilton. "Hay aplicaciones y sitios web que le dir&aacute;n d&oacute;nde ir". Una de las m&aacute;s populares &mdash;y fiables&mdash; es GasBuddy, que se actualiza con regularidad mediante crowdsourcing.</p>
+        <p><strong>2. Suscr&iacute;base a las recompensas por consumo de gasolina</strong>. Muchas tiendas de alimentaci&oacute;n ofrecen recompensas por la gasolina a trav&eacute;s de sus programas de fidelidad. Gane puntos mientras compra y canj&eacute;elos por ahorros de algunos centavos por gal&oacute;n en el surtidor. <a href="https://giantfood.com/rewards">Giant</a>, <a href="http://www.safeway.com/ShopStores/RewardPoints.page?">Safeway</a>, <a href="https://www.shopnsavefood.com/savings/pump-perks">SHOP 'n SAVE</a> y <a href="https://www.weismarkets.com/gas-rewards">Weis</a> son solo algunas de las tiendas que participan.</p>
+        <p><strong>3. Mantenga su auto en plena forma</strong>. El mantenimiento preventivo casi siempre cuesta mucho menos que el precio que paga por posponerlo. Si se mantiene al tanto de las numerosas piezas m&oacute;viles de su auto, puede mejorar el rendimiento de la gasolina en un 4%</p>
+        <p>&ldquo;Esto deber&iacute;a incluir la inspecci&oacute;n de su arranque y del sistema de carga, junto con la bater&iacute;a y la cadena cinem&aacute;tica", dice Jordan Perch, analista de <a href="http://www.dmv.com/">DMV.com</a>, uno de los principales sitios web de asesoramiento sobre autom&oacute;viles y manejo. "Tambi&eacute;n hay que revisar las buj&iacute;as para ver si est&aacute;n desgastadas. El filtro de aire debe sustituirse si se ensucia demasiado. Todo esto contribuir&aacute; a que el motor tenga un mejor rendimiento y que consuma menos&rdquo;.</p>
+        <p><strong>4. Maneje respetando el l&iacute;mite de velocidad</strong>. El consumo aumenta una vez que el veloc&iacute;metro supera las 50 mph. De hecho, por cada 5 mph por encima de 50 mph, pagar&aacute; 24 c&eacute;ntimos m&aacute;s por gal&oacute;n.</p>
+        <p>"Mucha gente maneja entre 5 y 10 millas por encima del l&iacute;mite de velocidad indicado, especialmente en la autopista", dice Stacey Hamilton, directora de ventas y operaciones de servicio de Pep Boys, la cadena de recambios, accesorios y reparaci&oacute;n de autom&oacute;viles con sede en Filadelfia. "Aunque esto le har&aacute; llegar a su destino un poco m&aacute;s r&aacute;pido, circular respetando el l&iacute;mite de velocidad le ayudar&aacute; a ahorrar. Puede que llegue a su destino unos minutos m&aacute;s tarde, pero puede planificarlo saliendo unos minutos antes&rdquo;.</p>
+        <p><strong>5. Sea un conductor ecu&aacute;nime</strong>. Las aceleraciones y frenadas r&aacute;pidas reducen el consumo de gasolina en un 33 % en autopista y en un 5 % cuando se maneja por la ciudad.</p>
+        <p>"Algunos expertos aconsejan que, cuando un sem&aacute;foro se ponga en verde, se levante el pie del freno y se deje que el autom&oacute;vil comience a avanzar por s&iacute; solo", dice Hamilton. "Despu&eacute;s de esto, puede acelerar. Solo tardar&aacute; unos segundos m&aacute;s y, sin duda, le ayudar&aacute; a ahorrar gasolina".</p>
+        <p>Los conductores agresivos &mdash;que pisan a fondo, aceleran y frenan bruscamente y provocan accidentes&mdash; tambi&eacute;n gastan demasiado en multas de tr&aacute;fico y las consiguientes primas de seguro m&aacute;s elevadas.</p>
+        <p><strong>6. No se quede parado</strong>. Si deja el motor en marcha mientras espera que alguien haga un recado, pagar&aacute; el precio. El ralent&iacute; utilizar&aacute; de un cuarto a medio gal&oacute;n de combustible cada hora.</p>
+        <p><strong>7. Utilice el aire acondicionado en la carretera</strong>. Muchos creen que hacer funcionar el aire acondicionado quema combustible. Pero no siempre es as&iacute;. "Es cierto si maneja en la ciudad o si est&aacute; parando y arrancando constantemente", dice Hamilton. "Pero no es cierto si est&aacute; en la autopista, donde es mejor mantener las ventanillas subidas y el aire acondicionado encendido para reducir la resistencia del viento, que aumenta el consumo de gasolina".</p>
+        <p><strong>8. Controle la presi&oacute;n de sus neum&aacute;ticos</strong>. Un inflado adecuado de los neum&aacute;ticos supone hasta un 3 % de mejora en el rendimiento por milla. Sin embargo, tampoco conviene inflar demasiado los neum&aacute;ticos, por lo que siempre es mejor consultar con el fabricante el nivel de presi&oacute;n indicado.</p>
+        <p>"La expresi&oacute;n 'resistencia a la rodadura' se refiere a la fricci&oacute;n que se crea cuando los neum&aacute;ticos de su autom&oacute;vil ruedan por la carretera", dice Hamilton. "Para optimizar la eficiencia, es conveniente que la resistencia sea lo m&aacute;s baja posible, para reducir la fricci&oacute;n. Por eso debe comprobar peri&oacute;dicamente la presi&oacute;n de los neum&aacute;ticos y llenarlos cuando est&eacute; baja".</p>
+        <p><strong>9. Aligere su carga</strong>. Cuando elimine el exceso de objetos pesados en su maletero o espacio de almacenamiento, ahorrar&aacute; dinero en el proceso. Cada 100 libras que elimina aumenta la autonom&iacute;a en un 2%. Una buena regla general: si no ha tocado algo en tres meses, probablemente pueda descargarlo.</p>
+        <p>Tampoco querr&aacute; cargar con demasiadas cosas encima de su techo. "Una baca es muy pr&aacute;ctica y conveniente", dice Perch, "pero reduce su capacidad aerodin&aacute;mica, lo que provoca un mayor consumo. Adem&aacute;s, es aconsejable quitar la baca cuando no la utilice".</p>
+        <p><strong>10. Diga simplemente "no"</strong>. La forma m&aacute;s obvia de ahorrar gasolina es no manejar. Como m&iacute;nimo, haga un esfuerzo por agrupar sus recados para no tener que repetir los viajes. Si es posible, comparta el autom&oacute;vil para fraccionar los costos de manejo. O camine o vaya en bicicleta en su lugar. No solo reducir&aacute; los costos de combustible, sino que har&aacute; mucho ejercicio.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 10 FORMAS INTELIGENTES DE AHORRAR EN GASOLINA
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210330T130212Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "¿Quiere gastar menos en el surtidor? Su manera de manejar, el lugar donde compra la gasolina y su forma de pago pueden ayudarle a ahorrar."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210330T130212Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{2E8F6605-65D7-422B-8D60-13B119492DB0}" alt="10 FORMAS INTELIGENTES DE AHORRAR EN GASOLINA" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Por SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 10 Smart Ways to Save on Gas
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Puntos clave a tener en cuenta</p>
+        <ul>
+            <li>Es posible reducir los costos en el surtidor ajustando su forma de manejar y el cuidado del veh&iacute;culo.
+            </li>
+            <li>Consultar las aplicaciones y sitios web que le avisan de la gasolina m&aacute;s barata, estar al d&iacute;a con el mantenimiento del autom&oacute;vil y mucho m&aacute;s le ayudar&aacute; a ahorrar dinero en su pr&oacute;ximo viaje por carretera.
+            </li>
+        </ul>
+        <p>Si usted es uno de los millones de estadounidenses que har&aacute; un viaje por carretera este verano, es probable que le den un gran pellizco en el surtidor. Pero puede reducir sus gastos de forma significativa durante todo el a&ntilde;o &mdash;incluso si solo se desplaza para ir a trabajar&mdash; simplemente ajustando su forma de manejar y el cuidado del veh&iacute;culo.</p>
+        <p>Para saber c&oacute;mo, eche un vistazo a estos diez consejos de expertos, muchos de los cuales est&aacute;n respaldados por investigaciones del respetado Laboratorio Nacional Oak Ridge del Departamento de Energ&iacute;a de los EE. UU.:</p>
+        <p><strong>1. No vaya demasiado lejos para repostar</strong>. TLa "victoria" de comprar la gasolina m&aacute;s barata posible es ilusionante, pero &iquest;qu&eacute; sentido tiene manejar por toda la ciudad para comparar precios cuando est&aacute; quemando combustible para ahorrarlo?</p>
+        <p>"Gracias a la tecnolog&iacute;a, no es necesario hacerlo", dice Hamilton. "Hay aplicaciones y sitios web que le dir&aacute;n d&oacute;nde ir". Una de las m&aacute;s populares &mdash;y fiables&mdash; es GasBuddy, que se actualiza con regularidad mediante crowdsourcing.</p>
+        <p><strong>2. Suscr&iacute;base a las recompensas por consumo de gasolina</strong>. Muchas tiendas de alimentaci&oacute;n ofrecen recompensas por la gasolina a trav&eacute;s de sus programas de fidelidad. Gane puntos mientras compra y canj&eacute;elos por ahorros de algunos centavos por gal&oacute;n en el surtidor. <a href="https://giantfood.com/rewards">Giant</a>, <a href="http://www.safeway.com/ShopStores/RewardPoints.page?">Safeway</a>, <a href="https://www.shopnsavefood.com/savings/pump-perks">SHOP 'n SAVE</a> y <a href="https://www.weismarkets.com/gas-rewards">Weis</a> son solo algunas de las tiendas que participan.</p>
+        <p><strong>3. Mantenga su auto en plena forma</strong>. El mantenimiento preventivo casi siempre cuesta mucho menos que el precio que paga por posponerlo. Si se mantiene al tanto de las numerosas piezas m&oacute;viles de su auto, puede mejorar el rendimiento de la gasolina en un 4%</p>
+        <p>&ldquo;Esto deber&iacute;a incluir la inspecci&oacute;n de su arranque y del sistema de carga, junto con la bater&iacute;a y la cadena cinem&aacute;tica", dice Jordan Perch, analista de <a href="http://www.dmv.com/">DMV.com</a>, uno de los principales sitios web de asesoramiento sobre autom&oacute;viles y manejo. "Tambi&eacute;n hay que revisar las buj&iacute;as para ver si est&aacute;n desgastadas. El filtro de aire debe sustituirse si se ensucia demasiado. Todo esto contribuir&aacute; a que el motor tenga un mejor rendimiento y que consuma menos&rdquo;.</p>
+        <p><strong>4. Maneje respetando el l&iacute;mite de velocidad</strong>. El consumo aumenta una vez que el veloc&iacute;metro supera las 50 mph. De hecho, por cada 5 mph por encima de 50 mph, pagar&aacute; 24 c&eacute;ntimos m&aacute;s por gal&oacute;n.</p>
+        <p>"Mucha gente maneja entre 5 y 10 millas por encima del l&iacute;mite de velocidad indicado, especialmente en la autopista", dice Stacey Hamilton, directora de ventas y operaciones de servicio de Pep Boys, la cadena de recambios, accesorios y reparaci&oacute;n de autom&oacute;viles con sede en Filadelfia. "Aunque esto le har&aacute; llegar a su destino un poco m&aacute;s r&aacute;pido, circular respetando el l&iacute;mite de velocidad le ayudar&aacute; a ahorrar. Puede que llegue a su destino unos minutos m&aacute;s tarde, pero puede planificarlo saliendo unos minutos antes&rdquo;.</p>
+        <p><strong>5. Sea un conductor ecu&aacute;nime</strong>. Las aceleraciones y frenadas r&aacute;pidas reducen el consumo de gasolina en un 33% en autopista y en un 5% cuando se maneja por la ciudad.</p>
+        <p>"Algunos expertos aconsejan que, cuando un sem&aacute;foro se ponga en verde, se levante el pie del freno y se deje que el autom&oacute;vil comience a avanzar por s&iacute; solo", dice Hamilton. "Despu&eacute;s de esto, puede acelerar. Solo tardar&aacute; unos segundos m&aacute;s y, sin duda, le ayudar&aacute; a ahorrar gasolina".</p>
+        <p>Los conductores agresivos &mdash;que pisan a fondo, aceleran y frenan bruscamente y provocan accidentes&mdash; tambi&eacute;n gastan demasiado en multas de tr&aacute;fico y las consiguientes primas de seguro m&aacute;s elevadas.</p>
+        <p><strong>6. No se quede parado</strong>. Si deja el motor en marcha mientras espera que alguien haga un recado, pagar&aacute; el precio. El ralent&iacute; utilizar&aacute; de un cuarto a medio gal&oacute;n de combustible cada hora.</p>
+        <p><strong>7. Utilice el aire acondicionado en la carretera</strong>. Muchos creen que hacer funcionar el aire acondicionado quema combustible. Pero no siempre es as&iacute;. "Es cierto si maneja en la ciudad o si est&aacute; parando y arrancando constantemente", dice Hamilton. "Pero no es cierto si est&aacute; en la autopista, donde es mejor mantener las ventanillas subidas y el aire acondicionado encendido para reducir la resistencia del viento, que aumenta el consumo de gasolina".</p>
+        <p><strong>8. Controle la presi&oacute;n de sus neum&aacute;ticos</strong>. Un inflado adecuado de los neum&aacute;ticos supone hasta un 3% de mejora en el rendimiento por milla. Sin embargo, tampoco conviene inflar demasiado los neum&aacute;ticos, por lo que siempre es mejor consultar con el fabricante el nivel de presi&oacute;n indicado.</p>
+        <p>"La expresi&oacute;n 'resistencia a la rodadura' se refiere a la fricci&oacute;n que se crea cuando los neum&aacute;ticos de su autom&oacute;vil ruedan por la carretera", dice Hamilton. "Para optimizar la eficiencia, es conveniente que la resistencia sea lo m&aacute;s baja posible, para reducir la fricci&oacute;n. Por eso debe comprobar peri&oacute;dicamente la presi&oacute;n de los neum&aacute;ticos y llenarlos cuando est&eacute; baja".</p>
+        <p><strong>9. Aligere su carga</strong>. Cuando elimine el exceso de objetos pesados en su maletero o espacio de almacenamiento, ahorrar&aacute; dinero en el proceso. Cada 100 libras que elimina aumenta la autonom&iacute;a en un 2%. Una buena regla general: si no ha tocado algo en tres meses, probablemente pueda descargarlo.</p>
+        <p>Tampoco querr&aacute; cargar con demasiadas cosas encima de su techo. "Una baca es muy pr&aacute;ctica y conveniente", dice Perch, "pero reduce su capacidad aerodin&aacute;mica, lo que provoca un mayor consumo. Adem&aacute;s, es aconsejable quitar la baca cuando no la utilice".</p>
+        <p><strong>10. Diga simplemente "no"</strong>. La forma m&aacute;s obvia de ahorrar gasolina es no manejar. Como m&iacute;nimo, haga un esfuerzo por agrupar sus recados para no tener que repetir los viajes. Si es posible, comparta el autom&oacute;vil para fraccionar los costos de manejo. O camine o vaya en bicicleta en su lugar. No solo reducir&aacute; los costos de combustible, sino que har&aacute; mucho ejercicio.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 10 FORMAS INTELIGENTES DE AHORRAR EN GASOLINA

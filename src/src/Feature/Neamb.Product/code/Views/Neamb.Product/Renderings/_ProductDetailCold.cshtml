@@ -1,0 +1,10 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.ProductDetailDTO
+@{
+    var actionClick = String.Format("{0}{1}", Model.AnonymousGtmAction, Model.AnonymousFunctionAction);
+}
+<a id="product_cta_sign_in_cold_button" class="btn btn-@Model.CtaAnonymousColor btn-md m-r-sm" onclick="@actionClick" href='javascript:void(0)'>@Model.AnonymousText</a>
+
+<p class="m-t-sm m-b-sm text-alpha text-alpha" id="product_cta_sign_in_cold_detail">@Html.Sitecore().Field(Templates.ProductCTAs.Fields.LoginDetails, Model.Item)</p>

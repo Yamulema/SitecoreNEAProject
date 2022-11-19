@@ -1,0 +1,29 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var placeholder = Model.Rendering.Placeholder;
+    string className = isExperienceEditor ? "opentextzindex" : "";
+}
+
+@if (placeholder.Contains("left-column-card") || placeholder.Contains("left-column"))
+{
+    <div class="medium-12 large-12 columns float-left @className">
+        @Html.Sitecore().Field(Templates.OpenContent.Fields.OpenContent, Model.Item)
+    </div>
+}
+else if (placeholder.Contains("right-column"))
+{
+    <div class="small-12 medium-12 large-12 columns float-right">
+        @Html.Sitecore().Field(Templates.OpenContent.Fields.OpenContent, Model.Item)
+    </div>
+}
+else
+{
+    @Html.Sitecore().Field(Templates.OpenContent.Fields.OpenContent, Model.Item)
+}
+
+

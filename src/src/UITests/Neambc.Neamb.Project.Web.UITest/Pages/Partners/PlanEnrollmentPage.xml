@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="PlanEnrollmentPage" urlpath="https://afenroll.benselect.com/Enroll/default.aspx">
+      <sections>
+        <section name="HeaderHot">
+          <controls>
+            <control key="PlanEnrollmentPage_HeaderHot_NeaLogo" xpath="//a[@class='navbar-brand']//img"/>
+            <control key="PlanEnrollmentPage_HeaderHot_UserInfo" xpath="//span[@class='hidden-xs']"/>
+            <control key="PlanEnrollmentPage_HeaderHot_LogOut" xpath="//a[contains(text(),'Logout')]"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

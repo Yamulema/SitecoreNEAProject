@@ -1,0 +1,452 @@
+﻿---
+ID: "77b55b54-018a-4e8f-b4de-5de36755e44d"
+Parent: "01a71e86-7a96-486d-8eed-82fb99928311"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Travel/Enterprise Car Rental Discount
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20210201T233400Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU members receive discounts on car rentals, plus free pickup and return, at over 6,000 Enterprise rental locations across the U.S., Canada and Puerto Rico.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2704A9CA-CF6A-474D-B816-97F3ABFD5314}" alt="Enterprise Rent -A-Car" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{8162D703-2805-4E0B-8D61-62348827F34B}" alt="SEIU Member Benefits in partnership with Enterprise" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002752Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>By clicking on the link to enterprise.com from seiumb.com and renting using the SEIU Member Benefits/Enterprise Rent-A-Car special discount program, you agree that Enterprise Rent-A-Car may provide certain information to SEIU Member Benefits. The information provided includes your name and address, but never any information about your rental or your transaction. SEIU Member Benefits collects this information for quality control purposes—for example, to conduct follow-up member satisfaction surveys and for managing contacts with you by the various SEIU-sponsored programs. This information is strictly confidential and is not shared with anyone outside of the SEIU organization.</p>
+        
+        <p><br>
+        If you do not wish to participate in the program under these conditions, you can take advantage of Enterprise Rent-A-Car’s everyday low rates at <a href="https://legacy.enterprise.com/car_rental/home.do">enterprise.com.</a></p>
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Enterprise Rent-A-Car"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Your SEIU member discount code is: <strong>SNEAPBK</strong>. To reserve by phone, please call 1-866-876-2372 and reference customer code SNEAPBK, or click above to reserve online.
+        
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "ENTERPRISE RENT-A-CAR"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>Enterprise is known for its exceptional everyday low rates, neighborhood convenience and outstanding service, including free pick-up for local customers. As an SEIU member, you’ll receive a member discount on everyday low rates at participating Enterprise locations.</p>
+        
+        <ul>
+        	<li>Over 6,000 rental locations across the U.S., Canada and Puerto Rico</li>
+        	<li>Convenient free pickup and return</li>
+        	<li>No holiday blackout dates</li>
+        	<li>Special seasonal offers</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{2704A9CA-CF6A-474D-B816-97F3ABFD5314}" hspace="" usethumbnail="" showineditor="" width="" alt="Enterprise Rent -A-Car" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Enterprise Rent-A-Car"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Make a Reservation" linktype="external" url="https://partners.rentalcar.com/seiu/" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>SEIU members receive discounts on car rentals, plus free pickup and return, at over 6,000 Enterprise rental locations across the U.S., Canada and Puerto Rico.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "TAKE ADVANTAGE OF MEMBER-ONLY RATES ON YOUR NEXT TRIP!"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Enterprise Rent-A-Car"
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU members receive discounts on car rentals, plus free pickup and return, at over 6,000 Enterprise rental locations across the U.S., Canada and Puerto Rico.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{14848409-BA02-4D98-8CAE-3E468FCD6179}" alt="Enterprise Rent -A-Car" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{8162D703-2805-4E0B-8D61-62348827F34B}" alt="SEIU Member Benefits in partnership with Enterprise" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191001T163232Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<p>By clicking on the link to enterprise.com from seiumb.com and renting using the SEIU Member Benefits/Enterprise Rent-A-Car special discount program, you agree that Enterprise Rent-A-Car may provide certain information to SEIU Member Benefits. The information provided includes transactional information about your rental but never any personally identifiable information (i.e. name, address, email, etc.) SEIU MB collects this info for analytic and accounting purposes.</p>"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Enterprise Rent-A-Car"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Reserve Now to book your rental through Enterprise&rsquo;s SEIU Member welcome page. Your discount code will be automatically applied.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "ENTERPRISE RENT-A-CAR<sup>&reg;</sup>"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Discounted rental rates just for SEIU members</li>
+            <li>Valid at over 10,000 locations worldwide</li>
+            <li>Free pick-up and drop-off for local customers</li>
+            <li>No holiday blackout dates</li>
+        </ul>
+        <p>Incredible customer service and the savings to match. Enterprise Rent-a-Car&rsquo;s everyday low rates are even lower when you book through SEIU Member Benefits!</p>
+        <p>Click Reserve Now to book your next rental with Enterprise Rent-a-Car.</p>
+        <p>Check out our Rental Car <a href="~/link.aspx?_id=17CFB9E01A944DA2A1DC5F09F310F429&amp;_z=z">FAQs</a>&nbsp;for more details.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{14848409-BA02-4D98-8CAE-3E468FCD6179}" hspace="" usethumbnail="" showineditor="" width="" alt="Enterprise Rent -A-Car" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Enterprise Rent-A-Car"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RESERVE NOW" linktype="external" url="https://partners.rentalcar.com/seiu/" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<p>When you&rsquo;re ready to go, Enterprise Rent-A-Car makes it easy with great rates, neighborhood convenience and outstanding service.</p>"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "When you&rsquo;re ready to go, Enterprise Rent-A-Car makes it easy with great rates, neighborhood convenience and outstanding service."
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191001T163200Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Enterprise Rent-A-Car"
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU members receive discounts on car rentals, plus free pickup and return, at over 6,000 Enterprise rental locations across the U.S., Canada and Puerto Rico.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{14848409-BA02-4D98-8CAE-3E468FCD6179}" alt="Enterprise Rent -A-Car" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{8162D703-2805-4E0B-8D61-62348827F34B}" alt="SEIU Member Benefits in partnership with Enterprise" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T233401Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<p>By clicking on the link to enterprise.com from seiumb.com and renting using the SEIU Member Benefits/Enterprise Rent-A-Car special discount program, you agree that Enterprise Rent-A-Car may provide certain information to SEIU Member Benefits. The information provided includes transactional information about your rental but never any personally identifiable information (i.e. name, address, email, etc.) SEIU MB collects this info for analytic and accounting purposes.</p>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Enterprise Rent-A-Car"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Reserve Now to book your rental through Enterprise&rsquo;s SEIU Member welcome page. Your discount code will be automatically applied.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "ENTERPRISE RENT-A-CAR<sup>&reg;</sup>"
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{2137E172-F210-45F6-B4F6-A1B24220980A}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{2137E172-F210-45F6-B4F6-A1B24220980A}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Discounted rental rates just for SEIU members</li>
+            <li>Valid at over 10,000 locations worldwide</li>
+            <li>Free pick-up and drop-off for local customers</li>
+            <li>No holiday blackout dates</li>
+        </ul>
+        <p>Incredible customer service and the savings to match. Enterprise Rent-a-Car&rsquo;s everyday low rates are even lower when you book through SEIU Member Benefits!</p>
+        <p>Click Reserve Now to book your next rental with Enterprise Rent-a-Car.</p>
+        <p>Check out our Rental Car <a href="~/link.aspx?_id=17CFB9E01A944DA2A1DC5F09F310F429&amp;_z=z">FAQs</a>&nbsp;for more details.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{14848409-BA02-4D98-8CAE-3E468FCD6179}" hspace="" usethumbnail="" showineditor="" width="" alt="Enterprise Rent -A-Car" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Enterprise Rent-A-Car"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RESERVE NOW" linktype="external" url="https://partners.rentalcar.com/seiu/" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<p>When you&rsquo;re ready to go, Enterprise Rent-A-Car makes it easy with great rates, neighborhood convenience and outstanding service.</p>"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "When you&rsquo;re ready to go, Enterprise Rent-A-Car makes it easy with great rates, neighborhood convenience and outstanding service."
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T233401Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Enterprise Rent-A-Car"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Los miembros de SEIU reciben descuentos en el alquiler de automóviles, además de recogida y devolución gratuitos en más de 6,000 sucursales de alquiler de Enterprise en los EE. UU., Canadá y Puerto Rico.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{2704A9CA-CF6A-474D-B816-97F3ABFD5314}" alt="Enterprise Rent -A-Car" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{8162D703-2805-4E0B-8D61-62348827F34B}" alt="SEIU Member Benefits en asociación con Enterprise" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172718Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>Al hacer clic en el vínculo a enterprise.com desde seiumb.com y realizar un alquiler a través del SEIU Member Benefits/Programa de descuentos especiales de Enterprise Rent-A-Car, acepta que Enterprise Rent-A-Car entregue cierta información al SEIU Member Benefits. La información entregada incluye su nombre y dirección, pero nunca información acerca del alquiler o su transacción. SEIU Member Benefits recopila esta información para fines de control de calidad, por ejemplo, para realizar encuestas de seguimiento de satisfacción del cliente y para administrar sus contactos conforme a los distintos programas patrocinados por SEIU. Esta información es estrictamente confidencial y no se compartirá con personas ajenas a SEIU.</p>
+        
+        <p><br>
+        Si no desea participar en el programa conforme a estas condiciones, puede utilizar las tarifas reducidas diarias de Enterprise Rent-A-Car en <a href="https://legacy.enterprise.com/car_rental/home.do">enterprise.com.</a></p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Enterprise Rent-A-Car"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Su código de descuento para miembros de SEIU es: <strong>SNEAPBK</strong>. Para reservar por teléfono, llame al 1-866-876-2372 y mencione el código de cliente SNEAPBK, o haga clic en el botón de arriba para reservar en línea.
+        
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "ENTERPRISE RENT-A-CAR"
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>Enterprise es famoso por sus tarifas diarias bajas y excepcionales, cercanía y servicio inigualable, que incluye retiro gratuito para los clientes locales. Como miembro de SEIU, recibirá un descuento para miembros en las tarifas reducidas diarias de las sucursales participantes de Enterprise.</p>
+        
+        <ul>
+        	<li>Más de 6,000 sucursales de alquiler en los EE. UU., Canada y Puerto Rico</li>
+        	<li>Recogida y devolución gratuitos convenientes</li>
+        	<li>Sin restricciones en días festivos</li>
+        	<li>Ofertas especiales de temporada</li>
+        </ul>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{2704A9CA-CF6A-474D-B816-97F3ABFD5314}" alt="Enterprise Rent -A-Car" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Enterprise Rent-A-Car"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Realizar una reserva" linktype="external" url="https://partners.rentalcar.com/seiu/?locale=es" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>Los miembros de SEIU reciben descuentos en el alquiler de automóviles, además de recogida y devolución gratuitos en más de 6,000 sucursales de alquiler de Enterprise en los EE. UU., Canadá y Puerto Rico.</p>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "¡APROVECHE LAS TARIFAS EXCLUSIVAS PARA MIEMBROS EN SU PRÓXIMO VIAJE!"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Enterprise Rent-A-Car"
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Cuando esté listo para salir a la carretera, Enterprise Rent-a-Car le allana el camino con excelentes tarifas, oficinas en distintas ciudades y un servicio excepcional."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{14848409-BA02-4D98-8CAE-3E468FCD6179}" alt="Enterprise Rent -A-Car" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Regístrese" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{8162D703-2805-4E0B-8D61-62348827F34B}" alt="SEIU Member Benefits en asociación con Enterprise" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191002T161556Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<p>Al hacer clic en el v&iacute;nculo a enterprise.com desde seiumb.com y alquilar un veh&iacute;culo a trav&eacute;s del programa de beneficios para miembros de SIEU o descuentos especiales de Enterprise Rent-a-Car, acepta que Enterprise Rent-a-Car entregue cierta informaci&oacute;n al Departamento de Beneficios para Miembros de SEIU. La informaci&oacute;n proporcionada incluye los datos de transacciones relacionadas con su alquiler, pero nunca contendr&aacute; ning&uacute;n dato que permita una identificaci&oacute;n personal (su nombre y apellido, domicilio, correo electr&oacute;nico, etc.). El Departamento mencionado recopila esta informaci&oacute;n con fines de an&aacute;lisis y contabilidad.</p>"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Enterprise Rent-A-Car"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Haga clic en &ldquo;Reservar ahora&rdquo; para asegurar su alquiler a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Enterprise. Su c&oacute;digo de descuento se aplicar&aacute; autom&aacute;ticamente.
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "ENTERPRISE RENT-A-CAR<sup>&reg;</sup>"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar sesión" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Iniciar sesión
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Tarifas de alquiler con descuento solo para miembros de SEIU</li>
+            <li>Oferta v&aacute;lida en m&aacute;s de 10,000 localidades en todo el mundo</li>
+            <li>Retiro y devoluci&oacute;n sin cargo para clientes locales</li>
+            <li>Sin restricciones en d&iacute;as festivos</li>
+        </ul>
+        <p>Incomparable atenci&oacute;n al cliente y ahorros que no se quedan atr&aacute;s. Las tarifas diarias de Enterprise Rent-a-Car son aun m&aacute;s bajas cuando la reserva se hace a trav&eacute;s del programa de beneficios para miembros de SEIU.</p>
+        <p>Haga clic en &ldquo;Reservar ahora&rdquo; para asegurar su pr&oacute;ximo alquiler en Enterprise Rent-a-Car.</p>
+        <p>Haga clic en nuestras <a href="~/link.aspx?_id=17CFB9E01A944DA2A1DC5F09F310F429&amp;_z=z">preguntas frecuentes</a>&nbsp;para ver los detalles de nuestros alquileres de autos</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{14848409-BA02-4D98-8CAE-3E468FCD6179}" alt="Enterprise Rent -A-Car" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Enterprise Rent-A-Car"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reservar ahora" linktype="external" url="https://partners.rentalcar.com/seiu/?locale=es" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<p>Cuando est&eacute; listo para salir a la carretera, Enterprise Rent-a-Car le allana el camino con excelentes tarifas, oficinas en distintas ciudades y un servicio excepcional.</p>"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Cuando est&eacute; listo para salir a la carretera, Enterprise Rent-a-Car le allana el camino con excelentes tarifas, oficinas en distintas ciudades y un servicio excepcional."
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191002T161500Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Enterprise Rent-A-Car"

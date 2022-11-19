@@ -1,0 +1,80 @@
+﻿---
+ID: "db7a0c43-07b3-409f-8e50-8b51cbeecd48"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Life Insurance
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T194942Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Insurance
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{EABFE3C6-ECE0-480C-9F55-0D66B40A9001}" ></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('small module','click','seiu group term life insurance &gt; title');">SEIU Group Term Life Insurance</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>The SEIU Group Term Life Insurance Plan is an economical way to help safeguard yourself and your family.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('small module','click','seiu group term life insurance &gt; button');">LEARN MORE</a>
+        </div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195436Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Seguros
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{EABFE3C6-ECE0-480C-9F55-0D66B40A9001}" ></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('small module','click','seiu group term life insurance esp &gt; title');">Programa de Seguro de Vida a T&eacute;rmino Grupal SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Una manera econ&oacute;mica de ayudar a protegerse a usted y a su familia.</p>
+        &nbsp;
+        <div style="margin-top: -10px;"><a class="button panelBtn" href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z" onclick="ga_event('small module','click','seiu group term life insurance esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>

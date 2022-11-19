@@ -1,0 +1,337 @@
+﻿---
+ID: "8f873b39-85ab-4068-a66f-f6428aed4bde"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "29b9788c-173c-4ef5-8775-69c658418688"
+Path: /sitecore/content/NEAMBC/Home/Registration
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/form_yellow_add.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1700
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|ar|sitecore\SEIUMB Approver|pe|-item:create|-item:delete|-item:admin|pd|-item:create|-item:delete|-item:admin|
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E2A243A2-D945-49AD-B83D-98AC6A5814A8}">
+          <p:d />
+        </r>
+        <r
+          uid="{7B674E85-AA99-4A3D-B682-83F646BE5DDB}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:ph="Body" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7B674E85-AA99-4A3D-B682-83F646BE5DDB}"
+              p:after="r[@uid='{E7FF92C0-C3EA-4E31-8A5F-75F6C06E6428}']"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{D906C5E2-868D-4CFE-9651-A87D95B1025B}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E4E52898D73F47368A6A5CFE41C68D88"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Register to become a user on this website and enjoy of seiu members benefits online.
+    - ID: "1abd6447-ebed-429e-bfd4-e8962d835297"
+      Hint: ErrorMessage
+      Value: Please select your state
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T205038Z
+    - ID: "903ca71f-0cbc-4933-a9c7-d3daa25986e6"
+      Hint: UserIntro
+      Value: |
+        <p>
+        Please provide your email address. This will be also your username. We respect your <a href="~/link.aspx?_id=048642BBA9074B5997DBB780FB32C940&amp;_z=z">privacy</a>. We'll never share your email address or other personal information with third parties.
+        </p>
+    - ID: "a89c006c-1607-468e-890e-c2f04e098a7b"
+      Hint: Placeholder
+      Value: password
+    - ID: "b1881726-718c-4382-87b2-b6d554af52a4"
+      Hint: RightRail
+      Value: |
+        <fieldset id="alreadyRegister" class="fieldset buttonContainer">
+        <h5>Already&nbsp;Registered?</h5>
+        <div class="show-for-small-only profile_error"><a class="button" href="~/link.aspx?_id=9EE7F15DD9974C888FCE1C44E2C078FB&amp;_z=z">Log in</a></div>
+        <div class="show-for-medium profile_error"><a aria-controls="loginModal" aria-haspopup="true" class="button" data-open="loginModal" id="8q1mui-reveal" tabindex="0">Log in</a></div>
+        <h5>Why Do We Need This Information?</h5>
+        <p>Most of the benefits we provide are only available to active SEIU members and we need to confirm your membership prior to providing access.</p>
+        <h5>What Do You Do with My Information?</h5>
+        <p>We respect your privacy and will never share your personal information with third parties. To learn more, please see our <a href="~/link.aspx?_id=048642BBA9074B5997DBB780FB32C940&amp;_z=z">Privacy Policy</a>.</p>
+        </fieldset>
+        <div id="help" class="large-4 large-centered columns">
+        <div class="row">
+        <div id="main_help" class="small-12 medium-12 large-12 large-centered columns">
+             
+               
+                    need help? <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a>
+                    <div class="menu contactmenu">
+                        <a href="mailto:ask-us@seiumb.com" class="icon-email1"></a>
+                        <a href="tel:+18448367348" class="icon-call"></a>
+                    </div>
+               
+        </div>
+        </div>
+        </div>
+        
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{7104ECEC-BAD0-44F7-A597-BC4A7812D5EC}" />
+    - ID: "d41f4869-48a7-414b-8f2c-b5ae818930e4"
+      Hint: HelpText
+      Value: Please select your state that is on file with your local union. This will help us find your membership information.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Registration
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0060ad01-b2c5-4837-9063-950e5f02083e"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su nombre
+    - ID: "057fc3b5-9ba5-4289-82aa-07f93d7143fd"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su dirección
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Complete el formulario de registro para convertirse en usuario de este sitio web y disfrutar de los beneficios para miembros de seiu en línea.
+    - ID: "1abd6447-ebed-429e-bfd4-e8962d835297"
+      Hint: ErrorMessage
+      Value: Por favor seleccione su estado
+    - ID: "22715a3d-6811-4bc8-b5ec-5bd17769aca5"
+      Hint: Placeholder
+      Value: dirección
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T202939Z
+    - ID: "4017f1bc-0803-4e57-bedb-80cb18294286"
+      Hint: Asterisk
+      Value: * Denota campos obligatorios
+    - ID: "5630cbf2-9263-47ab-ba4c-05c902b2aefc"
+      Hint: PasswordRequirements
+      Value: Por favor ingrese una contraseña que tenga al menos 8 caracteres, contenga al menos 1 letra, 1 número y no contenga espacios.
+    - ID: "5a6ab86f-a86f-45a1-9e81-e5ff38feddc2"
+      Hint: Placeholder
+      Value: contraseña
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6b900e44-ed55-471d-8078-3d3a41329291"
+      Hint: Label
+      Value: Estado*
+    - ID: "6e9c583c-dfd1-4338-93a8-904450df9edd"
+      Hint: ErrorMessage
+      Value: Por favor ingrese una fecha válida (mm/dd/aaaa)
+    - ID: "713151ee-efc6-4294-814b-f8c7d5afc841"
+      Hint: SubmitButton
+      Value: Registrarme
+    - ID: "71cb11af-84aa-465d-b000-61c5b565edcd"
+      Hint: HelpText
+      Value: Por favor proporcione el nombre de pila que se encuentra archivado en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "7610c9c3-784e-4c4f-887d-0111c4d6e73e"
+      Hint: Placeholder
+      Value: nombre
+    - ID: "7cdc9b5a-0581-4ada-8650-45e8de55da11"
+      Hint: HelpText
+      Value: Por favor vuelva a introducir la contraseña que proporcionó previamente.
+    - ID: "7fe60339-93b2-4a0c-beba-a2d0e0ed170b"
+      Hint: Placeholder
+      Value: mm/dd/aaaa
+    - ID: "810a22ec-a632-4b96-9748-eb20e9298efe"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su ciudad
+    - ID: "817036e7-7a98-4679-ae49-79ac18ac59c2"
+      Hint: Placeholder
+      Value: _____
+    - ID: "835369c8-50ad-4cec-886d-06af7fa57c82"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su número de teléfono
+    - ID: "884853ba-8a68-4e2c-91f0-f8b4de3ce7fe"
+      Hint: Placeholder
+      Value: "(___) ___-____"
+    - ID: "89d23857-7339-482a-8427-e4359c095ad1"
+      Hint: Placeholder
+      Value: ciudad
+    - ID: "8b21b473-60e9-4b5e-8882-7350c8fa5357"
+      Hint: Placeholder
+      Value: apellidos
+    - ID: "8b843852-9457-4301-959c-b74ce1235eae"
+      Hint: HelpText
+      Value: Por favor proporcione la fecha de nacimiento que se encuentra archivada en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "8c1ab329-ad6c-437e-9da9-a636ff71ba25"
+      Hint: ErrorMessage
+      Value: Los campos de contraseña son requeridos
+    - ID: "8c24fe36-0fbc-4366-a4d4-da0952e65128"
+      Hint: HelpText
+      Value: Por favor proporcione la dirección que se encuentra archivada en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "8e4fc32a-4116-4df4-b732-d57f5e854f93"
+      Hint: ErrorMessage
+      Value: Por favor ingrese sus apellidos
+    - ID: "903ca71f-0cbc-4933-a9c7-d3daa25986e6"
+      Hint: UserIntro
+      Value: |
+        <p>
+                                        Por favor ingrese su correo electrónico. Este será su nombre de usuario. Respetamos su <a href="~/link.aspx?_id=048642BBA9074B5997DBB780FB32C940&amp;_z=z">privacidad</a>. Nunca compartiremos su correo electrónico o cualquier otra información personal con terceros.                            </p>
+    - ID: "9987f6ba-a3bc-4022-9417-4649401fc9cd"
+      Hint: ErrorMessage
+      Value: "¡Las contraseñas deben coincidir!"
+    - ID: "99f4ee80-1215-4b33-a1b8-310f495334f1"
+      Hint: HelpText
+      Value: Por favor proporcione el número de teléfono que se encuentra archivado en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "9ca35e50-9a1a-4e79-aab5-0fc82a7df816"
+      Hint: Label
+      Value: Código Postal*
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Registration
+    - ID: "a89c006c-1607-468e-890e-c2f04e098a7b"
+      Hint: Placeholder
+      Value: contraseña
+    - ID: "b1881726-718c-4382-87b2-b6d554af52a4"
+      Hint: RightRail
+      Value: |
+        <fieldset id="alreadyRegister" class="fieldset buttonContainer">
+                            
+        <h5>¿Está&nbsp;Registrado?</h5>
+        
+        <div class="show-for-small-only profile_error"><a class="button" href="~/link.aspx?_id=9EE7F15DD9974C888FCE1C44E2C078FB&amp;_z=z">Ingrese</a></div>
+        
+        <div class="show-for-medium profile_error"><a aria-controls="loginModal" aria-haspopup="true" class="button" data-open="loginModal" id="nyv30x-reveal" tabindex="0">Ingrese</a></div>
+        
+        <h5>¿Por qué necesitamos esta información?</h5>
+        
+        <p>La mayoría de los beneficios que proveemos son solo para miembros activos de SEIU y necesitamos confirmar su membresía antes de proporcionarle acceso.</p>
+        
+        <h5>¿Para qué se usa mi información?</h5>
+        
+        <p>Respetamos su privacidad y nunca compartiremos su información personal con terceros. Para saber más por favor revise nuestra <a href="~/link.aspx?_id=048642BBA9074B5997DBB780FB32C940&amp;_z=z">Política de Privacidad</a>.</p>
+        </fieldset>
+        
+        <div id="help" class="large-4 large-centered columns">
+        <div class="row">
+        <div id="main_help" class="small-12 medium-12 large-12 large-centered columns">
+             
+               
+                    ¿necesita ayuda? <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contáctenos</a>
+                    <div class="menu contactmenu">
+                        <a href="mailto:ask-us@seiumb.com" class="icon-email1"></a>
+                        <a href="tel:+18448367348" class="icon-call"></a>
+                    </div>
+               
+        </div>
+        </div>
+        </div>
+        
+    - ID: "b1972ee3-b6f4-4ddb-9e58-6f4e968ae905"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su código postal
+    - ID: "b245d0b2-edaa-4a45-aefb-1157be302a98"
+      Hint: HelpText
+      Value: Por favor proporcione los apellidos que se encuentran archivados en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "b659dcca-99e2-4d88-b100-bbed97191491"
+      Hint: Label
+      Value: Confirmar Contraseña*
+    - ID: "ba99355f-d2ac-49dc-8956-5645e8bdafda"
+      Hint: HelpText
+      Value: Por favor proporcione el código postal que se encuentra archivado en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "bb8fad17-c373-4200-b3ad-03de33d67864"
+      Hint: HelpText
+      Value: Por favor proporcione la contraseña que se utilizará para verificar su identidad. Debe contener al menos una letra y un número.
+    - ID: "c34e7f0f-2382-410a-8b9b-9466d3631875"
+      Hint: HelpText
+      Value: Por favor proporcione la ciudad que se encuentra archivada en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "c44f3f5c-a94d-4ecd-b42d-11c239897e36"
+      Hint: HelpText
+      Value: Por favor proporcione el correo electrónico que desea utilizar como su nombre de usuario para este sitio web. Debe ser un correo electrónico al que tiene acceso en todo momento.
+    - ID: "c87cba78-6955-4bab-8872-a5dda2c11ceb"
+      Hint: Label
+      Value: Nombre*
+    - ID: "ca3237d2-53ad-4017-a53b-9ca9da7295eb"
+      Hint: Label
+      Value: Dirección*
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{7104ECEC-BAD0-44F7-A597-BC4A7812D5EC}" />
+    - ID: "cd30460e-752e-485f-91cd-e75f9c781536"
+      Hint: Label
+      Value: Ciudad*
+    - ID: "d41f4869-48a7-414b-8f2c-b5ae818930e4"
+      Hint: HelpText
+      Value: Por favor proporcione el estado que se encuentra archivado en su sindicato local. Esto nos ayudará a encontrar la información de su cuenta.
+    - ID: "d5e26f70-9702-43a3-89b9-4178254f0e12"
+      Hint: Label
+      Value: Contraseña*
+    - ID: "d746755e-594b-429b-b621-b64f45515716"
+      Hint: Placeholder
+      Value: correo electrónico
+    - ID: "e1745377-26cf-4c3b-9dff-960e398e0b24"
+      Hint: Label
+      Value: Correo Electrónico*
+    - ID: "e3c2bfd5-bd34-4625-97f9-8307f0fe38d2"
+      Hint: OptIn
+      Value: Sí, quiero recibir información sobre beneficios exclusivos para miembros de SEIU, incluídas ofertas especiales y otras ventajas de esta membresía.
+    - ID: "e6b017d4-b218-4239-b6bd-a11f6c6f1eab"
+      Hint: Title
+      Value: Regístrese para acceder a SEIUMB
+    - ID: "e6cf0bb7-ccb6-40a4-996b-264ec06c19eb"
+      Hint: Label
+      Value: Apellidos*
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Registro
+    - ID: "ee54f453-030b-4fb0-856f-b1e4b62818e8"
+      Hint: Placeholder
+      Value: seleccione uno
+    - ID: "f0d82d58-4964-4a08-99f2-30fbe426197b"
+      Hint: Label
+      Value: Teléfono*
+    - ID: "f873a76b-fa18-4f6b-ac30-8701c8da4648"
+      Hint: Label
+      Value: Fecha de Nacimiento*

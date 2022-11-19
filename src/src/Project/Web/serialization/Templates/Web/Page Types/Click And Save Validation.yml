@@ -1,0 +1,30 @@
+﻿---
+ID: "a7672676-784a-4c0c-ad2b-f79b6ccad850"
+Parent: "f125a0bb-dd88-4875-b504-9386c48a89e8"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Click And Save Validation
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {A1A14C17-0F89-4ABD-9F12-BD33EF8AF036}
+    {1F0F2C33-902C-40C5-9F1C-7502A60DF3D5}
+    {CF112106-8F18-4D78-A090-D8D1BCB633FB}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{15B015F2-805E-420F-986E-1D3A9CDB019B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190205T163523Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,74 @@
+﻿---
+ID: "c3f6be37-3676-4f17-8819-ff1a4cfabebb"
+Parent: "3821604b-5f69-4d8b-91db-2d9d6907c134"
+Template: "3821604b-5f69-4d8b-91db-2d9d6907c134"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Contest Submission/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{8ECA9987-4BF4-4D19-8BB2-4A4BAEDAC28D}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{0EE0EAAF-4D5C-4834-9EC9-0015AAD700C6}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{AAC81A33-6A89-459C-9748-78D37CA81133}" />
+        <r
+          id="{D392CDD7-1F84-400C-A8E2-05E8CDDF8C20}"
+          ph="body"
+          uid="{1A2A24AE-9524-43C0-A268-DBC327488143}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{B5E600D8-B30C-48DC-A95E-44B0283D09E1}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="model"
+          uid="{92281CFD-B2EC-42BB-BFBF-7B29A7A4323F}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{79F1AAC4-B843-4DF3-91B8-60C7A71F83CF}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24b362da-b886-4e39-8320-37b168342424"
+      Hint: Error Empty File
+      Value: Please select a file.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190104T185742Z
+    - ID: "450aac8f-f4e4-4a25-b840-5f1228cba080"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must sign in to view this page</h2>
+    - ID: "7d8e815a-7c05-40c9-8612-c7440c94c908"
+      Hint: Send Button
+      Value: Send
+    - ID: "a8e0ee72-e25c-48f2-a673-9fe533bceb2b"
+      Hint: Error Upload
+      Value: There was an error uploading the image please try again.

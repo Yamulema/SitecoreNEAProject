@@ -1,0 +1,31 @@
+{
+  "@jdt.replace": [
+    {
+      "@jdt.path": "$.Test_1262_2",
+      "@jdt.value": [
+        [ "nea.jessica@gmail.com", "secret12", "991", "https://neamb-efulfillment-qa.s3.amazonaws.com" ]
+      ]
+    },
+    {
+      "@jdt.path": "$.ColdState",
+      "@jdt.value": [
+        [
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Sign In to Check Eligibility'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Sign In to Check Eligibility'},this)"
+        ]
+      ]
+    },
+    {
+      "@jdt.path": "$.WarmState",
+      "@jdt.value": [
+        [
+          "999",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Enroll Now'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Print an Application'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Enroll Now'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Print an Application'},this)"
+        ]
+      ]
+    }
+  ]
+}

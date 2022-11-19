@@ -1,0 +1,65 @@
+﻿@using Neambc.Seiumb.Foundation.Authentication.Repositories
+@using Neambc.Seiumb.Foundation.Authentication.Constants
+@using Neambc.Seiumb.Feature.Forms
+@using Neambc.Seiumb.Foundation.Authentication.Interfaces
+@using Sitecore.DependencyInjection
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var userRepository = (IUserRepository)ServiceLocator.ServiceProvider.GetService(typeof(IUserRepository));
+}
+<div id="product_details_content" class="row">
+    <div class="row">
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+        <div class="small-12 medium-10 large-10 columns">
+            <h4 id="account_title">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Title, Model.Item)</h4>
+        </div>
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+    </div>
+    <div class="row">
+        <!-- Tabs menu for medium and large screens -->
+        <div class="row">
+            <div class="show-for-medium medium-1 large-1 columns">
+                &nbsp;
+            </div>
+            <div class="small-12 medium-10 large-10 columns">
+                
+                
+                <ul class="tabs menu expanded" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" data-tabs id="account-tabs">
+                    <li class="tabs-title is-active"><a href="#profile" aria-selected="true">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ProfileTabTitle, Model.Item)</a></li>
+                    <li class="tabs-title"><a href="#username">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.UsernameTabTitle, Model.Item)</a></li>
+                    <li class="tabs-title"><a href="#password">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.PasswordTabTitle, Model.Item)</a></li>
+                </ul>
+
+                <div class="tabs-content" data-tabs-content="account-tabs">
+                    @if (userRepository.GetUserStatus().Equals(UserStatusCons.HOT))
+                    {
+                        <div class="tabs-panel is-active" id="profile">
+                            @Html.Sitecore().Placeholder("my-account")
+                        </div>
+                        <div class="tabs-panel" id="username">
+                            @Html.Sitecore().Placeholder("username")
+                        </div>
+                        <div class="tabs-panel" id="password">
+                            @Html.Sitecore().Placeholder("password")
+                        </div>
+                    }
+                    else
+                    {
+                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.AnnoymousUserMessage, Model.Item)
+                    }
+                    
+                </div>                
+            </div>
+            <div class="show-for-medium medium-1 large-1 columns">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</div>

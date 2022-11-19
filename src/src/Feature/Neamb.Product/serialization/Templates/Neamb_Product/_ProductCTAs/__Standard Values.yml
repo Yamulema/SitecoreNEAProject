@@ -1,0 +1,65 @@
+﻿---
+ID: "74523a6b-5cb4-4c46-bc0a-20fe4344905f"
+Parent: "cdcebeef-02eb-4cf2-86a3-41bc0d31f613"
+Template: "cdcebeef-02eb-4cf2-86a3-41bc0d31f613"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_ProductCTAs/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180502T223910Z
+    - ID: "48054719-9807-4282-90c2-4223823e69a1"
+      Hint: LoginDetails
+      Value: |
+        *State, chapter, and membership restrictions may apply. Read <a class="text-alpha link-underline" href="~/link.aspx?_id=2351C4D0ECBD4403BED4751C3CF3960A&amp;_z=z">Terms &amp; Conditions</a> for full eligibility rules.
+    - ID: "53011b49-6124-429b-8ebc-4e072d2926be"
+      Hint: PartnerHeadline
+      Value: In partnership with
+    - ID: "544fb930-a3f1-48ac-baf3-f1d8bbe819db"
+      Hint: CTA
+      Value: |
+        <link text="Sign In to Check Eligibility" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5eff42eb-ff4c-4456-b268-b82504b829ac"
+      Hint: FinePrint
+      Value: If necessary, provide a brief line of additional information regarding product active date, availability, eligibility, etc.
+    - ID: "80b587eb-de79-4d42-8f11-67bf2cd1975a"
+      Hint: Show social share
+      Type: Checkbox
+      Value: 1
+    - ID: "87a78d4a-6b5b-4385-934d-2c1e5882000b"
+      Hint: Notification
+      Value: |
+        <div class="col-md-6">
+        <p>Sorry. It looks like you are not eligible for this offer.</p>
+        </div>
+        <div class="col-md-6">
+        <div class="items-fixed buttons"><a class="btn btn-md btn-bordered-white pull-right" href="~/link.aspx?_id=2351C4D0ECBD4403BED4751C3CF3960A&amp;_z=z">Review Terms and Conditions</a></div>
+        </div>
+    - ID: "99fb106b-ec54-4b37-9d3e-0cb396369598"
+      Hint: Button Color
+      Value: Gray
+    - ID: "d0b9285b-ef9b-4f38-b718-f888996f88bd"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "d4fdca7e-7bd4-41df-a4ec-c0c141341670"
+      Hint: Name
+      Value: $name
+    - ID: "d63c1bea-0571-4063-a2c3-1cd9bdc8f1fb"
+      Hint: Button Color
+      Value: Blue
+    - ID: "d89dab59-fbe1-4179-94be-2bb70ca8517a"
+      Hint: EligibilityDetails
+      Value: |
+        We're sorry, it looks like you are not elligible for this offer. Please review the <a class="text-alpha link-underline" href="~/link.aspx?_id=2351C4D0ECBD4403BED4751C3CF3960A&amp;_z=z">Terms &amp; Conditions</a>&nbsp;for full eligibilty rules. If you believe you are eligible for this program please contact us.
+    - ID: "f3557637-9181-4934-a90c-fdadaa671698"
+      Hint: Button Color
+      Value: Orange

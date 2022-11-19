@@ -1,0 +1,183 @@
+﻿---
+ID: "8ea62737-0ec9-4f28-a943-fde3f6da5249"
+Parent: "d0d97273-410a-4205-8155-8582cc1126b0"
+Template: "d0d97273-410a-4205-8155-8582cc1126b0"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Profile/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{9179345A-D722-453A-80C6-D3B470268D86}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{C1AAA9FA-91DF-4B7D-8F63-92E7F244AB04}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{E87561E8-ED5F-4B2C-B288-578EF3676556}" />
+        <r
+          id="{2B58D20F-A017-4445-9646-33605683E045}"
+          ph="body"
+          uid="{B70332CD-D070-4FC3-B45E-385494310FCF}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{2DD7F644-525E-4632-AF54-1E6D47490587}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{DB3C1BB4-8D16-4D87-AD0F-B1CAD5E17BEA}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{CB413062-DFE1-4385-9BE9-DED83A62CE86}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12c307d7-37b2-4373-9b71-19024f0dc9cd"
+      Hint: "Opt-in"
+      Value: I'd like to receive emails about special promotions, discounts and other offers available through NEA Member Benefits.
+    - ID: "1327e79b-b86e-4709-a401-d31036b9ed5f"
+      Hint: Characters Limit
+      Value: You can enter only 44 characters in this field
+    - ID: "22d2494a-6fee-453a-8508-fc8c350a7580"
+      Hint: Empty Field
+      Value: Please insert your date of birth
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180704T205357Z
+    - ID: "32adedb0-ea1e-43e1-b344-277e44cd5023"
+      Hint: Empty Field
+      Value: Please select your state
+    - ID: "38f547bf-95dd-4960-ab1b-6b2a8ac02b81"
+      Hint: Characters Limit
+      Value: You can enter only 100 characters in this field
+    - ID: "3a0dba9f-f047-4ac1-aeb9-db4aaf046c1b"
+      Hint: Empty Field
+      Value: Please insert your address
+    - ID: "4a08cfd7-853d-478f-8c99-b99e061b0f1d"
+      Hint: Empty Field
+      Value: Please insert your first name
+    - ID: "4b568afc-f8d5-4ee8-893b-be3c5f54e65e"
+      Hint: Characters Limit
+      Value: You can enter only 5 characters in this field
+    - ID: "4bd97032-914a-493f-9cc1-5d1fd6476e90"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "4c8fe107-2167-495f-b4a7-7577d07e087d"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "4e713c65-91d4-4d4c-9e71-e5aafd95b4eb"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "50108d96-52d9-435c-8675-c8b12e815c30"
+      Hint: Success Update Profile Modal
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Thanks for completing your profile!</h2>
+        <p>Thank you for updating your NEAMB.com account. The changes you made will be reflected in our database within 48 hours.<br>
+        If you have any questions, please contact us by email, online message, phone or mail.</p>
+        <div class="col-md-5 col-centered">Return to Profile &amp; Password<br>
+        Return to Homepage</div>
+        </div>
+        <div class="modal-footer">
+        <div class="col-md-6">
+        <p>Connect with us, and members like you </p>
+        </div>
+        <div class="col-md-6">
+                      <div class="share"><a href="https://www.facebook.com/NEAMemberBenefits/" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a><a href="https://twitter.com/NEABenefits" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/company/nea-member-benefits" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a></div>
+                    </div>
+        </div>
+    - ID: "5ee361e9-bf9e-4d1f-8ce0-9403d6d7c838"
+      Hint: Subheadline
+      Value: 
+    - ID: "677b0202-22cb-49d9-b7ef-6962863bb510"
+      Hint: Invalid
+      Value: Current password does not match on record stored password
+    - ID: "835467ae-a55f-45d8-993d-e33ddbb83b93"
+      Hint: Empty Field
+      Value: Please insert your zip code
+    - ID: "852633dc-5a7b-43f5-b533-b9a046e56563"
+      Hint: Empty Field
+      Value: Please insert your email
+    - ID: "9839a40c-eda5-4c83-ab7f-75ff4748525d"
+      Hint: Empty Field
+      Value: Please insert your last name
+    - ID: "9a1bb82c-82a2-4ca7-a5fe-8b6f09fe8b5c"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field
+    - ID: "a38d52fb-50bf-44eb-a03f-81af27e6cbb7"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "a89eae5e-8360-4172-9a0c-0c7246c05873"
+      Hint: Age Requirement
+      Value: You must be at least 16 years old and no more than 95 years old to be an NEAMB member
+    - ID: "bc45d3fd-efcb-46b5-9669-3d75a396535f"
+      Hint: Empty Field
+      Value: Please insert your city
+    - ID: "bd995065-8e92-4b97-826d-e25ea1078578"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "c18ebd8b-d381-4b41-89f8-488971e2559d"
+      Hint: Empty
+      Value: Please insert your current password
+    - ID: "c2051581-7df1-428b-ab7c-539b7fea7ed4"
+      Hint: Characters Limit
+      Value: You can enter only 44 characters in this field
+    - ID: "d164e8f4-3338-4eda-8626-d0783a845dac"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "d48f88ad-0719-40ae-a98a-447a7fe16844"
+      Hint: Success Update Password Modal
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Your password has been updated!</h2>
+        <p>If you have any questions, please contact us by email, online message, phone or mail.</p>
+        <div class="col-md-5 col-centered">Return to Profile &amp; Password<br />
+        Return to Homepage</div>
+        </div>
+        <div class="modal-footer">
+        <div class="col-md-6">
+        <p>Connect with us, and members like you </p>
+        </div>
+        <div class="col-md-6">
+        <div class="share"><a rel="noopener noreferrer" href="https://www.facebook.com/NEAMemberBenefits/" target="_blank"><em aria-hidden="true" class="fa fa-facebook"></em></a><a rel="noopener noreferrer" href="https://twitter.com/NEABenefits" target="_blank"><em aria-hidden="true" class="fa fa-twitter"></em></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/nea-member-benefits" target="_blank"><em aria-hidden="true" class="fa fa-linkedin"></em></a></div>
+        </div>
+        </div>
+    - ID: "d71690ea-7c45-4ae3-ac9a-bac5e5a04aae"
+      Hint: Invalid Format
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again
+    - ID: "f71f7747-f88d-499b-ac69-d3a6dc9b0a88"
+      Hint: Page Title
+      Value: Profile &amp; Password
+    - ID: "f7620f0c-1c3a-458e-ad51-a0f6395dcd2d"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field
+    - ID: "ffee5bc4-eb6e-4b91-9daa-ab02ddd6a7af"
+      Hint: Characters Limit
+      Value: You can enter only 10 characters in this field

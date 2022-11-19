@@ -1,0 +1,84 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.RetirementSeminarDTO
+
+@{
+    var classname = Model.SweepstakesBase.HasErrors ? "show" : "";
+    string classNameSecond = Model.SweepstakesBase.IsPositionRight ? "col-md-6 col-md-pull-6" : "col-md-6";
+    var classmainname = ((Model.SweepstakesBase.IsAuthenticated && !Model.IsMember) || !Model.IsValidSeminary)? "section-cta top-bar" : "section-cta";
+    var errorSweepstake = String.Format("error{0}", Model.SweepstakesBase.ComponentId);
+}
+<section id="@errorSweepstake" class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.LandingPageCta.Fields.Error, Model.SweepstakesBase.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+<section class="@classmainname">
+    @if (Model.SweepstakesBase.IsAuthenticated && !Model.IsMember)
+    {
+        <div class="not-eligible-top sticky" id="product_cta_sticky_top">
+            <div class="container">
+                @Html.Sitecore().Field(Templates.RetirementSeminarCta.Fields.NotEligibleNotification, Model.SweepstakesBase.Item)
+            </div>
+        </div>
+    }
+    else if (!Model.IsValidSeminary)
+    {
+        <div class="not-eligible-top sticky" id="product_cta_sticky_top">
+            <div class="container">
+                @Html.Sitecore().Field(Templates.RetirementSeminarCta.Fields.InvalidSeminarNotification, Model.SweepstakesBase.Item)
+            </div>
+        </div>
+    }
+    <div class="container">
+        @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesImageVideo.cshtml", Model.SweepstakesBase)
+        <div class="@classNameSecond">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-11">
+                    <p class="eye-brow">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.Eyebrow, Model.SweepstakesBase.Item)</p>
+                    <h1 class="title">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.Name, Model.SweepstakesBase.Item)</h1>
+                    <h3 class="subtitle text-light">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.Subhead, Model.SweepstakesBase.Item)</h3>
+                    @if (Model.SweepstakesBase.IsAuthenticated || !Model.IsValidSeminary || (Model.SweepstakesBase.IsAuthenticated && !Model.IsMember))
+                    {
+                        @Html.Partial("~/Views/Neamb.Product/Renderings/_ReminderSeminarAction.cshtml", Model)
+                    }
+                    else
+                    {
+                        @Html.Partial("~/Views/Neamb.Product/Renderings/_ReminderSeminarCold.cshtml", Model)
+                    }
+
+                </div>
+                @Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesShare.cshtml", Model.SweepstakesBase)
+            </div>
+        </div>
+        <div class="col-md-12">
+            @if (Model.IsValidSeminary)
+            {
+                if (Model.SweepstakesBase.IsAuthenticated || (Model.SweepstakesBase.IsAuthenticated && (!Model.IsMember)))
+                {
+                    @Html.Sitecore().Field(Templates.LandingPageCta.Fields.TermsAndConditions, Model.SweepstakesBase.Item)
+                }
+                else
+                {
+                    @Html.Sitecore().Field(Templates.LandingPageCta.Fields.LoginDetails, Model.SweepstakesBase.Item)
+                }
+            }
+        </div>
+    </div>
+</section>
+
+
+@Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesThankYou.cshtml", Model.SweepstakesBase)
+
+@if (Model.SweepstakesBase.IsProcessedSuccessfully)
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sweepstakesModal').modal('show');
+        })
+    </script>
+
+}

@@ -1,0 +1,21 @@
+﻿---
+ID: "00db4323-f3fa-485b-866b-3f2349ddb7c1"
+Parent: "1d6271fc-69c0-4ec3-8f0d-8d3ed7d5a06a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Rakuten/_StoresList/Registration/Confirmation Button Label
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200823T065944Z

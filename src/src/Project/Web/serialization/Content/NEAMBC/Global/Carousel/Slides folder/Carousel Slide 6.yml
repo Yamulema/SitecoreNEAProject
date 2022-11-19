@@ -1,0 +1,65 @@
+﻿---
+ID: "227fed31-9b32-4ecc-8d29-59832e9ec2ca"
+Parent: "4cc0d7ed-3627-45b0-bf45-9ed561a5eb46"
+Template: "619077d6-8e1c-4c66-ad05-5ffd8aad4412"
+Path: /sitecore/content/NEAMBC/Global/Carousel/Slides folder/Carousel Slide 6
+DB: master
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: The SEIU Click and Save program will be replaced soon. Act now to redeem your rewards.
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link text="REDEEM WOWPOINTS" linktype="external" url="" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171117T194820Z
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{FC01D050-FD06-4AFA-8E8C-75F24AA2C497}" alt="Family shopping on SEIUMB.com Click and Save product page" height="" width="" hspace="" vspace="" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: El programa SEIU Click and Save será reemplazado pronto. Actúe ahora para canjear sus recompensas.
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link text="CANJEAR WOWPOINTS" linktype="external" url="" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T202003Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: SEIU Click & Save
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{FC01D050-FD06-4AFA-8E8C-75F24AA2C497}" alt="Compras de familia en SEIUMB.com en la página de producto de Click and Save" height="" width="" hspace="" vspace="" />

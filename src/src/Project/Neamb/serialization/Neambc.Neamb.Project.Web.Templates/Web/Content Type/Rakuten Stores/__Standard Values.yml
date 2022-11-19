@@ -1,0 +1,27 @@
+﻿---
+ID: "3b0eea52-acd6-4d26-bd4c-292e48076075"
+Parent: "3b74cc81-9223-42a7-9ff9-832605bcd147"
+Template: "3b74cc81-9223-42a7-9ff9-832605bcd147"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Rakuten Stores/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{26F6C7C8-D74B-474B-A531-4E11F6A07F64}"
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200803T232625Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,61 @@
+﻿---
+ID: "79870e3b-0ab4-4aec-b292-12da10df048f"
+Parent: "eba93fba-7d6d-428f-b370-35635c8dd213"
+Template: "cd3907d6-db82-4ab2-b045-33f119fd17f3"
+Path: /sitecore/content/NEAMBC/Global/Reminders/Reminder Example
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180125T175357Z
+    - ID: "44d73723-d751-4fb9-af2c-ea2572e8572e"
+      Hint: Body
+      Value: Our Insurance products should be here soon.
+    - ID: "45f31dd5-d932-47fd-aae3-c73cbba72432"
+      Hint: Title
+      Value: TESTING REMINDER
+    - ID: "5d584a48-fbf4-4aad-a42f-741654216ae1"
+      Hint: Code
+      Value: REM1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tester
+    - ID: "7ad6c79d-76ce-4a84-9b37-db20d2834724"
+      Hint: BottomText
+      Value: "A one-time reminder will be sent to the email you use to login."
+    - ID: "f17d590a-476c-41c3-ab86-619f8ecc01be"
+      Hint: Image
+      Value: |
+        <image mediaid="{437EB60A-16E4-479F-A1A0-5E9D5B6B7ADC}" alt="departures" height="" width="" hspace="" vspace=""></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180125T175418Z
+    - ID: "44d73723-d751-4fb9-af2c-ea2572e8572e"
+      Hint: Body
+      Value: Nuestros productos de Seguros estar&aacute;n disponibles pronto.
+    - ID: "45f31dd5-d932-47fd-aae3-c73cbba72432"
+      Hint: Title
+      Value: RECORDATORIO DE PRUEBA
+    - ID: "5d584a48-fbf4-4aad-a42f-741654216ae1"
+      Hint: Code
+      Value: REM1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tester
+    - ID: "7ad6c79d-76ce-4a84-9b37-db20d2834724"
+      Hint: BottomText
+      Value: Un recordatorio será enviado al email que usa para ingresar.
+    - ID: "f17d590a-476c-41c3-ab86-619f8ecc01be"
+      Hint: Image
+      Value: |
+        <image mediaid="{42D4E80C-96B3-4ED0-891D-D453F3207F0D}" ></image>

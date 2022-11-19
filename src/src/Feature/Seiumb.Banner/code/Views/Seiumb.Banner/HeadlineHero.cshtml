@@ -1,0 +1,14 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Seiumb.Feature.Banner
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Seiumb.Feature.Banner.Models.HeadlineHero
+
+<section id="hero">
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns shadow" style="background:url('@Model.HeroImage')">
+            <h1>@Model.PageTitle</h1>
+            @Html.Raw(Model.Subheadline) 
+        </div>
+    </div>
+</section>

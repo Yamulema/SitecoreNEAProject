@@ -1,0 +1,42 @@
+﻿---
+ID: "e37a4adc-9275-4007-bddc-5326520a84da"
+Parent: "7d036f25-0eb3-4bed-a0f6-d4c0873d1b24"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Product Retirement
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/moneybag_dollar.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {367B8E27-D435-49A7-BA34-5D8F44FC1EB8}
+    {7E1D57A0-5B8F-4309-B488-1B60C65BF434}
+    {A401323D-E10D-40E2-87FA-A286748C47AC}
+    {C8B4ACA4-5BC1-4AE6-A6B1-2667C81F7BC9}
+    {D49FB8DE-58FD-4151-A709-2CBEF2105060}
+    {1A2CE642-F13F-4BEB-AFC4-FE43DFB06623}
+    {6DFFAC57-6610-4785-A1DD-039FDFB7E139}
+    {BAEE2174-A4EE-4F12-9AD0-E9D056043503}
+    {3C13505A-F69B-43A2-8B38-02FBC951CA34}
+    {A6DB2D17-7A1B-46C0-90F7-67D78F4D1E32}
+    {BD69B4EB-07F5-49C6-9BF2-0BCBD58ACF76}
+    {BE42AC4B-CB49-493E-AF55-3345DFE78B58}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{36ACB9AD-6AA6-4BB9-98CC-02B967AC2E2F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180502T202012Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,65 @@
+﻿---
+ID: "4a541095-acda-43ea-9d74-3275c6c3b0f3"
+Parent: "4cc0d7ed-3627-45b0-bf45-9ed561a5eb46"
+Template: "619077d6-8e1c-4c66-ad05-5ffd8aad4412"
+Path: /sitecore/content/NEAMBC/Global/Carousel/Slides folder/Carousel Slide 8
+DB: master
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: The simple way to earn rewards with 1.5% Cash Back on everyday purchases plus a $100 introductory BONUS OFFER.
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link id="{8F1107D5-AE6C-4E94-9632-90DB3EE8762B}" querystring="" linktype="internal" text="Learn more" anchor="" url="/NEAMBC/Home/Finance/SEIU Rewards Visa Card" title="" class="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171117T194820Z
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: The New SEIU Rewards Visa Card
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{BE565A36-ED21-4E7F-816D-0E21C5F80184}" alt="The New SEIU Rewards Visa Card" height="" width="" hspace="" vspace="" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: La manera sencilla de obtener recompensas con un 1.5% de reembolso en efectivo en compras diarias, además de una OFERTA ADICIONAL introductoria de $100.
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link id="{8F1107D5-AE6C-4E94-9632-90DB3EE8762B}" querystring="" linktype="internal" text="Aprende Más" anchor="" url="/NEAMBC/Home/Finance/SEIU Rewards Visa Card" title="" class="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T202003Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: La nueva tarjeta SEIU Rewards
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{BE565A36-ED21-4E7F-816D-0E21C5F80184}" alt="La nueva tarjeta SEIU Rewards Visa" height="" width="" hspace="" vspace="" />

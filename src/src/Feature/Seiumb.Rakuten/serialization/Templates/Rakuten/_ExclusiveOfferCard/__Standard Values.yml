@@ -1,0 +1,28 @@
+﻿---
+ID: "6adc1769-f70b-4bf4-bb94-b02485fc0695"
+Parent: "683adabb-bc2c-45be-8519-1fd15c49d72f"
+Template: "683adabb-bc2c-45be-8519-1fd15c49d72f"
+Path: /sitecore/templates/SEIUMB/Feature/Rakuten/_ExclusiveOfferCard/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201117T231054Z
+    - ID: "4b8f6dd4-32c0-4169-b327-38796799be46"
+      Hint: Headline Background Color
+      Value: #6C4A98
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ea2364e8-75dc-45c4-8c77-34e394d627c9"
+      Hint: Headline
+      Value: Trending

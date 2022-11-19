@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ManageProServPage" urlpath="/account/manage-products-and-services">
+      <sections>
+        <section name="ManageHeader">
+          <controls>
+            <control key="ManagePS_Title"  xpath="//h2[contains(text(),'Account Access')]"   />
+            <control key="ManagePS_f_offerlink1"  xpath="//a[contains(text(),'NEA Hospital Care &amp; Hospital Income Insurance Plans')]"  />
+            <control key="ManagePS_f_offerlink2"  xpath="//a[contains(text(),'NEA Life / AD&amp;D Insurance Products (Prudential)')]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>
+

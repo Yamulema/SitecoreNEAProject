@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="SeiumbPage" urlpath="/">
+      <sections>
+        <section name="HeaderCold">
+          <controls>
+            <control key="SeiumbPage_HeaderCold_LoginLink" xpath="/html[1]/body[1]/header[1]/section[1]/div[2]/div[2]/p[1]/a[1]"  />
+          </controls>
+        </section>
+        <section name="LoginModal">
+          <controls>
+            <control key="SeiumbPage_LoginModal_Username" xpath="//input[@id='login-username']"  />
+            <control key="SeiumbPage_LoginModal_Password"  xpath="//input[@id='login-password']"  />
+            <control key="SeiumbPage_LoginModal_LoginButton"  xpath="//*[@id='submitLogin']"  />
+          </controls>
+        </section>
+        <section name="SignOut">
+          <controls>
+            <control key="SeiumbPage_SignOutLink" xpath="//*[@id='login']/a"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

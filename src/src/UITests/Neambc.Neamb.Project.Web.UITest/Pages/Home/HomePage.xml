@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="HomePage" urlpath="/">
+      <sections>
+        <section name="Headline">
+          <controls>
+            <!-- Home Page -->
+            <control key="HomePage_Headline_Title" xpath="//div[contains(@class,'hero-text')]//h1"  />
+          </controls>
+        </section>
+        <section name="Cards">
+          <controls>
+            <control key="CarouselCards" xpath="//div[contains(@class,'carousel-offer-cards')]"  />
+            
+            <control key="ButtonNextCarousel" xpath="//button[contains(@class,'slick-next slick-arrow')]"  />
+            
+          </controls>
+        </section>
+        <section name="ABTesting">
+          <controls>
+            <control key="HomePage_ABTesting_Button"  id="linktestua" />
+            <control key="HomePage_ABTesting_LogoLink" xpath="//a[@class='navbar-brand']//img" />
+          </controls>
+        </section>
+        <section name="GTMScript">
+          <controls>
+            <control key="HomePage_GTM_Script"  id="scriptGtm" />
+           
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

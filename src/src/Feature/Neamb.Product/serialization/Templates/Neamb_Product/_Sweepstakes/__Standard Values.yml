@@ -1,0 +1,29 @@
+﻿---
+ID: "19efa24b-dc63-4473-8e3a-ffb2d1bcc6e1"
+Parent: "e0470041-0f50-43dd-9414-a242b051a4c4"
+Template: "e0470041-0f50-43dd-9414-a242b051a4c4"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_Sweepstakes/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "182160d2-b7b0-4cfc-a894-a23d86a02186"
+      Hint: Program Code
+      Value: 701 01
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200107T223544Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mpancho
+    - ID: "8aa6cae7-1e5a-4929-80a4-79bd58783812"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "fdf37aea-86e1-4eae-a546-7ea6e6ea8ad1"
+      Hint: Send Email Notification
+      Type: Checkbox
+      Value: 1

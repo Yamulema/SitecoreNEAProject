@@ -1,0 +1,135 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Feature.Account.Enums
+@using Neambc.Neamb.Feature.GeneralContent.Enums
+
+@model Neambc.Neamb.Feature.Account.Models.MemberWelcome
+
+@{
+    string mail = String.Format("mailto:{0}", Model.SupportEmail);
+    string btnRegisterDisabled = Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidCode) ? string.Empty : "disabled";
+}
+
+<section class="section-cta">
+    <div class="container">
+        <div class="col-md-6 col-md-push-6">
+
+            @switch (Model.VideoType)
+            {
+                case VideoSourceType.None:
+                    break;
+                case VideoSourceType.JWPlayer:
+                    <script src="@Html.Sitecore().Field(Templates.MemberWelcome.Fields.Video, Model.Item, new {@DisableWebEdit = true})"></script>
+                    break;
+                case VideoSourceType.YouTube:
+                    <iframe width="100%" height="315" src="@Html.Sitecore().Field(Templates.MemberWelcome.Fields.Video, Model.Item, new {@DisableWebEdit = true})" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                    break;
+                default:
+                    break;
+            }
+
+            @if (Model.SocialShare.ShowSocialShare)
+            {
+                <div class="hidden-xs hidden-sm">
+                    @Html.Raw(Model.SocialShare.AddThisHtml)
+                </div>
+            }
+        </div>
+        <div class="col-md-6 col-md-pull-6">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-11">
+                    <h1 class="title">@Html.Sitecore().Field(Templates.MemberWelcome.Fields.Headline, Model.Item)</h1>
+                    <p class="text-alpha m-t-sm m-b-sm">
+                        @Html.Raw(Model.SearchMessage)
+                        @if (Model.Status == WelcomeStatus.None)
+                        {
+                            <ul class="stacked-icons">
+                                <li class="custom-chat">@Html.Sitecore().Placeholder("chat-body")<span class="text">@Html.Sitecore().Field(Templates.MemberWelcome.Fields.ChatIconText, Model.Item)</span></li>
+                                <li><a href="@mail"><img src="/assets/neamb/images/envelop-icon.png" alt=""><span class="text">@Model.SupportEmail</span></a></li>
+                            </ul>
+                        }
+
+                        @if (Model.Status != WelcomeStatus.None)
+                        {
+                            <a href="#" onclick="logout('@Model.NotYouLinkUrl');">Click here</a>
+                        }
+                    </p>
+
+                    <h3 class="text-light">@Html.Sitecore().Field(Templates.MemberWelcome.Fields.Description, Model.Item)</h3>
+                    <form id="member-welcome" method="post" accept-charset="UTF-8" role="form">
+                        <input type="hidden" name="fhController" value="WelcomeController" data-abide-ignore />
+                        <input type="hidden" name="fhAction" value="MemberWelcome" data-abide-ignore />
+                        <div class="row new-design">
+                            @if (Model.Status == WelcomeStatus.None)
+                            {
+                                <div class="col-md-12">
+                                    <div class="floating-section">
+                                        <div class="floating-group">
+                                            <input id="imsid" name="imsid" type="text"
+                                                   placeholder="@Html.Sitecore().Field(Templates.MemberWelcome.Fields.PersonalCode, Model.Item)"
+                                                   value="@Model.Imsid"
+                                                   required="required"
+                                                   data-msg-required="@Html.Sitecore().Field(Templates.MemberWelcome.Fields.EmptyCode, Model.Item, new {@DisableWebEdit = true})"
+                                                   maxlength="10"
+                                                   data-msg-maxlength="@Html.Sitecore().Field(Templates.MemberWelcome.Fields.MdsidMaxLenght, Model.Item, new { DisableWebEdit = true })"
+                                                   data-rule-alphanumbernospaces="true"
+                                                   data-msg-alphanumbernospaces="@Html.Sitecore().Field(Templates.MemberWelcome.Fields.MdsidInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+                                            <label for="imsid">@Html.Sitecore().Field(Templates.MemberWelcome.Fields.PersonalCode, Model.Item)</label>
+                                        </div>
+                                        <div class="floating-messages">
+                                            <div class="floating-error-messages">
+                                                @if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidCode))
+                                                {
+                                                    <div class="server-error">
+                                                        @Html.Sitecore().Field(Templates.MemberWelcome.Fields.InvalidCode, Model.Item, new { @DisableWebEdit = true })
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-new btn-outline-default @btnRegisterDisabled n-m-b">
+                                        @Html.Sitecore().Field(Templates.MemberWelcome.Fields.Register, Model.Item, new { @DisableWebEdit = true }) <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                                    </button>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="col-md-12">
+                                    <input type="hidden" id="imsid" name="imsid" data-abide-ignore value="@Model.Imsid" />
+                                    <button type="submit" class="btn btn-new btn-outline-default accent n-m-b">
+                                        @Html.Sitecore().Field(Templates.MemberWelcome.Fields.Register, Model.Item, new { @DisableWebEdit = true }) <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                                    </button>
+                                </div>
+                            }
+                        </div>
+                    </form>
+                    <div class="spacer-40"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="disclaimer">@Html.Sitecore().Field(Templates.MemberWelcome.Fields.FinePrint, Model.Item)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<form id="logout-form" method="post" style="display: none;" action="/api/AuthenticationAccount/LogoutForm">
+    <input type="hidden" name="linkpage" id="linkpage" value="" />
+</form>
+
+<script type="text/javascript">
+    function logout(linkpage) {
+        $('#linkpage').val(linkpage);
+        $('#logout-form').submit();
+    }
+</script>
+
+@if (Model.SocialShare.ShowSocialShare)
+{
+    @Html.Raw(Model.SocialShare.AddThisJSContent)
+}

@@ -1,0 +1,139 @@
+﻿@using Neambc.Neamb.Foundation.Configuration.Extensions
+@model Neambc.Neamb.Project.Web.Models.HeaderOfferItemDto
+@{
+	var actiondownloadpdf = String.Format("downloadpdf{0}", Model.ComponentId);
+	var actionsinglesignon = String.Format("executesinglesignon{0}", Model.ComponentId);
+	var actiondatapass = String.Format("executedatapass{0}", Model.ComponentId);
+	var actionlink = String.Format("executelink{0}", Model.ComponentId);
+    var actionlinkOmni = String.Format("executelinkOmni{0}", Model.ComponentId);
+	var actiondownloadpdfSec = String.Format("downloadpdf_sec{0}", Model.ComponentId);
+	var actionsinglesignonSec = String.Format("executesinglesignon_sec{0}", Model.ComponentId);
+	var actiondatapassSec = String.Format("executedatapass_sec{0}", Model.ComponentId);
+	var actionlinkSec = String.Format("executelink_sec{0}", Model.ComponentId);
+	var actioncommingsoon = String.Format("notifyproductavailable{0}", Model.ComponentId);
+}
+
+<script>
+
+	function @Html.Raw(actioncommingsoon)
+		(reminderId, contextItemId, eligibilityItemId) {
+		$("#reminderId").val(reminderId);
+        $("#contextItemIdInReminder").val(contextItemId);
+        $("#eligibilityItemIdInReminder").val(eligibilityItemId);
+		$("#notifyproductavailableForm").submit();
+	}
+
+	function @Html.Raw(actiondownloadpdf)
+		(materialId, productcode, actionType,checkOmni) {
+			downloadpdfAction(materialId, productcode, actionType,checkOmni, '@Model.ActionPrimaryTargetBlank');
+		}
+
+	function @Html.Raw(actiondownloadpdfSec)
+		(materialId, productcode, actionType, checkOmni) {
+			downloadpdfAction(materialId, productcode, actionType, checkOmni, '@Model.ActionSecondaryTargetBlank');
+		}
+
+	function downloadpdfAction
+        (materialId, productcode, actionType,checkOmni,target) {
+			$("#materialIdMultirow").val(materialId);
+			$("#productcodepdfMultirow").val(productcode);
+            $("#checkOmniPdf").val(checkOmni);
+			$("#downloadPdfFormMultirow").prop("target", target);
+			$("#actionTypedPdfFormMultirow").val(actionType);
+			$("#downloadPdfFormMultirow").submit();
+		}
+
+	function @Html.Raw(actionsinglesignon)
+		(productcode, componenttype, checkOmni) {
+        singlesignonAction(productcode, componenttype, checkOmni, '@Model.ActionPrimaryTargetBlank');
+		}
+	function @Html.Raw(actionsinglesignonSec)
+		(productcode, componenttype,checkOmni) {
+        singlesignonAction(productcode, componenttype, checkOmni, '@Model.ActionSecondaryTargetBlank');
+		}
+
+    function singlesignonAction(productcode, componenttype, checkOmni, target) {
+		$("#productCodeMultirow").val(productcode);
+		$("#componentTypeSso").val(componenttype);
+        $("#checkOmniSso").val(checkOmni);
+		$("#actionSingleSignOnFormMultirow").prop("target", target);
+		$("#actionSingleSignOnFormMultirow").submit();
+	}
+
+	function @Html.Raw(actiondatapass)
+		(productCode, componenttype, checkOmni) {
+			datapassaction(productCode, componenttype, checkOmni, '@Model.ActionPrimaryTargetBlank','@ConstantsNeamb.DataFirst');
+		}
+	function @Html.Raw(actiondatapassSec)
+		(productCode, componenttype, checkOmni) {
+			datapassaction(productCode, componenttype,checkOmni, '@Model.ActionSecondaryTargetBlank','@ConstantsNeamb.DataSecond');
+		}
+
+	function datapassaction(productCode, componenttype,checkOmni, target, firstSecondAction) {
+		$("#productCodeDataPassMultirow").val(productCode);
+		$("#componentTypeDataPass").val(componenttype);
+        $("#checkOmniDataPass").val(checkOmni);
+		$("#actionDatapassFormMultirow").prop("target", target);
+		$("#firstSecondAction").val(firstSecondAction);
+		$("#actionDatapassFormMultirow").submit();
+    }
+    function @Html.Raw(actionlinkOmni)
+        (contextidLink, productcode, eligibilityItemId) {
+        linkOmniaction(
+                contextidLink,
+                productcode,
+                eligibilityItemId,
+                '@Model.ActionPrimaryTargetBlank');
+        }
+
+	function @Html.Raw(actionlink)
+		(ctaLinkItemId, contextidLink, productcode, eligibilityItemId,checkOmni, postParams) {
+			linkaction(ctaLinkItemId,
+				contextidLink,
+				productcode,
+				eligibilityItemId, checkOmni, postParams,
+				'@Model.ActionPrimaryTargetBlank');
+		}
+	function @Html.Raw(actionlinkSec)
+		(ctaLinkItemId, contextidLink, productcode, eligibilityItemId, checkOmni, postParams) {
+			linkaction(ctaLinkItemId,
+				contextidLink,
+				productcode,
+                eligibilityItemId,
+                checkOmni, postParams,
+				'@Model.ActionSecondaryTargetBlank');
+		}
+
+	function linkaction (ctaLinkItemId, contextidLink, productcode, eligibilityItemId, checkOmni,postParams,target)
+    {
+        var contextIdNew = contextidLink.replace("{", "").replace("}", "");
+
+        if (postParams != null ) {
+            for (var key in postParams) {
+                if ($("#pp__" + contextIdNew +"_"+key).val() == undefined) {
+                    var field = '<input type="hidden" name="pp__' + contextIdNew + '_' + key + '" id="pp__' + contextIdNew + "_" + key + '" value="' + postParams[key] + '" />';
+                    $("#actionLinkFormMultirow").append(field);    
+                } else {
+                    $("#pp__" + contextIdNew + "_" + key).val(postParams[key]);
+                }
+            }
+        }
+
+		$("#ctaLinkItemIdMultirow").val(ctaLinkItemId);
+		$("#contextidLinkMultirow").val(contextidLink);
+		$("#productCodeLinkMultirow").val(productcode);
+		$("#eligibilityItemIdMultirow").val(eligibilityItemId);
+        $("#checkOmniLinkMultirow").val(checkOmni);
+		$("#actionLinkFormMultirow").prop("target", target);
+		$("#actionLinkFormMultirow").submit();
+    }
+    function linkOmniaction
+        (contextidLink, productcode, eligibilityItemId,target)
+        {
+        $("#contextidLinkOmni").val(contextidLink);
+        $("#productCodeLinkOmni").val(productcode);
+        $("#eligibilityItemIdLinkOmni").val(eligibilityItemId);
+        $("#actionLinkFormOmni").prop("target", target);
+        $("#actionLinkFormOmni").submit();
+        }
+</script>

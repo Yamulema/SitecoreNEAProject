@@ -1,0 +1,81 @@
+﻿---
+ID: "8e6dfb9c-432e-475a-a14b-d1cf61212117"
+Parent: "a7fd5976-7636-4eb2-a6f2-2270cffbeb04"
+Template: "a7fd5976-7636-4eb2-a6f2-2270cffbeb04"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_ThankYouPage/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180111T224315Z
+    - ID: "40b3fb3f-b0f2-46c0-8b56-4c570f6a3508"
+      Hint: Title
+      Value: Thank You
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p>Now, every time you sign in, you'll be able to access all the benefits available to you as an SEIU member. Please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a>&nbsp;any time if you have questions.</p>
+        <p>Stay connected with us and thousands of fellow SEIU members when you follow:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link linktype="internal" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180111T224424Z
+    - ID: "40b3fb3f-b0f2-46c0-8b56-4c570f6a3508"
+      Hint: Title
+      Value: Gracias
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p>Ahora cada vez que ingrese usted tendr&aacute; acceso a los beneficios disponibles para su membres&iacute;a en SEIU.&nbsp;Por favor <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">cont&aacute;ctenos</a> en cualquier momento si usted necesita ayuda.</p>
+        <p>Permanezca conectado con nosotros y miles de miembros siguiendo:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="facebook" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="twitter" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;" /></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link linktype="internal" />

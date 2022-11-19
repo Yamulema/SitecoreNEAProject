@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\neamb10sc.dev.local</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Views/Neamb.Account/ComplimentaryLife/AddBeneficiary.cshtml">
+      <publishTime>07/29/2022 10:51:53</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/ComplimentaryLife/ComplimentaryLife.cshtml">
+      <publishTime>09/13/2022 21:44:50</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/ComplimentaryLife/ComplimentaryLifeNotEligible.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/ComplimentaryLife/EditBeneficiary.cshtml">
+      <publishTime>07/29/2022 10:51:53</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/ComplimentaryLife/_Beneficiaries.cshtml">
+      <publishTime>07/29/2022 10:51:53</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/ComplimentaryLife/_Beneficiary.cshtml">
+      <publishTime>09/07/2022 12:08:41</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/ForgotPassword.cshtml">
+      <publishTime>07/15/2022 14:42:09</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/ProfilePassword.cshtml">
+      <publishTime>08/02/2022 17:49:43</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/Registration.cshtml">
+      <publishTime>04/11/2022 16:03:18</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/SignIn.cshtml">
+      <publishTime>03/03/2022 19:39:16</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/Welcome/MemberVerification.cshtml">
+      <publishTime>04/06/2022 11:45:10</publishTime>
+    </File>
+    <File Include="Views/Neamb.Account/Welcome/MemberWelcome.cshtml">
+      <publishTime>06/28/2022 00:02:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

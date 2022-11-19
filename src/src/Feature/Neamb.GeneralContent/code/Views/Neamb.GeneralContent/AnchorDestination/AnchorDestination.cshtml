@@ -1,0 +1,14 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+<div id="AnchorDestination">
+    @if (isExperienceEditor)
+    {
+    <text>
+        Anchor Destinatination for the Home Banner Tab  Id:  AnchorDestination
+    </text>
+        }
+</div>

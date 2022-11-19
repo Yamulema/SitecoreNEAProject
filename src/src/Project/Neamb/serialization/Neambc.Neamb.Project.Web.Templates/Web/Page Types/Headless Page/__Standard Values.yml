@@ -1,0 +1,63 @@
+﻿---
+ID: "cbf00027-440f-47dc-b4ed-407e6cd5c247"
+Parent: "edc8393f-ec92-4c27-839a-959a8eb8002b"
+Template: "edc8393f-ec92-4c27-839a-959a8eb8002b"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Headless Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{691C70AE-10DF-4D3C-97B3-9C5CAED11384}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          par=""
+          ph="footer"
+          uid="{B5861E67-8834-4B3A-97DB-1845875F6AF5}" />
+        <r
+          id="{983361A5-A0CB-4BAD-BE0E-BA555BDA2D5A}"
+          ph="chat"
+          uid="{A6876CF6-C2BA-4340-8D4B-F81F8D368376}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{02551CE6-C65B-431E-8544-8BFF6FE9F5D4}"
+              p:before="*"
+              s:key="top-body"
+              s:md="{A847E10C-3799-4671-B443-4C657BFB518B}" />
+            <r
+              uid="{68AFC549-3C6A-466C-8E4B-88D7206F40E0}"
+              p:after="*[1=2]"
+              s:ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+              s:id="{4F353E5C-027D-4391-8E8E-556DDD0503B4}"
+              s:par=""
+              s:ph="empty-header" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200513T194010Z

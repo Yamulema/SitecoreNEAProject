@@ -1,0 +1,100 @@
+﻿---
+ID: "8b1bda41-016d-47d3-b1de-25f167e73c51"
+Parent: "207e73b3-566a-4ef3-af78-c17348e543ea"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - E-mail Automation/Where contact clicked email in the past in current interaction"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.EmailCampaign.XConnect.Conditions.CurrentInteraction.TimeUnit.ContactClickedEmailInPastNumberTimeUnit, Sitecore.EmailCampaign.XConnect
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Hvor kontakten klikkede på en e-mail i de sidste i den aktuelle interaktion"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T131427Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontakten klikkede på e-mailen [ItemId,Tree,root=/sitecore/content&display=System/Email/Manager Root|System/Email/Messages/Messages Container|Common/Folder|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml|System/Email/Messages/Plain Text Message|System/Email/Messages/HTML Message|System/Email/Messages/Pre-existing Page|System/Email/Messages/Message Folder&selection=System/Email/Messages/Pre-existing Page|System/Email/Messages/HTML Message|System/Email/Messages/Plain Text Message|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml, email] i de sidste [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit] i den aktuelle interaktion"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Wo der Kontakt in der Vergangenheit auf eine E-Mail geklickt hat, in der aktuellen Interaktion"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T132519Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt eine Email angeklickt hat [ItemId,Tree,root=/sitecore/content&display=System/Email/Manager Root|System/Email/Messages/Messages Container|Common/Folder|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml|System/Email/Messages/Plain Text Message|System/Email/Messages/HTML Message|System/Email/Messages/Pre-existing Page|System/Email/Messages/Message Folder&selection=System/Email/Messages/Pre-existing Page|System/Email/Messages/HTML Message|System/Email/Messages/Plain Text Message|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml, email] in der Vergangenheit [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit] in einer aktuellen Interaktion"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170925T092204Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact clicked email [ItemId,Tree,root=/sitecore/content&display=System/Email/Manager Root|System/Email/Messages/Messages Container|Common/Folder|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml|System/Email/Messages/Plain Text Message|System/Email/Messages/HTML Message|System/Email/Messages/Pre-existing Page|System/Email/Messages/Message Folder&selection=System/Email/Messages/Pre-existing Page|System/Email/Messages/HTML Message|System/Email/Messages/Plain Text Message|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml, email] in the past [Number,Integer,,number] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, time unit] in current interaction"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 現在のインタラクションで過去にEメールをクリックしたコンタクト
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T133902Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： 現在のインタラクションでコンタクトが過去 [Number,Integer,,数値] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, 時間の単位] の間にEメール [ItemId,Tree,root=/sitecore/content&display=System/Email/Manager Root|System/Email/Messages/Messages Container|Common/Folder|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml|System/Email/Messages/Plain Text Message|System/Email/Messages/HTML Message|System/Email/Messages/Pre-existing Page|System/Email/Messages/Message Folder&selection=System/Email/Messages/Pre-existing Page|System/Email/Messages/HTML Message|System/Email/Messages/Plain Text Message|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml, Eメール] をクリックした場合"
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 联系人在当前交互中点击过去的电子邮件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T134752Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "如果联系人点击邮件 [ItemId,Tree,root=/sitecore/content&display=System/Email/Manager Root|System/Email/Messages/Messages Container|Common/Folder|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml|System/Email/Messages/Plain Text Message|System/Email/Messages/HTML Message|System/Email/Messages/Pre-existing Page|System/Email/Messages/Message Folder&selection=System/Email/Messages/Pre-existing Page|System/Email/Messages/HTML Message|System/Email/Messages/Plain Text Message|System/Email/Messages/AB Test Message|System/Email/Messages/ImportFromHtml, 电子邮件] 在过去 [Number,Integer,,数值] [Unit,Tree,root={1ABD238D-1284-4DFE-BC39-A3B68E5B2E9A}&resulttype=name, 时间单位] 在当前的互动中"

@@ -1,0 +1,22 @@
+﻿---
+ID: "691c70ae-10df-4d3c-97b3-9c5caed11384"
+Parent: "65ed4abc-dd35-4c61-9c3f-6435a425dcc7"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/NEAMB/Project/Web/Lead Capture
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Views/Neamb.Web/Layouts/LeadCapture.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200513T203335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

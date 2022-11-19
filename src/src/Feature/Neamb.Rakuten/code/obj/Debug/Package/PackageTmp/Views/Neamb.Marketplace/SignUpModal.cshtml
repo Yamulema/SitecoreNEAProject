@@ -1,0 +1,60 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Rakuten
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Rakuten.Model.SignUpDto
+
+<div class="modal fade modal-slick-hidden" id="mktpModal" tabindex="-1" role="dialog" aria-labelledby="mktpModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content bg-gray">
+            <div class="modal-header flex-wrap">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2 class='text-center text-blue-dark'>
+                    <strong>@Html.Sitecore().Field(Templates.StoresList.Fields.RegistrationTitle, Model.Item)</strong>
+                </h2>
+                <p class="text-center">
+                    <strong>@Html.Sitecore().Field(Templates.StoresList.Fields.Subheadline, Model.Item)</strong>
+                </p>
+            </div>
+            <div class="modal-body">
+                <span class="hidden" id="storeLink"></span>
+                <form id="rakuten-signup-modal" class="n-p-t">
+                    <div class="col-xs-12 col-md-6 col-centered">
+                        <div class="form-group">
+                            <input readonly type="email" class="form-control text-center" id="rakuten-email" aria-describedby="emailHelp"
+                                   placeholder="">
+                        </div>
+                    </div>
+                    <div id="error-rakuten-signup" class="col-xs-12 col-md-10 col-centered hidden">
+                        <p class="text-center alert-danger">
+                            <small>
+                                There was an error trying to sign you up with Rakuten.
+                            </small>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-md-10 col-centered">
+                        @Html.Sitecore().Field(Templates.StoresList.Fields.TermsConditions, Model.Item)
+                    </div>
+
+                    <div class="col-xs-12 col-md-4 col-centered p-t-sm">
+                        <button type="submit" class="btn btn-blue btn-block">
+                            @Html.Sitecore().Field(Templates.StoresList.Fields.ConfirmationButtonLabel, Model.Item)
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer bg-white p-t-md p-b-md">
+                @Html.Sitecore().Field(Templates.StoresList.Fields.RegistrationBanner, Model.Item)
+            </div>
+            <div class='text-center'>
+                <p class='p-t-xs p-b-xs text-blue-dark'>
+                    <strong>@Html.Sitecore().Field(Templates.StoresList.Fields.MoreQuestionsLink, Model.Item)</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

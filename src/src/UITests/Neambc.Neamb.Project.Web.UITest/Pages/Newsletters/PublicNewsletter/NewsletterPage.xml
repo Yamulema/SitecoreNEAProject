@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="NewsletterPage" urlpath="/Landing-Pages/sign-up-for-the-nea-member-benefits-financial-whiteboard-newsletter">
+      <sections>
+        <section name="headline-hero bg-blue">
+        </section>
+        <section name="section-cta">
+          <controls>
+            <control key="Newsletter_Email" id="email"  />
+            <control key="Newsletter_Subscribe" xpath="//a[@class='btn pull-left btn-blue']"/>
+            <control key="Newsletter_Unsubscribe" xpath="//a[@class='btn btn-secondary']"/>
+          </controls>
+        </section>
+
+      </sections>
+    </page>
+  </pages>
+</controldata>

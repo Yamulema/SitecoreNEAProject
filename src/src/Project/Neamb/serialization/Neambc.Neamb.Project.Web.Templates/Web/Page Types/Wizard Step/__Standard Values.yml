@@ -1,0 +1,50 @@
+﻿---
+ID: "ffad2c97-bc25-4ebe-94e4-e5167f202f8c"
+Parent: "3d6e9153-142e-4e47-85c2-45d6c50be5ea"
+Template: "3d6e9153-142e-4e47-85c2-45d6c50be5ea"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Wizard Step/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{3D6E9153-142E-4E47-85C2-45D6C50BE5EA}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8B4B5EE3-7522-4021-972B-C58177A106D3}">
+        <r
+          ds=""
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          par=""
+          ph="step"
+          uid="{BF7595E8-E218-4BEE-B112-9FC77CD3E521}" />
+        <r
+          id="{11C4CC52-18B4-4469-A398-D864F3E64709}"
+          ph="body"
+          uid="{372A2B36-22D7-42F1-8F67-AE139157EA92}" />
+        <r
+          id="{F62D15BF-B2FB-4DCF-ACB8-E40CBBA4887E}"
+          ph="modal"
+          uid="{CA5C73C6-868D-4BC5-B1B7-7187B36A4435}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190416T183608Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

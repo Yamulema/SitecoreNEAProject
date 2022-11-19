@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="Products">
+      <sections>
+        <section name="container">
+          <controls>
+            <!-- Products with eyebrow -->
+            <control key="products_c_eyebrow" xpath="//section[contains(@class,'c-34')]//p[contains(@class,'eye-brow')]//a"  />
+            <control key="products_c_Title" xpath="//section[contains(@class,'c-34')]//h1"  />
+            <control key="products_c_subtitle" xpath="//section[contains(@class,'c-34')]//h3"  />
+            <control key="products_c_image" xpath="//section[contains(@class,'c-34')]//img[contains(@src,'products') and @class='img-fit']"  />
+          </controls>
+        </section>
+        <section name="containernoeyeb">
+          <controls>
+            <!-- Products without eyebrow -->
+            <control key="products_cne_Title" xpath="//section[contains(@class,'c-34')]//h1"  />
+            <control key="products_cne_subtitle" xpath="//section[contains(@class,'c-34')]//h3"  />
+            <control key="products_cne_image" xpath="//section[contains(@class,'c-34')]//img[contains(@src,'products') and @class='img-fit']"  />
+          </controls>
+        </section>
+        <section name="LoginButton">
+          <controls>
+            <!-- Key for the Sign in button. The Button is the same for all product Pages-->
+            <control key="products_signin_button"  xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+          </controls>
+        </section>
+        <!-- Products Datapass-->
+        <section name="NEAIncomeProtectionPlan09701">
+          <controls>
+            <!-- Products Datapass- NEA Income Protection Plan 097 01-->
+            <control key="products_d_09701_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_d_09701_CTA2" xpath="//a[contains(@class,'btn pull-left')]"  />
+            <control key="products_d_09701_CTA1_datapass" xpath="//span[@class='hidden-xs hidden-sm']"  />
+            <control key="products_d_09701_CTA2_efulfillment" xpath="//*[@id='plugin']"  />
+          </controls>
+        </section>
+        <section name="NEAGroupHospitalIncInsPlan42102">
+          <controls>
+            <!-- Products Datapass- NEA Group Hospital Income Insurance Plan 421 02-->
+            <control key="products_d_42102_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_d_42102_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_d_42102_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_d_42102_CTA1_datapass" id="logo"   />
+            <control key="products_d_42102_CTA2_link" xpath="//div[@class='top-bar-title']//a"  />
+          </controls>
+        </section>
+        <section name="NEAClickandSave48601">
+          <controls>
+            <!-- Products Datapass- NEA Click and Save 486 01-->
+            <control key="products_d_48601_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_d_48601_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_d_48601_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_d_48601_CTA1_2_datapass_link" id="ptsTickerBG"   />
+            </controls>
+        </section>
+        <!-- Products efullfillment-->
+        <section name="Alamo30601">
+          <controls>
+            <!-- Products efullfillment- Alamo 306 01-->
+            <control key="products_d_30601_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_d_30601_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_d_30601_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_d_30601_CTA1_link" xpath="//img[@alt='PARTNER LOGO']"   />
+            <control key="products_d_30601_CTA2_efullfillment" xpath="//*[@id='plugin']"  />
+          </controls>
+        </section>
+        <section name="Guaranteed03510">
+          <controls>
+            <!-- Products Efullfillment - Link-->
+            <control key="products_el_03510_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_el_03510_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_el_03510_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_el_03510_CTA1_link" xpath="//a[@class='navbar-brand']//img"   />
+            <control key="products_el_03510_CTA2_efullfillment" xpath="//div[@class='top-bar-title']//a"  />
+          </controls>
+        </section>
+        <section name="ATT62701">
+          <controls>
+           <!-- Products Efullfillment- AT&T 627 01-->
+            <control key="products_el_62701_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_el_62701_CTA2" xpath="//a[contains(@class,'btn pull-left')]"  />
+            <control key="products_el_62701_CTA1_dlink" id="z1-globe-md"  />
+            <control key="products_el_62701_CTA2_efulfillment" id="plugin"  />
+          </controls>
+        </section>
+        <section name="DollarCarRental30506">
+          <controls>
+            <!-- Products Efullfillment- Dollar Car Rental 305 06-->
+            <control key="products_el_30506_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_el_30506_CTA2" xpath="//a[contains(@class,'btn pull-left')]"  />
+            <control key="products_el_30506_CTA1_dlink" xpath="//img[@alt='Dollar Rent a Car']"  />
+            <control key="products_el_30506_CTA2_efulfillment" id="plugin"  />
+          </controls>
+        </section>
+        <section name="Enterprise30602">
+          <controls>
+            <!-- Products Efullfillment- First National Bank of Omaha Home Mortgage Program 502 07-->
+            <control key="products_el_30602_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_el_30602_CTA2" xpath="//a[contains(@class,'btn pull-left')]"  />
+            <control key="products_el_30602_CTA1_dlink" xpath="//img[@alt='PARTNER LOGO']"  />
+            <control key="products_el_30602_CTA2_efulfillment" id="plugin"  />
+          </controls>
+        </section>
+        <section name="BankofOmaha50207">
+          <controls>
+            <!-- Products Efullfillment- First National Bank of Omaha Home Mortgage Program 502 07-->
+            <control key="products_el_50207_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_el_50207_CTA2" xpath="//a[contains(@class,'btn pull-left')]"  />
+            <control key="products_el_50207_CTA1_dlink" xpath="//img[@class='landingPageHeaderLogo']"  />
+            <control key="products_el_50207_CTA2_efulfillment" id="plugin"  />
+          </controls>
+        </section>
+        <section name="HertzCarRental30507">
+          <controls>
+            <!-- Products Link NEA Accidental Death and Dismemberment Insurance Plus 070 05-->
+            <control key="products_el_30507_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_el_30507_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_el_30507_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_el_30507_CTA1_link" xpath="//div[@class='logo-box']//img"  />
+            <control key="products_el_30507_CTA2_efull" id="plugin"  />
+          </controls>
+        </section>
+        <section name="National30603">
+          <controls>
+            <!-- Products Link NEA Accidental Death and Dismemberment Insurance Plus 070 05-->
+            <control key="products_el_30603_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_el_30603_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_el_30603_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_el_30603_CTA1_link" xpath="//img[@alt='PARTNER LOGO']"  />
+            <control key="products_el_30603_CTA2_efull" id="plugin"  />
+          </controls>
+        </section>
+        <!-- Products Links-->
+        <section name="GroupTermLife03514">
+          <controls>
+            <!-- Products Link Nea Group Term Life Insurance 035 14-->
+            <control key="products_l_03514_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_03514_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_03514_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_l_03514_CTA1_link" xpath="//a[@class='navbar-brand']//img"   />
+            <control key="products_l_03514_CTA2_linkmercer" xpath="//div[@class='top-bar-title']//a"  />
+          </controls>
+        </section>
+        <section name="CostcoMembership62101">
+          <controls>
+            <!-- Products Link Costco Membersip 621 01-->
+            <control key="products_l_62101_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_62101_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_62101_CTA1_link" xpath="//a[@class='navbar-brand']//img"   />
+         </controls>
+        </section>
+        <section name="LevelPremium04101">
+          <controls>
+            <!-- Products Link NEA Level Premium Group Term Life Insurance Plan 041 01-->
+            <control key="products_l_04101_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_04101_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_04101_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_l_04101_CTA1_Link" xpath="//div[@class='navbar-header']//img"  />
+            <control key="products_l_04101_CTA2_linkmercer" xpath="//div[@class='top-bar-title']//a"  />
+          </controls>
+        </section>
+        <section name="NEAADDAdvantageInsurance07010">
+          <controls>
+            <!-- Products Link NEA Accidental Death and Dismemberment Advantage Insurance 070 10-->
+            <control key="products_l_07010_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_07010_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_07010_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_l_07010_CTA1_link" xpath="//div[@class='navbar-header']//img"  />
+            <control key="products_l_07010_CTA2_linkmercer" xpath="//div[@class='top-bar-title']//a"  />
+          </controls>
+        </section>
+        <section name="NEAADDInsurancePlan07002">
+          <controls>
+            <!-- Products Link NEA Accidental Death and Dismemberment Insurance Plan 070 02-->
+            <control key="products_l_07002_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_07002_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_07002_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_l_07002_CTA1_link" xpath="//div[@class='navbar-header']//img"  />
+            <control key="products_l_07002_CTA2_linkmercer" xpath="//div[@class='top-bar-title']//a"  />
+          </controls>
+        </section>
+        <section name="NEAADDInsurancePlus07005">
+          <controls>
+            <!-- Products Link NEA Accidental Death and Dismemberment Insurance Plus 070 05-->
+            <control key="products_l_07005_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_07005_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_07005_CTA2" xpath="//a[@id='product_cta_secondary_action_button']"  />
+            <control key="products_l_07005_CTA1_link" xpath="//div[@class='navbar-header']//img"  />
+            <control key="products_l_07005_CTA2_linkmercer" xpath="//div[@class='top-bar-title']//a"  />
+          </controls>
+        </section>
+        <section name="FlowersGourmet49801">
+          <controls>
+            <!-- Products Link FlowersGourmet4980-->
+            <control key="products_l_49801_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_49801_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_49801_CTA1_link" id="18F_GlobalLogoEspot"  />
+          </controls>
+        </section>
+        <section name="GEAppliances01301">
+          <controls>
+            <!-- Products Link NEA Accidental Death and Dismemberment Insurance Plus 070 05-->
+            <control key="products_l_01301_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_l_01301_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_l_01301_CTA1_link" xpath="//img[@class='logo-img']"  />
+          </controls>
+        </section>
+        
+        <section name="Autobuying49401">
+          <!-- ProductsSSO-->
+          <controls>
+            <!-- Products SSO Nea AutoBuying Program 494 01-->
+            <control key="products_sso_49401_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_sso_49401_CTA1" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="products_sso_49401_CTA1_SSO" xpath="//a[@class='link_120drhm']//img"  />
+          </controls>
+        </section>
+        <!-- Products Coming Soon-->
+        <section name="BanlOfOmahaLineCredit50208">
+          <controls>
+            <control key="products_cs_50208_login" xpath="//a[@class='btn btn-blue btn-md m-r-sm']"  />
+            <control key="products_cs_50208_CTA1" xpath="//a[@class='btn btn-aquamarine m-b-md']"  />
+            <control key="products_cs_50208_CTA1_CSoon" xpath="//p[@class='check m-r-sm text-alpha']"  />
+          </controls>
+        </section>
+        <section name="HRBlock02201">
+          <controls>
+            <!-- ComingSoon H&R Block Tax Preparation 022 01-->
+            <control key="products_hr_02201_notify" xpath="//div[contains(@class,'col-xs-12 col-sm-12 col-md-11')]//a"  />
+            <control key="products_hr_02201_Signun" xpath="//p[@class='check m-r-sm text-alpha']"  />
+          </controls>
+        </section>
+        <section name="ABTesting">
+          <controls>
+            <!-- Products A/B Testing-->
+            <control key="ab_nextPage" xpath="//h1[@class='title p-t-xs']"/>
+          </controls>
+        </section>
+
+        <section name="NEAAutoBuyingProgram">
+          <controls>
+            <!-- Products NEA Auto Buying Program-->
+            <control key="products_nabp_link" xpath="//div[contains(@class,'col-md-12')]//a"  />
+          </controls>
+        </section>
+
+        <section name="NEAAlamoRentaCar">
+          <controls>
+            <!-- Products NEA Alamo Rent a Car-->
+            <control key="products_narc_link1" xpath="//div[contains(@class,'col-md-12')]/a[1]"  />
+            <control key="products_narc_link2" xpath="//div[contains(@class,'col-md-12')]/a[2]"  />
+            <control key="products_newAlamoPage_alamocta" xpath="//img[contains(@alt,'PARTNER LOGO')]"  />
+          </controls>
+        </section>
+
+        <section name="NEAVacationbutton">
+          <controls>
+            <control key="products_nvb_link" xpath="//div[contains(@class,'col-md-12')]/a"  />
+          </controls>
+        </section>
+
+        <section name="NEAGroupTermLifeInsurancePlan">
+          <controls>
+            <!-- Products NEA Group Term ife Insurance-->
+            <control key="products_ngtlip_link1" xpath="//div[contains(@class,'col-md-12')]/a[1]"  />
+          </controls>
+        </section>
+        
+        <section name="MaterialID">
+          <controls>
+            <control key="products_materialId_link" id="plugin"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

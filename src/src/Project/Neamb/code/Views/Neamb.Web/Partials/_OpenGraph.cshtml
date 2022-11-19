@@ -1,0 +1,58 @@
+﻿@using Neambc.Neamb.Project.Web
+@using Sitecore.Data
+@using Sitecore.Data.Fields
+@using Sitecore.Diagnostics
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources.Media
+@model RenderingModel
+@{
+    var type = string.Empty;
+    var title = string.Empty;
+    var description = string.Empty;
+    var image = string.Empty;
+
+    try
+    {
+        type = string.IsNullOrEmpty(Model.PageItem.Fields[Templates.OpenGraph.Fields.Type].Value)
+            ? string.Empty
+            : Sitecore.Context.Database.GetItem(new ID(Model.PageItem.Fields[Templates.OpenGraph.Fields.Type].Value)).Fields[Templates.CategoryItem.Fields.Value].Value;
+
+        var openGraphTitle = Model.PageItem.Fields[Templates.OpenGraph.Fields.Title].Value;
+        var pageTitle = Model.PageItem.Fields[Templates.PageInfo.Fields.PageTitle].Value;
+        title = string.IsNullOrEmpty(openGraphTitle) ? pageTitle : openGraphTitle;
+
+        var openGraphDescription = Model.PageItem.Fields[Templates.OpenGraph.Fields.Description].Value;
+        var pageDescription = Model.PageItem.Fields[Templates.PageInfo.Fields.ShortDescription].Value;
+        description = string.IsNullOrEmpty(openGraphDescription) ? pageDescription : openGraphDescription;
+
+        image = string.IsNullOrEmpty(Model.PageItem.Fields[Templates.OpenGraph.Fields.Thumbnail].Value)
+            ? Model.PageItem.ImageUrl(Templates.PageInfo.Fields.Thumbnail, new MediaUrlOptions() { AlwaysIncludeServerUrl = true })
+            : Model.PageItem.ImageUrl(Templates.OpenGraph.Fields.Thumbnail, new MediaUrlOptions() { AlwaysIncludeServerUrl = true });
+
+    }
+    catch (Exception e)
+    {
+        Log.Warn(string.Format("Error while adding Open Graph metadata in {0}", Model.PageItem.ID.ToGuid().ToString()), this);
+        Log.Warn(e.Message, this);
+    }
+
+}
+
+@if (!string.IsNullOrEmpty(type))
+{
+    <meta property="og:type" content="@type" />
+}
+@if (!string.IsNullOrEmpty(title))
+{
+    <meta property="og:title" content="@title" />
+}
+@if (!string.IsNullOrEmpty(description))
+{
+    <meta property="og:description" content="@description" />
+}
+@if (!string.IsNullOrEmpty(image))
+{
+    <meta property="og:image" content="@image" />
+}

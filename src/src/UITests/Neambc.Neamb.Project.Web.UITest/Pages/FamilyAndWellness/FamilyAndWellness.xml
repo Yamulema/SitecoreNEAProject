@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="FamilyAndWellnessPage" urlpath="/family-and-wellness">
+      <sections>
+        <section name="Body">
+          <controls>
+            <control key="famwell_heroTitle"  xpath="//section[contains(@class,'headline-hero')]//h1"/>
+            <control key="famwell_heroSubTitle"  xpath="//section[contains(@class,'headline-hero')]//h3" />
+          </controls>
+        </section>
+
+        <section name="C026">
+          <controls>
+            <control key="famwell_C026Title"  xpath="//section[contains(@class,'c-026')]//h2" />
+            <control key="famwell_C026BigItemTitle"  xpath="//div[contains(@class,'row')]//h3" />
+            <control key="famwell_C026BigItemSummary"  xpath="(//div[contains(@class,'row')]//p)[1]" />
+          </controls>
+        </section>
+
+        <section name="C007">
+          <controls>
+            <control key="famwell_C007Card1Title"  xpath="(//section[contains(@class,'card')]//h3)[1]" />
+            <control key="famwell_C007Card1Description"  xpath="(//section[contains(@class,'card')]//p)[1]" />
+            <control key="famwell_C007Card1CTA"  xpath="(//section[contains(@class,'card')]//a)[1]" />
+            <control key="famwell_C007Card2Title"  xpath="(//section[contains(@class,'card')]//h3)[2]" />
+            <control key="famwell_C007Card2Description"  xpath="(//section[contains(@class,'card')]//p)[2]" />
+            <control key="famwell_C007Card2CTA"  xpath="(//section[contains(@class,'card')]//a)[2]" />
+            <control key="famwell_C007Card3Title"  xpath="(//section[contains(@class,'card')]//h3)[3]" />
+            <control key="famwell_C007Card3Description"  xpath="(//section[contains(@class,'card')]//p)[3]" />
+            <control key="famwell_C007Card3CTA"  xpath="(//section[contains(@class,'card')]//a)[3]" />
+          </controls>
+        </section>
+
+        <section name="C027">
+          <controls>
+            <control key="famwell_C027Title"  xpath="//section[contains(@class,'c-027')]//h2" />
+          </controls>
+        </section>
+
+      </sections>
+    </page>
+  </pages>
+</controldata>

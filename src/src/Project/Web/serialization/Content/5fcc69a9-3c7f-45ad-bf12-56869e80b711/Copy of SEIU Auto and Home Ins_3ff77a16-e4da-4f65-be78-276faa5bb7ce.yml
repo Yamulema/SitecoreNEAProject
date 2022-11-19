@@ -1,0 +1,769 @@
+﻿---
+ID: "3ff77a16-e4da-4f65-be78-276faa5bb7ce"
+Parent: "5fcc69a9-3c7f-45ad-bf12-56869e80b711"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Insurance/Copy of SEIU Auto and Home Insurance FAQ
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        Q. Who is MyLifeProtected?
+        A. MyLifeProtected is a full service digital insurance agency staffed by licensed agents who can help you with your auto and home insurance needs.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180404T183021Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Frequently Asked Questions
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{A84D4806-9EE1-4F56-B496-49D75EC1AFF6}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+                        <p><em><strong>Q. Who is MyLifeProtected? </strong></em></p>
+        
+        <p><em><strong>A. </strong></em>MyLifeProtected is a full service digital insurance agency staffed by licensed agents who can help you with your auto and home insurance needs.</p>
+        
+        <p>MyLifeProtected offers many options! Not only do they represent a wide variety of the highest rated insurance companies, but they also have multiple ways you can speak to an agent to purchase the coverage you need.</p>
+        
+        <p><em><strong>Q. What services does MyLifeProtected offer?</strong></em></p>
+        
+        <p><strong><em>A.</em></strong> Online quoting, chat, and mobile utilities combined with access to licensed insurance agents via the phone. You'll also receive personalized customer service.</p>
+        
+        <p><em><strong>Q. How do I contact an agent?</strong></em></p>
+        
+        <p><strong><em>A.</em></strong> <strong>Log in or register</strong> for contact information. Agents are available Monday through Friday from 8 a.m. to 8 p.m. ET and Saturday 10 a.m. to 6 p.m. ET.</p>
+        
+        <p><em><strong>Q. How does the program work?</strong></em></p>
+        
+        <p><strong>A. </strong>You can obtain access to multiple auto and home quotes from a single agency. All you need is your zip code, driving history and vehicle information for auto quotes and information about your residence for home quotes. MyLifeProtected agents will do the rest of the work for you.</p>
+        
+        <p><em><strong>Q. How do I know if am getting the best quote for me and my family?</strong></em></p>
+        
+        <p><strong><em>A.</em></strong> MyLifeProtected agents compare quotes from the highest rated insurance companies to find you the best coverage at the most competitive price to ensure you’re not paying more than you should be.</p>
+        
+        <p>Once a customer, the agents at MyLifeProtected will review your auto policy upon its renewal each year and will run quotes from other carriers. If you’re missing out on savings, they will work with you to place your policy with a better matched insurance company. This ensures you’re not missing out on savings while retaining the coverage you need.</p>
+        
+        <p><em><strong>Q. How do I enroll in an insurance plan?</strong></em></p>
+        
+        <p><strong><em>A.</em></strong> MyLifeProtected offers easy and direct online and mobile enrollment for a variety of auto and insurance products, all in one place. Your auto and home insurance needs and their licensed agents will help guide you to find the best coverage at the best price.</p>
+        
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T190615Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Frequently Asked Questions
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T190615Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3D03F447-4F96-49DF-9881-806FB773B865}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q.<em> Who is eligible for the Auto and Home Insurance Program?</em></strong><br />
+        <strong>A</strong>. Active, dues paying SEIU members and their family members residing in the household can apply for coverage from Travelers.</p>
+        <p><strong>Q.<em> What are the benefits of the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A</strong>. Through the program, you have access to special savings on auto, home and renters insurance. This savings is not available to the general public and could save you hundreds of dollars.</p>
+        <p><strong>Q.<em> Do I have to wait for my current policies to expire to participate?</em></strong><br />
+        <strong>A.</strong> No, you can switch at any time and may be entitled to a refund from your current carrier on any unearned premium. Plus, you could get an early quote discount of up to 10% on auto insurance when you switch to Travelers before your current coverage expires.</p>
+        <p><strong>Q.<em> What coverages are available through this program?</em></strong><br />
+        <strong>A.</strong> Travelers can meet an array of your personal insurance needs. You can personalize your coverage to suit your needs by adding coverage options and packages that can include accident and minor violation forgiveness*, roadside assistance, new car replacement*, auto loan/lease gap coverage*, identity fraud expense reimbursement, and additional replacement cost for your home. Plus, you could save up to 10% on your auto when you have other policies with Travelers.</p>
+        <p><strong>Q.<em> How do I determine what coverage is right for me?</em></strong><br />
+        <strong>A.</strong> Licensed insurance representatives can help you review your insurance needs so you can make an informed decision on the coverage that&rsquo;s right for you. They can help you get discounts and credits you deserve, and offer ways to lower your premiums. Call Travelers at 1-866-903-5052.</p>
+        <p><strong>Q.<em> What payment options are available through the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A.</strong> Travelers makes several convenient payment options available to you. From automatic electronic funds transfer from your checking or savings account to recurring credit card, bill by mail, pay by phone or online, you simply select the payment option that works best for you. There&rsquo;s even a multi-policy billing option to help you consolidate your bills.</p>
+        <p><strong>Q.<em> Why should I consider automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> There are several advantages of paying your insurance premiums through automatic recurring payments, including:</p>
+        <ul>
+            <li>The convenience of having one less bill you have to remember to pay</li>
+            <li>No postage to pay or check to write</li>
+            <li> You could qualify for an electronic funds transfer (EFT) discount
+            </li>
+        </ul>
+        <p><strong>Q.<em> How do I sign up for automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> It&rsquo;s easy. Your Travelers representative can explain the process and get you started. Just call the toll-free number: 1-866-903-5052.</p>
+        <p><strong>Q.<em> What if I have a claim?</em></strong><br />
+        <strong>A.</strong> If you ever have an auto or homeowners loss, you can report it right away online or by phone at 1-800-252-4633. Claim report is available 24 hours a day, every day.</p>
+        <p>Generally, you will be contacted by a Travelers Claim professional after you report your loss. Travelers has a variety of convenient inspection options and your Travelers Claim professional will be there to be your guide through the claim process.</p>
+        <p><strong>Q.<em> What if I have a question or need to make a change to my Travelers Insurance Program policy?</em></strong><br />
+        <strong>A.</strong> If you have a question about your policy or need to make a change, a Traveler's customer service representative will be glad to help you. Just call, toll free, 1-800-842-5075, 24 hours a day, seven days a week.</p>
+        <p>You can also get vehicle insurance cards, view your bills and policies, and check the status of a claim on MyTravelers.com. Plus, you can use the Travelers skill for Alexa to find out information on upcoming bills and payments and request new Auto ID cards to be mailed to you. You&rsquo;ll need to link your MyTravelers.com account in the Alexa app.</p>
+        <p>*Not available in CA. Minor violation forgiveness is not offered in NY, NC and PA. New car replacement is not available in NC. Loan/lease gap coverage is not available in NY.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210407T142114Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Frequently Asked Questions
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210407T142114Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3D03F447-4F96-49DF-9881-806FB773B865}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q.<em> Who is eligible for the Auto and Home Insurance Program?</em></strong><br />
+        <strong>A</strong>. Active, dues paying SEIU members and their family members residing in the household can apply for coverage from Travelers.</p>
+        <p><strong>Q.<em> What are the benefits of the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A</strong>. Through the program, you have access to special savings on auto, home and renters insurance. This savings is not available to the general public and could save you hundreds of dollars.</p>
+        <p><strong>Q.<em> Do I have to wait for my current policies to expire to participate?</em></strong><br />
+        <strong>A.</strong> No, you can switch at any time and may be entitled to a refund from your current carrier on any unearned premium. Plus, you could get an early quote discount of up to 10% on auto insurance when you switch to Travelers before your current coverage expires.</p>
+        <p><strong>Q.<em> What coverages are available through this program?</em></strong><br />
+        <strong>A.</strong> Travelers can meet an array of your personal insurance needs. You can personalize your coverage to suit your needs by adding coverage options and packages that can include accident and minor violation forgiveness*, roadside assistance, new car replacement*, auto loan/lease gap coverage*, identity fraud expense reimbursement, and additional replacement cost for your home. Plus, you could save up to 10% on your auto when you have other policies with Travelers.</p>
+        <p><strong>Q.<em> How do I determine what coverage is right for me?</em></strong><br />
+        <strong>A.</strong> Licensed insurance representatives can help you review your insurance needs so you can make an informed decision on the coverage that&rsquo;s right for you. They can help you get discounts and credits you deserve, and offer ways to lower your premiums. Call Travelers at 1-866-903-5052.</p>
+        <p><strong>Q.<em> What payment options are available through the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A.</strong> Travelers makes several convenient payment options available to you. From automatic electronic funds transfer from your checking or savings account to recurring credit card, bill by mail, pay by phone or online, you simply select the payment option that works best for you. There&rsquo;s even a multi-policy billing option to help you consolidate your bills.</p>
+        <p><strong>Q.<em> Why should I consider automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> There are several advantages of paying your insurance premiums through automatic recurring payments, including:</p>
+        <ul>
+            <li>The convenience of having one less bill you have to remember to pay</li>
+            <li>No postage to pay or check to write</li>
+            <li> You could qualify for an electronic funds transfer (EFT) discount
+            </li>
+        </ul>
+        <p><strong>Q.<em> How do I sign up for automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> It&rsquo;s easy. Your Travelers representative can explain the process and get you started. Just call the toll-free number: 1-866-903-5052.</p>
+        <p><strong>Q.<em> What if I have a claim?</em></strong><br />
+        <strong>A.</strong> If you ever have an auto or homeowners loss, you can report it right away online or by phone at 1-800-252-4633. Claim report is available 24 hours a day, every day.</p>
+        <p>Generally, you will be contacted by a Travelers Claim professional after you report your loss. Travelers has a variety of convenient inspection options and your Travelers Claim professional will be there to be your guide through the claim process.</p>
+        <p><strong>Q.<em> What if I have a question or need to make a change to my Travelers Insurance Program policy?</em></strong><br />
+        <strong>A.</strong> If you have a question about your policy or need to make a change, a Traveler customer service representative will be glad to help you. Just call, toll free, 1-800-842-5075, 24 hours a day, seven days a week.</p>
+        <p>You can also get vehicle insurance cards, view your bills and policies, and check the status of a claim on MyTravelers.com. Plus, you can use the Travelers skill for Alexa to find out information on upcoming bills and payments and request new Auto ID cards to be mailed to you. You&rsquo;ll need to link your MyTravelers.com account in the Alexa app.</p>
+        <p>*Not available in CA. Minor violation forgiveness is not offered in NY, NC and PA. New car replacement is not available in NC. Loan/lease gap coverage is not available in NY.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210419T192140Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Frequently Asked Questions
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210419T192140Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3D03F447-4F96-49DF-9881-806FB773B865}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q.<em> Who is eligible for the Auto and Home Insurance Program?</em></strong><br />
+        <strong>A</strong>. Active, dues paying SEIU members and their family members residing in the household can apply for coverage from Travelers.</p>
+        <p><strong>Q.<em> What are the benefits of the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A</strong>. Through the program, you have access to special savings on auto, home and renters insurance. This savings is not available to the general public and could save you hundreds of dollars.</p>
+        <p><strong>Q.<em> Do I have to wait for my current policies to expire to participate?</em></strong><br />
+        <strong>A.</strong> No, you can switch at any time and may be entitled to a refund from your current carrier on any unearned premium. Plus, you could get an early quote discount of up to 10% on auto insurance when you switch to Travelers before your current coverage expires.</p>
+        <p><strong>Q.<em> What coverages are available through this program?</em></strong><br />
+        <strong>A.</strong> Travelers can meet an array of your personal insurance needs. You can personalize your coverage to suit your needs by adding coverage options and packages that can include accident and minor violation forgiveness*, roadside assistance, new car replacement*, auto loan/lease gap coverage*, identity fraud expense reimbursement, and additional replacement cost for your home. Plus, you could save up to 10% on your auto when you have other policies with Travelers.</p>
+        <p><strong>Q.<em> How do I determine what coverage is right for me?</em></strong><br />
+        <strong>A.</strong> Licensed insurance representatives can help you review your insurance needs so you can make an informed decision on the coverage that&rsquo;s right for you. They can help you get discounts and credits you deserve, and offer ways to lower your premiums. Call Travelers at 1-866-903-5052.</p>
+        <p><strong>Q.<em> What payment options are available through the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A.</strong> Travelers makes several convenient payment options available to you. From automatic electronic funds transfer from your checking or savings account to recurring credit card, bill by mail, pay by phone or online, you simply select the payment option that works best for you. There&rsquo;s even a multi-policy billing option to help you consolidate your bills.</p>
+        <p><strong>Q.<em> Why should I consider automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> There are several advantages of paying your insurance premiums through automatic recurring payments, including:</p>
+        <ul>
+            <li>The convenience of having one less bill you have to remember to pay</li>
+            <li>No postage to pay or check to write</li>
+            <li> You could qualify for an electronic funds transfer (EFT) discount
+            </li>
+        </ul>
+        <p><strong>Q.<em> How do I sign up for automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> It&rsquo;s easy. Your Travelers representative can explain the process and get you started. Just call the toll-free number: 1-866-903-5052.</p>
+        <p><strong>Q.<em> What if I have a claim?</em></strong><br />
+        <strong>A.</strong> If you ever have an auto or homeowners loss, you can report it right away online or by phone at 1-800-252-4633. Claim report is available 24 hours a day, every day.</p>
+        <p>Generally, you will be contacted by a Travelers Claim professional after you report your loss. Travelers has a variety of convenient inspection options and your Travelers Claim professional will be there to be your guide through the claim process.</p>
+        <p><strong>Q.<em> What if I have a question or need to make a change to my Travelers Insurance Program policy?</em></strong><br />
+        <strong>A.</strong> If you have a question about your policy or need to make a change, a Travelers customer service representative will be glad to help you. Just call, toll free, 1-800-842-5075, 24 hours a day, seven days a week.</p>
+        <p>You can also get vehicle insurance cards, view your bills and policies, and check the status of a claim on MyTravelers.com. Plus, you can use the Travelers skill for Alexa to find out information on upcoming bills and payments and request new Auto ID cards to be mailed to you. You&rsquo;ll need to link your MyTravelers.com account in the Alexa app.</p>
+        <p>*Not available in CA. Minor violation forgiveness is not offered in NY, NC and PA. New car replacement is not available in NC. Loan/lease gap coverage is not available in NY.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program
+  - Version: 5
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210428T181905Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Frequently Asked Questions
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210428T181905Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3D03F447-4F96-49DF-9881-806FB773B865}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Auto and Home Insurance Program FAQ
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q.<em> Who is eligible for the Auto and Home Insurance Program?</em></strong><br />
+        <strong>A</strong>. Active, dues paying SEIU members and their family members residing in the household can apply for coverage from Travelers.</p>
+        <p><strong>Q.<em> What are the benefits of the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A</strong>. Through the program, you have access to special savings on auto, home and renters insurance. This savings is not available to the general public and could save you hundreds of dollars.</p>
+        <p><strong>Q.<em> Do I have to wait for my current policies to expire to participate?</em></strong><br />
+        <strong>A.</strong> No, you can switch at any time and may be entitled to a refund from your current carrier on any unearned premium. Plus, you could get an early quote discount of up to 10% on auto insurance when you switch to Travelers before your current coverage expires.</p>
+        <p><strong>Q.<em> What coverages are available through this program?</em></strong><br />
+        <strong>A.</strong> Travelers can meet an array of your personal insurance needs. You can personalize your coverage to suit your needs by adding coverage options and packages that can include accident and minor violation forgiveness*, roadside assistance, new car replacement*, auto loan/lease gap coverage*, identity fraud expense reimbursement, and additional replacement cost for your home. Plus, you could save up to 10% on your auto when you have other policies with Travelers.</p>
+        <p><strong>Q.<em> How do I determine what coverage is right for me?</em></strong><br />
+        <strong>A.</strong> Licensed insurance representatives can help you review your insurance needs so you can make an informed decision on the coverage that&rsquo;s right for you. They can help you get discounts and credits you deserve, and offer ways to lower your premiums. Call Travelers at 1-866-903-5052.</p>
+        <p><strong>Q.<em> What payment options are available through the Auto and Home Insurance Program from Travelers?</em></strong><br />
+        <strong>A.</strong> Travelers makes several convenient payment options available to you. From automatic electronic funds transfer from your checking or savings account to recurring credit card, bill by mail, pay by phone or online, you simply select the payment option that works best for you. There&rsquo;s even a multi-policy billing option to help you consolidate your bills.</p>
+        <p><strong>Q.<em> Why should I consider automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> There are several advantages of paying your insurance premiums through automatic recurring payments, including:</p>
+        <ul>
+            <li>The convenience of having one less bill you have to remember to pay</li>
+            <li>No postage to pay or check to write</li>
+            <li> You could qualify for an electronic funds transfer (EFT) discount
+            </li>
+        </ul>
+        <p><strong>Q.<em> How do I sign up for automatic recurring payments?</em></strong><br />
+        <strong>A.</strong> It&rsquo;s easy. Your Travelers representative can explain the process and get you started. Just call the toll-free number: 1-866-903-5052.</p>
+        <p><strong>Q.<em> What if I have a claim?</em></strong><br />
+        <strong>A.</strong> If you ever have an auto or homeowners loss, you can report it right away online or by phone at 1-800-252-4633. Claim report is available 24 hours a day, every day.</p>
+        <p>Generally, you will be contacted by a Travelers Claim professional after you report your loss. Travelers has a variety of convenient inspection options and your Travelers Claim professional will be there to be your guide through the claim process.</p>
+        <p><strong>Q.<em> What if I have a question or need to make a change to my Travelers Insurance Program policy?</em></strong><br />
+        <strong>A.</strong> If you have a question about your policy or need to make a change, a Travelers customer service representative will be glad to help you. Just call, toll free, 1-800-842-5075, 24 hours a day, seven days a week.</p>
+        <p>You can also get vehicle insurance cards, view your bills and policies, and check the status of a claim on MyTravelers.com. Plus, you can use the Travelers skill for Alexa to find out information on upcoming bills and payments and request new Auto ID cards to be mailed to you. You&rsquo;ll need to link your MyTravelers.com account in the Alexa app.</p>
+        <p>*Not available in CA. Minor violation forgiveness is not offered in NY, NC and PA. New car replacement is not available in NC. Loan/lease gap coverage is not available in NY.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance Program
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        P: ¿Quién es MyLifeProtected?
+        R: MyLifeProtected es una agencia de seguro digital de servicio completo que cuenta con agentes autorizados que pueden ayudarlo con sus necesidades de seguro de automóvil y hogar.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180404T183309Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Preguntas Frecuentes
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{A84D4806-9EE1-4F56-B496-49D75EC1AFF6}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU Preguntas Frecuentes
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        
+                        <p><em><strong>P: ¿Quién es MyLifeProtected?</strong></em></p>
+        
+        <p><em><strong>R:</strong></em> MyLifeProtected es una agencia de seguro digital de servicio completo que cuenta con agentes autorizados que pueden ayudarlo con sus necesidades de seguro de automóvil y hogar.</p>
+        
+        <p>¡MyLifeProtected ofrece muchas opciones! No solo representan una amplia variedad de las compañías de seguros mejor calificadas, sino que también tienen múltiples formas en que puede comunicarse con un agente para adquirir la cobertura que necesita.</p>
+        
+        <p><em><strong>P: ¿Qué servicios ofrece MyLifeProtected?</strong></em></p>
+        
+        <p><em><strong>R: </strong></em>Ofrece servicios de telefonía móvil, cotización y chat en línea combinados con acceso a agentes de seguros autorizados a través del teléfono. También recibirá un servicio al cliente personalizado.</p>
+        
+        <p><em><strong>P: ¿Cómo me puedo comunicar con un agente?</strong></em></p>
+        
+        <p><em><strong>R:</strong></em> <a href="https://www.seiumb.com/es/insurance/seiu-auto-and-home-insurance.htm">Inicie sesión o regístrese</a> para obtener la información de contacto. Los agentes se encuentran disponibles de lunes a viernes de 8&nbsp;a.m. a 8 p.m. hora del este y sábados de 10&nbsp;a.m. a 6 p.m. hora del este.</p>
+        
+        <p><em><strong>P: ¿Cómo funciona el programa?</strong></em></p>
+        
+        <p><em><strong>R:</strong></em> Puede obtener acceso a múltiples presupuestos automáticos y domésticos de una sola agencia. Todo lo que necesita es su código postal, historial de manejo e información del vehículo para cotizaciones automáticas e información sobre su residencia para cotizaciones en el hogar. Los agentes de MyLifeProtected harán el resto del trabajo.</p>
+        
+        <p><em><strong>P: ¿Cómo puedo saber si recibo la mejor cotización para mí y mi familia?</strong></em></p>
+        
+        <p><em><strong>R:</strong></em> Los agentes de MyLifeProtected comparan las cotizaciones de las compañías de seguros mejor calificadas para encontrar la mejor cobertura al precio más competitivo para asegurarle que no está pagando más de lo que debería.</p>
+        
+        <p>Una vez que sea un cliente, los agentes de MyLifeProtected revisarán su póliza de automóvil cada año a partir de su renovación y publicarán presupuestos de otras compañías. Si está perdiendo los ahorros, trabajarán con usted para colocar su póliza en una mejor compañía de seguros. Esto asegura que no perderá los ahorros mientras conserva la cobertura que necesita.</p>
+        
+        <p><em><strong>P: ¿Cómo me inscribo en un plan de seguro?</strong></em></p>
+        
+        <p><em><strong>R: </strong></em>MyLifeProtected ofrece inscripción directa móvil, en línea y fácil para una variedad de productos de automóviles y seguros, todo en un solo lugar. Sus necesidades de seguro de automóvil y hogar y sus agentes autorizados le ayudarán a encontrar la mejor cobertura al mejor precio.</p>
+        
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU Preguntas Frecuentes
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T182655Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Preguntas Frecuentes
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T182655Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3D03F447-4F96-49DF-9881-806FB773B865}" alt="Coche de embalaje familiar para ir de vacaciones. Padres, hijos." height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU Preguntas Frecuentes
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>P. &iquest;Qui&eacute;nes son elegibles para el Programa de seguro para autom&oacute;viles y vivienda?</strong></p>
+        <p>R.  Los miembros activos de SEIU que pagan las cuotas y los familiares que residen en su hogar pueden solicitar la cobertura de Travelers.</p>
+        <p><strong>P. &iquest;Cu&aacute;les son los beneficios del Programa de seguro para autom&oacute;viles y vivienda de Travelers?</strong></p>
+        <p>R. A trav&eacute;s del programa, usted tiene acceso a ahorros especiales en seguro para autom&oacute;viles, vivienda e inquilinos. Este ahorro no est&aacute; disponible para el p&uacute;blico en general y podr&iacute;a ahorrarle cientos de d&oacute;lares.</p>
+        <p><strong>P. &iquest;Tengo que esperar a que mis p&oacute;lizas actuales venzan para participar?</strong></p>
+        <p>R. No, puede cambiarse en cualquier momento y podr&iacute;a tener derecho a un reembolso de su compa&ntilde;&iacute;a de seguros actual por cualquier prima no devengada. Adem&aacute;s, podr&iacute;a obtener un descuento por cotizaci&oacute;n anticipada de hasta un 10 % en el seguro para autom&oacute;viles si se cambia a Travelers antes de que venza su cobertura actual.</p>
+        <p><strong>P. &iquest;Qu&eacute; coberturas se ofrecen a trav&eacute;s de este programa?</strong></p>
+        <p>R. Travelers puede satisfacer una variedad de necesidades personales de seguro. Usted puede personalizar su cobertura para satisfacer sus necesidades, agregando opciones de cobertura y paquetes que pueden incluir condonaci&oacute;n de infracciones menores y accidentes*, asistencia en la carretera, reemplazo por un nuevo autom&oacute;vil*, cobertura de diferencia de arrendamiento/pr&eacute;stamo para autom&oacute;vil*, reembolso de gastos por fraude de identidad y costo de reemplazo adicional para su vivienda. Adem&aacute;s, podr&iacute;a ahorrar hasta un 10 % en su seguro para autom&oacute;viles si tiene otras p&oacute;lizas con Travelers.</p>
+        <p><strong>P. &iquest;C&oacute;mo determino qu&eacute; cobertura es la adecuada para m&iacute;?</strong></p>
+        <p>R. Los representantes de seguro autorizados pueden ayudarle a revisar sus necesidades de seguro para que pueda tomar una decisi&oacute;n informada sobre la cobertura m&aacute;s adecuada para usted. Pueden ayudarle a obtener los descuentos y cr&eacute;ditos que se merece, y ofrecerle maneras de reducir sus primas. Llame a Travelers al 1-866-903-5052. </p>
+        <p><strong>P. &iquest;Qu&eacute; opciones de pago se ofrecen a trav&eacute;s del Programa de seguros para autom&oacute;viles y vivienda de Travelers?</strong></p>
+        <p>R. Travelers pone a su disposici&oacute;n varias opciones de pago convenientes. Desde transferencias electr&oacute;nicas autom&aacute;ticas de fondos desde su cuenta de cheques o de ahorros hasta pagos recurrentes con tarjeta de cr&eacute;dito, facturas por correo, pagos por tel&eacute;fono o en l&iacute;nea; simplemente seleccione la opci&oacute;n de pago que m&aacute;s le convenga. Incluso hay una opci&oacute;n de facturaci&oacute;n de varias p&oacute;lizas que le ayuda a consolidar sus facturas.</p>
+        <p><strong>P. &iquest;Por qu&eacute; deber&iacute;a considerar los pagos recurrentes autom&aacute;ticos?</strong></p>
+        <p>R. Pagar las primas de su seguro a trav&eacute;s de pagos recurrentes autom&aacute;ticos tiene varias ventajas, que incluyen lo siguiente:</p>
+        <ul>
+            <li>Tendr&aacute; una factura menos que recordar a la hora de pagar.</li>
+            <li>No tendr&aacute; que pagar gastos de franqueo ni emitir cheques.</li>
+            <li>Podr&iacute;a calificar para un descuento por transferencia electr&oacute;nica de fondos (Electronic Funds Transfer, EFT).</li>
+        </ul>
+        <p><strong>P. &iquest;C&oacute;mo me inscribo para hacer pagos recurrentes autom&aacute;ticos?</strong></p>
+        <p>R. Es f&aacute;cil. Su representante de Travelers puede explicarle el proceso y ayudarle a comenzar. Simplemente llame al n&uacute;mero gratuito: 1-866-903-5052.</p>
+        <p><strong>P. &iquest;Qu&eacute; sucede si tengo un reclamo?</strong></p>
+        <p>R. Si alguna vez sufre una p&eacute;rdida relacionada con su autom&oacute;vil o vivienda, puede informarla de inmediato en l&iacute;nea o por tel&eacute;fono al 1-800-252-4633. El informe de reclamos est&aacute; disponible las 24 horas del d&iacute;a, los siete d&iacute;as de la semana.</p>
+        <p>Por lo general, despu&eacute;s de que informe la p&eacute;rdida, un profesional de reclamos de Travelers se comunicar&aacute; con usted. Travelers tiene una variedad de opciones de inspecci&oacute;n convenientes y el profesional de reclamos estar&aacute; a su disposici&oacute;n para guiarle durante el proceso.</p>
+        <p><strong>P. &iquest;Qu&eacute; sucede si tengo una pregunta o necesito hacer cambios en mi p&oacute;liza del Programa de seguro de Travelers?</strong></p>
+        <p>R. Si tiene alguna pregunta sobre su p&oacute;liza o necesita hacer un cambio, un representante de servicio al cliente de Travelers con gusto le ayudar&aacute;. Simplemente llame al n&uacute;mero gratuito 1-800-842-5075, las 24 horas del d&iacute;a, los siete d&iacute;as de la semana.</p>
+        <p>Tambi&eacute;n puede obtener tarjetas de seguro para veh&iacute;culos, ver sus facturas y p&oacute;lizas, y consultar el estado de un reclamo en MyTravelers.com. Adem&aacute;s, puede utilizar la funcionalidad de Travelers para Alexa a fin de obtener informaci&oacute;n sobre las pr&oacute;ximas facturas y pagos, y solicitar que se le env&iacute;en por correo nuevas tarjetas de identificaci&oacute;n para el autom&oacute;vil. Para ello, deber&aacute; vincular su cuenta de MyTravelers.com con la aplicaci&oacute;n Alexa.</p>
+        <p><span style="font-size: 10px;">* No disponible en California. La condonaci&oacute;n de infracciones menores no se ofrece en Nueva York, Carolina del Norte ni Pensilvania. El reemplazo por un nuevo autom&oacute;vil no est&aacute; disponible en Carolina del Norte. La cobertura de diferencia de arrendamiento/pr&eacute;stamo no est&aacute; disponible en Nueva York.</span></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU Preguntas Frecuentes
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210419T192128Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Preguntas Frecuentes
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210419T192128Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3D03F447-4F96-49DF-9881-806FB773B865}" alt="Coche de embalaje familiar para ir de vacaciones. Padres, hijos." height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU Preguntas Frecuentes
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>P. &iquest;Qui&eacute;nes son elegibles para el Programa de seguro para autom&oacute;viles y vivienda?</strong></p>
+        <p>R.  Los miembros activos de SEIU que pagan las cuotas y los familiares que residen en su hogar pueden solicitar la cobertura de Travelers.</p>
+        <p><strong>P. &iquest;Cu&aacute;les son los beneficios del Programa de seguro para autom&oacute;viles y vivienda de Travelers?</strong></p>
+        <p>R. A trav&eacute;s del programa, usted tiene acceso a ahorros especiales en seguro para autom&oacute;viles, vivienda e inquilinos. Este ahorro no est&aacute; disponible para el p&uacute;blico en general y podr&iacute;a ahorrarle cientos de d&oacute;lares.</p>
+        <p><strong>P. &iquest;Tengo que esperar a que mis p&oacute;lizas actuales venzan para participar?</strong></p>
+        <p>R. No, puede cambiarse en cualquier momento y podr&iacute;a tener derecho a un reembolso de su compa&ntilde;&iacute;a de seguros actual por cualquier prima no devengada. Adem&aacute;s, podr&iacute;a obtener un descuento por cotizaci&oacute;n anticipada de hasta un 10 % en el seguro para autom&oacute;viles si se cambia a Travelers antes de que venza su cobertura actual.</p>
+        <p><strong>P. &iquest;Qu&eacute; coberturas se ofrecen a trav&eacute;s de este programa?</strong></p>
+        <p>R. Travelers puede satisfacer una variedad de necesidades personales de seguro. Usted puede personalizar su cobertura para satisfacer sus necesidades, agregando opciones de cobertura y paquetes que pueden incluir condonaci&oacute;n de infracciones menores y accidentes*, asistencia en la carretera, reemplazo por un nuevo autom&oacute;vil*, cobertura de diferencia de arrendamiento/pr&eacute;stamo para autom&oacute;vil*, reembolso de gastos por fraude de identidad y costo de reemplazo adicional para su vivienda. Adem&aacute;s, podr&iacute;a ahorrar hasta un 10 % en su seguro para autom&oacute;viles si tiene otras p&oacute;lizas con Travelers.</p>
+        <p><strong>P. &iquest;C&oacute;mo determino qu&eacute; cobertura es la adecuada para m&iacute;?</strong></p>
+        <p>R. Los representantes de seguro autorizados pueden ayudarle a revisar sus necesidades de seguro para que pueda tomar una decisi&oacute;n informada sobre la cobertura m&aacute;s adecuada para usted. Pueden ayudarle a obtener los descuentos y cr&eacute;ditos que se merece, y ofrecerle maneras de reducir sus primas. Llame a Travelers al 1-866-903-5052. </p>
+        <p><strong>P. &iquest;Qu&eacute; opciones de pago se ofrecen a trav&eacute;s del Programa de seguros para autom&oacute;viles y vivienda de Travelers?</strong></p>
+        <p>R. Travelers pone a su disposici&oacute;n varias opciones de pago convenientes. Desde transferencias electr&oacute;nicas autom&aacute;ticas de fondos desde su cuenta de cheques o de ahorros hasta pagos recurrentes con tarjeta de cr&eacute;dito, facturas por correo, pagos por tel&eacute;fono o en l&iacute;nea; simplemente seleccione la opci&oacute;n de pago que m&aacute;s le convenga. Incluso hay una opci&oacute;n de facturaci&oacute;n de varias p&oacute;lizas que le ayuda a consolidar sus facturas.</p>
+        <p><strong>P. &iquest;Por qu&eacute; deber&iacute;a considerar los pagos recurrentes autom&aacute;ticos?</strong></p>
+        <p>R. Pagar las primas de su seguro a trav&eacute;s de pagos recurrentes autom&aacute;ticos tiene varias ventajas, que incluyen lo siguiente:</p>
+        <ul>
+            <li>Tendr&aacute; una factura menos que recordar a la hora de pagar.</li>
+            <li>No tendr&aacute; que pagar gastos de franqueo ni emitir cheques.</li>
+            <li>Podr&iacute;a calificar para un descuento por transferencia electr&oacute;nica de fondos (Electronic Funds Transfer, EFT).</li>
+        </ul>
+        <p><strong>P. &iquest;C&oacute;mo me inscribo para hacer pagos recurrentes autom&aacute;ticos?</strong></p>
+        <p>R. Es f&aacute;cil. Su representante de Travelers puede explicarle el proceso y ayudarle a comenzar. Simplemente llame al n&uacute;mero gratuito: 1-866-903-5052.</p>
+        <p><strong>P. &iquest;Qu&eacute; sucede si tengo un reclamo?</strong></p>
+        <p>R. Si alguna vez sufre una p&eacute;rdida relacionada con su autom&oacute;vil o vivienda, puede informarla de inmediato en l&iacute;nea o por tel&eacute;fono al 1-800-252-4633. El informe de reclamos est&aacute; disponible las 24 horas del d&iacute;a, los siete d&iacute;as de la semana.</p>
+        <p>Por lo general, despu&eacute;s de que informe la p&eacute;rdida, un profesional de reclamos de Travelers se comunicar&aacute; con usted. Travelers tiene una variedad de opciones de inspecci&oacute;n convenientes y el profesional de reclamos estar&aacute; a su disposici&oacute;n para guiarle durante el proceso.</p>
+        <p><strong>P. &iquest;Qu&eacute; sucede si tengo una pregunta o necesito hacer cambios en mi p&oacute;liza del Programa de seguro de Travelers?</strong></p>
+        <p>R. Si tiene alguna pregunta sobre su p&oacute;liza o necesita hacer un cambio, un representante de servicio al cliente de Travelers con gusto le ayudar&aacute;. Simplemente llame al n&uacute;mero gratuito 1-800-842-5075, las 24 horas del d&iacute;a, los siete d&iacute;as de la semana.</p>
+        <p>Tambi&eacute;n puede obtener tarjetas de seguro para veh&iacute;culos, ver sus facturas y p&oacute;lizas, y consultar el estado de un reclamo en MyTravelers.com. Adem&aacute;s, puede utilizar la funcionalidad de Travelers para Alexa a fin de obtener informaci&oacute;n sobre las pr&oacute;ximas facturas y pagos, y solicitar que se le env&iacute;en por correo nuevas tarjetas de identificaci&oacute;n para el autom&oacute;vil. Para ello, deber&aacute; vincular su cuenta de MyTravelers.com con la aplicaci&oacute;n Alexa.</p>
+        <p><span style="font-size: 10px;">* No disponible en California. La condonaci&oacute;n de infracciones menores no se ofrece en Nueva York, Carolina del Norte ni Pensilvania. El reemplazo por un nuevo autom&oacute;vil no est&aacute; disponible en Carolina del Norte. La cobertura de diferencia de arrendamiento/pr&eacute;stamo no est&aacute; disponible en Nueva York.</span></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU Preguntas Frecuentes
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210428T182322Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Preguntas Frecuentes
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Auto and Home Insurance FAQ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210428T182322Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3D03F447-4F96-49DF-9881-806FB773B865}" alt="Coche de embalaje familiar para ir de vacaciones. Padres, hijos." height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU Preguntas Frecuentes
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>P. &iquest;Qui&eacute;nes son elegibles para el Programa de seguro para autom&oacute;viles y vivienda?</strong></p>
+        <p>R.  Los miembros activos de SEIU que pagan las cuotas y los familiares que residen en su hogar pueden solicitar la cobertura de Travelers.</p>
+        <p><strong>P. &iquest;Cu&aacute;les son los beneficios del Programa de seguro para autom&oacute;viles y vivienda de Travelers?</strong></p>
+        <p>R. A trav&eacute;s del programa, usted tiene acceso a ahorros especiales en seguro para autom&oacute;viles, vivienda e inquilinos. Este ahorro no est&aacute; disponible para el p&uacute;blico en general y podr&iacute;a ahorrarle cientos de d&oacute;lares.</p>
+        <p><strong>P. &iquest;Tengo que esperar a que mis p&oacute;lizas actuales venzan para participar?</strong></p>
+        <p>R. No, puede cambiarse en cualquier momento y podr&iacute;a tener derecho a un reembolso de su compa&ntilde;&iacute;a de seguros actual por cualquier prima no devengada. Adem&aacute;s, podr&iacute;a obtener un descuento por cotizaci&oacute;n anticipada de hasta un 10 % en el seguro para autom&oacute;viles si se cambia a Travelers antes de que venza su cobertura actual.</p>
+        <p><strong>P. &iquest;Qu&eacute; coberturas se ofrecen a trav&eacute;s de este programa?</strong></p>
+        <p>R. Travelers puede satisfacer una variedad de necesidades personales de seguro. Usted puede personalizar su cobertura para satisfacer sus necesidades, agregando opciones de cobertura y paquetes que pueden incluir condonaci&oacute;n de infracciones menores y accidentes*, asistencia en la carretera, reemplazo por un nuevo autom&oacute;vil*, cobertura de diferencia de arrendamiento/pr&eacute;stamo para autom&oacute;vil*, reembolso de gastos por fraude de identidad y costo de reemplazo adicional para su vivienda. Adem&aacute;s, podr&iacute;a ahorrar hasta un 10 % en su seguro para autom&oacute;viles si tiene otras p&oacute;lizas con Travelers.</p>
+        <p><strong>P. &iquest;C&oacute;mo determino qu&eacute; cobertura es la adecuada para m&iacute;?</strong></p>
+        <p>R. Los representantes de seguro autorizados pueden ayudarle a revisar sus necesidades de seguro para que pueda tomar una decisi&oacute;n informada sobre la cobertura m&aacute;s adecuada para usted. Pueden ayudarle a obtener los descuentos y cr&eacute;ditos que se merece, y ofrecerle maneras de reducir sus primas. Llame a Travelers al 1-866-903-5052. </p>
+        <p><strong>P. &iquest;Qu&eacute; opciones de pago se ofrecen a trav&eacute;s del Programa de seguros para autom&oacute;viles y vivienda de Travelers?</strong></p>
+        <p>R. Travelers pone a su disposici&oacute;n varias opciones de pago convenientes. Desde transferencias electr&oacute;nicas autom&aacute;ticas de fondos desde su cuenta de cheques o de ahorros hasta pagos recurrentes con tarjeta de cr&eacute;dito, facturas por correo, pagos por tel&eacute;fono o en l&iacute;nea; simplemente seleccione la opci&oacute;n de pago que m&aacute;s le convenga. Incluso hay una opci&oacute;n de facturaci&oacute;n de varias p&oacute;lizas que le ayuda a consolidar sus facturas.</p>
+        <p><strong>P. &iquest;Por qu&eacute; deber&iacute;a considerar los pagos recurrentes autom&aacute;ticos?</strong></p>
+        <p>R. Pagar las primas de su seguro a trav&eacute;s de pagos recurrentes autom&aacute;ticos tiene varias ventajas, que incluyen lo siguiente:</p>
+        <ul>
+            <li>Tendr&aacute; una factura menos que recordar a la hora de pagar.</li>
+            <li>No tendr&aacute; que pagar gastos de franqueo ni emitir cheques.</li>
+            <li>Podr&iacute;a calificar para un descuento por transferencia electr&oacute;nica de fondos (Electronic Funds Transfer, EFT).</li>
+        </ul>
+        <p><strong>P. &iquest;C&oacute;mo me inscribo para hacer pagos recurrentes autom&aacute;ticos?</strong></p>
+        <p>R. Es f&aacute;cil. Su representante de Travelers puede explicarle el proceso y ayudarle a comenzar. Simplemente llame al n&uacute;mero gratuito: 1-866-903-5052.</p>
+        <p><strong>P. &iquest;Qu&eacute; sucede si tengo un reclamo?</strong></p>
+        <p>R. Si alguna vez sufre una p&eacute;rdida relacionada con su autom&oacute;vil o vivienda, puede informarla de inmediato en l&iacute;nea o por tel&eacute;fono al 1-800-252-4633. El informe de reclamos est&aacute; disponible las 24 horas del d&iacute;a, los siete d&iacute;as de la semana.</p>
+        <p>Por lo general, despu&eacute;s de que informe la p&eacute;rdida, un profesional de reclamos de Travelers se comunicar&aacute; con usted. Travelers tiene una variedad de opciones de inspecci&oacute;n convenientes y el profesional de reclamos estar&aacute; a su disposici&oacute;n para guiarle durante el proceso.</p>
+        <p><strong>P. &iquest;Qu&eacute; sucede si tengo una pregunta o necesito hacer cambios en mi p&oacute;liza del Programa de seguro de Travelers?</strong></p>
+        <p>R. Si tiene alguna pregunta sobre su p&oacute;liza o necesita hacer un cambio, un representante de servicio al cliente de Travelers con gusto le ayudar&aacute;. Simplemente llame al n&uacute;mero gratuito 1-800-842-5075, las 24 horas del d&iacute;a, los siete d&iacute;as de la semana.</p>
+        <p>Tambi&eacute;n puede obtener tarjetas de seguro para veh&iacute;culos, ver sus facturas y p&oacute;lizas, y consultar el estado de un reclamo en MyTravelers.com. Adem&aacute;s, puede utilizar la funcionalidad de Travelers para Alexa a fin de obtener informaci&oacute;n sobre las pr&oacute;ximas facturas y pagos, y solicitar que se le env&iacute;en por correo nuevas tarjetas de identificaci&oacute;n para el autom&oacute;vil. Para ello, deber&aacute; vincular su cuenta de MyTravelers.com con la aplicaci&oacute;n Alexa.</p>
+        <p><span style="font-size: 10px;">* No disponible en California. La condonaci&oacute;n de infracciones menores no se ofrece en Nueva York, Carolina del Norte ni Pensilvania. El reemplazo por un nuevo autom&oacute;vil no est&aacute; disponible en Carolina del Norte. La cobertura de diferencia de arrendamiento/pr&eacute;stamo no est&aacute; disponible en Nueva York.</span></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Programa de Seguros para Automóviles y Viviendas de SEIU

@@ -1,0 +1,232 @@
+﻿---
+ID: "45835449-633c-47ce-b59a-a39c3aa2290f"
+Parent: "a7c12305-82fc-42cb-84ce-cff753b6514a"
+Template: "a7c12305-82fc-42cb-84ce-cff753b6514a"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Duplicate Registration/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: business/32x32/businessmen.png
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{6FB95AB5-51D1-497C-A577-C44C0CE75B16}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{3B8CF619-4CAB-4638-8E7B-174A8C5205C1}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{B7DF75C9-83D8-4059-BFF6-AFC0201D00EA}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{B86D835A-19A7-4CA9-919A-8610EF5F6F48}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{A936FE5F-53DA-4F57-B8E2-9CB64C69C8E2}" />
+        <r
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{0BEC1AC7-0217-4844-BA1E-50CE6A96A378}" />
+        <r
+          id="{7756EBEC-7035-4D0E-96FD-695D56B7CAD7}"
+          ph="registration-banner"
+          uid="{099CE8DC-A870-460D-A363-55D386650246}" />
+        <r
+          id="{8584A9D0-88EC-4241-A57E-BDF91CA91891}"
+          ph="body"
+          uid="{9CF76302-951E-4D2C-B2BF-5C971D9BD491}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{A794366D-E275-4049-A69F-BEAD59DFFFA5}" />
+        <r
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{25BE68C9-7849-41B1-B96F-C4C62E0300F4}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{25BE68C9-7849-41B1-B96F-C4C62E0300F4}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="EBD078541C354FF796DC8566DA4C4608"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180122T204521Z
+    - ID: "27c391a1-0d18-483c-88c9-56ccfb7ad149"
+      Hint: Username
+      Value: From now on, please use | as the email address to sign in on SEIUMB.com.
+    - ID: "2b7e9d6f-72a7-4ff0-9f64-13c811aea216"
+      Hint: LoaderImage
+      Value: |
+        <image mediaid="{53F1A9CF-FCAB-4664-9043-7BF5D5B2118C}" />
+    - ID: "3ac995ae-0042-4b17-977a-00fc1fa5a029"
+      Hint: Empty Password
+      Value: Please insert your password.
+    - ID: "3bf9bbed-424a-4cc0-affd-db64c634fa38"
+      Hint: Error
+      Value: Oops we encountered an error in the process. Please try again.
+    - ID: "49b75b7f-783d-4b76-b3ce-96a38c36097d"
+      Hint: Password
+      Value: Please provide the password for
+    - ID: "6822fb3f-a5a1-43ca-bd2a-b96203fc6c12"
+      Hint: InvalidCurrentPassword
+      Value: The password provided does not match our records. Please try again. 
+    - ID: "72171dc8-c62e-4213-b79b-c186115ca406"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continue" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{71EC7B66-9716-4FF1-B0B6-B2079E3FEFEC}" />
+    - ID: "7cdf139d-9eb9-4ea0-8e63-f2a1ae854599"
+      Hint: Intro
+      Value: Please select the email address you wish to use to sign in on SEIUMB.com.
+    - ID: "8316d269-752a-40c7-b7f5-189bff34899f"
+      Hint: Title
+      Value: "Duplicate Registration Alert!"
+    - ID: "899469cb-3672-4ac2-865f-6281f3e89214"
+      Hint: AccountInfo
+      Value: (registered as | on |)
+    - ID: "8c731811-55cc-4d33-8c59-526614a23bce"
+      Hint: SelectedEmail
+      Value: You have selected | as the email address to sign in on SEIUMB.com.
+    - ID: "98827d68-1b0b-4a5f-a230-d7c69dd1930c"
+      Hint: SelectOther
+      Value: Select Another Email
+    - ID: "99eb7f43-1118-4d8b-8c99-f350d6386a33"
+      Hint: SubmitButton
+      Value: Submit
+    - ID: "a846bd39-8485-4b5c-9457-b4b4f1d389ba"
+      Hint: Loader
+      Value: Please wait while we process your request.
+    - ID: "ac2b9d8d-3bd4-4436-a5b1-00570d121133"
+      Hint: Explanation
+      Value: To use an email listed below, you will need to provide the corresponding password.
+    - ID: "b2364359-9973-4ab8-a5c2-a7856cc37380"
+      Hint: Title
+      Value: Than you
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{140DBF50-F053-4706-93FB-DEBFBF7E8892}" />
+    - ID: "d26e6278-be2e-4b9e-b663-9db560ccb8ba"
+      Hint: Loader
+      Value: Please wait while we load your preferences.
+    - ID: "e3ae3768-8956-4f28-b354-16dd119a14ce"
+      Hint: ApplyChanges
+      Value: Apply changes
+    - ID: "f74c0edd-f0f3-4d3a-afe2-07d57e046b47"
+      Hint: UnselectedEmails
+      Value: "The email address(es) | will be removed:"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180122T223858Z
+    - ID: "27c391a1-0d18-483c-88c9-56ccfb7ad149"
+      Hint: Username
+      Value: "Su usuario/correo para SEIUM.com es:"
+    - ID: "2b7e9d6f-72a7-4ff0-9f64-13c811aea216"
+      Hint: LoaderImage
+      Value: |
+        <image mediaid="{53F1A9CF-FCAB-4664-9043-7BF5D5B2118C}" />
+    - ID: "3bf9bbed-424a-4cc0-affd-db64c634fa38"
+      Hint: Error
+      Value: Lo sentimos, hubo un error en el proceso. Por favor intente de nuevo.
+    - ID: "49b75b7f-783d-4b76-b3ce-96a38c36097d"
+      Hint: Password
+      Value: Por favor ingrese la contraseña para
+    - ID: "6822fb3f-a5a1-43ca-bd2a-b96203fc6c12"
+      Hint: InvalidCurrentPassword
+      Value: La contraseña ingresada no coincide con la almacenada en nuestros registros, por favor intente de nuevo.
+    - ID: "72171dc8-c62e-4213-b79b-c186115ca406"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continuar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "7cdf139d-9eb9-4ea0-8e63-f2a1ae854599"
+      Hint: Intro
+      Value: Parece ser que se ha registrado más de una vez en SEIUMB.com. Por favor, seleccione la dirección de correo electrónico que desea usar como su cuenta de SEIUMB.com. Todos los demás registros serán eliminados.
+    - ID: "8316d269-752a-40c7-b7f5-189bff34899f"
+      Hint: Title
+      Value: "¡Alerta de Registro Duplicado!"
+    - ID: "899469cb-3672-4ac2-865f-6281f3e89214"
+      Hint: AccountInfo
+      Value: (registrado como | el |)
+    - ID: "8c731811-55cc-4d33-8c59-526614a23bce"
+      Hint: SelectedEmail
+      Value: Usted ha seleccionado | como su usuario/correo para ingresar a SEIUMB.com.  
+    - ID: "98827d68-1b0b-4a5f-a230-d7c69dd1930c"
+      Hint: SelectOther
+      Value: Escoger Otro
+    - ID: "99eb7f43-1118-4d8b-8c99-f350d6386a33"
+      Hint: SubmitButton
+      Value: Enviar
+    - ID: "a846bd39-8485-4b5c-9457-b4b4f1d389ba"
+      Hint: Loader
+      Value: Por favor espere mientras procesamos su solicitud.
+    - ID: "ac2b9d8d-3bd4-4436-a5b1-00570d121133"
+      Hint: Explanation
+      Value: Para utilizar uno de los correos electrónicos listados a continuación usted deberá ingresar la contraseña correspondiente.
+    - ID: "b2364359-9973-4ab8-a5c2-a7856cc37380"
+      Hint: Title
+      Value: Confirmación de Usuario
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{140DBF50-F053-4706-93FB-DEBFBF7E8892}" />
+    - ID: "d26e6278-be2e-4b9e-b663-9db560ccb8ba"
+      Hint: Loader
+      Value: Por favor espere mientras se cargan sus preferencias.
+    - ID: "e3ae3768-8956-4f28-b354-16dd119a14ce"
+      Hint: ApplyChanges
+      Value: Aplicar cambios
+    - ID: "f74c0edd-f0f3-4d3a-afe2-07d57e046b47"
+      Hint: UnselectedEmails
+      Value: Usuario(s)/correo(s) | serán eliminados.

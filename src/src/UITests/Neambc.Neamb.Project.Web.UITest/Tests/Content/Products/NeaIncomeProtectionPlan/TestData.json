@@ -1,0 +1,46 @@
+{
+  "Test_1268": [
+    [ "test@oshyn.com", "secret12" ]
+  ],
+  "Test_1977": [
+    [ "941" ],
+    [ "000272975" ]
+  ],
+  "Test_1975": [
+    [ "test@oshyn.com", "secret12", "991" ]
+  ],
+  "Test_1406": [
+    [ "test@oshyn.com", "secret12", "991" ]
+  ],
+  "Test_1262_1": [
+    [ "nea.jessica@gmail.com", "secret12", "Jessica Millennial (000000991) |" ]
+  ],
+  "Test_1262_2": [
+    [ "nea.jessica@gmail.com", "secret12", "991", "https://neamb-efulfillment-prod.s3.amazonaws.com" ]
+  ],
+  "ColdState": [
+    [
+      "dataLayerPush({'event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "WarmState": [
+    [
+      "999",
+      "dataLayerPush({'event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Enroll Now','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Print an Application','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Enroll Now','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Income Protection Plan','ctaText':'Print an Application','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "HotState": [
+    [
+      "nea.jessica@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'product cta','productName':'NEA Income Protection Plan','ctaText':'Enroll Now','clickHref':'https://afenroll.benselect.com/Enroll/Login.aspx'},this)",
+      "dataLayerPush({'event':'secondary cta','productName':'NEA Income Protection Plan','ctaText':'Print an Application','clickHref':'/api/ProductRoute/DownloadEfulfillmentPdfMultirow'},this)",
+      "dataLayerPush({'event':'product cta','productName':'NEA Income Protection Plan','ctaText':'Enroll Now','clickHref':'https://afenroll.benselect.com/Enroll/Login.aspx'},this)",
+      "dataLayerPush({'event':'secondary cta','productName':'NEA Income Protection Plan','ctaText':'Print an Application','clickHref':'/api/ProductRoute/DownloadEfulfillmentPdfMultirow'},this)"
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "5223a6c7-e3a8-47b5-96ac-c55f8f82be54"
+Parent: "de971e7d-50d7-4a58-b57a-1f7c12b75d23"
+Template: "de971e7d-50d7-4a58-b57a-1f7c12b75d23"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Phone/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T165509Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7cf2ae38-6f3a-4c72-a9e0-86c14db843b7"
+      Hint: Label
+      Value: Phone (optional)
+    - ID: "a38d52fb-50bf-44eb-a03f-81af27e6cbb7"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "ffee5bc4-eb6e-4b91-9daa-ab02ddd6a7af"
+      Hint: Characters Limit
+      Value: You can enter only 10 characters in this field

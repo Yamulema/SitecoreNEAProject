@@ -1,0 +1,141 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Feature.Account.Enums
+
+@model Neambc.Neamb.Feature.Account.Models.MemberVerification
+@{
+    string className = Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidPassword) ? "server-errors" : "";
+}
+
+
+@if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.GeneralError))
+{
+    <section class="error-bar show">
+        <p>@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.Error, Model.Item)<i aria-hidden="true" class="fa fa-times"></i></p>
+    </section>
+}
+
+
+@if (Model.Status != WelcomeStatus.None || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="new-design form col-centered">
+        <div class="col-xs-12">
+            <form id="member-verification" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+                <input type="hidden" name="fhController" value="WelcomeController" data-abide-ignore />
+                <input type="hidden" name="fhAction" value="MemberVerification" data-abide-ignore />
+                <div class="step-header">
+                    <h5>@Model.Salutation</h5>
+                    <p>@Model.Instructions</p>
+                </div>
+                <div class="form-section">
+                    <div class="floating-section m-t-xl">
+                        <div class="floating-group">
+                            <input class="ignore" id="imsid" name="imsid" type="text"
+                                   placeholder="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.IdLabel, Model.Item)"
+                                   value="@Model.Imsid" readonly />
+                            <label for="imsid">@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.IdLabel, Model.Item)</label>
+                        </div>
+                        <div class="floating-messages">
+                            @if (!string.IsNullOrEmpty(Model.Item.Fields[Templates.MemberVerificationForm.Fields.IdTooltip].Value))
+                            {
+                                <div class="floating-info-messages">
+                                    @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.IdTooltip, Model.Item)
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    @if (Model.Status == WelcomeStatus.ExistingMember)
+                    {
+                        <input id="action" type="hidden" name="Action" value="@((int)WelcomeAction.VerifyPassword)" data-abide-ignore />
+                        <input id="zip" name="zip" type="hidden" value="00000" />
+                        <div class="floating-section">
+                            <div class="floating-group">
+                                <input id="password" name="password" type="password" value=""
+                                       placeholder="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.PasswordLabel, Model.Item)" required="required"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.PasswordEmptyField, Model.Item, new {@DisableWebEdit = true})"
+                                       data-rule-minlength="8"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.MinimumCaracterCount, Model.Item, new {@DisableWebEdit = true})"
+                                       data-rule-strongPassword="true"
+                                       data-msg-strongPassword="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.NoEspecialCaracterError, Model.Item, new {@DisableWebEdit = true})" />
+                                <label for="password">@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.PasswordLabel, Model.Item)</label>
+                                <div class="eye-wrapper showPassword">
+                                    <span class="eye-icon"></span>
+                                </div>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages">
+                                    @if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidPassword))
+                                    {
+                                        <div class="server-error">
+                                            @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.PasswordInvalid, Model.Item, new { @DisableWebEdit = true })
+                                        </div>
+                                    }
+                                </div>
+                                @if (!string.IsNullOrEmpty(Model.Item.Fields[Templates.MemberVerificationForm.Fields.PasswordTooltip].Value))
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.PasswordTooltip, Model.Item, new { @DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                    @if (Model.Status == WelcomeStatus.NewMember || Sitecore.Context.PageMode.IsExperienceEditor)
+                    {
+                        <input id="action" type="hidden" name="Action" value="@((int)WelcomeAction.VerifyZip)" data-abide-ignore />
+                        <input id="password" name="password" type="hidden" value="#####" />
+
+                        <div class="floating-section">
+                            <div class="floating-group">
+                                <input id="zip" name="zip" type="text" placeholder="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.ZipLabel, Model.Item)" required="required" value="@Model.Zip"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.ZipEmptyField, Model.Item, new {@DisableWebEdit = true})"
+                                       data-rule-minlength="5"
+                                       data-msg-minlength="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.ZipCharactersLimit, Model.Item, new {@DisableWebEdit = true})"
+                                       data-rule-maxlength="5"
+                                       data-msg-maxlength="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.ZipCharactersLimit, Model.Item, new {@DisableWebEdit = true})"
+                                       data-msg="@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.InvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+                                <label for="zip">@Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.ZipLabel, Model.Item)</label>
+                            </div>
+                            <div class="floating-messages">
+                                <div class="floating-error-messages">
+                                    @if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidZip))
+                                    {
+                                        <div class="server-error">
+                                            @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.ZipEmptyField, Model.Item, new { @DisableWebEdit = true })
+                                        </div>
+                                    }
+                                    @if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.ZipMatchNotFound))
+                                    {
+                                        <div class="server-error">
+                                            @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.MatchNotFound, Model.Item, new { @DisableWebEdit = true }) <br />
+                                            @Model.Attempts.ToString() @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.PasswordTooltip, Model.Item, new { @DisableWebEdit = true })
+                                        </div>
+                                    }
+                                    @if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.TooManyAttempts))
+                                    {
+                                        <div class="error">Too many attempts</div>
+                                    }
+                                </div>
+                                @if (!string.IsNullOrEmpty(Model.Item.Fields[Templates.MemberVerificationForm.Fields.ZipTooltip].Value))
+                                {
+                                    <div class="floating-info-messages">
+                                        @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.ZipTooltip, Model.Item, new { @DisableWebEdit = true })
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+
+                </div>
+                <div class="form-section">
+                    <button type="submit" class="btn btn-new btn-outline-default m-t-sm">
+                        @Html.Sitecore().Field(Templates.MemberVerificationForm.Fields.Submit, Model.Item, new { @DisableWebEdit = true })
+                        <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+}
+

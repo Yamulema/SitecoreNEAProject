@@ -1,0 +1,41 @@
+﻿<Transmittal 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance\" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema\"
+  SenderID="D05B0402-88C2-4327-9704-2E2040526E0E" 
+  Type="UploadApplicants"
+>
+  <Group>
+    <GroupName>NEA Member Benefits</GroupName>
+  </Group>
+  <Applicants>
+    <Applicant  ID="1" ForceChangePIN="false">
+      <AsOfDate>2015-01-01T21:24:40</AsOfDate>
+      <Address Type="Personal">
+        <Line1>{address}</Line1>
+        <City>{city}</City>
+        <State>{statecode}</State>
+        <Zip>{zipcode}</Zip>
+      </Address>
+      <Email>{loginuserid}</Email>
+      <FirstName>{firstname}</FirstName>
+      <LastName>{lastname}</LastName>
+      <Sex>Female</Sex>
+      <PersonalEmail>{loginuserid}</PersonalEmail>
+      <Employment Status="Active">
+        <HireDate>2015-01-01T00:00:00</HireDate>
+        <Department>NEA</Department>
+        <Location>NEA</Location>
+        <JobClass>NEA</JobClass>
+        <PayGroup>NEA</PayGroup>
+        <PayrollFrequency>26</PayrollFrequency>
+        <DeductionFrequency>26</DeductionFrequency>
+        <Salary>0000.0000</Salary>
+      </Employment>
+      <LegalStatus>Employee</LegalStatus>
+      <BirthDate>{birthdate}</BirthDate>
+      <EmployeeIdent>{mdsIndvId}</EmployeeIdent>
+      <Location>NEA</Location>
+    </Applicant>
+  </Applicants>
+  <TransmittalResult Status="OK" />
+</Transmittal>

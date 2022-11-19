@@ -1,0 +1,25 @@
+﻿---
+ID: "b31a37c8-6c6b-42cf-878d-25195743f029"
+Parent: "5fff5fb8-99a7-452f-8d7f-e837cd53b62f"
+Template: "5fff5fb8-99a7-452f-8d7f-e837cd53b62f"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Name Value Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {7F85B6D0-F533-45AC-B00B-DDD602AB6FCF}
+    {5FFF5FB8-99A7-452F-8D7F-E837CD53B62F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171114T192359Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

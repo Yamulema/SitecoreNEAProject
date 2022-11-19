@@ -1,0 +1,22 @@
+﻿---
+ID: "1d3ba939-c1b6-4526-ad50-372e58db28d0"
+Parent: "91b8a564-b0b5-4943-b331-7dd62021ba49"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/NEAMB/2 Col Stackable C030
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "two-column-stackable-item"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{C8337781-420D-4017-8CFF-DAADAB399ABE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180501T222420Z

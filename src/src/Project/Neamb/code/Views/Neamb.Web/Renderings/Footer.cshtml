@@ -1,0 +1,12 @@
+﻿@using Neambc.Neamb.Project.Web
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Neambc.Neamb.Project.Web.Models.FooterDTO
+
+@Html.Sitecore().Field(Templates.SiteSettings.Fields.FooterContent, Model.SiteSettings)
+<section>
+    <div class="container">
+        <span class="copy hidden-xs hidden-sm">@Model.Version</span>
+    </div>
+</section>

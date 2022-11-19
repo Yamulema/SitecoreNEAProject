@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="LoginPage" urlpath="/login">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="LoginPage_Header_SignIn" xpath="//div[@class='navbar-text']//span[contains(text(),'Sign In')]" />
+          </controls>
+        </section>
+        <section name="Form">
+          <controls>
+            <control key="LoginPage_Form_Form"  xpath="//form[@id='login']" />
+            <control key="LoginPage_Form_EmailLabel"   xpath="//label[contains(@for,'email')]"  />
+            <control key="LoginPage_Form_EmailTextbox"  id="email"  />
+            <control key="LoginPage_Form_PasswordLabel"  xpath="//label[contains(@for,'password')]"  />
+            <control key="LoginPage_Form_PasswordTextbox"  id="password"  />
+            <control key="LoginPage_Form_SignInButton"  xpath="//*[@id='submitLogin']"  />
+            <control key="LoginPage_Form_ForgotPasswordLink"  xpath="(//a[contains(@href,'/forgot-password')])[1]"  />
+            <control key="LoginPage_Form_ForgotEmailLink"  xpath="(//a[contains(@href,'/forgot-email')])[1]"  />
+            <control key="LoginPage_Form_RememberMe"  xpath="//span[@class='checkmark']"  />
+          </controls>
+        </section>
+        <section name="FormErrors">
+          <controls>
+            <control key="LoginPage_FormErrors_EmailError"  xpath="//label[@id='email-error']" />
+            <control key="LoginPage_FormErrors_PasswordError"  id="password-error" />
+            <control key="LoginPage_FormErrors_Error"  xpath="/html[1]/body[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/div[4]/div[1]/span[1]" />
+            <control key="LoginPage_FormErrors_GeneralError"  id="errorgeneralserver"  />
+          </controls>
+        </section>
+        <section name="Registration">
+          <controls>
+            <control key ="LoginPage_Registration_Title" xpath="//h1"/>
+            <control key ="LoginPage_Registration_Link" xpath="//div[@class='col-md-4']//a[contains(text(),'Create an Account')]"/>
+		 </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

@@ -1,0 +1,21 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Product
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<section class="section-normal c-088 bg-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12 text-container">
+                <h3>@Html.Sitecore().Field(Templates.RetirementProduct.Fields.Name, Model.Item)</h3>
+                <span style="color: #ffffff;">@Html.Sitecore().Field(Templates.RetirementProduct.Fields.Subhead, Model.Item)</span>
+                <div class="button text-white">
+                    @Html.Sitecore().Field(Templates.RetirementProduct.Fields.CTALink, Model.Item, new { @class = "btn" })
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <img class="img-fit" src="@Model.Item.ImageUrl(Templates.RetirementProduct.Fields.Image)" />
+            </div>
+        </div>
+    </div>
+</section>

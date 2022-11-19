@@ -1,0 +1,35 @@
+﻿---
+ID: "c164a734-0d68-415b-b832-f75dcc97b7eb"
+Parent: "7b5227bd-3abe-4aa7-897d-587a1ad9390d"
+Template: "7b5227bd-3abe-4aa7-897d-587a1ad9390d"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Product Passthrough/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{B5CB5C72-4797-4EAF-AA0B-CC34FF8D18A0}"
+          ph="body"
+          uid="{55FE1729-77E8-48B1-9EA2-459C4F57CD23}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200513T194010Z

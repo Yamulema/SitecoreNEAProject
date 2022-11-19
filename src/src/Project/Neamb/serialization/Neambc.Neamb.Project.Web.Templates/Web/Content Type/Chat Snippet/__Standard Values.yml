@@ -1,0 +1,22 @@
+﻿---
+ID: "283e4c28-c5f4-4d44-a058-054552d5774d"
+Parent: "2361dbc4-2834-4d5e-8518-3e774ab4607c"
+Template: "2361dbc4-2834-4d5e-8518-3e774ab4607c"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Chat Snippet/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180815T193848Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

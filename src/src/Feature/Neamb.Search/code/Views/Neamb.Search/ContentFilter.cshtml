@@ -1,0 +1,38 @@
+﻿@using System.Runtime.CompilerServices
+@using Neambc.Neamb.Feature.Search
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Search.Models.ContentFilterDto
+
+<section data-page-id="@Model.PageId" data-datasource-id="@Model.DatasourceID" class="section-normal c-027 bg-gray">
+    <div class="container">
+        <div class="col-md-12">
+            <h2 class="header text-center">@Html.Sitecore().Field(Templates.ContentFilter.Fields.Header, Model.Item)</h2>
+            <div id="filters" class="hidden-xs hidden-sm"></div>
+            <div id="mobile-filters" class="hidden-md hidden-lg"></div>
+            <div id="items">
+                <div class="loader"> 
+                    <div class="loader">
+                        <div class="sk-circle">
+                            <div class="sk-circle1 sk-child"></div>
+                            <div class="sk-circle2 sk-child"></div>
+                            <div class="sk-circle3 sk-child"></div>
+                            <div class="sk-circle4 sk-child"></div>
+                            <div class="sk-circle5 sk-child"></div>
+                            <div class="sk-circle6 sk-child"></div>
+                            <div class="sk-circle7 sk-child"></div>
+                            <div class="sk-circle8 sk-child"></div>
+                            <div class="sk-circle9 sk-child"></div>
+                            <div class="sk-circle10 sk-child"></div>
+                            <div class="sk-circle11 sk-child"></div>
+                            <div class="sk-circle12 sk-child"></div>
+                        </div>
+                    </div>
+                    <!--.col.md-8.col-centered.text-centerh2.laoding-message.text-blue Loading please wait!!
+                    -->
+                </div>
+            </div>
+            <div class="text-center p-t-md"><a href="#" title="title" class="more-items" @Html.Raw(Model.SeeMoreOnClickEvent)>@Html.Sitecore().Field(Templates.ContentFilter.Fields.SeeMoreText, Model.Item)</a></div>
+        </div>
+    </div>
+</section>

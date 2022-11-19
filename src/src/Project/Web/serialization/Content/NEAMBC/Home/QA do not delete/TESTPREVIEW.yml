@@ -1,0 +1,1157 @@
+﻿---
+ID: "73f089c6-b62b-43a8-89ef-3b4c8fac65f8"
+Parent: "06147e7c-745f-4efc-a0cd-36039b16b1e6"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/QA do not delete/TESTPREVIEW
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{82F60FC2-DD04-41FF-BFBC-13152137AA9F}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Group Term Life Insurance Plan, issued by The Prudential Insurance Company of America, is an economical way to help safeguard yourself and your family.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002223Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Includes domestic partner or registered domestic partner. Spouse cannot enroll for coverage unless member also enrolls.</p>
+        <p>
+        2. Subject to underwriting approval.&nbsp;Coverage cannot exceed $300,000.</p>
+        <p>
+        3. Accelerated Death Benefit option is a feature that is made available to group life insurance participants. It is not a health, nursing home or long-term care insurance benefit and is not designed to eliminate the need for those types of insurance coverage. The death benefit is reduced by the amount of the accelerated death benefit paid. There is no administrative fee to accelerate benefits. Receipt of accelerated death benefits may affect eligibility for public assistance and may be taxable. The federal income tax treatment of payments made under this rider depends upon whether the insured is the recipient of the benefits and is considered terminally ill. You may wish to seek professional tax advice before exercising this option.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        The SEIU Group Term Life Insurance Plan is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1014415-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu group term life insurance > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ GROUP TERM LIFE INSURANCE PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>SEIU Group Term Life Insurance</strong> is available <em>only </em>to SEIU members and their families. Some of the exclusive benefits of the program include:</p>
+        <ul>
+            <li><strong>Affordable, group-discounted rates.</strong> Members, spouses, domestic partners<sup>1</sup> and dependent children are all eligible for exclusive rates.</li>
+            <li><strong>Flexible coverage levels from $25,000 to $300,000.</strong> There’s no long-term commitment. You decide how long you want coverage—and you can always increase or decrease it.<sup>2</sup></li>
+            <li><strong>Full benefits until age 65.</strong> Once you’re approved, your coverage remains in place—even if your health changes. You can’t be dropped for health reasons. Premiums increase every five years.</li>
+            <li><strong>75% of your benefit can be paid while you’re alive.</strong><sup>3</sup> If you become terminally ill, accelerated benefits can help your family with expenses.</li>
+            <li><strong>No premiums if you are out on strike for up to 90 days. </strong> The SEIU Life Insurance Program will waive your Life Insurance premium after the 31st day you are on strike until the date the strike ends or the date 90 days from the start of the strike, whichever occurs first.</li>
+        </ul>
+        <p><strong>How much life insurance does your family need?</strong><br>
+        Experts suggest 5 to 10 times your annual salary in coverage.<sup>4</sup> So even if your employer provides coverage, it may not be adequate.</p>
+        <p><strong>Why consider SEIU Life Insurance?</strong><br>
+        We serve members with only one goal: to save you money on coverage. SEIU Group Term Life Insurance is <strong>issued by The Prudential Insurance Company of America (Prudential),</strong> one of the most trusted names in insurance.</p>
+        <p><strong>Affordable premiums</strong><br>
+        These downloadable charts will show you the monthly cost for each coverage amount:</p>
+        <p style="text-align: center;"><a href="-/media/3067A2FAEDE14DB4BB490366EBF74815.ashx" target="_blank">$25,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/BA29B68C070142B9B4DDE5BBAF95A12D.ashx" target="_blank">$50,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/C8BB74D4872C47AFA8535CB1D5353099.ashx" target="_blank">$100,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/7A32BD8F7E8B4D268CEDFE87E60599AC.ashx" target="_blank">$150,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/F94880A56539441ABB88314C6C164AEC.ashx" target="_blank">$200,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/3FFB4DD6BE0E4A8CA78817A15C16A9C5.ashx" target="_blank">$250,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/B504E903D796486D93EE95572441AD5D.ashx" target="_blank">$300,000 Rate Chart</a></p>
+        <p><strong>Have questions?</strong><br>
+        We’re here to help. See our <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://mags.mercer.com/mags/enroll.html?APPLICATION=MAGS&amp;FUNCTIONALITY=ENROLLMENT&amp;FIRM=SEIU&amp;CLIENT=IMF_240&amp;OFFERING=GTL&amp;PROMOCODE=084449020202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>The SEIU Group Term Life Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> is an economical way to help safeguard yourself and your family.</p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "ENROLL NOW FOR AFFORDABLE, GROUP-DISCOUNTED RATES"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200714T113000Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Group Term Life Insurance Program
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{82F60FC2-DD04-41FF-BFBC-13152137AA9F}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Group Term Life Insurance Plan, issued by The Prudential Insurance Company of America, is an economical way to help safeguard yourself and your family.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190222T160806Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Includes domestic partner or registered domestic partner. Spouse cannot enroll for coverage unless member also enrolls.</p>
+        <p>
+        2. Subject to underwriting approval.&nbsp;Coverage cannot exceed $300,000.</p>
+        <p>
+        3. Accelerated Death Benefit option is a feature that is made available to group life insurance participants. It is not a health, nursing home or long-term care insurance benefit and is not designed to eliminate the need for those types of insurance coverage. The death benefit is reduced by the amount of the accelerated death benefit paid. There is no administrative fee to accelerate benefits. Receipt of accelerated death benefits may affect eligibility for public assistance and may be taxable. The federal income tax treatment of payments made under this rider depends upon whether the insured is the recipient of the benefits and is considered terminally ill. You may wish to seek professional tax advice before exercising this option.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        The SEIU Group Term Life Insurance Plan is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1014415-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu group term life insurance > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ GROUP TERM LIFE INSURANCE PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>SEIU Group Term Life Insurance</strong> is available <em>only </em>to SEIU members and their families. Some of the exclusive benefits of the program include:</p>
+        <ul>
+            <li><strong>Affordable, group-discounted rates.</strong> Members, spouses, domestic partners<sup>1</sup> and dependent children are all eligible for exclusive rates.</li>
+            <li><strong>Flexible coverage levels from $25,000 to $300,000.</strong> There&rsquo;s no long-term commitment. You decide how long you want coverage&mdash;and you can always increase or decrease it.<sup>2</sup></li>
+            <li><strong>Full benefits until age 65.</strong> Once you&rsquo;re approved, your coverage remains in place&mdash;even if your health changes. You can&rsquo;t be dropped for health reasons. Premiums increase every five years.</li>
+            <li><strong>75% of your benefit can be paid while you&rsquo;re alive.</strong><sup>3</sup> If you become terminally ill, accelerated benefits can help your family with expenses.</li>
+            <li><strong>No premiums if you are out on strike for up to 90 days. </strong> The SEIU Life Insurance Program will waive your Life Insurance premium after the 31st day you are on strike until the date the strike ends or the date 90 days from the start of the strike, whichever occurs first.</li>
+        </ul>
+        <p><strong>How much life insurance does your family need?</strong><br />
+        Experts suggest 5 to 10 times your annual salary in coverage.<sup>4</sup> So even if your employer provides coverage, it may not be adequate.</p>
+        <p><strong>Why consider SEIU Life Insurance?</strong><br />
+        We serve members with only one goal: to save you money on coverage. SEIU Group Term Life Insurance is <strong>issued by The Prudential Insurance Company of America (Prudential),</strong> one of the most trusted names in insurance.</p>
+        <p><strong>Affordable premiums</strong><br />
+        These downloadable charts will show you the monthly cost for each coverage amount:</p>
+        <p style="text-align: center;"><a href="-/media/3067A2FAEDE14DB4BB490366EBF74815.ashx" target="_blank">$25,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/BA29B68C070142B9B4DDE5BBAF95A12D.ashx" target="_blank">$50,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/C8BB74D4872C47AFA8535CB1D5353099.ashx" target="_blank">$100,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/7A32BD8F7E8B4D268CEDFE87E60599AC.ashx" target="_blank">$150,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/F94880A56539441ABB88314C6C164AEC.ashx" target="_blank">$200,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/3FFB4DD6BE0E4A8CA78817A15C16A9C5.ashx" target="_blank">$250,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/B504E903D796486D93EE95572441AD5D.ashx" target="_blank">$300,000 Rate Chart</a></p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://mags.mercer.com/mags/enroll.html?APPLICATION=MAGS&amp;FUNCTIONALITY=ENROLLMENT&amp;FIRM=SEIU&amp;CLIENT=IMF_240&amp;OFFERING=GTL&amp;PROMOCODE=088673020202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>The SEIU Group Term Life Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> is an economical way to help safeguard yourself and your family.</p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "ENROLL NOW FOR AFFORDABLE, GROUP-DISCOUNTED RATES"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190222T160800Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Group Term Life Insurance Program
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{82F60FC2-DD04-41FF-BFBC-13152137AA9F}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Group Term Life Insurance Plan, issued by The Prudential Insurance Company of America, is an economical way to help safeguard yourself and your family.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T161710Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Includes domestic partner or registered domestic partner. Spouse cannot enroll for coverage unless member also enrolls.</p>
+        <p>
+        2. Subject to underwriting approval.&nbsp;Coverage cannot exceed $300,000.</p>
+        <p>
+        3. Accelerated Death Benefit option is a feature that is made available to group life insurance participants. It is not a health, nursing home or long-term care insurance benefit and is not designed to eliminate the need for those types of insurance coverage. The death benefit is reduced by the amount of the accelerated death benefit paid. There is no administrative fee to accelerate benefits. Receipt of accelerated death benefits may affect eligibility for public assistance and may be taxable. The federal income tax treatment of payments made under this rider depends upon whether the insured is the recipient of the benefits and is considered terminally ill. You may wish to seek professional tax advice before exercising this option.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        The SEIU Group Term Life Insurance Plan is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1018490-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu group term life insurance program > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ GROUP TERM LIFE INSURANCE PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div style="text-align: center;">
+        <script src="https://cdn.jwplayer.com/players/SrGUT2Hy-XDr5hdIt.js"></script>
+        </div>
+        <p style="text-align: center;"><strong><em>What is Life Insurance?</em></strong><em><strong></strong><br />
+        Do you know what life insurance is and how much is enough? Watch this video and find out.</em></p>
+        <br />
+        <p><strong>SEIU Group Term Life Insurance</strong> is available <em>only </em>to SEIU members and their families. Some of the exclusive benefits of the program include:</p>
+        <ul>
+            <li><strong>Affordable, group-discounted rates.</strong> Members, spouses, domestic partners<sup>1</sup> and dependent children are all eligible for exclusive rates.</li>
+            <li><strong>Flexible coverage levels from $25,000 to $300,000.</strong> There&rsquo;s no long-term commitment. You decide how long you want coverage&mdash;and you can always increase or decrease it.<sup>2</sup></li>
+            <li><strong>Full benefits until age 65.</strong> Once you&rsquo;re approved, your coverage remains in place&mdash;even if your health changes. You can&rsquo;t be dropped for health reasons. Premiums increase every five years.</li>
+            <li><strong>75% of your benefit can be paid while you&rsquo;re alive.</strong><sup>3</sup> If you become terminally ill, accelerated benefits can help your family with expenses.</li>
+            <li><strong>No premiums if you are out on strike for up to 90 days. </strong> The SEIU Life Insurance Program will waive your Life Insurance premium after the 31st day you are on strike until the date the strike ends or the date 90 days from the start of the strike, whichever occurs first.</li>
+        </ul>
+        <p><strong>How much life insurance does your family need?</strong><br />
+        Experts suggest 5 to 10 times your annual salary in coverage.<sup>4</sup> So even if your employer provides coverage, it may not be adequate.</p>
+        <p><strong>Why consider SEIU Life Insurance?</strong><br />
+        We serve members with only one goal: to save you money on coverage. SEIU Group Term Life Insurance is <strong>issued by The Prudential Insurance Company of America (Prudential),</strong> one of the most trusted names in insurance.</p>
+        <p><strong>Affordable premiums</strong><br />
+        These downloadable charts will show you the monthly cost for each coverage amount:</p>
+        <p style="text-align: center;"><a href="-/media/3067A2FAEDE14DB4BB490366EBF74815.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 25K rate chart');">$25,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/BA29B68C070142B9B4DDE5BBAF95A12D.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 50K rate chart');">$50,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/C8BB74D4872C47AFA8535CB1D5353099.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 100K rate chart');">$100,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/7A32BD8F7E8B4D268CEDFE87E60599AC.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 150K rate chart');">$150,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/F94880A56539441ABB88314C6C164AEC.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 200K rate chart');">$200,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/3FFB4DD6BE0E4A8CA78817A15C16A9C5.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 250K rate chart');">$250,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/B504E903D796486D93EE95572441AD5D.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 300K rate chart');">$300,000 Rate Chart</a></p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; frequently asked questions);">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://seiumb.memberenroll.com/index.php?Position=1&amp;Products=Member+Term+Life+Insurance&amp;id=[mdsid_afinium]&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010101" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>The SEIU Group Term Life Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> is an economical way to help safeguard yourself and your family.</p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "ENROLL NOW FOR AFFORDABLE, GROUP-DISCOUNTED RATES"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190321T161700Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Group Term Life Insurance Program
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{82F60FC2-DD04-41FF-BFBC-13152137AA9F}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Group Term Life Insurance Plan, issued by The Prudential Insurance Company of America, is an economical way to help safeguard yourself and your family.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A2C624E0-587F-482B-B1F4-4E205BBDEFC8}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190821T141430Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage is not available in Alaska, Utah or Puerto Rico.</p>
+        <p>1. Includes domestic partner or registered domestic partner. Spouse cannot enroll for coverage unless member also enrolls.</p>
+        <p>
+        2. Subject to underwriting approval.&nbsp;Coverage cannot exceed $300,000.</p>
+        <p>
+        3. Accelerated Death Benefit option is a feature that is made available to group life insurance participants. It is not a health, nursing home or long-term care insurance benefit and is not designed to eliminate the need for those types of insurance coverage. The death benefit is reduced by the amount of the accelerated death benefit paid. There is no administrative fee to accelerate benefits. Receipt of accelerated death benefits may affect eligibility for public assistance and may be taxable. The federal income tax treatment of payments made under this rider depends upon whether the insured is the recipient of the benefits and is considered terminally ill. You may wish to seek professional tax advice before exercising this option.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        The SEIU Group Term Life Insurance Plan is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1018490-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br />
+        <a rel="noopener noreferrer"  href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; manage your account');" target="_blank"><strong>Manage Your Account &rsaquo;</strong></a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ GROUP TERM LIFE INSURANCE PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div style="text-align: center;">
+        <script src="https://cdn.jwplayer.com/players/SrGUT2Hy-XDr5hdIt.js"></script>
+        </div>
+        <p style="text-align: center;"><strong><em>What is Life Insurance?</em></strong><em><strong></strong><br />
+        Do you know what life insurance is and how much is enough? Watch this video and find out.</em></p>
+        <br />
+        <p><strong>SEIU Group Term Life Insurance</strong> is available <em>only </em>to SEIU members and their families. Some of the exclusive benefits of the program include:</p>
+        <ul>
+            <li><strong>Affordable, group-discounted rates.</strong> Members, spouses, domestic partners<sup>1</sup> and dependent children are all eligible for exclusive rates.</li>
+            <li><strong>Flexible coverage levels from $25,000 to $300,000.</strong> There&rsquo;s no long-term commitment. You decide how long you want coverage&mdash;and you can always increase or decrease it.<sup>2</sup></li>
+            <li><strong>Full benefits until age 65.</strong> Once you&rsquo;re approved, your coverage remains in place&mdash;even if your health changes. You can&rsquo;t be dropped for health reasons. Premiums increase every five years.</li>
+            <li><strong>75% of your benefit can be paid while you&rsquo;re alive.</strong><sup>3</sup> If you become terminally ill, accelerated benefits can help your family with expenses.</li>
+            <li><strong>No premiums if you are out on strike for up to 90 days. </strong> The SEIU Life Insurance Program will waive your Life Insurance premium after the 31st day you are on strike until the date the strike ends or the date 90 days from the start of the strike, whichever occurs first.</li>
+        </ul>
+        <p><strong>How much life insurance does your family need?</strong><br />
+        Experts suggest 5 to 10 times your annual salary in coverage.<sup>4</sup> So even if your employer provides coverage, it may not be adequate.</p>
+        <p><strong>Why consider SEIU Life Insurance?</strong><br />
+        We serve members with only one goal: to save you money on coverage. SEIU Group Term Life Insurance is <strong>issued by The Prudential Insurance Company of America (Prudential),</strong> one of the most trusted names in insurance.</p>
+        <p><strong>Affordable premiums</strong><br />
+        These downloadable charts will show you the monthly cost for each coverage amount:</p>
+        <p style="text-align: center;"><a href="-/media/3067A2FAEDE14DB4BB490366EBF74815.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 25K rate chart');">$25,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/BA29B68C070142B9B4DDE5BBAF95A12D.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 50K rate chart');">$50,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/C8BB74D4872C47AFA8535CB1D5353099.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 100K rate chart');">$100,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/7A32BD8F7E8B4D268CEDFE87E60599AC.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 150K rate chart');">$150,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/F94880A56539441ABB88314C6C164AEC.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 200K rate chart');">$200,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/3FFB4DD6BE0E4A8CA78817A15C16A9C5.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 250K rate chart');">$250,000 Rate Chart</a></p>
+        <p style="text-align: center;"><a href="-/media/B504E903D796486D93EE95572441AD5D.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; 300K rate chart');">$300,000 Rate Chart</a></p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program &gt; frequently asked questions);">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{A2C624E0-587F-482B-B1F4-4E205BBDEFC8}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Group Term Life Insurance Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=1&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010101" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: <p>The SEIU Group Term Life Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> is an economical way to help safeguard yourself and your family.</p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "ENROLL NOW FOR AFFORDABLE, GROUP-DISCOUNTED RATES"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190821T141400Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Group Term Life Insurance Program
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E0BBB861-ECE2-4124-9BE4-80BB55E40D33}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro de Vida a Término Grupal SEIU, emitido por The Prudential Insurance Company of America, es una manera económica de protegerse a usted y a su familia.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172639Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Incluye la pareja de hecho o la pareja de hecho registrada. El c&oacute;nyuge no puede inscribirse para la cobertura a menos que el miembro tambi&eacute;n se inscriba.</p>
+        <p>
+        2. Sujeto a la aprobaci&oacute;n de suscripci&oacute;n. La cobertura no puede exceder los $300,000.</p>
+        <p>
+        3. La opci&oacute;n de Beneficio por muerte anticipado es una caracter&iacute;stica que est&aacute; disponible para los participantes del seguro de vida grupal. No es un beneficio de seguro de salud, de hogar de ancianos ni de seguro de cuidado a largo plazo y no est&aacute; dise&ntilde;ado para prescindir de esos tipos de cobertura de seguro. El beneficio por muerte se reduce por el monto del beneficio por muerte anticipado pagado. No hay cargos administrativos para anticipar los beneficios. Recibir beneficios por muerte anticipados puede afectar la elegibilidad para recibir asistencia p&uacute;blica y puede ser imponible. El tratamiento federal del impuesto sobre la renta de los pagos hechos en virtud de esta disposici&oacute;n depende de si el asegurado es el destinatario de los beneficios y se lo considera un enfermo terminal. Es posible que desee solicitar asesoramiento fiscal profesional antes de optar por esta alternativa.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; [&ldquo;Cu&aacute;nto seguro de vida necesita realmente?&rdquo;] 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s. </em></p>
+        <p>
+        El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es emitido por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, lo cual incluye cualquier exclusi&oacute;n, limitaci&oacute;n y restricci&oacute;n de la p&oacute;liza que pueda aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1014415-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu group term life insurance > manage your account es');" target="_blank">Administre su cuenta ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE SEGURO DE VIDA A TÉRMINO GRUPAL SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El Seguro de Vida a T&eacute;rmino Grupal SEIU</strong> est&aacute; disponible <em>solamente</em> para los miembros SEIU ya sus familias. Algunos de los exclusivos beneficios del programa incluyen:</p>
+        <ul>
+            <li><strong>Precios asequibles, con descuentos para grupos.</strong> Los miembros, los c&oacute;nyuges, las parejas de hecho<sup>1</sup> y los hijos a cargo son todos elegibles para acceder a tarifas exclusivas.</li>
+            <li><strong>Cobertura flexible de $25,000 a $300,000.</strong> Sin compromiso a largo plazo. Usted decide durante cu&aacute;nto tiempo quiere la cobertura y puede aumentarla o disminuirla cuando lo desee.<sup>2</sup></li>
+            <li><strong>Beneficios completos hasta los 65 a&ntilde;os.</strong> Una vez que usted est&eacute; aceptado, su cobertura permanecer&aacute; vigente, incluso si su salud presenta cambios. No se le puede dar de baja por cuestiones de salud. Las primas aumentan cada cinco a&ntilde;os.</li>
+            <li><strong>El 75% de su beneficio puede pagarse mientras est&eacute; vivo.</strong><sup>3</sup> En caso de una enfermedad terminal, los beneficios anticipados pueden ayudar a su familia con los gastos.</li>
+            <li><strong>No habr&aacute; primas si usted est&aacute; de huelga durante un m&aacute;ximo de 90 d&iacute;as.</strong> El Programa de seguros de vida de SEIU no exigir&aacute; su prima de seguro de vida despu&eacute;s del 31.&ordm; d&iacute;a de huelga hasta la fecha en que finalice la huelga o a los 90 d&iacute;as del comienzo de esta, lo que ocurra primero.</li>
+        </ul>
+        <p><strong>&iquest;Cu&aacute;nto seguro de vida necesita su familia?</strong><br />
+        Los expertos sugieren una cobertura de 5 a 10 veces su salario anual.<sup>4</sup> As&iacute; que incluso si su empleador proporciona cobertura, es posible que no sea la adecuada.</p>
+        <p><strong>&iquest;Por qu&eacute; consideras El seguro de Vida SEIU?</strong><br />
+        Atendemos a los miembros con un solo objetivo: ahorrar dinero en cobertura. El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es <strong>emitido por The Prudential Insurance Company of America (Prudential),</strong> una de las compa&ntilde;&iacute;as m&aacute;s fiables en materia de seguros.</p>
+        <p><strong>Primas asequibles</strong><br />
+        Estos gr&aacute;ficos descargables le mostrar&aacute;n el costo mensual de cada monto de cobertura:</p>
+        <p style="text-align: center;"><a href="-/media/fa76c7e7235e4d37baeb006a8bda9420.ashx" target="_blank">Tabla de tarifas de $25,000</a></p>
+        <p style="text-align: center;"><a href="-/media/01bdad89e2314e5baf62c792eddd0f56.ashx" target="_blank">Tabla de tarifas de $50,000</a></p>
+        <p style="text-align: center;"><a href="-/media/983809f54ed24bc0928bbc998b1fb1b5.ashx" target="_blank">Tabla de tarifas de $100,000</a></p>
+        <p style="text-align: center;"><a href="-/media/b6adf3326b60405d9bdbd7ce3a811ce8.ashx" target="_blank">Tabla de tarifas de $150,000</a></p>
+        <p style="text-align: center;"><a href="-/media/09c7d1bc4ac44b19b107082dbf60fe2a.ashx" target="_blank">Tabla de tarifas de $200,000</a></p>
+        <p style="text-align: center;"><a href="-/media/862e134dc29040d6a71f62c433fe8367.ashx" target="_blank">Tabla de tarifas de $250,000</a></p>
+        <p style="text-align: center;"><a href="-/media/47bea017223a4c678520213a5cf01bee.ashx" target="_blank">Tabla de tarifas de $300,000</a></p>
+        <p><strong>&iquest;Preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="https://mags.mercer.com/mags/enroll.html?APPLICATION=MAGS&amp;FUNCTIONALITY=ENROLLMENT&amp;FIRM=SEIU&amp;CLIENT=IMF_240&amp;OFFERING=GTL&amp;PROMOCODE=084449020202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro de Vida a Término Grupal SEIU, <strong>emitido por The Prudential Insurance Company of America,</strong> es una manera económica de protegerse a usted y a su familia.<br>
+        <br>
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></span></p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: INSCRÍBASE AHORA PARA ACCEDER A PRECIOS ASEQUIBLES, CON DESCUENTOS PARA GRUPOS.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E0BBB861-ECE2-4124-9BE4-80BB55E40D33}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro de Vida a Término Grupal SEIU, emitido por The Prudential Insurance Company of America, es una manera económica de protegerse a usted y a su familia.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190222T161409Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Incluye la pareja de hecho o la pareja de hecho registrada. El c&oacute;nyuge no puede inscribirse para la cobertura a menos que el miembro tambi&eacute;n se inscriba.</p>
+        <p>
+        2. Sujeto a la aprobaci&oacute;n de suscripci&oacute;n. La cobertura no puede exceder los $300,000.</p>
+        <p>
+        3. La opci&oacute;n de Beneficio por muerte anticipado es una caracter&iacute;stica que est&aacute; disponible para los participantes del seguro de vida grupal. No es un beneficio de seguro de salud, de hogar de ancianos ni de seguro de cuidado a largo plazo y no est&aacute; dise&ntilde;ado para prescindir de esos tipos de cobertura de seguro. El beneficio por muerte se reduce por el monto del beneficio por muerte anticipado pagado. No hay cargos administrativos para anticipar los beneficios. Recibir beneficios por muerte anticipados puede afectar la elegibilidad para recibir asistencia p&uacute;blica y puede ser imponible. El tratamiento federal del impuesto sobre la renta de los pagos hechos en virtud de esta disposici&oacute;n depende de si el asegurado es el destinatario de los beneficios y se lo considera un enfermo terminal. Es posible que desee solicitar asesoramiento fiscal profesional antes de optar por esta alternativa.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; [&ldquo;Cu&aacute;nto seguro de vida necesita realmente?&rdquo;] 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s. </em></p>
+        <p>
+        El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es emitido por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, lo cual incluye cualquier exclusi&oacute;n, limitaci&oacute;n y restricci&oacute;n de la p&oacute;liza que pueda aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1014415-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu group term life insurance > manage your account es');" target="_blank">Administre su cuenta ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE SEGURO DE VIDA A TÉRMINO GRUPAL SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El Seguro de Vida a T&eacute;rmino Grupal SEIU</strong> est&aacute; disponible <em>solamente</em> para los miembros SEIU ya sus familias. Algunos de los exclusivos beneficios del programa incluyen:</p>
+        <ul>
+            <li><strong>Precios asequibles, con descuentos para grupos.</strong> Los miembros, los c&oacute;nyuges, las parejas de hecho<sup>1</sup> y los hijos a cargo son todos elegibles para acceder a tarifas exclusivas.</li>
+            <li><strong>Cobertura flexible de $25,000 a $300,000.</strong> Sin compromiso a largo plazo. Usted decide durante cu&aacute;nto tiempo quiere la cobertura y puede aumentarla o disminuirla cuando lo desee.<sup>2</sup></li>
+            <li><strong>Beneficios completos hasta los 65 a&ntilde;os.</strong> Una vez que usted est&eacute; aceptado, su cobertura permanecer&aacute; vigente, incluso si su salud presenta cambios. No se le puede dar de baja por cuestiones de salud. Las primas aumentan cada cinco a&ntilde;os.</li>
+            <li><strong>El 75% de su beneficio puede pagarse mientras est&eacute; vivo.</strong><sup>3</sup> En caso de una enfermedad terminal, los beneficios anticipados pueden ayudar a su familia con los gastos.</li>
+            <li><strong>No habr&aacute; primas si usted est&aacute; de huelga durante un m&aacute;ximo de 90 d&iacute;as.</strong> El Programa de seguros de vida de SEIU no exigir&aacute; su prima de seguro de vida despu&eacute;s del 31.&ordm; d&iacute;a de huelga hasta la fecha en que finalice la huelga o a los 90 d&iacute;as del comienzo de esta, lo que ocurra primero.</li>
+        </ul>
+        <p><strong>&iquest;Cu&aacute;nto seguro de vida necesita su familia?</strong><br />
+        Los expertos sugieren una cobertura de 5 a 10 veces su salario anual.<sup>4</sup> As&iacute; que incluso si su empleador proporciona cobertura, es posible que no sea la adecuada.</p>
+        <p><strong>&iquest;Por qu&eacute; consideras El seguro de Vida SEIU?</strong><br />
+        Atendemos a los miembros con un solo objetivo: ahorrar dinero en cobertura. El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es <strong>emitido por The Prudential Insurance Company of America (Prudential),</strong> una de las compa&ntilde;&iacute;as m&aacute;s fiables en materia de seguros.</p>
+        <p><strong>Primas asequibles</strong><br />
+        Estos gr&aacute;ficos descargables le mostrar&aacute;n el costo mensual de cada monto de cobertura:</p>
+        <p style="text-align: center;"><a href="-/media/fa76c7e7235e4d37baeb006a8bda9420.ashx" target="_blank">Tabla de tarifas de $25,000</a></p>
+        <p style="text-align: center;"><a href="-/media/01bdad89e2314e5baf62c792eddd0f56.ashx" target="_blank">Tabla de tarifas de $50,000</a></p>
+        <p style="text-align: center;"><a href="-/media/983809f54ed24bc0928bbc998b1fb1b5.ashx" target="_blank">Tabla de tarifas de $100,000</a></p>
+        <p style="text-align: center;"><a href="-/media/b6adf3326b60405d9bdbd7ce3a811ce8.ashx" target="_blank">Tabla de tarifas de $150,000</a></p>
+        <p style="text-align: center;"><a href="-/media/09c7d1bc4ac44b19b107082dbf60fe2a.ashx" target="_blank">Tabla de tarifas de $200,000</a></p>
+        <p style="text-align: center;"><a href="-/media/862e134dc29040d6a71f62c433fe8367.ashx" target="_blank">Tabla de tarifas de $250,000</a></p>
+        <p style="text-align: center;"><a href="-/media/47bea017223a4c678520213a5cf01bee.ashx" target="_blank">Tabla de tarifas de $300,000</a></p>
+        <p><strong>&iquest;Preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="https://mags.mercer.com/mags/enroll.html?APPLICATION=MAGS&amp;FUNCTIONALITY=ENROLLMENT&amp;FIRM=SEIU&amp;CLIENT=IMF_240&amp;OFFERING=GTL&amp;PROMOCODE=088673020202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro de Vida a Término Grupal SEIU, <strong>emitido por The Prudential Insurance Company of America,</strong> es una manera económica de protegerse a usted y a su familia.<br>
+        <br>
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></span></p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: INSCRÍBASE AHORA PARA ACCEDER A PRECIOS ASEQUIBLES, CON DESCUENTOS PARA GRUPOS.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190222T161409Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E0BBB861-ECE2-4124-9BE4-80BB55E40D33}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro de Vida a Término Grupal SEIU, emitido por The Prudential Insurance Company of America, es una manera económica de protegerse a usted y a su familia.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190321T161918Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Incluye la pareja de hecho o la pareja de hecho registrada. El c&oacute;nyuge no puede inscribirse para la cobertura a menos que el miembro tambi&eacute;n se inscriba.</p>
+        <p>
+        2. Sujeto a la aprobaci&oacute;n de suscripci&oacute;n. La cobertura no puede exceder los $300,000.</p>
+        <p>
+        3. La opci&oacute;n de Beneficio por muerte anticipado es una caracter&iacute;stica que est&aacute; disponible para los participantes del seguro de vida grupal. No es un beneficio de seguro de salud, de hogar de ancianos ni de seguro de cuidado a largo plazo y no est&aacute; dise&ntilde;ado para prescindir de esos tipos de cobertura de seguro. El beneficio por muerte se reduce por el monto del beneficio por muerte anticipado pagado. No hay cargos administrativos para anticipar los beneficios. Recibir beneficios por muerte anticipados puede afectar la elegibilidad para recibir asistencia p&uacute;blica y puede ser imponible. El tratamiento federal del impuesto sobre la renta de los pagos hechos en virtud de esta disposici&oacute;n depende de si el asegurado es el destinatario de los beneficios y se lo considera un enfermo terminal. Es posible que desee solicitar asesoramiento fiscal profesional antes de optar por esta alternativa.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; [&ldquo;Cu&aacute;nto seguro de vida necesita realmente?&rdquo;] 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s. </em></p>
+        <p>
+        El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es emitido por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, lo cual incluye cualquier exclusi&oacute;n, limitaci&oacute;n y restricci&oacute;n de la p&oacute;liza que pueda aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1018490-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu group term life insurance program esp > manage your account');" target="_blank">Administre su cuenta ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE SEGURO DE VIDA A TÉRMINO GRUPAL SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div style="text-align: center;">
+        <script src="https://cdn.jwplayer.com/players/HuZ7VUvq-XDr5hdIt.js"></script>
+        </div>
+        <p style="text-align: center;"><strong><em>&iquest;Qu&eacute; es el seguro de vida?</em></strong><em><strong></strong><br />
+        &iquest;Sabes qu&eacute; es un seguro de vida y cu&aacute;nto es suficiente? Mira este v&iacute;deo y desc&uacute;brelo.</em></p>
+        <br />
+        <p><strong>El Seguro de Vida a T&eacute;rmino Grupal SEIU</strong> est&aacute; disponible <em>solamente</em> para los miembros SEIU ya sus familias. Algunos de los exclusivos beneficios del programa incluyen:</p>
+        <ul>
+            <li><strong>Precios asequibles, con descuentos para grupos.</strong> Los miembros, los c&oacute;nyuges, las parejas de hecho<sup>1</sup> y los hijos a cargo son todos elegibles para acceder a tarifas exclusivas.</li>
+            <li><strong>Cobertura flexible de $25,000 a $300,000.</strong> Sin compromiso a largo plazo. Usted decide durante cu&aacute;nto tiempo quiere la cobertura y puede aumentarla o disminuirla cuando lo desee.<sup>2</sup></li>
+            <li><strong>Beneficios completos hasta los 65 a&ntilde;os.</strong> Una vez que usted est&eacute; aceptado, su cobertura permanecer&aacute; vigente, incluso si su salud presenta cambios. No se le puede dar de baja por cuestiones de salud. Las primas aumentan cada cinco a&ntilde;os.</li>
+            <li><strong>El 75% de su beneficio puede pagarse mientras est&eacute; vivo.</strong><sup>3</sup> En caso de una enfermedad terminal, los beneficios anticipados pueden ayudar a su familia con los gastos.</li>
+            <li><strong>No habr&aacute; primas si usted est&aacute; de huelga durante un m&aacute;ximo de 90 d&iacute;as.</strong> El Programa de seguros de vida de SEIU no exigir&aacute; su prima de seguro de vida despu&eacute;s del 31.&ordm; d&iacute;a de huelga hasta la fecha en que finalice la huelga o a los 90 d&iacute;as del comienzo de esta, lo que ocurra primero.</li>
+        </ul>
+        <p><strong>&iquest;Cu&aacute;nto seguro de vida necesita su familia?</strong><br />
+        Los expertos sugieren una cobertura de 5 a 10 veces su salario anual.<sup>4</sup> As&iacute; que incluso si su empleador proporciona cobertura, es posible que no sea la adecuada.</p>
+        <p><strong>&iquest;Por qu&eacute; consideras El seguro de Vida SEIU?</strong><br />
+        Atendemos a los miembros con un solo objetivo: ahorrar dinero en cobertura. El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es <strong>emitido por The Prudential Insurance Company of America (Prudential),</strong> una de las compa&ntilde;&iacute;as m&aacute;s fiables en materia de seguros.</p>
+        <p><strong>Primas asequibles</strong><br />
+        Estos gr&aacute;ficos descargables le mostrar&aacute;n el costo mensual de cada monto de cobertura:</p>
+        <p style="text-align: center;"><a href="-/media/fa76c7e7235e4d37baeb006a8bda9420.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 25K rate chart');">Tabla de tarifas de $25,000</a></p>
+        <p style="text-align: center;"><a href="-/media/01bdad89e2314e5baf62c792eddd0f56.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 50K rate chart');">Tabla de tarifas de $50,000</a></p>
+        <p style="text-align: center;"><a href="-/media/983809f54ed24bc0928bbc998b1fb1b5.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 100K rate chart');">Tabla de tarifas de $100,000</a></p>
+        <p style="text-align: center;"><a href="-/media/b6adf3326b60405d9bdbd7ce3a811ce8.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 150K rate chart');">Tabla de tarifas de $150,000</a></p>
+        <p style="text-align: center;"><a href="-/media/09c7d1bc4ac44b19b107082dbf60fe2a.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 200K rate chart');">Tabla de tarifas de $200,000</a></p>
+        <p style="text-align: center;"><a href="-/media/862e134dc29040d6a71f62c433fe8367.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 250K rate chart');">Tabla de tarifas de $250,000</a></p>
+        <p style="text-align: center;"><a href="-/media/47bea017223a4c678520213a5cf01bee.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 300K rate chart');">Tabla de tarifas de $300,000</a></p>
+        <p><strong>&iquest;Preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; frequently asked questions);">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{1B4DB99B-3042-42B8-B9B2-53F5A8ECD2C3}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="https://seiumb.memberenroll.com/index.php?Position=1&amp;Products=Member+Term+Life+Insurance&amp;id=[mdsid_afinium]&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010101" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro de Vida a Término Grupal SEIU, <strong>emitido por The Prudential Insurance Company of America,</strong> es una manera económica de protegerse a usted y a su familia.<br>
+        <br>
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></span></p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: INSCRÍBASE AHORA PARA ACCEDER A PRECIOS ASEQUIBLES, CON DESCUENTOS PARA GRUPOS.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190321T161918Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E0BBB861-ECE2-4124-9BE4-80BB55E40D33}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{7D981161-6BD7-476F-8119-216D14007052}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro de Vida a Término Grupal SEIU, emitido por The Prudential Insurance Company of America, es una manera económica de protegerse a usted y a su familia.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{A2C624E0-587F-482B-B1F4-4E205BBDEFC8}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190821T141549Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>La cobertura no est&aacute; disponible en Alaska, New Hampshire, Utah, o Puerto Rico</p>
+        <p>1. Incluye la pareja de hecho o la pareja de hecho registrada. El c&oacute;nyuge no puede inscribirse para la cobertura a menos que el miembro tambi&eacute;n se inscriba.</p>
+        <p>
+        2. Sujeto a la aprobaci&oacute;n de suscripci&oacute;n. La cobertura no puede exceder los $300,000.</p>
+        <p>
+        3. La opci&oacute;n de Beneficio por muerte anticipado es una caracter&iacute;stica que est&aacute; disponible para los participantes del seguro de vida grupal. No es un beneficio de seguro de salud, de hogar de ancianos ni de seguro de cuidado a largo plazo y no est&aacute; dise&ntilde;ado para prescindir de esos tipos de cobertura de seguro. El beneficio por muerte se reduce por el monto del beneficio por muerte anticipado pagado. No hay cargos administrativos para anticipar los beneficios. Recibir beneficios por muerte anticipados puede afectar la elegibilidad para recibir asistencia p&uacute;blica y puede ser imponible. El tratamiento federal del impuesto sobre la renta de los pagos hechos en virtud de esta disposici&oacute;n depende de si el asegurado es el destinatario de los beneficios y se lo considera un enfermo terminal. Es posible que desee solicitar asesoramiento fiscal profesional antes de optar por esta alternativa.</p>
+        <p>
+        4. &ldquo;How Much Life Insurance Do You Really Need?&rdquo; [&ldquo;Cu&aacute;nto seguro de vida necesita realmente?&rdquo;] 5 Oct. 2014. http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html</p>
+        <p>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s. </em></p>
+        <p>
+        El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es emitido por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, lo cual incluye cualquier exclusi&oacute;n, limitaci&oacute;n y restricci&oacute;n de la p&oacute;liza que pueda aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>&nbsp;</p>
+        <p>1018490-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu group term life insurance program esp > manage your account');" target="_blank"><strong>Administre su cuenta ›</strong></a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE SEGURO DE VIDA A TÉRMINO GRUPAL SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div style="text-align: center;">
+        <script src="https://cdn.jwplayer.com/players/HuZ7VUvq-XDr5hdIt.js"></script>
+        </div>
+        <p style="text-align: center;"><strong><em>&iquest;Qu&eacute; es el seguro de vida?</em></strong><em><strong></strong><br />
+        &iquest;Sabes qu&eacute; es un seguro de vida y cu&aacute;nto es suficiente? Mira este v&iacute;deo y desc&uacute;brelo.</em></p>
+        <br />
+        <p><strong>El Seguro de Vida a T&eacute;rmino Grupal SEIU</strong> est&aacute; disponible <em>solamente</em> para los miembros SEIU ya sus familias. Algunos de los exclusivos beneficios del programa incluyen:</p>
+        <ul>
+            <li><strong>Precios asequibles, con descuentos para grupos.</strong> Los miembros, los c&oacute;nyuges, las parejas de hecho<sup>1</sup> y los hijos a cargo son todos elegibles para acceder a tarifas exclusivas.</li>
+            <li><strong>Cobertura flexible de $25,000 a $300,000.</strong> Sin compromiso a largo plazo. Usted decide durante cu&aacute;nto tiempo quiere la cobertura y puede aumentarla o disminuirla cuando lo desee.<sup>2</sup></li>
+            <li><strong>Beneficios completos hasta los 65 a&ntilde;os.</strong> Una vez que usted est&eacute; aceptado, su cobertura permanecer&aacute; vigente, incluso si su salud presenta cambios. No se le puede dar de baja por cuestiones de salud. Las primas aumentan cada cinco a&ntilde;os.</li>
+            <li><strong>El 75% de su beneficio puede pagarse mientras est&eacute; vivo.</strong><sup>3</sup> En caso de una enfermedad terminal, los beneficios anticipados pueden ayudar a su familia con los gastos.</li>
+            <li><strong>No habr&aacute; primas si usted est&aacute; de huelga durante un m&aacute;ximo de 90 d&iacute;as.</strong> El Programa de seguros de vida de SEIU no exigir&aacute; su prima de seguro de vida despu&eacute;s del 31.&ordm; d&iacute;a de huelga hasta la fecha en que finalice la huelga o a los 90 d&iacute;as del comienzo de esta, lo que ocurra primero.</li>
+        </ul>
+        <p><strong>&iquest;Cu&aacute;nto seguro de vida necesita su familia?</strong><br />
+        Los expertos sugieren una cobertura de 5 a 10 veces su salario anual.<sup>4</sup> As&iacute; que incluso si su empleador proporciona cobertura, es posible que no sea la adecuada.</p>
+        <p><strong>&iquest;Por qu&eacute; consideras El seguro de Vida SEIU?</strong><br />
+        Atendemos a los miembros con un solo objetivo: ahorrar dinero en cobertura. El Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU es <strong>emitido por The Prudential Insurance Company of America (Prudential),</strong> una de las compa&ntilde;&iacute;as m&aacute;s fiables en materia de seguros.</p>
+        <p><strong>Primas asequibles</strong><br />
+        Estos gr&aacute;ficos descargables le mostrar&aacute;n el costo mensual de cada monto de cobertura:</p>
+        <p style="text-align: center;"><a href="-/media/fa76c7e7235e4d37baeb006a8bda9420.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 25K rate chart');">Tabla de tarifas de $25,000</a></p>
+        <p style="text-align: center;"><a href="-/media/01bdad89e2314e5baf62c792eddd0f56.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 50K rate chart');">Tabla de tarifas de $50,000</a></p>
+        <p style="text-align: center;"><a href="-/media/983809f54ed24bc0928bbc998b1fb1b5.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 100K rate chart');">Tabla de tarifas de $100,000</a></p>
+        <p style="text-align: center;"><a href="-/media/b6adf3326b60405d9bdbd7ce3a811ce8.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 150K rate chart');">Tabla de tarifas de $150,000</a></p>
+        <p style="text-align: center;"><a href="-/media/09c7d1bc4ac44b19b107082dbf60fe2a.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 200K rate chart');">Tabla de tarifas de $200,000</a></p>
+        <p style="text-align: center;"><a href="-/media/862e134dc29040d6a71f62c433fe8367.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 250K rate chart');">Tabla de tarifas de $250,000</a></p>
+        <p style="text-align: center;"><a href="-/media/47bea017223a4c678520213a5cf01bee.ashx" target="_blank" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; 300K rate chart');">Tabla de tarifas de $300,000</a></p>
+        <p><strong>&iquest;Preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=5FE946C9E2544C6BB7C3F644E1AB2B01&amp;_z=z" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu group term life insurance program esp &gt; frequently asked questions);">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{A2C624E0-587F-482B-B1F4-4E205BBDEFC8}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=1&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010101" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro de Vida a Término Grupal SEIU, <strong>emitido por The Prudential Insurance Company of America,</strong> es una manera económica de protegerse a usted y a su familia.<br>
+        <br>
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></span></p>
+    - ID: "a54a4aa2-3053-4f0b-b51a-91a390759f2b"
+      Hint: ProgramCode
+      Value: 034 01
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: INSCRÍBASE AHORA PARA ACCEDER A PRECIOS ASEQUIBLES, CON DESCUENTOS PARA GRUPOS.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190821T141549Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Seguro de Vida a Término Grupal SEIU

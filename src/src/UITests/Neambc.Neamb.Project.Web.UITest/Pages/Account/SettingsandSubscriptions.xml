@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="SettingsSubscriptions" urlpath="/account/settings-and-subscriptions">
+      <sections>
+        <section name="SignIn">
+          <controls>
+            <control key="SS_SignIn"  xpath="//h2[contains(@class,'text-center')]//a"   />
+          </controls>
+        </section>
+        <section name="SSPage">
+          <controls>
+            <control key="ManagePS_Title"  xpath="//h2[contains(text(),'Newsletters from NEA Member Benefits')]"   />
+          </controls>
+        </section>
+        <section name="section-cta">
+          <controls>
+            <control key="Financial_Whiteboard_Subscribe" xpath="//div[@data-id='59721' and @class='btn btn-blue']"/>
+            <control key="Financial_Whiteboard_Unsubscribe" xpath="//div[@data-id='59721' and @class='btn']"/>
+            <control key="Shoppers_Subscribe" xpath="//div[@data-id='55202' and @class='btn btn-blue']"/>
+            <control key="Shoppers_Unsubscribe" xpath="//div[@data-id='55202' and @class='btn']"/>
+            <control key="Travel_Subscribe" xpath="//div[@data-id='37826' and @class='btn btn-blue']"/>
+            <control key="Travel_Unsubscribe" xpath="//div[@data-id='37826' and @class='btn']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>
+
+

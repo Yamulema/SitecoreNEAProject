@@ -1,0 +1,25 @@
+﻿@using Neambc.Neamb.Foundation.Membership.Model
+@model Neambc.Neamb.Foundation.Membership.Model.AccountMembership
+
+<section class="section-normal">
+    <div class="container">
+        <div class="col-md-9 col-centered">
+            <h2 class="header">Rakuten Creation Member</h2>
+            <h3>For this page to work, the user HAVE to be in the HOT STATE.</h3>
+            <p>User in hot state right now: @Model.Profile.Email</p>
+            <P>MsdId: @Model.Mdsid</P>
+            <p>Is Member of Kakuten: @Model.Profile.IsRakutenMember</p>
+            @if (Model.Profile.IsRakutenMember) {
+                foreach (var property in typeof(RakutenMemberModel).GetProperties())
+                {
+                    var label = property.Name;
+                    var value = property.GetValue(Model.Profile.RakutenProfile);
+                    <p>@label : <span>@value</span></p>
+                }
+            }
+            @Html.ActionLink("Create Rakuten Member", "CreationMemberAction", "Rakuten", null,
+                new { @class = "btn" })
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,67 @@
+﻿@model Neambc.Neamb.Feature.Rakuten.Model.StoreCategories
+@{
+    string cssClass;
+}
+<div class="col-xs-12 col-md-3" id="filters">
+    <p id="reset" class="text-blue hidden-xs hidden-sm">
+        <strong>Reset All</strong>
+    </p>
+    <p class="hidden-md hidden-lg filter-label">
+        Filter 
+        <button type="button" class="close"><span aria-hidden="true">&times;</span></button>
+    </p>
+
+    @if (Model.ShowFavorites)
+    {
+        <div class="form-group top-filter">
+            <div class="flex-row">
+                <label class="switch">
+                    <input id="store-favorites-only" value="My Favorite Stores" type="checkbox">
+                    <span class="slider-toggle round"></span>
+                </label><span>My Favorite Stores</span>
+            </div>
+        </div>
+    }
+    else
+    {
+        <hr />
+    }
+    <div class="categories-container">
+        <div class="filter-items">
+            @foreach (var category in Model.Categories)
+            {
+                if (category.NeambEnabled)
+                {
+                    var counter = 1;
+                    <div class="form-group parent-filter">
+                        <p class="text-blue accordion-btn">
+                            @category.Name
+                        </p>
+                        <div class="childs">
+                            @foreach (var subcategory in category.Subcategories)
+                            {
+                                if (subcategory.NeambEnabled)
+                                {
+                                    cssClass = counter == 1 ? "all-category" : "child-category";
+                                    <div class="form-group @cssClass">
+                                        <label class="custom-checkbox blue pull-left">
+                                            <input class="store-subcategories" id="checkbox" name="checkbox" type="checkbox"
+                                                   value="@subcategory.Guid">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <p>@subcategory.Name</p>
+                                    </div>
+                                    counter++;
+                                }
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div id="submitFilers" class="hidden-md hidden-lg">
+            <input id="submit" type="submit" value="Apply" class="btn btn-lg btn-blue btn-block">
+            <a id="mobile-reset" class='m-t-lg' href="#">Reset All</a>
+        </div>
+    </div>
+</div>

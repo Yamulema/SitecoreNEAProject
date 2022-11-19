@@ -1,0 +1,123 @@
+﻿---
+ID: "4726abbc-f5b8-4ca4-9455-1cfb78c689ad"
+Parent: "e9bd2d0b-9df1-43d5-9252-0a10cb7f9389"
+Template: "e9bd2d0b-9df1-43d5-9252-0a10cb7f9389"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Member Verification Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          par=""
+          ph="header"
+          uid="{DA34F8CD-7835-459C-B598-12E60E05DE63}" />
+        <r
+          id="{791C1252-AB22-4F98-9C5B-EB50D81842EC}"
+          ph="body"
+          uid="{55E98AB1-ACA5-423A-AA06-992DFB855D2A}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          par=""
+          ph="footer"
+          uid="{218929F5-6E09-4230-ADBA-AE374D81BAC1}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{3AC1FF86-1DA9-401B-9730-59A72A86AD5C}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02213864-133b-4f28-8c46-466cd5a4f8ce"
+      Hint: Submit
+      Value: Continue
+    - ID: "0c47929e-28a7-4e0b-9000-8759c1d12171"
+      Hint: No Special Characters Error
+      Value: Only chars and numbers, no special characters.
+    - ID: "163e5a58-2f18-4853-bcf6-8995156082e6"
+      Hint: Minimum Character Count 
+      Value: You must enter at least 8 characters in this field
+    - ID: "1711d64c-681e-4be6-a007-40ce5a9ddc63"
+      Hint: Invalid
+      Value: We’re sorry. The password provided does not match our records. We are unable to confirm your membership. Please click here to try again.
+    - ID: "1920290d-6992-454f-a2c8-089d36027a49"
+      Hint: Instructions Registered
+      Value: We noticed you've registered on NEAMB.com previously. Please provide your password so that we can verify your membership. 
+    - ID: "236e7853-e821-4cef-9199-c15ca7f6d45e"
+      Hint: Instructions Not Registered
+      Value: "So that we can begin building your new member experience, please provide your five-digit home zip code."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T215846Z
+    - ID: "2de67ac9-a904-4297-b112-a6dbb7459337"
+      Hint: Label
+      Value: Password
+    - ID: "38c6219b-565d-47d2-802b-54b5e3f037b3"
+      Hint: Empty Field
+      Value: Please insert your password. 
+    - ID: "3c43fd5a-b4e6-4932-a6d9-ed219b2c2fcd"
+      Hint: Match Not Found
+      Value: We're sorry. The zip code provided does not match our records. We are unable to confirm your membership. Please click here to try again.
+    - ID: "3f78918f-7f2b-4aad-b82d-1c4444648168"
+      Hint: Time Out
+      Value: We are experiencing technical difficulties at the moment, please try again later.
+    - ID: "5dba1038-7a94-4a50-bfc4-5c1357514831"
+      Hint: Label
+      Value: Your Membership ID
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7370f309-eaa7-455b-b8a7-9e0bf9cec328"
+      Hint: Account Already Locked Valid Token
+      Value: This account has been locked due to multiple unsuccessful attempts. Please check your email for password reset instructions. Also check your Spam or Bulk mail folder, just to be sure.
+    - ID: "7577d10f-1312-4029-a9b2-22e7ea98aa46"
+      Hint: Not You
+      Value: "Not []?"
+    - ID: "7bd23135-e991-4d3d-b7c5-d4158cf72410"
+      Hint: Characters Limit
+      Value: You can enter only 5 characters in this field
+    - ID: "8e7aa275-45d1-4e79-af3d-62c64163c5e9"
+      Hint: Label
+      Value: Your Zip Code
+    - ID: "8ec69771-c138-4bf4-9e3c-4a503afa1bb6"
+      Hint: Empty Field
+      Value: Please insert a valid zip code
+    - ID: "a6795515-1b7e-4a25-b8a4-9c91a639f0b1"
+      Hint: Salutation
+      Value: "Hi, []!"
+    - ID: "a8bec641-c72a-485f-b4a7-c0be46e4c4fd"
+      Hint: Show Text
+      Value: Show Password
+    - ID: "a9a5b705-a5f0-4cf6-a2ab-6394a465519b"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "cebb1070-33f8-4d83-90b5-7dd33e68cf35"
+      Hint: Tooltip
+      Value: Search using your name and address.
+    - ID: "d0c54f48-6644-4ce2-9a6d-b2a5ed1982b4"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "e2f64742-b7dd-4631-8a3f-24a6c6b3c73f"
+      Hint: Account Locked
+      Value: This account is locked due to too many user attempts. A password reset link has been sent to the email for this account.
+    - ID: "e8fc2051-e5a7-4a6c-8002-39ea2bde14b2"
+      Hint: Tooltip
+      Value: Attempt(s).

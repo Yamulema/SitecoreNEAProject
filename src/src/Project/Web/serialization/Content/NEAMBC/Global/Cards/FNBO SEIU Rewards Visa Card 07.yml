@@ -1,0 +1,496 @@
+﻿---
+ID: "0de564f3-aa97-4edf-9e44-c8f830f6caa8"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/FNBO SEIU Rewards Visa Card 07_01_2020
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Discounts
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{30D31125-A3DA-4F79-A189-419AA1746107}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=1304D4CFA4594198A90DB8C9028BDEE3&amp;_z=z" onclick="ga_event('small module','click','AT&amp;T > title');">AT&amp;T</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Save 15% on AT&amp;T cell phone service&nbsp;for you and your family.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=1304D4CFA4594198A90DB8C9028BDEE3&amp;_z=z" class="button panelBtn" >LEARN MORE</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T165300Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{069DAC1F-EA8A-46D6-8070-1C52E9BD57A5}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T165300Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card &gt; title');">SEIU Rewards Visa Card</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li>1.5% cash back on every purchase, everywhere.</li>
+        <li>$100 member exclusive bonus offer</li>
+        <p>It's an easy way to give rewards back to yourself with no complex categories to keep track of.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T170148Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{069DAC1F-EA8A-46D6-8070-1C52E9BD57A5}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T170148Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card &gt; title');">The New Rewards Visa Card</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li>1.5% cash back on every purchase, everywhere.</li>
+        <li>$100 member exclusive bonus offer.</li>
+        <p>It's an easy way to give rewards back to yourself with no complex categories to keep track of.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200812T160544Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{069DAC1F-EA8A-46D6-8070-1C52E9BD57A5}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200812T160544Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card &gt; title');">The New Rewards Visa Card</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li>1.5% cash back on every purchase, everywhere.</li>
+        <li>$100 member exclusive bonus offer.</li>
+        <p>It's an easy way to give rewards back to yourself with no complex categories to keep track of.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210107T170340Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{069DAC1F-EA8A-46D6-8070-1C52E9BD57A5}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210107T170340Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card > title');">The New Rewards Visa Card</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li>1.5% cash back on every purchase, everywhere.</li>
+        <li>$100 member exclusive bonus offer.</li>
+        <p>It's an easy way to give rewards back to yourself with no complex categories to keep track of.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+  - Version: 6
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210310T205301Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{069DAC1F-EA8A-46D6-8070-1C52E9BD57A5}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210310T205301Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card > title');">The New Rewards Visa Card</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li style="list-style-position:inside;">1.5% cash back on every purchase, everywhere.</li>
+        <li style="list-style-position:inside;">$100 member exclusive bonus offer.</li>
+        <p>It's an easy way to give rewards back to yourself with no complex categories to keep track of.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+  - Version: 7
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T145934Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{069DAC1F-EA8A-46D6-8070-1C52E9BD57A5}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T145934Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card > title');">The New Rewards Visa Card</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li style="list-style-position:inside;">1.5% cash back on every purchase, everywhere.</li>
+        <li style="list-style-position:inside;">$100 member exclusive bonus offer.</li>
+        <p>It's an easy way to give rewards back to yourself with no complex categories to keep track of.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Descuentos
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{30D31125-A3DA-4F79-A189-419AA1746107}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=9650A2129CC94964BA1FC37DA56E9E5F&amp;_z=z" onclick="ga_event('small module','click','directv esp');"></a><a href="~/link.aspx?_id=4912C9C701E048B488BA289A224EE81A&amp;_z=z"></a><a href="~/link.aspx?_id=9650A2129CC94964BA1FC37DA56E9E5F&amp;_z=z" onclick="ga_event('small module','click','directv esp &gt; title');">AT&amp;T</a></h3>
+        <p>Ahorre un 15% en el servicio de telefon&iacute;a m&oacute;vil personal y en el de su familia.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=9650A2129CC94964BA1FC37DA56E9E5F&amp;_z=z" onclick="ga_event('small module','click','directv esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T170219Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finanzas
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{34A08AF7-9FD2-4392-81EB-9957E334AF5B}" alt="Tarjeta SEIU Rewards Visa" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T170219Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card &gt; title esp');">SEIU Rewards Visa Card</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li>Un 1.5% de reembolso en efectivo con cada compra en cualquier lugar.</li>
+        <li>Oferta adicional exclusiva para miembros de $100</li>
+        <p>Es una manera sencilla de recibir recompensas sin tener que hacer un seguimiento a las categor&iacute;as complicadas.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200626T174933Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finanzas
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{34A08AF7-9FD2-4392-81EB-9957E334AF5B}" alt="Tarjeta SEIU Rewards Visa" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200626T174933Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card &gt; title esp');">La NUEVA tarjeta SEIU Rewards Visa</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li>Un 1.5% de reembolso en efectivo con cada compra en cualquier lugar.</li>
+        <li>Oferta adicional exclusiva para miembros de $100.</li>
+        <p>Es una manera sencilla de recibir recompensas sin tener que hacer un seguimiento a las categor&iacute;as complicadas.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210107T170742Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finanzas
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{34A08AF7-9FD2-4392-81EB-9957E334AF5B}" alt="Tarjeta SEIU Rewards Visa" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210107T170742Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card > title esp');">La NUEVA tarjeta SEIU Rewards Visa</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li>Un 1.5% de reembolso en efectivo con cada compra en cualquier lugar.</li>
+        <li>Oferta adicional exclusiva para miembros de $100.</li>
+        <p>Es una manera sencilla de recibir recompensas sin tener que hacer un seguimiento a las categorías complicadas.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">APRENDE MÁS</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210310T205718Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finanzas
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{34A08AF7-9FD2-4392-81EB-9957E334AF5B}" alt="Tarjeta SEIU Rewards Visa" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210310T205718Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','fnbo rewards card > title esp');">La NUEVA tarjeta SEIU Rewards Visa</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <li style="list-style-position:inside;">Un 1.5% de reembolso en efectivo con cada compra en cualquier lugar.</li>
+        <li style="list-style-position:inside;">Oferta adicional exclusiva para miembros de $100.</li>
+        <p>Es una manera sencilla de recibir recompensas sin tener que hacer un seguimiento a las categorías complicadas.</p>
+        <p>&nbsp;</p>
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn">APRENDE MÁS</a></div>
+        </div>

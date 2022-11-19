@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="FourColumnCarouselPage" urlpath="/UITest/Living%20In%20Retirement">
+      <sections>
+        <section name="Component">
+        </section>
+        <section name="items">
+          <controls>
+            <control key="Topic_item_tax" xpath="//a[@href='/retirement-planning/the-secret-to-stretching-your-retirement-income']"/>
+          </controls>
+        </section>
+        <section name="item_tax_prep">
+          <controls>
+            <control key="Topic_tax_prep" xpath="//a[@href='/travel-and-vacations/savings-strategies-for-senior-travel-discounts']"/>
+          </controls>
+        </section>
+        <section name="seemore">
+          <controls>
+            <control key="Topic_seemore" xpath="//a[@href=/family-and-wellness/5-healthy-eating-tips-to-help-you-age-well']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

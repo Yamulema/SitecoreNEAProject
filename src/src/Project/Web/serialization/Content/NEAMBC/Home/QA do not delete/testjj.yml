@@ -1,0 +1,155 @@
+﻿---
+ID: "27ce7376-a56f-47fe-90f9-0afbe752d8e5"
+Parent: "06147e7c-745f-4efc-a0cd-36039b16b1e6"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/QA do not delete/testjj
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171222T014122Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4c346442-e859-4efd-89b2-44aedf467d21"
+      Hint: __Valid to
+      Value: 20200714T163000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Group Term Life Insurance FAQs
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "This is a test!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200714T150000Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{16438A01-E284-41BF-A2C6-7627BC6E11F9}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Group Term Life Insurance FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <h1>JJ TEST</h1>
+        
+        
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: test
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171222T014520Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Preguntas Frecuentes
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{16438A01-E284-41BF-A2C6-7627BC6E11F9}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Group Term Life Insurance FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <ul>
+            <li><a href="#1">&iquest;Qu&eacute; es el Seguro de Vida a T&eacute;rmino Grupal SEIU℠? </a></li>
+            <li><a href="#2">&iquest;Cu&aacute;l es la compa&ntilde;&iacute;a aseguradora del Seguro de Vida a T&eacute;rmino Grupal SEIU? </a></li>
+            <li><a href="#3">&iquest;Necesito un examen m&eacute;dico? </a></li>
+            <li><a href="#4">&iquest;Qu&eacute; monto de cobertura puedo solicitar? </a></li>
+            <li><a href="#5">&iquest;Puedo aumentar mi cobertura inicial? </a></li>
+            <li><a href="#6">&iquest;Qu&eacute; sucede si cambio de empleo o me jubilo? </a></li>
+            <li><a href="#7">&iquest;Son las tarifas de los miembros m&aacute;s bajas que las tarifas para el p&uacute;blico en general? </a></li>
+            <li><a href="#8">&iquest;En qu&eacute; difieren las tarifas para fumadores y no fumadores? </a></li>
+            <li><a href="#9">&iquest;Este programa puede ofrecerles cobertura a mi c&oacute;nyuge y a mis hijos a cargo? </a></li>
+            <li><a href="#10">&iquest;Hay beneficios disponibles en caso de que padezca una enfermedad terminal? </a></li>
+        </ul>
+        <hr style="border: 0px currentColor; height: 2px; color: #4f2e84; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(79, 46, 132, 1), rgba(0, 0, 0, 0));" />
+        <p><a name="1"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Qu&eacute; es el Seguro de Vida a T&eacute;rmino Grupal SEIU? </em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; El Seguro de Vida a T&eacute;rmino Grupal SEIU, <strong>emitido por The Prudential Insurance Company of America (Prudential),</strong> ofrece seguro de vida de grupo opcional a todos los miembros en buen estado. Las caracter&iacute;sticas del Seguro a T&eacute;rmino Grupal incluyen niveles de cobertura flexibles de $25,000 a $200,000 (en incrementos de $25,000) adem&aacute;s de montos de beneficios de $250,000 y $300,000, sin l&iacute;mites de plazo establecido.</p>
+        <p>Por ejemplo, si un miembro compra un Seguro de Vida a T&eacute;rmino Grupal SEIU a los 32 a&ntilde;os de edad, puede mantenerlo durante el tiempo que quiera, siempre y cuando contin&uacute;e pagando sus primas y mantenga su membres&iacute;a. Las primas se basan en la edad que usted tenga al momento de la inscripci&oacute;n inicial. Las primas aumentar&aacute;n cada vez que entre en una franja etaria diferente de 5 a&ntilde;os (lo cual ocurre cuando cumpla 35, 40, 45, 50, etc.). A la edad de 65 a&ntilde;os, cuando su necesidad de seguro de vida ha disminuido, el monto del beneficio se reduce al 75% del monto inicial, y a los 70 de edad al 50% del monto inicial. La cobertura termina a los 75 a&ntilde;os de edad.</p>
+        <p><a name="2"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Cu&aacute;l es la compa&ntilde;&iacute;a aseguradora del Seguro de Vida a T&eacute;rmino Grupal SEIU?</em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; The Prudential Insurance Company of America es la compa&ntilde;&iacute;a aseguradora. Nuestra alianza con la empresa se basa en un riguroso proceso de evaluaci&oacute;n del mercado para encontrar los mejores productos y servicios para los miembros de SEIU. Puede contar con la experiencia de Prudential para ofrecer la calidad y el servicio que se merece.</p>
+        <p><a name="3"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Necesito un examen m&eacute;dico? </em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; Es f&aacute;cil solicitar cobertura. En la mayor&iacute;a de los casos, para calificar necesita responder a algunas preguntas sencillas de salud sobre sus antecedentes m&eacute;dicos. Aunque los ex&aacute;menes m&eacute;dicos no suelen ser necesarios, puede que s&iacute; lo sean dependiendo de sus antecedentes m&eacute;dicos. Tambi&eacute;n debe ser miembro de SEIU para solicitar y mantener la cobertura. Una vez que cuente con cobertura, no tiene que preocuparse por perderla a medida que envejece o si su salud presenta cambios.</p>
+        <p><a name="4"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Qu&eacute; monto de cobertura puedo solicitar?</em></strong></p>
+        <p><strong><em>R.</em></strong> Los miembros SEIU son elegibles para una amplia gama de cobertura: desde $25,000 hasta un m&aacute;ximo de $300,000.</p>
+        <p><a name="5"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Puedo aumentar mi cobertura inicial?</em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; S&iacute;, la cobertura se puede aumentar en cualquier momento; sin embargo, estar&aacute; sujeta a aprobaci&oacute;n de suscripci&oacute;n y no podr&aacute; exceder los $300,000. (Los montos var&iacute;an dependiendo de la edad del miembro).</p>
+        <p><a name="6"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Qu&eacute; sucede si cambio de empleo o me jubilo?</em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; La cobertura del Seguro de Vida Grupal SEIU es port&aacute;til. Mientras siga siendo miembro de SEIU y contin&uacute;e pagando sus primas cuando se vencen, su cobertura permanecer&aacute; en vigor incluso si cambia de trabajo o se jubila. La cobertura termina a los 75 a&ntilde;os de edad.</p>
+        <p><a name="7"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Son las tarifas de los miembros m&aacute;s bajas que las tarifas para el p&uacute;blico en general?</em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; Gracias al poder adquisitivo de SEIU y a nuestros dos millones de miembros, se han negociado tarifas asequibles para los miembros y sus c&oacute;nyuges/parejas de hecho. Las primas son competitivas en todas las categor&iacute;as de tarifas.</p>
+        <p><a name="8"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;En qu&eacute; difieren las tarifas para fumadores y no fumadores? </em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; Las tarifas para los fumadores son m&aacute;s altas. Por ejemplo, con un monto nominal de $200,000, un miembro de 25 a 29 a&ntilde;os recibir&iacute;a una tarifa de $30 mensuales, mientras que un miembro no fumador, en el mismo grupo etario, recibir&iacute;a $18.</p>
+        <p><a name="9"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Este programa puede ofrecerles cobertura a mi c&oacute;nyuge y a mis hijos a cargo?</em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; S&iacute;, mientras el miembro de SEIU tenga Seguro de Vida a T&eacute;rmino Grupal, la cobertura est&aacute; disponible para el c&oacute;nyuge (o pareja de hecho cuando la ley lo permita) de un miembro por hasta el 50% de la cantidad de cobertura del miembro y para sus hijos en montos de cobertura plana de $5,000 o $10,000.</p>
+        <p><a name="10"></a></p>
+        <p><strong><em>P.&nbsp; &iquest;Hay beneficios disponibles en caso de que padezca una enfermedad terminal?</em></strong></p>
+        <p><strong><em>R.</em></strong>&nbsp; S&iacute;, con la opci&oacute;n de Beneficios anticipados*, si contrae una enfermedad terminal, puede optar por recibir el 75% de su cobertura de seguro de vida mientras est&eacute; con vida. El dinero se puede utilizar para cualquier prop&oacute;sito: pago de facturas m&eacute;dicas, de deudas pendientes o de la hipoteca. Esta opci&oacute;n reducir&aacute; su beneficio por muerte en un 75%. A fin de ser elegible para esta opci&oacute;n, se le debe diagnosticar una enfermedad mortal y tener por delante 6 meses o menos de vida.</p>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 10px;">*La opci&oacute;n de Beneficio por muerte anticipado es una caracter&iacute;stica que est&aacute; disponible para los participantes del seguro de vida grupal. No es un beneficio de seguro de salud, de hogar de ancianos ni de seguro de cuidado a largo plazo y no est&aacute; dise&ntilde;ado para prescindir de esos tipos de cobertura de seguro. El beneficio por muerte se reduce por el monto del beneficio por muerte anticipado pagado. No hay cargos administrativos para anticipar los beneficios. Recibir beneficios por muerte anticipados puede afectar la elegibilidad para recibir asistencia p&uacute;blica y puede ser imponible. El tratamiento federal del impuesto sobre la renta de los pagos hechos en virtud de esta disposici&oacute;n depende de si el asegurado es el destinatario de los beneficios y se lo considera un enfermo terminal. Es posible que desee solicitar asesoramiento fiscal profesional antes de optar por esta alternativa.</span></p>
+        <p><span style="font-size: 10px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        <p><span style="font-size: 10px;">La cobertura de Seguro de Vida a T&eacute;rmino Grupal SEIU est&aacute; emitida por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, lo cual incluye cualquier exclusi&oacute;n, limitaci&oacute;n y restricci&oacute;n de la p&oacute;liza que pueda aplicarse. Serie del Contrato: 83500. California COA #1179 NAIC #68241.</span></p>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 10px;">1014409-00001-00</span></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: PROGRAMA DE SEGURO DE VIDA A TÉRMINO GRUPAL SEIU

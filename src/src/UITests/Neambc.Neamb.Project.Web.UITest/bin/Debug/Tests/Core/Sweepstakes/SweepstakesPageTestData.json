@@ -1,0 +1,18 @@
+{
+  "Test_ColdAction": [
+    [ "dataLayerPush({'event':'navigation','navType':'embedded link','navText':'Sign In to Enter | sweepstakes" ]
+  ],
+  "Test_HotAction": [
+    [ "nea.nadine@gmail.com", "secret12", "dataLayerPush({'event':'navigation','navType':'embedded link','navText':'Enter the Giveaway! | sweepstakes" ]
+  ],
+  "Test_PopupAction": [
+    [ "nea.nadine@gmail.com", "secret12", "dataLayerPush({'event':'navigation','navType':'embedded link','navText':'learn more!'},this);" ]
+  ],
+  "Test_ExecuteAction": [
+    [ "nea.nadine@gmail.com", "secret12" ]
+  ],
+  "Test_ExecuteActionWarm": [
+    [ "999", "nea.nadine@gmail.com", "secret12" ]
+  ]
+
+}

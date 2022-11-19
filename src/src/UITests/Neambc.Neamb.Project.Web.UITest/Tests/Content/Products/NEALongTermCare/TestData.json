@@ -1,0 +1,27 @@
+{
+  "ColdState": [
+    [
+      "dataLayerPush({'event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Sign In to Check Eligibility','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "WarmState": [
+    [
+      "999",
+      "dataLayerPush({'event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Start Planning','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Get Expert Advice','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Start Planning','clickHref':'https://www.neamb.com/login'},this)",
+      "dataLayerPush({'event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Get Expert Advice','clickHref':'https://www.neamb.com/login'},this)"
+    ]
+  ],
+  "HotState": [
+    [
+      "nea.nadine@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'product cta','productName':'NEA Long-Term Care Program','ctaText':'Start Planning','clickHref':'https://www.ltcipartners.com/nea'},this)",
+      "dataLayerPush({'event':'secondary cta','productName':'NEA Long-Term Care Program','ctaText':'Get Expert Advice','clickHref':'/api/ProductRoute/DownloadEfulfillmentPdfMultirow'},this)",
+      "dataLayerPush({'event':'product cta','productName':'NEA Long-Term Care Program','ctaText':'Start Planning','clickHref':'https://www.ltcipartners.com/nea'},this)",
+      "dataLayerPush({'event':'secondary cta','productName':'NEA Long-Term Care Program','ctaText':'Get Expert Advice','clickHref':'/api/ProductRoute/DownloadEfulfillmentPdfMultirow'},this)"
+    ]
+  ]
+}

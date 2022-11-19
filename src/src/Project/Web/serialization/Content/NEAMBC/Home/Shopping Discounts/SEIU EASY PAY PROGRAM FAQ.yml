@@ -1,0 +1,1596 @@
+﻿---
+ID: "38c9608b-5ea7-4a2d-a40e-e6c54625e5aa"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU EASY PAY PROGRAM FAQ
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171223T054305Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: DIRECTV FAQs
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{0E362219-ED63-4C58-989F-3B36C4CEF576}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: DIRECTV FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        
+                        <p><strong>How do I subscribe to DIRECTV?</strong><br>
+        To subscribe to DIRECTV, please sign-in on the <a href="~/link.aspx?_id=9650A2129CC94964BA1FC37DA56E9E5F&amp;_z=z">SEIU DIRECTV page</a> and call the toll-free number shown after signing in.</p>
+        
+        <p><strong>Does DIRECTV have an exclusive offer for SEIU members?</strong><br>
+        Each qualifying subscriber that purchases the English CHOICE™ package or above or the Spanish ÓPTIMO MÀS™ package or above is eligible to receive a gift card with a value of $100.00. This offer is valid for new DIRECTV subscribers only and subscribers who have not had an active subscription in the last 24 months. Not valid for renewals of an existing DIRECTV subscription. Prices include monthly equipment fees for up to 4 rooms and the HD DVR monthly service fee.</p>
+        
+        <p><strong>How do I access HD channels?</strong><br>
+        To access DIRECTV HD programming, HD equipment along with Advanced Receivers Service is required. Number of HD channels varies based on package selection.</p>
+        
+        <p><strong>How long does it take to receive the VISA gift card after subscribing to DIRECTV?</strong><br>
+        The VISA gift card is delivered between 7-10 business days after DIRECTV installation is completed.</p>
+        
+        <p><strong>Is there a fee for signing up?</strong><br>
+        SEIU members may be subject to an additional $299 non-refundable fee depending on credit rating.</p>
+        
+        <p><strong>Is my subscription to DIRECTV considered a contract? If so, what is the length of the contract?</strong><br>
+        All DIRECTV Subscriptions are 24-month agreements. However, special pricing is valid for 12 months. At the end of the initial 12-month period, members must bundle DIRECTV with two or more AT&amp;T wireless and/or U-Verse services to maintain the special pricing.</p>
+        
+        <p><strong>Are there any fees for terminating the agreement early?</strong><br>
+        If terminated prior to the contract expiration date, there is a prorated Early Cancellation fee of $20 per each month remaining in the agreement.</p>
+        
+        <p><strong>What happens if I choose to discontinue my service at the end of the contract?</strong><br>
+        If you cease to be a DIRECTV customer (whether voluntarily or involuntarily), you must contact DIRECTV within 7 days of termination of your base level of programming to arrange for an equipment return kit or kits, and instructions on how to return your leased Equipment [DIRECTV Receiver(s), Genie Mini(s), access card(s), and remote(s)]. Leased Equipment must be returned in good working order, normal wear and tear excepted. If we haven’t received your leased Equipment within 21 days of termination of your base level of programming, or if the equipment is returned in damaged condition, DIRECTV will charge you $45 for each HD Receiver and each Genie Mini, and $135 for each Genie HD DVR. Please return all equipment promptly.</p>
+        
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: DIRECTV FREQUENTLY ASKED QUESTIONS
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200603T151342Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200603T151342Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="SEIU EASY PAY PROGRAM POWERED BY SQUARE DEAL MARKET" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Frequently Asked Questions</strong></p>
+        <p><strong>What are the advantages of buying from Square Deal Market?</strong><br />
+        Ease, responsibility, and affordability to get the things members need through a worry-free, interest-free, disciplined, pay-over-time plan. Square Deal Market teamed up with SEIU Member Benefits to bring you this simple tool to help you manage your budget as needs arise.  You no longer need to stress over things like your ability to make larger purchases, your credit score or the expensive cost of compounding interest debt.</p>
+        <p><strong>No Interest or Credit Score Check, What&rsquo;s the catch?</strong><br />
+        It&rsquo;s true. Square Deal Market doesn&rsquo;t charge interest or finance fees, ever, and Square Deal Market doesn&rsquo;t use credit bureaus to check credit scores. Square Deal Market can do this because of the partnership with SEIU Member Benefits. They have your back and it allows Square Deal Market to underwrite members on a group basis vs. an individual basis.</p>
+        <p><strong>Can anyone shop in the Square Deal Market?</strong><br />
+        No. Shoppers must be members of SEIU and be eligible to participate in this shopping advantage.</p>
+        <p><strong>How do I know if I&rsquo;m eligible under the benefit plan?</strong><br />
+        You are eligible if:
+        </p>
+        <ul>
+            <li>You are an active member of your organization
+            </li>
+            <li>You are 18 years of age</li>
+            <li>Your minimum annual income level is $18,000
+            </li>
+            <li>You are actively employed at the time of purchase
+            </li>
+        </ul>
+        <p><strong>Why would my Organization help me out?</strong><br />
+        SEIU values your commitment to making your lives and your communities better. They know you work hard to get the things you need for you and your family. Providing a responsible, just-in-time budgeting tool helps you potentially save hundreds of dollars in interest and finance charges a year and it allows you to quickly pay off your bills so you can afford more without the formidable challenge of compounding interest.</p>
+        <p><strong>How do I know what my credit limit is?</strong><br />
+        Simply enroll. Square Deal Market will immediately let you know what your credit limit is. Your credit limit is normally based on your annual income level. Square Deal Market tries to ensure that you have enough spending limit to help, but not too much to get in trouble. Square Deal Market generally keep your payments well below less than 5% of your paycheck.</p>
+        <p><strong>How are my payments calculated?</strong><br />
+        This is determined by a number of factors including Square Deal Market&rsquo;s relationship with suppliers/manufacturers and product supply. Square Deal Market&rsquo;s goal is to couple a great price with an affordable, interest free, pay-over-time solution so you can get what you need without adding the cost and stress of credit card interest.</p>
+        <p><strong>What happens to my payment plan if I return something?</strong><br />
+        If an item is returned Square Deal Market will refund any payments to your account and cancel the installment loan for that product.
+        </p>
+        <p><strong>Can I pay in full at time of purchase?</strong><br />
+        Yes.</p>
+        <p><strong>What if something costs $1,000 but my credit limit is only $500?</strong><br />
+        Square Deal Market allows you to create a payment plan up to your credit limit. The remainder can be paid for at time of purchase using a separate form of payment.</p>
+        <p><strong>Can I choose a shorter term loan?</strong><br />
+        Absolutely. Square Deal Market recommends paying off your purchases as quickly as affordably possible for your budget. The faster you pay back the loan, the faster you have more available credit for your next purchase. Not ready to make another purchase?  That&rsquo;s okay.  You at least know that the money is there when you need it.</p>
+        <p><strong>Is there a penalty to pay-off early?</strong><br />
+        No.</p>
+        <p><strong>Do you report my credit to credit bureaus?</strong><br />
+        No. Square Deal Market does not use bureaus to check credit scores and Square Deal Market does not report your credit or payment performance to any bureaus. Square Deal Market may use various services to validate information that you provide to us, such as who you are and where you work.</p>
+        <p><strong>What happens if I don&rsquo;t pay or miss a payment?</strong><br />
+        Like all purchases you make, Square Deal Market expects to be paid in full. If Square Deal Market notice you missed a payment, Square Deal Market may remind you by email, phone or text. Missed payments will result in a fee of $25 (or lower amount as dictated by law in certain jurisdictions). Also, should Square Deal Market be charged any additional fees by your bank or processor for the missed payment, then Square Deal Market will add those to your next payment. You can always make up missed payments by going to the Make a Payment Page within your MyAccount area online.</p>
+        <p><strong>Can I have multiple payment plans outstanding at one time?</strong><br />
+        Yes. As long as you have available credit and meet other guidelines of the program, you can have multiple payment plans.</p>
+        <p><strong>Can my shipping address be different from my billing address?</strong><br />
+        Not at this time, but Square Deal Market is busily working to make this available soon.</p>
+        <p><strong>Are my items taxed?</strong><br />
+        Yes. Square Deal Market collect and remit taxes based on your home billing address and as required by Federal and State law.</p>
+        <p><strong>Is shipping Free?</strong><br />
+        Square Deal Market discounts shipping as much as possible, but it is not free.</p>
+        <p><strong>What is your return policy?</strong><br />
+        This varies by merchandise type and manufacturer. Please inspect your product immediately upon delivery and contact Square Deal Market at customerservice@squaredealmarket.com should you be unsatisfied. Agents will be happy to assist you with your concerns.</p>
+        <p><strong>Can I get assistance placing an order?</strong><br />
+        Square Deal Market has attempted to make it easy to place your order on line. In the event you need assistance placing your order, you can call the customer service department at: 800-697-0002. They are open 9am to 9pm CST Monday through Friday or email at any time: customerservice@squaredealmarket.com.</p>
+        <p><strong>What if I lost my Username and/or Password?</strong><br />
+        Usernames and passwords can be updated at the Square Deal Market homepage or by contacting customerservice@squaredealmarket.com</p>
+        <p><strong>Can I see my order history and status of my loan balances?</strong><br />
+        Yes. This information is made available to you on-line after you sign-in and click on the MyAccount page.</p>
+        <p><strong>What if I want to change my bank account information?</strong><br />
+        You can simply go online and make those changes on your bank profile section in the MyAccount page.</p>
+        <p><strong>Can I suggest products that you don&rsquo;t carry?</strong><br />
+        Sure. Email customerservice@SquareDealMarket.com. Square Deal Market would love hearing about what you&rsquo;re looking for so Square Deal Market can try to provide the best assortment of products available for you.</p>
+        <p><strong>How does Square Deal Market protect my security?</strong><br />
+        Square Deal Market is fully PCI Compliant, and conducts routine security audits.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T132846Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T132846Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="SEIU EASY PAY PROGRAM POWERED BY SQUARE DEAL MARKET" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Frequently Asked Questions</strong></p>
+        <p><strong>What are the advantages of buying from Square Deal Market?</strong><br />
+        Ease, responsibility, and affordability to get the things members need through a worry-free, interest-free, disciplined, pay-over-time plan. Square Deal Market teamed up with SEIU Member Benefits to bring you this simple tool to help you manage your budget as needs arise.  You no longer need to stress over things like your ability to make larger purchases, your credit score or the expensive cost of compounding interest debt.</p>
+        <p><strong>No Interest or Credit Score Check, What&rsquo;s the catch?</strong><br />
+        It&rsquo;s true. Square Deal Market doesn&rsquo;t charge interest or finance fees, ever, and Square Deal Market doesn&rsquo;t use credit bureaus to check credit scores. Square Deal Market can do this because of the partnership with SEIU Member Benefits. They have your back and it allows Square Deal Market to underwrite members on a group basis vs. an individual basis.</p>
+        <p><strong>Can anyone shop in the Square Deal Market?</strong><br />
+        No. Shoppers must be members of SEIU and be eligible to participate in this shopping advantage.</p>
+        <p><strong>How do I know if I&rsquo;m eligible under the benefit plan?</strong><br />
+        You are eligible if:
+        </p>
+        <ul>
+            <li>You are an active member of your organization
+            </li>
+            <li>You are 18 years of age</li>
+            <li>Your minimum annual income level is $18,000
+            </li>
+            <li>You are actively employed at the time of purchase
+            </li>
+        </ul>
+        <p><strong>Why would my Organization help me out?</strong><br />
+        SEIU values your commitment to making your lives and your communities better. They know you work hard to get the things you need for you and your family. Providing a responsible, just-in-time budgeting tool helps you potentially save hundreds of dollars in interest and finance charges a year and it allows you to quickly pay off your bills so you can afford more without the formidable challenge of compounding interest.</p>
+        <p><strong>How do I know what my credit limit is?</strong><br />
+        Simply enroll. Square Deal Market will immediately let you know what your credit limit is. Your credit limit is normally based on your annual income level. Square Deal Market tries to ensure that you have enough spending limit to help, but not too much to get in trouble. Square Deal Market generally keep your payments well below less than 5% of your paycheck.</p>
+        <p><strong>How are my payments calculated?</strong><br />
+        This is determined by a number of factors including Square Deal Market&rsquo;s relationship with suppliers/manufacturers and product supply. Square Deal Market&rsquo;s goal is to couple a great price with an affordable, interest free, pay-over-time solution so you can get what you need without adding the cost and stress of credit card interest.</p>
+        <p><strong>What happens to my payment plan if I return something?</strong><br />
+        If an item is returned Square Deal Market will refund any payments to your account and cancel the installment loan for that product.
+        </p>
+        <p><strong>Can I pay in full at time of purchase?</strong><br />
+        Yes.</p>
+        <p><strong>What if something costs $1,000 but my credit limit is only $500?</strong><br />
+        Square Deal Market allows you to create a payment plan up to your credit limit. The remainder can be paid for at time of purchase using a separate form of payment.</p>
+        <p><strong>Can I choose a shorter term loan?</strong><br />
+        Absolutely. Square Deal Market recommends paying off your purchases as quickly as affordably possible for your budget. The faster you pay back the loan, the faster you have more available credit for your next purchase. Not ready to make another purchase?  That&rsquo;s okay.  You at least know that the money is there when you need it.</p>
+        <p><strong>Is there a penalty to pay-off early?</strong><br />
+        No.</p>
+        <p><strong>Do you report my credit to credit bureaus?</strong><br />
+        No. Square Deal Market does not use bureaus to check credit scores and Square Deal Market does not report your credit or payment performance to any bureaus. Square Deal Market may use various services to validate information that you provide to us, such as who you are and where you work.</p>
+        <p><strong>What happens if I don&rsquo;t pay or miss a payment?</strong><br />
+        Like all purchases you make, Square Deal Market expects to be paid in full. If Square Deal Market notice you missed a payment, Square Deal Market may remind you by email, phone or text. Missed payments will result in a fee of $25 (or lower amount as dictated by law in certain jurisdictions). Also, should Square Deal Market be charged any additional fees by your bank or processor for the missed payment, then Square Deal Market will add those to your next payment. You can always make up missed payments by going to the Make a Payment Page within your MyAccount area online.</p>
+        <p><strong>Can I have multiple payment plans outstanding at one time?</strong><br />
+        Yes. As long as you have available credit and meet other guidelines of the program, you can have multiple payment plans.</p>
+        <p><strong>Can my shipping address be different from my billing address?</strong><br />
+        Not at this time, but Square Deal Market is busily working to make this available soon.</p>
+        <p><strong>Are my items taxed?</strong><br />
+        Yes. Square Deal Market collect and remit taxes based on your home billing address and as required by Federal and State law.</p>
+        <p><strong>Is shipping Free?</strong><br />
+        Square Deal Market discounts shipping as much as possible, but it is not free.</p>
+        <p><strong>What is your return policy?</strong><br />
+        This varies by merchandise type and manufacturer. Please inspect your product immediately upon delivery and contact Square Deal Market at customerservice@squaredealmarket.com should you be unsatisfied. Agents will be happy to assist you with your concerns.</p>
+        <p><strong>Can I get assistance placing an order?</strong><br />
+        Square Deal Market has attempted to make it easy to place your order on line. In the event you need assistance placing your order, you can call the customer service department at: 800-697-0002. They are open 9am to 9pm CST Monday through Friday or email at any time: customerservice@squaredealmarket.com.</p>
+        <p><strong>What if I lost my Username and/or Password?</strong><br />
+        Usernames and passwords can be updated at the Square Deal Market homepage or by contacting customerservice@squaredealmarket.com</p>
+        <p><strong>Can I see my order history and status of my loan balances?</strong><br />
+        Yes. This information is made available to you on-line after you sign-in and click on the MyAccount page.</p>
+        <p><strong>What if I want to change my bank account information?</strong><br />
+        You can simply go online and make those changes on your bank profile section in the MyAccount page.</p>
+        <p><strong>Can I suggest products that you don&rsquo;t carry?</strong><br />
+        Sure. Email customerservice@SquareDealMarket.com. Square Deal Market would love hearing about what you&rsquo;re looking for so Square Deal Market can try to provide the best assortment of products available for you.</p>
+        <p><strong>How does Square Deal Market protect my security?</strong><br />
+        Square Deal Market is fully PCI Compliant, and conducts routine security audits.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T133527Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T133527Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="SEIU EASY PAY PROGRAM POWERED BY SQUARE DEAL MARKET" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Frequently Asked Questions</strong></p>
+        <p><strong>What are the advantages of buying from Square Deal Market?</strong><br />
+        Ease, responsibility, and affordability to get the things members need through a worry-free, interest-free, disciplined, pay-over-time plan. Square Deal Market teamed up with SEIU Member Benefits to bring you this simple tool to help you manage your budget as needs arise.  You no longer need to stress over things like your ability to make larger purchases, your credit score or the expensive cost of compounding interest debt.</p>
+        <p><strong>No Interest or Credit Score Check, What&rsquo;s the catch?</strong><br />
+        It&rsquo;s true. Square Deal Market doesn&rsquo;t charge interest or finance fees, ever, and Square Deal Market doesn&rsquo;t use credit bureaus to check credit scores. Square Deal Market can do this because of the partnership with SEIU Member Benefits. They have your back and it allows Square Deal Market to underwrite members on a group basis vs. an individual basis.</p>
+        <p><strong>Can anyone shop in the Square Deal Market?</strong><br />
+        No. Shoppers must be members of SEIU and be eligible to participate in this shopping advantage.</p>
+        <p><strong>How do I know if I&rsquo;m eligible under the benefit plan?</strong><br />
+        You are eligible if:
+        </p>
+        <ul>
+            <li>You are an active member of your organization
+            </li>
+            <li>You are 18 years of age</li>
+            <li>Your minimum annual income level is $18,000
+            </li>
+            <li>You are actively employed at the time of purchase
+            </li>
+        </ul>
+        <p><strong>Why would my Organization help me out?</strong><br />
+        SEIU values your commitment to making your lives and your communities better. They know you work hard to get the things you need for you and your family. Providing a responsible, just-in-time budgeting tool helps you potentially save hundreds of dollars in interest and finance charges a year and it allows you to quickly pay off your bills so you can afford more without the formidable challenge of compounding interest.</p>
+        <p><strong>How do I know what my credit limit is?</strong><br />
+        Simply enroll. Square Deal Market will immediately let you know what your credit limit is. Your credit limit is normally based on your annual income level. Square Deal Market tries to ensure that you have enough spending limit to help, but not too much to get in trouble. Square Deal Market generally keep your payments well below less than 5% of your paycheck.</p>
+        <p><strong>How are my payments calculated?</strong><br />
+        This is determined by a number of factors including Square Deal Market&rsquo;s relationship with suppliers/manufacturers and product supply. Square Deal Market&rsquo;s goal is to couple a great price with an affordable, interest free, pay-over-time solution so you can get what you need without adding the cost and stress of credit card interest.</p>
+        <p><strong>What happens to my payment plan if I return something?</strong><br />
+        If an item is returned Square Deal Market will refund any payments to your account and cancel the installment loan for that product.
+        </p>
+        <p><strong>Can I pay in full at time of purchase?</strong><br />
+        Yes.</p>
+        <p><strong>What if something costs $1,000 but my credit limit is only $500?</strong><br />
+        Square Deal Market allows you to create a payment plan up to your credit limit. The remainder can be paid for at time of purchase using a separate form of payment.</p>
+        <p><strong>Can I choose a shorter term loan?</strong><br />
+        Absolutely. Square Deal Market recommends paying off your purchases as quickly as affordably possible for your budget. The faster you pay back the loan, the faster you have more available credit for your next purchase. Not ready to make another purchase?  That&rsquo;s okay.  You at least know that the money is there when you need it.</p>
+        <p><strong>Is there a penalty to pay-off early?</strong><br />
+        No.</p>
+        <p><strong>Do you report my credit to credit bureaus?</strong><br />
+        No. Square Deal Market does not use bureaus to check credit scores and Square Deal Market does not report your credit or payment performance to any bureaus. Square Deal Market may use various services to validate information that you provide to us, such as who you are and where you work.</p>
+        <p><strong>What happens if I don&rsquo;t pay or miss a payment?</strong><br />
+        Like all purchases you make, Square Deal Market expects to be paid in full. If Square Deal Market notice you missed a payment, Square Deal Market may remind you by email, phone or text. Missed payments will result in a fee of $25 (or lower amount as dictated by law in certain jurisdictions). Also, should Square Deal Market be charged any additional fees by your bank or processor for the missed payment, then Square Deal Market will add those to your next payment. You can always make up missed payments by going to the Make a Payment Page within your MyAccount area online.</p>
+        <p><strong>Can I have multiple payment plans outstanding at one time?</strong><br />
+        Yes. As long as you have available credit and meet other guidelines of the program, you can have multiple payment plans.</p>
+        <p><strong>Can my shipping address be different from my billing address?</strong><br />
+        Not at this time, but Square Deal Market is busily working to make this available soon.</p>
+        <p><strong>Are my items taxed?</strong><br />
+        Yes. Square Deal Market collect and remit taxes based on your home billing address and as required by Federal and State law.</p>
+        <p><strong>Is shipping Free?</strong><br />
+        Square Deal Market discounts shipping as much as possible, but it is not free.</p>
+        <p><strong>What is your return policy?</strong><br />
+        This varies by merchandise type and manufacturer. Please inspect your product immediately upon delivery and contact Square Deal Market at customerservice@squaredealmarket.com should you be unsatisfied. Agents will be happy to assist you with your concerns.</p>
+        <p><strong>Can I get assistance placing an order?</strong><br />
+        Square Deal Market has attempted to make it easy to place your order on line. In the event you need assistance placing your order, you can call the customer service department at: 800-697-0002. They are open 9am to 9pm CST Monday through Friday or email at any time: customerservice@squaredealmarket.com.</p>
+        <p><strong>What if I lost my Username and/or Password?</strong><br />
+        Usernames and passwords can be updated at the Square Deal Market homepage or by contacting customerservice@squaredealmarket.com</p>
+        <p><strong>Can I see my order history and status of my loan balances?</strong><br />
+        Yes. This information is made available to you on-line after you sign-in and click on the MyAccount page.</p>
+        <p><strong>What if I want to change my bank account information?</strong><br />
+        You can simply go online and make those changes on your bank profile section in the MyAccount page.</p>
+        <p><strong>Can I suggest products that you don&rsquo;t carry?</strong><br />
+        Sure. Email customerservice@SquareDealMarket.com. Square Deal Market would love hearing about what you&rsquo;re looking for so Square Deal Market can try to provide the best assortment of products available for you.</p>
+        <p><strong>How does Square Deal Market protect my security?</strong><br />
+        Square Deal Market is fully PCI Compliant, and conducts routine security audits.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T133834Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T133834Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="SEIU EASY PAY PROGRAM POWERED BY SQUARE DEAL MARKET" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Frequently Asked Questions</strong></p>
+        <p><strong>What are the advantages of buying from Square Deal Market?</strong><br />
+        Ease, responsibility, and affordability to get the things members need through a worry-free, interest-free, disciplined, pay-over-time plan. Square Deal Market teamed up with SEIU Member Benefits to bring you this simple tool to help you manage your budget as needs arise.  You no longer need to stress over things like your ability to make larger purchases, your credit score or the expensive cost of compounding interest debt.</p>
+        <p><strong>No Interest or Credit Score Check, What&rsquo;s the catch?</strong><br />
+        It&rsquo;s true. Square Deal Market doesn&rsquo;t charge interest or finance fees, ever, and Square Deal Market doesn&rsquo;t use credit bureaus to check credit scores. Square Deal Market can do this because of the partnership with SEIU Member Benefits. They have your back and it allows Square Deal Market to underwrite members on a group basis vs. an individual basis.</p>
+        <p><strong>Can anyone shop in the Square Deal Market?</strong><br />
+        No. Shoppers must be members of SEIU and be eligible to participate in this shopping advantage.</p>
+        <p><strong>How do I know if I&rsquo;m eligible under the benefit plan?</strong><br />
+        You are eligible if:
+        </p>
+        <ul>
+            <li>You are an active member of your organization
+            </li>
+            <li>You are 18 years of age</li>
+            <li>Your minimum annual income level is $18,000
+            </li>
+            <li>You are actively employed at the time of purchase
+            </li>
+        </ul>
+        <p><strong>Why would my Organization help me out?</strong><br />
+        SEIU values your commitment to making your lives and your communities better. They know you work hard to get the things you need for you and your family. Providing a responsible, just-in-time budgeting tool helps you potentially save hundreds of dollars in interest and finance charges a year and it allows you to quickly pay off your bills so you can afford more without the formidable challenge of compounding interest.</p>
+        <p><strong>How do I know what my credit limit is?</strong><br />
+        Simply enroll. Square Deal Market will immediately let you know what your credit limit is. Your credit limit is normally based on your annual income level. Square Deal Market tries to ensure that you have enough spending limit to help, but not too much to get in trouble. Square Deal Market generally keep your payments well below less than 5% of your paycheck.</p>
+        <p><strong>How are my payments calculated?</strong><br />
+        This is determined by a number of factors including Square Deal Market&rsquo;s relationship with suppliers/manufacturers and product supply. Square Deal Market&rsquo;s goal is to couple a great price with an affordable, interest free, pay-over-time solution so you can get what you need without adding the cost and stress of credit card interest.</p>
+        <p><strong>What happens to my payment plan if I return something?</strong><br />
+        If an item is returned Square Deal Market will refund any payments to your account and cancel the installment loan for that product.
+        </p>
+        <p><strong>Can I pay in full at time of purchase?</strong><br />
+        Yes.</p>
+        <p><strong>What if something costs $1,000 but my credit limit is only $500?</strong><br />
+        Square Deal Market allows you to create a payment plan up to your credit limit. The remainder can be paid for at time of purchase using a separate form of payment.</p>
+        <p><strong>Can I choose a shorter term loan?</strong><br />
+        Absolutely. Square Deal Market recommends paying off your purchases as quickly as affordably possible for your budget. The faster you pay back the loan, the faster you have more available credit for your next purchase. Not ready to make another purchase?  That&rsquo;s okay.  You at least know that the money is there when you need it.</p>
+        <p><strong>Is there a penalty to pay-off early?</strong><br />
+        No.</p>
+        <p><strong>Do you report my credit to credit bureaus?</strong><br />
+        No. Square Deal Market does not use bureaus to check credit scores and Square Deal Market does not report your credit or payment performance to any bureaus. Square Deal Market may use various services to validate information that you provide to us, such as who you are and where you work.</p>
+        <p><strong>What happens if I don&rsquo;t pay or miss a payment?</strong><br />
+        Like all purchases you make, Square Deal Market expects to be paid in full. If Square Deal Market notice you missed a payment, Square Deal Market may remind you by email, phone or text. Missed payments will result in a fee of $25 (or lower amount as dictated by law in certain jurisdictions). Also, should Square Deal Market be charged any additional fees by your bank or processor for the missed payment, then Square Deal Market will add those to your next payment. You can always make up missed payments by going to the Make a Payment Page within your MyAccount area online.</p>
+        <p><strong>Can I have multiple payment plans outstanding at one time?</strong><br />
+        Yes. As long as you have available credit and meet other guidelines of the program, you can have multiple payment plans.</p>
+        <p><strong>Can my shipping address be different from my billing address?</strong><br />
+        Not at this time, but Square Deal Market is busily working to make this available soon.</p>
+        <p><strong>Are my items taxed?</strong><br />
+        Yes. Square Deal Market collect and remit taxes based on your home billing address and as required by Federal and State law.</p>
+        <p><strong>Is shipping Free?</strong><br />
+        Square Deal Market discounts shipping as much as possible, but it is not free.</p>
+        <p><strong>What is your return policy?</strong><br />
+        This varies by merchandise type and manufacturer. Please inspect your product immediately upon delivery and contact Square Deal Market at customerservice@squaredealmarket.com should you be unsatisfied. Agents will be happy to assist you with your concerns.</p>
+        <p><strong>Can I get assistance placing an order?</strong><br />
+        Square Deal Market has attempted to make it easy to place your order on line. In the event you need assistance placing your order, you can call the customer service department at: 800-697-0002. They are open 9am to 9pm CST Monday through Friday or email at any time: customerservice@squaredealmarket.com.</p>
+        <p><strong>What if I lost my Username and/or Password?</strong><br />
+        Usernames and passwords can be updated at the Square Deal Market homepage or by contacting customerservice@squaredealmarket.com</p>
+        <p><strong>Can I see my order history and status of my loan balances?</strong><br />
+        Yes. This information is made available to you on-line after you sign-in and click on the MyAccount page.</p>
+        <p><strong>What if I want to change my bank account information?</strong><br />
+        You can simply go online and make those changes on your bank profile section in the MyAccount page.</p>
+        <p><strong>Can I suggest products that you don&rsquo;t carry?</strong><br />
+        Sure. Email customerservice@SquareDealMarket.com. Square Deal Market would love hearing about what you&rsquo;re looking for so Square Deal Market can try to provide the best assortment of products available for you.</p>
+        <p><strong>How does Square Deal Market protect my security?</strong><br />
+        Square Deal Market is fully PCI Compliant, and conducts routine security audits.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T134429Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T134429Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="SEIU EASY PAY PROGRAM POWERED BY SQUARE DEAL MARKET" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Frequently Asked Questions</strong></p>
+        <p><strong>What are the advantages of buying from Square Deal Market?</strong><br />
+        Ease, responsibility, and affordability to get the things members need through a worry-free, interest-free, disciplined, pay-over-time plan. Square Deal Market teamed up with SEIU Member Benefits to bring you this simple tool to help you manage your budget as needs arise.  You no longer need to stress over things like your ability to make larger purchases, your credit score or the expensive cost of compounding interest debt.</p>
+        <p><strong>No Interest or Credit Score Check, What&rsquo;s the catch?</strong><br />
+        It&rsquo;s true. Square Deal Market doesn&rsquo;t charge interest or finance fees, ever, and Square Deal Market doesn&rsquo;t use credit bureaus to check credit scores. Square Deal Market can do this because of the partnership with SEIU Member Benefits. They have your back and it allows Square Deal Market to underwrite members on a group basis vs. an individual basis.</p>
+        <p><strong>Can anyone shop in the Square Deal Market?</strong><br />
+        No. Shoppers must be members of SEIU and be eligible to participate in this shopping advantage.</p>
+        <p><strong>How do I know if I&rsquo;m eligible under the benefit plan?</strong><br />
+        You are eligible if:
+        </p>
+        <ul>
+            <li>You are an active member of your organization
+            </li>
+            <li>You are 18 years of age</li>
+            <li>Your minimum annual income level is $18,000
+            </li>
+            <li>You are actively employed at the time of purchase
+            </li>
+        </ul>
+        <p><strong>Why would my Organization help me out?</strong><br />
+        SEIU values your commitment to making your lives and your communities better. They know you work hard to get the things you need for you and your family. Providing a responsible, just-in-time budgeting tool helps you potentially save hundreds of dollars in interest and finance charges a year and it allows you to quickly pay off your bills so you can afford more without the formidable challenge of compounding interest.</p>
+        <p><strong>How do I know what my credit limit is?</strong><br />
+        Simply enroll. Square Deal Market will immediately let you know what your credit limit is. Your credit limit is normally based on your annual income level. Square Deal Market tries to ensure that you have enough spending limit to help, but not too much to get in trouble. Square Deal Market generally keep your payments well below less than 5% of your paycheck.</p>
+        <p><strong>How are my payments calculated?</strong><br />
+        This is determined by a number of factors including Square Deal Market&rsquo;s relationship with suppliers/manufacturers and product supply. Square Deal Market&rsquo;s goal is to couple a great price with an affordable, interest free, pay-over-time solution so you can get what you need without adding the cost and stress of credit card interest.</p>
+        <p><strong>What happens to my payment plan if I return something?</strong><br />
+        If an item is returned Square Deal Market will refund any payments to your account and cancel the installment loan for that product.
+        </p>
+        <p><strong>Can I pay in full at time of purchase?</strong><br />
+        Yes.</p>
+        <p><strong>What if something costs $1,000 but my credit limit is only $500?</strong><br />
+        Square Deal Market allows you to create a payment plan up to your credit limit. The remainder can be paid for at time of purchase using a separate form of payment.</p>
+        <p><strong>Can I choose a shorter term loan?</strong><br />
+        Absolutely. Square Deal Market recommends paying off your purchases as quickly as affordably possible for your budget. The faster you pay back the loan, the faster you have more available credit for your next purchase. Not ready to make another purchase?  That&rsquo;s okay.  You at least know that the money is there when you need it.</p>
+        <p><strong>Is there a penalty to pay-off early?</strong><br />
+        No.</p>
+        <p><strong>Do you report my credit to credit bureaus?</strong><br />
+        No. Square Deal Market does not use bureaus to check credit scores and Square Deal Market does not report your credit or payment performance to any bureaus. Square Deal Market may use various services to validate information that you provide to us, such as who you are and where you work.</p>
+        <p><strong>What happens if I don&rsquo;t pay or miss a payment?</strong><br />
+        Like all purchases you make, Square Deal Market expects to be paid in full. If Square Deal Market notice you missed a payment, Square Deal Market may remind you by email, phone or text. Missed payments will result in a fee of $25 (or lower amount as dictated by law in certain jurisdictions). Also, should Square Deal Market be charged any additional fees by your bank or processor for the missed payment, then Square Deal Market will add those to your next payment. You can always make up missed payments by going to the Make a Payment Page within your MyAccount area online.</p>
+        <p><strong>Can I have multiple payment plans outstanding at one time?</strong><br />
+        Yes. As long as you have available credit and meet other guidelines of the program, you can have multiple payment plans.</p>
+        <p><strong>Can my shipping address be different from my billing address?</strong><br />
+        Not at this time, but Square Deal Market is busily working to make this available soon.</p>
+        <p><strong>Are my items taxed?</strong><br />
+        Yes. Square Deal Market collect and remit taxes based on your home billing address and as required by Federal and State law.</p>
+        <p><strong>Is shipping Free?</strong><br />
+        Square Deal Market discounts shipping as much as possible, but it is not free.</p>
+        <p><strong>What is your return policy?</strong><br />
+        This varies by merchandise type and manufacturer. Please inspect your product immediately upon delivery and contact Square Deal Market at customerservice@squaredealmarket.com should you be unsatisfied. Agents will be happy to assist you with your concerns.</p>
+        <p><strong>Can I get assistance placing an order?</strong><br />
+        Square Deal Market has attempted to make it easy to place your order on line. In the event you need assistance placing your order, you can call the customer service department at: 800-697-0002. They are open 9am to 9pm CST Monday through Friday or email at any time: customerservice@squaredealmarket.com.</p>
+        <p><strong>What if I lost my Username and/or Password?</strong><br />
+        Usernames and passwords can be updated at the Square Deal Market homepage or by contacting customerservice@squaredealmarket.com</p>
+        <p><strong>Can I see my order history and status of my loan balances?</strong><br />
+        Yes. This information is made available to you on-line after you sign-in and click on the MyAccount page.</p>
+        <p><strong>What if I want to change my bank account information?</strong><br />
+        You can simply go online and make those changes on your bank profile section in the MyAccount page.</p>
+        <p><strong>Can I suggest products that you don&rsquo;t carry?</strong><br />
+        Sure. Email customerservice@SquareDealMarket.com. Square Deal Market would love hearing about what you&rsquo;re looking for so Square Deal Market can try to provide the best assortment of products available for you.</p>
+        <p><strong>How does Square Deal Market protect my security?</strong><br />
+        Square Deal Market is fully PCI Compliant, and conducts routine security audits.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T134831Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T134831Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="SEIU EASY PAY PROGRAM POWERED BY SQUARE DEAL MARKET" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What are the advantages of buying from Square Deal Market?</strong><br />
+        Ease, responsibility, and affordability to get the things members need through a worry-free, interest-free, disciplined, pay-over-time plan. Square Deal Market teamed up with SEIU Member Benefits to bring you this simple tool to help you manage your budget as needs arise.  You no longer need to stress over things like your ability to make larger purchases, your credit score or the expensive cost of compounding interest debt.</p>
+        <p><strong>No Interest or Credit Score Check, What&rsquo;s the catch?</strong><br />
+        It&rsquo;s true. Square Deal Market doesn&rsquo;t charge interest or finance fees, ever, and Square Deal Market doesn&rsquo;t use credit bureaus to check credit scores. Square Deal Market can do this because of the partnership with SEIU Member Benefits. They have your back and it allows Square Deal Market to underwrite members on a group basis vs. an individual basis.</p>
+        <p><strong>Can anyone shop in the Square Deal Market?</strong><br />
+        No. Shoppers must be members of SEIU and be eligible to participate in this shopping advantage.</p>
+        <p><strong>How do I know if I&rsquo;m eligible under the benefit plan?</strong><br />
+        You are eligible if:
+        </p>
+        <ul>
+            <li>You are an active member of your organization
+            </li>
+            <li>You are 18 years of age</li>
+            <li>Your minimum annual income level is $18,000
+            </li>
+            <li>You are actively employed at the time of purchase
+            </li>
+        </ul>
+        <p><strong>Why would my Organization help me out?</strong><br />
+        SEIU values your commitment to making your lives and your communities better. They know you work hard to get the things you need for you and your family. Providing a responsible, just-in-time budgeting tool helps you potentially save hundreds of dollars in interest and finance charges a year and it allows you to quickly pay off your bills so you can afford more without the formidable challenge of compounding interest.</p>
+        <p><strong>How do I know what my credit limit is?</strong><br />
+        Simply enroll. Square Deal Market will immediately let you know what your credit limit is. Your credit limit is normally based on your annual income level. Square Deal Market tries to ensure that you have enough spending limit to help, but not too much to get in trouble. Square Deal Market generally keep your payments well below less than 5% of your paycheck.</p>
+        <p><strong>How are my payments calculated?</strong><br />
+        This is determined by a number of factors including Square Deal Market&rsquo;s relationship with suppliers/manufacturers and product supply. Square Deal Market&rsquo;s goal is to couple a great price with an affordable, interest free, pay-over-time solution so you can get what you need without adding the cost and stress of credit card interest.</p>
+        <p><strong>What happens to my payment plan if I return something?</strong><br />
+        If an item is returned Square Deal Market will refund any payments to your account and cancel the installment loan for that product.
+        </p>
+        <p><strong>Can I pay in full at time of purchase?</strong><br />
+        Yes.</p>
+        <p><strong>What if something costs $1,000 but my credit limit is only $500?</strong><br />
+        Square Deal Market allows you to create a payment plan up to your credit limit. The remainder can be paid for at time of purchase using a separate form of payment.</p>
+        <p><strong>Can I choose a shorter term loan?</strong><br />
+        Absolutely. Square Deal Market recommends paying off your purchases as quickly as affordably possible for your budget. The faster you pay back the loan, the faster you have more available credit for your next purchase. Not ready to make another purchase?  That&rsquo;s okay.  You at least know that the money is there when you need it.</p>
+        <p><strong>Is there a penalty to pay-off early?</strong><br />
+        No.</p>
+        <p><strong>Do you report my credit to credit bureaus?</strong><br />
+        No. Square Deal Market does not use bureaus to check credit scores and Square Deal Market does not report your credit or payment performance to any bureaus. Square Deal Market may use various services to validate information that you provide to us, such as who you are and where you work.</p>
+        <p><strong>What happens if I don&rsquo;t pay or miss a payment?</strong><br />
+        Like all purchases you make, Square Deal Market expects to be paid in full. If Square Deal Market notice you missed a payment, Square Deal Market may remind you by email, phone or text. Missed payments will result in a fee of $25 (or lower amount as dictated by law in certain jurisdictions). Also, should Square Deal Market be charged any additional fees by your bank or processor for the missed payment, then Square Deal Market will add those to your next payment. You can always make up missed payments by going to the Make a Payment Page within your MyAccount area online.</p>
+        <p><strong>Can I have multiple payment plans outstanding at one time?</strong><br />
+        Yes. As long as you have available credit and meet other guidelines of the program, you can have multiple payment plans.</p>
+        <p><strong>Can my shipping address be different from my billing address?</strong><br />
+        Not at this time, but Square Deal Market is busily working to make this available soon.</p>
+        <p><strong>Are my items taxed?</strong><br />
+        Yes. Square Deal Market collect and remit taxes based on your home billing address and as required by Federal and State law.</p>
+        <p><strong>Is shipping Free?</strong><br />
+        Square Deal Market discounts shipping as much as possible, but it is not free.</p>
+        <p><strong>What is your return policy?</strong><br />
+        This varies by merchandise type and manufacturer. Please inspect your product immediately upon delivery and contact Square Deal Market at customerservice@squaredealmarket.com should you be unsatisfied. Agents will be happy to assist you with your concerns.</p>
+        <p><strong>Can I get assistance placing an order?</strong><br />
+        Square Deal Market has attempted to make it easy to place your order on line. In the event you need assistance placing your order, you can call the customer service department at: 800-697-0002. They are open 9am to 9pm CST Monday through Friday or email at any time: customerservice@squaredealmarket.com.</p>
+        <p><strong>What if I lost my Username and/or Password?</strong><br />
+        Usernames and passwords can be updated at the Square Deal Market homepage or by contacting customerservice@squaredealmarket.com</p>
+        <p><strong>Can I see my order history and status of my loan balances?</strong><br />
+        Yes. This information is made available to you on-line after you sign-in and click on the MyAccount page.</p>
+        <p><strong>What if I want to change my bank account information?</strong><br />
+        You can simply go online and make those changes on your bank profile section in the MyAccount page.</p>
+        <p><strong>Can I suggest products that you don&rsquo;t carry?</strong><br />
+        Sure. Email customerservice@SquareDealMarket.com. Square Deal Market would love hearing about what you&rsquo;re looking for so Square Deal Market can try to provide the best assortment of products available for you.</p>
+        <p><strong>How does Square Deal Market protect my security?</strong><br />
+        Square Deal Market is fully PCI Compliant, and conducts routine security audits.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: EASY PAY PROGRAM FREQUENTLY ASKED QUESTIONS
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T135125Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Easy Pay Program Frequently Asked Questions
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T135125Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="SEIU EASY PAY PROGRAM POWERED BY SQUARE DEAL MARKET" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Easy Pay Program Frequently Asked Questions
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>What are the advantages of buying from Square Deal Market?</strong><br />
+        Ease, responsibility, and affordability to get the things members need through a worry-free, interest-free, disciplined, pay-over-time plan. Square Deal Market teamed up with SEIU Member Benefits to bring you this simple tool to help you manage your budget as needs arise.  You no longer need to stress over things like your ability to make larger purchases, your credit score or the expensive cost of compounding interest debt.</p>
+        <p><strong>No Interest or Credit Score Check, What&rsquo;s the catch?</strong><br />
+        It&rsquo;s true. Square Deal Market doesn&rsquo;t charge interest or finance fees, ever, and Square Deal Market doesn&rsquo;t use credit bureaus to check credit scores. Square Deal Market can do this because of the partnership with SEIU Member Benefits. They have your back and it allows Square Deal Market to underwrite members on a group basis vs. an individual basis.</p>
+        <p><strong>Can anyone shop in the Square Deal Market?</strong><br />
+        No. Shoppers must be members of SEIU and be eligible to participate in this shopping advantage.</p>
+        <p><strong>How do I know if I&rsquo;m eligible under the benefit plan?</strong><br />
+        You are eligible if:
+        </p>
+        <ul>
+            <li>You are an active member of your organization
+            </li>
+            <li>You are 18 years of age</li>
+            <li>Your minimum annual income level is $18,000
+            </li>
+            <li>You are actively employed at the time of purchase
+            </li>
+        </ul>
+        <p><strong>Why would my Organization help me out?</strong><br />
+        SEIU values your commitment to making your lives and your communities better. They know you work hard to get the things you need for you and your family. Providing a responsible, just-in-time budgeting tool helps you potentially save hundreds of dollars in interest and finance charges a year and it allows you to quickly pay off your bills so you can afford more without the formidable challenge of compounding interest.</p>
+        <p><strong>How do I know what my credit limit is?</strong><br />
+        Simply enroll. Square Deal Market will immediately let you know what your credit limit is. Your credit limit is normally based on your annual income level. Square Deal Market tries to ensure that you have enough spending limit to help, but not too much to get in trouble. Square Deal Market generally keep your payments well below less than 5% of your paycheck.</p>
+        <p><strong>How are my payments calculated?</strong><br />
+        This is determined by a number of factors including Square Deal Market&rsquo;s relationship with suppliers/manufacturers and product supply. Square Deal Market&rsquo;s goal is to couple a great price with an affordable, interest free, pay-over-time solution so you can get what you need without adding the cost and stress of credit card interest.</p>
+        <p><strong>What happens to my payment plan if I return something?</strong><br />
+        If an item is returned Square Deal Market will refund any payments to your account and cancel the installment loan for that product.
+        </p>
+        <p><strong>Can I pay in full at time of purchase?</strong><br />
+        Yes.</p>
+        <p><strong>What if something costs $1,000 but my credit limit is only $500?</strong><br />
+        Square Deal Market allows you to create a payment plan up to your credit limit. The remainder can be paid for at time of purchase using a separate form of payment.</p>
+        <p><strong>Can I choose a shorter term loan?</strong><br />
+        Absolutely. Square Deal Market recommends paying off your purchases as quickly as affordably possible for your budget. The faster you pay back the loan, the faster you have more available credit for your next purchase. Not ready to make another purchase?  That&rsquo;s okay.  You at least know that the money is there when you need it.</p>
+        <p><strong>Is there a penalty to pay-off early?</strong><br />
+        No.</p>
+        <p><strong>Do you report my credit to credit bureaus?</strong><br />
+        No. Square Deal Market does not use bureaus to check credit scores and Square Deal Market does not report your credit or payment performance to any bureaus. Square Deal Market may use various services to validate information that you provide to us, such as who you are and where you work.</p>
+        <p><strong>What happens if I don&rsquo;t pay or miss a payment?</strong><br />
+        Like all purchases you make, Square Deal Market expects to be paid in full. If Square Deal Market notice you missed a payment, Square Deal Market may remind you by email, phone or text. Missed payments will result in a fee of $25 (or lower amount as dictated by law in certain jurisdictions). Also, should Square Deal Market be charged any additional fees by your bank or processor for the missed payment, then Square Deal Market will add those to your next payment. You can always make up missed payments by going to the Make a Payment Page within your MyAccount area online.</p>
+        <p><strong>Can I have multiple payment plans outstanding at one time?</strong><br />
+        Yes. As long as you have available credit and meet other guidelines of the program, you can have multiple payment plans.</p>
+        <p><strong>Can my shipping address be different from my billing address?</strong><br />
+        Not at this time, but Square Deal Market is busily working to make this available soon.</p>
+        <p><strong>Are my items taxed?</strong><br />
+        Yes. Square Deal Market collect and remit taxes based on your home billing address and as required by Federal and State law.</p>
+        <p><strong>Is shipping Free?</strong><br />
+        Square Deal Market discounts shipping as much as possible, but it is not free.</p>
+        <p><strong>What is your return policy?</strong><br />
+        This varies by merchandise type and manufacturer. Please inspect your product immediately upon delivery and contact Square Deal Market at customerservice@squaredealmarket.com should you be unsatisfied. Agents will be happy to assist you with your concerns.</p>
+        <p><strong>Can I get assistance placing an order?</strong><br />
+        Square Deal Market has attempted to make it easy to place your order on line. In the event you need assistance placing your order, you can call the customer service department at: 800-697-0002. They are open 9am to 9pm CST Monday through Friday or email at any time: customerservice@squaredealmarket.com.</p>
+        <p><strong>What if I lost my Username and/or Password?</strong><br />
+        Usernames and passwords can be updated at the Square Deal Market homepage or by contacting customerservice@squaredealmarket.com</p>
+        <p><strong>Can I see my order history and status of my loan balances?</strong><br />
+        Yes. This information is made available to you on-line after you sign-in and click on the MyAccount page.</p>
+        <p><strong>What if I want to change my bank account information?</strong><br />
+        You can simply go online and make those changes on your bank profile section in the MyAccount page.</p>
+        <p><strong>Can I suggest products that you don&rsquo;t carry?</strong><br />
+        Sure. Email customerservice@SquareDealMarket.com. Square Deal Market would love hearing about what you&rsquo;re looking for so Square Deal Market can try to provide the best assortment of products available for you.</p>
+        <p><strong>How does Square Deal Market protect my security?</strong><br />
+        Square Deal Market is fully PCI Compliant, and conducts routine security audits.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Easy Pay Program Frequently Asked Questions
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171223T054403Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: DIRECTV FAQs
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E362219-ED63-4C58-989F-3B36C4CEF576}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: DIRECTV FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+                        <p><strong>¿Cómo me suscribo a DIRECTV?</strong><br>
+        Para suscribirse a DIRECTV, regístrese en la página de <a href="~/link.aspx?_id=9650A2129CC94964BA1FC37DA56E9E5F&amp;_z=z">SEIU DIRECTV</a> y llame al número de teléfono gratuito que aparece después de iniciar sesión.</p>
+        
+        <p><strong>¿Tiene DIRECTV una oferta exclusiva para los miembros SEIU?</strong><br>
+        Cada suscriptor calificado que adquiera el paquete CHOICE™ (inglés) o superior o el paquete ÓPTIMO MÀS™ (español) o superior puede recibir una tarjeta de regalo con un valor de $100.00. Esta oferta es válida solo para los nuevos suscriptores de DIRECTV y los suscriptores que no hayan tenido una suscripción activa en los últimos 24 meses. No es válido para las renovaciones de una suscripción de DIRECTV existente. Los precios incluyen los costos mensuales del equipo para hasta 4 habitaciones y el costo del servicio mensual para DVR en HD.</p>
+        
+        <p><strong>¿Cómo accedo a los canales en HD?</strong><br>
+        Para acceder a la programación HD de DIRECTV, se requieren equipos HD junto con el Servicio de Receptores Avanzados. El número de canales en HD varía según la selección del paquete.</p>
+        
+        <p><strong>¿Cuánto tiempo lleva recibir la tarjeta de regalo VISA después de suscribirse a DIRECTV?</strong><br>
+        La tarjeta de regalo VISA se entrega entre 7 y 10 días hábiles posteriores a la instalación de DIRECTV.</p>
+        
+        <p><strong>¿Hay algún cargo por inscribirse?</strong><br>
+        Los miembros de SEIU pueden estar sujetos a un cargo adicional de $299, no reembolsable, dependiendo de la calificación crediticia.</p>
+        
+        <p><strong>¿Mi suscripción a DIRECTV se considera un contrato? En caso afirmativo, ¿cuál es la duración del contrato?</strong><br>
+        Todas las suscripciones de DIRECTV son contratos de 24 meses. Sin embargo, los precios especiales son válidos por 12 meses. Al final del período inicial de 12 meses los miembros deben vincular DIRECTV con dos o más servicios inalámbricos de AT&amp;T y/o U-Verse para mantener los precios especiales.</p>
+        
+        <p><strong>¿Hay algún cargo por cancelar el contrato de manera anticipada?</strong><br>
+        Si se rescinde antes de la fecha de extinción del contrato, hay una tarifa de cancelación anticipada prorrateada de $20 por cada mes restante del contrato.</p>
+        
+        <p><strong>¿Qué sucede si opto por interrumpir el servicio al final del contrato?</strong><br>
+        Si deja de ser un cliente de DIRECTV (ya sea voluntaria o involuntariamente), debe ponerse en contacto con DIRECTV dentro de los 7 días posteriores a la terminación de su nivel base de programación para coordinar un kit o kits de devolución de equipo y obtener instrucciones sobre cómo devolver su equipo [ Receptor(es) DIRECTV, Genie Mini(s), tarjeta(s) de acceso, y control(es) remoto(s)]. Se debe devolver el equipo alquilado en buen estado de funcionamiento, con excepción del desgaste normal. Si no hemos recibido el equipo que ha alquilado dentro de los 21 días posteriores a la terminación de su nivel base de programación, o si el equipo que devuelve está dañado, DIRECTV le cobrará $45 por cada Receptor HD y cada Genie Mini y $135 por cada Genie HD DVR. Devuelva todos los equipos con prontitud.</p>
+        
+        <p><strong>Does DIRECTV have an exclusive offer for SEIU members?</strong><br>
+        Each qualifying subscriber that purchases the English CHOICE™ package or above or the Spanish ÓPTIMO MÀS™ package or above is eligible to receive a gift card with a value of $100.00. This offer is valid for new DIRECTV subscribers only and subscribers who have not had an active subscription in the last 24 months. Not valid for renewals of an existing DIRECTV subscription. Prices include monthly equipment fees for up to 4 rooms and the HD DVR monthly service fee.</p>
+        
+        <p><strong>How do I access HD channels?</strong><br>
+        To access DIRECTV HD programming, HD equipment along with Advanced Receivers Service is required. Number of HD channels varies based on package selection.</p>
+        
+        <p><strong>How long does it take to receive the VISA gift card after subscribing to DIRECTV?</strong><br>
+        The VISA gift card is delivered between 7-10 business days after DIRECTV installation is completed.</p>
+        
+        <p><strong>Is there a fee for signing up?</strong><br>
+        SEIU members may be subject to an additional $299 non-refundable fee depending on credit rating.</p>
+        
+        <p><strong>Is my subscription to DIRECTV considered a contract? If so, what is the length of the contract?</strong><br>
+        All DIRECTV Subscriptions are 24-month agreements. However, special pricing is valid for 12 months. At the end of the initial 12-month period, members must bundle DIRECTV with two or more AT&amp;T wireless and/or U-Verse services to maintain the special pricing.</p>
+        
+        <p><strong>Are there any fees for terminating the agreement early?</strong><br>
+        If terminated prior to the contract expiration date, there is a prorated Early Cancellation fee of $20 per each month remaining in the agreement.</p>
+        
+        <p><strong>What happens if I choose to discontinue my service at the end of the contract?</strong><br>
+        If you cease to be a DIRECTV customer (whether voluntarily or involuntarily), you must contact DIRECTV within 7 days of termination of your base level of programming to arrange for an equipment return kit or kits, and instructions on how to return your leased Equipment [DIRECTV Receiver(s), Genie Mini(s), access card(s), and remote(s)]. Leased Equipment must be returned in good working order, normal wear and tear excepted. If we haven’t received your leased Equipment within 21 days of termination of your base level of programming, or if the equipment is returned in damaged condition, DIRECTV will charge you $45 for each HD Receiver and each Genie Mini, and $135 for each Genie HD DVR. Please return all equipment promptly.</p>
+        
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "DIRECTV: PREGUNTAS FRECUENTES"
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200604T155415Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200604T155415Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Preguntas frecuentes</strong></p>
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET: PREGUNTAS FRECUENTES"
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T134634Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T134634Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Preguntas frecuentes</strong></p>
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET: PREGUNTAS FRECUENTES"
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T134756Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T134756Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET FAQs
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET: PREGUNTAS FRECUENTES"
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T135544Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Easy Pay Program powered by Square Deal Market: Preguntas Frecuentes"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T135544Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Easy Pay Program powered by Square Deal Market: Preguntas Frecuentes"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "SEIU Easy Pay Program powered by Square Deal Market: Preguntas Frecuentes"
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T143151Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Easy Pay Program Powered De Square Deal Market: Preguntas Frecuentes"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T143151Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Easy Pay Program powered De Square Deal Market: Preguntas Frecuentes"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "SEIU Easy Pay Program Powered De Square Deal Market: Preguntas Frecuentes"
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200608T144607Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Easy Pay Program Powered De Square Deal Market: Preguntas Frecuentes"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200608T144607Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Easy Pay Program Powered De Square Deal Market: Preguntas Frecuentes"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "SEIU Easy Pay Program Powered De Square Deal Market: Preguntas Frecuentes"
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200617T150414Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Programa de SEIU Easy Pay Impulsado por Square Deal Market: Preguntas Frecuentes"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200617T150414Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Programa de SEIU Easy Pay Impulsado por Square Deal Market: Preguntas Frecuentes"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "Programa de SEIU Easy Pay Impulsado por Square Deal Market: Preguntas Frecuentes"
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200617T150634Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "Programa Easy Pay de SEIU Impulsado por Square Deal Market: Preguntas Frecuentes"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200617T150634Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{5F3278BA-0AB2-4201-8991-E347758DB319}" alt="SEIU EASY PAY PROGRAM DE SQUARE DEAL MARKET" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Programa Easy Pay de SEIU Impulsado por Square Deal Market: Preguntas Frecuentes"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;Cu&aacute;les son las ventajas de comprar en Square Deal Market?</strong><br />
+        La facilidad, la responsabilidad y la accesibilidad para conseguir las cosas que necesitan los miembros a trav&eacute;s de un plan de pago sin preocupaciones, sin intereses y disciplinado. Square Deal Market se asoci&oacute; con SEIU Member Benefits para brindarle esta sencilla herramienta que le ayudar&aacute; a administrar su presupuesto a medida que surjan necesidades. Ya no tendr&aacute; que estresarse por cosas como su capacidad de realizar compras m&aacute;s importantes, su puntuaci&oacute;n de cr&eacute;dito o el costoso incremento del inter&eacute;s compuesto de la deuda.</p>
+        <p><strong>Sin intereses ni comprobaci&oacute;n de la puntuaci&oacute;n de cr&eacute;dito, &iquest;cu&aacute;l es el truco?</strong><br />
+        Es verdad. Square Deal Market no cobra intereses o cargos por financiamiento, nunca, ni recurre a las agencias de cr&eacute;dito para revisar las puntuaciones crediticias. Square Deal Market puede hacerlo gracias a la asociaci&oacute;n con SEIU Member Benefits. Ellos le cubren las espaldas y eso permite a Square Deal Market suscribir a los miembros en grupo en vez de individualmente.</p>
+        <p><strong>&iquest;Cualquiera puede comprar en Square Deal Market?</strong><br />
+        No. Los compradores deben ser miembros de SEIU y tener derecho a participar en esta promoci&oacute;n de compra.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; si cumplo con los requisitos del plan de beneficios?</strong><br />
+        Re&uacute;ne los requisitos si:
+        </p>
+        <ul>
+            <li>Es un miembro activo de su organizaci&oacute;n
+            </li>
+            <li>Tiene 18 a&ntilde;os de edad</li>
+            <li>Su nivel m&iacute;nimo de ingresos anuales es de $18,000
+            </li>
+            <li>En el momento de la compra, tiene un empleo activo
+            </li>
+        </ul>
+        <p><strong>&iquest;Por qu&eacute; me ayudar&iacute;a mi organizaci&oacute;n?</strong><br />
+        SEIU valora su compromiso de mejorar sus vidas y sus comunidades. Saben que trabajan con empe&ntilde;o para conseguir las cosas que necesitan para usted y su familia. Proporcionar una herramienta de presupuestaci&oacute;n responsable y justo a tiempo le ayuda a poder ahorrar cientos de d&oacute;lares en intereses y gastos financieros al a&ntilde;o y le permite pagar r&aacute;pidamente sus facturas para que pueda permitirse m&aacute;s sin el enorme reto de aumentar el inter&eacute;s compuesto.</p>
+        <p><strong>&iquest;C&oacute;mo s&eacute; cu&aacute;l es mi l&iacute;mite de cr&eacute;dito?</strong><br />
+        Simplemente inscr&iacute;base. Square Deal Market le har&aacute; saber inmediatamente cu&aacute;l es su l&iacute;mite de cr&eacute;dito. Este se basa normalmente en su nivel de ingresos anuales. Square Deal Market trata de asegurar que tiene suficiente l&iacute;mite de gasto para ayudar, pero no demasiado para tener problemas. Por lo general, Square Deal Market mantiene sus pagos muy por debajo del 5% de su n&oacute;mina.</p>
+        <p><strong>&iquest;C&oacute;mo se calculan mis pagos?</strong><br />
+        Esto lo determinan varios factores, entre ellos la relaci&oacute;n de Square Deal Market con los proveedores/fabricantes y el suministro de productos. La meta de Square Deal Market es combinar un gran precio con una soluci&oacute;n asequible, sin intereses, con pago a plazos, para que pueda conseguir lo que necesita sin a&ntilde;adir el costo y el estr&eacute;s de los intereses de las tarjetas de cr&eacute;dito.</p>
+        <p><strong>&iquest;Qu&eacute; pasa con mi plan de pago si devuelvo algo?</strong><br />
+        Si se devuelve un art&iacute;culo, Square Deal Market reembolsar&aacute; cualquier pago a su cuenta y cancelar&aacute; el pr&eacute;stamo a plazos de ese producto.
+        </p>
+        <p><strong>&iquest;Puedo pagar al contado en el momento de la compra?</strong><br />
+        S&iacute;.</p>
+        <p><strong>&iquest;Y si algo cuesta $1,000 pero mi l&iacute;mite de cr&eacute;dito es de solo $500?</strong><br />
+        Square Deal Market le permite crear un plan de pago hasta su l&iacute;mite de cr&eacute;dito. El resto se puede pagar en el momento de la compra mediante una forma de pago independiente.</p>
+        <p><strong>&iquest;Puedo elegir un pr&eacute;stamo a menor plazo?</strong><br />
+        Por supuesto. Square Deal Market recomienda pagar sus compras tan r&aacute;pido como sea posible para su presupuesto. Cuanto m&aacute;s r&aacute;pido pague el pr&eacute;stamo, m&aacute;s r&aacute;pido tendr&aacute; m&aacute;s cr&eacute;dito disponible para su pr&oacute;xima compra. &iquest;No est&aacute; listo para hacer otra compra? No importa. Al menos sabe que el dinero estar&aacute; ah&iacute; cuando lo necesite.</p>
+        <p><strong>&iquest;Hay alguna penalizaci&oacute;n por pagar antes de tiempo?</strong><br />
+        No.</p>
+        <p><strong>&iquest;Informan de mi cr&eacute;dito a las agencias de cr&eacute;dito?</strong><br />
+        No. Square Deal Market no recurre a las agencias para comprobar las puntuaciones de cr&eacute;dito ni informa de su cr&eacute;dito o su rendimiento en los pagos a ninguna agencia. Square Deal Market puede usar varios servicios para validar la informaci&oacute;n que nos proporcione, como qui&eacute;n es y d&oacute;nde trabaja.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si no pago o dejo de pagar?</strong><br />
+        Como todas las compras que hace, Square Deal Market espera que se le pague en su totalidad. Si Square Deal Market se da cuenta de que no ha pagado, puede que se lo recuerde por correo electr&oacute;nico, tel&eacute;fono o mensaje de texto. La falta de pago dar&aacute; como resultado un cargo de $25 (o una cantidad menor de acuerdo a lo dictado por la ley en ciertas jurisdicciones). Adem&aacute;s, si Square Deal Market recibe alg&uacute;n cargo adicional de su banco o procesador por el pago omitido, entonces Square Deal Market lo a&ntilde;adir&aacute; a su pr&oacute;ximo pago. Siempre puede ponerse al d&iacute;a con los pagos atrasados yendo a la p&aacute;gina "Hacer un pago" dentro de su zona "Mi cuenta" en l&iacute;nea.</p>
+        <p><strong>&iquest;Puedo tener varios planes de pago pendientes a la vez?</strong><br />
+        S&iacute;. Siempre y cuando tenga cr&eacute;dito disponible y cumpla con otras normas del programa, puede tener m&uacute;ltiples planes de pago.</p>
+        <p><strong>&iquest;Mi direcci&oacute;n de env&iacute;o puede ser diferente de mi direcci&oacute;n de facturaci&oacute;n?</strong><br />
+        En este momento no, pero Square Deal Market est&aacute; trabajando para que pronto est&eacute; disponible.</p>
+        <p><strong>&iquest;Mis art&iacute;culos est&aacute;n gravados?</strong><br />
+        S&iacute;. Square Deal Market recauda y remite los impuestos seg&uacute;n la direcci&oacute;n de facturaci&oacute;n de su casa y seg&uacute;n lo exigido por las leyes federales y estatales.</p>
+        <p><strong>&iquest;El env&iacute;o es gratuito?</strong><br />
+        Square Deal Market ofrece descuentos en los env&iacute;os en la medida de lo posible, pero no es gratis.</p>
+        <p><strong>&iquest;Cu&aacute;l es su pol&iacute;tica de devoluci&oacute;n?</strong><br />
+        Esta var&iacute;a seg&uacute;n el tipo de mercanc&iacute;a y el fabricante. Inspeccione su producto inmediatamente despu&eacute;s de la entrega y p&oacute;ngase en contacto con Square Deal Market en customerservice@squaredealmarket.com si no est&aacute; satisfecho. Los agentes estar&aacute;n encantados de ayudarle con sus dudas.</p>
+        <p><strong>&iquest;Puedo obtener ayuda para hacer un pedido?</strong><br />
+        Square Deal Market ha tratado de facilitar la realizaci&oacute;n de su pedido en l&iacute;nea. En caso de que necesite ayuda para hacer su pedido, puede llamar al departamento de atenci&oacute;n al cliente al 800-697-0002. Est&aacute;n abiertos de 9 de la ma&ntilde;ana a 9 de la noche, hora central, de lunes a viernes, o por correo electr&oacute;nico a cualquier hora: customerservice@squaredealmarket.com.</p>
+        <p><strong>&iquest;Qu&eacute; pasa si he perdido mi nombre de usuario o mi contrase&ntilde;a?</strong><br />
+        Los nombres de usuario y contrase&ntilde;as se pueden actualizar en la p&aacute;gina web de Square Deal Market o poni&eacute;ndose en contacto con customerservice@squaredealmarket.com</p>
+        <p><strong>&iquest;Puedo ver mi historial de pedidos y el estado del saldo de mis pr&eacute;stamos?</strong><br />
+        S&iacute;. Esta informaci&oacute;n se pone a su disposici&oacute;n en l&iacute;nea despu&eacute;s de que se registre y haga clic en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Qu&eacute; pasa si quiero modificar la informaci&oacute;n de mi cuenta bancaria?</strong><br />
+        Simplemente puede conectarse y hacer esos cambios en la secci&oacute;n del perfil de su banco en la p&aacute;gina "Mi cuenta".</p>
+        <p><strong>&iquest;Puedo sugerirles productos con los que no trabajan?</strong><br />
+        Claro. Env&iacute;e un correo electr&oacute;nico a customerservice@SquareDealMarket.com. A Square Deal Market le encantar&iacute;a saber lo que busca para poder ofrecerle el mejor surtido de productos disponibles.</p>
+        <p><strong>&iquest;C&oacute;mo protege Square Deal Market mi seguridad?</strong><br />
+        Square Deal Market cumple totalmente con la normativa PCI y lleva a cabo auditor&iacute;as de seguridad rutinarias.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "Programa Easy Pay de SEIU Impulsado por Square Deal Market: Preguntas Frecuentes"

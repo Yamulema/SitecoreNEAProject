@@ -1,0 +1,19 @@
+﻿@using Neambc.Seiumb.Foundation.Authentication
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{ 
+    bool isExperinceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+<div class="registrationImageContainer">
+    <img id="registrationImage" src="@Model.Item.ImageUrl(Templates.RegistrationForm.Fields.Banner)" alt="" loading="lazy">
+    @if (isExperinceEditor)
+    {
+        <div class="small-2 medium-2 large-2" style="position:absolute;bottom:0;right:0;margin: 0 10px 10px 0;">
+            @Html.Sitecore().ImageField(Templates.RegistrationForm.Fields.Banner)
+        </div>
+    }
+</div>
+            

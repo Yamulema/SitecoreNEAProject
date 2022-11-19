@@ -1,0 +1,428 @@
+﻿---
+ID: "0f2cc436-fb7a-4a72-a1fa-4b3a9d2691ee"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "f3c06421-5004-40d1-abdb-008accf26aea"
+Path: /sitecore/content/NEAMBC/Home/SEIU Personal Loan Comparison
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20200902T143100Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}"
+              p:before="*"
+              s:ds="{98FEE99C-447F-4496-B56E-250A18F69815}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{BD50B922-491F-4DD3-9464-5B7636B5FB97}"
+              p:after="r[@uid='{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}']"
+              s:ds="{B0971AD3-C57B-452D-AFBE-895735CDF14E}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{0C930614-6667-4AAB-B5C9-16CC76DE77FB}"
+              p:after="r[@uid='{BD50B922-491F-4DD3-9464-5B7636B5FB97}']"
+              s:ds="{F6874D53-E9D4-4828-95FE-C961E1A78CC3}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{30823299-85B1-4F15-AD3C-977051D04675}-0" />
+            <r
+              uid="{CDDC142B-5767-403D-B4C9-DD96806A82EE}"
+              p:after="r[@uid='{0C930614-6667-4AAB-B5C9-16CC76DE77FB}']"
+              s:ds="{56784FFC-41F0-4E88-871F-055D8695026D}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{30823299-85B1-4F15-AD3C-977051D04675}-0" />
+            <r
+              uid="{30823299-85B1-4F15-AD3C-977051D04675}"
+              p:after="r[@uid='{CC314F01-04BF-4914-BBD2-5EF327859ECC}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}"
+              p:after="r[@uid='{30823299-85B1-4F15-AD3C-977051D04675}']"
+              s:ds="{C993825B-21BB-4ECC-A522-BB1579331DE5}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}"
+              p:after="r[@uid='{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191122T172913Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Choose which one is right for you.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Personal Loan Comparison
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3B4950A6-BCF9-4B94-A5A2-379EDEC0203D}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Personal Loans
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Personal Loans
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}"
+              p:before="*"
+              s:ds="{98FEE99C-447F-4496-B56E-250A18F69815}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{BD50B922-491F-4DD3-9464-5B7636B5FB97}"
+              p:after="r[@uid='{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}']"
+              s:ds="{B0971AD3-C57B-452D-AFBE-895735CDF14E}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{0C930614-6667-4AAB-B5C9-16CC76DE77FB}"
+              p:after="r[@uid='{BD50B922-491F-4DD3-9464-5B7636B5FB97}']"
+              s:ds="{F6874D53-E9D4-4828-95FE-C961E1A78CC3}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{30823299-85B1-4F15-AD3C-977051D04675}-0" />
+            <r
+              uid="{30823299-85B1-4F15-AD3C-977051D04675}"
+              p:after="r[@uid='{CC314F01-04BF-4914-BBD2-5EF327859ECC}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}"
+              p:after="r[@uid='{30823299-85B1-4F15-AD3C-977051D04675}']"
+              s:ds="{C993825B-21BB-4ECC-A522-BB1579331DE5}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}"
+              p:after="r[@uid='{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200902T142737Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Choose which one is right for you.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Personal Loan Comparison
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200902T142737Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3B4950A6-BCF9-4B94-A5A2-379EDEC0203D}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Personal Loans
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Personal Loans
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}"
+              p:before="*"
+              s:ds="{98FEE99C-447F-4496-B56E-250A18F69815}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{BD50B922-491F-4DD3-9464-5B7636B5FB97}"
+              p:after="r[@uid='{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}']"
+              s:ds="{B0971AD3-C57B-452D-AFBE-895735CDF14E}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{0C930614-6667-4AAB-B5C9-16CC76DE77FB}"
+              p:after="r[@uid='{BD50B922-491F-4DD3-9464-5B7636B5FB97}']"
+              s:ds="{F6874D53-E9D4-4828-95FE-C961E1A78CC3}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{30823299-85B1-4F15-AD3C-977051D04675}-0" />
+            <r
+              uid="{30823299-85B1-4F15-AD3C-977051D04675}"
+              p:after="r[@uid='{CC314F01-04BF-4914-BBD2-5EF327859ECC}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}"
+              p:after="r[@uid='{30823299-85B1-4F15-AD3C-977051D04675}']"
+              s:ds="{C993825B-21BB-4ECC-A522-BB1579331DE5}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}"
+              p:after="r[@uid='{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200902T143045Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Choose which one is right for you.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Personal Loan Comparison
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200902T143045Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3B4950A6-BCF9-4B94-A5A2-379EDEC0203D}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Personal Loans
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Personal Loans
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}"
+              p:after="p[@uid='{F92A2957-F81A-4F07-AAEF-9DCECB6DC7F8}']"
+              s:ds="{98FEE99C-447F-4496-B56E-250A18F69815}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{BD50B922-491F-4DD3-9464-5B7636B5FB97}"
+              p:after="r[@uid='{2FCFA7EE-B06F-4B92-80F6-3CD8596AE94C}']"
+              s:ds="{B0971AD3-C57B-452D-AFBE-895735CDF14E}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}-0" />
+            <r
+              uid="{0C930614-6667-4AAB-B5C9-16CC76DE77FB}"
+              p:after="r[@uid='{BD50B922-491F-4DD3-9464-5B7636B5FB97}']"
+              s:ds="{F6874D53-E9D4-4828-95FE-C961E1A78CC3}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row-{30823299-85B1-4F15-AD3C-977051D04675}-0" />
+            <r
+              uid="{30823299-85B1-4F15-AD3C-977051D04675}"
+              p:after="r[@uid='{CC314F01-04BF-4914-BBD2-5EF327859ECC}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}"
+              p:after="r[@uid='{30823299-85B1-4F15-AD3C-977051D04675}']"
+              s:ds="{C993825B-21BB-4ECC-A522-BB1579331DE5}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{6F7B3513-1E0C-43DD-8235-146ED81C0DBC}"
+              p:after="r[@uid='{D7CE3AFF-F97C-4132-8BE0-945AFC31E9B7}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200903T163927Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Choose which one is right for you.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Personal Loan Comparison
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200903T163927Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3B4950A6-BCF9-4B94-A5A2-379EDEC0203D}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Personal Loans
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Personal Loans
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F278CA23-ADA6-4664-BCA7-8A30F5BDC313}"
+              p:before="*"
+              s:ds="{F6874D53-E9D4-4828-95FE-C961E1A78CC3}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row_981cd8ab-7286-4f2d-b0a3-208f362277e9" />
+            <r
+              uid="{105C1CA1-1A92-4331-91B7-2C59F536C57D}"
+              p:after="r[@uid='{F278CA23-ADA6-4664-BCA7-8A30F5BDC313}']"
+              s:ds="{98FEE99C-447F-4496-B56E-250A18F69815}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row_b138f244-0dd7-43b4-8f7b-e7d8d0e3a23e" />
+            <r
+              uid="{121CAE39-DEA4-4754-AF16-48EE728C537C}"
+              p:after="r[@uid='{105C1CA1-1A92-4331-91B7-2C59F536C57D}']"
+              s:ds="{B0971AD3-C57B-452D-AFBE-895735CDF14E}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row_b138f244-0dd7-43b4-8f7b-e7d8d0e3a23e" />
+            <r
+              uid="{93F11A4E-AD1A-4216-9ECD-A536C30D7287}"
+              p:after="r[@uid='{121CAE39-DEA4-4754-AF16-48EE728C537C}']"
+              s:ds="{56784FFC-41F0-4E88-871F-055D8695026D}"
+              s:id="{68A223A1-3F3A-4909-8CB0-539C89246FD7}"
+              s:ph="/body/right-column/cards-row_981cd8ab-7286-4f2d-b0a3-208f362277e9" />
+            <r
+              uid="{981CD8AB-7286-4F2D-B0A3-208F362277E9}"
+              p:after="r[@uid='{CC314F01-04BF-4914-BBD2-5EF327859ECC}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{3C406972-EC7D-4D26-91FD-666F12713872}"
+              p:after="r[@uid='{981CD8AB-7286-4F2D-B0A3-208F362277E9}']"
+              s:ds="{C993825B-21BB-4ECC-A522-BB1579331DE5}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="/body/right-column" />
+            <r
+              uid="{B138F244-0DD7-43B4-8F7B-E7D8D0E3A23E}"
+              p:after="r[@uid='{3C406972-EC7D-4D26-91FD-666F12713872}']"
+              s:id="{A69FE04C-68F8-435E-B645-903C69FA33C3}"
+              s:ph="/body/right-column" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191202T201113Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Elige cuál es el adecuado para ti.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Personal Loan Comparison
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3B4950A6-BCF9-4B94-A5A2-379EDEC0203D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Personal Loan Comparison
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: PRÉSTAMO PERSONAL

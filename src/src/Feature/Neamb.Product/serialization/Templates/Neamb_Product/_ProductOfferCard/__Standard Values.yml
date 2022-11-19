@@ -1,0 +1,29 @@
+﻿---
+ID: "e757b451-fdd3-4625-b418-8208088300bf"
+Parent: "be6f5aca-a166-4d70-918a-fc2c330111c5"
+Template: "be6f5aca-a166-4d70-918a-fc2c330111c5"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_ProductOfferCard/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e92d319-3d06-44d0-aca1-d504fa9e70d6"
+      Hint: Type
+      Value: "{E310931B-9F0E-4593-AA9B-45CDCEACAB7F}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180627T201241Z
+    - ID: "26713851-08b7-45fb-b809-6e3dde002765"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "faf5e77e-5245-4751-875b-416384cbb209"
+      Hint: CTA
+      Value: |
+        <link text="Sign In to Check Eligibility" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />

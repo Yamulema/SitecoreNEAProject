@@ -1,0 +1,28 @@
+﻿---
+ID: "e23a009c-d7b3-4202-b7a5-8c7db3f4290d"
+Parent: "ae4e7bcb-7450-49ed-9c57-0769eb973da3"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Templates/_ProductCategoryAttribute/Attributes/Product Category
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{89B2AA64-8BCF-4483-8D49-E75BC6F1225C}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Multilist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Tag with one or more product categories relevant to the primary concern(s) of the content item
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180503T170911Z

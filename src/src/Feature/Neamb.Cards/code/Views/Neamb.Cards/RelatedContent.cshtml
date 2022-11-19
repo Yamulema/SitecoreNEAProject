@@ -1,0 +1,36 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Cards.Models.RelatedContentDto
+
+@if (Model.PageCards.Count() > 1 || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="section-normal slider-section c-014 @Model.BackgroundColor">
+        <div class="container">
+            <h2 class="header">@Html.Sitecore().Field(Templates.RelatedContent.Fields.Header, Model.Item)</h2>
+            <section class="regular slider content-carousel">
+                @{
+                    foreach (var card in Model.PageCards)
+                    {
+                        <div class="card">
+                            <a href="@card.Cta" class="" @Html.Raw(card.GtmAction)>
+                                <img class="thumb img-responsive" src="@card.ThumbnailSrc" alt="@card.ThumbnailAlt" loading="lazy">
+                                @if (string.IsNullOrEmpty(card.Genre))
+                                {
+                                    <h3>@Html.Raw(card.Title)</h3>
+                                    <p>@Html.Raw(card.Description)</p>
+                                }
+                                else
+                                {
+                                    <p class="genre">@card.Genre</p>
+                                    <h3>@Html.Raw(card.Title)</h3>
+                                }
+                            </a>
+                        </div>
+                    }
+                }
+            </section>
+            <span class="pagingInfoSlider hidden-md hidden-lg"></span>
+        </div>
+    </section>
+}

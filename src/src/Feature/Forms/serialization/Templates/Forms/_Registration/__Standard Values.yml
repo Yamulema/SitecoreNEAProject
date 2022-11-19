@@ -1,0 +1,442 @@
+﻿---
+ID: "4644fda0-1cb3-448d-b4a5-f41da611eb1f"
+Parent: "e3551c4b-e55d-4c9f-a490-d6b19f4e11ab"
+Template: "e3551c4b-e55d-4c9f-a490-d6b19f4e11ab"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_Registration/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0060ad01-b2c5-4837-9063-950e5f02083e"
+      Hint: ErrorMessage
+      Value: Please insert your first name
+    - ID: "057fc3b5-9ba5-4289-82aa-07f93d7143fd"
+      Hint: ErrorMessage
+      Value: Please insert your address
+    - ID: "087f46c3-54b7-47d0-a8da-9e42aedc999c"
+      Hint: Warning
+      Value: |
+        The email address provided is considered a "work" email address because it contains ".k12" or ".edu".  You can still use it as your SEIUMB.com username. However, due to SEIUMB policy, we may not be able to send valuable information to this email address, such as special offers, discounts and other benefits of membership.
+    - ID: "1abd6447-ebed-429e-bfd4-e8962d835297"
+      Hint: ErrorMessage
+      Value: Please select your state
+    - ID: "22715a3d-6811-4bc8-b5ec-5bd17769aca5"
+      Hint: Placeholder
+      Value: address
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171121T170625Z
+    - ID: "4017f1bc-0803-4e57-bedb-80cb18294286"
+      Hint: Asterisk
+      Value: * Denotes a required field
+    - ID: "4acc301a-675d-4d51-9909-27b4874b29db"
+      Hint: Characters Limit
+      Value: You can enter only '100' characters in this field
+    - ID: "5630cbf2-9263-47ab-ba4c-05c902b2aefc"
+      Hint: PasswordRequirements
+      Value: Please enter a password that is at least 8 characters long, contains at least 1 letter, contains at least 1 number and does not contain any spaces.
+    - ID: "5a6ab86f-a86f-45a1-9e81-e5ff38feddc2"
+      Hint: Placeholder
+      Value: password
+    - ID: "5b0cb774-fee6-45de-a43e-e0162d0bf65f"
+      Hint: AgeRequirement
+      Value: You must be at least 16 years old and no more than 90 years old to be an SEIU member.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5fbfd49c-2291-441c-9b35-1416e9dda9cf"
+      Hint: ErrorMessage
+      Value: Please insert your email
+    - ID: "6aa5b755-fd02-4565-8894-3be157f3415d"
+      Hint: Empty Field
+      Value: Please insert your email
+    - ID: "6b900e44-ed55-471d-8078-3d3a41329291"
+      Hint: Label
+      Value: State*
+    - ID: "6e9c583c-dfd1-4338-93a8-904450df9edd"
+      Hint: ErrorMessage
+      Value: Please insert a valid date (mm/dd/yyyy)
+    - ID: "713151ee-efc6-4294-814b-f8c7d5afc841"
+      Hint: SubmitButton
+      Value: Register
+    - ID: "71cb11af-84aa-465d-b000-61c5b565edcd"
+      Hint: HelpText
+      Value: Please provide your first name that is on file with your local union. This will help us find your membership information.
+    - ID: "7610c9c3-784e-4c4f-887d-0111c4d6e73e"
+      Hint: Placeholder
+      Value: first name
+    - ID: "7cdc9b5a-0581-4ada-8650-45e8de55da11"
+      Hint: HelpText
+      Value: "Please re-enter your password."
+    - ID: "7fe60339-93b2-4a0c-beba-a2d0e0ed170b"
+      Hint: Placeholder
+      Value: mm/dd/yyyy
+    - ID: "810a22ec-a632-4b96-9748-eb20e9298efe"
+      Hint: ErrorMessage
+      Value: Please insert your city
+    - ID: "817036e7-7a98-4679-ae49-79ac18ac59c2"
+      Hint: Placeholder
+      Value: _____
+    - ID: "835369c8-50ad-4cec-886d-06af7fa57c82"
+      Hint: ErrorMessage
+      Value: Please insert your phone number
+    - ID: "83581c12-615f-4bf2-88a6-2be6d92cba5e"
+      Hint: CharactersLimit
+      Value: You can enter only '10' characters in this field.
+    - ID: "884853ba-8a68-4e2c-91f0-f8b4de3ce7fe"
+      Hint: Placeholder
+      Value: "(___) ___-____"
+    - ID: "89d23857-7339-482a-8427-e4359c095ad1"
+      Hint: Placeholder
+      Value: city
+    - ID: "8b21b473-60e9-4b5e-8882-7350c8fa5357"
+      Hint: Placeholder
+      Value: last name
+    - ID: "8b843852-9457-4301-959c-b74ce1235eae"
+      Hint: HelpText
+      Value: Please provide your date of birth that is on file with your local union. This will help us find your membership information. 
+    - ID: "8c1ab329-ad6c-437e-9da9-a636ff71ba25"
+      Hint: ErrorMessage
+      Value: Password fields are required
+    - ID: "8c24fe36-0fbc-4366-a4d4-da0952e65128"
+      Hint: HelpText
+      Value: Please provide your street address that is on file with your local union. This will help us find your membership information. 
+    - ID: "8e4fc32a-4116-4df4-b732-d57f5e854f93"
+      Hint: ErrorMessage
+      Value: Please insert your last name
+    - ID: "903ca71f-0cbc-4933-a9c7-d3daa25986e6"
+      Hint: UserIntro
+      Value: |
+        <p>
+        Please provide your email address. This will be also your username. We respect your <a href="https://www.seiumb.com/privacy-policy">privacy</a>. We'll never share your email address or other personal information with third parties.
+        </p>
+    - ID: "9987f6ba-a3bc-4022-9417-4649401fc9cd"
+      Hint: ErrorMessage
+      Value: "Hey, passwords are supposed to match!"
+    - ID: "99f4ee80-1215-4b33-a1b8-310f495334f1"
+      Hint: HelpText
+      Value: Please provide your phone number that is on file with your local union. This will help us find your membership information.
+    - ID: "9ca35e50-9a1a-4e79-aab5-0fc82a7df816"
+      Hint: Label
+      Value: Zip Code*
+    - ID: "9edd1d77-04f2-4069-8621-ee2378745e99"
+      Hint: CharactersLimit
+      Value: You can enter only '5' characters in this field.
+    - ID: "a89c006c-1607-468e-890e-c2f04e098a7b"
+      Hint: Placeholder
+      Value: password
+    - ID: "b1881726-718c-4382-87b2-b6d554af52a4"
+      Hint: RightRail
+      Value: |
+        <fieldset id="alreadyRegister" class="fieldset buttonContainer">
+        <h5>Already&nbsp;Registered?</h5>
+        <div class="show-for-small-only profile_error"><a class="button" href="https://www.seiumb.com/loginmobile.htm">Log in</a></div>
+        <div class="show-for-medium profile_error"><a aria-controls="loginModal" aria-haspopup="true" class="button" data-open="loginModal" id="w4xwng-reveal" tabindex="0">Log in</a></div>
+        <h5>Why Do We Need This Information?</h5>
+        <p>Most of the benefits we provide are only available to active SEIU members and we need to confirm your membership prior to providing access.</p>
+        <h5>What Do You Do with My Information?</h5>
+        <p>We respect your privacy and will never share your personal information with third parties. To learn more, please see our <a href="https://www.seiumb.com/privacy-policy.htm">Privacy Policy</a>.</p>
+        </fieldset>
+        <div id="help" class="large-12 columns">
+        <div class="row">
+        <div id="main_help" class="small-12 medium-12 large-12 columns">
+        NEED HELP? <a href="https://www.seiumb.com/contact-us.htm">CONTACT US</a>
+        <div class="menu contactmenu">
+        <a href="https://www.seiumb.com/contact-us.htm" class="icon-email1"></a>
+        <a href="https://www.seiumb.com/contact-us.htm" class="icon-call"></a>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "b1972ee3-b6f4-4ddb-9e58-6f4e968ae905"
+      Hint: ErrorMessage
+      Value: Please insert a valid zip code
+    - ID: "b245d0b2-edaa-4a45-aefb-1157be302a98"
+      Hint: HelpText
+      Value: Please provide your last name that is on file with your local union. This will help us find your membership information. 
+    - ID: "b605d4bd-b117-4c16-8814-bb99bc2c76a2"
+      Hint: Email in Use
+      Value: User | already exists
+    - ID: "b659dcca-99e2-4d88-b100-bbed97191491"
+      Hint: Label
+      Value: Confirm Password*
+    - ID: "ba99355f-d2ac-49dc-8956-5645e8bdafda"
+      Hint: HelpText
+      Value: Please provide your ZIP code that is on file with your local union. This will help us find your membership information.
+    - ID: "bb8fad17-c373-4200-b3ad-03de33d67864"
+      Hint: HelpText
+      Value: Please provide a password that will be used to verify your identity. Your password must contain at least 1 letter and 1 number. 
+    - ID: "bf2c8bb4-9754-4860-81e8-121967e7a609"
+      Hint: CharactersLimit
+      Value: You can enter only '15' characters in this field.
+    - ID: "bfc46c8f-3054-4e7b-a5be-0df503378364"
+      Hint: CharactersLimit
+      Value: You can enter only '44' characters in this field.
+    - ID: "c34e7f0f-2382-410a-8b9b-9466d3631875"
+      Hint: HelpText
+      Value: Please provide your city that is on file with your local union. This will help us find your membership information.
+    - ID: "c44f3f5c-a94d-4ecd-b42d-11c239897e36"
+      Hint: HelpText
+      Value: Please provide an email address that will be used as your login to this website. This should be an email address that you have access to at all times.
+    - ID: "c87cba78-6955-4bab-8872-a5dda2c11ceb"
+      Hint: Label
+      Value: First Name*
+    - ID: "ca3237d2-53ad-4017-a53b-9ca9da7295eb"
+      Hint: Label
+      Value: Address*
+    - ID: "cd30460e-752e-485f-91cd-e75f9c781536"
+      Hint: Label
+      Value: City
+    - ID: "d39fa88b-c8a3-411e-8dcb-9ae6059de05c"
+      Hint: Invalid Format
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again
+    - ID: "d41f4869-48a7-414b-8f2c-b5ae818930e4"
+      Hint: HelpText
+      Value: Please select your state that is on file with your local union. This will help us find your membership information.
+    - ID: "d5e26f70-9702-43a3-89b9-4178254f0e12"
+      Hint: Label
+      Value: Desired Password*
+    - ID: "d746755e-594b-429b-b621-b64f45515716"
+      Hint: Placeholder
+      Value: email
+    - ID: "d96c6459-ab6e-4448-983e-31f1689ae098"
+      Hint: CharactersLimit
+      Value: You can enter only '30' characters in this field.
+    - ID: "e1745377-26cf-4c3b-9dff-960e398e0b24"
+      Hint: Label
+      Value: Email*
+    - ID: "e3c2bfd5-bd34-4625-97f9-8307f0fe38d2"
+      Hint: OptIn
+      Value: Yes, I want to receive information about financial, insurance and discount benefits exclusively available to SEIU members, including special offers and other perks of SEIU Membership.
+    - ID: "e6b017d4-b218-4239-b6bd-a11f6c6f1eab"
+      Hint: Title
+      Value: Register with SEIU Member Benefits
+    - ID: "e6cf0bb7-ccb6-40a4-996b-264ec06c19eb"
+      Hint: Label
+      Value: Last Name*
+    - ID: "ee54f453-030b-4fb0-856f-b1e4b62818e8"
+      Hint: Placeholder
+      Value: please select
+    - ID: "f0d82d58-4964-4a08-99f2-30fbe426197b"
+      Hint: Label
+      Value: Phone*
+    - ID: "f873a76b-fa18-4f6b-ac30-8701c8da4648"
+      Hint: Label
+      Value: Date of Birth*
+    - ID: "f978920f-6e46-4fe2-a044-4eb407c5b56d"
+      Hint: CharactersLimit
+      Value: You can enter only '44' characters in this field.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0060ad01-b2c5-4837-9063-950e5f02083e"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su nombre.
+    - ID: "057fc3b5-9ba5-4289-82aa-07f93d7143fd"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su dirección
+    - ID: "1abd6447-ebed-429e-bfd4-e8962d835297"
+      Hint: ErrorMessage
+      Value: Por favor seleccione su estado
+    - ID: "22715a3d-6811-4bc8-b5ec-5bd17769aca5"
+      Hint: Placeholder
+      Value: Dirección
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171226T233014Z
+    - ID: "4017f1bc-0803-4e57-bedb-80cb18294286"
+      Hint: Asterisk
+      Value: * Campos requeridos
+    - ID: "4acc301a-675d-4d51-9909-27b4874b29db"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '100' caracteres en este campo.
+    - ID: "5630cbf2-9263-47ab-ba4c-05c902b2aefc"
+      Hint: PasswordRequirements
+      Value: Por favor ingrese una contraseña que tenga al menos 8 caracteres, por lo menos 1 letra, al menos 1 número y que no tenga espacios en blanco.
+    - ID: "5a6ab86f-a86f-45a1-9e81-e5ff38feddc2"
+      Hint: Placeholder
+      Value: Contraseña
+    - ID: "5b0cb774-fee6-45de-a43e-e0162d0bf65f"
+      Hint: AgeRequirement
+      Value: Usted debe tener al menos 16 años y no más de 90 años para ser miembro de SEIU.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5fbfd49c-2291-441c-9b35-1416e9dda9cf"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su correo electrónico
+    - ID: "6b900e44-ed55-471d-8078-3d3a41329291"
+      Hint: Label
+      Value: Estado*
+    - ID: "6e9c583c-dfd1-4338-93a8-904450df9edd"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su fecha de nacimiento.
+    - ID: "713151ee-efc6-4294-814b-f8c7d5afc841"
+      Hint: SubmitButton
+      Value: Registrarse
+    - ID: "71cb11af-84aa-465d-b000-61c5b565edcd"
+      Hint: HelpText
+      Value: Por favor ingrese su nombre que se encuentra en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "7610c9c3-784e-4c4f-887d-0111c4d6e73e"
+      Hint: Placeholder
+      Value: Nombre
+    - ID: "7cdc9b5a-0581-4ada-8650-45e8de55da11"
+      Hint: HelpText
+      Value: Por favor reingrese su contraseña
+    - ID: "7fe60339-93b2-4a0c-beba-a2d0e0ed170b"
+      Hint: Placeholder
+      Value: Fecha de Nacimiento
+    - ID: "810a22ec-a632-4b96-9748-eb20e9298efe"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su ciudad
+    - ID: "817036e7-7a98-4679-ae49-79ac18ac59c2"
+      Hint: Placeholder
+      Value: Código Postal
+    - ID: "835369c8-50ad-4cec-886d-06af7fa57c82"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su teléfono
+    - ID: "83581c12-615f-4bf2-88a6-2be6d92cba5e"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '10' caracteres en este campo.
+    - ID: "884853ba-8a68-4e2c-91f0-f8b4de3ce7fe"
+      Hint: Placeholder
+      Value: "(___) ___-____"
+    - ID: "89d23857-7339-482a-8427-e4359c095ad1"
+      Hint: Placeholder
+      Value: Ciudad
+    - ID: "8b21b473-60e9-4b5e-8882-7350c8fa5357"
+      Hint: Placeholder
+      Value: Apellido
+    - ID: "8b843852-9457-4301-959c-b74ce1235eae"
+      Hint: HelpText
+      Value: Por favor ingrese su fecha de nacimiento que se encuentra en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "8c1ab329-ad6c-437e-9da9-a636ff71ba25"
+      Hint: ErrorMessage
+      Value: Por favor ingrese la contraseña 
+    - ID: "8c24fe36-0fbc-4366-a4d4-da0952e65128"
+      Hint: HelpText
+      Value: Por favor ingrese su dirección que esta en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "8e4fc32a-4116-4df4-b732-d57f5e854f93"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su apellido.
+    - ID: "903ca71f-0cbc-4933-a9c7-d3daa25986e6"
+      Hint: UserIntro
+      Value: Por favor ingrese su correo electr&oacute;nico. Esto tambi&eacute;n ser&aacute; su nombre de usuario. Nosotros respetamos su privacidad. Nunca compartiremos su informaci&oacute;n personal con terceros.
+    - ID: "9987f6ba-a3bc-4022-9417-4649401fc9cd"
+      Hint: ErrorMessage
+      Value: "Oye, las contraseñas deben coincidir!"
+    - ID: "99f4ee80-1215-4b33-a1b8-310f495334f1"
+      Hint: HelpText
+      Value: Por favor ingrese su teléfono que se encuentra en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "9ca35e50-9a1a-4e79-aab5-0fc82a7df816"
+      Hint: Label
+      Value: Código Postal*
+    - ID: "9edd1d77-04f2-4069-8621-ee2378745e99"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '5' caracteres en este campo.
+    - ID: "a89c006c-1607-468e-890e-c2f04e098a7b"
+      Hint: Placeholder
+      Value: Contraseña
+    - ID: "b1881726-718c-4382-87b2-b6d554af52a4"
+      Hint: RightRail
+      Value: |
+        <fieldset id="alreadyRegister" class="fieldset buttonContainer">
+        <h5>Ya estas registrado?</h5>
+        <div class="show-for-small-only profile_error"><a class="button" href="https://www.seiumb.com/loginmobile.htm">Log in</a></div>
+        <div class="show-for-medium profile_error"><a aria-controls="loginModal" aria-haspopup="true" class="button" data-open="loginModal" id="w4xwng-reveal" tabindex="0">Ingresar</a></div>
+        <h5>Porqu&eacute; necesitamos esta informaci&oacute;n?</h5>
+        <p>La mayor&iacute;a de los beneficios que proveemos est&aacute;n solo disponibles parea miembros activos de SEIU y necesitamos confirmar tu membresia para proveer el acceso.</p>
+        <h5>Que hacen con mi informaci&oacute;n?</h5>
+        <p>Nosotros respetamos tu privacidad y nunca compartir&iacute;amos tu informaci&oacute;n personal con terceros. Para saber mas, por favor lea nuestra&nbsp;<a href="https://www.seiumb.com/privacy-policy.htm">Pol&iacute;ticas de privacidad</a>.</p>
+        </fieldset>
+        <div id="help" class="large-12 columns">
+        <div class="row">
+        <div id="main_help" class="small-12 medium-12 large-12 columns">Necesitas ayuda? <a href="https://www.seiumb.com/contact-us.htm">&nbsp;</a>Cont&Aacute;ctanos
+        <div class="menu contactmenu">
+        <a href="https://www.seiumb.com/contact-us.htm" class="icon-email1"></a>
+        <a href="https://www.seiumb.com/contact-us.htm" class="icon-call"></a>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "b1972ee3-b6f4-4ddb-9e58-6f4e968ae905"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su código postal
+    - ID: "b245d0b2-edaa-4a45-aefb-1157be302a98"
+      Hint: HelpText
+      Value: Por favor ingrese su apellido que esta en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "b659dcca-99e2-4d88-b100-bbed97191491"
+      Hint: Label
+      Value: Confirmar Contraseña*
+    - ID: "ba99355f-d2ac-49dc-8956-5645e8bdafda"
+      Hint: HelpText
+      Value: Por favor ingrese su código postal que se encuentra en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "bb8fad17-c373-4200-b3ad-03de33d67864"
+      Hint: HelpText
+      Value: Por favor ingrese una contraseña que sera usada para verificar su identidad. Su contraseña debe tener al menos 1 letra y un numero.
+    - ID: "bf2c8bb4-9754-4860-81e8-121967e7a609"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '15' caracteres en este campo.
+    - ID: "bfc46c8f-3054-4e7b-a5be-0df503378364"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '44' caracteres en este campo.
+    - ID: "c34e7f0f-2382-410a-8b9b-9466d3631875"
+      Hint: HelpText
+      Value: Por favor ingrese su ciudad que esta en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "c44f3f5c-a94d-4ecd-b42d-11c239897e36"
+      Hint: HelpText
+      Value: Por favor ingrese una dirección de correo electrónico que sera usada para ingresar el portal web. Este debe ser un correo electrónico al cual tenga acceso siempre.
+    - ID: "c87cba78-6955-4bab-8872-a5dda2c11ceb"
+      Hint: Label
+      Value: Nombre*
+    - ID: "ca3237d2-53ad-4017-a53b-9ca9da7295eb"
+      Hint: Label
+      Value: Dirección*
+    - ID: "cd30460e-752e-485f-91cd-e75f9c781536"
+      Hint: Label
+      Value: Ciudad*
+    - ID: "d41f4869-48a7-414b-8f2c-b5ae818930e4"
+      Hint: HelpText
+      Value: Por favor ingrese el Estado que esta en su archivo de sindicato local. Esto nos ayudará a encontrar su información de membresia.
+    - ID: "d5e26f70-9702-43a3-89b9-4178254f0e12"
+      Hint: Label
+      Value: Contraseña*
+    - ID: "d746755e-594b-429b-b621-b64f45515716"
+      Hint: Placeholder
+      Value: Correo Electrónico
+    - ID: "d96c6459-ab6e-4448-983e-31f1689ae098"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '30' caracteres en este campo.
+    - ID: "e1745377-26cf-4c3b-9dff-960e398e0b24"
+      Hint: Label
+      Value: Correo Electrónico*
+    - ID: "e3c2bfd5-bd34-4625-97f9-8307f0fe38d2"
+      Hint: OptIn
+      Value: Si, quiero recibir información sobre beneficios en finanzas, seguros y descuentos disponibles para miembros SEIU, incluyendo ofertas especiales y beneficios de SEIU Membership.
+    - ID: "e6b017d4-b218-4239-b6bd-a11f6c6f1eab"
+      Hint: Title
+      Value: Registrate con SEIU Member Benefits
+    - ID: "e6cf0bb7-ccb6-40a4-996b-264ec06c19eb"
+      Hint: Label
+      Value: Apellido*
+    - ID: "ee54f453-030b-4fb0-856f-b1e4b62818e8"
+      Hint: Placeholder
+      Value: Estado
+    - ID: "f0d82d58-4964-4a08-99f2-30fbe426197b"
+      Hint: Label
+      Value: Teléfono*
+    - ID: "f873a76b-fa18-4f6b-ac30-8701c8da4648"
+      Hint: Label
+      Value: Fecha de Nacimiento*
+    - ID: "f978920f-6e46-4fe2-a044-4eb407c5b56d"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '44' caracteres en este campo.

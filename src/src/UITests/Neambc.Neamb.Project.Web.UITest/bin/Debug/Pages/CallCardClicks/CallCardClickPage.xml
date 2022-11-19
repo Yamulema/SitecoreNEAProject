@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="CallCardClickPage" urlpath="/UITest/ProductCategoryCallCards">
+      <sections>
+        <section name="test">
+          <controls>
+            <control key="LearnMore_CardButton" xpath="//a[@class='btn btn-aquamarine btn-block']" />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

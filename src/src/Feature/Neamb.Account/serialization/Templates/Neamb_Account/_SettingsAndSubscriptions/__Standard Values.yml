@@ -1,0 +1,58 @@
+﻿---
+ID: "9dfe4a77-6d47-46d3-a99e-1b59edf82372"
+Parent: "1131ebd3-3291-40d7-894b-8abbc1224945"
+Template: "1131ebd3-3291-40d7-894b-8abbc1224945"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_SettingsAndSubscriptions/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "142db6a2-d4ac-4143-be3b-90fd821c6ad9"
+      Hint: Newsletters
+      Type: Multilist
+      Value: |
+        {807041AD-54A9-400B-83BA-F5E57AE0254C}
+        {79A35C55-E7F0-445D-BAEC-E84F431A2A3F}
+        {A718A322-CE04-41A5-8FCF-7846F9BCD531}
+        {1494CE32-C24B-4A96-9A89-CAC4927B7C12}
+    - ID: "20039400-d638-44a3-821d-2d22c175c71c"
+      Hint: Subscribed
+      Value: You're getting email
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180613T172049Z
+    - ID: "2b5c7252-e419-4eab-9b58-de30cd8c3da2"
+      Hint: Subscribe
+      Value: Subscribe
+    - ID: "4b52f327-742d-4937-b99a-42ab10bf24f4"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "5295ac47-a60a-4cc9-ae6f-3c991506da9e"
+      Hint: Description
+      Value: <p>I'd like to receive mail(via US Postal Service) about special promotions, discounts and other offers available through NEA Member Benefits.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6f1779e6-ddeb-4f18-8641-4e98fe949919"
+      Hint: Subheadline
+      Value: |
+        <span style="color: #333333;">Newsletter content description</span>
+    - ID: "7cc3025d-f38b-4e21-94ff-4888be794f93"
+      Hint: Anonymous User
+      Value: |
+        You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page.
+    - ID: "89c385ce-3601-43f8-a101-89490f46d5f0"
+      Hint: Unsubscribe
+      Value: Stop Mail
+    - ID: "a2ef5fa0-c7bc-4f2c-8711-e05ab5224a9b"
+      Hint: Headline
+      Value: Newsletter Subscriptions
+    - ID: "a5c22023-202b-4739-a166-51d9386ccbdd"
+      Hint: Title
+      Value: Permissions to send mail from NEA Member Benefits
+    - ID: "c005d907-0156-42b5-9e10-60e6034faf29"
+      Hint: Headline
+      Value: Physical Mail

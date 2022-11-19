@@ -1,0 +1,24 @@
+﻿---
+ID: "0f2b9f3e-2fcc-4d0a-8c8a-cfdfc04e6799"
+Parent: "90e39b98-2ed9-4977-b531-85ded386f80b"
+Template: "90e39b98-2ed9-4977-b531-85ded386f80b"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_MultiRowOffer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180627T201221Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "81d59db1-e31a-4129-a145-1cfaced5c4a7"
+      Hint: Header
+      Value: Insert your headline here
+    - ID: "f3690bf5-5469-4daf-90d5-26847904384d"
+      Hint: Subhead
+      Value: Insert your subheadline here

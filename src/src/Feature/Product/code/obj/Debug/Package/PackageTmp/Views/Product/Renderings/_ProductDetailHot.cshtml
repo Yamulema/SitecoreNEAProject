@@ -1,0 +1,39 @@
+﻿
+@model Neambc.Seiumb.Feature.Product.Models.UserStateProduct
+
+@if (Model.HasAction1)
+{
+    if (Model.ProductCode.Equals("494 02"))
+    {
+        <a target="@Model.ActionFirstTarget" href="@Model.ActionFirstUrl" class="button" onclick="@Model.ActionFirstClick" title="@Model.ActionFirstTitle">@Model.ActionFirstText</a><br />
+    }
+    else
+    {
+        <form name="partnerformdesktop" id="partnerformdesktop" action="@Model.Action" method="POST" target="_blank">
+            <span style="display:none">
+                @Html.Partial("~/Views/Product/Renderings/_PartnerHiddenForms.cshtml", Model)
+            </span>
+            <a target="@Model.ActionFirstTarget" href="@Model.ActionFirstUrl" class="button" onclick="@Model.ActionFirstClick" title="@Model.ActionFirstTitle">@Model.ActionFirstText</a><br />
+        </form>
+    }
+}
+@if (Model.HasAction2)
+{
+    if (Model.ProductCode.Equals("494 02") || Model.ProductCode.Equals("486 03"))
+    {
+        <a target="@Model.ActionSecondTarget" href="@Model.ActionSecondUrl" class="button" onclick="@Model.ActionSecondClick" title="@Model.ActionSecondTitle">@Model.ActionSecondText</a>
+    }
+    else
+    {
+        <form name="partnerformdesktop" id="partnerformdesktop" action="@Model.Action" method="POST" target="_blank">
+            <span style="display:none">
+                @Html.Partial("~/Views/Product/Renderings/_PartnerHiddenForms.cshtml", Model)
+            </span>
+            <a target="@Model.ActionSecondTarget" href="@Model.ActionSecondUrl" class="button" onclick="@Model.ActionSecondClick" title="@Model.ActionSecondTitle">@Model.ActionSecondText</a><br />
+        </form>
+    }
+}
+@if (Model.HasAction3)
+{
+    <a href="@Model.ActionThirdUrl" class="button" onclick="@Model.ActionThirdClick" target="_blank">@Model.ActionThirdText</a>
+}

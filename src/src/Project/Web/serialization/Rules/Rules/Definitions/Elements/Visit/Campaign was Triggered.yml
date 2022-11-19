@@ -1,0 +1,100 @@
+﻿---
+ID: "0290aa90-b948-4c8c-b576-f3c17f9de389"
+Parent: "27553992-0618-4c76-84b2-1b71f7fa558b"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Visit/Campaign was Triggered
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.ContentTesting.Rules.Conditions.HasCampaignCondition,Sitecore.ContentTesting
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Har kampagnebetingelse
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T131335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor mindst en af kampagnerne [CampaignsList,TreeList,root=/sitecore/system/Marketing Control Panel/Campaigns&selection={94FD1606-139E-46EE-86FF-BC5BF3C79804},in list] blev udløst under det aktuelle besøg"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hat Kampagne Bedingung
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T132408Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo mindestens eine der Kampagnen [CampaignsList,TreeList,root=/sitecore/system/Marketing Control Panel/Campaigns&selection={94FD1606-139E-46EE-86FF-BC5BF3C79804},in list] während des aktuellen Besuchs ausgelöst wurde"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090202T161600Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where at least one of campaigns [CampaignsList,TreeList,root=/sitecore/system/Marketing Control Panel/Campaigns&selection={94FD1606-139E-46EE-86FF-BC5BF3C79804},in list] was triggered during the current visit"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: キャンペーン条件が設定されている
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T133827Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： 現在の訪問中にキャンペーン [CampaignsList,TreeList,root=/sitecore/system/Marketing Control Panel/Campaigns&selection={94FD1606-139E-46EE-86FF-BC5BF3C79804}, リスト] の1つ以上がトリガーされた場合"
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 有营销活动条件
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T134705Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "如果至少一个营销活动 [CampaignsList,TreeList,root=/sitecore/system/Marketing Control Panel/Campaigns&selection={94FD1606-139E-46EE-86FF-BC5BF3C79804},在列表] 在当前访问中被触发"

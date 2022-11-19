@@ -1,0 +1,121 @@
+﻿---
+ID: "c4036315-0992-4b7d-8ce0-2c6a80fa690d"
+Parent: "75cc98a4-6e6c-481b-ade6-cb3c3941ad91"
+Template: "75cc98a4-6e6c-481b-ade6-cb3c3941ad91"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Marketplace/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{562E8916-8889-4EEF-9FF5-D75B014A9C69}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{73D692A0-CBBD-4B63-A1AC-3DFA99F3E07C}" />
+        <r
+          id="{7C19140E-9B27-48B1-AF1B-05175297FBA6}"
+          ph="body"
+          uid="{869F290F-5CAF-4EEB-B5DD-412C580ABEF1}" />
+        <r
+          id="{03B1EF64-7255-464E-B8D1-E4FFDD44A2A7}"
+          ph="body"
+          uid="{05BCF3D7-3D26-4472-9E93-330D9799700A}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{DE40F7AD-C61F-4F0B-B214-0654F01084BF}" />
+        <r
+          id="{B84C0DDF-E11E-452C-A647-DBB0418A26A7}"
+          ph="body"
+          uid="{A7047E8B-4164-43EC-B086-C90A71B800DA}" />
+        <r
+          id="{9E0AF279-BB3E-49A6-ADFE-715D695FA8E0}"
+          ph="body"
+          uid="{103AA2ED-FAD7-420E-AAD0-07C0E90EAF66}" />
+        <r
+          id="{5AF2187B-6C12-494B-A5C2-026EDD230B36}"
+          ph="marketplace-categories"
+          uid="{1E233083-6AE8-4D26-853B-F158DBEA0772}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{39CD5A75-F87A-4093-B7EB-E61A2EFC241C}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          ph="header-offer"
+          uid="{1E8D9966-34FE-4874-9445-EAD2B7736B48}" />
+        <r
+          id="{52F86D05-4C58-4226-B4A9-24F4479317BA}"
+          ph="head-scripts"
+          uid="{E599CDA5-6461-489E-886C-168C71F986CA}" />
+        <r
+          id="{AEF2FA14-1C66-4938-8A59-ED799B0D7729}"
+          ph="search-banner"
+          uid="{F72F2783-2014-44B1-B6DB-EC94779DB2BE}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1915201e-e0f5-4063-9b8b-ccac15d1abb9"
+      Hint: Notification
+      Value: |
+        <div class="col-md-6">
+        <p>We're sorry. It looks like you&rsquo;re not eligible for this program.</p>
+        </div>
+        <div class="col-md-6">
+        <div class="items-fixed buttons"><a class="btn btn-md btn-bordered-white pull-right" href="/contact-us">Contact Us</a></div>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200812T001800Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "92fb6756-6bb4-432f-9504-cae07acb9ddb"
+      Hint: Centered Text
+      Type: Checkbox
+      Value: 1
+    - ID: "ca8c9ad0-883b-4ae0-a6cb-fc19a9eef4c7"
+      Hint: Eligibility Overlay
+      Value: |
+        <div class="modal-content bg-gray">
+        <div class="modal-header flex-wrap">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        <h2 class="text-center text-blue-dark">
+        <strong>Discounts Marketplace</strong>
+        </h2>
+        <p class="text-center"><strong>Cash Back powered by</strong>
+        <img alt="" class="p-l-xs" src="./images/Image 14.png" />
+        </p>
+        </div>
+        <div class="modal-body">
+        <div class="col-xs-12 col-md-10 col-centered">
+        <p class="text-center">
+        </p>
+        <p class="text-center">We're sorry. This program isn&rsquo;t available to your membership category. If you believe you are eligible,
+        please contact us for assistance.</p>
+        <p>&nbsp;</p>
+        </div>
+        <div class="col-xs-12 col-md-4 col-centered p-t-sm p-b-sm">
+        <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-blue btn-block">Close</button>
+        </div>
+        </div>
+        </div>

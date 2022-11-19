@@ -1,0 +1,88 @@
+﻿---
+ID: "1dfba9e7-40cd-43cf-a063-1bb4a58a7aa1"
+Parent: "ceff0dd5-20fd-40a9-acd3-c624736b57a2"
+Template: "ceff0dd5-20fd-40a9-acd3-c624736b57a2"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Contest Vote/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{890A743A-F339-4D82-AEE2-64ABA18D7066}" />
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{F8E30848-6828-407A-93DC-9094575B18B3}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{CFD411A6-F700-4AD8-8820-40D2201A9D71}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{561C40AB-2EFC-4041-85AD-BCD2C9E526BE}" />
+        <r
+          id="{BD2C2361-61DE-4274-ACE6-24F6F4A72D49}"
+          ph="body"
+          uid="{F528FA6A-069C-4CB5-8C5F-3BDCEA55C5FE}" />
+        <r
+          id="{F62D15BF-B2FB-4DCF-ACB8-E40CBBA4887E}"
+          ph="modal"
+          uid="{98526B35-E2B5-44A4-A671-A57F037B6DDB}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{052B1BAB-C561-4CD4-97B8-FFB89BA4F934}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{A9C59D12-BB0F-426A-8A7B-76951DE94387}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a48f56b-2dc3-4363-bea1-0101e6d16ea2"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must sign in to view this page</h2>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190111T192149Z
+    - ID: "5a4f4ce3-69a7-40a6-a66f-098fdf20b05c"
+      Hint: Vote Limit Notification
+      Value: You can only vote once per day, please try again tomorrow
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "68ed71e7-7ee9-4c26-b6c7-7d5c8a66f9e2"
+      Hint: Vote Confirmation Message
+      Value: Would you like to vote for 
+    - ID: "77cb8c65-94e0-4f5f-9b11-052f662e2bd9"
+      Hint: Closed Contest Text
+      Value: |
+        <h2 class="header">Page not avalaible</h2>
+        <p class="subhead text-alpha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida tincidunt dolor, sit amet rutrum ante dapibus sit amet. Curabitur pharetra vel tellus eget faucibus. Pellentesque elementum, lacus tempor pharetra mattis, ex leo tristique erat, eget fermentum elit nisi nec purus. Vivamus egestas nec metus sit amet auctor. Vivamus mattis a odio nec cursus. Aliquam non suscipit arcu, ut vestibulum lectus. Duis mattis libero sed turpis feugiat eleifend. Mauris accumsan nulla neque, a sollicitudin ex ultrices id. Sed vel risus augue. Nulla lacinia nibh a rutrum consequat.
+        </p>
+    - ID: "f35b5a54-ab87-4f6b-a1a0-fcd1c414f751"
+      Hint: Pagination
+      Value: 12

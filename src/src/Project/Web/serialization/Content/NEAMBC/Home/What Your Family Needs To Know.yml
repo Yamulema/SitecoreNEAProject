@@ -1,0 +1,121 @@
+﻿---
+ID: "183d9337-27f0-4581-86c5-6ab543589fce"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/What Your Family Needs To Know
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 5000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "If you have drawn up a will, a health care proxy, and a durable power of attorney, you need to consider an additional document: a Letter of Instructions.  The letter is personal and contains information to help family members cope with decisions that need to be made shortly following your death."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "A Letter of Instructions: What Your Family Needs To Know"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="A Letter of Instructions: What Your Family Needs To Know" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{7BA1CEB9-DCB1-4327-840B-55A039715775}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "A Letter of Instructions: What Your Family Needs To Know"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>If you have drawn up a will, a health care proxy, and a durable power of attorney, you need to consider an additional document: a Letter of Instructions.  The letter is personal and contains information to help family members cope with decisions that need to be made shortly following your death.</p>
+        <p>How does the Letter of Instructions differ from a will? A will, at the event of your passing, may not be read for several days.  However, a Letter of Instructions would be available immediately to guide your survivors in the hours and days after death.  The letter can contain answers &ndash; in your own words &ndash; to questions such as these:</p>
+        <ul>
+            <li>Is there a memorial fund for designated contributions?</li>
+            <li>How can personal financial records be found?</li>
+            <li>Where is the safe deposit key? What are the contents of the deposit box?</li>
+            <li>How should personal items be handled such as: school papers, job-related documents, memorabilia, and collections?</li>
+            <li>Are there computer files that have important information stored in memory?</li>
+            <li>Where are important papers located?  (Suggestion: Be specific.  Note which filing cabinet and which drawer.)</li>
+            <li>Where is the most current tax return? Where are other returns from recent years stored?</li>
+        </ul>
+        <p>Composing a Letter of Instructions should not be viewed as a depressing task.  Rather, it can be considered a positive step to help family members cope with decision-making in a stressful period.  In writing the letter, you are providing a valuable, loving service to your survivors.  It gives everyone some peace of mind.</p>
+        <p>Clearly, one of the most important sections in the letter should cover the sensitive issues surrounding your funeral.  This part should contain your wishes about the kind of service preferred, whether body organs should be donated, disposition of the body, and other matters that your family will face in the hours after a death.  Write down your birthplace and the names of your father, mother, sisters, and brothers.  Include information about your education, employment history, honors received, volunteer leadership positions; and any military record that might apply.  Provide reference to a funeral plot that may have been purchased, the deed number, and location.  Include the names of individuals who need to be notified upon your death.  List telephone numbers and e-mail addresses for your circle of family, friends, and business colleagues.</p>
+        <p>Who is the best person to highlight the accomplishments of your life &ndash; you!  Preparing your own obituary will alleviate a difficult task of your loved ones.  Most obituaries include the location of your birth, highlights of your career history (including any special recognitions or educational accomplishments), and your surviving family members.  Include a list of newspapers in which you would like to have your obituary published.</p>
+        <p>The letter should be stored in a place where family members have immediate access to its contents.  Let your family know the whereabouts of the letter if you move it to a new location.
+        Most important, keep it updated!  Re-write sections of the letter when conditions change, when new financial decisions are made, or when your own personal views change.  It is unlikely that you will think about every important topic when the document is first composed.  Anticipate that you will want to add more topics down the road &mdash; another reason to save an electronic version.
+        </p>
+        <p>This task is not something that just retirees should consider.  Every adult needs to have a Letter of Instructions prepared.  This could be one of the most important letters you will write in your entire lifetime!  The document will take some time to complete, but it will well worth the effort &ndash; knowing you have performed a real service to your loved ones.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "A Letter of Instructions: What Your Family Needs To Know"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Si ha redactado un testamento, un poder de atención médica y un poder legal duradero, debe considerar otro documento: una carta de instrucciones.  La carta es personal y contiene información que ayudará a sus familiares a resolver decisiones que deben tomarse inmediatamente después de su fallecimiento."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "Carta de instrucciones: lo que su familia necesita saber"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{7BA1CEB9-DCB1-4327-840B-55A039715775}" alt="Carta de instrucciones: lo que su familia necesita saber" height="" width="" hspace="" vspace="" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "Carta de instrucciones: lo que su familia necesita saber"
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Si ha redactado un testamento, un poder de atenci&oacute;n m&eacute;dica y un poder legal duradero, debe considerar otro documento: una carta de instrucciones.  La carta es personal y contiene informaci&oacute;n que ayudar&aacute; a sus familiares a resolver decisiones que deben tomarse inmediatamente despu&eacute;s de su fallecimiento. </p>
+        <p>&iquest;En qu&eacute; se diferencian la carta de instrucciones y el testamento?  En el caso de su fallecimiento, es posible que el testamento no se lea durante varios d&iacute;as.  Sin embargo, una carta de instrucciones estar&iacute;a disponible inmediatamente para guiar a sus sobrevivientes en las horas y los d&iacute;as posteriores a su fallecimiento.  La carta puede incluir respuestas, en sus propias palabras, a preguntas como estas:</p>
+        <ul>
+            <li>&iquest;Existe un fondo para funerales para las contribuciones designadas?</li>
+            <li>&iquest;C&oacute;mo se pueden buscar los registros financieros personales?</li>
+            <li>&iquest;D&oacute;nde est&aacute; la llave de la caja de seguridad? &iquest;Qu&eacute; contiene esta caja de seguridad?</li>
+            <li>&iquest;C&oacute;mo deben manejarse los art&iacute;culos personales, como peri&oacute;dicos escolares, documentos relacionados con el trabajo, objetos hist&oacute;ricos y colecciones?</li>
+            <li>&iquest;Hay archivos inform&aacute;ticos que tengan informaci&oacute;n importante almacenada en la memoria?</li>
+            <li>&iquest;D&oacute;nde se encuentran los documentos importantes? (Sugerencia: Sea espec&iacute;fico.  Anote qu&eacute; archivador y qu&eacute; caj&oacute;n contienen los documentos en cuesti&oacute;n).</li>
+            <li>&iquest;D&oacute;nde est&aacute; la declaraci&oacute;n de impuestos m&aacute;s actual? &iquest;D&oacute;nde est&aacute;n almacenadas otras declaraciones de a&ntilde;os recientes?</li>
+        </ul>
+        <p>La redacci&oacute;n de una carta de instrucciones no debe considerarse una tarea deprimente. En lugar de eso, puede interpretarse como un paso positivo para ayudar a los familiares en la toma de decisiones en un per&iacute;odo estresante.  Al escribir la carta, les brinda un servicio valioso y amoroso a sus sobrevivientes. Les da tranquilidad a todos.</p>
+        <p>Claramente, una de las secciones m&aacute;s importantes de la carta deber&iacute;a cubrir los problemas sensibles relacionados con su funeral. Esta deber&iacute;a contener sus deseos sobre el tipo de servicio que prefiere, si donar&aacute; sus &oacute;rganos, c&oacute;mo se dispondr&aacute; de su cuerpo y otros asuntos que su familia enfrentar&aacute; en las horas posteriores a su fallecimiento. Escriba el lugar donde naci&oacute; y los nombres de su padre, madre, hermanas y hermanos.  Incluya informaci&oacute;n sobre su educaci&oacute;n, antecedentes laborales, honores recibidos, puestos de liderazgo voluntario y antecedentes militares que puedan aplicarse.  Proporcione una referencia a una parcela en un cementerio que quiz&aacute;s haya comprado, el n&uacute;mero de escritura y la ubicaci&oacute;n.  Incluya los nombres de las personas a las que debe notificarse cuando fallezca.  Detalle los n&uacute;meros de tel&eacute;fono y direcciones de correo electr&oacute;nico de su c&iacute;rculo familiar, de amigos y colegas comerciales.</p>
+        <p>&iquest;Qui&eacute;n es la mejor persona para destacar los logros de su vida? &iexcl;Usted!  Si prepara su propio obituario, aliviar&aacute; a sus seres queridos de una dif&iacute;cil tarea.  La mayor&iacute;a de los obituarios incluye el lugar donde naci&oacute;, aspectos destacados de su historial profesional (incluidos los reconocimientos especiales o logros educativos) y a sus familiares sobrevivientes.  Incluya una lista de peri&oacute;dicos en los que le gustar&iacute;a que se publique su obituario.</p>
+        <p>La carta debe almacenarse en un lugar donde los familiares tengan acceso inmediato a su contenido.  Inf&oacute;rmele a su familia sobre el paradero de la carta en caso de que la mueva a una nueva ubicaci&oacute;n.
+        &iexcl;Lo que es m&aacute;s importante, t&eacute;ngala actualizada!  Vuelva a redactar las secciones de la carta cuando las condiciones cambien, cuando se tomen nuevas decisiones financieras o cuando sus puntos de vista personales cambien. Es poco probable que piense sobre cada tema importante la primera vez que redacte el documento.  Prevea que necesitar&aacute; agregar m&aacute;s temas durante el proceso; &mdash; otro motivo para guardar una versi&oacute;n electr&oacute;nica.
+        </p>
+        <p>Esta tarea no es algo que solo los jubilados deber&iacute;an considerar.  Todos los adultos deben tener preparada una carta de instrucciones. &iexcl;Esta podr&iacute;a ser una de las cartas m&aacute;s importantes que escribir&aacute; en toda su vida! Le llevar&aacute; cierto tiempo completar el documento, pero valdr&aacute; el esfuerzo al saber que les habr&aacute; brindado un verdadero servicio a sus seres queridos.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "Carta de instrucciones: lo que su familia necesita saber"

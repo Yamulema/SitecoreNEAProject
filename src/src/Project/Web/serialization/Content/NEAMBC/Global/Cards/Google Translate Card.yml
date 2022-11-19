@@ -1,0 +1,274 @@
+﻿---
+ID: "f872d5ae-8803-4d9f-ae0f-c6f7133610a4"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Google Translate Card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190715T142018Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Language Translator 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{3AB6942E-0874-4C69-B004-04526D0F9B4B}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190715T142018Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <p>Click the boxes below to choose a service to translate SEIUMB into the language of your choice.</p>
+        
+        <!-- Start Google Translate Drop Down -->
+        <div style="text-align: center;">
+        <div id="google_translate_element">
+        <!-- End Google Translate Drop Down -->
+        
+        <!--FreeWebsite Transaltor-->
+        <a href="http://free-website-translation.com/" id="ftwtranslation_button" hreflang="en" title="" style="border:0;"><img src="http://free-website-translation.com/img/fwt_button_en.gif" id="ftwtranslation_image" alt="FWT Homepage Translator" style="border:0;"/></a> 
+        <!--End Freewebsite Transaltor-->
+        
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190808T175226Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Language Translator 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{3AB6942E-0874-4C69-B004-04526D0F9B4B}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190808T175226Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <p>Click the boxes below to choose a service to translate SEIUMB into the language of your choice.</p>
+        <!-- Start Google Translate Drop Down -->
+        <div style="text-align: center;">
+        <div id="google_translate_element img.goog-te-gadget-icon {
+        margin-top: 0px;
+        }">
+        <div class="skiptranslate goog-te-gadget" dir="ltr">
+        <div id=":0.targetLanguage" style="white-space: nowrap;" class="goog-te-gadget-simple"><img alt="" src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" style="background-image: url('https://translate.googleapis.com/translate_static/img/te_ctrl3.gif'); background-position: -65px 0px;" /><span style="vertical-align: middle;"><a aria-haspopup="true" class="goog-te-menu-value" href="javascript:void(0)"><span>Select Language</span><img alt="" src="https://www.google.com/images/cleardot.gif" width="1" height="1" /><span style="border-left: 1px solid #bbbbbb;"></span><img alt="" src="https://www.google.com/images/cleardot.gif" width="1" height="1" /><span aria-hidden="true" style="color: #767676;">▼</span></a></span></div>
+        </div>
+        </div>
+        <!-- End Google Translate Drop Down -->
+        <!--FreeWebsite Transaltor-->
+        <a href="http://free-website-translation.com/" id="ftwtranslation_button" hreflang="en" style="border:0;"><img src="http://free-website-translation.com/img/fwt_button_en.gif" id="ftwtranslation_image" alt="FWT Homepage Translator" style="border:0;" /></a>
+        <!--End Freewebsite Transaltor-->
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190815T183918Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Language Translator 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{A6FBE056-8F4D-4914-A88F-E672276EA18B}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190815T183918Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <p>Click the boxes below to choose a service to translate SEIUMB into the language of your choice.</p>
+        <div style="text-align: center;">
+        <!-- Start Google Translate Drop Down -->
+        <div id="google_translate_element" onclick="ga_event('small module','click','languagetranslator > Selectlanguage');">
+        <!-- End Google Translate Drop Down -->
+        <br>
+        <!--FreeWebsite Transaltor-->
+        <a href="http://free-website-translation.com/" id="ftwtranslation_button" hreflang="en" style="border:0;" onclick="ga_event('small module','click','languagetranslator > Translation');"><img src="http://free-website-translation.com/img/fwt_button_en.gif" id="ftwtranslation_image" alt="FWT Homepage Translator" style="border:0;"></a>
+        <!--End Freewebsite Transaltor-->
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        <script>
+        window.onload = function() {
+          ga_event('small module','view','languagetranslator');
+        };
+        </script>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200309T200020Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Language Translator 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{A6FBE056-8F4D-4914-A88F-E672276EA18B}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200309T200020Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <p>Use the dropdown menu below to translate SEIUMB.com into the language of your choice.</p>
+        <div style="text-align: center;">
+        <!-- Start Google Translate Drop Down -->
+        <div id="google_translate_element" onclick="ga_event('small module','click','languagetranslator &gt; Selectlanguage');">
+        <!-- End Google Translate Drop Down -->
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        <script>
+        window.onload = function() {
+          ga_event('small module','view','languagetranslator');
+        };
+        </script>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201028T193706Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Language Translator 
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{A6FBE056-8F4D-4914-A88F-E672276EA18B}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201028T193706Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <p>Use the dropdown menu below to translate SEIUMB.com into the language of your choice.</p>
+        <div style="text-align: center;">
+        <!-- Start Google Translate Drop Down -->
+        <div id="google_translate_element" onclick="ga_event('small module','click','languagetranslator &gt; Selectlanguage');">
+        <!-- End Google Translate Drop Down -->
+        </div>
+        <p style="line-height: 12pt; text-align: left;"><span style="font-size: 10px;">We are providing you these tools so that you can easily browse our products and services.  Due to potential errors made during the translation process, only the English version of the terms and conditions apply for the programs offered by SEIUMB and our partners.</span></p>
+        <script>
+        window.onload = function() {
+          ga_event('small module','view','languagetranslator');
+        };
+        </script>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGURO
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{A2F0F128-9BA1-4BC6-B180-155B84CC3A50}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z">SEIU AD&amp;D SEGURO</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Ayude a proteger a su familia en cualquier momento y en cualquier luga.</p>
+        </div>
+        <div class="panelExcerpt">
+        &nbsp;
+        <div><a class="button panelBtn" href="~/link.aspx?_id=7EB064C8E245419680BE1B26BA6E561E&amp;_z=z" onclick="ga_event('small module','click','directv &gt; see all discounts esp');">VER TODOS LOS SEGURO</a></div>
+        </div>

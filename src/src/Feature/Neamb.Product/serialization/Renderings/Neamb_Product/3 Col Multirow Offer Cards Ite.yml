@@ -1,0 +1,27 @@
+﻿---
+ID: "40ba94cf-e347-4316-9480-cc40f92647de"
+Parent: "8c963cf0-8e65-481f-b3f1-306c43e75720"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Product/3 Col Multirow Offer Cards Item C044
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{84E8FB77-BB2C-4CB3-B1D3-35E49A9BAE94}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{AB6771A5-E7C6-4665-8403-4B4363226BF0}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: MultiRowOfferCardItem
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Product.Controllers.MultiRowOfferCardItemController,Neambc.Neamb.Feature.Product
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180627T214537Z

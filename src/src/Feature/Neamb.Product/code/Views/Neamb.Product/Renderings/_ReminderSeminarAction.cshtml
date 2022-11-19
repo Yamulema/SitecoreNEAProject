@@ -1,0 +1,112 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.RetirementSeminarDTO
+@{
+    var functionSubmit = String.Format("{0}functionSubmit{1}('{2}','{3}','{4}','{5}','{6}')", Model.GtmAction, Model.SweepstakesBase.ComponentId, Model.SweepstakesBase.ComponentId, Model.SeminarId, Model.SweepstakesBase.Cellcode, Model.SweepstakesBase.Campaigncode, Model.ContextItem);
+    var functionSubmitInvoke = String.Format("functionSubmit{0}(renderingId,seminarId,cellcode,campaingcode,contextItem)", Model.SweepstakesBase.ComponentId);
+    var redirecFormName = String.Format("redirectprofilepageForm{0}", Model.SweepstakesBase.ComponentId);
+    var functionRedirect = String.Format("redirectprofilepage{0}()", Model.SweepstakesBase.ComponentId);
+    var errorSweepstake = String.Format("error{0}", Model.SweepstakesBase.ComponentId);
+    var modalSucess = String.Format("sweepstakesModal{0}", Model.SweepstakesBase.ComponentId);
+    var ctaButtonComponent = String.Format("sweepstakesButton{0}", Model.SweepstakesBase.ComponentId);
+}
+
+@if (!Model.SweepstakesBase.Item.Fields[Templates.Sweepstakes.Fields.HideCTAButton].IsChecked())
+{
+    <div class="row">
+        <div class="col-md-12">
+            @if (!Model.IsValidSeminary)
+            {
+                <p>
+                    @Html.Sitecore().Field(Templates.RetirementSeminarCta.Fields.InvalidSeminarErrorMessage, Model.SweepstakesBase.Item)
+                </p>
+            }
+            else if (!Model.IsMember)
+            {
+                <p>
+                    @Html.Sitecore().Field(Templates.LandingPageCta.Fields.NotEligible, Model.SweepstakesBase.Item)
+                </p>
+            }
+            else if (Model.SweepstakesBase.ShowAcknowledgement)
+            {
+                <div class="form-group">
+                    <label class="custom-checkbox blue pull-left">
+                        <input name="rememberme" type="checkbox" /><span class="checkmark"></span>
+                    </label>
+
+                    <p class="text-alpha">@Html.Sitecore().Field(Templates.LandingPageCta.Fields.AcknowledgementText, Model.SweepstakesBase.Item)</p>
+                </div>
+                <a class="btn disabled btn-cyan" href="" disabled="disabled" id="@ctaButtonComponent" onclick="@functionSubmit;return false;">@Model.SweepstakesBase.CtaText</a>
+            }
+            else if (Model.AlreadyRegistered)
+            {
+                <p class="check m-r-sm text-alpha">
+                    <i aria-hidden="true" class="fa fa-check-circle"></i>
+                    @Html.Sitecore().Field(Templates.RetirementSeminarCta.Fields.RegisteredUserMessage, Model.ContextItem)
+                </p>
+            }
+            else
+            {
+                <a class="btn btn-cyan" href="" id="@ctaButtonComponent" onclick="@functionSubmit;return false;">@Model.SweepstakesBase.CtaText</a>
+                <script type="text/javascript">
+                    $(function () {
+                        @if (Model.SweepstakesBase.HasResultAuthentication) {
+                            @Html.Raw(functionSubmit)
+                        }
+                    })
+                </script>
+            }
+            <div class="spacer-10"></div>
+        </div>
+    </div>
+}
+
+@Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesPartner.cshtml", Model.SweepstakesBase)
+
+
+<form id="@redirecFormName" class="no-padding" action="/api/Profile/RedirectProfilePage" method="post">
+    <input type="hidden" name="idpage" value="@Model.SweepstakesBase.PageItem.ID.ToString()" />
+</form>
+<script>
+	function @functionRedirect {
+		$("#@redirecFormName").submit();
+	}
+
+	function @functionSubmitInvoke {
+		$("#@ctaButtonComponent").addClass("disabled");
+
+        var url = '/api/RetirementSeminar/ExecuteReminderSeminar';
+
+		$.ajax({
+			type: 'POST',
+			url: url,
+			data: {
+				SeminarId: seminarId,
+				Cellcode: cellcode,
+				Campaigncode: campaingcode,
+				ComponentId: renderingId,
+				ContextItem: contextItem
+			},
+			success: function(data) {
+				if (data.errorauthentication) {
+					var url = window.location.href;
+					window.location.href = url;
+				} else {
+					if (data.hasError) {
+						$("#@errorSweepstake").addClass("show");
+						$('html,body').scrollTop(0);
+					} else {
+						$('#@modalSucess').modal('show');
+					}
+					$("#@ctaButtonComponent").removeClass("disabled");
+				}
+			},
+			error: function (data) {
+				$("#@errorSweepstake").addClass("show");
+				$('html,body').scrollTop(0);
+				$("#@ctaButtonComponent").removeClass("disabled");
+			}
+		});
+	}
+</script>

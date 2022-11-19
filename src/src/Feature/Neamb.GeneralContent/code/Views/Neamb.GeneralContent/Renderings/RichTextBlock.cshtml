@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@if (Model.Item != null)
+{
+    @Html.Sitecore().Field(Templates.RichTextBlock.Fields.Content, Model.Item)
+}

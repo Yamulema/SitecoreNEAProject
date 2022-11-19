@@ -1,0 +1,25 @@
+{
+  "@jdt.replace": [
+    {
+      "@jdt.path": "$.ColdState",
+      "@jdt.value": [
+        [
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Sign In to Check Eligibility'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Sign In to Check Eligibility'},this)"
+        ]
+      ]
+    },
+    {
+      "@jdt.path": "$.WarmState",
+      "@jdt.value": [
+        [
+          "999",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Start Planning'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Get Expert Advice'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Start Planning'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Long-Term Care Program','ctaText':'Get Expert Advice'},this)"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿---
+ID: "74b30b5d-9733-4d5a-b204-67140c082b85"
+Parent: "04cc6cb0-46e1-47ad-88d5-5feea5a82a4e"
+Template: "854ba861-63ea-4a0c-8c7b-541e9a7ec4c1"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Registration Redirection/Tags/Default
+DB: master
+SharedFields:
+- ID: "42f77151-098f-496a-94cf-590b7edeeabe"
+  Hint: Tags
+  Type: Multilist
+  Value: |
+    {5BDAE7CF-189F-4AB2-B797-710F68813F6D}
+    {8265A00A-412B-4CC7-A7A5-3A1AE9C45589}
+    {C2BE2220-AE4D-47ED-99D2-7D6DF765CC28}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6F0688E4-7B16-482F-845B-35836FD15D14}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190426T172628Z

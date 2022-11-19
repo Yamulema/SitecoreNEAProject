@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="NameYourBeneficiaryPage" urlpath="/pages/name-your-beneficiary">
+      <sections>
+        <section name="DivCards">
+          <controls>
+            <control key="NameYourBeneficiaryButton" xpath="//*[@id='product_special_offer_primary_action_button']"  />
+          </controls>
+        </section>
+        
+      </sections>
+    </page>
+  </pages>
+</controldata>

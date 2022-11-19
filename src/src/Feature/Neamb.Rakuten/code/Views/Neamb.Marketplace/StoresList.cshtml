@@ -1,0 +1,98 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Rakuten
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Rakuten.Model.StoreDto
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+<section id="marketplace">
+    <section class='section-xl mktp bg-gray-l'>
+        <span id="shoppingLink" class="hidden">@Html.Raw(Model.ShopingLink)</span>
+        <span id="memberEligibility" class="hidden">@Html.Raw(Model.Eligibility)</span>
+        <span id="memberEmail" class="hidden">@Html.Raw(Model.MemberEmail)</span>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h6>@Model.StoresListLabel</h6>
+                </div>
+                <div class="col-md-3 hidden-xs hidden-sm hidden-md">
+                    <div class="new-design">
+                        <div class="floating-section">
+                            <select onclick="this.setAttribute('value', this.value);" onchange="this.setAttribute('value', this.value);"
+                                    value="2" class="mkp-sorting">
+                                <option value="2" selected="selected">Store Name (A-Z)</option>
+                                <option value="1">Cash Back Amount</option>
+                            </select>
+                            <label>Sort by</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row hidden-md-up">
+                <div class="col-xs-12 col-sm-6 m-t-sm">
+                    <div id="filterMBtn" class="btn btn-default"><a href="">Filter</a></div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="new-design">
+                        <div class="floating-section m-t-sm n-m-b">
+                            <select onclick="this.setAttribute('value', this.value);"
+                                    onchange="this.setAttribute('value', this.value);" value="2" class="mkp-sorting">
+                                <option value="2" selected>Store Name (A-Z)</option>
+                                <option value="1">Cash Back Amount</option>
+                            </select>
+                            <label>Sort by</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="filterpils" class="row hidden-md-up hidden">
+                <div class="col-md-12">
+                    <div class="btn-group btn-group-lg" role="group" aria-label="filter-buttons">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @Html.Sitecore().Placeholder("marketplace-categories")
+                <div class="col-xs-12 col-md-9">
+                    @if (!isExperienceEditor) {
+                        @Html.Sitecore().Placeholder("search-banner")
+                    } else {
+                        <div class="sc-experience-editor">
+                            @Html.Sitecore().Placeholder("search-banner")
+                        </div>
+                    }
+                    <div class="cards-container">
+                        <div class="search-bar">
+                            <div class="top-marker"></div>
+                            <div class="bottom-marker"></div>
+                            <div id="store-search" class="search">
+                                <input type="text" placeholder="Find a Store">
+                                <i class="fa fa-search"></i>
+                                <i class="fa fa-times erase"></i>
+                                <div class="suggestion-box-mkp"></div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                        </div>
+                    </div>
+
+                    <div class="store-no-results">
+                        <h3>There are no stores available</h3>
+                    </div>
+                    <div id="favorites-no-result">
+                        @Html.Raw(Model.NoFavoriteStoresContent)
+                    </div>
+                    <!--cards-->
+                    <div class="text-center section-normal">
+                        <a id="see-more-stores" href="#" class="btn btn-blue btn-md">@Model.MoreDealsText</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<input type="hidden" id="actionprocedurepar1" value="@Model.ProductCode" />

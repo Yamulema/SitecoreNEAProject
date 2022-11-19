@@ -1,0 +1,30 @@
+﻿---
+ID: "9a1fef06-fd56-4d74-a22a-dc3c2d9c0c47"
+Parent: "363a6942-7013-4607-857a-888cbf6db81b"
+Template: "363a6942-7013-4607-857a-888cbf6db81b"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Contest Item/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {3821604B-5F69-4D8B-91DB-2D9D6907C134}
+    {CEFF0DD5-20FD-40A9-ACD3-C624736B57A2}
+    {B496C634-6BCC-43BD-A465-6095DD468467}
+    {E34BACDF-686B-4D8A-8FD1-D6A2E52EA1D9}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200113T174909Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

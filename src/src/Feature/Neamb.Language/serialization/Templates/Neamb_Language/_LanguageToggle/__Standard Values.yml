@@ -1,0 +1,21 @@
+﻿---
+ID: "5ea92fbf-38c1-4fae-a033-d88c2633df9a"
+Parent: "cb80d522-886f-47c0-b740-d029fd4db5a8"
+Template: "cb80d522-886f-47c0-b740-d029fd4db5a8"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Language/_LanguageToggle/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180611T203353Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8dcf8f52-e74e-46ce-b897-dfe19d9d4e11"
+      Hint: Default
+      Value: "{BDDB4716-B807-4A40-BD12-837942A63D82}"

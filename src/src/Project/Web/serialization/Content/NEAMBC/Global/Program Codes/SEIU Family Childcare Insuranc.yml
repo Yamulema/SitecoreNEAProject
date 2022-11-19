@@ -1,0 +1,24 @@
+﻿---
+ID: "00a63120-7744-468f-a52d-29f624310e96"
+Parent: "af516562-223b-4c59-911d-dfccda357810"
+Template: "66f590f9-d048-4783-a410-71724dfea9e3"
+Path: /sitecore/content/NEAMBC/Global/Program Codes/SEIU Family Childcare Insurance 014 01
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210914T232659Z
+    - ID: "3fa7e02b-5291-4e38-83a3-b315251b80e2"
+      Hint: Title
+      Value: SEIU Family Childcare Insurance
+    - ID: "432257ec-50fa-4100-ad61-002c641ea8a7"
+      Hint: Program Code
+      Value: 014 01
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

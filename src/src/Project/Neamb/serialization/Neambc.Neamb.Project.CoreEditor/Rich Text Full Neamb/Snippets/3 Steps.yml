@@ -1,0 +1,51 @@
+﻿---
+ID: "2b9aa942-f534-4edf-8cac-eda30ff66cdd"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/3 Steps
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="three-steps-snippet new-design section-normal">
+        <div class="container">
+          <h4 class="title">How the Enrollment Process Works</h4>
+            <div class="row">
+                <div class="col-md-4 step blue">
+                    <img class="img-responsive" src="-/media/40f6e9789b824e149d8c0f04745f3fd9.ashx" alt="step 1">
+                    <h4>Step 1</h4>
+                    <h6>NEAMB.com Account</h6>
+                    <p>Create an account, log in and choose a self-guided or investor led path.</p>
+                </div>
+                <div class="col-md-4 step green">
+                  <img class="img-responsive" src="-/media/024620733a1a40a990bdd144cf600242.ashx" alt="step 2">
+                  <h4>Step 2</h4>
+                  <h6>Enrollment Wizard</h6>
+                  <p>Review our online guides, select an investment plan, then select a contribution amount. </p>
+                </div>
+                <div class="col-md-4 step orange">
+                  <img class="img-responsive" src="-/media/8fc322709e71480a99e2d6e586fa99fe.ashx" alt="step 3">
+                  <h4>Step 3</h4>
+                  <h6>Complete Enrollment</h6>
+                  <p>Complete all required forms, submit, and begin saving toward your retirement goals.
+                  </p>
+              </div>
+            </div>
+        </div>
+      </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: 3 Steps

@@ -1,0 +1,19 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Product.Model
+
+@model SweepstakesBaseDTO
+
+@if (Model.ListPartnersItems.Count > 0)
+{
+	<div class="row">
+        <div class="col-md-12">
+            @Html.Sitecore().Field(Templates.LandingPageCta.Fields.FinePrint, Model.Item)
+
+            @foreach (var partnerItem in Model.ListPartnersItems)
+            {
+                @Html.Sitecore().Field(Templates.Partner.Fields.Logo, partnerItem, new { loading = "lazy", @class = "img-responsive" })
+            }
+        </div>
+	</div>
+}

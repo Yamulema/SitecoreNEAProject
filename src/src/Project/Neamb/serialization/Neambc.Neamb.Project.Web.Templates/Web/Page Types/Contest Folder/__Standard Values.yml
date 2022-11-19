@@ -1,0 +1,29 @@
+﻿---
+ID: "394ddf21-179d-4f6e-b5ed-667364e66c58"
+Parent: "de367237-ce39-4dc4-83be-58562c57a458"
+Template: "de367237-ce39-4dc4-83be-58562c57a458"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Contest Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/folder_open.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{363A6942-7013-4607-857A-888CBF6DB81B}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200113T174447Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

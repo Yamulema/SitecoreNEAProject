@@ -1,0 +1,25 @@
+﻿---
+ID: "0cdff563-e643-4b22-8266-04d690bf3d0d"
+Parent: "1731ffcb-6da8-4d31-97e2-2f0feb87c83b"
+Template: "1731ffcb-6da8-4d31-97e2-2f0feb87c83b"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_RetirementIncomeCalculator/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180709T165746Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "cfb0001d-a41e-48d9-8014-f4fe30be51d1"
+      Hint: Anonymous User
+      Value: |
+        You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">login</a>&nbsp;to view this page
+    - ID: "e22d6508-7a9d-4bf4-b6ef-bb476032998e"
+      Hint: iFrame
+      Value: "https://NEAMB.AskTRAK.com"

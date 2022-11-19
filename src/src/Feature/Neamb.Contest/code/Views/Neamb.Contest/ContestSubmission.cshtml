@@ -1,0 +1,205 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Contest
+@using Neambc.Neamb.Foundation.Config.Models
+
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Contest.Model.ContestSubmissionDto
+@{
+    var classname = Model.HasGeneralError ? "show" : "";
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+}
+
+<section class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.Error, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+@if (Model.PageNotAvailable)
+{
+    <section class="section-normal contest">
+        <div class="container">
+            <div class="col-md-9 col-centered">
+                @if (Model.Item.FieldHasValue(Templates.ConstestSubmission.Fields.Title))
+                {
+                    <h2 class="header">@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.Title, Model.Item)</h2>
+                }
+                @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.ClosedContestText, Model.Item)
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    if (Model.UserStatus != StatusEnum.Hot && !isExperienceEditor)
+    {
+        <section class="section-normal contest">
+            <div class="container">
+                @if (Model.Item.FieldHasValue(Templates.ConstestSubmission.Fields.Title))
+                {
+                    <h2 class="header">@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.Title, Model.Item)</h2>
+                }
+                @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.AnonymousUser, Model.Item)
+            </div>
+        </section>
+    }
+    else
+    {
+        <section class="section-normal contest">
+            <div class="container">
+                <div class="col-md-9 col-centered">
+                    @if (Model.Item.FieldHasValue(Templates.ConstestSubmission.Fields.Title))
+                    {
+                        <h2 class="header">@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.Title, Model.Item)</h2>
+                    }
+                    @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.Description, Model.Item)
+                    <hr />
+                </div>
+                <div class="col-md-9 col-centered">
+                    <section id="contest" class="new-design form">
+                        <form id="contest-form" method="post" accept-charset="UTF-8" role="form" autocomplete="off" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="col-md-9 col-centered">
+                                    <div class="form-section m-b-md">
+                                        <div class="floating-section">
+                                            <div class="floating-group">
+                                                <input id="FileName"
+                                                       name="FileName"
+                                                       type="text"
+                                                       value="@Model.FileName"
+                                                       placeholder="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.FileName, Model.Item)"
+                                                       required="required"
+                                                       data-msg-required="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.EmptyField, Model.Item, new {@DisableWebEdit = true})"
+                                                       maxlength="30"
+                                                       data-rule-maxlength="30" data-msg-maxlength="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.CharacterLimit, Model.Item, new {@DisableWebEdit = true})"
+                                                       data-rule-minlength="2" data-msg-minlength="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.MinimumCharacterLimit, Model.Item, new {@DisableWebEdit = true})"
+                                                       data-rule-alphanumber="true"
+                                                       data-msg-alphanumber="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.InvalidCharacters, Model.Item, new {@DisableWebEdit = true})" />
+                                                <label for="FileName">@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.FileName, Model.Item)</label>
+                                            </div>
+                                            <div class="floating-messages">
+                                                <div class="floating-error-messages">
+                                                    @if (Model.ErrorsFileName.Contains(ErrorStatusEnum.Required))
+                                                    {
+                                                        <div class="server-error">
+                                                            @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.EmptyField, Model.Item)
+                                                        </div>
+                                                    }
+                                                    @if (Model.ErrorsFileName.Contains(ErrorStatusEnum.MinLength))
+                                                    {
+                                                        <div class="server-error">
+                                                            @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.MinimumCharacterLimit, Model.Item)
+                                                        </div>
+                                                    }
+                                                    @if (Model.ErrorsFileName.Contains(ErrorStatusEnum.Length))
+                                                    {
+                                                        <div class="server-error">
+                                                            @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.CharacterLimit, Model.Item)
+                                                        </div>
+                                                    }
+                                                    @if (Model.ErrorsFileName.Contains(ErrorStatusEnum.InvalidCharacters))
+                                                    {
+                                                        <div class="server-error">
+                                                            @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.InvalidCharacters, Model.Item)
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-section m-b-md">
+                                        <div class="file-upload">
+                                            <input id="file"
+                                                   type="file"
+                                                   name="UploadedFile"
+                                                   value="Upload Photo" 
+                                                   required="required"
+                                                   data-rule-extension="@Model.AllowTypes"
+                                                   data-msg-extension="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.ErrorTypeNotAllowed, Model.Item, new {@DisableWebEdit = true})"
+                                                   data-msg-required="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.UploadFileEmpty, Model.Item, new {@DisableWebEdit = true})"
+                                                   data-rule-filesize="@Model.MaxSize"
+                                                   data-msg-filesize="@Html.Sitecore().Field(Templates.ConstestSubmission.Fields.ErrorSizeNotAllowed, Model.Item, new {@DisableWebEdit = true})"
+                                                   class="btn btn-outline-default" />
+                                            <label for="UploadedFile" class="btn btn-new btn-outline-default accent">
+                                                @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.AddButton, Model.Item)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="file-props">
+                                    <div class="col-md-12"><hr /></div>
+                                    <div class="col-md-9 col-centered">
+                                        <p class="file-name"></p>
+                                        <div id="preview">
+                                            <img src="#" />
+                                        </div>
+                                        <div class="floating-messages">
+                                            <div id="custom-errors-container" class="floating-error-messages">
+                                                <div id="file-size-error" class="error">
+                                                    @if (Model.ErrorsUploadFile.Contains(ErrorStatusEnum.Required))
+                                                    {
+                                                        @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.UploadFileEmpty, Model.Item)
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="disclaimer">
+                                    <hr />
+                                    <div class="col-md-9 col-centered">
+                                        <div class="form-section">
+                                            <label class="custom-checkbox blue">
+                                                <input type="checkbox" name="accept" /><span class="checkmark"></span>
+                                                <span class="check-text">
+                                                    @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.DisclosureText, Model.Item)
+                                                </span>
+                                            </label>
+                                            <button id="submit" type="submit" disabled="disabled"
+                                                    class="btn btn-new btn-outline-default m-t-md">
+                                                @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.SendButton, Model.Item, new { @DisableWebEdit = true })
+                                                <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="fhController" value="ContestSubmissionController" data-abide-ignore />
+                            <input type="hidden" name="fhAction" value="ContestSubmission" data-abide-ignore />
+                            <input type="hidden" name="ParentId" value="@Model.ParentId" />
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        if (Model.ProcessedSucessfully && !Model.HasGeneralError)
+        {
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('#contestModal').modal('show');
+                })
+            </script>
+            <div id="contestModal" tabindex="-1" role="dialog" aria-labelledby="contestModalLabel" class="modal fade modalForms">
+                <div role="document" class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" onClick="location.href = '@Model.UrlForRedirection'" class="close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            @Html.Sitecore().Field(Templates.ConstestSubmission.Fields.ThankyouMessage, Model.Item)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+}

@@ -1,0 +1,22 @@
+﻿---
+ID: "44ad3d24-a0dc-4e1d-baa2-d6f553a153db"
+Parent: "8c963cf0-8e65-481f-b3f1-306c43e75720"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Product/Product Hero C088
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Neamb.Product/Renderings/ProductHero.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221004T200007Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

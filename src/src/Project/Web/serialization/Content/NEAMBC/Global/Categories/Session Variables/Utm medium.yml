@@ -1,0 +1,24 @@
+﻿---
+ID: "44b46c3a-84a4-42b8-8e79-cb758b7a0b59"
+Parent: "69954503-ba88-4f68-bd7e-64d4beaf58cc"
+Template: "7f85b6d0-f533-45ac-b00b-ddd602ab6fcf"
+Path: /sitecore/content/NEAMBC/Global/Categories/Session Variables/Utm medium
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210917T202206Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: utm_medium
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: Utm medium

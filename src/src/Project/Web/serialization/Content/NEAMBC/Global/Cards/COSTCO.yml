@@ -1,0 +1,78 @@
+﻿---
+ID: "296d8497-21a9-4326-8bef-e243e2eeec0a"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/COSTCO
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Discounts
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{F6345686-D288-4D57-8546-E843749ADDE9}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=ECD8C7EE354D4F4ABB66AC388A7BB0F5&amp;_z=z" onclick="ga_event('small module','click','costco > costco > title');">COSTCO</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Restock without ever leaving the house with online ordering and delivery. New Costco members receive a $30 Costco Shop Card.</p>
+        <div><a href="~/link.aspx?_id=ECD8C7EE354D4F4ABB66AC388A7BB0F5&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','costco > button');">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Descuentos
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{F6345686-D288-4D57-8546-E843749ADDE9}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=ECD8C7EE354D4F4ABB66AC388A7BB0F5&amp;_z=z" onclick="ga_event('small module','click','costco esp &gt; title');">COSTCO</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Reponga sin salir de casa con pedidos y entregas en l&iacute;nea. Los nuevos miembros de Costco reciben una tarjeta de compras de Costco de $30.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=ECD8C7EE354D4F4ABB66AC388A7BB0F5&amp;_z=z" onclick="ga_event('small module','click','costco esp &gt; button');">
+        APRENDE M&Aacute;S</a></div>
+        </div>

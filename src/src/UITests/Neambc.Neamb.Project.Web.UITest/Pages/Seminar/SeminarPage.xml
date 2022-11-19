@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="SeminarPage" urlpath="/UITest/Seminar">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="SectionCta" xpath="//section[@class='section-cta']"  />
+            <control key="SeminarPage_Header_Title" xpath="//h1[@class='title']"  />
+          </controls>
+        </section>
+        <section name="FormCold">
+          <controls>
+            <control key="LoginButton" xpath="//*[@class='btn pull-left btn-cyan']"  />
+            <control key="HotButton" xpath="//*[@class='btn btn-cyan']"  />
+            <control key="PopupButton" xpath="//*[@class='btn btn-lg btn-blue btn-block']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

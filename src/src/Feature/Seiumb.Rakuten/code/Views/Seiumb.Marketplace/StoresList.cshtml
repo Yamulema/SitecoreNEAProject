@@ -1,0 +1,84 @@
+﻿@using Sitecore.Mvc
+@model Neambc.Seiumb.Feature.Rakuten.Models.StoreDto
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+<section id="seiu-marketplace">
+    <span id="shoppingLink" class="hide">@Html.Raw(Model.ShopingLink)</span>
+    <span id="memberEligibility" class="hide">@Html.Raw(Model.Eligibility)</span>
+    <span id="memberEmail" class="hide">@Html.Raw(Model.MemberEmail)</span>
+
+    <section id="browse-offers">
+        <div class="row mb-1">
+            <div class="small-12 medium-12 large-9 columns">
+                <h2>@Model.StoresListLabel</h2>
+            </div>
+            <div class="small-5 medium-6 large-3 columns display-menu">
+                <a id="filter-menu">Filter</a>
+            </div>
+            <div class="small-7 medium-6 large-3 columns">
+                <label class="single-label">Sort by</label>
+                <select>
+                    <option value="2" selected="selected">Store Name (A-Z)</option>
+                    <option value="1">Cash Back Amount</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-12 large-3 columns mobile-menu">
+                <div class="row">
+                    <div class="hide-mobile">
+                        <a class="reset-all"><strong>Reset All</strong></a>
+                    </div>
+                </div>
+                <p class="filter-label">
+                    Filter
+                    <button type="button" class="close"><span aria-hidden="true">&times;</span></button>
+                </p>
+                @Html.Sitecore().Placeholder("marketplace-categories")
+            </div>
+            <div class="small-12 medium-12 large-9 columns">
+                <div class="filter-container hide-for-large hide">
+                </div>
+            </div>
+            <div class="small-12 medium-12 large-9 columns relative cards-container">
+                @if (!isExperienceEditor)
+                {
+                    @Html.Sitecore().Placeholder("search-banner-seiumb")
+                }
+                else
+                {
+                    <div class="sc-experience-editor">
+                        @Html.Sitecore().Placeholder("search-banner-seiumb")
+                    </div>
+                }
+                <div class="search-bar">
+                    <div class="top-marker"></div>
+                    <div class="bottom-marker"></div>
+                    <div id="store-search" class="search">
+                        <input type="text" placeholder="Find a Store">
+                        <i class="fa fa-search"></i>
+                        <i class="fa fa-times"></i>
+                        <div class="suggestion-box-mkp"></div>
+                    </div>
+                </div>
+                <div class="row cards">
+                </div>
+                <div class="store-no-results hide">
+                    <p>There are no stores available</p>
+                </div>
+                <div id="favorites-no-result" class="hide">
+                    @Html.Raw(Model.NoFavoriteStoresContent)
+                </div>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <div class="loader"></div>
+                        <a id="see-more-stores" href="#" class="button large mt-2">@Model.MoreDealsText</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<input type="hidden" id="actionprocedurepar1" value="@Model.ProductCode" />
+<input type="hidden" id="actionprocedurepar2" value="@Model.MdsId" />

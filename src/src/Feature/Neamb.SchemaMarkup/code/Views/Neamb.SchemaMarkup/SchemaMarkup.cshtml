@@ -1,0 +1,13 @@
+﻿@using Neambc.Neamb.Feature.SchemaMarkup.Models
+
+@model SchemaMarkupModel
+
+@if (Model == null || Model.ScriptContent.Count == 0)
+{
+    return;
+}
+
+@foreach (var script in Model.ScriptContent)
+{
+    @Html.Raw(script)
+}

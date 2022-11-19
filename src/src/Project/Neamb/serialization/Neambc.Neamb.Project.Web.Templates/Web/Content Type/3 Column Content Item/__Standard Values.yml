@@ -1,0 +1,31 @@
+﻿---
+ID: "a2a036e6-759f-40a8-8e61-354def136b91"
+Parent: "a6743e9f-1332-4428-a551-f19101c9bd9f"
+Template: "a6743e9f-1332-4428-a551-f19101c9bd9f"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/3 Column Content Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221028T142658Z
+    - ID: "523ca48d-5ce8-412c-99c1-df60fa24a804"
+      Hint: Image
+      Value: |
+        <image mediaid="{2A9AC757-C3CB-4A61-9E86-B8ED61213625}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6e002b0e-1adc-4035-9479-a04fd2922a53"
+      Hint: Headline
+      Value: Enter Headline text
+    - ID: "a5619201-0834-4145-8cfb-50c57aae4132"
+      Hint: Title
+      Value: Enter Title text
+    - ID: "f9cc1ff8-77c2-4b87-9b44-cdb7134a5ff2"
+      Hint: Description
+      Value: <p>Insert your description here</p>

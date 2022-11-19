@@ -1,0 +1,28 @@
+﻿---
+ID: "06656615-a283-47fc-b75b-af674e53fca5"
+Parent: "a4393194-6690-4b4e-93e4-5985ca60fe18"
+Template: "7f85b6d0-f533-45ac-b00b-ddd602ab6fcf"
+Path: /sitecore/content/NEAMBC/Global/Categories/Navigation Types/Bottom
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171114T193629Z
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: Bottom
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T213239Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,70 @@
+﻿@using Neambc.Neamb.Project.Web
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc.Analytics.Extensions
+@model RenderingModel
+@{
+    Layout = null;
+    var siteSettings = Sitecore.Context.Database.GetItem(Configuration.SiteSettingsId);
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+
+    var cacheServerUrl = string.Empty;
+    if (Configuration.AlwaysIncludeServerUrl)
+    {
+        cacheServerUrl = Configuration.MediaLinkServerUrl;
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="dns-prefetch" href="https://cdn.neamb.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    @Html.Partial("~/Views/Neamb.Web/Partials/_Seo.cshtml")
+    @Html.Partial("~/Views/Neamb.Web/Partials/_OpenGraph.cshtml")
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap">
+    <link rel="preload" href="@cacheServerUrl/assets/neamb/styles/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="@cacheServerUrl/assets/neamb/styles/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <script src="@cacheServerUrl/assets/neamb/scripts/gtm.js"></script>
+    <script src="@cacheServerUrl/assets/neamb/scripts/jquery-3.6.0.min.js"></script>
+    <script src="@cacheServerUrl/assets/neamb/scripts/bootstrap.min.js"></script>
+
+    @if (!string.IsNullOrEmpty(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTop]))
+    {
+        @Html.Raw(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTop])
+    }
+    <link rel="icon" href="/assets/neamb/images/favicon.ico">
+
+    @if (!isExperienceEditor)
+    {
+        @Html.Sitecore().VisitorIdentification()
+    }
+</head>
+<body>
+    <div>
+        @Html.Sitecore().Placeholder("body")
+    </div>
+    @if (!isExperienceEditor)
+    {
+        <div>
+            @Html.Sitecore().Placeholder("modal")
+        </div>
+    }
+    <script async src="@cacheServerUrl/assets/neamb/scripts/main.js"></script>
+    <script async src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5afc6d4ab9e289b2"></script>
+    <script defer src="https://use.fontawesome.com/b8297ede2b.js"></script>
+    <script defer src="~/assets/neamb/scripts/jquery.form.js"></script>
+    <script defer src="@cacheServerUrl/assets/neamb/scripts/product-detail.js"></script>
+    <script defer src="@cacheServerUrl/assets/neamb/scripts/remove-ref.js"></script>
+</body>
+</html>
+

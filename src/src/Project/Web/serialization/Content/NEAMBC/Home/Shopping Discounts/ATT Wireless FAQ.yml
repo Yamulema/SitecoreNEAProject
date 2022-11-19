@@ -1,0 +1,671 @@
+﻿---
+ID: "a89d9efe-599a-49fb-ac5c-2686441cdaad"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/ATT Wireless FAQ
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        How do I register for the plan and receive my SEIU member discount?
+        You will need to register online by signing in and clicking on the register button on the SEIUMB AT&T page. You will be directed to the AT&T site where you can register for the plan. The discount will be applied on your billing statement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171223T061638Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ATT Wireless FAQs
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{45927BA2-52A8-4DA2-B52C-31F361A9B041}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T FAQ
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>How do I register for the plan and receive my SEIU member discount?</strong><br />
+        You will need to register online by signing in and clicking on the register button on the <a href="~/link.aspx?_id=4912C9C701E048B488BA289A224EE81A&amp;_z=z">SEIUMB AT&amp;T</a> page. You will be directed to the AT&amp;T site where you can register for the plan. The discount will be applied on your billing statement.</p>
+        <p>
+        <strong>I already have wireless service though AT&amp;T. Am I eligible for the member discount?</strong><br />
+        Yes. You will need to sign in to seiumb.com to get your discount code and then access the AT&amp;T SEIU portal and choose &ldquo;Enroll.&rdquo; Or you can bring the discount code, along with proof of membership, to an AT&amp;T retail location.</p>
+        <p>
+        <strong>What is covered under the discount?</strong><br />
+        SEIU Members can save 15% on the monthly service charge of qualified wireless plans, including 3GB, 6GB and 10GB plans &ndash; and 20% savings on select accessories from AT&amp;T. Note: The 15% discount does not apply to the new Unlimited Choice and Plus Plans.</p>
+        <p>
+        <strong>Is there an activation fee?</strong><br />
+        Yes. There is a one-time charge to customers who activate a new line of service or when a customer upgrades. The fee depends on the plan you select:
+        </p>
+        <ul>
+            <li>AT&amp;T Next/Installment Plans/EIP: $30</li>
+            <li>No-commit and BYOD (all other devices): $30</li>
+            <li>Subsidized two year agreement: $45, except $20 for secondary lines in Puerto Rico</li>
+        </ul>
+        <p>
+        <strong>Do I have to pay a conversion fee?</strong><br />
+        No, there is no conversion fee for union members.</p>
+        <p>
+        <strong>Are there discounts available on equipment?</strong><br />
+        Eligible customers have the option to take advantage of any promotional pricing on equipment that is offered at time of purchase.</p>
+        <p>
+        <strong>What is the Equipment Upgrade Fee?</strong><br />
+        There is an $18 fee charged for all upgraded equipment.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Frequently Asked Questions"
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        How do I register for the plan and receive my SEIU member discount?
+        You will need to register online by signing in and clicking on the register button on the SEIUMB AT&T page. You will be directed to the AT&T site where you can register for the plan. The discount will be applied on your billing statement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191115T161553Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ATT Wireless FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191115T161553Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3EE6DEFD-D19E-415D-844B-E406EB1F9537}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T FAQ
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q:</strong> I already have wireless service through AT&amp;T. Am I eligible for the member discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. You will need to sign in to seiumb.com to get your discount code and then access the AT&amp;T SEIU portal and choose &ldquo;Enroll.&rdquo; Or you can bring the discount code, along with proof of membership, to an AT&amp;T retail location.</p>
+        <p><strong>Q:</strong> What is covered under the discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> SEIU Members can save 15% on the monthly service charge of qualified AT&amp;T wireless plans and 20% off select accessories from AT&amp;T. Note: The 15% discount does not apply to select AT&amp;T unlimited plans.</p>
+        <p><strong>Q:</strong> Is there an activation fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. There is a one-time charge to customers who activate a new line of service or when a customer upgrades to a new device. The fee depends on the plan you select:</p>
+        <ul style="margin-left: 40px;">
+            <li><span style="font-size: inherit; font-family: 'Open Sans', Arial, sans-serif;">No-commit and BYOD (Bring your own device &ndash; all other devices): $30</span></li>
+            <li>Subsidized two-year agreement: $45, except $20 for secondary lines in Puerto Rico</li>
+        </ul>
+        <p><strong>Q:</strong> Do I have to pay a conversion fee?
+        </p>
+        <p style="margin-left: 40px;"><strong>A:</strong> No, there is no conversion fee for union members.</p>
+        <p><strong style="font-size: inherit;">Q:</strong><span style="font-size: inherit; font-family: helvetica_neue;"> Are there discounts available on equipment?</span></p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Eligible customers have the option to take advantage of any promotional pricing on equipment that is offered at time of purchase.</p>
+        <p><strong>Q:</strong> What is the Equipment Upgrade Fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> The standard upgrade fee is $30.</p>
+        <p><strong>AT&amp;T may temporarily slow data speeds when the network is busy. </strong></p>
+        <strong>
+        </strong>
+        <p>AT&amp;T Signature Program service discount not combinable with current AT&amp;T Unlimited plans.</p>
+        <p><strong>ACCESSORY DISCOUNT:</strong>&nbsp;AT&amp;T will apply the Accessory Discount to the prices of select Accessories available through AT&amp;T, which may be modified by AT&amp;T from time to time. The term &ldquo;Accessory&rdquo; or &ldquo;Accessories&rdquo; means supplementary parts for Equipment (e.g. batteries, cases, earbuds).&nbsp; The Accessory Discount will not apply to Accessories purchased for use with datacentric Equipment such as modems, replacement SIM cards and car kits or to Apple-branded accessories.</p>
+        <p><strong>WAIVED ACTIVATION FEE:</strong>&nbsp;Available to qualified employees, students and other authorized individuals associated with eligible Sponsoring Organizations with a qualified Business Agreement. Requires valid proof of eligibility. Qualified individual must subscribe to service under an account for which he / she is personally liable. Offer is subject to the Business Agreement and may be interrupted, changed and/or discontinued without notice. Applicable to select activations only. Additional restrictions apply. If you have a question about your eligibility, contact your Sponsoring Organization or visit a store or contact AT&amp;T for offer details.</p>
+        <p><strong>AT&amp;T SIGNATURE PROGRAM SERVICE DISCOUNTS:</strong>&nbsp;Available to qualified employees, students &amp; other authorized individuals associated with eligible companies, universities &amp; other sponsoring organizations with a qualifying service agreement (Business Agreement). Must validate eligible online or provide valid employee badge/paystub, student ID, or other approved proof of eligibility in authorized retail store &amp; subscribe to service under an individual responsibility account for which the qualifying individual is personally liable. Discount subject to Business Agreement &amp; may be interrupted, changed, or discontinued without notice. Discount may vary monthly. Applies only to recurring monthly service charge of qual. voice &amp; data plans (unless otherwise provided in Business Agreement). Combinable only with eligible wireless plans (however, other discounts may apply). Ineligible plans include AT&amp;T Unlimited Plus℠, AT&amp;T Unlimited Choice℠, AT&amp;T Unlimited Plus Enhanced℠, AT&amp;T Unlimited Choice Enhanced℠, AT&amp;T Unlimited &amp;More℠ Premium, AT&amp;T Unlimited&nbsp;&amp;More℠, and AT&amp;T Unlimited Value, AT&amp;T Unlimited Starter℠, and AT&amp;T Unlimited Extra℠ and AT&amp;T Unlimited EliteSM. Minimum monthly service charge, additional AT&amp;T services, or other eligible requirements may apply. Not available with unlimited voice plans. For all Mobile Share plans, applies only to the monthly plan charge of plans with more than 600MB, not to additional monthly device access charges. Additional restrictions apply. May take up to 2 bill cycles after eligibility confirmed &amp; won't apply to prior charges. Applied after application of any available credit. May not be combined with other service discounts.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Frequently Asked Questions"
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        How do I register for the plan and receive my SEIU member discount?
+        You will need to register online by signing in and clicking on the register button on the SEIUMB AT&T page. You will be directed to the AT&T site where you can register for the plan. The discount will be applied on your billing statement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210625T150936Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ATT Wireless FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210625T150936Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3EE6DEFD-D19E-415D-844B-E406EB1F9537}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T FAQ
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q:</strong> I already have wireless service through AT&amp;T. Am I eligible for the member discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. You will need to sign in to seiumb.com to get your discount code and then access the AT&amp;T SEIU portal and choose &ldquo;Enroll.&rdquo; Or you can bring the discount code, along with proof of membership, to an AT&amp;T retail location.</p>
+        <p><strong>Q:</strong> What is covered under the discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> SEIU Members can save 15% on the monthly service charge of qualified AT&amp;T wireless plans and 20% off select accessories from AT&amp;T. Note: The 15% discount does not apply to select AT&amp;T unlimited plans.</p>
+        <p><strong>Q:</strong> Is there an activation fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. There is a one-time charge to customers who activate a new line of service or when a customer upgrades to a new device. The fee depends on the plan you select:</p>
+        <ul style="margin-left: 40px;">
+            <li><span style="font-size: inherit; font-family: 'Open Sans', Arial, sans-serif;">No-commit and BYOD (Bring your own device &ndash; all other devices): $30</span></li>
+            <li>Subsidized three-year agreement: $45, except $20 for secondary lines in Puerto Rico</li>
+        </ul>
+        <p><strong>Q:</strong> Do I have to pay a conversion fee?
+        </p>
+        <p style="margin-left: 40px;"><strong>A:</strong> No, there is no conversion fee for union members.</p>
+        <p><strong style="font-size: inherit;">Q:</strong><span style="font-size: inherit; font-family: helvetica_neue;"> Are there discounts available on equipment?</span></p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Eligible customers have the option to take advantage of any promotional pricing on equipment that is offered at time of purchase.</p>
+        <p><strong>Q:</strong> What is the Equipment Upgrade Fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> The standard upgrade fee is $30.</p>
+        <p><strong>&nbsp;</strong><strong style="font-size: inherit;">AT&amp;T Signature Program Discounts:</strong><span style="font-family: helvetica_neue; font-size: inherit;"> Available to qualified employees, students &amp; other authorized individuals associated with eligible companies, universities &amp; other sponsoring organizations with a qualifying service agreement (Business Agreement). Must validate eligible online or provide valid employee badge/paystub, student ID, or other approved proof of eligibility in authorized retail store &amp; subscribe to service under an individual responsibility account for which the qualifying individual is personally liable. Discount subject to Business Agreement &amp; may be interrupted, changed, or discontinued without notice. Additional restrictions apply.</span></p>
+        <p><strong>Credits/Discounts:</strong> Start w/in 2 bill cycles after service activation &amp; eligibility confirmed.  Applied after application of any available credit.</p>
+        <p><strong>Service discount:</strong> Req&rsquo;s AT&amp;T Unlimited Elite plan. $10 discount applied after the application of any available Autopay, paperless bill, only on phone lines 1 &ndash; 5. Any additional phone lines added over 5 and up to max of 10 reduces all phone line (including lines 1-5) discounts to $5/mo. per phone line. May not be stackable w/other oﬀers, credits or discounts.</p>
+        <p><strong>Exclusions:</strong> Military, Veterans, First Responders, Massachusetts Public Sector Employees, AT&amp;T employees, EMO, IMO and FirstNet customers. May not be combinable with other select offers or promotions.</p>
+        <p><strong>AT&amp;T UNLIMITED ELITE℠ PLAN:</strong> All AT&amp;T wireless services subject to terms and conditions in the Consumer Service Agreement (att.com/csa). <strong>Phones only</strong>. Advertised monthly price includes monthly plan charge for talk, text and data &amp; monthly per-line phone access charge for access to such services.</p>
+        <p><strong>OTHER RESTRICTIONS &amp; FEES:</strong> Activation/upgrade fee per line (up to $45) &amp; deposit may apply.</p>
+        <p><strong>AutoPay &amp; Paperless Bill Discount:</strong> Monthly discount $10 per phone line when active &amp; enrolled in both. AT&amp;T employees, retirees &amp; IMO consumers are not eligible for the AutoPay and Paperless bill discount. Discount starts w/in 2 bill cycles. Credit card may be required (except for MA, PA and ND). Pay full plan cost until discount starts.</p>
+        <p><strong>UNLIMITED DATA:</strong> For use in the United States (the &ldquo;Domestic Coverage Area&rdquo; or &ldquo;DCA&rdquo;), Mexico and Canada.</p>
+        <p><strong>DATA RESTRICTIONS:</strong> 2G off-net data speeds may apply. All AT&amp;T service is subject to AT&amp;T network management policies. See att.com/broadbandinfo for details.</p>
+        <p><strong>5G SERVICE:</strong> Requires a compatible 5G device. 5G service is not available everywhere. See att.com/5Gforyou for details.</p>
+        <p><strong> VIDEO STREAMING:</strong> Includes Stream Saver feature which allows you to stream higher definition video (up to 4K UHD) in Standard Definition on compatible devices (unless video provider has opted out). Stream Saver will not recognize all video content. Ability to stream and video resolution may vary and be affected by other factors. To enjoy access to higher definition video on compatible devices and when available, you can turn it off or back on at any time at att.com/myatt or call 611.  Restrictions apply. Details at att.com/streamsaver.</p>
+        <p><strong>ActiveArmor℠ Advanced Security:</strong> Compatible device required. You must download the AT&amp;T Mobile Security app and AT&amp;T Call Protect app and accept their terms and conditions for full App functionality. May not detect all threats. May inadvertently block wanted calls; settings can be adjusted in the App.</p>
+        <p><strong>Personal ID:</strong> May not detect all compromises or leaks of your personal data. </p>
+        <p><strong>Safe Browsing: May not detect all suspicious websites. Details at att.com/activearmor. </strong></p>
+        <strong>
+        </strong>
+        <p><strong>MOBILE HOTSPOT:</strong> Requires compatible device. Includes up to 40GB per line per month. After 40GB, mobile hotspot speed slowed to max of 128Kbps for the rest of bill cycle.  After this, mobile hotspot data usage, will be impacted and not fully functional.</p>
+        <p><strong>UNLIMITED TALK:</strong> Phones only. Includes calls w/in and between DCA, Mexico &amp; Canada. You may be charged for calls to special or premium service numbers and calls to other countries. For rates, see att.com/worldconnect.</p>
+        <p><strong>UNLIMITED TEXT:</strong> Compatible phone and rate plan required. Includes unlimited messages up to 1MB in size within and from DCA, Mexico and Canada.  For texting to other countries, see att.com/text2world. Messages sent through applications may incur data or other charges.</p>
+        <p><strong>Advanced Messaging:</strong> Not available for use in Mexico and Canada. Other restrictions apply &amp; can be found at att.com/advancedmessaging.</p>
+        <p><strong>LIMITS:</strong> Max 10 devices on Unlimited Your Way plan group.  These plans may not be eligible for additional discounts, including but not limited to Signature discounts. AT&amp;T employees &amp; retirees may not be eligible for certain benefits, offers, and discounts associated with these plans.</p>
+        <strong>
+        <br />
+        </strong>
+        <p><strong>HBO MAX:</strong> Access HBO Max through HBO Max app on compatible device (sold separately) or on hbomax.com using compatible browser with your AT&amp;T log-in credentials. New AT&amp;T customers: visit att.com/myatt to create your account and obtain log-in credentials. Use of HBO Max is subject to its own terms and conditions, see hbomax.com/terms-of-use for details. If you have residential DIRECTV (excluding Puerto Rico), AT&amp;T TV, U-Verse TV or AT&amp;T TV NOW, HBO channels and On Demand will also be added on that TV platform. May be billed and then credited (excluding PREMIER package on AT&amp;T TV and AT&amp;T TV NOW) on that TV platform within 2 bills.  Programming and content subj. to change and benefit may be modified, discontinued or terminated at any time without notice. LOST ELIGIBILITY: Upon cancellation of eligible wireless plan you may lose access to HBO Max.</p>
+        <p><strong>LIMITS:</strong> Access to one HBO Max account per AT&amp;T account holder. May not be stackable w/other offers, credits or discounts. <strong>AT&amp;T employees and retirees are not eligible for the HBO Max Add-on offer</strong>. To learn more, visit att.com/hbomax. HBO Max is only accessible in the U.S. and certain U.S. territories where a high-speed broadband connection is available.  HBO MAX is used under license.</p>
+        <p><strong>All offers, programming, promotions, pricing, terms, restrictions &amp; conditions subject to change &amp; may be modified, discontinued, or terminated at any time without notice.</strong></p>
+        <p>&copy;2021 AT&amp;T Intellectual Property. All rights reserved. AT&amp;T, the AT&amp;T logo, all other AT&amp;T marks contained herein are trademarks of AT&amp;T Intellectual Property and/or AT&amp;T affiliated companies.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Frequently Asked Questions"
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        How do I register for the plan and receive my SEIU member discount?
+        You will need to register online by signing in and clicking on the register button on the SEIUMB AT&T page. You will be directed to the AT&T site where you can register for the plan. The discount will be applied on your billing statement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T203249Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ATT Wireless FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T203249Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3EE6DEFD-D19E-415D-844B-E406EB1F9537}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T FAQ
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q:</strong> I already have wireless service through AT&amp;T. Am I eligible for the member discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. You will need to sign in to seiumb.com to get your discount code and then access the AT&amp;T SEIU portal and choose &ldquo;Enroll.&rdquo; Or you can bring the discount code, along with proof of membership, to an AT&amp;T retail location.</p>
+        <p><strong>Q:</strong> What is covered under the discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> SEIU Members can save 15% on the monthly service charge of qualified AT&amp;T wireless plans and 20% off select accessories from AT&amp;T. Note: The 15% discount does not apply to select AT&amp;T unlimited plans.</p>
+        <p><strong>Q:</strong> Is there an activation fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. There is a one-time charge to customers who activate a new line of service or when a customer upgrades to a new device. The fee depends on the plan you select:</p>
+        <ul style="margin-left: 40px;">
+            <li><span style="font-size: inherit; font-family: 'Open Sans', Arial, sans-serif;">No-commit and BYOD (Bring your own device &ndash; all other devices): $30</span></li>
+            <li>Subsidized three-year agreement: $45, except $20 for secondary lines in Puerto Rico</li>
+        </ul>
+        <p><strong>Q:</strong> Do I have to pay a conversion fee?
+        </p>
+        <p style="margin-left: 40px;"><strong>A:</strong> No, there is no conversion fee for union members.</p>
+        <p><strong style="font-size: inherit;">Q:</strong><span style="font-size: inherit; font-family: helvetica_neue;"> Are there discounts available on equipment?</span></p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Eligible customers have the option to take advantage of any promotional pricing on equipment that is offered at time of purchase.</p>
+        <p><strong>Q:</strong> What is the Equipment Upgrade Fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> The standard upgrade fee is $30.</p>
+        <p><strong>&nbsp;</strong><strong style="font-size: inherit;">AT&amp;T Signature Program Discounts:</strong><span style="font-family: helvetica_neue; font-size: inherit;"> Available to qualified employees, students &amp; other authorized individuals associated with eligible companies, universities &amp; other sponsoring organizations with a qualifying service agreement (Business Agreement). Must validate eligible online or provide valid employee badge/paystub, student ID, or other approved proof of eligibility in authorized retail store &amp; subscribe to service under an individual responsibility account for which the qualifying individual is personally liable. Discount subject to Business Agreement &amp; may be interrupted, changed, or discontinued without notice. Additional restrictions apply.</span></p>
+        <p><strong>Credits/Discounts:</strong> Start w/in 2 bill cycles after service activation &amp; eligibility confirmed.  Applied after application of any available credit.</p>
+        <p><strong>Service discount:</strong> Req&rsquo;s AT&amp;T Unlimited Elite plan. $10 discount applied after the application of any available Autopay, paperless bill, only on phone lines 1 &ndash; 5. Any additional phone lines added over 5 and up to max of 10 reduces all phone line (including lines 1-5) discounts to $5/mo. per phone line. May not be stackable w/other oﬀers, credits or discounts.</p>
+        <p><strong>Exclusions:</strong> Military, Veterans, First Responders, Massachusetts Public Sector Employees, AT&amp;T employees, EMO, IMO and FirstNet customers. May not be combinable with other select offers or promotions.</p>
+        <p><strong>AT&amp;T UNLIMITED ELITE℠ PLAN:</strong> All AT&amp;T wireless services subject to terms and conditions in the Consumer Service Agreement (att.com/csa). <strong>Phones only</strong>. Advertised monthly price includes monthly plan charge for talk, text and data &amp; monthly per-line phone access charge for access to such services.</p>
+        <p><strong>OTHER RESTRICTIONS &amp; FEES:</strong> Activation/upgrade fee per line (up to $45) &amp; deposit may apply.</p>
+        <p><strong>AutoPay &amp; Paperless Bill Discount:</strong> Monthly discount $10 per phone line when active &amp; enrolled in both. AT&amp;T employees, retirees &amp; IMO consumers are not eligible for the AutoPay and Paperless bill discount. Discount starts w/in 2 bill cycles. Credit card may be required (except for MA, PA and ND). Pay full plan cost until discount starts.</p>
+        <p><strong>UNLIMITED DATA:</strong> For use in the United States (the &ldquo;Domestic Coverage Area&rdquo; or &ldquo;DCA&rdquo;), Mexico and Canada.</p>
+        <p><strong>DATA RESTRICTIONS:</strong> 2G off-net data speeds may apply. All AT&amp;T service is subject to AT&amp;T network management policies. See att.com/broadbandinfo for details.</p>
+        <p><strong>5G SERVICE:</strong> Requires a compatible 5G device. 5G service is not available everywhere. See att.com/5Gforyou for details.</p>
+        <p><strong> VIDEO STREAMING:</strong> Includes Stream Saver feature which allows you to stream higher definition video (up to 4K UHD) in Standard Definition on compatible devices (unless video provider has opted out). Stream Saver will not recognize all video content. Ability to stream and video resolution may vary and be affected by other factors. To enjoy access to higher definition video on compatible devices and when available, you can turn it off or back on at any time at att.com/myatt or call 611.  Restrictions apply. Details at att.com/streamsaver.</p>
+        <p><strong>ActiveArmor℠ Advanced Security:</strong> Compatible device required. You must download the AT&amp;T Mobile Security app and AT&amp;T Call Protect app and accept their terms and conditions for full App functionality. May not detect all threats. May inadvertently block wanted calls; settings can be adjusted in the App.</p>
+        <p><strong>Personal ID:</strong> May not detect all compromises or leaks of your personal data. </p>
+        <p><strong>Safe Browsing: May not detect all suspicious websites. Details at att.com/activearmor. </strong></p>
+        <strong>
+        </strong>
+        <p><strong>MOBILE HOTSPOT:</strong> Requires compatible device. Includes up to 40GB per line per month. After 40GB, mobile hotspot speed slowed to max of 128Kbps for the rest of bill cycle.  After this, mobile hotspot data usage, will be impacted and not fully functional.</p>
+        <p><strong>UNLIMITED TALK:</strong> Phones only. Includes calls w/in and between DCA, Mexico &amp; Canada. You may be charged for calls to special or premium service numbers and calls to other countries. For rates, see att.com/worldconnect.</p>
+        <p><strong>UNLIMITED TEXT:</strong> Compatible phone and rate plan required. Includes unlimited messages up to 1MB in size within and from DCA, Mexico and Canada.  For texting to other countries, see att.com/text2world. Messages sent through applications may incur data or other charges.</p>
+        <p><strong>Advanced Messaging:</strong> Not available for use in Mexico and Canada. Other restrictions apply &amp; can be found at att.com/advancedmessaging.</p>
+        <p><strong>LIMITS:</strong> Max 10 devices on Unlimited Your Way plan group.  These plans may not be eligible for additional discounts, including but not limited to Signature discounts. AT&amp;T employees &amp; retirees may not be eligible for certain benefits, offers, and discounts associated with these plans.</p>
+        <strong>
+        <br />
+        </strong>
+        <p><strong>HBO MAX:</strong> Access HBO Max through HBO Max app on compatible device (sold separately) or on hbomax.com using compatible browser with your AT&amp;T log-in credentials. New AT&amp;T customers: visit att.com/myatt to create your account and obtain log-in credentials. Use of HBO Max is subject to its own terms and conditions, see hbomax.com/terms-of-use for details. If you have residential DIRECTV (excluding Puerto Rico), AT&amp;T TV, U-Verse TV or AT&amp;T TV NOW, HBO channels and On Demand will also be added on that TV platform. May be billed and then credited (excluding PREMIER package on AT&amp;T TV and AT&amp;T TV NOW) on that TV platform within 2 bills.  Programming and content subj. to change and benefit may be modified, discontinued or terminated at any time without notice. LOST ELIGIBILITY: Upon cancellation of eligible wireless plan you may lose access to HBO Max.</p>
+        <p><strong>LIMITS:</strong> Access to one HBO Max account per AT&amp;T account holder. May not be stackable w/other offers, credits or discounts. <strong>AT&amp;T employees and retirees are not eligible for the HBO Max Add-on offer</strong>. To learn more, visit att.com/hbomax. HBO Max is only accessible in the U.S. and certain U.S. territories where a high-speed broadband connection is available.  HBO MAX is used under license.</p>
+        <p><strong>All offers, programming, promotions, pricing, terms, restrictions &amp; conditions subject to change &amp; may be modified, discontinued, or terminated at any time without notice.</strong></p>
+        <p>&copy;2021 AT&amp;T Intellectual Property. All rights reserved. AT&amp;T, the AT&amp;T logo, all other AT&amp;T marks contained herein are trademarks of AT&amp;T Intellectual Property and/or AT&amp;T affiliated companies.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Frequently Asked Questions"
+  - Version: 5
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        How do I register for the plan and receive my SEIU member discount?
+        You will need to register online by signing in and clicking on the register button on the SEIUMB AT&T page. You will be directed to the AT&T site where you can register for the plan. The discount will be applied on your billing statement.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210902T134856Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ATT Wireless FAQs
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210902T134856Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3EE6DEFD-D19E-415D-844B-E406EB1F9537}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T FAQ
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Q:</strong> I already have wireless service through AT&amp;T. Am I eligible for the member discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. You will need to sign in to seiumb.com to get your discount code and then access the AT&amp;T SEIU portal and choose &ldquo;Enroll.&rdquo; Or you can bring the discount code, along with proof of membership, to an AT&amp;T retail location.</p>
+        <p><strong>Q:</strong> What is covered under the discount?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> SEIU Members can save $10/mo. per line with Unlimited Elite<sup>TM</sup>. Other savings include: 15% off the monthly service charge of qualified wireless plans, including AT&amp;T 4G Plan, 20% savings on eligible wireless accessories from AT&amp;T and waived activation fees with select activations. (Please note: The 15% discount does not apply to Unlimited Plans.)</p>
+        <p><strong>Q:</strong> Is there an activation fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Yes. There is a one-time charge to customers who activate a new line of service or when a customer upgrades. The fee depends on the plan you select:</p>
+        <ul style="margin-left: 40px;">
+            <li>Activation fee is up to $45 per line</li>
+            <li>AT&amp;T Next/Installment Plans/EIP: $36/month</li>
+            <li>No-commit and BYOD (all other devices): $30</li>
+            <li>Subsidized two year agreement: $45, except $20 for secondary lines in Puerto Rico</li>
+        </ul>
+        <p><strong>Q:</strong> Do I have to pay a conversion fee?
+        </p>
+        <p style="margin-left: 40px;"><strong>A:</strong> No, there is no conversion fee for union members.</p>
+        <p><strong style="font-size: inherit;">Q:</strong><span style="font-size: inherit; font-family: helvetica_neue;"> Are there discounts available on equipment?</span></p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Eligible customers have the option to take advantage of any promotional pricing on equipment that is offered at time of purchase.</p>
+        <p><strong>Q:</strong> What is the Equipment Upgrade Fee?</p>
+        <p style="margin-left: 40px;"><strong>A:</strong> Fees vary by plan.</p>
+        <p><strong></strong><strong style="font-size: inherit;">AT&amp;T Signature Program Discounts:</strong><span style="font-size: inherit; font-family: helvetica_neue;"> Available to qualified employees, students &amp; other authorized individuals associated with eligible companies, universities &amp; other sponsoring organizations with a qualifying service agreement (Business Agreement). Must validate eligible online or provide valid employee badge/paystub, student ID, or other approved proof of eligibility in authorized retail store &amp; subscribe to service under an individual responsibility account for which the qualifying individual is personally liable. Discount subject to Business Agreement &amp; may be interrupted, changed, or discontinued without notice. Additional restrictions apply.</span></p>
+        <p><strong>Credits/Discounts:</strong> Start w/in 2 bill cycles after service activation &amp; eligibility confirmed.  Applied after application of any available credit.</p>
+        <p><strong>Service discount:</strong> Req&rsquo;s AT&amp;T Unlimited Elite plan. $10 discount applied after the application of any available Autopay, paperless bill, only on phone lines 1 &ndash; 5. Any additional phone lines added over 5 and up to max of 10 reduces all phone line (including lines 1-5) discounts to $5/mo. per phone line. May not be stackable w/other oﬀers, credits or discounts.</p>
+        <p><strong>Exclusions:</strong> Military, Veterans, First Responders, Massachusetts Public Sector Employees, AT&amp;T employees, EMO, IMO and FirstNet customers. May not be combinable with other select offers or promotions.</p>
+        <p><strong>AT&amp;T UNLIMITED ELITE℠ PLAN:</strong> All AT&amp;T wireless services subject to terms and conditions in the Consumer Service Agreement (att.com/csa). <strong>Phones only</strong>. Advertised monthly price includes monthly plan charge for talk, text and data &amp; monthly per-line phone access charge for access to such services.</p>
+        <p><strong>OTHER RESTRICTIONS &amp; FEES:</strong> Activation/upgrade fee per line (up to $45) &amp; deposit may apply.</p>
+        <p><strong>AutoPay &amp; Paperless Bill Discount:</strong> Monthly discount $10 per phone line when active &amp; enrolled in both. AT&amp;T employees, retirees &amp; IMO consumers are not eligible for the AutoPay and Paperless bill discount. Discount starts w/in 2 bill cycles. Credit card may be required (except for MA, PA and ND). Pay full plan cost until discount starts.</p>
+        <p><strong>UNLIMITED DATA:</strong> For use in the United States (the &ldquo;Domestic Coverage Area&rdquo; or &ldquo;DCA&rdquo;), Mexico and Canada.</p>
+        <p><strong>DATA RESTRICTIONS:</strong> 2G off-net data speeds may apply. All AT&amp;T service is subject to AT&amp;T network management policies. See att.com/broadbandinfo for details.</p>
+        <p><strong>5G SERVICE:</strong> Requires a compatible 5G device. 5G service is not available everywhere. See att.com/5Gforyou for details.</p>
+        <p><strong> VIDEO STREAMING:</strong> Includes Stream Saver feature which allows you to stream higher definition video (up to 4K UHD) in Standard Definition on compatible devices (unless video provider has opted out). Stream Saver will not recognize all video content. Ability to stream and video resolution may vary and be affected by other factors. To enjoy access to higher definition video on compatible devices and when available, you can turn it off or back on at any time at att.com/myatt or call 611.  Restrictions apply. Details at att.com/streamsaver.</p>
+        <p><strong>ActiveArmor℠ Advanced Security:</strong> Compatible device required. You must download the AT&amp;T Mobile Security app and AT&amp;T Call Protect app and accept their terms and conditions for full App functionality. May not detect all threats. May inadvertently block wanted calls; settings can be adjusted in the App.</p>
+        <p><strong>Personal ID:</strong> May not detect all compromises or leaks of your personal data. </p>
+        <p><strong>Safe Browsing: May not detect all suspicious websites. Details at att.com/activearmor. </strong></p>
+        <strong>
+        </strong>
+        <p><strong>MOBILE HOTSPOT:</strong> Requires compatible device. Includes up to 40GB per line per month. After 40GB, mobile hotspot speed slowed to max of 128Kbps for the rest of bill cycle.  After this, mobile hotspot data usage, will be impacted and not fully functional.</p>
+        <p><strong>UNLIMITED TALK:</strong> Phones only. Includes calls w/in and between DCA, Mexico &amp; Canada. You may be charged for calls to special or premium service numbers and calls to other countries. For rates, see att.com/worldconnect.</p>
+        <p><strong>UNLIMITED TEXT:</strong> Compatible phone and rate plan required. Includes unlimited messages up to 1MB in size within and from DCA, Mexico and Canada.  For texting to other countries, see att.com/text2world. Messages sent through applications may incur data or other charges.</p>
+        <p><strong>Advanced Messaging:</strong> Not available for use in Mexico and Canada. Other restrictions apply &amp; can be found at att.com/advancedmessaging.</p>
+        <p><strong>LIMITS:</strong> Max 10 devices on Unlimited Your Way plan group.  These plans may not be eligible for additional discounts, including but not limited to Signature discounts. AT&amp;T employees &amp; retirees may not be eligible for certain benefits, offers, and discounts associated with these plans.</p>
+        <strong>
+        <br />
+        </strong>
+        <p><strong>HBO MAX:</strong> Access HBO Max through HBO Max app on compatible device (sold separately) or on hbomax.com using compatible browser with your AT&amp;T log-in credentials. New AT&amp;T customers: visit att.com/myatt to create your account and obtain log-in credentials. Use of HBO Max is subject to its own terms and conditions, see hbomax.com/terms-of-use for details. If you have residential DIRECTV (excluding Puerto Rico), AT&amp;T TV, U-Verse TV or AT&amp;T TV NOW, HBO channels and On Demand will also be added on that TV platform. May be billed and then credited (excluding PREMIER package on AT&amp;T TV and AT&amp;T TV NOW) on that TV platform within 2 bills.  Programming and content subj. to change and benefit may be modified, discontinued or terminated at any time without notice. LOST ELIGIBILITY: Upon cancellation of eligible wireless plan you may lose access to HBO Max.</p>
+        <p><strong>LIMITS:</strong> Access to one HBO Max account per AT&amp;T account holder. May not be stackable w/other offers, credits or discounts. <strong>AT&amp;T employees and retirees are not eligible for the HBO Max Add-on offer</strong>. To learn more, visit att.com/hbomax. HBO Max is only accessible in the U.S. and certain U.S. territories where a high-speed broadband connection is available.  HBO MAX is used under license.</p>
+        <p><strong>All offers, programming, promotions, pricing, terms, restrictions &amp; conditions subject to change &amp; may be modified, discontinued, or terminated at any time without notice.</strong></p>
+        <p>&copy;2021 AT&amp;T Intellectual Property. All rights reserved. AT&amp;T, the AT&amp;T logo, all other AT&amp;T marks contained herein are trademarks of AT&amp;T Intellectual Property and/or AT&amp;T affiliated companies.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Frequently Asked Questions"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Cómo me inscribo en el plan y recibo el descuento para miembros de SEIU?
+        Debe inscribirse en línea, iniciando sesión y haciendo clic en el botón de inscripción que aparece en la página de AT&T. Será dirigido al sitio de AT&T donde podrá inscribirse en el plan. El descuento aparecerá en su estado de cuenta.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171223T061326Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Preguntas Frecuentes de ATandT
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{45927BA2-52A8-4DA2-B52C-31F361A9B041}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Preguntas Frecuentes de AT&T 
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>&iquest;C&oacute;mo me inscribo en el plan y recibo el descuento para miembros de SEIU?</strong><br />
+        Debe inscribirse en l&iacute;nea, iniciando sesi&oacute;n y haciendo clic en el bot&oacute;n de inscripci&oacute;n que aparece en la p&aacute;gina de <a href="~/link.aspx?_id=4912C9C701E048B488BA289A224EE81A&amp;_z=z">AT&amp;T</a>. Ser&aacute; dirigido al sitio de AT&amp;T donde podr&aacute; inscribirse en el plan. El descuento aparecer&aacute; en su estado de cuenta.</p>
+        <p>
+        <strong>Ya tengo servicio inal&aacute;mbrico a trav&eacute;s de AT&amp;T. &iquest;Soy elegible para el descuento para miembros?</strong><br />
+        S&iacute;. Deber&aacute; iniciar sesi&oacute;n en seiumb.com para acceder a su c&oacute;digo de descuento y acceder al portal de AT&amp;T SEIU y seleccionar "Enroll" (Inscribirse). Tambi&eacute;n puede traer el c&oacute;digo de descuento, junto con un comprobante de membres&iacute;a, a una tienda minorista de AT&amp;T.</p>
+        <p>
+        <strong>&iquest;Qu&eacute; cubre el descuento?</strong><br />
+        Los miembros de SEIU pueden ahorrar un 15% en el cargo por servicio mensual de planes inal&aacute;mbricos calificados, incluyendo planes de 3GB, 6GB y 10GB, adem&aacute;s de un 20% de ahorro en accesorios seleccionados de AT&amp;T. (El descuento del 15% no se aplica a los nuevos planes ilimitados Choice y Plus.)</p>
+        <p>
+        <strong>&iquest;Hay una tarifa de activaci&oacute;n?</strong><br />
+        S&iacute;. Hay un cargo &uacute;nico para los clientes que activan una nueva l&iacute;nea de servicio o cuando un cliente se actualiza. La tarifa depende del plan que seleccione.</p>
+        <ul>
+            <li>AT&amp;T Next/Planes de pago/EIP: $30</li>
+            <li>Sin compromiso y trae tu propio aparato (todos los dem&aacute;s aparatos): $30</li>
+            <li>Contrato de dos a&ntilde;os subsidiado: $45, excepto $20 para l&iacute;neas secundarias en Puerto Rico</li>
+        </ul>
+        <p>
+        <strong>&iquest;Debo pagar una tarifa de conversi&oacute;n?</strong><br />
+        No, no hay tarifa de conversi&oacute;n para los miembros del sindicato.</p>
+        <p>
+        <strong>&iquest;Existen descuentos disponibles para los equipos?</strong><br />
+        Los clientes elegibles tienen la opci&oacute;n de comprar equipos a precios promocionales, los que se ofrecer&aacute;n al momento de efectuar la compra.</p>
+        <p>
+        <strong>&iquest;Cu&aacute;l es la tarifa de actualizaci&oacute;n de equipos?</strong><br />
+        Se aplica un cargo de $18 por todos los equipos actualizados.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Preguntas Frecuentes"
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Cómo me inscribo en el plan y recibo el descuento para miembros de SEIU?
+        Debe inscribirse en línea, iniciando sesión y haciendo clic en el botón de inscripción que aparece en la página de AT&T. Será dirigido al sitio de AT&T donde podrá inscribirse en el plan. El descuento aparecerá en su estado de cuenta.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191115T164500Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Preguntas Frecuentes de ATandT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191115T164500Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3EE6DEFD-D19E-415D-844B-E406EB1F9537}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Preguntas Frecuentes de AT&T 
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>P:</strong> Ya tengo servicio m&oacute;vil a trav&eacute;s de AT&amp;T. &iquest;Soy apto para el descuento de miembro?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> S&iacute;. Deber&aacute; iniciar sesi&oacute;n en seiumb.com para obtener su c&oacute;digo de descuento y luego acceder al portal SEIU de AT&amp;T y elegir &ldquo;Inscribirse&rdquo;. O puede llevar el c&oacute;digo de descuento, junto con un comprobante de membres&iacute;a, a una tienda de AT&amp;T.</p>
+        <p><strong>P:</strong> &iquest;Qu&eacute; cubre el descuento?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Los miembros de SEIU pueden ahorrar un 15% en el cargo mensual por servicio de los planes m&oacute;viles calificados de AT&amp;T y un 20% de descuento en accesorios selectos de AT&amp;T. Nota: El descuento del 15% no se aplica a los planes ilimitados exclusivos de AT&amp;T.</p>
+        <p><strong>P:</strong> &iquest;Hay una tarifa de activaci&oacute;n?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> S&iacute;. Hay un cargo &uacute;nico para los clientes que activan una nueva l&iacute;nea de servicio o cuando un cliente actualiza a un nuevo dispositivo. La tarifa depende del plan que seleccione:</p>
+        <ul style="margin-left: 40px;">
+            <li>Plan de cuotas de AT&amp;T Next/AT&amp;T con Next Up/planes de cuotas de terceros/EIP: $30</li>
+            <li>Sin compromiso y BYOD (Traiga su propio dispositivo &ndash; todos los dem&aacute;s dispositivos): $30</li>
+            <li>Contrato subsidiado de dos a&ntilde;os: $45, excepto $20 para l&iacute;neas secundarias en Puerto Rico</li>
+        </ul>
+        <p><strong>P:</strong> &iquest;Tengo que pagar una cuota de conversi&oacute;n?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> No, no hay cuota de conversi&oacute;n para los miembros del sindicato.</p>
+        <p><strong style="font-size: inherit;">P:</strong> &iquest;Hay descuentos disponibles para equipos?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Los clientes elegibles tienen la opci&oacute;n de aprovechar cualquier precio promocional en equipos que se ofrezca al momento de la compra.</p>
+        <p><strong>P:</strong> &iquest;Cu&aacute;l es la tarifa de actualizaci&oacute;n de equipos?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> La tarifa de actualizaci&oacute;n est&aacute;ndar es de $30.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Preguntas Frecuentes"
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Cómo me inscribo en el plan y recibo el descuento para miembros de SEIU?
+        Debe inscribirse en línea, iniciando sesión y haciendo clic en el botón de inscripción que aparece en la página de AT&T. Será dirigido al sitio de AT&T donde podrá inscribirse en el plan. El descuento aparecerá en su estado de cuenta.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210825T135458Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Preguntas Frecuentes de ATandT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210825T135458Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3EE6DEFD-D19E-415D-844B-E406EB1F9537}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Preguntas Frecuentes de AT&T 
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>P:</strong> Ya tengo servicio m&oacute;vil con AT&amp;T. &iquest;Puedo recibir el descuento para miembros?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> S&iacute;. Deber&aacute; iniciar sesi&oacute;n en seiumb.com para obtener su c&oacute;digo de descuento y luego acceder al portal SEIU de AT&amp;T y darle clic en "Inscribirse"(Enroll). O puede llevar el c&oacute;digo de descuento, junto con el comprobante de membres&iacute;a, a una sucursal de AT&amp;T.</p>
+        <p><strong>P:</strong> &iquest;Qu&eacute; cubre el descuento?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Los miembros de SEIU pueden ahorrar un 15% en el costo del servicio mensual en los planes m&oacute;viles de AT&amp;T participantes y un 20% de descuento en accesorios seleccionados de AT&amp;T. Nota: el descuento del 15% no se aplica a determinados planes ilimitados de AT&amp;T.</p>
+        <p><strong>P:</strong> &iquest;Hay un cargo de activaci&oacute;n?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> S&iacute;. Se aplica un cargo &uacute;nico a los clientes que activan una nueva l&iacute;nea de servicio o cuando un cliente se cambia a un nuevo dispositivo. El cargo depende del plan que seleccione:</p>
+        <ul style="margin-left: 40px;">
+            <li><span style="font-size: inherit; font-family: 'Open Sans', Arial, sans-serif;">Dispositivos sin compromiso y BYOD: Bring your own device (traiga su propio dispositivo, todos los dem&aacute;s dispositivos): $30</span></li>
+            <li>Contrato subsidiado de tres a&ntilde;os: $45, excepto $20 para l&iacute;neas secundarias en Puerto Rico</li>
+        </ul>
+        <p><strong>P:</strong> &iquest;Tengo que pagar un cargo de conversi&oacute;n?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> No, no hay cargo de conversi&oacute;n para miembros de sindicatos.</p>
+        <p><strong style="font-size: inherit;">P:</strong><span style="font-size: inherit; font-family: helvetica_neue;"> &iquest;Hay descuentos en equipos?</span></p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Los clientes elegibles tienen la opci&oacute;n de aprovechar cualquier precio promocional de los equipo que se ofrezca en el momento de la compra.</p>
+        <p><strong>P:</strong> &iquest;Qu&eacute; es el cargo por cambio de equipo?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> El cargo normal por cambio es de $30.</p>
+        <p><strong></strong><strong style="font-size: inherit;">Descuentos del programa Signature de AT&amp;T</strong><span style="font-size: inherit; font-family: helvetica_neue;"> disponibles para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con empresas elegibles, universidades y otras organizaciones patrocinadoras con un acuerdo de servicio calificado (acuerdo comercial). Debe validar la elegibilidad por Internet o proporcionar una credencial de empleado/recibo de n&oacute;mina v&aacute;lido, identificaci&oacute;n de estudiante u otra prueba aprobada de elegibilidad en una sucursal autorizada y suscribirse al servicio en una cuenta de responsabilidad individual de la que el individuo que cumple los requisitos es responsable personalmente. El descuento est&aacute; sujeto al acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Se aplican otras restricciones.</span></p>
+        <p><strong>Cr&eacute;ditos/Descuentos:</strong> comienzan en 2 ciclos de facturaci&oacute;n despu&eacute;s de que se confirme la activaci&oacute;n del servicio y la elegibilidad. Se aplica despu&eacute;s de la aplicaci&oacute;n de cualquier cr&eacute;dito disponible.</p>
+        <p><strong>Descuento de servicio:</strong> requiere el plan AT&amp;T Unlimited Elite. Se aplica un descuento de $10 despu&eacute;s de la aplicaci&oacute;n de cualquier pago autom&aacute;tico disponible, factura electr&oacute;nica, solo para las primeras 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. No se puede combinar con otras ofertas, cr&eacute;ditos o descuentos.</p>
+        <p><strong>Exclusiones:</strong> militares, veteranos, socorristas, empleados del sector p&uacute;blico de Massachusetts, empleados de AT&amp;T, clientes de EMO, IMO y FirstNet. No se puede combinar con otras ofertas o promociones seleccionadas.</p>
+        <p><strong>PLAN AT&amp;T UNLIMITED ELITE℠:</strong> todos los servicios m&oacute;viles de AT&amp;T est&aacute;n sujetos a los t&eacute;rminos y condiciones del Acuerdo de servicio al consumidor (att.com/csa). <strong>Solo tel&eacute;fonos.</strong>. El precio mensual anunciado incluye el cargo mensual del plan para llamadas, mensajes de texto y datos, y el cargo mensual por acceso telef&oacute;nico por l&iacute;nea para acceder a dichos servicios.</p>
+        <p><strong>OTRAS RESTRICCIONES Y CARGOS:</strong> : es posible que se aplique un cargo y dep&oacute;sito de activaci&oacute;n/cambio de l&iacute;nea (hasta $45).</p>
+        <p><strong>Descuento por pago autom&aacute;tico y factura electr&oacute;nica:</strong> descuento mensual de $10 por l&iacute;nea telef&oacute;nica cuando est&aacute; activo e inscrito en ambos. Los empleados de AT&amp;T, los jubilados y los consumidores de IMO no son elegibles para el descuento por pago autom&aacute;tico y factura electr&oacute;nica. El descuento comienza en 2 ciclos de facturaci&oacute;n. Es posible que se requiera tarjeta de cr&eacute;dito (excepto en MA, PA y ND). Pagar&aacute; el costo total del plan hasta que comience el descuento.</p>
+        <p><strong>DATOS ILIMITADOS:</strong> para uso en los Estados Unidos (en el "&Aacute;rea de Cobertura Nacional" o "DCA", por sus siglas en ingl&eacute;s), M&eacute;xico y Canad&aacute;.</p>
+        <p><strong>RESTRICCIONES DE DATOS:</strong> 2G off-net data speeds may apply. All AT&amp;T service is subject to AT&amp;T network management policies. See att.com/broadbandinfo for details.</p>
+        <p><strong>SERVICIO 5G:</strong> requiere un dispositivo 5G compatible. El servicio 5G no est&aacute; disponible en todas partes. Visite att.com/5Gforyou para obtener m&aacute;s informaci&oacute;n.</p>
+        <p><strong> STREAMING DE VIDEO:</strong> incluye la funci&oacute;n Stream Saver con el que puede transmitir video de mayor definici&oacute;n (hasta 4K UHD) en definici&oacute;n est&aacute;ndar en dispositivos compatibles (a menos que el proveedor de video haya dispuesto lo contrario). Stream Saver no reconocer&aacute; todo el contenido de video. La capacidad de transmisi&oacute;n y resoluci&oacute;n de video puede variar y verse afectada por otros factores. Para disfrutar del acceso a video de alta definici&oacute;n en dispositivos compatibles y cuando est&eacute; disponible, puede apagarlo o volver a encenderlo en cualquier momento en att.com/myatt o llamando al 611. Aplican restricciones. M&aacute;s informaci&oacute;n en att.com/streamsaver.</p>
+        <p><strong>Seguridad avanzada de ActiveArmor℠:</strong> se requiere un dispositivo compatible. Debe descargar la aplicaci&oacute;n AT&amp;T Mobile Security y la aplicaci&oacute;n AT&amp;T Call Protect y aceptar sus t&eacute;rminos y condiciones para la funcionalidad completa de la aplicaci&oacute;n. Puede que no detecte todas las amenazas. Puede bloquear inadvertidamente las llamadas que si quiera contestar, la configuraci&oacute;n se puede ajustar en la aplicaci&oacute;n.</p>
+        <p><strong>Identificaci&oacute;n personal:</strong> puede que no detecte toda la informaci&oacute;n comprometida o las filtraciones de sus datos personales.</p>
+        <p><strong>Navegaci&oacute;n segura: es posible que no detecte todos los sitios web sospechosos. M&aacute;s informaci&oacute;n en att.com/activearmor.</strong></p>
+        <p><strong>HOTSPOT M&Oacute;VIL:</strong> requiere dispositivo compatible. Incluye hasta 40 GB por l&iacute;nea al mes. Despu&eacute;s de 40 GB, la velocidad del hotspot m&oacute;vil se reducir&aacute; a un m&aacute;ximo de 128 Kbps por el resto del ciclo de facturaci&oacute;n. Despu&eacute;s de esto, el uso de datos del hotspot m&oacute;vil se ver&aacute; afectado y no ser&aacute; completamente funcional.</p>
+        <p><strong>LLAMADAS ILIMITADAS:</strong> solo tel&eacute;fonos. Incluye llamadas dentro y entre el DCA, M&eacute;xico y Canad&aacute;. Es posible que se le cobren las llamadas a n&uacute;meros de servicios especiales o premium y las llamadas a otros pa&iacute;ses. Para conocer los cargos, visite att.com/worldconnect.</p>
+        <p><strong>MENSAJES DE TEXTO ILIMITADOS:</strong> se requiere un tel&eacute;fono compatible y un plan de tarifas. Incluye mensajes ilimitados de hasta 1 MB de tama&ntilde;o dentro y desde el DCA, M&eacute;xico y Canad&aacute;. Para enviar mensajes de texto a otros pa&iacute;ses, visite att.com/text2world. Los mensajes enviados mediante aplicaciones pueden generar cargos por datos u otros cargos.</p>
+        <p><strong>Mensajer&iacute;a avanzada:</strong> no est&aacute; disponible para su uso en M&eacute;xico y Canad&aacute;. Se aplican otras restricciones y se pueden encontrar en att.com/advancedmessaging.</p>
+        <p><strong>L&Iacute;MITES:</strong> m&aacute;ximo de 10 dispositivos en el plan grupal Unlimited Your Way. Es posible que estos planes no sean elegibles para otros descuentos, incluidos, entre otros, los descuentos de Signature. Es posible que los empleados de AT&amp;T y jubilados no sean elegibles para ciertos beneficios, ofertas y descuentos asociados con estos planes.</p>
+        <br />
+        <p><strong>HBO MAX:</strong> acceda a HBO Max a trav&eacute;s de la aplicaci&oacute;n HBO Max en un dispositivo compatible (se vende por separado) o en hbomax.com usando un navegador compatible y poniendo sus credenciales de inicio de sesi&oacute;n de AT&amp;T. Nuevos clientes de AT&amp;T: visite att.com/myatt para crear su cuenta y obtener credenciales de inicio de sesi&oacute;n. El uso de HBO Max est&aacute; sujeto a sus propios t&eacute;rminos y condiciones, consulte hbomax.com/terms-of-use para obtener m&aacute;s informaci&oacute;n. Si tiene DIRECTV (excepto en Puerto Rico), AT&amp;T TV, U-Verse TV o AT&amp;T TV NOW en casa, los canales de HBO y On Demand tambi&eacute;n se agregar&aacute;n en esa plataforma de TV. Se puede facturar y luego acreditar (excluyendo el paquete PREMIER en AT&amp;T TV y AT&amp;T TV NOW) en esa plataforma de TV en 2 facturas. La programaci&oacute;n y contenidos est&aacute;n sujetos a cambios y los beneficios pueden ser modificados, descontinuados o cancelados en cualquier momento sin previo aviso. PERDIDA DE ELEGIBILIDAD: tras la cancelaci&oacute;n del plan m&oacute;vil elegible, es posible que pierda el acceso a HBO Max.</p>
+        <p><strong>L&Iacute;MITES:</strong> puede acceder a una cuenta de HBO Max por titular de cuenta AT&amp;T. No se puede combinar con otras ofertas, cr&eacute;ditos o descuentos. <strong>Los empleados de AT&amp;T y jubilados no son elegibles para la oferta de HBO Max</strong>. Para obtener m&aacute;s informaci&oacute;n, visite att.com/hbomax. Solo se puede acceder a HBO Max en Estados Unidos y en ciertos territorios de Estados Unidos donde haya disponible una conexi&oacute;n de banda ancha de alta velocidad. HBO MAX se utiliza bajo licencia.</p>
+        <p><strong>Todas las ofertas, programaci&oacute;n, promociones, precios, t&eacute;rminos, restricciones y condiciones est&aacute;n sujetos a cambios y pueden modificarse, descontinuarse o cancelarse en cualquier momento sin previo aviso.</strong></p>
+        <p>&copy;2021 AT&amp;T Intellectual Property. Todos los derechos reservados. AT&amp;T, el logotipo de AT&amp;T y todas las dem&aacute;s marcas de AT&amp;T incluidas en este documento son marcas comerciales de AT&amp;T Intellectual Property o compa&ntilde;&iacute;as afiliadas de AT&amp;T.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Preguntas Frecuentes"
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Cómo me inscribo en el plan y recibo el descuento para miembros de SEIU?
+        Debe inscribirse en línea, iniciando sesión y haciendo clic en el botón de inscripción que aparece en la página de AT&T. Será dirigido al sitio de AT&T donde podrá inscribirse en el plan. El descuento aparecerá en su estado de cuenta.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210902T135649Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Preguntas Frecuentes de ATandT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210902T135649Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3EE6DEFD-D19E-415D-844B-E406EB1F9537}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Preguntas Frecuentes de AT&T 
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>P:</strong> Ya tengo servicio m&oacute;vil con AT&amp;T. &iquest;Puedo recibir el descuento para miembros?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> S&iacute;. Deber&aacute; iniciar sesi&oacute;n en seiumb.com para obtener su c&oacute;digo de descuento y luego acceder al portal SEIU de AT&amp;T y darle clic en "Inscribirse"(Enroll). O puede llevar el c&oacute;digo de descuento, junto con el comprobante de membres&iacute;a, a una sucursal de AT&amp;T.</p>
+        <p><strong>P:</strong> &iquest;Qu&eacute; cubre el descuento?</p>
+        <p style="margin-left: 40px;"><strong>R:&nbsp;</strong>Los miembros de SEIU pueden ahorrar $10 al mes. por l&iacute;nea con Unlimited Elite<sup>TM</sup>. Otros ahorros incluyen: 15% de descuento en el cargo por servicio mensual de planes inal&aacute;mbricos calificados, incluido el plan AT&amp;T 4G, 20% de ahorro en accesorios inal&aacute;mbricos elegibles de AT&amp;T y tarifas de activaci&oacute;n exentas con activaciones seleccionadas. (Tenga en cuenta: el descuento del 15% no se aplica a los planes ilimitados).</p>
+        <p><strong>P:</strong> &iquest;Hay un cargo de activaci&oacute;n?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Si. Hay un cargo &uacute;nico para los clientes que activan una nueva l&iacute;nea de servicio o cuando un cliente actualiza. La tarifa depende del plan que seleccione:</p>
+        <ul style="margin-left: 40px;">
+            <li>La tarifa de activaci&oacute;n es de hasta $45 por l&iacute;nea</li>
+            <li>AT&amp;T Next / Planes a plazos / EIP: $36 / mes</li>
+            <li>Sin compromiso y BYOD (todos los dem&aacute;s dispositivos): $30</li>
+            <li>Contrato subsidiado de dos a&ntilde;os: $45, excepto $20 para l&iacute;neas secundarias en Puerto Rico</li>
+        </ul>
+        <p><strong>P:</strong> &iquest;Tengo que pagar un cargo de conversi&oacute;n?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> No, no hay cargo de conversi&oacute;n para miembros de sindicatos.</p>
+        <p><strong style="font-size: inherit;">P:</strong><span style="font-size: inherit; font-family: helvetica_neue;"> &iquest;Hay descuentos en equipos?</span></p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Los clientes elegibles tienen la opci&oacute;n de aprovechar cualquier precio promocional de los equipo que se ofrezca en el momento de la compra.</p>
+        <p><strong>P:</strong> &iquest;Qu&eacute; es el cargo por cambio de equipo?</p>
+        <p style="margin-left: 40px;"><strong>R:</strong> Las tarifas var&iacute;an seg&uacute;n el plan.</p>
+        <p><strong></strong><strong style="font-size: inherit;">Descuentos del programa Signature de AT&amp;T</strong><span style="font-size: inherit; font-family: helvetica_neue;"> disponibles para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con empresas elegibles, universidades y otras organizaciones patrocinadoras con un acuerdo de servicio calificado (acuerdo comercial). Debe validar la elegibilidad por Internet o proporcionar una credencial de empleado/recibo de n&oacute;mina v&aacute;lido, identificaci&oacute;n de estudiante u otra prueba aprobada de elegibilidad en una sucursal autorizada y suscribirse al servicio en una cuenta de responsabilidad individual de la que el individuo que cumple los requisitos es responsable personalmente. El descuento est&aacute; sujeto al acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Se aplican otras restricciones.</span></p>
+        <p><strong>Cr&eacute;ditos/Descuentos:</strong> comienzan en 2 ciclos de facturaci&oacute;n despu&eacute;s de que se confirme la activaci&oacute;n del servicio y la elegibilidad. Se aplica despu&eacute;s de la aplicaci&oacute;n de cualquier cr&eacute;dito disponible.</p>
+        <p><strong>Descuento de servicio:</strong> requiere el plan AT&amp;T Unlimited Elite. Se aplica un descuento de $10 despu&eacute;s de la aplicaci&oacute;n de cualquier pago autom&aacute;tico disponible, factura electr&oacute;nica, solo para las primeras 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. No se puede combinar con otras ofertas, cr&eacute;ditos o descuentos.</p>
+        <p><strong>Exclusiones:</strong> militares, veteranos, socorristas, empleados del sector p&uacute;blico de Massachusetts, empleados de AT&amp;T, clientes de EMO, IMO y FirstNet. No se puede combinar con otras ofertas o promociones seleccionadas.</p>
+        <p><strong>PLAN AT&amp;T UNLIMITED ELITE℠:</strong> todos los servicios m&oacute;viles de AT&amp;T est&aacute;n sujetos a los t&eacute;rminos y condiciones del Acuerdo de servicio al consumidor (att.com/csa). <strong>Solo tel&eacute;fonos.</strong>. El precio mensual anunciado incluye el cargo mensual del plan para llamadas, mensajes de texto y datos, y el cargo mensual por acceso telef&oacute;nico por l&iacute;nea para acceder a dichos servicios.</p>
+        <p><strong>OTRAS RESTRICCIONES Y CARGOS:</strong> : es posible que se aplique un cargo y dep&oacute;sito de activaci&oacute;n/cambio de l&iacute;nea (hasta $45).</p>
+        <p><strong>Descuento por pago autom&aacute;tico y factura electr&oacute;nica:</strong> descuento mensual de $10 por l&iacute;nea telef&oacute;nica cuando est&aacute; activo e inscrito en ambos. Los empleados de AT&amp;T, los jubilados y los consumidores de IMO no son elegibles para el descuento por pago autom&aacute;tico y factura electr&oacute;nica. El descuento comienza en 2 ciclos de facturaci&oacute;n. Es posible que se requiera tarjeta de cr&eacute;dito (excepto en MA, PA y ND). Pagar&aacute; el costo total del plan hasta que comience el descuento.</p>
+        <p><strong>DATOS ILIMITADOS:</strong> para uso en los Estados Unidos (en el "&Aacute;rea de Cobertura Nacional" o "DCA", por sus siglas en ingl&eacute;s), M&eacute;xico y Canad&aacute;.</p>
+        <p><strong>RESTRICCIONES DE DATOS:</strong> 2G off-net data speeds may apply. All AT&amp;T service is subject to AT&amp;T network management policies. See att.com/broadbandinfo for details.</p>
+        <p><strong>SERVICIO 5G:</strong> requiere un dispositivo 5G compatible. El servicio 5G no est&aacute; disponible en todas partes. Visite att.com/5Gforyou para obtener m&aacute;s informaci&oacute;n.</p>
+        <p><strong> STREAMING DE VIDEO:</strong> incluye la funci&oacute;n Stream Saver con el que puede transmitir video de mayor definici&oacute;n (hasta 4K UHD) en definici&oacute;n est&aacute;ndar en dispositivos compatibles (a menos que el proveedor de video haya dispuesto lo contrario). Stream Saver no reconocer&aacute; todo el contenido de video. La capacidad de transmisi&oacute;n y resoluci&oacute;n de video puede variar y verse afectada por otros factores. Para disfrutar del acceso a video de alta definici&oacute;n en dispositivos compatibles y cuando est&eacute; disponible, puede apagarlo o volver a encenderlo en cualquier momento en att.com/myatt o llamando al 611. Aplican restricciones. M&aacute;s informaci&oacute;n en att.com/streamsaver.</p>
+        <p><strong>Seguridad avanzada de ActiveArmor℠:</strong> se requiere un dispositivo compatible. Debe descargar la aplicaci&oacute;n AT&amp;T Mobile Security y la aplicaci&oacute;n AT&amp;T Call Protect y aceptar sus t&eacute;rminos y condiciones para la funcionalidad completa de la aplicaci&oacute;n. Puede que no detecte todas las amenazas. Puede bloquear inadvertidamente las llamadas que si quiera contestar, la configuraci&oacute;n se puede ajustar en la aplicaci&oacute;n.</p>
+        <p><strong>Identificaci&oacute;n personal:</strong> puede que no detecte toda la informaci&oacute;n comprometida o las filtraciones de sus datos personales.</p>
+        <p><strong>Navegaci&oacute;n segura: es posible que no detecte todos los sitios web sospechosos. M&aacute;s informaci&oacute;n en att.com/activearmor.</strong></p>
+        <p><strong>HOTSPOT M&Oacute;VIL:</strong> requiere dispositivo compatible. Incluye hasta 40 GB por l&iacute;nea al mes. Despu&eacute;s de 40 GB, la velocidad del hotspot m&oacute;vil se reducir&aacute; a un m&aacute;ximo de 128 Kbps por el resto del ciclo de facturaci&oacute;n. Despu&eacute;s de esto, el uso de datos del hotspot m&oacute;vil se ver&aacute; afectado y no ser&aacute; completamente funcional.</p>
+        <p><strong>LLAMADAS ILIMITADAS:</strong> solo tel&eacute;fonos. Incluye llamadas dentro y entre el DCA, M&eacute;xico y Canad&aacute;. Es posible que se le cobren las llamadas a n&uacute;meros de servicios especiales o premium y las llamadas a otros pa&iacute;ses. Para conocer los cargos, visite att.com/worldconnect.</p>
+        <p><strong>MENSAJES DE TEXTO ILIMITADOS:</strong> se requiere un tel&eacute;fono compatible y un plan de tarifas. Incluye mensajes ilimitados de hasta 1 MB de tama&ntilde;o dentro y desde el DCA, M&eacute;xico y Canad&aacute;. Para enviar mensajes de texto a otros pa&iacute;ses, visite att.com/text2world. Los mensajes enviados mediante aplicaciones pueden generar cargos por datos u otros cargos.</p>
+        <p><strong>Mensajer&iacute;a avanzada:</strong> no est&aacute; disponible para su uso en M&eacute;xico y Canad&aacute;. Se aplican otras restricciones y se pueden encontrar en att.com/advancedmessaging.</p>
+        <p><strong>L&Iacute;MITES:</strong> m&aacute;ximo de 10 dispositivos en el plan grupal Unlimited Your Way. Es posible que estos planes no sean elegibles para otros descuentos, incluidos, entre otros, los descuentos de Signature. Es posible que los empleados de AT&amp;T y jubilados no sean elegibles para ciertos beneficios, ofertas y descuentos asociados con estos planes.</p>
+        <br />
+        <p><strong>HBO MAX:</strong> acceda a HBO Max a trav&eacute;s de la aplicaci&oacute;n HBO Max en un dispositivo compatible (se vende por separado) o en hbomax.com usando un navegador compatible y poniendo sus credenciales de inicio de sesi&oacute;n de AT&amp;T. Nuevos clientes de AT&amp;T: visite att.com/myatt para crear su cuenta y obtener credenciales de inicio de sesi&oacute;n. El uso de HBO Max est&aacute; sujeto a sus propios t&eacute;rminos y condiciones, consulte hbomax.com/terms-of-use para obtener m&aacute;s informaci&oacute;n. Si tiene DIRECTV (excepto en Puerto Rico), AT&amp;T TV, U-Verse TV o AT&amp;T TV NOW en casa, los canales de HBO y On Demand tambi&eacute;n se agregar&aacute;n en esa plataforma de TV. Se puede facturar y luego acreditar (excluyendo el paquete PREMIER en AT&amp;T TV y AT&amp;T TV NOW) en esa plataforma de TV en 2 facturas. La programaci&oacute;n y contenidos est&aacute;n sujetos a cambios y los beneficios pueden ser modificados, descontinuados o cancelados en cualquier momento sin previo aviso. PERDIDA DE ELEGIBILIDAD: tras la cancelaci&oacute;n del plan m&oacute;vil elegible, es posible que pierda el acceso a HBO Max.</p>
+        <p><strong>L&Iacute;MITES:</strong> puede acceder a una cuenta de HBO Max por titular de cuenta AT&amp;T. No se puede combinar con otras ofertas, cr&eacute;ditos o descuentos. <strong>Los empleados de AT&amp;T y jubilados no son elegibles para la oferta de HBO Max</strong>. Para obtener m&aacute;s informaci&oacute;n, visite att.com/hbomax. Solo se puede acceder a HBO Max en Estados Unidos y en ciertos territorios de Estados Unidos donde haya disponible una conexi&oacute;n de banda ancha de alta velocidad. HBO MAX se utiliza bajo licencia.</p>
+        <p><strong>Todas las ofertas, programaci&oacute;n, promociones, precios, t&eacute;rminos, restricciones y condiciones est&aacute;n sujetos a cambios y pueden modificarse, descontinuarse o cancelarse en cualquier momento sin previo aviso.</strong></p>
+        <p>&copy;2021 AT&amp;T Intellectual Property. Todos los derechos reservados. AT&amp;T, el logotipo de AT&amp;T y todas las dem&aacute;s marcas de AT&amp;T incluidas en este documento son marcas comerciales de AT&amp;T Intellectual Property o compa&ntilde;&iacute;as afiliadas de AT&amp;T.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: "AT&T: Preguntas Frecuentes"

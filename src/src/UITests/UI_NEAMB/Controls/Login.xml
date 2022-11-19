@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="LoginPage" urlpath="Login">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="title_label"  xpath="//h1[contains(@class,'header')]"   />
+            <control key="subtitle_label"  xpath="//p[contains(@class,'subhead')]"  />
+          </controls>
+        </section>
+        <section name="LoginForm">
+          <controls>
+            <control key="email_label"   xpath="//label[contains(@for,'email')]"  />
+            <control key="email_textbox"  id="email"  />
+            <control key="password_label"  xpath="//label[contains(@for,'password')]"  />
+            <control key="password_texbox"  id="password"  />
+            <control key="remember_label"  xpath="//p[@class='text-alpha']"/>
+            <control key="remember_checkbox"  id="ckbrememberme"/>
+            <control key="signin_button"  xpath="//input[@value='Sign In']"/>
+            <control key="forgot_password_link"  xpath="(//a[contains(@href,'/account/forgot-password')])[1]"  />
+            <control key="create_account_link_signin"   xpath="//div[@class='col-md-4']//a[contains(text(),'Create an Account')]"/>
+            <control key="forgot_email_link"  xpath="(//a[contains(@href,'/account/forgot-email')])[1]"  />
+            <control key="show_link"  xpath="//span[@class='text-blue showpass pull-right']"  />
+            <control key="toggle_icon"  xpath="//i[@class='text-blue fa fa-question-circle-o tooltipMark']"/>
+          </controls>
+        </section>
+        <section name="AccountSection">
+          <controls>
+            <control key="member_benefits_label"   xpath="//strong[contains(text(),'Need a Member Benefits account?')]"/>
+            <control key="create_account_link"   xpath="//div[@class='col-md-4']//a[contains(@href,'/account/registration')]"  />
+          </controls>
+        </section>
+        <section name="LinksValidations">
+          <controls>
+            <control key="forgot_password_header"   xpath="//h1[contains(text(),'Reset Password')]"/>
+            <control key="forgot_email_header"   xpath="//h1[contains(text(),'Forgot your sign in email?')]"/>
+            <control key="create_account_header"   xpath="//h1[contains(text(),'Create an Account with Member Benefits')]"/>
+            <control key="name_success_login"   xpath="//p[@class='navbar-text']//span[@class='name text-alpha'][contains(text(),'Jessica')]"/>
+            <control key="name_warm_login"   xpath="//p[@class='navbar-text']//span[@class='name text-alpha'][contains(text(),'Wayne')]"/>
+            <control key="name_warm_cold_login"   xpath="//p[@class='navbar-text']//span[@class='name text-alpha'][contains(text(),'Marcia')]"/>
+          </controls>
+        </section>
+        <section name="ErrorsMessages">
+          <controls>
+            <control key="error_empty_username"  id="email-error"/>
+            <control key="error_empty_password"  id="password-error"/>
+            <control key="error_wronguserpws"  id="errorgeneralserver"  />
+            <control key="error_email_format"  xpath="//label[@id='email-error'][contains(text(),'Invalid email address. Please check that you have entered your email address correctly and try again.')]"  />
+          </controls>
+        </section>
+        <section name="ProfileSection">
+          <controls>
+            <control key="default_gray_picture_profile"  xpath="//p[@class='navbar-text']//img"/>
+            <control key="cold_sign_in_option"  xpath="//span[@class='name text-alpha']"/>
+            <control key="warm_sign_in_option"  xpath="//div[@class='bottom']//a[contains(text(),'Sign In')]"/>
+            <control key="warm_not_you_option"  xpath="//div[@class='bottom']//a[contains(text(),'Not You?')]"/>
+            <control key="warm_cold_create_account"  xpath="//div[@class='bottom']//a[contains(text(),'Create Account')]"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

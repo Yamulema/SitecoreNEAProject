@@ -1,0 +1,63 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.TopicListing
+
+@if (Model.Topics.Count > 0)
+{
+    var hiddenClass = string.Empty;
+    var centerClass = string.Empty;
+
+    <section class="section-normal c-073 bg-dark-blue">
+        <div class="container">
+            <div class="new-header">
+                @Html.Sitecore().Field(Templates.TopListing.Fields.HeadlineText, Model.Item)
+            </div>
+            <div class="topics-grid">
+                @for (int i = 0; i < Model.Topics.Count; i++) {
+                    var topic = Model.Topics[i];
+                    if (i >= 4) {
+                        hiddenClass = "hidden-xs";
+                    }
+
+                    if (i == (Model.Topics.Count - 1)) {
+
+                        if (Model.Topics.Count % 3 == 1) {
+                            centerClass = "middle-topic";
+                        }
+                    }
+
+                    <a href="@topic.Url" class="topic @hiddenClass @centerClass">
+                        <p>@Html.Raw(topic.Name)</p>
+                    </a>
+                }
+
+            </div>
+
+            @if (Model.Topics.Count > 4) {
+                <div class="mobile-accordion hidden">
+                    <div class="tab">
+                        <input type="radio" id="all-categories" name="topics" value="1">
+                        <label class="tab-label" for="all-categories">
+                            @Html.Sitecore().Field(Templates.TopListing.Fields.ExpandText, Model.Item)
+                        </label>
+                        <div class="tab-content">
+                            @for (int i = 4; i < Model.Topics.Count; i++) {
+                                var topic = Model.Topics[i];
+
+                                <a href="@topic.Name" class="topic">
+                                    <p>@Html.Raw(topic.Name)</p>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                    <div class="tab accordion-collapse hidden">
+                        <input type="radio" id="fewer-categories" name="topics" value="2">
+                        <label class="tab-close" for="fewer-categories">@Html.Sitecore().Field(Templates.TopListing.Fields.CollapseText, Model.Item)</label>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+}

@@ -1,0 +1,23 @@
+﻿---
+ID: "b7bb9f87-b854-416a-bfe2-6be530e81b4f"
+Parent: "71219c33-11d5-4d92-868b-34f0c6c1e953"
+Template: "51f050de-ced6-472f-b813-4f3043f970a0"
+Path: /sitecore/content/NEAMBC/Global/Exclusive Offers
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{9032B90C-2775-4B10-8940-726E0696C42D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201119T234447Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

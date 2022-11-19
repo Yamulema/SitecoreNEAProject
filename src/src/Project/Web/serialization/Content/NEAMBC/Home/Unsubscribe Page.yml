@@ -1,0 +1,29 @@
+﻿---
+ID: "4d32daf4-5eb5-4efc-96b1-506b543ee12f"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef878abf-6731-4a15-816e-273c246d5827"
+Path: /sitecore/content/NEAMBC/Home/Unsubscribe Page
+DB: master
+SharedFields:
+- ID: "61cf7151-0cbd-4db4-9738-d753a55a6e65"
+  Hint: __Enforce version presence
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2700
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|ar|sitecore\SEIUMB Approver|pe|-item:create|-item:delete|-item:admin|pd|-item:create|-item:delete|-item:admin|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180205T203349Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Unsubscribe Page

@@ -1,0 +1,85 @@
+﻿---
+ID: "3f9b2778-6a59-438a-a52e-3c52268e0374"
+Parent: "29fe21ba-294c-41cf-8e9c-92aecb359619"
+Template: "29fe21ba-294c-41cf-8e9c-92aecb359619"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Membership Card Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{48B6A738-33B2-4CE8-84CA-5A245906138E}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{640D9C87-2FCB-41A1-ADF7-AFA7E827832A}" />
+        <r
+          id="{759F3A1F-2CB5-4E6D-9B94-C31C7B6F69D0}"
+          ph="body"
+          uid="{42E49334-E4A5-4CF1-936A-1CA748FEABB6}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{FB0E089D-ED94-4886-9163-727B56C9F60C}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{7CB33062-92CA-4A7B-BE0D-3FD60E49C8BD}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ecd5f55-4dca-44e6-a761-5f3497c704d5"
+      Hint: Error Message
+      Value: We’re sorry, but the membership ID number entered could not be found. Please try entering the number again.
+    - ID: "1749b884-2876-40db-920e-1c6cc29ac6aa"
+      Hint: Headline
+      Value: NEA Click & Save
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180816T162230Z
+    - ID: "404a846d-bccd-4284-8819-3f767420bdd7"
+      Hint: Description
+      Value: Enter the membership ID printed on the front of your membership card.
+    - ID: "4d8bae27-473d-4145-a352-9899e736c920"
+      Hint: Empty Code
+      Value: Please insert your membership ID.
+    - ID: "56056eb1-98d5-49bc-9653-136bc097a5a5"
+      Hint: Instruction
+      Value: Do not enter any hyphens or spaces.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "64b8c684-8de5-4236-92e5-3d96eab71e2b"
+      Hint: Logo
+      Value: |
+        <image mediaid="{146086BD-71E9-4647-860D-53A9B7F6DB7F}" />
+    - ID: "736f3b64-ed71-4e29-aa78-d41c4d81f405"
+      Hint: Intro
+      Value: |
+        <span style="color: #172b4d; background-color: #ffffff;">NEA Click &amp; Save, one of our most popular discount programs for NEA members, offers savings on brand name merchandise from hundreds of top retailers, online stores and local merchants.</span>
+    - ID: "b7d1c1f8-0ac8-40b4-a951-673b1b5ba527"
+      Hint: Existing User Text
+      Value: If you have previously visited this page and/or registered on NEAMB.com, simply Log in
+    - ID: "e740e53e-8ca6-494d-a64d-fa301d17ba2c"
+      Hint: Submit
+      Value: Create an Account

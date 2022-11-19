@@ -1,0 +1,39 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@using Neambc.Seiumb.Foundation.Authentication.Repositories
+@using Neambc.Seiumb.Foundation.Authentication.Constants
+@using Neambc.Seiumb.Foundation.Authentication.Interfaces
+@using Sitecore.DependencyInjection
+@using Sitecore.Mvc
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var hasSecureContent = Model.Item.Fields[Templates.LandingPageTemplate.Fields.HasSecureContent].IsChecked();
+    var userRepository = (IUserRepository)ServiceLocator.ServiceProvider.GetService(typeof(IUserRepository));
+}
+
+<div id="contact_us_content" class="row">
+    <div class="show-for-medium medium-1 large-1 columns">
+        &nbsp;
+    </div>
+    <div class="small-12 medium-10 large-10 columns float-center">
+        <div id="thanks_content" class="small-12 medium-12 large-12 columns">
+            @if (!hasSecureContent || userRepository.GetUserStatus().Equals(UserStatusCons.COLD))
+            {
+                @Html.Sitecore().Field(Templates.LandingPageTemplate.Fields.DefaultContent, Model.Item)
+            }
+            else if(hasSecureContent &&(userRepository.GetUserStatus().Equals(UserStatusCons.HOT) || userRepository.GetUserStatus().Equals(UserStatusCons.WARM_HOT)))
+            {
+                @Html.Sitecore().Field(Templates.LandingPageTemplate.Fields.SecureContent, Model.Item)
+            }
+            else
+            {
+                @Html.Sitecore().Field(Templates.LandingPageTemplate.Fields.DefaultContent, Model.Item)
+            }
+        </div>
+    </div>
+    <div class="show-for-medium medium-1 large-1 columns">
+        &nbsp;
+    </div>
+</div>

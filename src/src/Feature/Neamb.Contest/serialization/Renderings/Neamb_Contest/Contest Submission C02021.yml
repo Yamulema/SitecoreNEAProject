@@ -1,0 +1,21 @@
+﻿---
+ID: "d392cdd7-1f84-400c-a8e2-05e8cddf8c20"
+Parent: "255e3ccd-c2da-40a7-9b13-8911c0af3de6"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Contest/Contest Submission C02021
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: ContestSubmission
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Contest.Controllers.ContestSubmissionController,Neambc.Neamb.Feature.Contest
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190108T151351Z

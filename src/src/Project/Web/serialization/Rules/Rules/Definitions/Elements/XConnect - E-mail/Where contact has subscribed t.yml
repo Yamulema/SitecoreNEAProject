@@ -1,0 +1,100 @@
+﻿---
+ID: "da9c9ef6-5af4-4cab-8a47-ba9df0830f58"
+Parent: "925265b1-9689-47e3-89e6-d937bc83c029"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - E-mail/Where contact has subscribed to marketing preference"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.EmailCampaign.XConnect.Conditions.WhereContactHasSubscribedToMarketingPreference, Sitecore.EmailCampaign.XConnect
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hvor kontakten har tilmeldt sig marketingpræference
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T131450Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "hvor kontaktens [OperatorId,MarketingPreferenceSubscription,,has (not) subscribed to] marketingpræference [CategoryId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Marketing categories&selection=System/Analytics/Marketing Taxonomy/Marketing category/Marketing category,  marketing preference] for manager root [ManagerRootId,Tree,root=/sitecore/content&display=System/Email/Manager Root,  manager root]"
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wenn der Kontakt sich für die Marketingpräferenz angemeldet hat
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T132631Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "wo der Kontakt [OperatorId,MarketingPreferenceSubscription,, sich (nicht) für] Marketingpräferenzen angemeldet hat [CategoryId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Marketing categories&selection=System/Analytics/Marketing Taxonomy/Marketing category/Marketing category,  marketing preference] für den Rootmanager [ManagerRootId,Tree,root=/sitecore/content&display=System/Email/Manager Root,  manager root]"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170904T084015Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where the contact [OperatorId,MarketingPreferenceSubscription,,has (not) subscribed to] marketing preference [CategoryId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Marketing categories&selection=System/Analytics/Marketing Taxonomy/Marketing category/Marketing category,  marketing preference] for the manager root [ManagerRootId,Tree,root=/sitecore/content&display=System/Email/Manager Root,  manager root]"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Marketing preference を購読しているコンタクト
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T133922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "条件： コンタクトが [ManagerRootId,Tree,root=/sitecore/content&display=System/Email/Manager Root,  マネージャー ルート] マネージャー ルートの [CategoryId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Marketing categories&selection=System/Analytics/Marketing Taxonomy/Marketing category/Marketing category,  マーケティング設定] マーケティング設定で  [OperatorId,MarketingPreferenceSubscription,,購読設定を持っている(いない)] 場合"
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 联系人已订阅营销偏好的地方
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190328T134828Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "如果联系人 [OperatorId,MarketingPreferenceSubscription,,已经（未）订阅] 营销偏好 [CategoryId,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Marketing categories&selection=System/Analytics/Marketing Taxonomy/Marketing category/Marketing category,  营销偏好] 管理员根目录 [ManagerRootId,Tree,root=/sitecore/content&display=System/Email/Manager Root,  管理员根目录]"

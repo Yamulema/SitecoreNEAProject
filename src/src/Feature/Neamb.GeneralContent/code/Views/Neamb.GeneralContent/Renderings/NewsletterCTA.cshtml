@@ -1,0 +1,148 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Foundation.Config.Models
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.NewsletterCTADTO
+
+@{
+    string mediaClass;
+    string textClass;
+    if (Model.Item[Templates.NewsletterCTA.Fields.Placement] == Categories.MediaPlacements.Right.ToString())
+    {
+        mediaClass = "col-md-6 col-md-push-6";
+        textClass = "col-md-6 col-md-pull-6";
+    }
+    else
+    {
+        mediaClass = "col-md-6";
+        textClass = "col-md-6";
+    }
+}
+<section class="section-cta">
+    <div class="container">
+        <div class="row">
+            <div class="@mediaClass">
+                @if (string.IsNullOrEmpty(Model.Item[Templates.NewsletterCTA.Fields.Video]))
+                {
+                @Html.Sitecore().Field(Templates.NewsletterCTA.Fields.Image, Model.Item, new { @class = "img-responsive" })
+                }
+                else
+                {
+                <div class="col-md-12 bg-dark-blue video-container">
+                    @if (Model.Item[Templates.NewsletterCTA.Fields.Video].Contains(Configuration.PlatformVideo))
+                        {
+                    <script src="@Model.Item[Templates.NewsletterCTA.Fields.Video]"></script>
+                        }
+                        else
+                        {
+                    <iframe frameborder="0" height="315" src="@Model.Item[Templates.NewsletterCTA.Fields.Video]" width="100%"></iframe>
+                        }
+                </div>
+                }
+                @if (Model.SocialShare.ShowSocialShare)
+                {
+                <div class="hidden-xs hidden-sm">
+                    @Html.Raw(Model.SocialShare.AddThisHtml)
+                </div>
+                }
+            </div>
+            <div class="@textClass">
+                <form id="cta" accept-charset="UTF-8" role="form" method="post">
+                    <div class="col-xs-12 col-sm-12 col-md-11">
+                        @if (!string.IsNullOrEmpty(Model.Item.Fields[Templates.NewsletterCTA.Fields.Eyebrow].Value))
+                        {
+                        <p class="eye-brow">@Html.Sitecore().Field(Templates.NewsletterCTA.Fields.Eyebrow, Model.Item, new { @class = "eye-brow" })</p>
+                        }
+                        <h1 class="title">@Html.Sitecore().Field(Templates.NewsletterCTA.Fields.Name, Model.Item)</h1>
+                        <h3 class="subtitle text-light">
+                            @Html.Sitecore().Field(Templates.NewsletterCTA.Fields.Subhead, Model.Item)
+                        </h3>
+                        <div class="row new-design">
+                            @if (Model.IsAnonymous && !Model.IsSubscribed && Model.IsPublic)
+                            {
+                            <div class="col-md-12">
+                                <div class="floating-section">
+                                    <div class="floating-group">
+                                        <input id="email" name="email" type="email" placeholder="Email" required="required"
+                                               data-msg-email="@Html.Sitecore().Field(Templates.Email.Fields.InvalidFormat, Model.Item, new { DisableWebEdit = true })"
+                                               data-msg-required="@Html.Sitecore().Field(Templates.Email.Fields.EmptyField, Model.Item, new { DisableWebEdit = true })"
+                                               data-rule-maxlength="100" maxlength="100"
+                                               data-msg-maxlength="@Html.Sitecore().Field(Templates.Email.Fields.CharactersLimit, Model.Item, new { @DisableWebEdit = true })"
+                                               data-msg-hasreserveddomain="@Html.Sitecore().Field(Templates.Email.Fields.EmailWarning, Model.Item)" />
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="floating-messages">
+                                        <div class="floating-error-messages">
+                                            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Required))
+                                                {
+                                            <div class="server-error">@Html.Sitecore().Field(Templates.Email.Fields.EmptyField, Model.Item)</div>
+                                                }
+                                            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.InvalidCharacters))
+                                                {
+                                            <div class="server-error">@Html.Sitecore().Field(Templates.Email.Fields.InvalidFormat, Model.Item)</div>
+                                                }
+                                            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.EmailFormat))
+                                                {
+                                            <div class="server-error">@Html.Sitecore().Field(Templates.Email.Fields.InvalidFormat, Model.Item)</div>
+                                                }
+                                            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Length))
+                                                {
+                                            <div class="server-error">@Html.Sitecore().Field(Templates.Email.Fields.CharactersLimit, Model.Item)</div>
+                                                }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                    }
+                            <div class="col-md-12">
+                                @if (Model.IsSubscribed)
+                                {
+                                <img src="/assets/neamb/images/check-icon.png" alt="">
+                                <span class="p-l-xs p-r-sm">@Html.Sitecore().Field(Templates.NewsletterCTA.Fields.Subscribed, Model.Item)</span>
+                                    if (!Model.IsAnonymous)
+                                    {
+                                @Html.ActionLink(Model.Item[Templates.NewsletterCTA.Fields.Unsubscribe], "Subscribe", "NewsletterCta", new
+                           {
+                               newsletterId = Model.NewsletterId,
+                               newsLetterItemId = Model.Item.ID.ToString(),
+                               subscribe = false,
+                               redirectId = Sitecore.Context.Item.ID.ToString()
+                           }, new
+                           {
+                               onclick = Model.OnUnSubscribeEvent + "this.href += '&email=' + document.getElementById('email').value;",
+                               @class = "btn btn-new btn-outline-default"
+                           })
+                                    }
+                                }
+                                else
+                                {
+                                @Html.ActionLink(Model.Item[Templates.NewsletterCTA.Fields.Subscribe], "Subscribe", "NewsletterCta", new
+                           {
+                               newsletterId = Model.NewsletterId,
+                               newsLetterItemId = Model.Item.ID.ToString(),
+                               subscribe = true,
+                               redirectId = Sitecore.Context.Item.ID.ToString()
+                           }, new
+                           {
+                               onclick = Model.OnSubscribeEvent + "this.href += '&email=' + document.getElementById('email').value;",
+                               @class = "btn btn-new btn-outline-default accent"
+                           })
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                @if (Model.SocialShare.ShowSocialShare)
+                {
+                <div class="col-md-12 hidden-md hidden-lg">
+                    @Html.Raw(Model.SocialShare.AddThisHtml)
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+@if (Model.SocialShare.ShowSocialShare)
+{
+@Html.Raw(Model.SocialShare.AddThisJSContent)
+}

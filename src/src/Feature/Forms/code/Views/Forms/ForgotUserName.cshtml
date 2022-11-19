@@ -1,0 +1,274 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Forms
+@using Sitecore.Mvc.Configuration
+@using Sitecore.Links
+
+@model Neambc.Seiumb.Feature.Forms.Models.RetrieveUserNameModel
+@{
+	string styleForm = !String.IsNullOrEmpty(Model.UserNameRetrieved) ? "display: none;" : "";
+
+	bool hasErrorFirstName = ViewData.ModelState.Values.Count == 4 ? ViewData.ModelState.Values.ElementAt(0).Errors.Count > 0 : false;
+	bool hasErrorLastName = ViewData.ModelState.Values.Count == 4 ? ViewData.ModelState.Values.ElementAt(1).Errors.Count > 0 : false;
+	bool hasErrorBirthDate = ViewData.ModelState.Values.Count == 4 ? ViewData.ModelState.Values.ElementAt(2).Errors.Count > 0 : false;
+	string firstNamePlaceholder = Model.Item[Templates.RetrieveUserName.Fields.FirstNamePlaceholder];
+	string lastNamePlaceholder = Model.Item[Templates.RetrieveUserName.Fields.LastNamePlaceholder];
+	string dateBirthPlaceholder = Model.Item[Templates.RetrieveUserName.Fields.DateOfBirthPlaceholder];
+	string zipPlaceholder = Model.Item[Templates.RetrieveUserName.Fields.ZipcodePlaceholder];
+	var siteSettings = Sitecore.Context.Database.GetItem(Templates.SiteSettingsGlobal.ID);
+	Sitecore.Data.Fields.LinkField loginLink = siteSettings.Fields[Templates.SiteSettings.Fields.MobileLogin];
+	string loginLinkUrl = loginLink.TargetItem != null ? LinkManager.GetItemUrl(loginLink.TargetItem) : string.Empty;
+	bool hasFirstError = false;
+}
+<script type="text/javascript">
+
+    function submitFgtPass() {
+        document.getElementById('frmFgtPass').submit();
+    }
+</script>
+<div id="product_details_content" class="row">
+
+
+    <div id="password_retrival_content" class="row">
+
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+        <div id="registrationMainForm" class="float-center small-12 medium-10 large-10 columns">
+            <h4>@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.Headline, Model.Item)</h4>
+            @if (!Model.Submitted || String.IsNullOrEmpty(Model.UserNameRetrieved))
+            {
+                <hr>
+                @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.Subheadline, Model.Item)
+            }
+            <form id="frmRetrieveUsername" method="post" action="" data-abide novalidate style="@styleForm">
+                <div class="float-left small-12 medium-8 large-8 columns">
+                    <fieldset class="fieldset">
+                        <!-- start first name -->
+                        <div class="row">
+                            <div class="small-12 medium-3 large-3 columns columns">
+                                <label for="first_name" class="text-left bottom">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.FirstNameLabel, Model.Item)</label>
+                            </div>
+                            <div class="small-12 medium-7 large-7 columns">
+                                @Html.TextBoxFor(x => x.FirstName, null, new { @id = "first_name", @type = "text", @placeholder = @HttpUtility.HtmlDecode(firstNamePlaceholder), @required = "true" })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.FirstNameErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorFirstNameInvalidCharacters || Model.HasErrorFirstNameLength)
+								{
+                                    <div id="fnameError" class="server-error">
+										@if (Model.HasErrorFirstNameInvalidCharacters)
+										{
+											hasFirstError = true;
+
+											@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.InvalidCharacters, Model.Item)
+										}
+										@if(Model.HasErrorFirstNameLength)
+										{
+											if (hasFirstError)
+											{
+											<br />
+											}
+											@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.FirstName_CharactersLimit, Model.Item)										
+										}
+                                        
+                                    </div>
+                                }
+                                else if (hasErrorFirstName)
+                                {
+                                    <div id="fnameError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.FirstNameErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                            <div class="show-for-medium medium-2 large-2 columns columns">
+                            </div>
+                        </div>
+
+                        <!-- end first name -->
+                        <!-- start last name -->
+
+                        <div class="row">
+                            <div class="small-12 medium-3 large-3 columns columns">
+                                <label for="last_name" class="text-left bottom">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.LastNameLabel, Model.Item)</label>
+                            </div>
+                            <div class="small-12 medium-7 large-7 columns">
+                                @Html.TextBoxFor(x => x.LastName, null, new { @id = "last_name", @type = "text", @placeholder = @HttpUtility.HtmlDecode(lastNamePlaceholder), @required = "true" })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.LastNameErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorLastNameInvalidCharacters || Model.HasErrorLastNameLength)
+								{
+									hasFirstError = false;
+                                    <div id="lnameError" class="server-error">
+										@if (Model.HasErrorLastNameInvalidCharacters )
+										{
+											hasFirstError = true;
+
+											@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.InvalidCharacters, Model.Item)
+										}
+										@if(Model.HasErrorLastNameLength)
+										{
+											if (hasFirstError)
+											{
+											<br />
+											}
+											@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.LastName_CharactersLimit, Model.Item)										
+										}
+                                    </div>
+                                }
+                                else if (hasErrorLastName)
+                                {
+                                    <div id="lnameError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.LastNameErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                            <div class="show-for-medium medium-2 large-2 columns columns">
+                            </div>
+                        </div>
+
+                        <!-- end last name -->
+                        <!-- start date of birth -->
+
+                        <div class="row">
+                            <div class="small-12 medium-3 large-3 columns columns">
+                                <label for="birth_date" class="text-left bottom">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.DateOfBirthLabel, Model.Item)</label>
+                            </div>
+                            <div class="small-12 medium-7 large-7 columns">
+                                @Html.TextBoxFor(x => x.DateOfBirth, null, new { @id = "birth_date", @type = "text", @placeholder = @HttpUtility.HtmlDecode(dateBirthPlaceholder), @data_validator = "dateValidator", @onblur = "validate(this)" })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.DateOfBirthErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorDateOfBirthAge)
+                                {
+                                    <div id="dateError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.DateOfFirst_AgeRequirement, Model.Item)
+                                    </div>
+                                }
+								else if (hasErrorBirthDate)
+                                {
+                                    <div id="dateError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.DateOfBirthErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                            <div class="show-for-medium medium-2 large-2 columns columns">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="alert callout hide" id="dobError">
+                                <rde-dm:attribute mode="read" attribute="session:errMsg.newError" />
+                            </div>
+                        </div>
+
+
+                        <!-- end of date of birth -->
+                        <!-- start of zip code -->
+                        <div id="fieldZip" class="row">
+                            <div class="small-12 medium-3 large-3 columns columns">
+                                <label id="lblZip" for="zipcode" class="text-left bottom">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.ZipcodeLabel, Model.Item)</label>
+                            </div>
+                            <div class="small-12 medium-7 large-7 columns">
+                                @Html.TextBoxFor(x => x.ZipCode, null, new { @id = "zipcode", @type = "text", @placeholder = @HttpUtility.HtmlDecode(zipPlaceholder), @required = "true", @pattern = "[0-9]{5}", @oninput = "validateZipCodeInput(this)", @onblur = "validate(this)" })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.ZipcodeErrorMessage, Model.Item)
+                                </span>
+								@if (Model.HasErrorZipcodeLength)
+                                {
+                                    <div id="zipCodeError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.Zipcode_CharactersLimit, Model.Item)
+                                    </div>
+                                }
+								else if (Model.HasErrorZipcode)
+                                {
+                                    <div id="zipCodeError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.ZipcodeErrorMessage, Model.Item)
+                                    </div>
+                                }                               
+                            </div>
+                            <div class="show-for-medium medium-2 large-2 columns columns">
+                            </div>
+                        </div>
+
+                        <!-- end of zip code -->
+                        <input type="hidden" name="fhController" value="ForgotUserNameController" data-abide-ignore />
+                        <input type="hidden" name="fhAction" value="ForgotUserName" data-abide-ignore />
+
+                        <div class="row">
+                            <div class="small-12 columns buttonContainer">
+                                <button id="btnSubmit" class="button" type="submit" value="Submit">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.SubmitButton, Model.Item)</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+            </form>
+
+            <div class="float-left small-12 medium-10 large-10 columns">
+                <div class="row">
+
+
+                </div>
+            </div>
+            @if (Model.Submitted)
+            {
+
+                if (String.IsNullOrEmpty(Model.UserNameRetrieved))
+                {
+
+                    <div class="float-left small-12 medium-10 large-10 columns">
+                        <div class="row">
+
+
+                            <p style="color:red;" id="retrieveErrMessage">
+                                <br />
+                                @Html.Sitecore().Field(Templates.RetrieveUserName.Fields.NotFound, Model.Item)
+                            </p>
+
+                        </div>
+                    </div>
+                }
+                else
+                {
+
+                    <div class="submitDivFgt">
+                        <p>
+                            <strong>@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.Username, Model.Item)</strong>
+                            <span id="userResult">@Model.UserNameRetrieved</span>
+                        </p>
+                        <div id="returnMessage" style="">
+                            <a class="button show-for-medium" href="#" data-open="loginModal" aria-controls="loginModal" id="wvcs0j-reveal" aria-haspopup="true" tabindex="0">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.Login, Model.Item)</a>
+                            <a class="button show-for-small-only" href="@loginLinkUrl">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.Login, Model.Item)</a>
+
+                            <p><strong>@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.ForgotPassword, Model.Item)</strong></p>
+                            @{
+                                Sitecore.Data.Fields.LinkField forgotLink = Model.Item.Fields[Templates.RetrieveUserName.Fields.RetrievePassword];
+                                string forgotLinkLinkUrl = string.Empty;
+                                if (forgotLink != null && forgotLink.TargetItem != null)
+                                {
+                                    forgotLinkLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(forgotLink.TargetItem);
+                                }
+                            }
+
+                            @using (Html.BeginRouteForm(MvcSettings.SitecoreRouteName, FormMethod.Post, htmlAttributes: new { id = "frmFgtPass" }))
+                            {
+                                @Html.Sitecore().FormHandler("ForgotPassword", "ForgotPasswordRedirect")
+                                <input type="hidden" name="fhController" value="ForgotPasswordController" data-abide-ignore />
+                                <input type="hidden" name="fhAction" value="ForgotPasswordRedirect" data-abide-ignore />
+                                <input type="hidden" name="UserName" id="UserName" value="@Model.UserNameRetrieved">
+                                <input type="hidden" name="ItemId" id="ItemId" value="@forgotLink.TargetItem.ID">
+                                <a class="button" onclick="submitFgtPass();" href="#">@Html.Sitecore().Field(Templates.RetrieveUserName.Fields.SubmitButton, Model.Item)</a>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+
+    </div>
+</div>

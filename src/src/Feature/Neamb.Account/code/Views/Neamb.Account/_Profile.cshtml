@@ -1,0 +1,373 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+
+@model Neambc.Neamb.Feature.Account.Models.ProfileDTO
+@{
+    int minYear = 16;
+    int maxYear = 95;
+    int startYear = DateTime.Now.Year - maxYear;
+    int endYear = DateTime.Now.Year - minYear;
+    var inputValidClass = "valid"; 
+}
+
+<div class="floating-section">
+    <div class="floating-group">
+        <input id="firstname" value="@Model.FirstName" name="firstName" type="text" placeholder="First name" required="required"
+               class="@(string.IsNullOrEmpty(Model.FirstName) ? "" : inputValidClass)"
+               data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameEmptyField, Model.Item, new { DisableWebEdit = true })"
+               maxlength="15" data-rule-maxlength="15"
+               data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-rule-minlength="2"
+               data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameMinimumCharacterLimit, Model.Item, new {DisableWebEdit = true })"
+               data-rule-alphanumber="true"
+               data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+        <label for="firstName">@Html.Sitecore().Field(Templates.Profile.Fields.FirstNameLabel, Model.Item)</label>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages">
+            @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Required))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameEmptyField, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.InvalidCharacters))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameInvalidCharacters, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Length))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameCharacterLimit, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.MinLength))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameMinimumCharacterLimit, Model.Item)
+                </div>
+            }
+        </div>
+        @if (Model.HasTooltipFirstName)
+        {
+            <div class="floating-info-messages">
+                @Html.Sitecore().Field(Templates.Profile.Fields.FirstNameTooltip, Model.Item, new { DisableWebEdit = true })
+            </div>
+        }
+    </div>
+</div>
+<div class="floating-section">
+    <div class="floating-group">
+        <input id="lastName" value="@Model.LastName" name="lastName" type="text" placeholder="Last name" required="required"
+               class="@(string.IsNullOrEmpty(Model.LastName) ? "" : inputValidClass)"
+               data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameEmptyField, Model.Item, new { DisableWebEdit = true })"
+               maxlength="30" data-rule-maxlength="30"
+               data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-rule-minlength="2"
+               data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameMinimumCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-rule-alphanumber="true"
+               data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.LastNameInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+        <label for="lastName">@Html.Sitecore().Field(Templates.Profile.Fields.LastNameLabel, Model.Item)</label>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages">
+            @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Required))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.LastNameEmptyField, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.InvalidCharacters))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.LastNameInvalidCharacters, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Length))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.LastNameCharacterLimit, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.MinLength))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.LastNameMinimumCharacterLimit, Model.Item)
+                </div>
+            }
+        </div>
+        @if (Model.HasTooltipLastName)
+        {
+            <div class="floating-info-messages">
+                @Html.Sitecore().Field(Templates.Profile.Fields.LastNameTooltip, Model.Item, new { DisableWebEdit = true })
+            </div>
+        }
+    </div>
+</div>
+<div class="floating-section">
+    <input style="display: none" name="phone">
+    <div class="floating-group">
+        <input id="email" name="email" value="@Model.Email" type="email" placeholder="Email address" required="required"
+               class="@(string.IsNullOrEmpty(Model.Email) ? "" : inputValidClass)"
+               data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.EmailEmptyField, Model.Item, new { DisableWebEdit = true })"
+               data-msg-email="@Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item, new { DisableWebEdit = true })"
+               data-rule-maxlength="100" maxlength="100"
+               data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.EmailCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-msg-remote="@Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item, new { DisableWebEdit = true })"
+               data-emailInUse="@Html.Sitecore().Field(Templates.Profile.Fields.EmailInUse, Model.Item, new { DisableWebEdit = true })"
+               data-msg-hasReservedDomain="@Html.Sitecore().Field(Templates.Profile.Fields.EmailWarning, Model.Item)" />
+        <label for="email">@Html.Sitecore().Field(Templates.Profile.Fields.EmailLabel, Model.Item)</label>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages">
+            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Required))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.EmailEmptyField, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.InvalidCharacters))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.Length))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.EmailCharacterLimit, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.EmailInUse))
+            {
+                <div class="server-error">
+                    @Model.ErrorMessageEmailInUse
+                </div>
+            }
+            @if (Model.ErrorsEmail.Contains(ErrorStatusEnum.EmailFormat))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.EmailInvalidFormat, Model.Item)
+                </div>
+            }
+        </div>
+        @if (Model.HasTooltipEmail)
+        {
+            <div class="floating-info-messages">
+                @Html.Sitecore().Field(Templates.Profile.Fields.EmailTooltip, Model.Item, new { DisableWebEdit = true })
+            </div>
+        }
+    </div>
+</div>
+<div class="floating-section">
+    <div class="floating-group">
+        <input id="address" name="address" value="@Model.Address" type="text" placeholder="Street address" required="required"
+               class="@(string.IsNullOrEmpty(Model.Address) ? "" : inputValidClass)"
+               data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.AddressEmptyField, Model.Item, new { DisableWebEdit = true })"
+               maxlength="44" data-rule-maxlength="44"
+               data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.AddressCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-rule-minlength="2"
+               data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.AddressMinimumCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-rule-address="true"
+               data-msg-address="@Html.Sitecore().Field(Templates.Profile.Fields.AddressInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+        <label for="address">@Html.Sitecore().Field(Templates.Profile.Fields.AddressLabel, Model.Item)</label>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages">
+            @if (Model.ErrorsAddress.Contains(ErrorStatusEnum.Required))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.AddressEmptyField, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsAddress.Contains(ErrorStatusEnum.InvalidCharacters))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.AddressInvalidCharacters, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsAddress.Contains(ErrorStatusEnum.Length))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.AddressCharacterLimit, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsAddress.Contains(ErrorStatusEnum.MinLength))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.AddressMinimumCharacterLimit, Model.Item)
+                </div>
+            }
+        </div>
+        @if (Model.HasTooltipAddress)
+        {
+            <div class="floating-info-messages">
+                @Html.Sitecore().Field(Templates.Profile.Fields.AddressTooltip, Model.Item, new { DisableWebEdit = true })
+            </div>
+        }
+    </div>
+</div>
+<div class="floating-section">
+    <div class="floating-group">
+        <input id="city" name="city" value="@Model.City" type="text" placeholder="City" required="required"
+               class="@(string.IsNullOrEmpty(Model.City) ? "" : inputValidClass)"
+               data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.CityEmptyField, Model.Item, new { DisableWebEdit = true })"
+               maxlength="44" data-rule-maxlength="44"
+               data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.CityCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-rule-minlength="2"
+               data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.CityMinimumCharacterLimit, Model.Item, new { DisableWebEdit = true })"
+               data-rule-alphanumber="true"
+               data-msg-alphanumber="@Html.Sitecore().Field(Templates.Profile.Fields.CityInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+        <label for="city">City</label>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages">
+            @if (Model.ErrorsCity.Contains(ErrorStatusEnum.Required))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.CityEmptyField, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsCity.Contains(ErrorStatusEnum.InvalidCharacters))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.CityInvalidCharacters, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsCity.Contains(ErrorStatusEnum.Length))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.CityCharacterLimit, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsCity.Contains(ErrorStatusEnum.MinLength))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.CityMinimumCharacterLimit, Model.Item)
+                </div>
+            }
+        </div>
+        @if (Model.HasTooltipCity)
+        {
+            <div class="floating-info-messages">
+                @Html.Sitecore().Field(Templates.Profile.Fields.CityTooltip, Model.Item, new { DisableWebEdit = true })
+            </div>
+        }
+    </div>
+</div>
+<div class="floating-section">
+    <div class="floating-group">
+        <select id="state" name="state" onclick="this.setAttribute('value', this.value);"
+                class="@(string.IsNullOrEmpty(Model.State) ? "" : inputValidClass)"
+                onchange="this.setAttribute('value', this.value);" required="required"
+                value="@(string.IsNullOrEmpty(Model.State) ? "" : Model.State)"
+                data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.StateEmptyField, Model.Item, new { DisableWebEdit = true })">
+            <option value="">Select an option...</option>
+            @foreach (var selectItem in Model.StatesList)
+            {
+                if (Model.State == selectItem.Value || selectItem.Selected)
+                {
+                    <option value="@selectItem.Value" selected="selected">@selectItem.Text</option>
+                }
+                else
+                {
+                    <option value="@selectItem.Value">@selectItem.Text</option>
+                }
+            }
+        </select>
+        <label for="state">@Html.Sitecore().Field(Templates.Profile.Fields.StateLabel, Model.Item)</label>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages">
+            @if (Model.ErrorsState.Contains(ErrorStatusEnum.Required))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.StateEmptyField, Model.Item)
+                </div>
+            }
+        </div>
+        @if (Model.HasTooltipState)
+        {
+            <div class="floating-info-messages">
+                @Html.Sitecore().Field(Templates.Profile.Fields.StateTooltip, Model.Item, new { DisableWebEdit = true })
+            </div>
+        }
+    </div>
+</div>
+<div class="floating-section">
+    <div class="floating-group">
+        <input id="zip" name="zip" value="@Model.Zip" type="text" placeholder="ZIP" required="required"
+               class="@(string.IsNullOrEmpty(Model.Zip) ? "" : inputValidClass)"
+               data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.ZipEmptyField, Model.Item, new { DisableWebEdit = true })"
+               data-rule-minlength="5"
+               data-msg-minlength="@Html.Sitecore().Field(Templates.Profile.Fields.ZipCharacterLimit, Model.Item, new {bDisableWebEdit = true })"
+               data-rule-maxlength="5"
+               data-msg-maxlength="@Html.Sitecore().Field(Templates.Profile.Fields.ZipCharacterLimit, Model.Item, new {bDisableWebEdit = true })"
+               data-msg="@Html.Sitecore().Field(Templates.Profile.Fields.ZipInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+        <label for="zip">@Html.Sitecore().Field(Templates.Profile.Fields.ZipLabel, Model.Item)</label>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages">
+            @if (Model.ErrorsZip.Contains(ErrorStatusEnum.Required))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.ZipEmptyField, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsZip.Contains(ErrorStatusEnum.InvalidCharacters))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.ZipInvalidCharacters, Model.Item)
+                </div>
+            }
+            @if (Model.ErrorsZip.Contains(ErrorStatusEnum.Length))
+            {
+                <div class="server-error">
+                    @Html.Sitecore().Field(Templates.Profile.Fields.ZipCharacterLimit, Model.Item)
+                </div>
+            }
+        </div>
+        @if (Model.HasTooltipZip)
+        {
+            <div class="floating-info-messages">
+                @Html.Sitecore().Field(Templates.Profile.Fields.ZipTooltip, Model.Item, new { DisableWebEdit = true })
+            </div>
+        }
+    </div>
+</div>
+<div class="floating-section">
+    <div class="floating-group full-date">
+        <div class="date-group">
+            <input id="month" name="month" value="@Model.Month" type="text" placeholder="MM" required="required"
+                   class="@(string.IsNullOrEmpty(Model.Month) ? "" : inputValidClass)"
+                   data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item, new { DisableWebEdit = true })" data-rule-range="[1, 12]" />
+            <label for="month">Month</label>
+        </div>
+        <div class="date-group">
+            <input id="day" name="day" value="@Model.Day" type="text" placeholder="DD" required="required"
+                   class="@(string.IsNullOrEmpty(Model.Day) ? "" : inputValidClass)"
+                   data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item, new { DisableWebEdit = true })" data-rule-range="[1, 31]" />
+            <label for="day">Day</label>
+        </div>
+        <div class="date-group">
+            <input id="year" name="year" value="@Model.Year" type="text" placeholder="YYYY" required="required"
+                   class="@(string.IsNullOrEmpty(Model.Year) ? "" : inputValidClass)"
+                   data-msg-required="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateEmptyField, Model.Item, new { DisableWebEdit = true })"
+                   data-rule-range="[@startYear, @endYear]"
+                   data-msg-range="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateAgeRequirement, Model.Item, new { DisableWebEdit = true })"
+                   data-msg-isValidDate="@Html.Sitecore().Field(Templates.Profile.Fields.BirthDateInvalidDOB, Model.Item, new { DisableWebEdit = true })" />
+            <label for="year">Year</label>
+        </div>
+    </div>
+    <div class="floating-messages">
+        <div class="floating-error-messages"></div>
+    </div>
+</div>
+
+<input type="hidden" name="NewcellParam" value="@Model.NewcellParam" data-abide-ignore />
+<input type="hidden" name="OldcellParam" value="@Model.OldcellParam" data-abide-ignore />
+<input type="hidden" name="MsrNameParam" value="@Model.MsrNameParam" data-abide-ignore />
+<input type="hidden" name="isFormPassword" value="0" data-abide-ignore />		

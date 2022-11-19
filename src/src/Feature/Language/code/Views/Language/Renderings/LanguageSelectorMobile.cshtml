@@ -1,0 +1,28 @@
+﻿@model Neambc.Seiumb.Feature.Language.Models.LanguageList
+
+@{
+    var activeLanguage = Model.ActiveLanguage;
+    var languages = Model.Languages;
+    if (languages.Count <= 1)
+    {
+        return;
+    }
+}
+
+<span id="lang_mobile">
+    @foreach (var language in languages)
+    {
+        var cssClass = "";
+        var currentLanguage = "en";
+
+        if (activeLanguage != null)
+        {
+            cssClass = language.TwoLetterCode == activeLanguage.TwoLetterCode ? "active" : "";
+            currentLanguage = activeLanguage.Name;
+        }
+
+        <a class="@cssClass" id="@language.NativeName" href="@language.Url"
+           onclick="SwitchToLanguage('@language.Name', '@currentLanguage', '@language.RedirectUrl');
+           @language.OnClickGTMContent">@language.NativeName</a>
+        }
+</span>

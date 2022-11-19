@@ -1,0 +1,433 @@
+﻿---
+ID: "73274cf5-d185-4ff9-9b0d-95e95c20b28b"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Accident and Injury Insurance Plan card
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T152920Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" alt="Mother and daughter in doctor's office" height="" width="" hspace="" vspace="" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accident &amp; Injury Insurance Plan</h3>
+        </div>
+        <p>Affordable insurance coverage for non-medical and medical expenses in the case of an accidental injury.</p>
+        <ul>
+            <li>Acceptance is guaranteed</li>
+            <li>You can help defray out-of-pocket medical and non-medical costs that arise from an unexpected accident</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210119T154447Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" alt="Mother and daughter in doctor's office" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210119T154447Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accident &amp; Injury Insurance Plan</h3>
+        </div>
+        <p>Affordable insurance coverage for non-medical and medical expenses in the case of an accidental injury.</p>
+        <ul>
+            <li>Acceptance is guaranteed</li>
+            <li>You can help defray out-of-pocket medical and non-medical costs that arise from an unexpected accident</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210120T150725Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" alt="Mother and daughter in doctor's office" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210120T150725Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accident &amp; Injury Insurance Plan</h3>
+        </div>
+        <p>Did you know...Over 18% of emergency room visits in 2016 were attributable to accidental injuries, with over 20% of those sustained by children under the age of 15.</p>
+        <p>Affordable insurance coverage for non-medical and medical expenses in the case of an accidental injury.</p>
+        <ul>
+            <li>Acceptance is guaranteed</li>
+            <li>You can help defray out-of-pocket medical and non-medical costs that arise from an unexpected accident</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210120T151013Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" alt="Mother and daughter in doctor's office" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210120T151013Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accident &amp; Injury Insurance Plan</h3>
+        </div>
+        <p>Affordable insurance coverage for non-medical and medical expenses in the case of an accidental injury.</p>
+        <p>Over 18% of emergency room visits in 2016 were attributable to accidental injuries, with over 20% of those sustained by children under the age of 15.</p>
+        <ul>
+            <li>Acceptance is guaranteed</li>
+            <li>You can help defray out-of-pocket medical and non-medical costs that arise from an unexpected accident</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T230518Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" alt="Mother and daughter in doctor's office" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T230518Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accident &amp; Injury Insurance Plan</h3>
+        </div>
+        <p><strong>An Accident coverage issued by The Prudential Insurance Company of America</strong></p>
+        <p>Affordable insurance coverage for non-medical and medical expenses in the case of an accidental injury.</p>
+        <p>Over 18% of emergency room visits in 2016 were attributable to accidental injuries, with over 20% of those sustained by children under the age of 15.<sup>2</sup></p>
+        <ul>
+            <li>Acceptance is guaranteed</li>
+            <li>You can help defray out-of-pocket medical and non-medical costs that arise from an unexpected accident</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 6
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210219T212305Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" alt="Mother and daughter in doctor's office" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210219T212305Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accident &amp; Injury Insurance Plan</h3>
+        </div>
+        <p><strong>an Accident coverage issued by The Prudential Insurance Company of America.</strong></p>
+        <p>Affordable insurance coverage for non-medical and medical expenses in the case of an accidental injury.</p>
+        <p>Over 18% of emergency room visits in 2016 were attributable to accidental injuries, with over 20% of those sustained by children under the age of 15.<sup>2</sup></p>
+        <ul>
+            <li>Acceptance is guaranteed</li>
+            <li>You can help defray out-of-pocket medical and non-medical costs that arise from an unexpected accident</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+  - Version: 7
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T200416Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: INSURANCE
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" alt="Mother and daughter in doctor's office" height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T200416Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>SEIU Accident &amp; Injury Insurance Plan</h3>
+        </div>
+        <p><strong>an Accident coverage issued by The Prudential Insurance Company of America.</strong></p>
+        <p>Affordable insurance coverage for non-medical and medical expenses in the case of an accidental injury.</p>
+        <p>Over 18% of emergency room visits in 2016 were attributable to accidental injuries, with over 20% of those sustained by children under the age of 15.<sup>2</sup></p>
+        <ul>
+            <li>Acceptance is guaranteed</li>
+            <li>You can help defray out-of-pocket medical and non-medical costs that arise from an unexpected accident</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">LEARN MORE</a></div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T200437Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{389AAEAB-F5E6-487A-B4E5-4BA7A218E15A}" />
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro por accidentes y lesiones SEIU</h3>
+        </div>
+        <p><strong>una cobertura por accidentes emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Seguro accesible que cubre gastos no m&eacute;dicos y m&eacute;dicos en caso de una lesi&oacute;n accidental.</p>
+        <p>M&aacute;s del 18% de las visitas a las salas de emergencias en 2016 se atribuyeron a lesiones accidentales, donde m&aacute;s del 20% de las mismas fueron sufridas por ni&ntilde;os menores de 15 a&ntilde;os.<sup>2</sup></p>
+        <ul>
+            <li>La aceptaci&oacute;n est&aacute; garantizada.</li>
+            <li>Puede ayudar a costear los gastos de bolsillo m&eacute;dicos y no m&eacute;dicos que surgen con un accidente inesperado.</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210224T201631Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210224T201631Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro por accidentes y lesiones SEIU</h3>
+        </div>
+        <p><strong>una cobertura por accidentes emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Seguro accesible que cubre gastos no médicos y médicos en caso de una lesión accidental.</p>
+        <p>Más del 18% de las visitas a las salas de emergencias en 2016 se atribuyeron a lesiones accidentales, donde más del 20% de las mismas fueron sufridas por niños menores de 15 años.<sup>2</sup></p>
+        <ul>
+            <li>La aceptación está garantizada.</li>
+            <li>Puede ayudar a costear los gastos de bolsillo médicos y no médicos que surgen con un accidente inesperado.</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">APRENDE MÁS</a></div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7F22CAA7-910D-4676-9C6E-13DA09EC651C}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210226T143547Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: SEGUROS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{BC37BC28-B647-4FC2-8D9B-F30FB3D2C67D}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210226T143547Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3>Plan de seguro por accidentes y lesiones SEIU</h3>
+        </div>
+        <p><strong>Una cobertura por accidentes emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Seguro accesible que cubre gastos no m&eacute;dicos y m&eacute;dicos en caso de una lesi&oacute;n accidental.</p>
+        <p>M&aacute;s del 18% de las visitas a las salas de emergencias en 2016 se atribuyeron a lesiones accidentales, donde m&aacute;s del 20% de las mismas fueron sufridas por ni&ntilde;os menores de 15 a&ntilde;os.<sup>2</sup></p>
+        <ul>
+            <li>La aceptaci&oacute;n est&aacute; garantizada.</li>
+            <li>Puede ayudar a costear los gastos de bolsillo m&eacute;dicos y no m&eacute;dicos que surgen con un accidente inesperado.</li>
+        </ul>
+        <div><a href="~/link.aspx?_id=C21CD5C0521C4792B2EF2CDA29C6F167&amp;_z=z" class="button panelBtn">APRENDE M&Aacute;S</a></div>

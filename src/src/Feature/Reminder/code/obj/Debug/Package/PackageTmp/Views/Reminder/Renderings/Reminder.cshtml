@@ -1,0 +1,62 @@
+﻿@using Neambc.Seiumb.Feature.Reminder
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Foundation.Authentication.Repositories
+@using Neambc.Seiumb.Foundation.Authentication.Constants
+@using Neambc.Seiumb.Foundation.Authentication.Interfaces
+@using Sitecore.DependencyInjection
+
+@model Neambc.Seiumb.Feature.Reminder.Models.ReminderModel
+@{
+    var isExperinceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var className = isExperinceEditor ? "reminderzindex" : "";
+    var userRepository = (IUserRepository)ServiceLocator.ServiceProvider.GetService(typeof(IUserRepository));
+}
+
+<div class="medium-12 large-12 columns float-left">
+    <div id="announce" class="@className">
+        <div class="panel">
+            <div class="panelCategory">
+                <h5>@Html.Sitecore().Field(Templates.Reminder.Fields.Title, Model.Item)</h5>
+            </div>
+            <div>
+                @Html.Sitecore().Field(Templates.Reminder.Fields.Image, Model.Item)
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                @*body*@
+                @Html.Sitecore().Field(Templates.Reminder.Fields.Body, Model.Item)
+                @*bottom*@
+                @Html.Sitecore().Field(Templates.Reminder.Fields.BottomText, Model.Item)
+            </div>
+
+            <div class="fulfillment-button">
+                <form id="reminder-form" method="post" action="" data-abide novalidate>
+
+                    @if (userRepository.GetUserStatus().Equals(UserStatusCons.COLD))
+                    {
+                        <div class="show-for-medium">
+                            <a class="button panelBtn" data-open="loginModal">@Html.Sitecore().Field(Templates.Reminder.Fields.AnonimousUser, Model.Item)</a>
+                        </div>
+                        <div class="show-for-small-only">
+                            <a class="button panelBtn" href="/Login Mobile">@Html.Sitecore().Field(Templates.Reminder.Fields.AnonimousUser, Model.Item)</a>
+                        </div>
+                    }
+                    else
+                    {
+                        if (Model.HaveRequested)
+                        {
+                            <input id="reminderSet" disabled="disabled" type="button" value="@Html.Sitecore().Field(Templates.Reminder.Fields.EnrolledUser, Model.Item)" name="reminder-set" class="button panelBtn" />
+                        }
+                        else
+                        {
+                            <input id="sendReminder" type="submit" value="@Html.Sitecore().Field(Templates.Reminder.Fields.AuthenticatedUser, Model.Item)" class="button panelBtn" />
+                        }
+                    }
+
+                    <input type="hidden" name="fhController" value="ReminderController" data-abide-ignore />
+                    <input type="hidden" name="fhAction" value="Reminder" data-abide-ignore />
+                </form>
+            </div>            
+        </div>
+    </div>
+</div>

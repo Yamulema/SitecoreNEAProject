@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\neamb10sc.dev.local</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Views/Forms/DuplicateRegistrationForm.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Forms/ForgotPassword.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Forms/ForgotUserName.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/LoginBanner.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/LoginForm.cshtml">
+      <publishTime>04/07/2022 11:59:39</publishTime>
+    </File>
+    <File Include="Views/Forms/LoginHelp.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/LoginMobileForm.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Forms/PassThroughAuthenticationForm.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Forms/PasswordDisavow.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/PasswordForm.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Forms/ProfileForm.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Forms/RegistrationBanner.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/RegistrationForm.cshtml">
+      <publishTime>06/22/2022 15:58:03</publishTime>
+    </File>
+    <File Include="Views/Forms/ResetPassword.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/SessionModal.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/Tabs.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+    <File Include="Views/Forms/Unsubscribe.cshtml">
+      <publishTime>09/20/2021 12:51:26</publishTime>
+    </File>
+    <File Include="Views/Forms/UsernameForm.cshtml">
+      <publishTime>04/08/2022 13:34:14</publishTime>
+    </File>
+    <File Include="Views/Forms/ZipCodeValidationForm.cshtml">
+      <publishTime>09/20/2021 12:54:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

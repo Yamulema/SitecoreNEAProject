@@ -1,0 +1,21 @@
+﻿---
+ID: "940f1593-7bd1-47bc-adc5-3e71f6e3648d"
+Parent: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Card Item/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200619T000612Z

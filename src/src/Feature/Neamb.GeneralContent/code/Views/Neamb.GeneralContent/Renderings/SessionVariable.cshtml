@@ -1,0 +1,30 @@
+﻿@using System.Activities
+@using Neambc.Neamb.Feature.GeneralContent
+@using Neambc.Neamb.Foundation.Cache.Managers;
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.SessionVariableDTO
+
+@{
+    bool isPreviewMode = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+}
+
+@if (isPreviewMode)
+{
+    <div style="width: 30%;margin: 20px;padding: 20px;">
+        <p>Session Variables:</p>
+        <table style="width: 200px">
+            <tr>
+                <th>Variable Name</th>
+                <th>Value</th>
+            </tr>
+            @foreach (var SessionVariable in Model.SessionVariableDictionary)
+            {
+                <tr>
+                    <td>@SessionVariable.Key</td>
+                    <td>@SessionVariable.Value</td>
+                </tr>
+            }
+        </table>
+    </div>
+}

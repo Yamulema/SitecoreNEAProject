@@ -1,0 +1,81 @@
+﻿---
+ID: "8c345ba1-253a-4815-a9fc-14d4f583025f"
+Parent: "71219c33-11d5-4d92-868b-34f0c6c1e953"
+Template: "5c7f5cf5-24ee-48d0-926e-e053ef627e37"
+Path: /sitecore/content/NEAMBC/Global/Help
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171120T230130Z
+    - ID: "5fc898af-82c4-4c90-b42c-cf3fc98163d3"
+      Hint: HelpSectionContent
+      Value: |
+        Need Help? <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        <div class="menu contactmenu">
+        <a href="mailto:ask-us@seiumb.com" class="icon-email1"></a>
+        <a href="tel:+18448367348" class="icon-call"></a>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T215049Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\editor
+    - ID: "5fc898af-82c4-4c90-b42c-cf3fc98163d3"
+      Hint: HelpSectionContent
+      Value: |
+        Need Help? <a onclick="dataLayerPush({'event':'navigation','navType':'contact us','navText':'Contact Us'},this);" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        <div class="menu contactmenu">
+        <a onclick="dataLayerPush({'event':'navigation','navType':'contact us','navText':'Contact Us'},this);" href="mailto:ask-us@seiumb.com" class="icon-email1"></a>
+        <a onclick="dataLayerPush({'event':'navigation','navType':'contact us','navText':'Contact Us'},this);" href="tel:+18448367348" class="icon-call"></a>
+        </div>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T215049Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T194826Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5fc898af-82c4-4c90-b42c-cf3fc98163d3"
+      Hint: HelpSectionContent
+      Value: |
+        ¿necesita ayuda? <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contáctenos</a>
+        <div class="menu contactmenu">
+        <a href="mailto:ask-us@seiumb.com" class="icon-email1"></a>
+        <a href="tel:+18448367348" class="icon-call"></a>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T215219Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\editor
+    - ID: "5fc898af-82c4-4c90-b42c-cf3fc98163d3"
+      Hint: HelpSectionContent
+      Value: |
+        ¿necesita ayuda? <a onclick="dataLayerPush({'event':'navigation','navType':'contáctenos','navText':'Contact Us'},this);" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contáctenos</a>
+        <div class="menu contactmenu">
+        <a <a onclick="dataLayerPush({'event':'navigation','navType':'contáctenos','navText':'Contact Us'},this);" href="mailto:ask-us@seiumb.com" class="icon-email1"></a>
+        <a <a onclick="dataLayerPush({'event':'navigation','navType':'contáctenos','navText':'Contact Us'},this);" href="tel:+18448367348" class="icon-call"></a>
+        </div>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T215219Z

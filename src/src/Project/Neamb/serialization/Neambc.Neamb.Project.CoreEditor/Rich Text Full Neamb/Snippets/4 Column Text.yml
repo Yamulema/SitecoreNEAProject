@@ -1,0 +1,54 @@
+﻿---
+ID: "dec20f01-4565-4d86-bdfb-8a2ebe0be71c"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/4 Column Text
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal c-001-4-column-text bg-white">
+            <div class="container">
+                <div class="row">
+                        <div class="col-xs-12 title-4-column">
+                            <h4>Why open a Self-guided Retirement Account?</h4>
+                        </div>
+                    <div class="col-md-3 col-xs-12 text-4-column">
+                        <h6>Automate your savings</h6>
+                        <hr class="solid">
+                        <p>Set a schedule and create a routine that will help you consistently contribute to your accounts, big or small.</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12 text-4-column">
+                        <h6>Choose your investment limit</h6>
+                        <hr class="solid">
+                        <p>Customize how much or how little you prefer to invest based on your current salary, life-events or changes in long-term plans.</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12 text-4-column">
+                        <h6>Save pre-tax or post-tax</h6>
+                        <hr class="solid">
+                        <p>Depending on which programs you choose to enroll in,, choose between pay tax up front or down the line.</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12 text-4-column">
+                        <h6>Mutual and Index funds</h6>
+                        <hr class="solid">
+                        <p>Whether you prefer passive or active management, or a combination of both, quickly put your investments to work.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: 4 Column Text

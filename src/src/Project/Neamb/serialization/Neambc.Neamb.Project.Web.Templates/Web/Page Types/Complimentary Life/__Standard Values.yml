@@ -1,0 +1,261 @@
+﻿---
+ID: "ad27face-02ac-41e8-ae9e-619c4926dc31"
+Parent: "4024656e-e4f5-4033-b221-9858409e3a89"
+Template: "4024656e-e4f5-4033-b221-9858409e3a89"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Complimentary Life/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B45C486E-19C8-4094-9E8C-460515F1149E}
+    {34EF1B47-54FF-4232-A5A4-A2DCBD4A3379}
+    {E609611B-8426-4B86-9124-F9112D28097D}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{A39921A3-FFCB-4BC9-91B3-357EC9E805FC}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{FA9FD219-5736-470B-A4B0-087C576E24DD}" />
+        <r
+          id="{E66E5355-000E-4689-95D0-F6B007D1357F}"
+          ph="body"
+          uid="{AF0469B2-E803-4F30-AED6-3FB969D3EAF1}" />
+        <r
+          id="{A7DA7F9A-3BDF-4115-AA90-3B80B8D03279}"
+          ph="body"
+          uid="{C6FF9E53-8788-4364-A268-29655224CB86}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{D138A851-4805-4D39-BD88-C760386CC5CF}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{8DA59A16-959C-4E09-BF85-2B259D25BAB9}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{2234F092-7A03-4A47-B8FD-0B5BD80FE5CA}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{CC15CAFF-64D6-4C44-9CCD-C2DC29935138}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01ab13d5-b4f1-4491-9bbf-1ad9dbb6cf31"
+      Hint: Add
+      Value: Add
+    - ID: "05537a3a-34cd-4a46-bb8e-61b990a62a75"
+      Hint: Intro Life Title
+      Value:  Introductory Life Insurance
+    - ID: "0774936f-cd4d-41d1-92a9-46b0c00cf6f8"
+      Hint: Payout Zeroed
+      Value: Payout for a beneficiary can not be 0.
+    - ID: "0a7893d9-4513-4870-a989-f8c5113d967b"
+      Hint: Children Birth Year Not Selected
+      Value: Please select a birth year.
+    - ID: "0d1fc27e-04db-4b89-9510-7fbd65f55d29"
+      Hint: Gender Values
+      Type: Multilist
+      Value: |
+        {12D4F35B-555A-4820-BC14-0A87E92F73D0}
+        {2FD4E95A-06AC-4EA1-A28D-BB89111C83E3}
+    - ID: "0d2f0115-3e01-42e9-bbc4-207b32350ab9"
+      Hint: Marital Status Label
+      Value: Marital Status
+    - ID: "11af567a-a908-424e-922c-373f852200b9"
+      Hint: Comp Life Header
+      Value: Register NEA Complimentary Life Insurance from NEA Members Trust. Please fill out the form completely. You can return to this form anytime to update your beneficiary information.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180618T173305Z
+    - ID: "271df272-89e4-40f3-8cfa-45844238d061"
+      Hint: Save
+      Value: Save
+    - ID: "324f6724-31e2-49ea-9d09-017b4b78d01e"
+      Hint: Major Wage Earner Values
+      Type: Multilist
+      Value: |
+        {1DEB4CD4-6B08-4597-9C6D-E99C37991522}
+        {25FDCFA0-0DC3-459C-8685-02E80ACF37EB}
+        {CF00F81A-FC12-4215-9BD9-264CED81FF69}
+    - ID: "3c184cb8-8b49-4fdc-9573-8d68bf439ce4"
+      Hint: Anonymous User
+      Value: You must sign in to view this page
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5fb74c2c-ee52-47ac-a8f2-97f368ba0ff1"
+      Hint: Payout Invalid
+      Value: "The total percentage is []. It should be 100."
+    - ID: "68db2863-2c66-4d36-9a4c-0e758b58258e"
+      Hint: Gender Label
+      Value: Gender
+    - ID: "6ae0bdd0-728a-4262-b4e9-23b589eaf7b7"
+      Hint: Family Income Label
+      Value: Family Income
+    - ID: "76298312-c813-4a6c-99e4-77505b6f85b0"
+      Hint: Housing Label
+      Value: Housing
+    - ID: "78ece4ec-424f-43a9-8204-19e910b4d202"
+      Hint: Number of Children Values
+      Type: Multilist
+      Value: |
+        {EBFE1EAC-777D-4A1D-8C2A-EEC7BD86237B}
+        {C5BC8D03-CF29-40F8-A0C0-5A65C4029A88}
+        {3CBA83D2-E66B-47CC-904A-A2D309356DCA}
+        {75AF4414-787F-42B4-A77F-8B1B273023D1}
+        {EE1F91FE-014E-41E1-A497-6CA104020871}
+    - ID: "7add69e8-b095-47ef-83a1-825a8cbade4d"
+      Hint: Payout Left
+      Value: |
+        Total payout percentage <span id="TotalPercent"></span> out of 100
+    - ID: "820b4f82-af76-459d-b7de-00e6185894bf"
+      Hint: Default Header
+      Value: |
+        According to our records, you last updated your NEA Complimentary Life Insurance and NEA Introductory Term Life Insurance registration on []. Please confirm that the below information is accurate.
+        
+    - ID: "8e566f00-9f28-419b-9281-a65476ae1c8d"
+      Hint: Children Birth Year Label
+      Value: Children Birth Year
+    - ID: "8ff92133-7fd1-4eaa-9eb7-b48cc30dfb96"
+      Hint: Employment Label
+      Value: Employment
+    - ID: "96e7334d-e7dc-4e83-8c9f-a1eeeec7fb27"
+      Hint: Housing Values
+      Type: Multilist
+      Value: |
+        {A82A5C7D-4551-4ADD-9A8D-F5D882444AB8}
+        {B95E9DD2-75D5-42BD-BFA9-5023012672A5}
+        {63ADB10A-286E-4252-9399-FBE5D4D80F29}
+        {4597165D-9CE7-4440-9A41-FAA130B67CF5}
+        {96B2B59B-172A-4632-9FCC-C41490E3C25A}
+        {F193AE85-2860-4DBF-8A92-33FB9F4183CF}
+    - ID: "9b525d2b-ab80-4be0-bbaa-12bff7b82420"
+      Hint: Spouse Employment Values
+      Type: Multilist
+      Value: |
+        {B8A0C9E7-2513-4ED5-B166-1677B0470131}
+        {5824257B-ED11-4309-ABA9-5ECBDDB308EC}
+        {52A14FA4-82BA-4F1F-B6E4-CFD0F2F42C81}
+        {E1BF1C25-A8C8-43D1-94B9-FEFD934DC114}
+        {DF2FFE1C-C325-44D7-A8B5-E44516E6BCBD}
+        {31B5D517-7875-4424-8D0D-64A91AC38959}
+        {8CEFA818-8299-4F1D-8DFA-08F99A08DEE6}
+        {B14A1615-EDFF-440C-AEB1-01E3B57656D6}
+        {4EF4EAB9-3B3F-4DC2-9DFC-686565FC8635}
+        {7FD81700-0514-4406-BBF5-5A632D9C685F}
+        {C8EEE880-6C6A-41B2-BD01-F59097F08A55}
+    - ID: "9ec08d30-3368-4926-bc88-69af8e22c669"
+      Hint: Marital Status Values
+      Type: Multilist
+      Value: |
+        {376E111B-74CF-4E8D-9B76-5F94DAA29668}
+        {5211481A-C150-4460-8EB0-31032613293F}
+        {626E6207-5103-46A2-A658-EBF0BA75D79B}
+        {B2F60647-2860-4DB9-82D6-39DDED2B32A8}
+        {4C08482B-9E79-4FB3-92D5-0D4C39586C34}
+        {FAD113DA-E5A2-441B-AB06-94D31226B5CB}
+        {FFA51895-3ED1-4BBA-80BA-FAE2EEDFBB01}
+    - ID: "a2f178c2-7325-42c9-97a9-fc8663ace1b2"
+      Hint: Major Wage Earner Label
+      Value: Major Wage Earner
+    - ID: "a436f985-584d-4f54-ad09-b9abbe6e7a00"
+      Hint: Notification
+      Value: Sorry. It looks like you are not eligible for Complimentary Life Insurance
+    - ID: "a4a2922a-459f-45ee-a0a7-c5d8e9becef7"
+      Hint: Eligibility Details
+      Value: We're sorry, it looks like you are not eligible for Complimentary Life Insurance. If you believe you are eligible for this program please contact us
+    - ID: "a765d532-fcf9-4d2c-b99b-639ce159247c"
+      Hint: Family Income Values
+      Type: Multilist
+      Value: |
+        {FD69070D-AAEA-47A3-AA19-06D5A4BB45E1}
+        {28E75A2E-1F3F-4F5E-9407-0BB06050A852}
+        {2BD1D52A-2445-4E88-95BC-74CA6C21D938}
+        {CBDB2E3D-7C6D-48D6-B08A-30E761DDC3CD}
+        {2884F75A-525B-48BA-9963-FA0DB08E85E3}
+        {D92A5704-F82E-45DB-8B98-983985C05DA6}
+        {1FA02940-F899-4BEB-A44E-D7EBBAF428CA}
+        {BA6AE89F-BDB5-4041-9C30-E4D090ACE072}
+        {3DF6052D-8CB4-4CF4-803E-1C1D8138C973}
+        {B9D7BC18-5C48-4300-81CF-C35BAFB81870}
+    - ID: "baba881b-92ae-4025-9472-7b03a34577c3"
+      Hint: Intro Life Header
+      Value: Register NEA Complimentary Life Insurance and NEA Introductory Term Life Insurance from NEA Members Trust. Please fill out the form completely. You can return to this form anytime to update your beneficiary information.
+    - ID: "c75e442c-1c5a-49e1-a3e9-ddf8938d31eb"
+      Hint: Headline
+      Value: Beneficiaries
+    - ID: "cd0b7053-db5b-4bd7-ae02-f6f85e4306e5"
+      Hint: Edit
+      Value: Edit/Update
+    - ID: "cfb3b54e-8fb0-4933-9113-9466a7031fab"
+      Hint: Number of Children Label
+      Value: Number of Children
+    - ID: "f3ec2f21-5085-46dc-8d64-46380b80d502"
+      Hint: Employment Values
+      Type: Multilist
+      Value: |
+        {F81C2614-F92A-4CBB-B9C3-09F23D798126}
+        {39AA5C05-81E8-4C36-B819-527AE4C46EDE}
+        {54B2D9F2-F0CB-4B8E-9850-A6C7872B76D6}
+        {9652308E-DE35-4D1C-ACA7-C15BFA2C1C58}
+        {7DEE746E-EABD-4842-93D8-A37483FFE220}
+        {A732AFEF-E72E-452E-9A47-D6CE3730C0E7}
+        {DB5A1ECF-C223-4E46-9472-76214670E9C3}
+        {D050C395-8FDC-4A7C-AEA2-890D64D5EB2C}
+    - ID: "f7dd0d4c-862c-4e9a-9d1b-0114189bb4c4"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+        <h2 class="header">Thank you for registering for NEA Complimentary Life Insurance / NEA Introductory Life Insurance.</h2>
+        <p>Your registration information will be updated in 24 to 48 hours. In addition to receiving a confirmation email, we&rsquo;ll also mail a Summary Plan Description to your home address.</p>
+        <div class="col-md-5 col-centered">Return to Comp Life Insurance<br>
+        Return to Homepage</div>
+        </div>
+        <div class="modal-footer">
+        <div class="col-md-6">
+        <p>Connect with us, and members like you </p>
+        </div>
+        <div class="col-md-6">
+        <div class="share"><a rel="noopener noreferrer" href="https://www.facebook.com/NEAMemberBenefits/" target="_blank"><em aria-hidden="true" class="fa rel="></em></a><a href="https://twitter.com/NEABenefits" target="_blank"><em rel="noopener noreferrer" aria-hidden="true" class="fa fa-twitter"></em></a><a rel="noopener noreferrer" href="https://www.linkedin.com/company/nea-member-benefits" target="_blank"><em aria-hidden="true" class="fa fa-linkedin"></em></a></div>
+        </div>
+        </div>
+    - ID: "fb798429-3073-4aea-83c4-793f914b1ef0"
+      Hint: Headline
+      Value: Your Information
+    - ID: "fd99b961-7eff-4b0b-ad8c-a8f3beb045c2"
+      Hint: Spouse Employment Label
+      Value: Spouse Employment
+    - ID: "fdcbdc2b-40bd-40da-901f-27a25f5dd67a"
+      Hint: Headline
+      Value: More About You

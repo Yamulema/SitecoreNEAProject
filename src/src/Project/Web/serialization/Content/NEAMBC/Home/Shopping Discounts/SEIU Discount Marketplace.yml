@@ -1,0 +1,3389 @@
+﻿---
+ID: "13ab83b3-0875-44fe-99ae-1f875292d434"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "7960d6f0-09c8-451f-abb5-6e36761009ae"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU Discount Marketplace
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "86fe4f77-4d9a-4ec3-9ed9-263d03bd1965"
+  Hint: __Publish
+  Value: 20210721T142000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CB756641-A25B-46F6-B0AD-2083EA5E4462}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{146CB30A-0F27-43FD-AB7A-C897C0C8D298}"
+              p:after="r[@uid='{CB756641-A25B-46F6-B0AD-2083EA5E4462}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7D54355A-D316-416B-8C1F-F2B7422DF987}"
+              p:after="r[@uid='{146CB30A-0F27-43FD-AB7A-C897C0C8D298}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{54AAC61A-020D-454E-99CB-2D87B580C3FE}"
+              p:after="r[@uid='{7D54355A-D316-416B-8C1F-F2B7422DF987}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{E75307AF-660F-4C70-8978-24274306C9E6}"
+              p:after="r[@uid='{54AAC61A-020D-454E-99CB-2D87B580C3FE}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{23CAC95E-4DBB-4366-A201-2530B7747C69}"
+              p:after="r[@uid='{E75307AF-660F-4C70-8978-24274306C9E6}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{31148C63-364A-4097-9825-0F89BE93F146}"
+              p:after="r[@uid='{23CAC95E-4DBB-4366-A201-2530B7747C69}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{B68778C4-188F-45F2-8164-A4642A597046}"
+              p:after="r[@uid='{31148C63-364A-4097-9825-0F89BE93F146}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{DE05B806-C8BF-465C-99FB-3F109891494C}"
+              p:after="r[@uid='{B68778C4-188F-45F2-8164-A4642A597046}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}"
+              p:after="r[@uid='{DE05B806-C8BF-465C-99FB-3F109891494C}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7323AF31-DC38-42B7-8014-C59F7DECB8D3}"
+              p:after="r[@uid='{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{AE666A03-9F8B-4BD0-A437-9A759AA5BF6B}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{E611BB1B-6D92-49AA-83FB-23F5C037CCBF}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="9B2A8447CE3F40EEB1FD2FD7018F6808"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="70F9A2BF1FA9425AA8554AB230DF0928"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="BA2047F59C924A1DA4F9D4CC13B115C1"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8B77253E43164DA8B5E3242CF4236640"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{B5A9661F-FAAB-441C-9848-3C0662F46968}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{B7E02956-5A38-41DA-B085-CA9BB6BBC141}"
+              p:after="r[@uid='{B5A9661F-FAAB-441C-9848-3C0662F46968}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        			<h2>SEIU Member Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/1ccbdd29831b4dfe95aa02fa101a9fd6.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/30a128ee2d7f404b9ab1801eb410fcdc.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/fdf5aca3fbd84d769ff6ce4baf4a65a1.ashx"  alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/3286de8d73c64e0e8e69a14b63eb5e10.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/493c6bff78ea4c83971d06cf7dec1f23.ashx" alt="">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" alt="SEIUMB Marketplace" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {2DF24E8C-5E4A-444C-A95B-74BAE8A52A54}
+        {8A3A21A7-A9B2-4F28-848E-7667245FE565}
+        {58FFC4CD-16E7-472C-B79D-1699B1C146D9}
+        {0700E19E-FA0E-4F80-B1C5-21B309DD130D}
+        {9F959014-B705-49E5-80F6-EE96DE1B3BD2}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Find the best discounts and get exclusive cash back on your favorite name-brand products. Shop deals from over 2,500 top retailers, online stores, local restaurants and more—all in one place!"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discounts Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201126T021647Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+                             <div class="row get-started">
+                                 <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+                                 <div class="steps carousel">
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">1</div>
+                                         <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">2</div>
+                                         <p>Sign Up for a Rakuten account through SEIUMB.com.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">3</div>
+                                         <p>Earn Cash Back on qualifying purchases.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">4</div>
+                                         <p>Get paid via PayPal or by check.</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ycontreras
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="Already have a Rakuten account? Other questions? See our FAQs" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': 'Already have a Rakuten account? Other questions? See our FAQs' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: See More Cash Back Offers
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>NEW!</strong> Find the best discounts and get exclusive cash back on your favorite name-brand products.  Shop deals from over 2,500 top retailers, online stores, local restaurants and more&mdash;all in one place!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Cash Back powered by <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Exclusive Deals for SEIU Members
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: By activating you will create a Rakuten account with this email address and agree to SEIU Member Benefits&rsquo; Privacy Policy and to Rakuten&rsquo;s Terms &amp; Conditions and Privacy Policy.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CB756641-A25B-46F6-B0AD-2083EA5E4462}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{146CB30A-0F27-43FD-AB7A-C897C0C8D298}"
+              p:after="r[@uid='{CB756641-A25B-46F6-B0AD-2083EA5E4462}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7D54355A-D316-416B-8C1F-F2B7422DF987}"
+              p:after="r[@uid='{146CB30A-0F27-43FD-AB7A-C897C0C8D298}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{54AAC61A-020D-454E-99CB-2D87B580C3FE}"
+              p:after="r[@uid='{7D54355A-D316-416B-8C1F-F2B7422DF987}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{E75307AF-660F-4C70-8978-24274306C9E6}"
+              p:after="r[@uid='{54AAC61A-020D-454E-99CB-2D87B580C3FE}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{23CAC95E-4DBB-4366-A201-2530B7747C69}"
+              p:after="r[@uid='{E75307AF-660F-4C70-8978-24274306C9E6}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{31148C63-364A-4097-9825-0F89BE93F146}"
+              p:after="r[@uid='{23CAC95E-4DBB-4366-A201-2530B7747C69}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{B68778C4-188F-45F2-8164-A4642A597046}"
+              p:after="r[@uid='{31148C63-364A-4097-9825-0F89BE93F146}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{DE05B806-C8BF-465C-99FB-3F109891494C}"
+              p:after="r[@uid='{B68778C4-188F-45F2-8164-A4642A597046}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}"
+              p:after="r[@uid='{DE05B806-C8BF-465C-99FB-3F109891494C}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7323AF31-DC38-42B7-8014-C59F7DECB8D3}"
+              p:after="r[@uid='{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{AE666A03-9F8B-4BD0-A437-9A759AA5BF6B}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{E611BB1B-6D92-49AA-83FB-23F5C037CCBF}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="9B2A8447CE3F40EEB1FD2FD7018F6808"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="70F9A2BF1FA9425AA8554AB230DF0928"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="BA2047F59C924A1DA4F9D4CC13B115C1"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8B77253E43164DA8B5E3242CF4236640"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{B5A9661F-FAAB-441C-9848-3C0662F46968}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{B7E02956-5A38-41DA-B085-CA9BB6BBC141}"
+              p:after="r[@uid='{B5A9661F-FAAB-441C-9848-3C0662F46968}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        			<h2>SEIU Member Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/1ccbdd29831b4dfe95aa02fa101a9fd6.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/30a128ee2d7f404b9ab1801eb410fcdc.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/fdf5aca3fbd84d769ff6ce4baf4a65a1.ashx"  alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/3286de8d73c64e0e8e69a14b63eb5e10.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/493c6bff78ea4c83971d06cf7dec1f23.ashx" alt="">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" alt="SEIUMB Marketplace" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {FA097966-146F-44B6-B0FC-1902F0F3239E}
+        {69A2CA07-364E-430A-8E33-DB132C2DA753}
+        {D095CAC9-41B1-43AE-92CB-42CC4A0AD652}
+        {344ABC21-C32B-4042-8D4E-95A7FD9A2A2A}
+        {B507DC19-B1A2-427B-8A7E-099D38491F5D}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Find the best discounts and get exclusive cash back on your favorite name-brand products. Shop deals from over 2,500 top retailers, online stores, local restaurants and more—all in one place!"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discounts Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210129T190930Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+                             <div class="row get-started">
+                                 <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+                                 <div class="steps carousel">
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">1</div>
+                                         <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">2</div>
+                                         <p>Sign Up for a Rakuten account through SEIUMB.com.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">3</div>
+                                         <p>Earn Cash Back on qualifying purchases.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">4</div>
+                                         <p>Get paid via PayPal or by check.</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dbrensike
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="Already have a Rakuten account? Other questions? See our FAQs" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': 'Already have a Rakuten account? Other questions? See our FAQs' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: See More Cash Back Offers
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>NEW!</strong> Find the best discounts and get exclusive cash back on your favorite name-brand products.  Shop deals from over 2,500 top retailers, online stores, local restaurants and more&mdash;all in one place!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Cash Back powered by <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Exclusive Deals for SEIU Members
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: By activating you will create a Rakuten account with this email address and agree to SEIU Member Benefits&rsquo; Privacy Policy and to Rakuten&rsquo;s Terms &amp; Conditions and Privacy Policy.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210129T190900Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CB756641-A25B-46F6-B0AD-2083EA5E4462}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{146CB30A-0F27-43FD-AB7A-C897C0C8D298}"
+              p:after="r[@uid='{CB756641-A25B-46F6-B0AD-2083EA5E4462}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7D54355A-D316-416B-8C1F-F2B7422DF987}"
+              p:after="r[@uid='{146CB30A-0F27-43FD-AB7A-C897C0C8D298}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{54AAC61A-020D-454E-99CB-2D87B580C3FE}"
+              p:after="r[@uid='{7D54355A-D316-416B-8C1F-F2B7422DF987}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{E75307AF-660F-4C70-8978-24274306C9E6}"
+              p:after="r[@uid='{54AAC61A-020D-454E-99CB-2D87B580C3FE}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{23CAC95E-4DBB-4366-A201-2530B7747C69}"
+              p:after="r[@uid='{E75307AF-660F-4C70-8978-24274306C9E6}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{31148C63-364A-4097-9825-0F89BE93F146}"
+              p:after="r[@uid='{23CAC95E-4DBB-4366-A201-2530B7747C69}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{B68778C4-188F-45F2-8164-A4642A597046}"
+              p:after="r[@uid='{31148C63-364A-4097-9825-0F89BE93F146}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{DE05B806-C8BF-465C-99FB-3F109891494C}"
+              p:after="r[@uid='{B68778C4-188F-45F2-8164-A4642A597046}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}"
+              p:after="r[@uid='{DE05B806-C8BF-465C-99FB-3F109891494C}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7323AF31-DC38-42B7-8014-C59F7DECB8D3}"
+              p:after="r[@uid='{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{AE666A03-9F8B-4BD0-A437-9A759AA5BF6B}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{E611BB1B-6D92-49AA-83FB-23F5C037CCBF}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="9B2A8447CE3F40EEB1FD2FD7018F6808"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="70F9A2BF1FA9425AA8554AB230DF0928"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="BA2047F59C924A1DA4F9D4CC13B115C1"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8B77253E43164DA8B5E3242CF4236640"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{B5A9661F-FAAB-441C-9848-3C0662F46968}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{B7E02956-5A38-41DA-B085-CA9BB6BBC141}"
+              p:after="r[@uid='{B5A9661F-FAAB-441C-9848-3C0662F46968}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        			<h2>SEIU Member Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/1ccbdd29831b4dfe95aa02fa101a9fd6.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/30a128ee2d7f404b9ab1801eb410fcdc.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/fdf5aca3fbd84d769ff6ce4baf4a65a1.ashx"  alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/3286de8d73c64e0e8e69a14b63eb5e10.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/493c6bff78ea4c83971d06cf7dec1f23.ashx" alt="">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" alt="SEIUMB Marketplace" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {FA097966-146F-44B6-B0FC-1902F0F3239E}
+        {69A2CA07-364E-430A-8E33-DB132C2DA753}
+        {D095CAC9-41B1-43AE-92CB-42CC4A0AD652}
+        {344ABC21-C32B-4042-8D4E-95A7FD9A2A2A}
+        {B507DC19-B1A2-427B-8A7E-099D38491F5D}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Find the best discounts and get exclusive cash back on your favorite name-brand products. Shop deals from over 2,500 top retailers, online stores, local restaurants and more—all in one place!"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discounts Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210524T192814Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+                             <div class="row get-started">
+                                 <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+                                 <div class="steps carousel">
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">1</div>
+                                         <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">2</div>
+                                         <p>Sign Up for a Rakuten account through SEIUMB.com.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">3</div>
+                                         <p>Earn Cash Back on qualifying purchases.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">4</div>
+                                         <p>Get paid via PayPal or by check.</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dbrensike
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="Already have a Rakuten account? Other questions? See our FAQs" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': 'Already have a Rakuten account? Other questions? See our FAQs' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>You haven't selected any favorite stores yet!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">It's easy to get fast access to discount offers from the places where <strong>YOU</strong> prefer to&nbsp;shop. <br />
+        Click the little heart <span style="color: #919d9d;">❤</span> in the top-right corner of any retailer to make it one of your favorites. The next time you view "<strong>My Favorite Stores</strong>", you will be able to quickly save more as you&nbsp;shop!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>Don't worry if your tastes or needs change! You can add or remove stores from your favorites list by clicking the heart&nbsp;again.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: See More Cash Back Offers
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>NEW!</strong> Find the best discounts and get exclusive cash back on your favorite name-brand products.  Shop deals from over 2,500 top retailers, online stores, local restaurants and more&mdash;all in one place!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Cash Back powered by <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Exclusive Deals for SEIU Members
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: By activating you will create a Rakuten account with this email address and agree to SEIU Member Benefits&rsquo; Privacy Policy and to Rakuten&rsquo;s Terms &amp; Conditions and Privacy Policy.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210524T192800Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CB756641-A25B-46F6-B0AD-2083EA5E4462}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{146CB30A-0F27-43FD-AB7A-C897C0C8D298}"
+              p:after="r[@uid='{CB756641-A25B-46F6-B0AD-2083EA5E4462}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7D54355A-D316-416B-8C1F-F2B7422DF987}"
+              p:after="r[@uid='{146CB30A-0F27-43FD-AB7A-C897C0C8D298}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{54AAC61A-020D-454E-99CB-2D87B580C3FE}"
+              p:after="r[@uid='{7D54355A-D316-416B-8C1F-F2B7422DF987}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{E75307AF-660F-4C70-8978-24274306C9E6}"
+              p:after="r[@uid='{54AAC61A-020D-454E-99CB-2D87B580C3FE}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{23CAC95E-4DBB-4366-A201-2530B7747C69}"
+              p:after="r[@uid='{E75307AF-660F-4C70-8978-24274306C9E6}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{31148C63-364A-4097-9825-0F89BE93F146}"
+              p:after="r[@uid='{23CAC95E-4DBB-4366-A201-2530B7747C69}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{B68778C4-188F-45F2-8164-A4642A597046}"
+              p:after="r[@uid='{31148C63-364A-4097-9825-0F89BE93F146}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{DE05B806-C8BF-465C-99FB-3F109891494C}"
+              p:after="r[@uid='{B68778C4-188F-45F2-8164-A4642A597046}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}"
+              p:after="r[@uid='{DE05B806-C8BF-465C-99FB-3F109891494C}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7323AF31-DC38-42B7-8014-C59F7DECB8D3}"
+              p:after="r[@uid='{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{AE666A03-9F8B-4BD0-A437-9A759AA5BF6B}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{E611BB1B-6D92-49AA-83FB-23F5C037CCBF}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="9B2A8447CE3F40EEB1FD2FD7018F6808"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="70F9A2BF1FA9425AA8554AB230DF0928"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="BA2047F59C924A1DA4F9D4CC13B115C1"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8B77253E43164DA8B5E3242CF4236640"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{B5A9661F-FAAB-441C-9848-3C0662F46968}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{B7E02956-5A38-41DA-B085-CA9BB6BBC141}"
+              p:after="r[@uid='{B5A9661F-FAAB-441C-9848-3C0662F46968}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        			<h2>SEIU Member Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/1ccbdd29831b4dfe95aa02fa101a9fd6.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/30a128ee2d7f404b9ab1801eb410fcdc.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/fdf5aca3fbd84d769ff6ce4baf4a65a1.ashx"  alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/3286de8d73c64e0e8e69a14b63eb5e10.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/493c6bff78ea4c83971d06cf7dec1f23.ashx" alt="">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" alt="SEIUMB Marketplace" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {1EED29FF-B139-45CF-ADCD-4AF7ED970309}
+        {0278DC04-37C6-45FC-962F-42CA4BEA4E94}
+        {DB0FE03F-8811-438F-8C09-67B9E86F5D19}
+        {8A3A21A7-A9B2-4F28-848E-7667245FE565}
+        {3C74B6AE-D43B-4773-A0BE-0D827D15CD2E}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Find the best discounts and get exclusive cash back on your favorite name-brand products. Shop deals from over 2,500 top retailers, online stores, local restaurants and more—all in one place!"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discounts Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210601T135503Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+                             <div class="row get-started">
+                                 <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+                                 <div class="steps carousel">
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">1</div>
+                                         <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">2</div>
+                                         <p>Sign Up for a Rakuten account through SEIUMB.com.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">3</div>
+                                         <p>Earn Cash Back on qualifying purchases.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">4</div>
+                                         <p>Get paid via PayPal or by check.</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dbrensike
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="Already have a Rakuten account? Other questions? See our FAQs" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': 'Already have a Rakuten account? Other questions? See our FAQs' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>You haven't selected any favorite stores yet!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">It's easy to get fast access to discount offers from the places where <strong>YOU</strong> prefer to&nbsp;shop. <br />
+        Click the little heart <span style="color: #919d9d;">❤</span> in the top-right corner of any retailer to make it one of your favorites. The next time you view "<strong>My Favorite Stores</strong>", you will be able to quickly save more as you&nbsp;shop!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>Don't worry if your tastes or needs change! You can add or remove stores from your favorites list by clicking the heart&nbsp;again.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: See More Cash Back Offers
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>NEW!</strong> Find the best discounts and get exclusive cash back on your favorite name-brand products.  Shop deals from over 2,500 top retailers, online stores, local restaurants and more&mdash;all in one place!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Cash Back powered by <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Exclusive Deals for SEIU Members
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: By activating you will create a Rakuten account with this email address and agree to SEIU Member Benefits&rsquo; Privacy Policy and to Rakuten&rsquo;s Terms &amp; Conditions and Privacy Policy.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210601T135500Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CB756641-A25B-46F6-B0AD-2083EA5E4462}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{146CB30A-0F27-43FD-AB7A-C897C0C8D298}"
+              p:after="r[@uid='{CB756641-A25B-46F6-B0AD-2083EA5E4462}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7D54355A-D316-416B-8C1F-F2B7422DF987}"
+              p:after="r[@uid='{146CB30A-0F27-43FD-AB7A-C897C0C8D298}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{54AAC61A-020D-454E-99CB-2D87B580C3FE}"
+              p:after="r[@uid='{7D54355A-D316-416B-8C1F-F2B7422DF987}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{E75307AF-660F-4C70-8978-24274306C9E6}"
+              p:after="r[@uid='{54AAC61A-020D-454E-99CB-2D87B580C3FE}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{23CAC95E-4DBB-4366-A201-2530B7747C69}"
+              p:after="r[@uid='{E75307AF-660F-4C70-8978-24274306C9E6}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{31148C63-364A-4097-9825-0F89BE93F146}"
+              p:after="r[@uid='{23CAC95E-4DBB-4366-A201-2530B7747C69}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{B68778C4-188F-45F2-8164-A4642A597046}"
+              p:after="r[@uid='{31148C63-364A-4097-9825-0F89BE93F146}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{DE05B806-C8BF-465C-99FB-3F109891494C}"
+              p:after="r[@uid='{B68778C4-188F-45F2-8164-A4642A597046}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}"
+              p:after="r[@uid='{DE05B806-C8BF-465C-99FB-3F109891494C}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7323AF31-DC38-42B7-8014-C59F7DECB8D3}"
+              p:after="r[@uid='{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{AE666A03-9F8B-4BD0-A437-9A759AA5BF6B}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{E611BB1B-6D92-49AA-83FB-23F5C037CCBF}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="9B2A8447CE3F40EEB1FD2FD7018F6808"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="70F9A2BF1FA9425AA8554AB230DF0928"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="BA2047F59C924A1DA4F9D4CC13B115C1"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="8B77253E43164DA8B5E3242CF4236640"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{B5A9661F-FAAB-441C-9848-3C0662F46968}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{B7E02956-5A38-41DA-B085-CA9BB6BBC141}"
+              p:after="r[@uid='{B5A9661F-FAAB-441C-9848-3C0662F46968}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        			<h2>SEIU Member Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/1ccbdd29831b4dfe95aa02fa101a9fd6.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/30a128ee2d7f404b9ab1801eb410fcdc.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/fdf5aca3fbd84d769ff6ce4baf4a65a1.ashx"  alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/3286de8d73c64e0e8e69a14b63eb5e10.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/493c6bff78ea4c83971d06cf7dec1f23.ashx" alt="">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" alt="SEIUMB Marketplace" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {7072E6A2-2765-4137-A162-D67A84311AC8}
+        {D40FA594-7DA0-4053-BB3E-2555E7C247D2}
+        {9FC1245F-7EC1-48FF-8458-EA7BC8A89A4F}
+        {8B7BAAAE-0CDE-4419-A364-3801116D2458}
+        {78838F79-C626-4225-8BF6-647ED991B07C}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Find the best discounts and get exclusive cash back on your favorite name-brand products. Shop deals from over 2,500 top retailers, online stores, local restaurants and more—all in one place!"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discounts Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210701T134103Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+                             <div class="row get-started">
+                                 <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+                                 <div class="steps carousel">
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">1</div>
+                                         <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">2</div>
+                                         <p>Sign Up for a Rakuten account through SEIUMB.com.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">3</div>
+                                         <p>Earn Cash Back on qualifying purchases.</p>
+                                     </div>
+                                     <div class="small-12 medium-12 large-3 columns">
+                                         <div class="step">4</div>
+                                         <p>Get paid via PayPal or by check.</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="Already have a Rakuten account? Other questions? See our FAQs" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': 'Already have a Rakuten account? Other questions? See our FAQs' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>You haven't selected any favorite stores yet!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">It's easy to get fast access to discount offers from the places where <strong>YOU</strong> prefer to&nbsp;shop. <br />
+        Click the little heart <span style="color: #919d9d;">❤</span> in the top-right corner of any retailer to make it one of your favorites. The next time you view "<strong>My Favorite Stores</strong>", you will be able to quickly save more as you&nbsp;shop!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>Don't worry if your tastes or needs change! You can add or remove stores from your favorites list by clicking the heart&nbsp;again.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: See More Cash Back Offers
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>NEW!</strong> Find the best discounts and get exclusive cash back on your favorite name-brand products.  Shop deals from over 2,500 top retailers, online stores, local restaurants and more&mdash;all in one place!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Cash Back powered by <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Exclusive Deals for SEIU Members
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: By activating you will create a Rakuten account with this email address and agree to SEIU Member Benefits&rsquo; Privacy Policy and to Rakuten&rsquo;s Terms &amp; Conditions and Privacy Policy.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210701T134100Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{841B84C6-0720-452F-8FB5-C6F387B565A4}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:ds="{DEEBA886-65BF-4115-85F4-8E26E0C81996}"
+              s:id="{781BC3E1-79C9-4B99-AE61-2F5B1F92DE22}"
+              s:par=""
+              s:ph="body"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{B5A9661F-FAAB-441C-9848-3C0662F46968}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{B7E02956-5A38-41DA-B085-CA9BB6BBC141}"
+              p:after="r[@uid='{B5A9661F-FAAB-441C-9848-3C0662F46968}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{B4E972E6-C24E-41E9-868D-58E4EA512E06}"
+              s:ds="{44990A15-769E-467F-AA8F-F81C1745584C}" />
+            <r
+              uid="{CB756641-A25B-46F6-B0AD-2083EA5E4462}"
+              p:after="r[@uid='{B4E972E6-C24E-41E9-868D-58E4EA512E06}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{146CB30A-0F27-43FD-AB7A-C897C0C8D298}"
+              p:after="r[@uid='{CB756641-A25B-46F6-B0AD-2083EA5E4462}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7D54355A-D316-416B-8C1F-F2B7422DF987}"
+              p:after="r[@uid='{146CB30A-0F27-43FD-AB7A-C897C0C8D298}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{54AAC61A-020D-454E-99CB-2D87B580C3FE}"
+              p:after="r[@uid='{7D54355A-D316-416B-8C1F-F2B7422DF987}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{E75307AF-660F-4C70-8978-24274306C9E6}"
+              p:after="r[@uid='{54AAC61A-020D-454E-99CB-2D87B580C3FE}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{23CAC95E-4DBB-4366-A201-2530B7747C69}"
+              p:after="r[@uid='{E75307AF-660F-4C70-8978-24274306C9E6}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{31148C63-364A-4097-9825-0F89BE93F146}"
+              p:after="r[@uid='{23CAC95E-4DBB-4366-A201-2530B7747C69}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{B68778C4-188F-45F2-8164-A4642A597046}"
+              p:after="r[@uid='{31148C63-364A-4097-9825-0F89BE93F146}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{DE05B806-C8BF-465C-99FB-3F109891494C}"
+              p:after="r[@uid='{B68778C4-188F-45F2-8164-A4642A597046}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{EB99E5BF-4A85-4004-9FA0-7FF6CD579C94}"
+              p:after="r[@uid='{DE05B806-C8BF-465C-99FB-3F109891494C}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+            <r
+              uid="{7323AF31-DC38-42B7-8014-C59F7DECB8D3}"
+              p:after="*[1=2]"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{B5A9661F-FAAB-441C-9848-3C0662F46968}-0" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        			<h2>SEIU Member Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/1ccbdd29831b4dfe95aa02fa101a9fd6.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/30a128ee2d7f404b9ab1801eb410fcdc.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/fdf5aca3fbd84d769ff6ce4baf4a65a1.ashx"  alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/3286de8d73c64e0e8e69a14b63eb5e10.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/493c6bff78ea4c83971d06cf7dec1f23.ashx" alt="">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{9F5ADE20-E32B-4EC7-9E83-40BBB6076B5C}" alt="SEIUMB Marketplace" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {079F12E6-4B76-4FDE-A31A-DAD1AA4836AF}
+        {9A6D8CC3-2B9C-4F9E-8F29-A3C73FD3ABA5}
+        {AEB7A492-5DF7-4BE3-8158-D6A8BCB39272}
+        {9D886EDD-D049-47E9-99A0-74DF26A505FC}
+        {58FFC4CD-16E7-472C-B79D-1699B1C146D9}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Find the best discounts and get exclusive cash back on your favorite name-brand products. Shop deals from over 2,500 top retailers, online stores, local restaurants and more—all in one place!"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discounts Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210721T135529Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">Ready, Get Set, SAVE!</h2>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p>Sign Up for a Rakuten account through SEIUMB.com.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Earn Cash Back on qualifying purchases.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Get paid via PayPal or by check.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="Already have a Rakuten account? Other questions? See our FAQs" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': 'Already have a Rakuten account? Other questions? See our FAQs' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>You haven't selected any favorite stores yet!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">It's easy to get fast access to discount offers from the places where <strong>YOU</strong> prefer to&nbsp;shop. <br />
+        Click the little heart <span style="color: #919d9d;">❤</span> in the top-right corner of any retailer to make it one of your favorites. The next time you view "<strong>My Favorite Stores</strong>", you will be able to quickly save more as you&nbsp;shop!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>Don't worry if your tastes or needs change! You can add or remove stores from your favorites list by clicking the heart&nbsp;again.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: See More Cash Back Offers
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>We're sorry. It looks like you're not elegible for this program.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">Contact Us</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="Elementary school children wait in line by the school bus" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{297CC445-0514-45CB-8E70-9DA2BF6B8C73}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>Ready, Get Set, SAVE!</strong> Shop deals from your favorite merchants and Earn Cash Back on your Back-to-School purchases!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Cash Back powered by <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Exclusive Deals for SEIU Members
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: By activating you will create a Rakuten account with this email address and agree to SEIU Member Benefits&rsquo; Privacy Policy and to Rakuten&rsquo;s Terms &amp; Conditions and Privacy Policy.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210721T135500Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{B11C34D8-8D8A-4419-9F4C-0C9C12617975}"
+              p:after="r[@uid='{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{E12449EE-B8DB-41BD-ADD3-10190878AA87}"
+              p:after="r[@uid='{B11C34D8-8D8A-4419-9F4C-0C9C12617975}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}"
+              p:after="r[@uid='{E12449EE-B8DB-41BD-ADD3-10190878AA87}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{04B19CB4-2D96-48F2-BD0B-7039A99432EB}"
+              p:after="r[@uid='{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}"
+              p:after="r[@uid='{04B19CB4-2D96-48F2-BD0B-7039A99432EB}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{DA39805B-DC11-483E-85BE-2C51220D8282}"
+              p:after="r[@uid='{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}"
+              p:after="r[@uid='{DA39805B-DC11-483E-85BE-2C51220D8282}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{99F76122-0EBD-4CBA-8319-76C11277D5F4}"
+              p:after="r[@uid='{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}"
+              p:after="r[@uid='{99F76122-0EBD-4CBA-8319-76C11277D5F4}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{D5B60C2A-C306-419F-865C-BACC1EC9B5DF}"
+              p:after="r[@uid='{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{58D84304-FDAA-4B84-A1E9-5DF4C2CCCC95}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0C90A249-244A-4E26-A5E8-56C7DEE098AD}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="3D1DDE44D4A34025A1B9307781F41ECF"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="93018662D5274354B0AE03A1E8E0C7EA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D4589DBE3D29484E8B2F055C5CCC4686"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9A2F7C9485924B54A5997B31D61E8BC8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{77F57719-DA8E-4EE7-B65B-B5ECB6064B5F}"
+              p:after="r[@uid='{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIU Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                            <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/E5D05288CF004926BA57BB3A01BB80EF.ashx" alt="slide 1">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/27DC3279F3E348849D140017670DCED8.ashx" alt="slide 2">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6BCDBFDA17664803894016A651C7A680.ashx" alt="slide 3">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/147A716235E64BD4BAFF02B33A9537C2.ashx" alt="slide 4">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/94897AC2A46A4E879D371498B5E27104.ashx"> alt="slide 5">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {FA097966-146F-44B6-B0FC-1902F0F3239E}
+        {69A2CA07-364E-430A-8E33-DB132C2DA753}
+        {D095CAC9-41B1-43AE-92CB-42CC4A0AD652}
+        {344ABC21-C32B-4042-8D4E-95A7FD9A2A2A}
+        {B507DC19-B1A2-427B-8A7E-099D38491F5D}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas. Ofertas de tiendas en más de 2,500 locales, tiendas online, restaurantes y más - todo desde un solo lugar"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discount Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201215T190522Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "37d4c808-bd7d-445f-af45-8fda7828f1ae"
+      Hint: Cancel Button Label
+      Value: Cancelar
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+                 <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Es un servicio r&aacute;pido y f&aacute;cil de utilizar!</h2>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p>Reg&iacute;strese para obtener una cuenta de Rakuten en SEIUMB.com.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Reciba los pagos a trav&eacute;s de PayPal o por cheque.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': '¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "79bca8e0-1d55-4783-a297-2d9d9e155b95"
+      Hint: Registration Error Message
+      Value: Hay un error tratarndo de registrar en Rakuten, por favor intentar nuevamente
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: Ver más ofertas
+    - ID: "8577c63a-b7a4-4680-ac7a-640c7a6824ff"
+      Hint: Confirmation Button Label
+      Value: ESTOY DE ACUERDO
+    - ID: "8fc91357-60a2-487d-b269-d1a2e7b6a2cc"
+      Hint: Subheadline
+      Value: |
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong><span>&iexcl;N</span>uevo!</strong> Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas.  Ofertas de tiendas en m&aacute;s de 2,500 locales, tiendas online, restaurantes y m&aacute;s - todo desde un solo lugar."
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Ofertas exclusivas para miembros de SEIU
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: Si realiza la activación, creará una cuenta de Rakuten con esta dirección de correo electrónico y aceptará la Política de privacidad de SEIU Member Benefits, además de la Política de privacidad y los Términos y condiciones de Rakuten.
+    - ID: "be9da227-4864-45c2-b138-8c856a662de2"
+      Hint: Store List Label
+      Value: Explore el mercado de descuentos
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Saltar y comenzar a comprar
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+    - ID: "f9eba9ae-2634-4ca3-8ade-a8c446335792"
+      Hint: No Results Text
+      Value: No hay resultados para la búsqueda
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{B11C34D8-8D8A-4419-9F4C-0C9C12617975}"
+              p:after="r[@uid='{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{E12449EE-B8DB-41BD-ADD3-10190878AA87}"
+              p:after="r[@uid='{B11C34D8-8D8A-4419-9F4C-0C9C12617975}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}"
+              p:after="r[@uid='{E12449EE-B8DB-41BD-ADD3-10190878AA87}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{04B19CB4-2D96-48F2-BD0B-7039A99432EB}"
+              p:after="r[@uid='{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}"
+              p:after="r[@uid='{04B19CB4-2D96-48F2-BD0B-7039A99432EB}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{DA39805B-DC11-483E-85BE-2C51220D8282}"
+              p:after="r[@uid='{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}"
+              p:after="r[@uid='{DA39805B-DC11-483E-85BE-2C51220D8282}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{99F76122-0EBD-4CBA-8319-76C11277D5F4}"
+              p:after="r[@uid='{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}"
+              p:after="r[@uid='{99F76122-0EBD-4CBA-8319-76C11277D5F4}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{D5B60C2A-C306-419F-865C-BACC1EC9B5DF}"
+              p:after="r[@uid='{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{58D84304-FDAA-4B84-A1E9-5DF4C2CCCC95}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0C90A249-244A-4E26-A5E8-56C7DEE098AD}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="3D1DDE44D4A34025A1B9307781F41ECF"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="93018662D5274354B0AE03A1E8E0C7EA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D4589DBE3D29484E8B2F055C5CCC4686"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9A2F7C9485924B54A5997B31D61E8BC8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{77F57719-DA8E-4EE7-B65B-B5ECB6064B5F}"
+              p:after="r[@uid='{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIU Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                            <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/E5D05288CF004926BA57BB3A01BB80EF.ashx" alt="slide 1">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/27DC3279F3E348849D140017670DCED8.ashx" alt="slide 2">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6BCDBFDA17664803894016A651C7A680.ashx" alt="slide 3">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/147A716235E64BD4BAFF02B33A9537C2.ashx" alt="slide 4">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/94897AC2A46A4E879D371498B5E27104.ashx"> alt="slide 5">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {FA097966-146F-44B6-B0FC-1902F0F3239E}
+        {69A2CA07-364E-430A-8E33-DB132C2DA753}
+        {D095CAC9-41B1-43AE-92CB-42CC4A0AD652}
+        {344ABC21-C32B-4042-8D4E-95A7FD9A2A2A}
+        {B507DC19-B1A2-427B-8A7E-099D38491F5D}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas. Ofertas de tiendas en más de 2,500 locales, tiendas online, restaurantes y más - todo desde un solo lugar"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discount Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210524T193942Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "37d4c808-bd7d-445f-af45-8fda7828f1ae"
+      Hint: Cancel Button Label
+      Value: Cancelar
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+                 <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Es un servicio r&aacute;pido y f&aacute;cil de utilizar!</h2>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p>Reg&iacute;strese para obtener una cuenta de Rakuten en SEIUMB.com.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Reciba los pagos a trav&eacute;s de PayPal o por cheque.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dbrensike
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': '¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "79bca8e0-1d55-4783-a297-2d9d9e155b95"
+      Hint: Registration Error Message
+      Value: Hay un error tratarndo de registrar en Rakuten, por favor intentar nuevamente
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>&iexcl;Todav&iacute;a no has seleccionado ninguna tienda favorita!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">Es muy f&aacute;cil acceder r&aacute;pidamente a los descuentos de los lugares donde <strong>TE</strong> gusta&nbsp;comprar. <br />
+        Haz clic en el corazoncito <span style="color: #919d9d;">❤</span> situado en la esquina superior derecha de cualquier tienda para a&ntilde;adirla a tus favoritos. &iexcl;La pr&oacute;xima vez que veas "<strong>My Favorite Stores</strong>", podr&aacute;s ahorrar m&aacute;s f&aacute;cilmente mientras compras!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>&iexcl;No te preocupes si tus gustos o necesidades cambian! Puedes a&ntilde;adir o eliminar tiendas de tu lista de favoritos haciendo clic de nuevo en el coraz&oacute;n.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: Ver más ofertas
+    - ID: "8577c63a-b7a4-4680-ac7a-640c7a6824ff"
+      Hint: Confirmation Button Label
+      Value: ESTOY DE ACUERDO
+    - ID: "8fc91357-60a2-487d-b269-d1a2e7b6a2cc"
+      Hint: Subheadline
+      Value: |
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong><span>&iexcl;N</span>uevo!</strong> Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas.  Ofertas de tiendas en m&aacute;s de 2,500 locales, tiendas online, restaurantes y m&aacute;s - todo desde un solo lugar."
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Ofertas exclusivas para miembros de SEIU
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: Si realiza la activación, creará una cuenta de Rakuten con esta dirección de correo electrónico y aceptará la Política de privacidad de SEIU Member Benefits, además de la Política de privacidad y los Términos y condiciones de Rakuten.
+    - ID: "be9da227-4864-45c2-b138-8c856a662de2"
+      Hint: Store List Label
+      Value: Explore el mercado de descuentos
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Saltar y comenzar a comprar
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210524T193900Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+    - ID: "f9eba9ae-2634-4ca3-8ade-a8c446335792"
+      Hint: No Results Text
+      Value: No hay resultados para la búsqueda
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{B11C34D8-8D8A-4419-9F4C-0C9C12617975}"
+              p:after="r[@uid='{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{E12449EE-B8DB-41BD-ADD3-10190878AA87}"
+              p:after="r[@uid='{B11C34D8-8D8A-4419-9F4C-0C9C12617975}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}"
+              p:after="r[@uid='{E12449EE-B8DB-41BD-ADD3-10190878AA87}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{04B19CB4-2D96-48F2-BD0B-7039A99432EB}"
+              p:after="r[@uid='{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}"
+              p:after="r[@uid='{04B19CB4-2D96-48F2-BD0B-7039A99432EB}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{DA39805B-DC11-483E-85BE-2C51220D8282}"
+              p:after="r[@uid='{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}"
+              p:after="r[@uid='{DA39805B-DC11-483E-85BE-2C51220D8282}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{99F76122-0EBD-4CBA-8319-76C11277D5F4}"
+              p:after="r[@uid='{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}"
+              p:after="r[@uid='{99F76122-0EBD-4CBA-8319-76C11277D5F4}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{D5B60C2A-C306-419F-865C-BACC1EC9B5DF}"
+              p:after="r[@uid='{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{58D84304-FDAA-4B84-A1E9-5DF4C2CCCC95}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0C90A249-244A-4E26-A5E8-56C7DEE098AD}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="3D1DDE44D4A34025A1B9307781F41ECF"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="93018662D5274354B0AE03A1E8E0C7EA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D4589DBE3D29484E8B2F055C5CCC4686"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9A2F7C9485924B54A5997B31D61E8BC8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{77F57719-DA8E-4EE7-B65B-B5ECB6064B5F}"
+              p:after="r[@uid='{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIU Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                            <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/E5D05288CF004926BA57BB3A01BB80EF.ashx" alt="slide 1">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/27DC3279F3E348849D140017670DCED8.ashx" alt="slide 2">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6BCDBFDA17664803894016A651C7A680.ashx" alt="slide 3">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/147A716235E64BD4BAFF02B33A9537C2.ashx" alt="slide 4">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/94897AC2A46A4E879D371498B5E27104.ashx"> alt="slide 5">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {1EED29FF-B139-45CF-ADCD-4AF7ED970309}
+        {0278DC04-37C6-45FC-962F-42CA4BEA4E94}
+        {DB0FE03F-8811-438F-8C09-67B9E86F5D19}
+        {8A3A21A7-A9B2-4F28-848E-7667245FE565}
+        {3C74B6AE-D43B-4773-A0BE-0D827D15CD2E}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas. Ofertas de tiendas en más de 2,500 locales, tiendas online, restaurantes y más - todo desde un solo lugar"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discount Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210601T140015Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "37d4c808-bd7d-445f-af45-8fda7828f1ae"
+      Hint: Cancel Button Label
+      Value: Cancelar
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+                 <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Es un servicio r&aacute;pido y f&aacute;cil de utilizar!</h2>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p>Reg&iacute;strese para obtener una cuenta de Rakuten en SEIUMB.com.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Reciba los pagos a trav&eacute;s de PayPal o por cheque.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dbrensike
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': '¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "79bca8e0-1d55-4783-a297-2d9d9e155b95"
+      Hint: Registration Error Message
+      Value: Hay un error tratarndo de registrar en Rakuten, por favor intentar nuevamente
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>&iexcl;Todav&iacute;a no has seleccionado ninguna tienda favorita!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">Es muy f&aacute;cil acceder r&aacute;pidamente a los descuentos de los lugares donde <strong>TE</strong> gusta&nbsp;comprar. <br />
+        Haz clic en el corazoncito <span style="color: #919d9d;">❤</span> situado en la esquina superior derecha de cualquier tienda para a&ntilde;adirla a tus favoritos. &iexcl;La pr&oacute;xima vez que veas "<strong>My Favorite Stores</strong>", podr&aacute;s ahorrar m&aacute;s f&aacute;cilmente mientras compras!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>&iexcl;No te preocupes si tus gustos o necesidades cambian! Puedes a&ntilde;adir o eliminar tiendas de tu lista de favoritos haciendo clic de nuevo en el coraz&oacute;n.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: Ver más ofertas
+    - ID: "8577c63a-b7a4-4680-ac7a-640c7a6824ff"
+      Hint: Confirmation Button Label
+      Value: ESTOY DE ACUERDO
+    - ID: "8fc91357-60a2-487d-b269-d1a2e7b6a2cc"
+      Hint: Subheadline
+      Value: |
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong><span>&iexcl;N</span>uevo!</strong> Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas.  Ofertas de tiendas en m&aacute;s de 2,500 locales, tiendas online, restaurantes y m&aacute;s - todo desde un solo lugar."
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Ofertas exclusivas para miembros de SEIU
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: Si realiza la activación, creará una cuenta de Rakuten con esta dirección de correo electrónico y aceptará la Política de privacidad de SEIU Member Benefits, además de la Política de privacidad y los Términos y condiciones de Rakuten.
+    - ID: "be9da227-4864-45c2-b138-8c856a662de2"
+      Hint: Store List Label
+      Value: Explore el mercado de descuentos
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Saltar y comenzar a comprar
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210601T140000Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+    - ID: "f9eba9ae-2634-4ca3-8ade-a8c446335792"
+      Hint: No Results Text
+      Value: No hay resultados para la búsqueda
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{B11C34D8-8D8A-4419-9F4C-0C9C12617975}"
+              p:after="r[@uid='{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{E12449EE-B8DB-41BD-ADD3-10190878AA87}"
+              p:after="r[@uid='{B11C34D8-8D8A-4419-9F4C-0C9C12617975}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}"
+              p:after="r[@uid='{E12449EE-B8DB-41BD-ADD3-10190878AA87}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{04B19CB4-2D96-48F2-BD0B-7039A99432EB}"
+              p:after="r[@uid='{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}"
+              p:after="r[@uid='{04B19CB4-2D96-48F2-BD0B-7039A99432EB}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{DA39805B-DC11-483E-85BE-2C51220D8282}"
+              p:after="r[@uid='{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}"
+              p:after="r[@uid='{DA39805B-DC11-483E-85BE-2C51220D8282}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{99F76122-0EBD-4CBA-8319-76C11277D5F4}"
+              p:after="r[@uid='{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}"
+              p:after="r[@uid='{99F76122-0EBD-4CBA-8319-76C11277D5F4}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{D5B60C2A-C306-419F-865C-BACC1EC9B5DF}"
+              p:after="r[@uid='{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{58D84304-FDAA-4B84-A1E9-5DF4C2CCCC95}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0C90A249-244A-4E26-A5E8-56C7DEE098AD}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="3D1DDE44D4A34025A1B9307781F41ECF"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="93018662D5274354B0AE03A1E8E0C7EA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D4589DBE3D29484E8B2F055C5CCC4686"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9A2F7C9485924B54A5997B31D61E8BC8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{77F57719-DA8E-4EE7-B65B-B5ECB6064B5F}"
+              p:after="r[@uid='{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIU Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                            <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/E5D05288CF004926BA57BB3A01BB80EF.ashx" alt="slide 1">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/27DC3279F3E348849D140017670DCED8.ashx" alt="slide 2">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6BCDBFDA17664803894016A651C7A680.ashx" alt="slide 3">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/147A716235E64BD4BAFF02B33A9537C2.ashx" alt="slide 4">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/94897AC2A46A4E879D371498B5E27104.ashx"> alt="slide 5">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{C82EC61E-A3A3-4565-8BCA-E47717CE8346}" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {7072E6A2-2765-4137-A162-D67A84311AC8}
+        {D40FA594-7DA0-4053-BB3E-2555E7C247D2}
+        {9FC1245F-7EC1-48FF-8458-EA7BC8A89A4F}
+        {8B7BAAAE-0CDE-4419-A364-3801116D2458}
+        {78838F79-C626-4225-8BF6-647ED991B07C}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas. Ofertas de tiendas en más de 2,500 locales, tiendas online, restaurantes y más - todo desde un solo lugar"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discount Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210701T134824Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "37d4c808-bd7d-445f-af45-8fda7828f1ae"
+      Hint: Cancel Button Label
+      Value: Cancelar
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+                 <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Es un servicio r&aacute;pido y f&aacute;cil de utilizar!</h2>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p>Reg&iacute;strese para obtener una cuenta de Rakuten en SEIUMB.com.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Reciba los pagos a trav&eacute;s de PayPal o por cheque.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': '¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "79bca8e0-1d55-4783-a297-2d9d9e155b95"
+      Hint: Registration Error Message
+      Value: Hay un error tratarndo de registrar en Rakuten, por favor intentar nuevamente
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>&iexcl;Todav&iacute;a no has seleccionado ninguna tienda favorita!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">Es muy f&aacute;cil acceder r&aacute;pidamente a los descuentos de los lugares donde <strong>TE</strong> gusta&nbsp;comprar. <br />
+        Haz clic en el corazoncito <span style="color: #919d9d;">❤</span> situado en la esquina superior derecha de cualquier tienda para a&ntilde;adirla a tus favoritos. &iexcl;La pr&oacute;xima vez que veas "<strong>My Favorite Stores</strong>", podr&aacute;s ahorrar m&aacute;s f&aacute;cilmente mientras compras!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>&iexcl;No te preocupes si tus gustos o necesidades cambian! Puedes a&ntilde;adir o eliminar tiendas de tu lista de favoritos haciendo clic de nuevo en el coraz&oacute;n.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: Ver más ofertas
+    - ID: "8577c63a-b7a4-4680-ac7a-640c7a6824ff"
+      Hint: Confirmation Button Label
+      Value: ESTOY DE ACUERDO
+    - ID: "8fc91357-60a2-487d-b269-d1a2e7b6a2cc"
+      Hint: Subheadline
+      Value: |
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{CFC29492-E58F-4BF2-BB83-136CA98C385E}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong><span>&iexcl;N</span>uevo!</strong> Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas.  Ofertas de tiendas en m&aacute;s de 2,500 locales, tiendas online, restaurantes y m&aacute;s - todo desde un solo lugar."
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Ofertas exclusivas para miembros de SEIU
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: Si realiza la activación, creará una cuenta de Rakuten con esta dirección de correo electrónico y aceptará la Política de privacidad de SEIU Member Benefits, además de la Política de privacidad y los Términos y condiciones de Rakuten.
+    - ID: "be9da227-4864-45c2-b138-8c856a662de2"
+      Hint: Store List Label
+      Value: Explore el mercado de descuentos
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Saltar y comenzar a comprar
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210701T134800Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+    - ID: "f9eba9ae-2634-4ca3-8ade-a8c446335792"
+      Hint: No Results Text
+      Value: No hay resultados para la búsqueda
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{B11C34D8-8D8A-4419-9F4C-0C9C12617975}"
+              p:after="r[@uid='{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{E12449EE-B8DB-41BD-ADD3-10190878AA87}"
+              p:after="r[@uid='{B11C34D8-8D8A-4419-9F4C-0C9C12617975}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}"
+              p:after="r[@uid='{E12449EE-B8DB-41BD-ADD3-10190878AA87}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{04B19CB4-2D96-48F2-BD0B-7039A99432EB}"
+              p:after="r[@uid='{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}"
+              p:after="r[@uid='{04B19CB4-2D96-48F2-BD0B-7039A99432EB}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{DA39805B-DC11-483E-85BE-2C51220D8282}"
+              p:after="r[@uid='{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}"
+              p:after="r[@uid='{DA39805B-DC11-483E-85BE-2C51220D8282}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{99F76122-0EBD-4CBA-8319-76C11277D5F4}"
+              p:after="r[@uid='{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}"
+              p:after="r[@uid='{99F76122-0EBD-4CBA-8319-76C11277D5F4}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{D5B60C2A-C306-419F-865C-BACC1EC9B5DF}"
+              p:after="r[@uid='{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{58D84304-FDAA-4B84-A1E9-5DF4C2CCCC95}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0C90A249-244A-4E26-A5E8-56C7DEE098AD}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="3D1DDE44D4A34025A1B9307781F41ECF"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="93018662D5274354B0AE03A1E8E0C7EA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D4589DBE3D29484E8B2F055C5CCC4686"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9A2F7C9485924B54A5997B31D61E8BC8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{77F57719-DA8E-4EE7-B65B-B5ECB6064B5F}"
+              p:after="r[@uid='{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIU Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                            <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/E5D05288CF004926BA57BB3A01BB80EF.ashx" alt="slide 1">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/27DC3279F3E348849D140017670DCED8.ashx" alt="slide 2">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6BCDBFDA17664803894016A651C7A680.ashx" alt="slide 3">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/147A716235E64BD4BAFF02B33A9537C2.ashx" alt="slide 4">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/94897AC2A46A4E879D371498B5E27104.ashx"> alt="slide 5">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{9F5ADE20-E32B-4EC7-9E83-40BBB6076B5C}" alt="Los niños de la escuela primaria esperan en línea en el autobús escolar" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {7072E6A2-2765-4137-A162-D67A84311AC8}
+        {D40FA594-7DA0-4053-BB3E-2555E7C247D2}
+        {9FC1245F-7EC1-48FF-8458-EA7BC8A89A4F}
+        {8B7BAAAE-0CDE-4419-A364-3801116D2458}
+        {78838F79-C626-4225-8BF6-647ED991B07C}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas. Ofertas de tiendas en más de 2,500 locales, tiendas online, restaurantes y más - todo desde un solo lugar"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discount Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210721T140409Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "37d4c808-bd7d-445f-af45-8fda7828f1ae"
+      Hint: Cancel Button Label
+      Value: Cancelar
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+                 <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Listo, prep&aacute;rate, AHORRA!</h2>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p>Reg&iacute;strese para obtener una cuenta de Rakuten en SEIUMB.com.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Reciba los pagos a trav&eacute;s de PayPal o por cheque.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': '¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "79bca8e0-1d55-4783-a297-2d9d9e155b95"
+      Hint: Registration Error Message
+      Value: Hay un error tratarndo de registrar en Rakuten, por favor intentar nuevamente
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>&iexcl;Todav&iacute;a no has seleccionado ninguna tienda favorita!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">Es muy f&aacute;cil acceder r&aacute;pidamente a los descuentos de los lugares donde <strong>TE</strong> gusta&nbsp;comprar. <br />
+        Haz clic en el corazoncito <span style="color: #919d9d;">❤</span> situado en la esquina superior derecha de cualquier tienda para a&ntilde;adirla a tus favoritos. &iexcl;La pr&oacute;xima vez que veas "<strong>My Favorite Stores</strong>", podr&aacute;s ahorrar m&aacute;s f&aacute;cilmente mientras compras!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>&iexcl;No te preocupes si tus gustos o necesidades cambian! Puedes a&ntilde;adir o eliminar tiendas de tu lista de favoritos haciendo clic de nuevo en el coraz&oacute;n.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: Ver más ofertas
+    - ID: "8577c63a-b7a4-4680-ac7a-640c7a6824ff"
+      Hint: Confirmation Button Label
+      Value: ESTOY DE ACUERDO
+    - ID: "8fc91357-60a2-487d-b269-d1a2e7b6a2cc"
+      Hint: Subheadline
+      Value: |
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{297CC445-0514-45CB-8E70-9DA2BF6B8C73}" alt="Los niños de la escuela primaria esperan en línea en el autobús escolar" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>&iexcl;Listo, prep&aacute;rate, AHORRA!</strong> &iexcl;Compre ofertas de sus comerciantes favoritos y gane dinero en efectivo en sus compras de regreso a la escuela!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Ofertas exclusivas para miembros de SEIU
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: Si realiza la activación, creará una cuenta de Rakuten con esta dirección de correo electrónico y aceptará la Política de privacidad de SEIU Member Benefits, además de la Política de privacidad y los Términos y condiciones de Rakuten.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "be9da227-4864-45c2-b138-8c856a662de2"
+      Hint: Store List Label
+      Value: Explore el mercado de descuentos
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Saltar y comenzar a comprar
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+    - ID: "f9eba9ae-2634-4ca3-8ade-a8c446335792"
+      Hint: No Results Text
+      Value: No hay resultados para la búsqueda
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}"
+              p:after="p[@uid='{8CD55694-8005-49EB-A339-C40B4300D1E0}']"
+              s:ds="{48EED12E-46B8-49A4-BC0F-54D33453C11D}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{B11C34D8-8D8A-4419-9F4C-0C9C12617975}"
+              p:after="r[@uid='{138DBAE5-0AFE-4BAC-8FFE-7A3869C61401}']"
+              s:ds="{6A34A07E-940A-44E9-8E1E-3D01DEDA8E37}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{E12449EE-B8DB-41BD-ADD3-10190878AA87}"
+              p:after="r[@uid='{B11C34D8-8D8A-4419-9F4C-0C9C12617975}']"
+              s:ds="{A1C0E71C-4397-45B3-8FAE-04B37E97A8E5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}"
+              p:after="r[@uid='{E12449EE-B8DB-41BD-ADD3-10190878AA87}']"
+              s:ds="{C58658B4-F9B0-4060-9832-30BB4BA19F48}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{04B19CB4-2D96-48F2-BD0B-7039A99432EB}"
+              p:after="r[@uid='{80B36B2A-EE75-4AA9-99DA-7E649BC7E07A}']"
+              s:ds="{0201C639-9412-44DF-9898-D68FE8219BBB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}"
+              p:after="r[@uid='{04B19CB4-2D96-48F2-BD0B-7039A99432EB}']"
+              s:ds="{243E1842-C1BA-4BF9-8861-C9E698FD62BB}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{DA39805B-DC11-483E-85BE-2C51220D8282}"
+              p:after="r[@uid='{3ACE791F-8E71-4CB4-9620-2733EDE36B0E}']"
+              s:ds="{7F93A917-6334-402C-A8E0-92333EA5B14A}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}"
+              p:after="r[@uid='{DA39805B-DC11-483E-85BE-2C51220D8282}']"
+              s:ds="{824F5C34-C000-464A-B0EB-12FEC570A2F5}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{99F76122-0EBD-4CBA-8319-76C11277D5F4}"
+              p:after="r[@uid='{5239EEDD-3B4A-453E-96FA-1A7FDE5EDC17}']"
+              s:ds="{2A0EBB70-6CA7-4363-A834-2DB65711F299}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}"
+              p:after="r[@uid='{99F76122-0EBD-4CBA-8319-76C11277D5F4}']"
+              s:ds="{D074D96A-CAFF-4820-AA70-6E14BF8E3141}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{D5B60C2A-C306-419F-865C-BACC1EC9B5DF}"
+              p:after="r[@uid='{0F5AA50D-B5E2-4393-8F42-09EA9AB778D0}']"
+              s:ds="{3B4AAB10-6EB4-45B0-BECC-C85632FAD433}"
+              s:id="{209A900C-CA18-45FC-BB81-03721A5E5C53}"
+              s:ph="/body/seiumb-small-stacked-accordion-item-{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}-0" />
+            <r
+              uid="{58D84304-FDAA-4B84-A1E9-5DF4C2CCCC95}"
+              p:after="r[@uid='{C4CC5D91-543E-4B92-9543-4B443E93BD20}']"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="body">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0C90A249-244A-4E26-A5E8-56C7DEE098AD}"
+                    s:name="Rakuten User">
+                    <conditions>
+                      <condition
+                        uid="3D1DDE44D4A34025A1B9307781F41ECF"
+                        s:id="{4124D55E-466D-493B-9A48-DAE91BF75F2B}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="93018662D5274354B0AE03A1E8E0C7EA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A572EDF8-0F28-47AD-A755-3297EB61B936}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D4589DBE3D29484E8B2F055C5CCC4686"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9A2F7C9485924B54A5997B31D61E8BC8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8EE775E4-425E-4B3B-8DF9-DBB6061EA904}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}"
+              p:after="r[@uid='{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}']"
+              s:ds="{6847AEFB-2F69-4F02-9FF2-9734AA811757}"
+              s:id="{6E15FA18-D944-453E-A278-AC6522B97B74}"
+              s:par=""
+              s:ph="body" />
+            <r
+              uid="{77F57719-DA8E-4EE7-B65B-B5ECB6064B5F}"
+              p:after="r[@uid='{6B00422F-9A98-4EB6-A2D4-3FBDC36B5A8F}']"
+              s:ds="{E2898638-B0E7-4446-BC94-A8F64A031545}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:par=""
+              s:ph="body" />
+          </d>
+        </r>
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIU Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                            <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/E5D05288CF004926BA57BB3A01BB80EF.ashx" alt="slide 1">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/27DC3279F3E348849D140017670DCED8.ashx" alt="slide 2">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6BCDBFDA17664803894016A651C7A680.ashx" alt="slide 3">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/147A716235E64BD4BAFF02B33A9537C2.ashx" alt="slide 4">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/94897AC2A46A4E879D371498B5E27104.ashx"> alt="slide 5">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "0871556b-8daf-4373-90aa-77064fc87d9e"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{9F5ADE20-E32B-4EC7-9E83-40BBB6076B5C}" alt="Los niños de la escuela primaria esperan en línea en el autobús escolar" height="" width="" hspace="" vspace="" />
+    - ID: "090c2fe7-6fe4-4bfe-9a56-c7b7c52ace20"
+      Hint: Offers
+      Type: Multilist with Search
+      Value: |
+        {079F12E6-4B76-4FDE-A31A-DAD1AA4836AF}
+        {9A6D8CC3-2B9C-4F9E-8F29-A3C73FD3ABA5}
+        {AEB7A492-5DF7-4BE3-8158-D6A8BCB39272}
+        {9D886EDD-D049-47E9-99A0-74DF26A505FC}
+        {58FFC4CD-16E7-472C-B79D-1699B1C146D9}
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Encuentre los mejores descuentos y reciba reembolsos en efectivo en sus tiendas favoritas. Ofertas de tiendas en más de 2,500 locales, tiendas online, restaurantes y más - todo desde un solo lugar"
+    - ID: "13c74ffa-eb92-4785-ba69-01c35b5d799f"
+      Hint: Registration Title
+      Value: SEIU Discount Marketplace
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210802T125350Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "37d4c808-bd7d-445f-af45-8fda7828f1ae"
+      Hint: Cancel Button Label
+      Value: Cancelar
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+                 <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Listo, prep&aacute;rate, AHORRA!</h2>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p>Reg&iacute;strese para obtener una cuenta de Rakuten en SEIUMB.com.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Reciba los pagos a trav&eacute;s de PayPal o por cheque.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Discount Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes" linktype="javascript" url="javascript:dataLayerPush({ 'event': 'cash back email sign up', 'ctaText': '¿Ya tiene una cuenta de Rakuten? ¿Tiene otras preguntas? Consulte nuestras preguntas frecuentes' }, this);$('#marketpalce-modal').foundation('close');document.getElementById('faq').scrollIntoView()" anchor="" />
+    - ID: "79bca8e0-1d55-4783-a297-2d9d9e155b95"
+      Hint: Registration Error Message
+      Value: Hay un error tratarndo de registrar en Rakuten, por favor intentar nuevamente
+    - ID: "7c3f2655-bc63-4d0f-bc24-a26ff7f9a0cc"
+      Hint: No Favorite Stores
+      Value: |
+        <h2 class="text-center mt-2" style="margin:20px; color: #512E85;"><strong>&iexcl;Todav&iacute;a no has seleccionado ninguna tienda favorita!</strong></h2>
+        <p style="margin:20px; text-align:center;" class="text-center">Es muy f&aacute;cil acceder r&aacute;pidamente a los descuentos de los lugares donde <strong>TE</strong> gusta&nbsp;comprar. <br />
+        Haz clic en el corazoncito <span style="color: #919d9d;">❤</span> situado en la esquina superior derecha de cualquier tienda para a&ntilde;adirla a tus favoritos. &iexcl;La pr&oacute;xima vez que veas "<strong>My Favorite Stores</strong>", podr&aacute;s ahorrar m&aacute;s f&aacute;cilmente mientras compras!</p>
+        <p>&nbsp;</p>
+        <p style="margin:20px; color: #a0a0a0;" class="text-center"><em>&iexcl;No te preocupes si tus gustos o necesidades cambian! Puedes a&ntilde;adir o eliminar tiendas de tu lista de favoritos haciendo clic de nuevo en el coraz&oacute;n.</em></p>
+    - ID: "82925e49-578e-471a-8c4e-e459ac0b48e7"
+      Hint: See More Text Button
+      Value: Ver más ofertas
+    - ID: "8577c63a-b7a4-4680-ac7a-640c7a6824ff"
+      Hint: Confirmation Button Label
+      Value: ESTOY DE ACUERDO
+    - ID: "8fc91357-60a2-487d-b269-d1a2e7b6a2cc"
+      Hint: Subheadline
+      Value: |
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+        <p>Lo sentimos. Al parecer no es elegible para este programa.</p>
+        </div>
+        <div class="large-2 columns">
+        <a class="button" href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">Contactar</a>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{297CC445-0514-45CB-8E70-9DA2BF6B8C73}" alt="Los niños de la escuela primaria esperan en línea en el autobús escolar" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Discount Marketplace
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "<strong>&iexcl;Listo, prep&aacute;rate, AHORRA!</strong> &iexcl;Compre ofertas de sus comerciantes favoritos y gane dinero en efectivo en sus compras de regreso a la escuela!"
+    - ID: "a96c2abf-264c-4e14-b13e-7f78158d2e8f"
+      Hint: Subheadline
+      Value: |
+        <h1>SEIU Discount Marketplace</h1>
+        <p>Reembolso en efectivo con <img alt="Rakuten" src="https://cdn.neamb.com/-/media/images/neamb/products/marketplace/rakutenlogowhite.png" /></p>
+    - ID: "af724fff-1a54-4293-bef5-4f00f8e99927"
+      Hint: Page Title
+      Value: 
+    - ID: "af798eb1-4166-41e6-b4b8-08f5e3e8df47"
+      Hint: Headline
+      Value: Ofertas exclusivas para miembros de SEIU
+    - ID: "afeb4d7d-d0eb-4da1-8cdb-e61cc1cb023c"
+      Hint: Terms & Conditions
+      Value: Si realiza la activación, creará una cuenta de Rakuten con esta dirección de correo electrónico y aceptará la Política de privacidad de SEIU Member Benefits, además de la Política de privacidad y los Términos y condiciones de Rakuten.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "be9da227-4864-45c2-b138-8c856a662de2"
+      Hint: Store List Label
+      Value: Explore el mercado de descuentos
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Saltar y comenzar a comprar
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210802T125350Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Discount Marketplace
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+    - ID: "f9eba9ae-2634-4ca3-8ade-a8c446335792"
+      Hint: No Results Text
+      Value: No hay resultados para la búsqueda

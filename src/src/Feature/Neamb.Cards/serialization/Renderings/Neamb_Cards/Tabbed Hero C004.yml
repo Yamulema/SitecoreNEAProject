@@ -1,0 +1,27 @@
+﻿---
+ID: "b4501362-456f-4232-886e-7ebf4d431007"
+Parent: "9dbf44d0-811b-4d96-9233-f86ef46423ab"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Cards/Tabbed Hero C004
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{D2B9F1DB-0A1E-47E2-9D1F-A3AC9637DC2E}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{17760A21-0801-45BD-9ABB-1C36807A07B3}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: TabbedHero
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Cards.Controllers.TabbedHeroController,Neambc.Neamb.Feature.Cards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T171918Z

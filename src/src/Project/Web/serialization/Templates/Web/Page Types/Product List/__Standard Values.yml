@@ -1,0 +1,160 @@
+﻿---
+ID: "4bfcdd4d-d657-4a09-bcd9-a816205f6e57"
+Parent: "f3c06421-5004-40d1-abdb-008accf26aea"
+Template: "f3c06421-5004-40d1-abdb-008accf26aea"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Product List/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {E20C8AEE-8D86-4564-BB55-208152C4D7EB}
+    {EF07CBF6-E44B-45CE-B502-9A8592266BA1}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{F92A2957-F81A-4F07-AAEF-9DCECB6DC7F8}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{D0BAF64A-DAE0-429C-9FD5-5B0B0A4B6F78}" />
+        <r
+          ds="{320FB78C-3992-47D9-8820-98D5C6A58D2D}"
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{16E54C1A-1F34-4B90-9639-40AA4DFFC200}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{7A2C38D5-C07F-4C10-8471-9EBC4C2D6621}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{3DC1D902-10E0-4744-A64C-32CB7F828FD3}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{95AB751B-E557-49F6-9449-360B4191F1FD}" />
+        <r
+          id="{5A254484-96AB-44B9-A30D-1DBEDE00182D}"
+          ph="body"
+          uid="{18DB00BE-A6ED-4466-BE04-9AC6073A30E8}" />
+        <r
+          id="{975691DB-0A20-4D04-ABEC-B2D4179E55EF}"
+          ph="left-column"
+          uid="{86D32045-B248-4583-B4B5-C47641A12A4B}" />
+        <r
+          ds="{8C345BA1-253A-4815-A9FC-14D4F583025F}"
+          id="{6A15627D-95C9-4F17-ADBD-4C0F81D90E75}"
+          ph="left-column-card"
+          uid="{DE04388B-3AE7-488A-9218-A9FC2C56B43C}" />
+        <r
+          id="{E4849C82-EFA3-40B6-AF5F-5D19B65AB73F}"
+          ph="right-column"
+          uid="{BA050BA4-803E-4CCF-A8CC-089D724D6F2E}" />
+        <r
+          id="{D007BCE4-F34E-4456-84E4-8AEBE15729BB}"
+          ph="right-column"
+          uid="{CC314F01-04BF-4914-BBD2-5EF327859ECC}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{8B85B9A8-3CAA-4A84-A6DC-0CD9D0247DBC}" />
+        <r
+          ds="{46D06DD7-8928-43F3-AC91-64FFC27778DC}"
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{D4572EA2-45A5-44A8-9A97-E1DC32D324C9}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D4572EA2-45A5-44A8-9A97-E1DC32D324C9}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="0C0D7F4140734929A0408AA5503DAF3F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T210839Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{EA634F4B-8C57-4A73-A544-5951ECB7EE5E}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T190526Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: |
+        {06656615-A283-47FC-B75B-AF674E53FCA5}
+        {499FF9E6-866E-4DDF-B318-AA9CCED85055}
+        {1D6E0D18-CEFF-493D-9ABB-D4CB323987BD}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{EA634F4B-8C57-4A73-A544-5951ECB7EE5E}" />

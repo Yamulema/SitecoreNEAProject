@@ -1,0 +1,59 @@
+﻿@using System.Runtime.CompilerServices
+@using Neambc.Neamb.Feature.Search
+@using Neambc.Neamb.Feature.Search.Enums
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Search.Models.SearchDto
+
+<section class="section-normal search-results">
+    <div class="container">
+        <div class="col-md-9 col-centered">
+            <div id="search-big" class="form-group">
+                <input id="search-big-input" placeholder="@Model.Placeholder" class="form-control" />
+                <i class="fa fa-times"></i>
+                <i class="fa fa-search"></i>
+            </div>
+            <hr />
+            <div class="row search-top-info">
+                <div class="col-md-6 col-sm-8 col-xs-12 search-filters">
+                    <span class="col-md-31 item ">
+                        <label class="custom-checkbox blue pull-left">
+                            <input id="chkOffers" type="checkbox" name="chkOffers" value="offers" class="chkfilter"><span class="checkmark"></span>
+                        </label><span class="text-alpha">Benefits</span>
+                    </span>
+
+
+
+                    <span class="col-md-31 item ">
+                        <label class="custom-checkbox blue pull-left">
+                            <input id="chkSolutions" type="checkbox" name="chkSolutions" value="solutions" class="chkfilter"><span class="checkmark"></span>
+                        </label><span class="text-alpha">Calculators</span>
+                    </span>
+
+                    <span class="col-md-31 item ">
+                        <label class="custom-checkbox blue pull-left">
+                            <input id="chkResources" type="checkbox" name="chkResources" value="resources" class="chkfilter"><span class="checkmark"></span>
+                        </label><span class="text-alpha">Resources</span>
+                    </span>
+
+
+                </div>
+
+                <div class="col-md-6 col-sm-4 col-xs-12 text-right">
+                    <p class="results-count">
+                        <span class="number">0</span>
+                        <span>@Html.Sitecore().Field(Templates.SearchResults.Fields.ResultsCountLabel, Model.Item)</span>
+                    </p>
+                </div>
+
+            </div>
+            <div style="display:none" class="no-results text-center">
+                <img src="/assets/neamb/images/no-results.png" alt="alt" class="img-responsive img-center" />
+                <p class="text-alpha p-t-xs">@Html.Sitecore().Field(Templates.SearchResults.Fields.NoResults, Model.Item)</p>
+            </div>
+            <div class="items">
+            </div>
+            <div id="see-more" class="text-center p-t-lg"><a href="#" title="title" style="display:none" class="more-items">@Html.Sitecore().Field(Templates.SearchResults.Fields.MoreText, Model.Item)</a></div>
+        </div>
+    </div>
+</section>

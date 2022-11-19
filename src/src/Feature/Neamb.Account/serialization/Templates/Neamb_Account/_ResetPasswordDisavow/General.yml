@@ -1,0 +1,18 @@
+﻿---
+ID: "4198ca32-a6a4-4718-8df3-aa0869c2e6b5"
+Parent: "290e34ad-997c-43d5-a6d8-95d3c5c31d23"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_ResetPasswordDisavow/General
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180625T192054Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

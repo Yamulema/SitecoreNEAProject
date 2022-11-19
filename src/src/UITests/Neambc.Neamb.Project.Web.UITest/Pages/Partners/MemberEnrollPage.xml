@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="MemberEnrollPage" urlpath="https://neamb.memberenroll.com/index.php">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="MemberEnroll_Form_NeaLogo" xpath="//a[@class='navbar-brand']//img"/>
+            <control key="MemberEnroll_Form_FirtName" xpath="//input[@id='MemberFirstName']"/>
+            <control key="MemberEnroll_Form_LastName" xpath="//input[@id='MemberLastName']"/>
+            <control key="MemberEnroll_Form_DOB" xpath="//input[@id='MemberBirthDate']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

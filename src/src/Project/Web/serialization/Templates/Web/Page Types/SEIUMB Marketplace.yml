@@ -1,0 +1,40 @@
+﻿---
+ID: "7960d6f0-09c8-451f-abb5-6e36761009ae"
+Parent: "f125a0bb-dd88-4875-b504-9386c48a89e8"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/SEIUMB Marketplace
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/shop (2).png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {7521907D-BB63-48EC-B661-74E52DF80A80}
+    {1F0F2C33-902C-40C5-9F1C-7502A60DF3D5}
+    {8752B292-ED92-484F-8A88-D6EAD7F79E45}
+    {A1A14C17-0F89-4ABD-9F12-BD33EF8AF036}
+    {5BE6CF51-1AF6-4ABB-8788-6D5BF7FFE1FE}
+    {40E15E44-1FC9-4A5D-9C09-2EAB6F214A80}
+    {65A3B35C-D1FD-4C36-B0C8-79B0244B746A}
+    {2701A785-3B14-491A-B649-69774B42EC8C}
+    {82DDFE8D-69CF-4BA5-A727-5E298F893768}
+    {DC52D1B9-15DD-4F88-B7A2-83138A12DB0D}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{4BAC772E-97D9-43F5-83A3-90FA9E66964A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201117T192033Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

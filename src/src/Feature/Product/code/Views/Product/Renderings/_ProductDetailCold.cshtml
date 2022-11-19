@@ -1,0 +1,17 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Product
+
+
+@model Neambc.Seiumb.Feature.Product.Models.UserStateProduct
+
+<a class="button" href="@Model.RegistrationLinkUrl" onclick="@Model.ActionColdClickRegister">@Model.RegistrationText</a>
+	<br>
+    <div class="show-for-small-only">
+        <a class="button" href="@Model.LoginMobileLinkUrl" onclick="@Model.ActionColdClickMobile">@Model.LoginMobileText</a>
+    </div>
+	<div class="show-for-medium">
+		<a data-open="loginModal" aria-controls="loginModal" aria-haspopup="true" class="button" id="uunqmy-reveal" tabindex="0" onclick="@Model.ActionColdClick">@Model.LoginDesktopText</a>
+	</div>
+	<p class="small">
+		@Html.Sitecore().Field(Templates.ProductLite.Fields.PreLoginMessage, Model.ContextItem)
+	</p>

@@ -1,0 +1,23 @@
+﻿@using Neambc.Seiumb.Feature.Navigation
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Neambc.Seiumb.Feature.Navigation.Models.NavigationItems
+
+@{ 
+    int count = 0;
+}
+<div class="small-12 medium-12 large-12 columns">
+    <ul class="menu">
+    @if (Model != null && Model.Items != null)
+    {
+        foreach (var item in Model.Items)
+        {
+            count++;
+            <li><a @Html.Raw(item.OnClickEventContent) href="@item.Url">@Html.Sitecore().Field(Templates.Navigable.Fields.ShortTitle, item.Item)</a></li>
+            if (Model.Items.Count != count)
+            {
+            <li>|</li>
+            }
+        }
+    }
+    </ul>
+</div>

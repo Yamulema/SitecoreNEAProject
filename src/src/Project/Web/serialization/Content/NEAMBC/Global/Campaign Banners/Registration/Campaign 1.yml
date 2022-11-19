@@ -1,0 +1,37 @@
+﻿---
+ID: "0171ed69-c14d-411d-a655-2432873193e3"
+Parent: "821cddef-0c3b-4950-b32e-610257feee9a"
+Template: "f62cd46f-877b-4043-b817-7fcb374811eb"
+Path: /sitecore/content/NEAMBC/Global/Campaign Banners/Registration/Campaign 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171226T172420Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{78721AC6-5EC6-4475-99CD-908133742FC9}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180110T210005Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{78721AC6-5EC6-4475-99CD-908133742FC9}" />

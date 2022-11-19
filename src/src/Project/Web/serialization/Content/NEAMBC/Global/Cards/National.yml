@@ -1,0 +1,75 @@
+﻿---
+ID: "fb3fea44-1e9b-49d4-8212-a85a1e21f8db"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/National
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Travel
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{40B6A351-A3A9-4CF5-9481-B401E3E3E5AC}" alt="Natinal Car Rental" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=54B239A4-9EB3-47ED-A393-5DA0D9FCE874&amp;_z=z">National Car Rental</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>At National, SEIU members can get on their way&mdash;fast.</p>
+        <a href="~/link.aspx?_id=54B239A4-9EB3-47ED-A393-5DA0D9FCE874&amp;_z=z"></a>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=54B239A4-9EB3-47ED-A393-5DA0D9FCE874&amp;_z=z">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F013F2BB-702A-4367-A74A-C13FF5F2C0FE}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Viajes
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{40B6A351-A3A9-4CF5-9481-B401E3E3E5AC}" alt="National Car Rental" height="" width="" hspace="" vspace=""></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=54B239A4-9EB3-47ED-A393-5DA0D9FCE874&amp;_z=z" onclick="ga_event('small module','click','national car rental esp &gt; title');">National Car Rental</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>En National, los miembros de SEIU pueden llegar r&aacute;pidamente a su destino.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=54B239A4-9EB3-47ED-A393-5DA0D9FCE874&amp;_z=z" onclick="ga_event('small module','click','national car rental esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>

@@ -1,0 +1,42 @@
+﻿---
+ID: "4a774d9a-62c0-4eed-b9ff-1c904dd66cac"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Green Promotional Tout
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal c-35">
+    <div class="container">
+    <div class="row">
+    <div id="current-promotions" class="col-md-9 col-centered">
+    <p class="section-indicator text-center">Current Promotions</p>
+    <h2 class="header text-center">Lorem Ipsum Versataille</h2>
+    <p class="promotions-title">From our partner</p>
+    <div class="promotion-container">
+    <div class="promotion bg-green"><img alt="" src="/assets/neamb/images/the-north-american-lawyer-s-guild-logo-122x25.png" />
+    <h6>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur*</h6>
+    <p class="condition">*lorem expires March 31, 2018</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T173506Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Green Promotional Tout

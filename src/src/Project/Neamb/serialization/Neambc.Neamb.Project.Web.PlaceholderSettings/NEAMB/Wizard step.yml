@@ -1,0 +1,27 @@
+﻿---
+ID: "238d91de-0d92-456a-98b1-93486610d1eb"
+Parent: "91b8a564-b0b5-4943-b331-7dd62021ba49"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/NEAMB/Wizard step
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: step
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {A5B2348C-95B0-4D84-B672-F3FFEEDC6E72}
+    {118615CF-4A9B-4C41-8AF7-D638808159F6}
+    {E66E5355-000E-4689-95D0-F6B007D1357F}
+    {4903F1E6-DB3C-4F1D-BA38-2C7338AC0DD9}
+    {F9B6A22E-659E-4686-895C-9068C24C02EA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190527T174458Z

@@ -1,0 +1,27 @@
+﻿---
+ID: "6ee8334d-ac3a-4a78-8c46-26f16ed6dd97"
+Parent: "b4ea30ea-d400-4b08-a880-f305b91edabc"
+Template: "b4ea30ea-d400-4b08-a880-f305b91edabc"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Cards/_MultiRowProductCards/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T205302Z
+    - ID: "3170c965-8d7d-40f3-879e-3ef488d1d131"
+      Hint: CTA Text
+      Value: Learn More
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8a34b6af-d560-41a9-ae74-30a34a978713"
+      Hint: Terms and Conditions Text
+      Value: *Terms & Conditions
+    - ID: "d6a40a11-1540-46b3-a696-3e4a4216097e"
+      Hint: Results Count Text
+      Value: Insert your text here

@@ -1,0 +1,100 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Forms
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    Sitecore.Data.Fields.LinkField retrievePassword = Model.Item.Fields[Templates.LogInHelp.Fields.RetrievePasswordCta];
+    string retrievePasswordLinkUrl = string.Empty;
+    if (retrievePassword != null && retrievePassword.TargetItem != null)
+    {
+        retrievePasswordLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(retrievePassword.TargetItem);
+    }
+
+    Sitecore.Data.Fields.LinkField retrieveUsername = Model.Item.Fields[Templates.LogInHelp.Fields.RetrieveUsernameCta];
+    string retrieveUsernameLinkUrl = string.Empty;
+    if (retrieveUsername != null && retrieveUsername.TargetItem != null)
+    {
+        retrieveUsernameLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(retrieveUsername.TargetItem);
+    }
+
+    Sitecore.Data.Fields.LinkField changeUserName = Model.Item.Fields[Templates.LogInHelp.Fields.ChangeUsernameCta];
+    string changeUserNameLinkUrl = string.Empty;
+    if (changeUserName != null && changeUserName.TargetItem != null)
+    {
+        changeUserNameLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(changeUserName.TargetItem);
+        changeUserNameLinkUrl = changeUserNameLinkUrl + changeUserName.QueryString;
+    }
+
+    Sitecore.Data.Fields.LinkField changePassword = Model.Item.Fields[Templates.LogInHelp.Fields.ChangePasswordCta];
+    string changePasswordLinkUrl = string.Empty;
+    if (changePassword != null && changePassword.TargetItem != null)
+    {
+        changePasswordLinkUrl = Sitecore.Links.LinkManager.GetItemUrl(changePassword.TargetItem);
+        changePasswordLinkUrl = changePasswordLinkUrl + changePassword.QueryString;
+    }
+}
+
+<div id="product_details_content" class="row">
+    <section id="login_help">
+        <div id="loginHelpTitle" class="row">
+            <div class="small-12 medium-12 large-12 columns">
+                <h4>@Html.Sitecore().Field(Templates.LogInHelp.Fields.Headline, Model.Item)</h4>
+                @Html.Sitecore().Field(Templates.LogInHelp.Fields.Subheadline, Model.Item)
+            </div>
+        </div>
+        <hr>
+        <section id="cards">
+            <div class="row">
+                <div class="large-6 medium-6 columns">
+                    <div class="panel">
+                        <div class="panelTitle">
+                            <h3>@Html.Sitecore().Field(Templates.LogInHelp.Fields.RetrieveUsernameTitle, Model.Item)</h3>
+                        </div>
+                        <div class="panelExcerpt">
+                            @Html.Sitecore().Field(Templates.LogInHelp.Fields.RetrieveUsernameDescription, Model.Item)
+                            <a href="@retrieveUsernameLinkUrl" class="button">@retrieveUsername.Text</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="small-12 medium-6 large-6 columns">
+                    <div class="panel">
+                        <div class="panelTitle" href="#">
+                            <a class="title" href=""><h3>@Html.Sitecore().Field(Templates.LogInHelp.Fields.RetrievePasswordTitle, Model.Item)</h3></a>
+                        </div>
+                        <div class="panelExcerpt">
+                            @Html.Sitecore().Field(Templates.LogInHelp.Fields.RetrievePasswordDescription, Model.Item)
+                            <a href="@retrievePasswordLinkUrl" class="button">@retrievePassword.Text</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-6 medium-6 columns">
+                    <div class="panel">
+                        <div class="panelTitle" href="#">
+                            <h3><a href="">@Html.Sitecore().Field(Templates.LogInHelp.Fields.ChangeUsernameTitle, Model.Item)</a></h3>
+                        </div>
+                        <div class="panelExcerpt">
+                            @Html.Sitecore().Field(Templates.LogInHelp.Fields.ChangeUsenamerDescription, Model.Item)
+                            <a href="@changeUserNameLinkUrl" class="button">@changeUserName.Text</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="small-12 medium-6 large-6 columns">
+                    <div class="panel">
+                        <div class="panelTitle" href="#">
+                            <a class="title" href=""><h3>@Html.Sitecore().Field(Templates.LogInHelp.Fields.ChangePasswordTitle, Model.Item)</h3></a>
+                        </div>
+                        <div class="panelExcerpt">
+                            @Html.Sitecore().Field(Templates.LogInHelp.Fields.ChangePasswordDescription, Model.Item)
+                            <a href="@changePasswordLinkUrl" class="button">@changePassword.Text</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>

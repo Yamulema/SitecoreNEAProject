@@ -1,0 +1,40 @@
+﻿@using Sitecore.Mvc
+@using Neambc.Neamb.Feature.GeneralContent
+@using Neambc.Neamb.Foundation.Configuration.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.SecuredBodyDTO
+
+@{
+	bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+@if (isExperienceEditor)
+{
+	<div class="@Model.BodyBackgroundColorClass">
+		@Html.Sitecore().Field(Templates.PageBody.Fields.PageBodyBody, Model.Item)
+		@Html.Sitecore().Field(Templates.SecuredContent.Fields.SecuredBody, Model.Item)
+	</div>
+}
+else
+{
+	if (Model.DisplayComponent)
+	{
+		<div id="securedBody" class="container">
+			<div class="@Model.BodyBackgroundColorClass">
+				@if (Model.IsSecuredBodyEmpty)
+				{
+					@Html.Sitecore().Field(Templates.PageBody.Fields.PageBodyBody, Model.Item)
+				}
+				else if (Model.IsUserWarmOrHot)
+				{
+					@Html.Sitecore().Field(Templates.SecuredContent.Fields.SecuredBody, Model.Item).ReplaceTokens(Model.Tokens)
+				}
+				else
+				{
+					@Html.Sitecore().Field(Templates.PageBody.Fields.PageBodyBody, Model.Item)
+				}
+			</div>
+		</div>
+	}
+}
+

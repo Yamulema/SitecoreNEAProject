@@ -1,0 +1,21 @@
+﻿---
+ID: "4a9cfced-8e44-4d5a-a33c-68455e30e52b"
+Parent: "0a4b5ca9-42ad-4a6e-ad75-60987453292a"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_GeneralContent/Secured Body Full Width C061
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: FullWidthSecuredBody
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.GeneralContent.Controllers.SecuredBodyController,Neambc.Neamb.Feature.GeneralContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180626T222636Z

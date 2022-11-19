@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ForgotEmailPage" urlpath="/account/forgot-email">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="ForgotEmailPage_Header_Title" xpath="//h1[@class='header']"  />
+            <control key="ForgotEmailPage_Header_SubTitle" xpath="//p[@class='subhead text-alpha no-margin-auto']"  />
+          </controls>
+        </section>
+        <section name="Form">
+          <controls>
+            <control key="ForgotEmailPage_Form_FirstName" xpath="//input[@id='firstname']"  />
+            <control key="ForgotEmailPage_Form_LastName" xpath="//input[@id='lastName']"  />
+            <control key="ForgotEmailPage_Form_Month" xpath="//select[@id='month']"  />
+            <control key="ForgotEmailPage_Form_Day" xpath="//select[@id='day']"  />
+            <control key="ForgotEmailPage_Form_Year" xpath="//select[@id='year']"  />
+            <control key="ForgotEmailPage_Form_Zip" xpath="//input[@id='zip']"  />
+            <control key="ForgotEmailPage_Form_RetrieveUsername" xpath="//input[@id='submit']"  />
+            <control key="ForgotEmailPage_Form_ReturnToSignIn" xpath="//a[contains(text(),'Return to Sign In')]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

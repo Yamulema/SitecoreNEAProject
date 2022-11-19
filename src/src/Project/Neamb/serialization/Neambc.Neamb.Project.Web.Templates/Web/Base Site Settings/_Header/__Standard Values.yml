@@ -1,0 +1,46 @@
+﻿---
+ID: "b8cb5a3e-7492-434d-be82-780ef241c777"
+Parent: "cd1ca8a4-3472-4a6f-beb4-7aa3d731fa35"
+Template: "cd1ca8a4-3472-4a6f-beb4-7aa3d731fa35"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Site Settings/_Header/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180410T170647Z
+    - ID: "403daa95-9b98-49b7-94b5-3cbb3ad87251"
+      Hint: Navigation
+      Value: "{72C4A9D5-A646-4E6A-A513-06108B03DCE7}"
+    - ID: "4ae27660-db6d-4241-b975-69c71b3cc18f"
+      Hint: Avatar Open
+      Value: |
+        <image mediaid="{8F063DB4-7578-4134-BF88-AF699CE8A42F}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ae8e2ecb-6782-459f-b96c-e6eb8f568205"
+      Hint: Get Started Subheading
+      Value: Create an account to get started, or if you already have an account, sign in below
+    - ID: "d9b92f34-f4b8-4e11-b0ef-7b900440ae07"
+      Hint: Get Started Heading
+      Value: Get Started
+    - ID: "e66b41f4-5634-4ead-9e85-91acbb937789"
+      Hint: Search Placeholder
+      Value: Search
+    - ID: "ec93c27b-a621-4b20-ad31-8559715607c7"
+      Hint: Avatar
+      Value: |
+        <image mediaid="{3723319E-D280-4BC4-BF19-625B2402BE6A}" />
+    - ID: "f685af3a-8126-4543-acde-05dd51c7e63e"
+      Hint: Logo
+      Value: |
+        <image mediapath="" alt="logo" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{9A0FEDF1-95B3-4FB3-9D3E-F96FE5166D28}" />

@@ -1,0 +1,145 @@
+﻿---
+ID: "4bac772e-97d9-43f5-83a3-90fa9e66964a"
+Parent: "7960d6f0-09c8-451f-abb5-6e36761009ae"
+Template: "7960d6f0-09c8-451f-abb5-6e36761009ae"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/SEIUMB Marketplace/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{8CD55694-8005-49EB-A339-C40B4300D1E0}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{CA848D1C-ED77-4B43-942C-E1BFDCA9649A}" />
+        <r
+          ds="{320FB78C-3992-47D9-8820-98D5C6A58D2D}"
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{594942DD-5D05-4717-9F8F-14CA106CD6EE}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{1369F65B-D678-44FE-AEBE-D0EB099E3DC2}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{ACF423BA-C034-4088-9E80-5F6D8AD115BD}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{F2378AF8-DC15-4F4F-A98C-0A420331FEF8}" />
+        <r
+          id="{4368A9F1-CE38-43C5-9DB9-12CFAEBDAF94}"
+          ph="session-modal"
+          uid="{9F3B6152-C90F-402A-BB92-051CF66E14E9}" />
+        <r
+          id="{CBBFD196-B15A-4BDD-9EAB-22BD983A9577}"
+          ph="body"
+          uid="{E7A804CD-F738-4D91-AAE8-5698B8042D9D}" />
+        <r
+          id="{0356F5F9-BB5A-456D-84AC-02121ADF27BF}"
+          ph="body"
+          uid="{C4CC5D91-543E-4B92-9543-4B443E93BD20}" />
+        <r
+          id="{9C37EF69-6EA8-4406-A7DC-618F4183D5E0}"
+          ph="body"
+          uid="{5238D2A5-75B4-4D4A-8FB0-4749CF145679}" />
+        <r
+          id="{B6FA15DF-A921-4D6E-A482-6A77F2AA3325}"
+          ph="body"
+          uid="{3A9F5B8B-CFB4-49EB-B349-9219FB2C945B}" />
+        <r
+          id="{AA924659-472E-4E74-A327-7641B5BEE665}"
+          ph="marketplace-categories"
+          uid="{287AE2D3-E3D8-4D55-8D9E-BE5E0C5DABA0}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{13B85B0C-7C6A-4B7D-8EA7-6BA0E23F02B7}" />
+        <r
+          ds="{46D06DD7-8928-43F3-AC91-64FFC27778DC}"
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{F44F9F35-784D-4731-933B-0F50F5D21A24}" />
+        <r
+          id="{E8A4D677-8320-4050-974E-9F52CC2FF699}"
+          ph="chat"
+          uid="{1A0D030E-797B-4A95-9CCC-B5272537DB2A}" />
+        <r
+          ds=""
+          id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+          par=""
+          ph="search-banner-seiumb"
+          uid="{B4E972E6-C24E-41E9-868D-58E4EA512E06}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0595cf87-9440-45c9-a391-1a7562a9ace0"
+      Hint: Guide Steps
+      Value: |
+        <h2>SEIUMB Member Discount Marketplace</h2>
+                     <div class="row">
+                         <div class="image-carousel">
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/bc3e1bfbcf444e8c9dd6051c07bd8096.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/680fb09c92ef4fca8f2d5b35531a1b11.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/e18c545f23534ceeb21f295793d19185.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/dc7df0b5c3f04442b6c20be05a55cb88.ashx" alt="">
+                             </div>
+                             <div class="small-12 medium-12 large-12 columns">
+                                 <img src="-/media/6acaa167c7704e4bbfe76e1d6ec699cb.ashx"> alt="">
+                             </div>
+                         </div>
+                     </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201125T235820Z
+    - ID: "424f220f-05b9-44fd-a54f-6e46ae6c0a6a"
+      Hint: Eligibility Overlay
+      Value: |
+         <p>We're sorry. It looks like you're not elegible for this program.</p>
+                 <a class="button" href="#">Contact Us</a>
+    - ID: "4b60c8cf-7e69-4377-b2f5-216b3466c182"
+      Hint: Registration Banner
+      Value: 
+    - ID: "754bd263-505c-4c46-8aaa-05b2d18c2053"
+      Hint: More Questions
+      Value: |
+        <link text="More questions? Read the FAQs" linktype="anchor" url="faq" anchor="faq" title="" class="" />
+    - ID: "970cf502-5792-4932-8f7f-60115e430e42"
+      Hint: Notification
+      Value: |
+        <div class="large-10 columns">
+                          <p>We're sorry. It looks like you're not elegible for this program.</p>
+                      </div>
+                      <div class="large-2 columns">
+                          <a class="button" href="#" data-open="not-elegible-modal">Contact Us</a>
+                      </div>
+    - ID: "c3e0d153-7386-4c18-91d9-d767cd21beb3"
+      Hint: Guide Skip Text
+      Value: Skip and start shopping

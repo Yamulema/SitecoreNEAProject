@@ -1,0 +1,17 @@
+﻿<Transmittal 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance\" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema\" 
+  Type="GetApplicants"  
+  PortfolioID="D05B0402-88C2-4327-9704-2E2040526E0E" 
+  SenderID="D05B0402-88C2-4327-9704-2E2040526E0E"
+>
+  <Group>
+    <GroupName>NEA Member Benefits</GroupName>
+  </Group>
+  <Applicants>
+    <Applicant>
+      <EmployeeIdent>{mdsid}</EmployeeIdent>
+      <!-- <Relationship>Employee</Relationship> -->
+    </Applicant>
+  </Applicants>
+</Transmittal>

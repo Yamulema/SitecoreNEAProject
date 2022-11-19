@@ -1,0 +1,670 @@
+﻿---
+ID: "e09bb2ce-87e5-4c1b-a2e5-1013e29b5e0e"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Discount Marketplace Federal Taxes
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210104T181320Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" ></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Announcing the NEW SEIU Discount Marketplace with Cash Back powered by Rakuten</span></strong></p>
+        <p>Not only do you earn cash back every time shop, you also have access to additional exclusive cash back offers, just for being an SEIU member. It&rsquo;s quick and easy to get started.  Just register/login in to your seiumb.com account and sign up for a Rakuten account. Then, start shopping!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T184052Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T184052Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Announcing the NEW SEIU Discount Marketplace with Cash Back powered by Rakuten</span></strong></p>
+        <p>Not only do you earn cash back every time you shop, you also have access to additional exclusive cash back offers, just for being an SEIU member. It&rsquo;s quick and easy to get started.  Just register/login in to your seiumb.com account and sign up for a Rakuten account. Then, start shopping!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210107T170341Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210107T170341Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Announcing the NEW SEIU Discount Marketplace with Cash Back powered by Rakuten</span></strong></p>
+        <p>Not only do you earn cash back every time you shop, you also have access to additional exclusive cash back offers, just for being an SEIU member. It’s quick and easy to get started.  Just register/login in to your seiumb.com account and sign up for a Rakuten account. Then, start shopping!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210107T222245Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210107T222245Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Announcing the NEW SEIU Discount Marketplace with Cash Back powered by Rakuten</span></strong></p>
+        <p>Not only do you earn cash back every time you shop, you also have access to additional exclusive cash back offers, just for being an SEIU member. It’s quick and easy to get started.  Just register/login in to your seiumb.com account and sign up for a Rakuten account. Then, start shopping!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T143201Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T143201Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Earn cash back while you shop thousands of online retailers.</p>
+        <p>The best deals&hellip;</p>
+        <p>Cash back on your purchases&hellip;</p>
+        <p>Plus, <strong>EXTRA</strong> Cash Back with exclusive monthly offers!</p>
+        <p>Sign up and start earning cash back now!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 6
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T145615Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T145615Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Earn cash back while you shop thousands of online retailers.</p>
+        <p>The best deals&hellip;</p>
+        <p>Cash back on your purchases&hellip;</p>
+        <p>Plus, <strong>EXTRA</strong> Cash Back with exclusive monthly offers!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 7
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T145741Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T145741Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Earn cash back while you shop thousands of online retailers.</p>
+        <ul>
+            <li style="list-style-position:inside;">The best deals</li>
+        </ul>
+        <ul>
+            <li style="list-style-position:inside;">Cash back on your purchases</li>
+        </ul>
+        <p>Plus, <strong>EXTRA</strong> Cash Back with exclusive monthly offers!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 8
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T150135Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{D98D4E74-1AD3-4830-A792-BEECBDA94A4F}" alt="Federal Tax Deadline" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T150135Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <p><strong>The Tax Deadline has been extended to May 17th!</strong></p>
+        <p>You can file your taxes and earn cash back at H&amp;R Block, Turbo Tax, E-file and more stores through the SEIU Discount Marketplace. <br />
+        In fact, H&amp;R Block is offering extra cash back, exclusively to SEIU Members.</p>
+  - Version: 9
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210415T134517Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{D98D4E74-1AD3-4830-A792-BEECBDA94A4F}" alt="Federal Tax Deadline" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210415T134517Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">NEW! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong>The Tax Deadline has been extended to May 17th!</strong></p>
+        <p>You can file your taxes and earn cash back at H&amp;R Block, Turbo Tax, E-file and more stores through the SEIU Discount Marketplace. <br />
+        In fact, H&amp;R Block is offering extra cash back, exclusively to SEIU Members.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 10
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210415T134650Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{D98D4E74-1AD3-4830-A792-BEECBDA94A4F}" alt="Federal Tax Deadline" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210415T134650Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong>The Tax Deadline has been extended to May 17th!</strong></p>
+        <p>You can file your taxes and earn cash back at H&amp;R Block, Turbo Tax, E-file and more stores through the SEIU Discount Marketplace. <br />
+        In fact, H&amp;R Block is offering extra cash back, exclusively to SEIU Members.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+  - Version: 11
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210415T134800Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DISCOUNTS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{D98D4E74-1AD3-4830-A792-BEECBDA94A4F}" alt="Federal Tax Deadline" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210415T134800Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong>The Federal Tax Deadline has been extended to May 17th!</strong></p>
+        <p>You can file your taxes and earn cash back at H&amp;R Block, Turbo Tax, E-file and more stores through the SEIU Discount Marketplace. <br />
+        In fact, H&amp;R Block is offering extra cash back, exclusively to SEIU Members.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SIGN UP NOW</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210104T202736Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DESCUENTOS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" alt="¡NUEVO! SEIU Discount Marketplace " height="" width="" hspace="" vspace="" ></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">&iexcl;NUEVO! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Presentamos el NUEVO SEIU Discount Marketplace con Reembolsos en efectivo impulsado por Rakuten</span></strong></p>
+        <p>No solo ganas reembolsos en efectivo cada vez que compras, sino que tambi&eacute;n tienes acceso a otras ofertas exclusivas con reembolsos, solo por ser miembro de SEIU.
+        Empezar es r&aacute;pido y f&aacute;cil. Solo tienes que registrarte o iniciar sesi&oacute;n en tu cuenta de seiumb.com y registrarte para abrir una cuenta de Rakuten. &iexcl;Y despu&eacute;s, empezar a comprar!
+        </p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">REG&Iacute;STRATE AHORA</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T184028Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DESCUENTOS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" alt="¡NUEVO! SEIU Discount Marketplace " height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T184028Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">¡NUEVO! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong><span style="color: #4f2e84;">Presentamos el NUEVO SEIU Discount Marketplace con Reembolsos en efectivo impulsado por Rakuten</span></strong></p>
+        <p>No solo ganas reembolsos en efectivo cada vez que compras, sino que también tienes acceso a otras ofertas exclusivas con reembolsos, solo por ser miembro de SEIU.
+        Empezar es rápido y fácil. Solo tienes que registrarte o iniciar sesión en tu cuenta de seiumb.com y registrarte para abrir una cuenta de Rakuten. ¡Y después, empezar a comprar!
+        </p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">REGÍSTRATE AHORA</a></div>
+        </div>
+  - Version: 3
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T143516Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DESCUENTOS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCA0B951-F8BF-49EA-839C-74103E3C1E57}" alt="¡NUEVO! SEIU Discount Marketplace " height="" width="" hspace="" vspace="" ></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T143516Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">&iexcl;NUEVO! SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Recibe reembolsos en efectivo cuando compras en miles de tiendas en l&iacute;nea.</p>
+        <p>Las mejores ofertas...</p>
+        <p>Reembolsos en tus compras...</p>
+        <p>&iexcl;Adem&aacute;s, reembolsos <strong>EXTRA</strong> con exclusivas ofertas mensuales!</p>
+        <p>&iexcl;Reg&iacute;strate y empieza a ganar dinero en efectivo ya!</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">REG&Iacute;STRATE AHORA</a></div>
+        </div>
+  - Version: 4
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T150351Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DESCUENTOS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{D98D4E74-1AD3-4830-A792-BEECBDA94A4F}" alt="Fecha límite de impuestos federales" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T150351Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong>&iexcl;La fecha l&iacute;mite de impuestos federales se ha extendido hasta el 17 de mayo!</strong></p>
+        <p>Puede presentar sus impuestos y obtener reembolsos en efectivo en H&amp;R Block, Turbo Tax, E-file y m&aacute;s tiendas a trav&eacute;s del SEIU Discount Marketplace.<br />
+        De hecho, H&amp;R Block ofrece reembolsos en efectivo adicionales, exclusivamente a los miembros de SEIU.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">REG&Iacute;STRATE AHORA</a></div>
+        </div>
+  - Version: 5
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210415T143236Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: DESCUENTOS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{D98D4E74-1AD3-4830-A792-BEECBDA94A4F}" alt="Fecha límite de impuestos federales" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210415T143236Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">SEIU Discount Marketplace</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p><strong>&iexcl;El plazo para el pago federal de impuestos se ha ampliado hasta el 17 de mayo!</strong></p>
+        <p>Puede presentar su declaraci&oacute;n de impuestos y obtener una devoluci&oacute;n de dinero en H&amp;R Block, Turbo Tax, E-file y otras tiendas en el &ldquo;SEIU Discount Marketplace&rdquo;.<br />
+        De hecho, H&amp;R Block est&aacute; ofreciendo una <strong>devoluci&oacute;n de dinero adicional</strong> solo para los miembros de SEIU.</p>
+        <div><a class="button panelBtn" href="~/link.aspx?_id=13AB83B3087544FE99AE1F875292D434&amp;_z=z">REG&Iacute;STRATE AHORA</a></div>
+        </div>

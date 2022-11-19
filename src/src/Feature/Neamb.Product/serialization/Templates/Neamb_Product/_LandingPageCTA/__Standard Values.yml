@@ -1,0 +1,65 @@
+﻿---
+ID: "3df957cb-7376-4bd8-b197-2d33068d44f2"
+Parent: "3a159950-8ba8-4164-a465-b25c37a696cd"
+Template: "3a159950-8ba8-4164-a465-b25c37a696cd"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_LandingPageCTA/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T184215Z
+    - ID: "2aaa0c63-e24b-4bb1-a921-313c3b328bdf"
+      Hint: Not Eligible
+      Value: Sorry, this offer is available to NEA members only.
+    - ID: "31fd9495-a12e-49f9-a5d8-24e61d93e29e"
+      Hint: Success
+      Value: |
+        <div class="modal-body">
+            <h2 class="header">Thanks for entering the New Member Giveaway!</h2>
+            <p>Your entry has been received.
+        
+            You’ll receive an email confirmation from us shortly.
+            </p>
+            <div class="col-md-5 col-centered"><a href="~/link.aspx?_id=545409FCDB864A7FAC61F74A274B5E30&amp;_z=z" class="btn btn-lg btn-blue btn-block">Proceed to Home Page</a></div>
+        </div>
+    - ID: "5af52daa-419a-4da2-9d48-d08f31346563"
+      Hint: Show social share
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "726d32e5-8648-495f-b7c2-b501ada2cacf"
+      Hint: Name
+      Value: $name
+    - ID: "73da7401-76af-43f5-9b88-ce1ad1f858da"
+      Hint: Eyebrow
+      Value: NEA Member Benefits Giveaway
+    - ID: "a02d086c-f869-4b1b-b50e-43356af241e8"
+      Hint: Login Details
+      Value: |
+        *State, chapter, and membership restrictions may apply. Read Terms and Conditions for full eligibility rules.
+        "Terms and Conditions" must be linked to that page.
+    - ID: "ab261ff6-73c9-4f27-961d-f2eea898f273"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "c25d0cb0-fcbc-4420-a34b-ed195fd0a69b"
+      Hint: Terms and Conditions
+      Value: |
+        No purchase is necessary. Giveaway entry begins at 12:00:01 a.m. ET, February 1, 2018 and ends at 11:59:59 p.m. ET, March 31, 2018. Winner will be notified on or before April 10, 2018. Please see the <a href="~/link.aspx?_id=2351C4D0ECBD4403BED4751C3CF3960A&amp;_z=z">complete rules</a>&nbsp;for details.
+    - ID: "de957504-99ee-494c-ae14-871ad0bb90d7"
+      Hint: Image
+      Value: |
+        <image mediaid="{17047E10-6DF9-475E-82E4-3D79E044F342}" />
+    - ID: "e494a4f2-baa2-4d8a-84b5-813994c956f8"
+      Hint: Login
+      Value: |
+        <link text="Sign In to Enter" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />
+    - ID: "ef646ae3-6438-4461-935e-fb30908fd95c"
+      Hint: Placement
+      Value: "{0424CED8-4C06-48AB-A255-3A990E87DFC7}"

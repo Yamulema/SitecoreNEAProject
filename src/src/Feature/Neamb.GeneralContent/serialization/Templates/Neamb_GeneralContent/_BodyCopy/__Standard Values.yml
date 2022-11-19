@@ -1,0 +1,21 @@
+﻿---
+ID: "e02efaf8-c35c-4a19-841f-7facef4e9b13"
+Parent: "510dd541-cb88-4527-8c7a-86a29ef7d2fd"
+Template: "510dd541-cb88-4527-8c7a-86a29ef7d2fd"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_BodyCopy/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180427T180233Z
+    - ID: "2c35129e-3a76-4324-ac98-24572e226a82"
+      Hint: Body Height Limit
+      Value: 500
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

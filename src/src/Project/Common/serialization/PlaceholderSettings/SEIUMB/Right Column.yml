@@ -1,0 +1,27 @@
+﻿---
+ID: "68d8c637-8614-4667-b8be-7263e0f24642"
+Parent: "4963caf7-7180-4f88-a903-879ea28b0b7c"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/SEIUMB/Right Column
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "right-column"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {D007BCE4-F34E-4456-84E4-8AEBE15729BB}
+    {8D9E0E04-4E95-498B-BECF-529A7AD3E130}
+    {E4849C82-EFA3-40B6-AF5F-5D19B65AB73F}
+    {05207669-6225-4F0D-8513-A8A43FB21069}
+    {A69FE04C-68F8-435E-B645-903C69FA33C3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T152858Z

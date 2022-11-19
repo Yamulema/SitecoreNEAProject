@@ -1,0 +1,113 @@
+﻿---
+ID: "dbfe0b65-fbaf-4020-b5a8-4a2bb30ea3c9"
+Parent: "bdb7de45-9794-4b0e-aade-2d9a8d227fcb"
+Template: "bdb7de45-9794-4b0e-aade-2d9a8d227fcb"
+Path: /sitecore/templates/SEIUMB/Foundation/SitecoreExtensions/_SiteSettings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12454f06-278d-400f-90a3-c737a0e6b013"
+      Hint: NotYou
+      Value: "Not You?"
+    - ID: "1c983212-48b6-4fbe-b1bb-541121e980c1"
+      Hint: MobileLogin
+      Value: |
+        <link text="Login" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T202739Z
+    - ID: "2cc6500e-edc9-4be8-8bec-cd3fa763793a"
+      Hint: ShareButtons
+      Value: "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56a143394a43b67b"
+    - ID: "2f93a0cf-1044-46bb-95c1-134093a015a5"
+      Hint: Logout
+      Value: Logout
+    - ID: "3195df63-ac35-41cb-b2e9-f637bff61811"
+      Hint: SEIUMBLogo
+      Value: |
+        <image mediaid="{F4B68327-9532-44D8-85D0-536421AA563D}" />
+    - ID: "39a6155d-c445-441e-b693-c4bacebdf4ad"
+      Hint: Profile
+      Value: Profile
+    - ID: "39cb2088-e064-41db-a2f8-38d83f03ba9b"
+      Hint: Registration
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "3f9d1016-499f-4985-a263-0c76c264c582"
+      Hint: Username
+      Value: Username
+    - ID: "5a54342d-a276-49aa-aba2-61167e49aab0"
+      Hint: Welcome
+      Value: Welcome | member of
+    - ID: "5a8f02c1-6c91-4cd8-b767-94728c49b6be"
+      Hint: Password
+      Value: Password
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "66c29e24-921c-440a-94ae-5af44959ba2a"
+      Hint: JS Snippet
+      Value: |
+        <!-- BoldChat Live Chat Button HTML v5.00 (Type=Web,ChatButton=My Chat Button - 11-2018,Website=NEAMB) -->
+        <div style="text-align: center; white-space: nowrap;">
+        <script type="text/javascript">
+          var bccbId = Math.random(); document.write(unescape('%3Cdiv id=' + bccbId + '%3E%3C/div%3E'));
+          window._bcvma = window._bcvma || [];
+          _bcvma.push(["setAccountID", "421659361877807029"]);
+          _bcvma.push(["setParameter", "WebsiteID", "418615892234412209"]);
+          _bcvma.push(["addStatic", {type: "chat", bdid: "4025707849180880830", id: bccbId}]);
+          var bcLoad = function(){
+            if(window.bcLoaded) return; window.bcLoaded = true;
+            var vms = document.createElement("script"); vms.type = "text/javascript"; vms.async = true;
+            vms.src = ('https:'==document.location.protocol?'https://':'http://') + "vmss.boldchat.com/aid/421659361877807029/bc.vms4/vms.js";
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vms, s);
+          };
+          if(window.pageViewer && pageViewer.load) pageViewer.load();
+          else if(document.readyState=="complete") bcLoad();
+          else if(window.addEventListener) window.addEventListener('load', bcLoad, false);
+          else window.attachEvent('onload', bcLoad);
+        </script>
+        </div>
+        <!-- /BoldChat Live Chat Button HTML v5.00 -->
+    - ID: "ae3535a3-87a7-4a45-8146-81901dbca0c7"
+      Hint: SearchBoxPlaceholder
+      Value: Search seiumb.com
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12454f06-278d-400f-90a3-c737a0e6b013"
+      Hint: NotYou
+      Value: "No es usted?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171205T205231Z
+    - ID: "2cc6500e-edc9-4be8-8bec-cd3fa763793a"
+      Hint: ShareButtons
+      Value: "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56a143394a43b67b"
+    - ID: "2f93a0cf-1044-46bb-95c1-134093a015a5"
+      Hint: Logout
+      Value: Salir
+    - ID: "39a6155d-c445-441e-b693-c4bacebdf4ad"
+      Hint: Profile
+      Value: Perfil
+    - ID: "3f9d1016-499f-4985-a263-0c76c264c582"
+      Hint: Username
+      Value: Nombre De Usuario
+    - ID: "5a54342d-a276-49aa-aba2-61167e49aab0"
+      Hint: Welcome
+      Value: Bienvenido | miembro de
+    - ID: "5a8f02c1-6c91-4cd8-b767-94728c49b6be"
+      Hint: Password
+      Value: Contraseña
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ae3535a3-87a7-4a45-8146-81901dbca0c7"
+      Hint: SearchBoxPlaceholder
+      Value: Buscar en seiumb.com

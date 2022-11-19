@@ -1,0 +1,55 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Account.Models.BeneficiaryDTO
+
+@if (Model.AccountStatus == StatusEnum.Hot || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="p-t-md">
+        <div class="container">
+            <div class="col-md-12">
+                <a href="@Model.BackCta.FriendlyUrl" title="title" class="form-nav">
+                    <i aria-hidden="true" class="fa fa-chevron-left">
+                    </i>
+                    <span>
+                        @Model.BackCta.Text
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="new-design form col-centered">
+        <div class="col-xs-12">
+            <form id="add-beneficiary" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+                @Html.HiddenFor(x => x.DatasourceId, new { @Value = Model.DatasourceId })
+                <input type="hidden" name="fhController" value="ComplimentaryLifeController" data-abide-ignore />
+                <input type="hidden" name="fhAction" value="AddBeneficiary" data-abide-ignore />
+
+                <div class="step-header">
+                    <h5>@Html.Sitecore().Field(Templates.Beneficiary.Fields.Title, Model.Item)</h5>
+                    <p>
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.Intro, Model.Item)
+                    </p>
+                </div>
+                @Html.Partial("~/Views/Neamb.Account/ComplimentaryLife/_Beneficiary.cshtml", Model)
+                <div class="form-section">
+                    <button type="submit" class="btn btn-new btn-outline-default m-t-sm" @Html.Raw(Model.OnClickEvent)>
+                        @Html.Sitecore().Field(Templates.Beneficiary.Fields.Save, Model.Item, new { @DisableWebEdit = true })
+                        <i style="display: none;" class="fa fa-spinner fa-spin"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+}
+else
+{
+    <section class="section-normal">
+        <div class="container">
+            <div class="row">
+                @Html.Sitecore().Field(Templates.Beneficiary.Fields.AnonymousUser, Model.Item)
+            </div>
+        </div>
+    </section>
+}

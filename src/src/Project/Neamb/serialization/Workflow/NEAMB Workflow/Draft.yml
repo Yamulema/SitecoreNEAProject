@@ -1,0 +1,39 @@
+﻿---
+ID: "f9fe8303-02a0-4542-8d6a-b01533cc83b0"
+Parent: "599eac95-e90f-4493-a258-02f44c864e74"
+Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
+Path: /sitecore/system/Workflows/NEAMB Workflow/Draft
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/clipboard_check_edit.png
+- ID: "a438dfd1-154e-4584-b7e3-d1e28315e415"
+  Hint: Preview publishing targets
+  Type: Checklist
+  Value: "{558946A0-A967-4A14-95A1-7239649C83D9}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|+workflowState:delete|+workflowState:write|+item:read|+workflowCommand:execute|pd|+workflowState:delete|+workflowState:write|+item:read|+workflowCommand:execute|ar|sitecore\NEAMB Editor|pe|+workflowCommand:execute|+workflowState:write|+item:read|+workflowState:delete|!*|pd|+workflowCommand:execute|+workflowState:write|+item:read|+workflowState:delete|^*|ar|sitecore\NEAMB Approver|pe|+workflowState:delete|+workflowCommand:execute|+item:read|+workflowState:write|!*|pd|+workflowState:delete|+workflowCommand:execute|+item:read|+workflowState:write|^*|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170705T135108Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

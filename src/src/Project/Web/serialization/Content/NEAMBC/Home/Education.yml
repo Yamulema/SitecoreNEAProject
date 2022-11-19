@@ -1,0 +1,512 @@
+﻿---
+ID: "10fc3269-da0b-4202-abe4-de3aae36eca0"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "f3c06421-5004-40d1-abdb-008accf26aea"
+Path: /sitecore/content/NEAMBC/Home/Education
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180305T174633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Build your skills and enhance your career with one of our college degree programs
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {1450B2E1-14B2-4CDF-8E17-FE5D025CCA25}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Education
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Education
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Education
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190227T172635Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Build your skills and enhance your career with one of our college degree programs
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {1450B2E1-14B2-4CDF-8E17-FE5D025CCA25}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Education
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190227T172635Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Education
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Education
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{681014D8-BA99-492D-B0E7-8641DB3023B0}"
+              p:before="*"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200611T182429Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Build your skills and enhance your career with one of our college degree programs
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {1450B2E1-14B2-4CDF-8E17-FE5D025CCA25}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Education
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200611T182429Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Education
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Education
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{681014D8-BA99-492D-B0E7-8641DB3023B0}"
+              p:before="*"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{04D9CD7F-733E-42D4-92CA-016343E8BF8D}"
+              p:after="r[@uid='{681014D8-BA99-492D-B0E7-8641DB3023B0}']"
+              s:ds="{49C20F17-772E-4D78-BCCD-AE8DB21E13A7}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200612T180224Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Build your skills and enhance your career with one of our college degree programs
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {1450B2E1-14B2-4CDF-8E17-FE5D025CCA25}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Education
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200612T180224Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Education
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Education
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{681014D8-BA99-492D-B0E7-8641DB3023B0}"
+              p:before="*"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{04D9CD7F-733E-42D4-92CA-016343E8BF8D}"
+              p:after="r[@uid='{681014D8-BA99-492D-B0E7-8641DB3023B0}']"
+              s:ds="{49C20F17-772E-4D78-BCCD-AE8DB21E13A7}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210426T185819Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Build your skills and enhance your career with one of our college degree programs
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {3ACB9106-A1DC-4B43-A4C3-03B9FE14A9D9}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Education
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210426T185819Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Education
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Education
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180305T215211Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Desarrolle sus habilidades y mejore su carrera con uno de nuestros programas de títulos universitarios
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {1450B2E1-14B2-4CDF-8E17-FE5D025CCA25}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Educación
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Educación
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Educación
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4141EDC6-45FB-4354-8BDF-1673BE4FDFD9}"
+              p:before="*"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200611T182733Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Desarrolle sus habilidades y mejore su carrera con uno de nuestros programas de títulos universitarios
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {1450B2E1-14B2-4CDF-8E17-FE5D025CCA25}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Educación
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200611T182733Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Educación
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Educación
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4141EDC6-45FB-4354-8BDF-1673BE4FDFD9}"
+              p:before="*"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{FE23839B-9A6B-4E40-BC85-30F4083EB60A}"
+              p:after="r[@uid='{4141EDC6-45FB-4354-8BDF-1673BE4FDFD9}']"
+              s:ds="{49C20F17-772E-4D78-BCCD-AE8DB21E13A7}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200910T145859Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Desarrolle sus habilidades y mejore su carrera con uno de nuestros programas de títulos universitarios
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {1450B2E1-14B2-4CDF-8E17-FE5D025CCA25}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Educación
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200910T145859Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Educación
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Educación
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4141EDC6-45FB-4354-8BDF-1673BE4FDFD9}"
+              p:before="*"
+              s:ds="{690D0928-DCC4-4144-8B08-2EB16F13296D}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{FE23839B-9A6B-4E40-BC85-30F4083EB60A}"
+              p:after="r[@uid='{4141EDC6-45FB-4354-8BDF-1673BE4FDFD9}']"
+              s:ds="{49C20F17-772E-4D78-BCCD-AE8DB21E13A7}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210426T185637Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Desarrolle sus habilidades y mejore su carrera con uno de nuestros programas de títulos universitarios
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {E7C482B1-95E7-4084-A1E4-4717C9AB1DE3}
+        {3ACB9106-A1DC-4B43-A4C3-03B9FE14A9D9}
+        {230F5EB0-FD83-4CC7-B2B9-49C578028BA0}
+        {B3A8C6EC-940F-45A2-998F-C562C7C25E56}
+        {E834A4E5-0ECC-4F0E-9A02-95C39C68057E}
+        {2A6CE476-B493-41C9-A0EB-A63040266B20}
+        {B5DDD352-8BE6-4825-ADBD-93378B6E3DCE}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Educación
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210426T185637Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{E4D67A86-E4FE-4E96-9AED-3CFD3324405D}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Educación
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Educación

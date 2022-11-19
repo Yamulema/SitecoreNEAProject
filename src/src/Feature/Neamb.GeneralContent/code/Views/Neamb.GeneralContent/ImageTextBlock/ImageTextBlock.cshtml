@@ -1,0 +1,30 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+
+<section class="c-092 new-design section-normal">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h4> @Html.Sitecore().Field(Templates.ImageTextBlock.Fields.Headline, Model.Item)</h4>
+            </div>
+            <div class="col-md-6">
+                @Html.Sitecore().Field(Templates.ImageTextBlock.Fields.Image, Model.Item, new { @class = "img-responsive" })                
+            </div>
+            <div class="col-md-6">
+                @Html.Sitecore().Field(Templates.ImageTextBlock.Fields.Text, Model.Item)
+                @if (Model.Item[Templates.ImageTextBlock.Fields.LinkStyle] == "Button")
+                {
+                    @Html.Sitecore().Field(Templates.ImageTextBlock.Fields.Link, Model.Item, new { @class = "btn btn-new btn-blue" })
+                }
+                else if (Model.Item[Templates.ImageTextBlock.Fields.LinkStyle] == "Link")
+                {
+                    @Html.Sitecore().Field(Templates.ImageTextBlock.Fields.Link, Model.Item, new { @class = "arrow-link full blue" })
+                }                
+            </div>
+        </div>
+    </div>
+</section>

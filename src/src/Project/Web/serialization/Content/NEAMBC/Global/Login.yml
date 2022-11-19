@@ -1,0 +1,117 @@
+﻿---
+ID: "320fb78c-3992-47d9-8820-98d5c6a58d2d"
+Parent: "71219c33-11d5-4d92-868b-34f0c6c1e953"
+Template: "9b1c33e5-7808-49d0-9124-fb8212320b6c"
+Path: /sitecore/content/NEAMBC/Global/Login
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:create|+item:rename|+item:write|+item:read|-item:delete|pd|-item:create|+item:rename|+item:write|+item:read|-item:delete|ar|sitecore\SEIUMB Approver|pe|-item:create|+item:rename|+item:write|+item:read|-item:delete|pd|-item:create|+item:rename|+item:write|+item:read|-item:delete|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T220827Z
+    - ID: "53b7ff52-4272-48e8-a3ef-0cd5efba8d7b"
+      Hint: RegisterButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "73290ce9-ad8b-42ee-aaee-64e19b2e5e03"
+      Hint: Help
+      Value: |
+        <link text="Need help? Contact us" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D4DA1257-53A7-42ED-A53D-F73040BE3B0A}" />
+    - ID: "9bf20ffb-8a6e-4c46-afb8-1d38d8793014"
+      Hint: AlreadyRegistered
+      Value: |
+        Your account has already been registered. If you have forgotten your password, you can reset it <a href="/home/forgot password">here</a>. If this is not you, please use the Register button to sign up for your free account.
+    - ID: "b6b427db-1ebd-4007-a9d4-89833b9ad87d"
+      Hint: Image
+      Value: |
+        <image mediaid="{CE727738-34B7-40B8-A6A6-E6763230E262}" />
+    - ID: "d40384b3-37bd-47f8-b897-9aa3fc303d54"
+      Hint: Logo
+      Value: |
+        <image mediaid="{C60DA8BE-D5DD-4BC9-8E0A-626CD9B4DA34}" />
+    - ID: "d6310f29-07f5-4617-a0b2-5fb05f9c2cbd"
+      Hint: PasswordPlaceholder
+      Value: Password
+    - ID: "dec7a189-ae49-412f-a3a7-56120ab8ea99"
+      Hint: EmailPlaceholder
+      Value: Email
+    - ID: "e65b5404-616b-49c5-bbd6-4acd9c9c4358"
+      Hint: ForgotCredentials
+      Value: |
+        <link id="{1F9682E7-B64D-4D53-A3AE-9FFDDE913BA9}" querystring="" target="" text="Forgot log in email or password?" anchor="" title="" class="" url="/NEAMBC/Home/Login Help" linktype="internal" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19ccb63c-3dbe-478f-b820-8da70deda43f"
+      Hint: AccountLocked
+      Value: Su cuenta ha sido bloqueada debido a múltiples intentos insatisfactorios
+    - ID: "1ace64b0-5102-431f-9375-9df4521b3ac1"
+      Hint: InvalidCredentials
+      Value: Lo sentimos pero el nombre de usuario o la contraseña que ha ingresado no fueron reconocidos. Por favor intente nuevamente.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T223539Z
+    - ID: "53b7ff52-4272-48e8-a3ef-0cd5efba8d7b"
+      Hint: RegisterButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e6e62e8-cb22-4be2-bb01-a2fbf5c6c2ae"
+      Hint: SubHeadline
+      Value: "Obtenga todos los beneficios de su membresía en SEIU. ¡Regístrese ahora!"
+    - ID: "71c82f68-c765-49f4-8fe9-0078cb8c6f04"
+      Hint: Headline
+      Value: "¿Ya está registrado?"
+    - ID: "73290ce9-ad8b-42ee-aaee-64e19b2e5e03"
+      Hint: Help
+      Value: |
+        <link text="¿Necesita ayuda? Contáctenos" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D4DA1257-53A7-42ED-A53D-F73040BE3B0A}" />
+    - ID: "9bf20ffb-8a6e-4c46-afb8-1d38d8793014"
+      Hint: AlreadyRegistered
+      Value: |
+        Su cuenta ha sido registrada previamente. Si ha olvidado su contraseña, la puede recuperar <a href="/home/forgot password">aquí</a>. Si estas no son sus credenciales, Por favor use el botón de Registro para solicitar una nueva cuenta, gratis.
+    - ID: "a3914310-944e-4de3-9cb7-0fb36fb7de62"
+      Hint: RememberMe
+      Value: Recordarme
+    - ID: "b4a2f730-a2e5-4753-b07c-1b532738e1de"
+      Hint: EmptyField
+      Value: Por favor ingrese su nombre de usuario y contraseña.
+    - ID: "b62fbaf3-11b8-4fb9-b01b-5022f0037656"
+      Hint: LoginButton
+      Value: Ingresar
+    - ID: "b6b427db-1ebd-4007-a9d4-89833b9ad87d"
+      Hint: Image
+      Value: |
+        <image mediaid="{CE727738-34B7-40B8-A6A6-E6763230E262}" />
+    - ID: "c24ee1ec-2b80-4a5e-91d7-b9a109bc4a4d"
+      Hint: SubHeadline
+      Value: Por favor ingrese su correo electrónico y contraseña para acceder a su cuenta
+    - ID: "d40384b3-37bd-47f8-b897-9aa3fc303d54"
+      Hint: Logo
+      Value: |
+        <image mediaid="{C60DA8BE-D5DD-4BC9-8E0A-626CD9B4DA34}" />
+    - ID: "d6310f29-07f5-4617-a0b2-5fb05f9c2cbd"
+      Hint: PasswordPlaceholder
+      Value: Contraseña
+    - ID: "d999616e-c09d-4e01-ba13-114dec22197e"
+      Hint: Headline
+      Value: "¿No está registrado?"
+    - ID: "dec7a189-ae49-412f-a3a7-56120ab8ea99"
+      Hint: EmailPlaceholder
+      Value: Correo electrónico
+    - ID: "e65b5404-616b-49c5-bbd6-4acd9c9c4358"
+      Hint: ForgotCredentials
+      Value: |
+        <link text="¿Olvidó su usuario o contraseña?" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{1F9682E7-B64D-4D53-A3AE-9FFDDE913BA9}" />

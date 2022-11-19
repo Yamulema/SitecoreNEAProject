@@ -1,0 +1,262 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Config.Models
+
+@model Neambc.Neamb.Feature.Account.Models.ForgotUsernameDTO
+@{
+    var classname = Model.HasGeneralError ? "show" : "";
+    var classnameerror = Model.HasErrorUserName ? "p-t-md" : "";
+    int minYear = 16;
+    int maxYear = 95;
+    int startYear = DateTime.Now.Year - maxYear;
+    int endYear = DateTime.Now.Year - minYear;
+}
+<div id="allowedage" data-min="@minYear" data-max="@maxYear"></div>
+<section class="error-bar @classname">
+    <p>
+        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.Error, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+@if (Model.ProcessedSucessfully)
+{
+    <section class="new-design form col-centered">
+        <div class="col-xs-12">
+            <div class="step-header">
+                @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.Title, Model.Item)
+                <hr>
+            </div>
+            <div class="row m-b-xxl">
+                <div class="col-sm-12 m-t-lg">
+                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.Username, Model.Item) <strong>@Model.Username</strong>
+                    <br>
+                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.SignIn, Model.Item, new { @DisableWebEdit = true, @class = "btn btn-blue btn-new m-t-sm" })
+                    
+                </div>
+                <div class="col-sm-12 m-t-lg">
+                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ForgotPasswordField, Model.Item) <br>
+                    <a href="@Model.PathResetPassword" class="btn btn-blue btn-new m-t-sm">@Model.TextResetPassword</a>                    
+                </div>
+            </div>
+        </div>
+    </section>    
+}
+else
+{
+    <section class="new-design form col-centered">
+        <div class="col-xs-12">
+            <form id="forgot-email" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+                <div class="step-header">
+                    <h5>@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.Title, Model.Item)</h5>
+                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.Intro, Model.Item)                   
+                </div>
+                <div class="form-section">
+                    <div class="floating-section m-t-lg">
+                        <div class="floating-group">
+                            <input id="firstName" value="@Model.FirstName" name="firstName" type="text"
+                                   placeholder="First name" required="required"
+                                   data-msg-required="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                   data-rule-maxlength="15" maxlength="15"
+                                   data-msg-maxlength="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameCharactersLimit, Model.Item, new { DisableWebEdit = true })"
+                                   data-rule-alphanumber="true"
+                                   data-msg-alphanumber="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+
+                            <label for="firstName">@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameLabel, Model.Item)</label>
+                        </div>
+                        <div class="floating-messages">
+                            <div class="floating-error-messages">
+                                @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Required))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameEmptyField, Model.Item)
+                                    </div>
+                                }
+                                @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.InvalidCharacters))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameInvalidCharacters, Model.Item)
+                                    </div>
+                                }
+                                @if (Model.ErrorsFirstName.Contains(ErrorStatusEnum.Length))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameCharactersLimit, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                            @if (Model.HasTooltipFirstName)
+                            {
+                                <div class="floating-info-messages">
+                                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.FirstNameTooltip, Model.Item, new { @DisableWebEdit = true })
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="floating-section">
+                        <div class="floating-group">
+                            <input id="lastName" name="lastName" value="@Model.LastName" type="text" placeholder="Last name" required="required"
+                                   data-msg-required="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                   data-rule-maxlength="30" maxlength="30"
+                                   data-msg-maxlength="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameCharactersLimit, Model.Item, new { DisableWebEdit = true })"
+                                   data-rule-alphanumber="true"
+                                   data-msg-alphanumber="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+                            <label for="lastName">@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameLabel, Model.Item)</label>
+                        </div>
+                        <div class="floating-messages">
+                            <div class="floating-error-messages">
+                                @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Required))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameEmptyField, Model.Item)
+                                    </div>
+                                }
+                                @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.InvalidCharacters))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameInvalidCharacters, Model.Item)
+                                    </div>
+                                }
+                                @if (Model.ErrorsLastName.Contains(ErrorStatusEnum.Length))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameCharactersLimit, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                            @if (Model.HasTooltipLastName)
+                            {
+                                <div class="floating-info-messages">
+                                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.LastNameTooltip, Model.Item, new { @DisableWebEdit = true })
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="floating-section">
+                        <div class="floating-group full-date">
+                            <div class="date-group">
+                                <input id="month" name="month" type="text" placeholder="MM" required="required" value="@Model.Month"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateEmptyField, Model.Item, new { @DisableWebEdit = true })"
+                                       data-rule-range="[1, 12]" />
+                                <label for="month">Month</label>
+                            </div>
+                            <div class="date-group">
+                                <input id="day" name="day" type="text" placeholder="DD" required="required" value="@Model.Day"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateEmptyField, Model.Item, new { @DisableWebEdit = true })"
+                                       data-rule-range="[1, 31]" />
+                                <label for="day">Day</label>
+                            </div>
+                            <div class="date-group">
+                                <input id="year" name="year" type="text" placeholder="YYYY" required="required" value="@Model.Year"
+                                       data-msg-required="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateEmptyField, Model.Item, new { @DisableWebEdit = true })"
+                                       data-rule-range="[@startYear, @endYear]"
+                                       data-msg-range="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateAgeRequirement, Model.Item, new { @DisableWebEdit = true })"
+                                       data-msg-isValidDate="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateInvalidDOB, Model.Item, new { @DisableWebEdit = true })" />
+                                <label for="year">Year</label>
+                            </div>
+                        </div>
+                        <div class="floating-messages">
+                            <div class="floating-error-messages">
+                                @if (Model.ErrorsBirthDate.Contains(ErrorStatusEnum.Required))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateEmptyField, Model.Item)
+                                    </div>
+                                }
+
+                                @if (Model.ErrorsBirthDate.Contains(ErrorStatusEnum.InvalidDate))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateInvalidDOB, Model.Item)
+                                    </div>
+                                }
+
+                                @if (Model.ErrorsBirthDate.Contains(ErrorStatusEnum.AgeRequirement))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateAgeRequirement, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                            @if (Model.HasTooltipBirthDate)
+                            {
+                                <div class="floating-info-messages">
+                                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.BirthdateTooltip, Model.Item, new { @DisableWebEdit = true })
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="floating-section">
+                        <input style="display: none;" id="zipconfirmation" name="zipconfirmation">
+                        <div class="floating-group">
+                            <input id="zip" name="zip" type="text" value="@Model.Zip" placeholder="ZIP" required="required" number="number"
+                                   data-msg-required="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipEmptyField, Model.Item, new { DisableWebEdit = true })"
+                                   data-rule-minlength="5"
+                                   data-msg-minlength="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipCharactersLimit, Model.Item, new {bDisableWebEdit = true })"
+                                   data-rule-maxlength="5"
+                                   data-msg-maxlength="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipCharactersLimit, Model.Item, new {bDisableWebEdit = true })"
+                                   data-msg="@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipInvalidCharacters, Model.Item, new { DisableWebEdit = true })" />
+
+                            <label for="zip">@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipLabel, Model.Item)</label>
+                        </div>
+                        <div class="floating-messages">
+                            <div class="floating-error-messages">
+                                @if (Model.ErrorsZip.Contains(ErrorStatusEnum.Required))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipEmptyField, Model.Item)
+                                    </div>
+                                }
+
+                                @if (Model.ErrorsZip.Contains(ErrorStatusEnum.InvalidCharacters))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipInvalidCharacters, Model.Item)
+                                    </div>
+                                }
+
+                                @if (Model.ErrorsZip.Contains(ErrorStatusEnum.Length))
+                                {
+                                    <div class="server-error">
+                                        @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipCharactersLimit, Model.Item)
+                                    </div>
+                                }
+
+                            </div>
+                            @if (Model.HasTooltipLastName)
+                            {
+                                <div class="floating-info-messages">
+                                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.ZipTooltip, Model.Item, new { @DisableWebEdit = true })
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+
+                    @if (Model.HasErrorUserName)
+                    {
+                        <div class="floating-messages">
+                            <div class="floating-error-messages">
+
+                                <div class="server-error">@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.NotFound, Model.Item)</div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+                <div class="form-section">
+                    <button type="submit" class="btn btn-new btn-outline-default m-t-sm">@Html.Sitecore().Field(Templates.RetrieveUsername.Fields.Submit, Model.Item, new { @DisableWebEdit = true })
+                    <i style="display: none;" class="fa fa-spinner fa-spin"></i></button> <br>
+                    @Html.Sitecore().Field(Templates.RetrieveUsername.Fields.SignInLink, Model.Item, new { @class = "form-link" })
+                </div>
+                <input type="hidden" name="fhController" value="ForgotUsernameController" data-abide-ignore />
+                <input type="hidden" name="fhAction" value="ForgotUsername" data-abide-ignore />
+            </form>
+        </div>
+    </section>
+}
+
+
+
+

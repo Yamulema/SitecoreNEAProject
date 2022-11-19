@@ -1,0 +1,334 @@
+﻿@using Neambc.Seiumb.Feature.Forms
+@using Neambc.Seiumb.Foundation.Authentication.Repositories
+@using Neambc.Seiumb.Foundation.Authentication.Constants
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Neambc.Seiumb.Feature.Forms.Models.ProfileFormModel
+
+@{
+    var firstNamePlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.FirstName_Placeholder].Value;
+    var lastNamePlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.LastName_Placeholder].Value;
+    var dateBirthPlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.DateOfBirth_Placeholder].Value;
+    var addressPlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.Address_Placeholder].Value;
+    var cityPlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.City_Placeholder].Value;
+    var zipPlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.ZipCode_Placeholder].Value;
+    var phonePlaceholder = Model.Item.Fields[Templates.ProfileTemplate.Fields.PhoneNumber_Placeholder].Value;
+    bool hasFirstError = false;
+}
+<div class="row">
+    <div id="accountForm" class="small-12 medium-12 large-12 columns float-center">
+        <form id="my-account-form" method="post" action="" data-abide novalidate>
+            <div class="small-12 medium-9 large-9 columns">
+                <div class="row">
+                    <fieldset class="fieldset">
+                        <h4>@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ProfileHeadline, Model.Item)</h4>
+                        <span>@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ProfileSubheadline, Model.Item)</span>
+                        <hr>
+                        <div class="row">
+                            <div class="small-4 medium-4 large-4 columns columns">
+                                <label for="firstName" class="text-left middle">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.FirstName_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.TextBoxFor(x => x.FirstName, null, new
+                        {
+                            @id = "firstName",
+                            @placeholder = @HttpUtility.HtmlDecode(firstNamePlaceholder),
+                            required = "true"
+                        })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.FirstName_ErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorFirstNameInvalidCharacters || Model.HasErrorFirstNameLength)
+                                {
+                                    <div id="fnameError" class="server-error">
+                                        @if (Model.HasErrorFirstNameInvalidCharacters)
+                                        {
+                                            hasFirstError = true;
+
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.InvalidCharacters, Model.Item)
+                                        }
+                                        @if (Model.HasErrorFirstNameLength)
+                                        {
+                                            if (hasFirstError)
+                                            {
+                                                <br />
+                                            }
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.FirstName_CharacterLimit, Model.Item)
+                                        }
+                                    </div>
+                                }
+                                else if (Model.HasErrorFirstName)
+                                {
+                                    <div id="fnameError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.FirstName_ErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 medium-3 large-3 columns columns">
+                                <label for="lastName" class="text-left middle">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.LastName_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.TextBoxFor(x => x.LastName, null, new
+                           {
+                               @id = "lastName",
+                               @placeholder = @HttpUtility.HtmlDecode(lastNamePlaceholder),
+                               required = "true"
+                           })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.LastName_ErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorLastNameInvalidCharacters || Model.HasErrorLastNameLength)
+                                {
+                                    hasFirstError = false;
+                                    <div id="fnameError" class="server-error">
+                                        @if (Model.HasErrorLastNameInvalidCharacters)
+                                        {
+                                            hasFirstError = true;
+
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.InvalidCharacters, Model.Item)
+                                        }
+                                        @if (Model.HasErrorLastNameLength)
+                                        {
+                                            if (hasFirstError)
+                                            {
+                                                <br />
+                                            }
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.LastName_CharacterLimit, Model.Item)
+                                        }
+                                    </div>
+                                }
+                                else if (Model.HasErrorLastName)
+                                {
+                                    <div id="fnameError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.LastName_ErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 medium-4 large-4 columns columns">
+                                <label for="dateOfBirth" class="text-left middle">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.DateOfBirth_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.TextBoxFor(x => x.DateOfBirth, null, new
+                           {
+                               @id = "dateOfBirth",
+                               @data_validator = "dateValidator",
+                               @onblur = "validate(this)",
+                               @placeholder = @HttpUtility.HtmlDecode(dateBirthPlaceholder),
+                               required = "true"
+                           })
+
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.DateOfBirth_ErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorDateOfBirthAge)
+                                {
+                                    <div id="dateError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.DateOfBirth_AgeRequirement, Model.Item)
+                                    </div>
+                                }
+                                else if (Model.HasErrorBirthDate)
+                                {
+                                    <div id="dateError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.DateOfBirth_ErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 medium-4 large-4 columns columns">
+                                <label for="address" class="text-left middle">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Address_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.TextBoxFor(x => x.Address, null, new
+                           {
+                               @id = "address",
+                               @placeholder = @HttpUtility.HtmlDecode(addressPlaceholder),
+                               required = "true"
+                           })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Address_ErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorAddressInvalidCharacters || Model.HasErrorAddressLength)
+                                {
+                                    hasFirstError = false;
+                                    <div id="faddressError" class="server-error">
+                                        @if (Model.HasErrorAddressInvalidCharacters)
+                                        {
+                                            hasFirstError = true;
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.InvalidCharacters, Model.Item)
+                                        }
+                                        @if (Model.HasErrorAddressLength)
+                                        {
+                                            if (hasFirstError)
+                                            {
+                                                <br />
+                                            }
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Address_CharacterLimit, Model.Item)
+                                        }
+                                    </div>
+                                }
+                                else if (Model.HasErrorAddress)
+                                {
+                                    <div id="faddressError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Address_ErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 medium-4 large-4 columns columns">
+                                <label for="city" class="text-left middle">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.City_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.TextBoxFor(x => x.City, null, new
+                           {
+                               @id = "city",
+                               @placeholder = @HttpUtility.HtmlDecode(cityPlaceholder),
+                               required = "true"
+                           })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.City_ErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorCityInvalidCharacters || Model.HasErrorCityLength)
+                                {
+                                    hasFirstError = false;
+                                    <div id="fcityError" class="server-error">
+                                        @if (Model.HasErrorCityInvalidCharacters)
+                                        {
+                                            hasFirstError = true;
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.InvalidCharacters, Model.Item)
+                                        }
+                                        @if (Model.HasErrorCityLength)
+                                        {
+                                            if (hasFirstError)
+                                            {
+                                                <br />
+                                            }
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.City_CharacterLimit, Model.Item)
+                                        }
+                                    </div>
+                                }
+                                else if (Model.HasErrorCity)
+                                {
+                                    <div id="fcityError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.City_ErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 medium-4 large-4 columns columns">
+                                <label for="state" class="text-left middle">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.State_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.DropDownListFor(x => x.State, Model.StatesList, @Model.Item.Fields[Templates.ProfileTemplate.Fields.State_Placeholder].Value, new { @id = "state", @required = "" })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.State_ErrorMessage, Model.Item)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 medium-4 large-4 columns columns">
+                                <label for="zipCode" class="text-left middle">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ZipCode_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.TextBoxFor(x => x.ZipCode, null, new
+                           {
+                               @id = "zipCode",
+                               @class = "is-invalid-input",
+                               @oninput = "validateZipCodeInput(this)",
+                               @onblur = "validate(this)",
+                               @placeholder = @HttpUtility.HtmlDecode(zipPlaceholder),
+                               @pattern = "[0-9]{5}",
+                               required = "true"
+                           })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ZipCode_ErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorZipcodeLength)
+                                {
+                                    <div id="zipCodeError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ZipCode_CharacterLimit, Model.Item)
+                                    </div>
+                                }
+                                else if (Model.HasErrorZipcode)
+                                {
+                                    <div id="zipCodeError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ZipCode_ErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-4 medium-4 large-4 columns columns">
+                                <label for="phoneNumber" class="text-left">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.PhoneNumber_Label, Model.Item)</label>
+                            </div>
+                            <div class="small-8 medium-8 large-8 columns">
+                                @Html.TextBoxFor(x => x.Phone, null, new
+                           {
+                               @id = "phoneNumber",
+                               @onblur = "validate(this)",
+                               @pattern = "\\([0-9]{3}\\)[0-9]{3}-[0-9]{4}",
+                               @placeholder = @HttpUtility.HtmlDecode(phonePlaceholder),
+                               required = "true"
+                           })
+                                <span class="form-error">
+                                    @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.PhoneNumber_ErrorMessage, Model.Item)
+                                </span>
+                                @if (Model.HasErrorPhoneLength)
+                                {
+                                    <div id="phoneNumberError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.Phone_CharacterLimit, Model.Item)
+                                    </div>
+                                }
+                                else if (Model.HasErrorPhone)
+                                {
+                                    <div id="phoneNumberError" class="server-error">
+                                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.PhoneNumber_ErrorMessage, Model.Item)
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <div class="row">
+                                    <div class="small-1 columns">
+                                        <div class="receive">
+                                            @Html.CheckBoxFor(x => x.SendInformation, null)
+                                            <label for="receive_checkbox"></label>
+                                        </div>
+                                    </div>
+                                    <div class="small-11 columns">
+                                        <p>
+                                            @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ProfileOptin, Model.Item)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" name="fhController" value="ProfileFormController" data-abide-ignore />
+                        <input type="hidden" name="fhAction" value="ProfileForm" data-abide-ignore />
+                        <div class="row">
+                            <div class="small-12 columns buttonContainer">
+                                <button class="button" type="submit" value="Submit">@Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ProfileSubmitButton, Model.Item)</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="show-for-medium medium-3 large-3 columns">
+                <div class="row">
+                    <fieldset id="quick-links" class="fieldset buttonContainer">
+                        @Html.Sitecore().Field(Templates.ProfileTemplate.Fields.ProfileQuickLinks, Model.Item)
+                    </fieldset>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

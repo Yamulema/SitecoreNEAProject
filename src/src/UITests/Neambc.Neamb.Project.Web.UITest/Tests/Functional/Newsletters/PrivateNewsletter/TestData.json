@@ -1,0 +1,16 @@
+{
+  "Subscribe": [
+    [
+      "nea.sally@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'account','accountSection':'settings & subscriptions','accountAction':'NEA Travel E Newsletter','ctaText':'Subscribe'},this)"
+    ]
+  ],
+  "Unsubscribe": [
+    [
+      "nea.paulp@gmail.com",
+      "secret12",
+      "dataLayerPush({'event':'account','accountSection':'settings & subscriptions','accountAction':'NEA Travel E Newsletter','ctaText':'Unsubscribe'},this)"
+    ]
+  ]
+}

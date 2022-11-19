@@ -1,0 +1,29 @@
+﻿---
+ID: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Parent: "e0a9d0af-d1fd-4e63-8c4d-f3e0827525bd"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Rail Card
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/layout_west.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{AF95CCC9-5805-4C53-9DEF-EB6362539B1F}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{8F3F1B89-F688-44E2-ADDA-34340A134186}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171212T170753Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

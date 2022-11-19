@@ -1,0 +1,50 @@
+﻿@using Neambc.Seiumb.Feature.Rakuten.Models
+@using Sitecore.StringExtensions
+@model Neambc.Seiumb.Feature.Rakuten.Models.SeiumbExclusiveOffersCarousel
+
+@if (Model.Cards.Any())
+{
+    <section id="card-carousel">
+        <div id="exclusive-offers" class="row">
+            <h2>@Model.Headline</h2>
+            <div class="carousel cards">
+                @foreach (SeiumbExclusiveOfferCard item in Model.Cards)
+                {
+                    <div class="small-6 medium-6 large-4 columns card" data-store-link="@item.Offer.ShoppingUrl">
+                        <div class="card-content">
+                            <span class="hide">@item.Offer.Name</span>
+                            <div class="top show" style="background-color: @item.BackgroundColor">
+                                <p>@item.Headline</p>
+                            </div>
+                            <img src="@item.Offer.SmallLogo" alt="Store Logo">
+                            <div class="gray-content">
+                                <a data-store-guid="@item.Offer.Id" class="button @item.Offer.BtnClass">@item.Offer.CardText</a>
+                                @if (item.Offer.TotalReward.IsNullOrEmpty())
+                                {
+                                    <p>&nbsp;</p>
+                                }
+                                else
+                                {
+                                    <p>@item.Offer.TotalReward</p>
+                                }
+                                <small>@Html.Raw(item.Offer.Tier)</small>
+                            </div>
+                            <span>
+                                @{
+                                    if (item.Offer.BaseReward.IsNullOrEmpty())
+                                    {
+                                        <text>&nbsp;</text>
+                                    }
+                                    else
+                                    {
+                                        @Html.Raw(item.Offer.BaseReward)
+                                    }
+                                }
+                            </span>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}

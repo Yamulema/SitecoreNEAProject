@@ -1,0 +1,18 @@
+﻿---
+ID: "55f80d37-85b0-4bc2-90d2-2adcf2d1aa68"
+Parent: "87690c52-8ab6-49bd-84b3-66dd4e5e410d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_MemberVerificationForm/General
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T214638Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,42 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.Wizard
+@if (!string.IsNullOrEmpty(Model.GtmAction))
+{
+	<script type="text/javascript">
+		$(function () {
+			@Html.Raw(Model.GtmAction)
+		})
+	</script>
+}
+
+<div class="row">
+	<div class="container">
+		<a href="/" class="navbar-brand pull-left">
+			<img src="@Model.Header.LogoUrl" alt="" />
+		</a>
+	</div>
+</div>
+@if (Model.IsAnonymous && !Model.IsExperienceEditor)
+{
+	<section class="section-normal">
+		<div class="container">
+			<div class="row">
+				@Html.Sitecore().Field(Templates.Wizard.Fields.AnonymousUser, Model.Datasource)
+			</div>
+		</div>
+	</section>
+}
+else
+{
+	<section class="body-copy-full-width">
+		<section class="section-normal">
+			@Html.Sitecore().Field(Templates.Wizard.Fields.WelcomeMessage, Model.Datasource)
+			<div class="col-md-3 col-centered text-center">
+				<div><a href="@Model.StartButton.Target" class="btn btn-blue btn-block">@Model.StartButton.Label</a></div>
+				<div class="m-t-sm"><a href="@Model.SkipButton.Target">@Model.SkipButton.Label</a></div>
+			</div>
+		</section>
+	</section>
+}

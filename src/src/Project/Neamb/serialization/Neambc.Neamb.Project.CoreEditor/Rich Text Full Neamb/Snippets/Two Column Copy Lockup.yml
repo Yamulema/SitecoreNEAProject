@@ -1,0 +1,40 @@
+﻿---
+ID: "0229568a-a86c-4523-98dc-b3a107f937a3"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Two Column Copy Lockup
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal bg-gray">
+    <div class="container">
+    <p id="overview" class="section-indicator text-center">overview</p>
+    <h2 class="header text-center">Vestibulum faucibus purus quis sapien suscipit vulputate</h2>
+    <p class="subhead text-center">Phasellus non enim et purus facilisis porta vitae sit amet metus. Quisque condimentum sem eu erat ullamcorper, id pretium orci volutpat. Nam ut porttitor dolor, et dignissim leo. Aliquam sed malesuada eros. Sed imperdiet a diam ac rutrum</p>
+    <ul class="checked-big circle col-2">
+        <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon.png" /></span><span class="text">          Free Simple Document Review and Explanation. Avoid mistakes by understanding what you sign. Get help with personal documents like leases, insurance policies and installment sales contracts.</span></li>
+        <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon.png" /></span><span class="text">          Free Simple Document Review and Explanation. Avoid mistakes by understanding what you sign. Get help with personal documents like leases, insurance policies and installment sales contracts.</span></li>
+        <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon.png" /></span><span class="text">          Free Simple Document Review and Explanation. Avoid mistakes by understanding what you sign. Get help with personal documents like leases, insurance policies and installment sales contracts.</span></li>
+        <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon.png" /></span><span class="text">          Free Simple Document Review and Explanation. Avoid mistakes by understanding what you sign. Get help with personal documents like leases, insurance policies and installment sales contracts.</span></li>
+        <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon.png" /></span><span class="text">          Free Simple Document Review and Explanation. Avoid mistakes by understanding what you sign. Get help with personal documents like leases, insurance policies and installment sales contracts.</span></li>
+        <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon.png" /></span><span class="text">          Free Simple Document Review and Explanation. Avoid mistakes by understanding what you sign. Get help with personal documents like leases, insurance policies and installment sales contracts.</span></li>
+    </ul>
+    </div>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180626T165036Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Two Column Copy Lockup

@@ -1,0 +1,207 @@
+﻿---
+ID: "f72f1901-bdde-45be-8d9b-66a57e0979b3"
+Parent: "10fc3269-da0b-4202-abe4-de3aae36eca0"
+Template: "2d96ec72-cd15-45e1-bffb-06af9804bb68"
+Path: /sitecore/content/NEAMBC/Home/Education/SEIU Student Loan Refinance Program Information
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200114T153958Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: 
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: 
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program Information
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>
+        </p>
+        <p style="text-align: center;"><strong><br />
+        <span style="font-size: 16px;">Before you refinance</span></strong></p>
+        <p style="text-align: center;"><strong style="font-size: inherit;">PLEASE NOTE:&nbsp;</strong><span style="font-size: inherit; font-family: helvetica_neue;">Refinancing or consolidating private and federal student loans may not be the right decision for everyone. Benefits that exist with federal&nbsp;</span><span style="font-size: inherit; font-family: helvetica_neue;">loans (such as public service forgiveness and income-based repayment plans) could be forfeited if you consolidate them into a private loan.</span></p>
+        <h2 style="text-align: center;">
+        <a href="https://www.collegeavestudentloans.com/lp/refinance-student-loans/?utm_campaign=bank%20partner%20referral_casl&utm_source=neamb&utm_medium=partner&utm_content=seiu&brand=college%20ave&product=refi&p_aff=neamb&goal=acquisition" class="button">YES, I WANT TO REFINANCE</a>
+        </h2>
+        <p style="text-align: center;">
+        If you&rsquo;re not sure, first check your federal student loan forgiveness eligibility status with the <a href="~/link.aspx?_id=B5DDD3528BE64825ADBD93378B6E3DCE&amp;_z=z"><span style="color: #4f2e84;">SEIU Student Loan Forgiveness Navigator</span></a> tool.<br />
+        <br />
+        <a href="~/link.aspx?_id=2A6CE476B49341C9A0EBA63040266B20&amp;_z=z"><span style="color: #4f2e84;">Cancel</span></a></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program Information
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200423T222229Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: 
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200423T222229Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: 
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Refinance Program Information
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>
+        </p>
+        <p style="text-align: center;"><strong><br />
+        <span style="font-size: 16px;">Before you refinance</span></strong></p>
+        <p style="text-align: center;"><strong style="font-size: inherit;">PLEASE NOTE:&nbsp;</strong><span style="font-size: inherit; font-family: helvetica_neue;">Refinancing or consolidating private and federal student loans may not be the right decision for everyone. Benefits that exist with federal&nbsp;</span><span style="font-size: inherit; font-family: helvetica_neue;">loans (such as public service forgiveness and income-based repayment plans) could be forfeited if you consolidate them into a private loan.</span></p>
+        <h2 style="text-align: center;">
+        <a href="https://www.collegeavestudentloans.com/lp/refinance-student-loans/?utm_campaign=bank%20partner%20referral_casl&utm_source=neamb&utm_medium=partner&utm_content=seiu&brand=college%20ave&product=refi&p_aff=neamb&goal=acquisition&agg_ref_id=[mdsid_clear]" class="button">YES, I WANT TO REFINANCE</a>
+        </h2>
+        <p style="text-align: center;">
+        If you&rsquo;re not sure, first check your federal student loan forgiveness eligibility status with the <a href="~/link.aspx?_id=B5DDD3528BE64825ADBD93378B6E3DCE&amp;_z=z"><span style="color: #4f2e84;">SEIU Student Loan Forgiveness Navigator</span></a> tool.<br />
+        <br />
+        <a href="~/link.aspx?_id=2A6CE476B49341C9A0EBA63040266B20&amp;_z=z"><span style="color: #4f2e84;">Cancel</span></a></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: SEIU Student Loan Refinance Program Information
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200116T175533Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: 
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: 
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>
+        </p>
+        <p style="text-align: center;"><strong><br />
+        <span style="font-size: 16px;">Antes de refinanciar</span></strong></p>
+        <p style="text-align: center;"><strong style="font-size: inherit;">TENGA EN CUENTA:&nbsp;</strong><span style="font-size: inherit; font-family: helvetica_neue;">Refinanciar o consolidar pr&eacute;stamos estudiantiles privados y federales puede no ser la decisi&oacute;n correcta para todos. Los beneficios que existen con los pr&eacute;stamos federales (como la condonaci&oacute;n de servicios p&uacute;blicos y los planes de pago basados en los ingresos) podr&iacute;an perderse si los consolida en un pr&eacute;stamo privado.</span></p>
+        <h2 style="text-align: center;">
+        <a href="https://www.collegeavestudentloans.com/lp/refinance-student-loans/?utm_campaign=bank%20partner%20referral_casl&utm_source=neamb&utm_medium=partner&utm_content=seiu&brand=college%20ave&product=refi&p_aff=neamb&goal=acquisition&agg_ref_id=[mdsid_clear]" class="button">SI, QUIERO REFINANCIAR</a>
+        </h2>
+        <p style="text-align: center;">
+        Si no est&aacute; seguro, primero verifique su estado de elegibilidad para la condonaci&oacute;n de pr&eacute;stamos federales estudiantiles con la herramienta de <a href="~/link.aspx?_id=B5DDD3528BE64825ADBD93378B6E3DCE&amp;_z=z"><span style="color: #4f2e84;">Consulta de Condonaci&oacute;n de Pr&eacute;stamos Estudiantiles de SEIU.</span></a><br />
+        <br />
+        <a href="~/link.aspx?_id=2A6CE476B49341C9A0EBA63040266B20&amp;_z=z"><span style="color: #4f2e84;">Cancelar</span></a></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Programa de Refinanciación de Préstamos Estudiantiles de SEIU

@@ -1,0 +1,202 @@
+﻿@using Neambc.Neamb.Project.Web
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Neamb.Project.Common.Helpers
+@using Sitecore.Links
+@using Sitecore.Mvc.Analytics.Extensions
+@model RenderingModel
+@{
+    Layout = null;
+    var siteSettings = Sitecore.Context.Database.GetItem(Configuration.SiteSettingsId);
+    var pageItem = Sitecore.Mvc.Presentation.PageContext.Current.Item;
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+
+    var cacheServerUrl = string.Empty;
+    if (Configuration.AlwaysIncludeServerUrl)
+    {
+        cacheServerUrl = Configuration.MediaLinkServerUrl;
+    }
+    //Get the page assets header value
+    var pageHeaderAssets = pageItem[Templates.PageAssets.Fields.PageHeaderAssets];
+    var globalPageHeaderAssets = Sitecore.Context.Database.GetItem(pageHeaderAssets);
+    string assetHeader = "";
+    if (globalPageHeaderAssets != null)
+    {
+        assetHeader = globalPageHeaderAssets[Templates.PageAsset.Fields.Asset];
+    }
+
+    string assetFooter = "";
+    //Get the page assets footer value
+    var pageFooterAssets = pageItem[Templates.PageAssets.Fields.PageFooterAssets];
+    var globalPageFooterAssets = Sitecore.Context.Database.GetItem(pageFooterAssets);
+    if (globalPageFooterAssets != null)
+    {
+        assetFooter = globalPageFooterAssets[Templates.PageAsset.Fields.Asset];
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="dns-prefetch" href="https://cdn.neamb.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    @Html.Partial("~/Views/Neamb.Web/Partials/_Seo.cshtml")
+    @Html.Partial("~/Views/Neamb.Web/Partials/_OpenGraph.cshtml")
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="@cacheServerUrl/assets/neamb/styles/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="@cacheServerUrl/assets/neamb/styles/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <script src="@cacheServerUrl/assets/neamb/scripts/gtm.js"></script>
+    <script src="@cacheServerUrl/assets/neamb/scripts/jquery-3.6.0.min.js"></script>
+    <script src="@cacheServerUrl/assets/neamb/scripts/bootstrap.min.js"></script>
+
+    <link rel="canonical" href="@SitecoreHtmlHelper.GetCanonicalUrl()" />
+
+    @if (!string.IsNullOrEmpty(assetHeader))
+    {
+        @Html.Raw(assetHeader)
+    }
+
+    @if (!string.IsNullOrEmpty(pageItem.Fields[Templates.SchemaMarkup.Fields.PageSchemaMarkup].Value))
+    {
+        @Html.Raw(pageItem.Fields[Templates.SchemaMarkup.Fields.PageSchemaMarkup].Value)
+    }
+
+    @if (!string.IsNullOrEmpty(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTop]))
+    {
+        @Html.Raw(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTop])
+    }
+    <link rel="icon" href="@cacheServerUrl/assets/neamb/images/favicon.ico">
+
+    @Html.Sitecore().Placeholder("head-scripts")
+</head>
+<body>
+    @if (!string.IsNullOrEmpty(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTopBody]))
+    {
+        @Html.Raw(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeTopBody])
+    }
+    <header>
+        @Html.Sitecore().Placeholder("header")
+    </header>
+    <div>
+        @Html.Sitecore().Placeholder("language-toggle")
+    </div>
+    <div>
+        @Html.Sitecore().Placeholder("body")
+    </div>
+    <div>
+        @Html.Sitecore().Placeholder("video-modal")
+    </div>
+    <footer>
+        @Html.Sitecore().Placeholder("footer")
+    </footer>
+    @if (!isExperienceEditor)
+    {
+        <div>
+            @Html.Sitecore().Placeholder("modal")
+        </div>
+    }
+    <div>
+        @Html.Sitecore().Placeholder("chat")
+    </div>
+
+    <form id="redirectwarmproduct" class="no-padding" action="/api/AuthenticationAccount/RedirectWarmProduct" method="post">
+        <input type="hidden" name="actiontype" id="actiontype" value="" />
+    </form>
+    <form id="redirectwarmcoldauthentication" class="no-padding" action="/api/AuthenticationAccount/RedirectWarmColdAuthentication" method="post">
+        <input type="hidden" name="componentIdAuthentication" id="componentIdAuthentication" value="" />
+        <input type="hidden" name="loginUrlForAuthentication" id="loginUrlForAuthentication" value="" />
+        <input type="hidden" name="featureType" id="featureType" value="" />
+    </form>
+    <form id="downloadPdfFormMultirow" class="no-padding" enctype="multipart/form-data" target='' action="/api/ProductRoute/DownloadEfulfillmentPdfMultirow" method="post">
+        <input type="hidden" name="materialIdMultirow" id="materialIdMultirow" value="" />
+        <input type="hidden" name="productcodepdfMultirow" id="productcodepdfMultirow" value="" />
+        <input type="hidden" name="actionTypedPdfFormMultirow" id="actionTypedPdfFormMultirow" value="" />
+        <input type="hidden" name="checkOmniPdf" id="checkOmniPdf" value="" />
+    </form>
+
+    <form id="actionSingleSignOnFormMultirow" class="no-padding" enctype="multipart/form-data" target='' action="/api/ProductRoute/ExecuteSingleSignOnMultirow" method="post">
+        <input type="hidden" name="productCodeMultirow" id="productCodeMultirow" value="" />
+        <input type="hidden" name="componentTypeSso" id="componentTypeSso" value="" />
+        <input type="hidden" name="checkOmniSso" id="checkOmniSso" value="" />
+    </form>
+
+    <form id="actionDatapassFormMultirow" class="no-padding" enctype="multipart/form-data" target='' action="/api/ProductRoute/ExecuteDatapassMultirow" method="post">
+        <input type="hidden" name="productCodeDataPassMultirow" id="productCodeDataPassMultirow" value="" />
+        <input type="hidden" name="componentTypeDataPass" id="componentTypeDataPass" value="" />
+        <input type="hidden" name="firstSecondAction" id="firstSecondAction" value="" />
+        <input type="hidden" name="checkOmniDataPass" id="checkOmniDataPass" value="" />
+    </form>
+
+    <form id="actionLinkFormMultirow" class="no-padding" enctype="multipart/form-data" target='' action="/api/ProductRoute/ExecuteLinkMultirow" method="post">
+        <input type="hidden" name="ctaLinkItemIdMultirow" id="ctaLinkItemIdMultirow" value="" />
+        <input type="hidden" name="contextidLinkMultirow" id="contextidLinkMultirow" value="" />
+        <input type="hidden" name="productCodeLinkMultirow" id="productCodeLinkMultirow" value="" />
+        <input type="hidden" name="eligibilityItemIdMultirow" id="eligibilityItemIdMultirow" value="" />
+        <input type="hidden" name="checkOmniLinkMultirow" id="checkOmniLinkMultirow" value="" />
+    </form>
+    <form id="actionLinkFormOmni" class="no-padding" enctype="multipart/form-data" target='' action="/api/ProductRoute/ExecuteLinkOmni" method="post">
+        <input type="hidden" name="contextidLinkOmni" id="contextidLinkOmni" value="" />
+        <input type="hidden" name="productCodeLinkOmni" id="productCodeLinkOmni" value="" />
+        <input type="hidden" name="eligibilityItemIdLinkOmni" id="eligibilityItemIdLinkOmni" value="" />
+    </form>
+    <form id="downloadPdfFormCta" class="no-padding" enctype="multipart/form-data" target='' action="/api/ProductRoute/DownloadEfulfillmentPdfCta" method="post">
+        <input type="hidden" name="materialIdCta" id="materialIdCta" value="" />
+    </form>
+    <form id="notifyproductavailableForm" class="no-padding" action="/api/ProductRoute/NotifyProductAvailable" method="post">
+        <input type="hidden" name="reminderId" id="reminderId" value="" />
+        <input type="hidden" name="contextItemIdInReminder" id="contextItemIdInReminder" value="" />
+        <input type="hidden" name="eligibilityItemIdInReminder" id="eligibilityItemIdInReminder" value="" />
+    </form>
+    <form id="storeForm" class="no-padding" action="/api/RakutenRoute/GetStoreLinkPartner" target="_blank" method="post">
+        <input type="hidden" name="storeId" id="storeId" value="" />
+    </form>
+
+    <script async src="@cacheServerUrl/assets/neamb/scripts/main.js"></script>
+    <script>
+        function executestoreredirection(storeId) {
+            $("#storeId").val(storeId);
+            $("#storeForm").submit();
+        }
+
+        function executeloginwarm(actiontype) {
+            $("#actiontype").val(actiontype);
+            $("#redirectwarmproduct").submit();
+        }
+
+        function executeloginhandlepostaction(componentId, loginUrl, featureType) {
+            $("#componentIdAuthentication").val(componentId);
+            $("#loginUrlForAuthentication").val(loginUrl);
+            $("#featureType").val(featureType);
+            $("#redirectwarmcoldauthentication").submit();
+        }
+    </script>
+    <script defer src="https://use.fontawesome.com/b8297ede2b.js"></script>
+    <script defer src="@cacheServerUrl/assets/neamb/scripts/jquery.form.js"></script>
+    <script defer src="@cacheServerUrl/assets/neamb/scripts/product-detail.js"></script>
+    <script defer src="@cacheServerUrl/assets/neamb/scripts/remove-ref.js"></script>
+
+    @if (!string.IsNullOrEmpty(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeBottom]))
+    {
+        @Html.Raw(siteSettings[Templates.SiteSettings.Fields.JavascriptCodeBottom])
+    }
+
+    @if (!string.IsNullOrEmpty(assetFooter))
+    {
+        @Html.Raw(assetFooter)
+    }
+
+    @if (!isExperienceEditor)
+    {
+        @Html.Sitecore().VisitorIdentification()
+    }
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\neamb10sc.dev.local</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Views/Neamb.GeneralContent/ContactUs/ContactUs.cshtml">
+      <publishTime>06/21/2022 17:42:46</publishTime>
+    </File>
+    <File Include="Views/Neamb.GeneralContent/Modals/LightBoxVideo.cshtml">
+      <publishTime>06/08/2022 13:21:09</publishTime>
+    </File>
+    <File Include="Views/Neamb.GeneralContent/Renderings/NewsletterCTA.cshtml">
+      <publishTime>09/15/2022 12:03:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

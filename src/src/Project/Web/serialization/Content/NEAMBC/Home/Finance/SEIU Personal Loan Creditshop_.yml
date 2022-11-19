@@ -1,0 +1,452 @@
+﻿---
+ID: "fd801240-0f1a-41a2-8f5c-a0e23feffef0"
+Parent: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Finance/SEIU Personal Loan Creditshop EXPIRED
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20200325T144700Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7484B5A5-DC19-4EE2-ADB4-BD46FB6E2E6B}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{C4EDB4D4-B0A4-4809-913C-5C0AFCC1F761}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Personal Loan is a simple installment loan with affordable monthly payments.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EC4D8832-BB43-45B6-BB78-93DE38C3A698}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{CBFA436B-8550-414E-BA03-E788B36380A6}" alt="SEIU member benefits in partnership with CreditShop" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002054Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p><strong>Additional Information</strong></p>
+        
+        <p><em>The prequalification process, application, disclosures, and all other information you receive, such as emails, letters, statements, will be in English. As a courtesy, we may provide Spanish versions of some of the documents. These documents are for reference only and will not be the official documents. The official documents will be in English.</em></p>
+        
+        <p><br>
+        1. If you accept a loan before 1:00 p.m. CT, Monday-Friday, the funds should be in your bank account the next business day. If you accept a loan after 1:00 p.m. CT, Monday-Friday, the funds should be available the 2nd business day after loan acceptance. If you accept a loan anytime Saturday or Sunday, the funds should be available the following Tuesday. All these dates are subject to your bank’s policies. Also, if the day of funding falls on a bank federal holiday, the funds will likely be available the following business day.</p>
+        
+        <p><br>
+        2. SEIU Personal Loans generally range between $500-$5,000. Borrowers should refer to their loan agreement for specific terms and conditions.</p>
+        
+        <p><br>
+        3. FICO<sup>®</sup> is a registered trademark of Fair Isaac Corporation in the United States and other countries. Your FICO Score is based on data from TransUnion and may be different from other scores. It generally takes about 2 months after account opening for your score to become available via the customer account portal; and it will only appear if your score is available.</p>
+        <!--
+        <p><br />
+        4. Customers in good standing (not delinquent) may request to skip a monthly payment up to three (3) times over the life of their outstanding loan.</p>
+        -->
+        
+        <p><br>
+        The SEIU Personal Loan℠ is provided by First Bank &amp; Trust, Member FDIC, and serviced by CreditShop.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Personal Loan (Less than $5,000)
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Please call 1-855-292-7348"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to access this offer. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PERSONAL LOAN
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>Emergency cash needs can happen at any time, and this loan program (featuring loans from $500 to $5,000) is designed to get you the cash you need, fast.</p>
+        <p>Members with good credit who don&rsquo;t need a loan as urgently should consider either our <strong><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('finance', 'click', 'finance &gt; seiu personal loan &gt; seiu platinum edition visa card);">SEIU℠ Platinum Edition Visa Card</a></strong> or our <strong><a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z" onclick="ga_event('finance', 'click', 'finance &gt; seiu personal loan &gt; large loan program);">large loan program</a></strong> which features loans from $5,000 to $30,000 and more competitive interest rates.</p>
+        <p>Use the cash to pay bills, make auto repairs, handle emergencies, or for anything you choose.</p>
+        <p>The SEIU Personal Loan is a simple installment loan with affordable monthly payments that can help you build your credit history. You can finish your loan application in minutes and get funds deposited into your account as fast as the next day.<sup>1</sup></p>
+        <p>SEIU Personal Loan benefits:</p>
+        <ul>
+            <li>Loan amounts up to $5,000<sup>2</sup></li>
+            <li>No application fees or pre-payment penalties&mdash;ever</li>
+            <li>Complimentary FICO score, an easy way to monitor your credit<sup>3</sup></li>
+            <!--
+        	<li>Exclusive Strike Skip-a-Pay Program<sup>4</sup></li>
+        -->
+        </ul>
+        <p>Find out now if you are pre-qualified for an SEIU Personal Loan without impacting your credit score!</p>
+        <div style="margin: auto; padding: 5px; border: 1px solid #4f2e84; max-width: 525px; align: center;">
+        <p style="text-align: center; color: #4f2e84; line-height: 18px; font-family: Open Sans,sans-serif; font-size: 16px;">
+        <strong><em>Important Information About Short-Term Loans</em></strong></p>
+        <p style="text-align: center; color: #4f2e84; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 14px;">To meet emergency cash needs, many members may turn to &ldquo;payday&rdquo; or &ldquo;car title&rdquo; loans. These products may include hidden fees and high interest rates, which can result in high cost debt that is difficult to pay off. The SEIU Personal Loan includes no application fee or pre-payment penalties. Plus, SEIU Personal Loans will be reported to the three national credit bureaus; so if you manage this product responsibly it can help build your credit history.</p>
+        </div>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{EC4D8832-BB43-45B6-BB78-93DE38C3A698}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Personal Loan (Less than $5,000)
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Find your loan offer" linktype="external" url="https://www.creditshop.com/customer-webapp/welcome.html?p=SEIU&amp;vendorId=0031J00001GeeGzQAJ&amp;vendorToken=sep2817-4187-67e6-ge47-7544200caka9c&amp;return=www.seiumb.com/pl" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Personal Loan is a simple installment loan with affordable monthly payments.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PERSONAL LOANS UP TO $5,000
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Personal Loan (Less than $5,000)
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7484B5A5-DC19-4EE2-ADB4-BD46FB6E2E6B}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{C4EDB4D4-B0A4-4809-913C-5C0AFCC1F761}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU Personal Loan is a simple installment loan with affordable monthly payments.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EC4D8832-BB43-45B6-BB78-93DE38C3A698}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{CBFA436B-8550-414E-BA03-E788B36380A6}" alt="SEIU member benefits in partnership with CreditShop" height="" width="" hspace="" vspace="" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200910T170557Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p><strong>Additional Information</strong></p>
+        
+        <p><em>The prequalification process, application, disclosures, and all other information you receive, such as emails, letters, statements, will be in English. As a courtesy, we may provide Spanish versions of some of the documents. These documents are for reference only and will not be the official documents. The official documents will be in English.</em></p>
+        
+        <p><br>
+        1. If you accept a loan before 1:00 p.m. CT, Monday-Friday, the funds should be in your bank account the next business day. If you accept a loan after 1:00 p.m. CT, Monday-Friday, the funds should be available the 2nd business day after loan acceptance. If you accept a loan anytime Saturday or Sunday, the funds should be available the following Tuesday. All these dates are subject to your bank’s policies. Also, if the day of funding falls on a bank federal holiday, the funds will likely be available the following business day.</p>
+        
+        <p><br>
+        2. SEIU Personal Loans generally range between $500-$5,000. Borrowers should refer to their loan agreement for specific terms and conditions.</p>
+        
+        <p><br>
+        3. FICO<sup>®</sup> is a registered trademark of Fair Isaac Corporation in the United States and other countries. Your FICO Score is based on data from TransUnion and may be different from other scores. It generally takes about 2 months after account opening for your score to become available via the customer account portal; and it will only appear if your score is available.</p>
+        <!--
+        <p><br />
+        4. Customers in good standing (not delinquent) may request to skip a monthly payment up to three (3) times over the life of their outstanding loan.</p>
+        -->
+        
+        <p><br>
+        The SEIU Personal Loan℠ is provided by First Bank &amp; Trust, Member FDIC, and serviced by CreditShop.</p>
+        
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Personal Loan (Less than $5,000)
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Please call 1-855-292-7348"
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to access this offer. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PERSONAL LOAN
+    - ID: "6f60ec74-e534-4ffd-82e6-fec50502cfe8"
+      Hint: Type
+      Value: 
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{ED30AA3B-1D94-4BD4-B225-FA6C2A6BCB45}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{ED30AA3B-1D94-4BD4-B225-FA6C2A6BCB45}"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>Emergency cash needs can happen at any time, and this loan program (featuring loans from $500 to $5,000) is designed to get you the cash you need, fast.</p>
+        <p>Members with good credit who don&rsquo;t need a loan as urgently should consider either our <strong><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('finance', 'click', 'finance &gt; seiu personal loan &gt; seiu platinum edition visa card);">SEIU℠ Platinum Edition Visa Card</a></strong> or our <strong><a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z" onclick="ga_event('finance', 'click', 'finance &gt; seiu personal loan &gt; large loan program);">large loan program</a></strong> which features loans from $5,000 to $30,000 and more competitive interest rates.</p>
+        <p>Use the cash to pay bills, make auto repairs, handle emergencies, or for anything you choose.</p>
+        <p>The SEIU Personal Loan is a simple installment loan with affordable monthly payments that can help you build your credit history. You can finish your loan application in minutes and get funds deposited into your account as fast as the next day.<sup>1</sup></p>
+        <p>SEIU Personal Loan benefits:</p>
+        <ul>
+            <li>Loan amounts up to $5,000<sup>2</sup></li>
+            <li>No application fees or pre-payment penalties&mdash;ever</li>
+            <li>Complimentary FICO score, an easy way to monitor your credit<sup>3</sup></li>
+            <!--
+        	<li>Exclusive Strike Skip-a-Pay Program<sup>4</sup></li>
+        -->
+        </ul>
+        <p>Find out now if you are pre-qualified for an SEIU Personal Loan without impacting your credit score!</p>
+        <div style="margin: auto; padding: 5px; border: 1px solid #4f2e84; max-width: 525px; align: center;">
+        <p style="text-align: center; color: #4f2e84; line-height: 18px; font-family: Open Sans,sans-serif; font-size: 16px;">
+        <strong><em>Important Information About Short-Term Loans</em></strong></p>
+        <p style="text-align: center; color: #4f2e84; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 14px;">To meet emergency cash needs, many members may turn to &ldquo;payday&rdquo; or &ldquo;car title&rdquo; loans. These products may include hidden fees and high interest rates, which can result in high cost debt that is difficult to pay off. The SEIU Personal Loan includes no application fee or pre-payment penalties. Plus, SEIU Personal Loans will be reported to the three national credit bureaus; so if you manage this product responsibly it can help build your credit history.</p>
+        </div>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{EC4D8832-BB43-45B6-BB78-93DE38C3A698}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Personal Loan (Less than $5,000)
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Find your loan offer" linktype="external" url="https://www.creditshop.com/customer-webapp/welcome.html?p=SEIU&amp;vendorId=0031J00001GeeGzQAJ&amp;vendorToken=sep2817-4187-67e6-ge47-7544200caka9c&amp;return=www.seiumb.com/pl" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU Personal Loan is a simple installment loan with affordable monthly payments.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PERSONAL LOANS UP TO $5,000
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200910T170557Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Personal Loan (Less than $5,000)
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B8CCFD67-5FF5-4016-8C0B-2303F09AA1AC}"
+              p:after="r[@uid='{CAEE7B56-82C3-4F31-A2E3-BD6CAEC23CEE}']"
+              s:ds="{C4EDB4D4-B0A4-4809-913C-5C0AFCC1F761}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:par=""
+              s:ph="left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Préstamo Personal SEIU es un préstamo a plazos simples con pagos mensuales accesibles.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EC4D8832-BB43-45B6-BB78-93DE38C3A698}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{CBFA436B-8550-414E-BA03-E788B36380A6}" alt="SEIU Member Benefits en asociación con CreditShop" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172701Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>Información adicional</strong></p>
+        
+        <p><em>El proceso de precalificación del préstamo, la solicitud, las divulgaciones y toda la demás información que reciba, como correos electrónicos, cartas y declaraciones, estarán en inglés. Como cortesía, podemos proporcionar versiones en español de algunos de los documentos. Estos documentos son solo para referencia y no serán los documentos oficiales. Los documentos oficiales estarán en inglés.</em></p>
+        
+        <p><br />
+        1. Si acepta un préstamo antes de la 1:00 p.m., horario central, de lunes a viernes, los fondos deben estar en su cuenta bancaria el siguiente día hábil. Si acepta un préstamo después de la 1:00 p.m., horario central, de lunes a viernes, los fondos deben estar disponibles el segundo día hábil después de la aceptación del préstamo. Si acepta un préstamo en cualquier momento el sábado o el domingo, los fondos deben estar disponibles el martes siguiente. Todas estas fechas están sujetas a las políticas de su banco. Además, si el día de la financiación cae un día feriado bancario nacional, probablemente los fondos estarán disponibles el siguiente día hábil.</p>
+        
+        <p><br />
+        2. Los préstamos personales SEIU generalmente oscilan entre $500 y $5,000. Los prestatarios deben referirse a su acuerdo de préstamo para consultar términos y condiciones específicos.</p>
+        
+        <p><br />
+        3. FICO<sup>®</sup> es una marca registrada de Fair Isaac Corporation en los Estados Unidos y en otros países. Su calificación FICO se basa en los datos de TransUnion y puede diferir de otras calificaciones. Por lo general, toma alrededor de 2 meses después de la apertura de la cuenta para que su calificación esté disponible a través del portal de la cuenta del cliente; y solo aparecerá si su calificación está disponible.</p>
+        <!--
+        <p><br />
+        El aplazamiento de los pagos m&iacute;nimos durante una huelga es un beneficio opcional y extender&aacute; el plazo de su pr&eacute;stamo. Para solicitar este beneficio, debe comunicarse con el servicio de atenci&oacute;n al cliente llamando al 1-855-292-7348 por lo menos 3 d&iacute;as antes de la fecha de vencimiento del pago.  Para recibir este beneficio, su cuenta debe estar en buen estado, debe haber hecho por lo menos 3 pagos mensuales en tiempo oportuno desde que se financi&oacute; su pr&eacute;stamo y no puede inscribirse en ning&uacute;n otro programa de pago.  Si est&aacute; inscrito en AutoPay, al solicitar un aplazamiento de los pagos m&iacute;nimos durante una huelga, nos est&aacute; ordenando que no retiremos un pago en un mes en el que aplazamiento de los pagos m&iacute;nimos durante una huelga est&eacute; en vigor y que reanudemos la retirada de pagos el mes siguiente. Los intereses devengados de su fecha de vencimiento del pago anterior hasta la fecha de vencimiento del pago omitido se eximir&aacute;n.  Los pagos aplazados se a&ntilde;adir&aacute;n al final del plazo del pr&eacute;stamo.  Usted puede recibir no m&aacute;s de dos aplazamientos de los pagos m&iacute;nimos durante una huelga en un a&ntilde;o calendario y un m&aacute;ximo de tres durante el plazo de su pr&eacute;stamo.</p>
+        -->
+        
+        <p><br />
+        El Préstamo Personal SEIU℠ es otorgado por First Bank &amp; Trust, Miembro FDIC y atendido por CreditShop.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Préstamo Personal SEIU (Menos de $5,000)
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "¿Tiene alguna pregunta? Llame al 1-855-292-7348"
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debes iniciar sesión para acceder a esta oferta. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PRÉSTAMO PERSONAL SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>La necesidad de efectivo de emergencia puede suceder en cualquier momento, y este programa de pr&eacute;stamos (que ofrece pr&eacute;stamos de $500 a $5,000) est&aacute; dise&ntilde;ado para obtener el efectivo que necesita, r&aacute;pido.</p>
+        <p>Los miembros con buen historial de cr&eacute;dito que no necesitan un pr&eacute;stamo con urgencia deben considerar nuestra <strong><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('finance', 'click', 'finance &gt; seiu personal loan &gt; seiu platinum edition visa card esp);">Tarjeta SEIU℠ Visa Platinum Edition</a></strong> o nuestro <strong><a href="~/link.aspx?_id=4C2742A9F07A44E8B03854F848D6D37A&amp;_z=z" onclick="ga_event('finance', 'click', 'finance &gt; seiu personal loan &gt; large loan program esp);">gran programa de pr&eacute;stamos</a></strong> que incluye pr&eacute;stamos de $5,000 a $30,000 y tasas de inter&eacute;s m&aacute;s competitivas.</p>
+        <p>Utilice el dinero en efectivo para pagar facturas, reparar su auto, afrontar emergencias o para cualquier otra cosa que elija.</p>
+        <p>El Pr&eacute;stamo Personal SEIU es un pr&eacute;stamo a plazos simples con pagos mensuales asequibles que pueden ayudarle a mejorar su historial crediticio. Puede completar su solicitud de pr&eacute;stamo en cuesti&oacute;n de minutos y los fondos se depositan en su cuenta tan pronto como al d&iacute;a siguiente.<sup>1</sup></p>
+        <p>Beneficios del Pr&eacute;stamo Personal SEIU:</p>
+        <ul>
+            <li>Pr&eacute;stamo de hasta $5,000<sup>2</sup></li>
+            <li>Jam&aacute;s tendr&aacute; que pagar cargos de solicitud ni multas por pago anticipado.</li>
+            <li>Puntaje FICO de cortes&iacute;a, una manera f&aacute;cil de monitorear su cr&eacute;dito<sup>3</sup></li>
+            <!--
+        	<li>Programa exclusivo de Aplazamiento de los pagos m&iacute;nimos durante una huelga (Strike Skip-a-Pay)<sup>4</sup></li>
+        -->
+        </ul>
+        <p>&iexcl;Averig&uuml;e si est&aacute; precalificado para recibir un pr&eacute;stamo personal SEIU sin que afecte su calificaci&oacute;n crediticia!</p>
+        <div style="margin: auto; padding: 5px; border: 1px solid #4f2e84; max-width: 525px; align: center;">
+        <p style="text-align: center; color: #4f2e84; line-height: 18px; font-family: Open Sans,sans-serif; font-size: 16px;">
+        <strong><em>Informaci&oacute;n importante sobre pr&eacute;stamos a corto plazo</em></strong></p>
+        <p style="text-align: center; color: #4f2e84; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 14px;">Para satisfacer las necesidades de efectivo urgentes, muchos miembros pueden recurrir a pr&eacute;stamos del "d&iacute;a de pago" o sobre el &ldquo;t&iacute;tulo de auto&rdquo;. Estos productos pueden incluir cargos ocultos y tasas de inter&eacute;s elevadas, lo que puede resultar en una deuda de alto costo dif&iacute;cil de pagar. El pr&eacute;stamo personal SEIU no incluye ninguna tasa de solicitud o multas por pago anticipado. Adem&aacute;s, los pr&eacute;stamos personales SEIU se informan a las tres agencias de cr&eacute;dito nacionales; por lo<br />
+        que si administra este producto de manera responsable, puede<br />
+        ayudar a construir su historial de cr&eacute;dito.</p>
+        </div>
+        <p>&nbsp;</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{EC4D8832-BB43-45B6-BB78-93DE38C3A698}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Préstamo Personal SEIU (Menos de $5,000)
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ver ofertas de préstamo" linktype="external" url="https://www.creditshop.com/customer-webapp/welcome.html?p=SEIU&amp;vendorId=0031J00001GeeGzQAJ&amp;vendorToken=sep2817-4187-67e6-ge47-7544200caka9c&amp;return=www.seiumb.com/pl" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El Préstamo Personal SEIU es un préstamo simple a plazos con pagos mensuales asequibles.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PRÉSTAMOS PERSONALES DE HASTA $5,000
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Préstamo Personal SEIU (Menos de $5,000)

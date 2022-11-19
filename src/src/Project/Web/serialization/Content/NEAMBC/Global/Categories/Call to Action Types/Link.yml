@@ -1,0 +1,37 @@
+﻿---
+ID: "b868e328-b5e9-45e4-9e87-e9a190c7f30f"
+Parent: "3965e215-49d1-4d68-bb04-a1a9deb561f5"
+Template: "7f85b6d0-f533-45ac-b00b-ddd602ab6fcf"
+Path: /sitecore/content/NEAMBC/Global/Categories/Call to Action Types/Link
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171214T222456Z
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: Link
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: Link
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T065418Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: Link
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: Link

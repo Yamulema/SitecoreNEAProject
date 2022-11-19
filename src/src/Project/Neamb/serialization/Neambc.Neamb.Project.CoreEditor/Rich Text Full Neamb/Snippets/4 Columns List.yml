@@ -1,0 +1,67 @@
+﻿---
+ID: "585f47cb-89ed-4564-a9b9-e3d6f447fd25"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/4 Columns List
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="c-001-25 new-design">
+        <div class="container wrapper">
+          <div class="row">
+            <div class="col-md-8 col-centered title">
+                <h3 class="text-orange">We're all about building the education community.</h3>
+            </div>
+          </div>
+          <div class="row row-eq-height content">
+            <div class="col-md-3">
+              <h6>Get to know us better.</h6>
+              <hr class="h-divider">
+              <p>Since 1967, we've offered educators helpful support and outstanding values.</p>
+              <a class="arrow-link blue" href="/">View the list</a>
+            </div>
+            <div class="col-md-3">
+              <h6>Membership in action.</h6>
+              <hr class="h-divider">
+              <p>Hear real stories of how membership helps educators.</p>
+              <a class="arrow-link blue" href="/">Hear the stories</a>
+            </div>
+            <div class="col-md-3">
+              <h6>Our partners care.</h6>
+              <hr class="h-divider">
+              <p>See how our partners are making a difference in education.</p>
+              <a class="arrow-link blue" href="/">See the list</a>
+            </div>
+            <div class="col-md-3">
+              <h6>Shop like a pro.</h6>
+              <hr class="h-divider">
+              <p>Subscribe to our shopper's guide for great deals and tips.</p>
+              <a class="arrow-link blue" href="/">Save money</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-centered">
+              <div class="leadIn">Get access to the benefits and expertise you deserve.</div>
+              <h5>Are you in?</h5>
+              <a href="/" class="btn btn-new btn-orange">Create Account to Access Benefits</a>
+          </div>
+          </div>
+        </div>
+      </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: 4 Columns List

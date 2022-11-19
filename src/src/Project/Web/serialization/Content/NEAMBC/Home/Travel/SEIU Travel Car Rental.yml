@@ -1,0 +1,3644 @@
+﻿---
+ID: "b042aa8c-0727-4c35-ae7a-337f58958b74"
+Parent: "01a71e86-7a96-486d-8eed-82fb99928311"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Travel/SEIU Travel Car Rental
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "86fe4f77-4d9a-4ec3-9ed9-263d03bd1965"
+  Hint: __Publish
+  Value: 20210204T204400Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles in one search.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210204T203056Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Rent A Car Now to reserve your rental.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make a journey easier by sparing you the hassles of driving your own car and saving you money if you drive instead of fly. When you&rsquo;re going on that road trip, check out the SEIU Travel Program for discounts on car rentals. From economy to family-friendly to sporty vehicles, you'll find the best car to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies. Both Enterprise and Hertz will pick you up from where you are located and take you to one of their non-airport locations during normal business hours.</p>
+        <p>The SEIU℠ Travel Car Rental program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, you are moving and require more space, or you don&rsquo;t own a vehicle and need reliable transportation for the day or week.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles in one search.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles in one search.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210204T204719Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Rent A Car Now to reserve your rental.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make a journey easier by sparing you the hassles of driving your own car and saving you money if you drive instead of fly. When you&rsquo;re going on that road trip, check out the SEIU℠ Travel Program for discounts on car rentals. From economy to family-friendly to sporty vehicles, you'll find the best car to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies. Both Enterprise and Hertz will pick you up from where you are located and take you to one of their non-airport locations during normal business hours.</p>
+        <p>The SEIU Travel Car Rental program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, you are moving and require more space, or you don&rsquo;t own a vehicle and need reliable transportation for the day or week.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles in one search.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210204T204719Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T170354Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Save yourself time and money by booking your rental car through the SEIU℠ Travel Program. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>When you arrive at an airport, you can pick up or return your rental car in no time with convenient kiosk check-ins and lot service. If you&rsquo;re driving instead of flying, select companies have convenient neighborhood locations. Both Enterprise and Hertz will pick you up and take you to one of their non-airport locations during normal business hours.</p>
+        <p>The SEIU Travel Car Rental program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T170354Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T171711Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click rent a car now to reserve your rental.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Save yourself time and money by booking your rental car through the SEIU℠ Travel Program. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>When you arrive at an airport, you can pick up or return your rental car in no time with convenient kiosk check-ins and lot service. If you&rsquo;re driving instead of flying, select companies have convenient neighborhood locations. Both Enterprise and Hertz will pick you up and take you to one of their non-airport locations during normal business hours.</p>
+        <p>The SEIU Travel Car Rental program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T171711Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T221804Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Save yourself time and money by booking your rental car through the SEIU℠ Travel Program. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>When you arrive at an airport, you can pick up or return your rental car in no time with convenient kiosk check-ins and lot service. If you&rsquo;re driving instead of flying, select companies have convenient neighborhood locations. Both Enterprise and Hertz will pick you up and take you to one of their non-airport locations during normal business hours.</p>
+        <p>The SEIU Travel Car Rental program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T221804Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210303T143237Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Save yourself time and money by booking your rental car through the SEIU℠ Travel Program. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>When you arrive at an airport, you can pick up or return your rental car in no time with convenient kiosk check-ins and lot service. If you&rsquo;re driving instead of flying, select companies have convenient neighborhood locations. Both Enterprise and Hertz will pick you up and take you to one of their non-airport locations during normal business hours.</p>
+        <p>The SEIU Travel Car Rental program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get exclusive SEIU member deals on your next car rental. Compare prices, brands and vehicles, all in one search.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210303T143237Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210310T161034Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210310T161034Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T204224Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Car Rental"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T204224Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 9
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210312T204336Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210312T204336Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 10
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210312T205552Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210312T205552Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 11
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T155115Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T155115Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 12
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T160239Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Car Rental"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T160239Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: Car Rental"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 13
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T165024Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T165024Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 14
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T161817Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T161817Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 15
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T162514Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T162514Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 16
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A071D91D-DEFB-489C-8EC2-427D758AB463}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T192753Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T192753Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 17
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A071D91D-DEFB-489C-8EC2-427D758AB463}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T122825Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210805T122825Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 18
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A071D91D-DEFB-489C-8EC2-427D758AB463}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T142154Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T142154Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 19
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A071D91D-DEFB-489C-8EC2-427D758AB463}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T131911Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">If you need to speak with a travel agent regarding your travel plans, please call 1-844-836-7348. We are experiencing higher than normal call volume and your hold time may be longer than usual. We apologize for any inconvenience and appreciate your patience.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T131911Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 20
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A071D91D-DEFB-489C-8EC2-427D758AB463}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210901T200523Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Car Rental
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Car Rental"
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{55B88AF4-2771-4F81-A47A-8C7F61A66981}"
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{55B88AF4-2771-4F81-A47A-8C7F61A66981}"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">If you need to speak with a travel agent regarding your travel plans, please call 1-844-940-1638. We are experiencing higher than normal call volume and your hold time may be longer than usual. We apologize for any inconvenience and appreciate your patience.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Search rates for popular car rental companies including Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National and Thrifty.</li>
+            <li>Save up to 25% and enjoy expedited check in via kiosks, convenient lot pick-ups and fast returns.</li>
+            <li>Book any time: There are no holiday blackout dates.</li>
+            <li>No fee for additional drivers at participating locations.</li>
+            <li>Unlimited mileage and 24/7 emergency roadside assistance.</li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*</li>
+        </ul>
+        <p>Renting a car can make you journey easy. It's cheaper than flying, and you'll avoid the wear-and-tear on your own car. With savings of up to 25%, SEIU makes your road trip even more fun. From economy to family-friendly to sporty, you'll find the best vehicle to meet your needs.</p>
+        <p>You can pick up a vehicle at most airports or at a neighborhood location for select companies.</p>
+        <p>The SEIU Travel Program isn&rsquo;t just for trips. Rent a vehicle when your car is getting maintenance, if you are moving and need more trunk space, or if you don&rsquo;t own a vehicle and need reliable transportation for the day or week. Hit the road worry-free with unlimited mileage and 24/7 emergency roadside assistance.</p>
+        <p>Save up to 25%, and compare rental choices &mdash; all in one place.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Car Rental
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="RENT A CAR" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 25%, and compare rental choices &mdash; all in one place.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 25% when you reserve a vehicle through the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210901T200523Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Car Rental
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE VIAJES DE SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210312T201409Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Viajes: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ VIAJES: ALQUILER DE AUTOS"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de Viajes de SEIU no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE VIAJES DE SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210312T204405Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Viajes: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ VIAJES: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de Viajes de SEIU no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210312T204405Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE VIAJES DE SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210312T204545Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Viajes: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ VIAJES: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de Viajes de SEIU no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210312T204545Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE VIAJES DE SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210312T205617Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Viajes: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ VIAJES: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de Viajes de SEIU no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210312T205617Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE VIAJES DE SEIU.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T143714Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Viajes: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ VIAJES: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de Viajes de SEIU no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU VIAJES: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de viajes de SEIU.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T143714Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Viajes: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T151852Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ TRAVEL: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU TRAVEL: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T151852Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T155153Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ TRAVEL: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU TRAVEL: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T155153Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T160218Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Alquiler de autos"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ TRAVEL: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU TRAVEL: ALQUILER DE AUTOS"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T160218Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Travel: ALQUILER DE AUTOS"
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 9
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T164934Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T164934Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 10
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T161756Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T161756Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 11
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T162545Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T162545Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 12
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6CAB8677-7413-4062-9E51-800B243C1B01}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T192654Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T192654Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 13
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6CAB8677-7413-4062-9E51-800B243C1B01}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T122459Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210805T122459Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 14
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6CAB8677-7413-4062-9E51-800B243C1B01}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T141631Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T141631Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 15
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6CAB8677-7413-4062-9E51-800B243C1B01}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T131956Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Si necesita hablar con un agente de viajes sobre sus planes de viaje, llame al 1-844-836-7348. Estamos experimentando un volumen de llamadas m&aacute;s alto de lo normal y su tiempo de espera puede ser m&aacute;s largo de lo habitual. Lamentamos cualquier inconveniente y agradecemos su paciencia.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T131956Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 16
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6CAB8677-7413-4062-9E51-800B243C1B01}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AHORRE HASTA UN 25% AL RESERVAR UN VEHÍCULO A TRAVÉS DEL PROGRAMA DE SEIU TRAVEL.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210901T200555Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Alquiler de autos
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: ALQUILER DE AUTOS"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Si necesita hablar con un agente de viajes sobre sus planes de viaje, llame al 1-844-940-1638. Estamos experimentando un volumen de llamadas m&aacute;s alto de lo normal y su tiempo de espera puede ser m&aacute;s largo de lo habitual. Lamentamos cualquier inconveniente y agradecemos su paciencia.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Busque las tarifas de las empresas de alquiler de autos m&aacute;s populares, como Alamo, Avis, Budget, Dollar, Enterprise, Hertz, National y Thrifty.</li>
+            <li>Ahorre hasta un 25% y disfrute de una facturaci&oacute;n acelerada a trav&eacute;s de quioscos, c&oacute;modas recogidas en locales y r&aacute;pidas devoluciones.</li>
+            <li>Alquile en cualquier momento: No hay fechas de veda por vacaciones.</li>
+            <li>No se cobra por conductores adicionales en los centros participantes.</li>
+            <li>Kilometraje ilimitado y asistencia en carretera de emergencia 24/7.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Alquilar un auto puede facilitar su viaje. Es m&aacute;s barato que volar y evitar&aacute; el desgaste de su propio auto. Con un ahorro de hasta el 25%, SEIU hace que su viaje por carretera sea a&uacute;n m&aacute;s divertido. Desde el econ&oacute;mico hasta el familiar o el deportivo, encontrar&aacute; el mejor auto que se adapte a sus necesidades.</p>
+        <p>Puede recoger un veh&iacute;culo en la mayor&iacute;a de los aeropuertos o en un local del vecindario para empresas selectas.</p>
+        <p>El Programa de SEIU Travel no es solo para viajes. Alquile un veh&iacute;culo cuando su auto est&eacute; en mantenimiento, si se muda y necesita m&aacute;s espacio en la cajuela, o si no tiene un veh&iacute;culo y necesita un transporte confiable para el d&iacute;a o la semana. Salga a la carretera sin preocupaciones con kilometraje ilimitado y asistencia de emergencia en carretera las 24 horas del d&iacute;a.</p>
+        <p>Ahorre hasta un 25% y compare las opciones de alquiler, todo en un solo lugar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D326C53-C753-4A4C-BB04-3B4FE18E6BC4}" alt="Mujer asiática feliz sonriendo sentada en el auto" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ALQUILAR UN AUTO" linktype="external" url="https://seiumb2.lifestylecollection.com/car?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre hasta un 25% al reservar un veh&iacute;culo a trav&eacute;s del programa de SEIU Travel.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210901T200555Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: ALQUILER DE AUTOS
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"

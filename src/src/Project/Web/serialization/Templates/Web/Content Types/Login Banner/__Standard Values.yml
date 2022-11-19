@@ -1,0 +1,22 @@
+﻿---
+ID: "1dc4cbe2-f94b-4fba-8b83-5af8b2b9de98"
+Parent: "8f79708b-506d-4407-95eb-36846b4326e1"
+Template: "8f79708b-506d-4407-95eb-36846b4326e1"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Login Banner/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180202T194226Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b6b427db-1ebd-4007-a9d4-89833b9ad87d"
+      Hint: Image
+      Value: |
+        <image mediaid="{4D5B735B-7819-45BC-BA9A-24BA13808A58}" />

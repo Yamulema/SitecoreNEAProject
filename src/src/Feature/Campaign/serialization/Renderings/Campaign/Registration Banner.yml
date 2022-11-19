@@ -1,0 +1,24 @@
+﻿---
+ID: "7756ebec-7035-4d0e-96fd-695d56b7cad7"
+Parent: "894614f2-b6b5-4869-bf48-8fa8662180fe"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/SEIUMB/Feature/Campaign/Registration Banner
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{F62CD46F-877B-4043-B817-7FCB374811EB}"
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Forms/RegistrationBanner.cshtml
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{821CDDEF-0C3B-4950-B32E-610257FEEE9A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171226T164621Z

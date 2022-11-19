@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="AutoBuyingPage" urlpath="https://nea.truecar.com/?zipcode=52060">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="AutoBuying_Form_NeaLogo" xpath="//*[@id='main']/div[2]/div/header/div/div/a/img"/>
+            <control key="AutoButing_Form_Title" xpath="//*[@id='mainContent']/div/section/section[1]/div/div/div/div[1]/div/h1"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

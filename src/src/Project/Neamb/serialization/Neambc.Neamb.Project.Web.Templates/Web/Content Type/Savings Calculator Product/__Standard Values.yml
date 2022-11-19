@@ -1,0 +1,31 @@
+﻿---
+ID: "293f7b91-bd22-41a4-8f9f-d6c819ad9145"
+Parent: "ed76af4c-2772-4307-a86c-30429d08059e"
+Template: "ed76af4c-2772-4307-a86c-30429d08059e"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Savings Calculator Product/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220728T172221Z
+    - ID: "3843ac7d-dc3b-4190-aed0-1a253c3f0ee0"
+      Hint: Title
+      Value: Enter product text here
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63042156-133c-4e50-9870-618f854d5a25"
+      Hint: Saving
+      Value: 0
+    - ID: "6b1ebd74-bbc3-4069-821a-49db27f21b33"
+      Hint: Description
+      Value: <p>Enter Product Details Here</p>
+    - ID: "ec39d41d-4bec-473a-be62-c9f4d69b8c7d"
+      Hint: Link
+      Value: |
+        <a href="/" class="btn btn-card" target="_blank">Learn More</a>

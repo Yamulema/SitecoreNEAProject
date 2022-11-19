@@ -1,0 +1,51 @@
+﻿@using Neambc.Neamb.Project.Web
+@using Sitecore.Data.Fields
+@using Sitecore.Diagnostics
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+
+@{
+    var title = string.Empty;
+    var description = string.Empty;
+    var keywords = string.Empty;
+    var robots = string.Empty;
+    try
+    {
+        var metatitle = Model.PageItem.Fields[Templates.Metadata.Fields.MetaTitle].Value;
+        var pageTitle = Model.PageItem.Fields[Templates.PageInfo.Fields.PageTitle].Value;
+        title = string.IsNullOrEmpty(metatitle) ? pageTitle : metatitle;
+        title = string.IsNullOrEmpty(title) ? "NEA Member Benefits" : string.Format("{0} | NEA Member Benefits", title);
+
+        description = string.IsNullOrEmpty(Model.PageItem.Fields[Templates.Metadata.Fields.MetaDescription].Value) ? string.Empty : Model.PageItem.Fields[Templates.Metadata.Fields.MetaDescription].Value;
+
+        keywords = string.Join(", ",
+            ((MultilistField)Model.PageItem.Fields[Templates.Metadata.Fields.MetaKeywords]).GetItems()
+                .Select(x => x.Fields[Templates.CategoryItem.Fields.Value].Value)
+                .Where(x => !string.IsNullOrEmpty(x)));
+
+        robots = string.Join(", ", new string[]
+        {
+            ((CheckboxField)Model.PageItem.Fields[Templates.Metadata.Fields.DisableIndexing]).Checked ? "noindex" : "index",
+            ((CheckboxField)Model.PageItem.Fields[Templates.Metadata.Fields.DoNotFollowLinks]).Checked ? "nofollow" : "follow"
+        }.Where(x => !string.IsNullOrEmpty(x)));
+    }
+    catch (Exception e)
+    {
+        Log.Error(string.Format("Error while adding SEO metadata in {0}", Model.PageItem.ID.ToGuid().ToString()), this);
+        Log.Error(e.Message, this);
+    }
+}
+
+<title>@title</title>
+@if (!string.IsNullOrEmpty(description))
+{
+    <meta name="description" content="@description"/>
+}
+@if (!string.IsNullOrEmpty(keywords))
+{
+    <meta name="keywords" content="@keywords" />
+}
+@if (!string.IsNullOrEmpty(robots))
+{
+    <meta name="robots" content="@robots" />
+}

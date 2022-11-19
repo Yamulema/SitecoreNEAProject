@@ -1,0 +1,76 @@
+﻿---
+ID: "3b4aab10-6eb4-45b0-becc-c85632fad433"
+Parent: "6847aefb-2f69-4f02-9ff2-9734aa811757"
+Template: "018b901d-ecad-4748-86e8-bacbe06a5ea7"
+Path: /sitecore/content/NEAMBC/Global/Small Stacked Accordion/SEIU Marketplace/Returns
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p style="background: white; margin: 11pt 0in;">All returns and cancellations are subject to each store&rsquo;s specific policy. Returned or cancelled orders may void Cash Back and will be deducted from your Cash Back Balance, depending on the store&rsquo;s policy. If a store processes your exchanged order as a cancellation and a new transaction is created, the exchange may be treated as a cancelled order.</p>
+        <p style="background: white; margin-top: 11pt;">To ensure you receive Cash Back on exchanged orders, you can instead return the item and place an entirely new order at that store. Just make sure to start your shopping with NEAMB.com or Rakuten.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200923T201355Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: Returns, cancellations, and exchanges
+  - Version: 2
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>All returns and cancellations are subject to each store’s specific policy. Returned or cancelled orders may void Cash Back and will be deducted from your Cash Back balance, depending on the store’s policy. If a store processes your exchanged order as a cancellation and a new transaction is created, the exchange may be treated as a cancelled order.</p>
+        <p>To ensure you receive Cash Back on exchanged orders, you can instead return the item and place an entirely new order at that store. Just make sure to start your shopping with seiumb.com or Rakuten.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T134535Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: Returns, cancellations, and exchanges
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T134535Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        Todas las devoluciones y cancelaciones están sujetas a la política específica de cada tienda. Se pueden anular los reembolsos en efectivo de los pedidos devueltos o cancelados y se deducirán del saldo del reembolso, según la política de la tienda. Si una tienda procesa su pedido cambiado como cancelación y se crea una nueva transacción, el cambio se puede tratar como un pedido cancelado.
+        Para asegurarse de recibir un reembolso de los pedidos cambiados, puede devolver el producto y realizar un pedido totalmente nuevo en esa tienda. Solo asegúrese de comenzar a comprar en seiumb.com o Rakuten.
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201223T152423Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: Devoluciones, cancelaciones e intercambios

@@ -1,0 +1,37 @@
+﻿---
+ID: "53e26dcd-1f11-4da3-9cd7-11fd0311e126"
+Parent: "3965e215-49d1-4d68-bb04-a1a9deb561f5"
+Template: "7f85b6d0-f533-45ac-b00b-ddd602ab6fcf"
+Path: /sitecore/content/NEAMBC/Global/Categories/Call to Action Types/DataPass
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171128T210135Z
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: DataPass
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: DataPass
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T065348Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: DataPass
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: DataPass

@@ -1,0 +1,95 @@
+﻿---
+ID: "a9eb72f7-3b7c-4e1e-a130-f8ecdf81b617"
+Parent: "ac328fae-2ecd-42d3-83a7-0dc1b035e2be"
+Template: "ac328fae-2ecd-42d3-83a7-0dc1b035e2be"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_ZipCodeValidation/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180307T160514Z
+    - ID: "2cf5a467-5e5f-4085-ab2f-4eb8285ae2ab"
+      Hint: Salutation
+      Value: Welcome
+    - ID: "3fb003db-7bea-4218-b9eb-424bed11abe3"
+      Hint: CharactersLimit
+      Value: You can enter only '5' characters in this field.
+    - ID: "50b7e8bb-4026-4a37-8769-16c11d324de4"
+      Hint: Next
+      Value: Next
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "68ef14f7-7717-4c7e-8b3d-f1b2aa2a34a8"
+      Hint: Instructions
+      Value: "Let's get started by confirming your Zip Code:"
+    - ID: "69783ee5-4275-4a92-bf07-72a68f2846e6"
+      Hint: Title
+      Value: Confirm Your ZIP code
+    - ID: "a3fbe235-2001-4d35-aeee-4aa7196395d4"
+      Hint: RegistrationLink
+      Value: |
+        <link text="Register with your SEIU information here" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "ab8bb49e-43e8-4187-9cf6-55a64732a290"
+      Hint: MatchError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">We're sorry. The zip code provided does not match the zip code in our files. We are unable to confirm your membership. If you believe you entered the information incorrectly, please try again.</span>
+    - ID: "dcdf5906-0475-4526-bd81-bd05cf5dd7f8"
+      Hint: NotYou
+      Value: Not
+    - ID: "de143051-b3e3-4d92-ae2d-ecc26d8ad8fa"
+      Hint: ZipError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">Please insert a valid zip code</span>
+    - ID: "f65084a1-da4d-4881-a065-90bdb1284869"
+      Hint: AttemptMessage
+      Value: Attempt(s).
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180307T160810Z
+    - ID: "2cf5a467-5e5f-4085-ab2f-4eb8285ae2ab"
+      Hint: Salutation
+      Value: Bienvenido(a)
+    - ID: "3fb003db-7bea-4218-b9eb-424bed11abe3"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '5' caracteres en este campo.
+    - ID: "50b7e8bb-4026-4a37-8769-16c11d324de4"
+      Hint: Next
+      Value: Siguiente
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "68ef14f7-7717-4c7e-8b3d-f1b2aa2a34a8"
+      Hint: Instructions
+      Value: "Comencemos por confirmar su código postal:"
+    - ID: "69783ee5-4275-4a92-bf07-72a68f2846e6"
+      Hint: Title
+      Value: Confirme su código postal
+    - ID: "a3fbe235-2001-4d35-aeee-4aa7196395d4"
+      Hint: RegistrationLink
+      Value: |
+        <link text="Regístrese aquí con su información de SEIU" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "ab8bb49e-43e8-4187-9cf6-55a64732a290"
+      Hint: MatchError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">Lo sentimos. El código postal ingresado no coincide con el que tenemos en nuestros archivos. No podemos confirmar su membresía. Si usted considera que que ha ingresado la información correctamente, por favor intente de nuevo.</span>
+    - ID: "dcdf5906-0475-4526-bd81-bd05cf5dd7f8"
+      Hint: NotYou
+      Value: ¿No Es
+    - ID: "de143051-b3e3-4d92-ae2d-ecc26d8ad8fa"
+      Hint: ZipError
+      Value: |
+        <span style="line-height: 16px; font-size: 12px; font-family: Verdana, serif; color: #ff0000;">Por favor ingrese un código postal válido<span/>
+    - ID: "f65084a1-da4d-4881-a065-90bdb1284869"
+      Hint: AttemptMessage
+      Value: Intento(s)

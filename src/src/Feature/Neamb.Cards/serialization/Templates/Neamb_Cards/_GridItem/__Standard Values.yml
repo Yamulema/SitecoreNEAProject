@@ -1,0 +1,31 @@
+﻿---
+ID: "4e4324c4-a832-4808-a0a0-6735ce1691c2"
+Parent: "e8c2cc9f-7038-4c75-8209-d3f8129a3d49"
+Template: "e8c2cc9f-7038-4c75-8209-d3f8129a3d49"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Cards/_GridItem/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180529T193451Z
+    - ID: "32f3c1fa-bb37-4ccd-a609-269d2e0fdb9a"
+      Hint: Subheadline
+      Value: Insert your description here
+    - ID: "4bad3d15-8634-4e01-9905-f8b6d00a0615"
+      Hint: Headline
+      Value: Insert your headline here
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "887547a4-b7d7-4a25-a02a-3dac33b51d77"
+      Hint: Background Color
+      Value: Gray
+    - ID: "d281069b-337c-4b45-849b-e55574358f37"
+      Hint: CTA
+      Value: |
+        <link text="Learn More" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{545409FC-DB86-4A7F-AC61-F74A274B5E30}" />

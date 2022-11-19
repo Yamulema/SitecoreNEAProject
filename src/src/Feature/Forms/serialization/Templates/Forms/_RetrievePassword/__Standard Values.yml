@@ -1,0 +1,123 @@
+﻿---
+ID: "1acbc90a-06ee-47f8-8bf8-3c920e2a0a43"
+Parent: "6cf7ec58-7f8d-48e2-b96b-f5979303cd74"
+Template: "6cf7ec58-7f8d-48e2-b96b-f5979303cd74"
+Path: /sitecore/templates/SEIUMB/Feature/Forms/_RetrievePassword/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0394f7dc-9d08-4588-afe2-81f952d69c84"
+      Hint: Headline
+      Value: "Forgot your password?"
+    - ID: "1fd9ca68-b0cc-4b0c-95ea-bd5cbb26f0ad"
+      Hint: Account with a Valid Token
+      Value: An email was sent to you with Reset Password instructions. Please check your email to proceed further. Also check your Spam or Bulk mail folder, just to be sure.
+    - ID: "2269d73b-8a4b-4538-aed8-8c6445d56a38"
+      Hint: Placeholder
+      Value: username
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T201409Z
+    - ID: "29a0be25-6963-4b46-a0e2-1656ca4dc07a"
+      Hint: CharactersLimit
+      Value: You can enter only '100' characters in this field.
+    - ID: "38638789-cc66-4906-981b-2eb489b4f5ee"
+      Hint: Invalid Format
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again.
+    - ID: "393f8e7e-7044-4c52-ab29-4d30fc1dc787"
+      Hint: ErrorMessage
+      Value: Please insert your username
+    - ID: "563e05d6-4fb2-457a-a390-432d018f28a8"
+      Hint: SubmitButton
+      Value: Submit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "61eb6a4c-5f23-41e2-9da4-08332c6452b9"
+      Hint: CancelLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{51B35732-AC72-4081-898F-9B2E8FF3FB9C}" />
+    - ID: "a64ba5f4-34e8-402b-92b3-8e4dbe33a064"
+      Hint: Success
+      Value: |
+        <p>A secure link to reset your password has been sent to your e-mail address. Please check your e-mail for a message from SEIU Member Benefits. </p>
+        <p>Click the link in the e-mail to set a new password for your account.</p>
+    - ID: "b32573cb-7df7-4016-8c15-2292a8d6f78a"
+      Hint: ResetLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{2A4F4CA3-2212-4A01-96FC-47B1E6E64866}" />
+    - ID: "b5a0bcd3-ea9f-4dd8-b646-29262697b78b"
+      Hint: Subheadline
+      Value: |
+        <p>
+        Please insert the username (e-mail address) you provided when you registered. We will send you a secure link to reset your password.</p>
+        <p>
+        To protect your privacy, we only send this information to the e-mail address on file for this account. If you no longer have access to that e-mail account (for instance, if you changed internet service providers), you will need to contact us for assistance.
+        </p>
+    - ID: "bfd36e1c-7bf7-4d84-b9a2-e229fab85393"
+      Hint: NotFound
+      Value: |
+        Oops, we can't seem to find a username that matches the information you provided. Can you verify your information and try again? If it indeed is correct, it may mean that you haven't registered on our website. Click <a href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">here</a> to register now. Or click here to <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a>.
+    - ID: "f29f2abe-3e55-4504-8eec-aa81b0c4240a"
+      Hint: Label
+      Value: Username*
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0394f7dc-9d08-4588-afe2-81f952d69c84"
+      Hint: Headline
+      Value: "¿Olvidó su contraseña?"
+    - ID: "1fd9ca68-b0cc-4b0c-95ea-bd5cbb26f0ad"
+      Hint: Account with a Valid Token
+      Value: Un correo electrónico ha sido enviado con las instrucciones para recuperar su contraseña. Por favor revisar su correo electrónico para continuar con el proceso.
+    - ID: "2269d73b-8a4b-4538-aed8-8c6445d56a38"
+      Hint: Placeholder
+      Value: usuario
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180102T201724Z
+    - ID: "29a0be25-6963-4b46-a0e2-1656ca4dc07a"
+      Hint: CharactersLimit
+      Value: Usted puede ingresar solo '100' caracteres en este campo.
+    - ID: "393f8e7e-7044-4c52-ab29-4d30fc1dc787"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su usuario
+    - ID: "563e05d6-4fb2-457a-a390-432d018f28a8"
+      Hint: SubmitButton
+      Value: Enviar
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "61eb6a4c-5f23-41e2-9da4-08332c6452b9"
+      Hint: CancelLink
+      Value: |
+         <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{51B35732-AC72-4081-898F-9B2E8FF3FB9C}" />
+    - ID: "a64ba5f4-34e8-402b-92b3-8e4dbe33a064"
+      Hint: Success
+      Value: |
+        <p>Un enlace seguro para recuperar su contrase&ntilde;a ha sido enviado&nbsp;a su direcci&oacute;n de correo electr&oacute;nico. Por favor, compruebe si ha recibido un mensaje de SEIUMB.</p>
+        <p>Haga clic en el enlace en su correo electr&oacute;nico para establecer una nueva contrase&ntilde;a para su cuenta.</p>
+    - ID: "b32573cb-7df7-4016-8c15-2292a8d6f78a"
+      Hint: ResetLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{2A4F4CA3-2212-4A01-96FC-47B1E6E64866}" />
+    - ID: "b5a0bcd3-ea9f-4dd8-b646-29262697b78b"
+      Hint: Subheadline
+      Value: |
+        <p>
+        Por favor ingrese el usuario (direcci&oacute;n de correo electr&oacute;nico) con el que se registr&oacute;. Le enviaremos un enlace seguro para recuperar su contrase&ntilde;a.
+        </p>
+        <p>Para proteger su privacidad, &uacute;nicamente enviaremos esta informaci&oacute;n al correo electr&oacute;nico registrado para esta cuenta. Si ya no tiene acceso a ese correo electr&oacute;nico (por ejemplo, porque cambi&oacute; de proveedor de internet), usted deber&aacute; contactarnos.</p>
+    - ID: "bfd36e1c-7bf7-4d84-b9a2-e229fab85393"
+      Hint: NotFound
+      Value: |
+        &iexcl;Uy!, al parecer no encontramos un nombre de usuario que coincida con la informaci&oacute;n que usted ha ingresado. &iquest;Puede verificar sus datos e intentar nuevamente? Si los datos son correctos, es posible que no est&eacute; registrado en nuestro sitio web. Haga clic aqu&iacute; para <a href="~/link.aspx?_id=8F873B3985AB4068A66FF6428AED4BDE&amp;_z=z">registrase</a> ahora. O aqu&iacute; para <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contactarnos</a>.
+    - ID: "f29f2abe-3e55-4504-8eec-aa81b0c4240a"
+      Hint: Label
+      Value: Usuario*

@@ -1,0 +1,244 @@
+﻿---
+ID: "0ec79221-deb0-4897-ad64-bd86d10ad459"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/9 Reasons you need an emergency fund
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{955E7C72-7128-49D0-BCC6-3B5582F750C7}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "The question is whether you’ve acted on that advice. About one-third of Americans haven’t and, as a result, don’t have sufficient savings to pay for unexpected expenses, according to a survey by the Consumer Federation of America and American Savings Education Council."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215806Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="6 Reasons Why You (Probably) Need a Financial Advisor" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3A1CCC1A-C50F-4451-A73A-B6834E935419}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: by the Editors of Kiplinger’s Personal Finance magazine
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 9 Reasons You Need an Emergency Fund
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>You could be hit by any of these unexpected expenses, so make sure you have the money to pay for them.</p>
+        <p>Surely you&rsquo;ve heard it before: You need an emergency fund.</p>
+        <p>The question is whether you&rsquo;ve acted on that advice. About one-third of Americans haven&rsquo;t and, as a result, don&rsquo;t have sufficient savings to pay for unexpected expenses, according to a survey by the Consumer Federation of America and American Savings Education Council.</p>
+        <p>If you don&rsquo;t have an emergency fund and are hit by any of the unforeseen events listed below, you&rsquo;ll be forced to rely on credit cards, take out a loan or tap your retirement account. This could leave you drowning in debt or without enough money to fund your retirement.</p>
+        <p>So consider these nine reasons why you should start building an emergency fund, then learn strategies to stash enough cash to pay for these unexpected expenses.</p>
+        <p><strong>Job loss.</strong> This is usually listed as the primary reason you need an emergency fund&mdash;and for good reason. You have to have a stash of cash to pay for things if you&rsquo;re no longer receiving a regular paycheck. The old rule of thumb called for enough savings to cover three to six months&rsquo; worth of expenses. But with the average length of unemployment lasting about 40 weeks, you&rsquo;ll probably want to build a bigger reserve.</p>
+        <p><strong>Major health expense.</strong> A trip to the emergency room could create a serious financial strain for you if you don&rsquo;t have health insurance. Even if you do have coverage and have to get surgery, for example, you&rsquo;ll still have to shell out money to cover your policy&rsquo;s deductible and co-payments. You&rsquo;re probably thinking, &ldquo;Isn&rsquo;t that what a flexible spending account is for&mdash;to cover out-of-pocket medical expenses?&rdquo; But if you&rsquo;re healthy and don&rsquo;t usually have major medical expenses, you probably didn&rsquo;t set aside enough to cover all the expenses you may incur. For example, when my husband had surgery last summer, he used all the funds in his FSA and paid $2,000 out-of-pocket.</p>
+        <p><strong>Major dental expense.</strong> Shortly after I graduated from college, I had to have two impacted wisdom teeth surgically removed. I didn&rsquo;t have dental coverage, and I didn&rsquo;t have enough cash to cover the procedure. Luckily, my parents were kind enough to give me the money. But not everyone can count on the Bank of Mom and Dad&mdash;nor should they.</p>
+        <p><strong>Emergency pet care.</strong> You may be able to accommodate the regular expenses of owning a pet. But would you be prepared to shell out thousands of dollars if your cat or dog needed surgery? Kiplinger.com Managing Editor Robert Long spent $13,000 to pay for two medical emergencies his dog had last year. He got back more than $4,000 from a pet insurance policy, but that still left him with about $9,000 in out-of-pocket expenses that he paid for with money in an emergency fund.</p>
+        <p><strong>Car repairs.</strong> If you&rsquo;re thinking, &ldquo;I&rsquo;d just use my credit card for repairs if my car broke down,&rdquo; then consider this story. While in college, a friend gave me a ride home during a school break, and his car broke down while we were driving across southwestern Virginia. It was a small town with only one mechanic&mdash;who didn&rsquo;t take credit cards. My friend used his debit card to empty out his account, but it wasn&rsquo;t enough to cover the bill. So he had to leave his hunting bow as collateral until he came back with more cash on his return trip to our university.</p>
+        <p><strong>Home repairs.</strong> You have insurance to cover the major expenses. But if you have a high deductible, could you come up with the cash to cover it? Plus, insurance doesn&rsquo;t cover everything that could possibly go wrong&mdash;and require you to shell out big bucks&mdash;when you own a home. For example, my husband and I had to pay $5,000 recently to rebuild a deteriorating balcony on our home&mdash;an expense not covered by insurance.</p>
+        <p><strong>Bigger-than-expected tax bill.</strong> This was the unexpected expense that prompted me to create an emergency fund. Several years ago, I had a surprise tax bill. I received a refund the previous year, so I didn&rsquo;t expect to owe the IRS&mdash;especially not close to $3,000. Plus, my husband and I had been paying down high-interest debt. That left our account balance pretty low at the time our accountant finished our tax returns&mdash;only one week before the filing deadline. To top it off, I had a quarterly estimated tax payment due at the same time. So I wiped out my account to pay Uncle Sam and relied on birthday cash from my mom to buy groceries until my next paycheck arrived. It was a terrible feeling being broke&mdash;even if it was just for a few days.</p>
+        <p><strong>Unanticipated travel.</strong> A death in the family could force you to purchase a last-minute plane ticket at an exorbitant price to get to the funeral. You don&rsquo;t want this big expense lingering on your credit card bill, racking up interest. But you wouldn&rsquo;t have to worry about it if you had enough cash in an emergency fund to pay your bill quickly.</p>
+        <p><strong>Funeral costs.</strong> Many funerals cost more than $10,000. If your loved one had life insurance, the benefits you receive could cover the cost, but it could be months before you actually get the money. So you need a source of cash to start making payments in the meantime.</p>
+        <p>Content provided by:<br />
+        <img height="21" alt="Kiplinger" width="59" src="-/media/b82e9006dcc84f009bcb243710c0a7ab.ashx" /></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 9 Reasons You Need an Emergency Fund
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{955E7C72-7128-49D0-BCC6-3B5582F750C7}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "The question is whether you’ve acted on that advice. About one-third of Americans haven’t and, as a result, don’t have sufficient savings to pay for unexpected expenses, according to a survey by the Consumer Federation of America and American Savings Education Council."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T184200Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: 6 Reasons Why You (Probably) Need a Financial Advisor
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: 
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T184200Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="6 Reasons Why You (Probably) Need a Financial Advisor" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{3A1CCC1A-C50F-4451-A73A-B6834E935419}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: by the Editors of Kiplinger’s Personal Finance magazine
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: 9 Reasons You Need an Emergency Fund
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>You could be hit by any of these unexpected expenses, so make sure you have the money to pay for them.</p>
+        <p>Surely you&rsquo;ve heard it before: You need an emergency fund.</p>
+        <p>The question is whether you&rsquo;ve acted on that advice. About one-third of Americans haven&rsquo;t and, as a result, don&rsquo;t have sufficient savings to pay for unexpected expenses, according to a survey by the Consumer Federation of America and American Savings Education Council.</p>
+        <p>If you don&rsquo;t have an emergency fund and are hit by any of the unforeseen events listed below, you&rsquo;ll be forced to rely on credit cards, take out a loan or tap your retirement account. This could leave you drowning in debt or without enough money to fund your retirement.</p>
+        <p>So consider these nine reasons why you should start building an emergency fund, then learn strategies to stash enough cash to pay for these unexpected expenses.</p>
+        <p><strong>Job loss.</strong> This is usually listed as the primary reason you need an emergency fund&mdash;and for good reason. You have to have a stash of cash to pay for things if you&rsquo;re no longer receiving a regular paycheck. The old rule of thumb called for enough savings to cover three to six months&rsquo; worth of expenses. But with the average length of unemployment lasting about 40 weeks, you&rsquo;ll probably want to build a bigger reserve.</p>
+        <p><strong>Major health expense.</strong> A trip to the emergency room could create a serious financial strain for you if you don&rsquo;t have health insurance. Even if you do have coverage and have to get surgery, for example, you&rsquo;ll still have to shell out money to cover your policy&rsquo;s deductible and co-payments. You&rsquo;re probably thinking, &ldquo;Isn&rsquo;t that what a flexible spending account is for&mdash;to cover out-of-pocket medical expenses?&rdquo; But if you&rsquo;re healthy and don&rsquo;t usually have major medical expenses, you probably didn&rsquo;t set aside enough to cover all the expenses you may incur. For example, when my husband had surgery last summer, he used all the funds in his FSA and paid $2,000 out-of-pocket.</p>
+        <p><strong>Major dental expense.</strong> Shortly after I graduated from college, I had to have two impacted wisdom teeth surgically removed. I didn&rsquo;t have dental coverage, and I didn&rsquo;t have enough cash to cover the procedure. Luckily, my parents were kind enough to give me the money. But not everyone can count on the Bank of Mom and Dad&mdash;nor should they.</p>
+        <p><strong>Emergency pet care.</strong> You may be able to accommodate the regular expenses of owning a pet. But would you be prepared to shell out thousands of dollars if your cat or dog needed surgery? Kiplinger.com Managing Editor Robert Long spent $13,000 to pay for two medical emergencies his dog had last year. He got back more than $4,000 from a pet insurance policy, but that still left him with about $9,000 in out-of-pocket expenses that he paid for with money in an emergency fund.</p>
+        <p><strong>Car repairs.</strong> If you&rsquo;re thinking, &ldquo;I&rsquo;d just use my credit card for repairs if my car broke down,&rdquo; then consider this story. While in college, a friend gave me a ride home during a school break, and his car broke down while we were driving across southwestern Virginia. It was a small town with only one mechanic&mdash;who didn&rsquo;t take credit cards. My friend used his debit card to empty out his account, but it wasn&rsquo;t enough to cover the bill. So he had to leave his hunting bow as collateral until he came back with more cash on his return trip to our university.</p>
+        <p><strong>Home repairs.</strong> You have insurance to cover the major expenses. But if you have a high deductible, could you come up with the cash to cover it? Plus, insurance doesn&rsquo;t cover everything that could possibly go wrong&mdash;and require you to shell out big bucks&mdash;when you own a home. For example, my husband and I had to pay $5,000 recently to rebuild a deteriorating balcony on our home&mdash;an expense not covered by insurance.</p>
+        <p><strong>Bigger-than-expected tax bill.</strong> This was the unexpected expense that prompted me to create an emergency fund. Several years ago, I had a surprise tax bill. I received a refund the previous year, so I didn&rsquo;t expect to owe the IRS&mdash;especially not close to $3,000. Plus, my husband and I had been paying down high-interest debt. That left our account balance pretty low at the time our accountant finished our tax returns&mdash;only one week before the filing deadline. To top it off, I had a quarterly estimated tax payment due at the same time. So I wiped out my account to pay Uncle Sam and relied on birthday cash from my mom to buy groceries until my next paycheck arrived. It was a terrible feeling being broke&mdash;even if it was just for a few days.</p>
+        <p><strong>Unanticipated travel.</strong> A death in the family could force you to purchase a last-minute plane ticket at an exorbitant price to get to the funeral. You don&rsquo;t want this big expense lingering on your credit card bill, racking up interest. But you wouldn&rsquo;t have to worry about it if you had enough cash in an emergency fund to pay your bill quickly.</p>
+        <p><strong>Funeral costs.</strong> Many funerals cost more than $10,000. If your loved one had life insurance, the benefits you receive could cover the cost, but it could be months before you actually get the money. So you need a source of cash to start making payments in the meantime.</p>
+        <p>Content provided by:<br />
+        <img height="21" alt="Kiplinger" width="59" src="-/media/b82e9006dcc84f009bcb243710c0a7ab.ashx" /></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 9 Reasons You Need an Emergency Fund
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{85E847E7-FA88-4920-8A68-C2DB311D0D33}"
+              p:after="r[@uid='{5A4C504B-48D4-4E36-A498-976ADBB93875}']"
+              s:ds="{149327BD-0A94-4C92-9743-BE3422B0D35B}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: |
+        ¿Tienes bajo control tus finanzas para hoy, mañana y el resto de tu vida? Nosotros tampoco. Pero sabemos quién puede ayudarte: un asesor financiero.
+        Los asesores financieros son profesionales calificados que analizan tu salud financiera, identifican posibles brechas y proporcionan las herramientas para ayudarte a tomar decisiones que te permitan alcanzar tus objetivos financieros de corto, mediano y largo plazo. Mientras que puedes sentirte seguro sobre cómo administrar el dinero por tu cuenta, un asesor puede brindarte una mirada objetiva sobre un tema a menudo emocionalmente complejo. Así como podrías llamar a abogados, doctores o mecánicos de automóvil por su educación y experiencia, un asesor financiero tiene las habilidades para ayudarte a sacar el máximo partido de tu vida financiera.
+        A continuación te presentamos seis escenarios que podrían ser la causa para llamar a un profesional...
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180402T215509Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{3A1CCC1A-C50F-4451-A73A-B6834E935419}" alt="Seis razones por las que (probablemente) necesitas un asesor financiero" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: de los editores de la revista Kiplinger's Personal Finance
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Seis razones por las que (probablemente) necesitas un asesor financiero
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Algunos de estos gastos inesperados podr&iacute;an sorprenderlo, as&iacute; que aseg&uacute;rese de tener el dinero para cancelarlos.</p>
+        <p>Seguro se lo han dicho antes: necesita un fondo de emergencia.</p>
+        <p>La cuesti&oacute;n es si tom&oacute; medidas con respecto a ese consejo. Seg&uacute;n una encuesta de la Federaci&oacute;n de Consumidores de los Estados Unidos y el Consejo Educativo Americano del Ahorro, alrededor de un tercio de estadounidenses no tom&oacute; ninguna medida y, como consecuencia, no cuenta con ahorros suficientes para cubrir gastos inesperados.</p>
+        <p>Si no cuenta con un fondo de emergencia y lo sorprende alguno de los siguientes incidentes imprevistos, se ver&aacute; obligado a depender de las tarjetas de cr&eacute;dito, solicitar un pr&eacute;stamo o acceder a su cuenta de jubilaci&oacute;n. Si eso ocurre, tendr&aacute; demasiadas deudas o poco dinero para financiar su jubilaci&oacute;n.</p>
+        <p>Por lo tanto, tenga en cuenta estas nueve razones por las que debe comenzar a crear un fondo de emergencia y luego aprender estrategias para ahorrar suficiente dinero en efectivo a fin de cancelar estos gastos inesperados.</p>
+        <p><strong>P&eacute;rdida de trabajo.</strong> Esta suele ser la raz&oacute;n principal por la que necesita un fondo de emergencia, y lo es por una buena raz&oacute;n. Si ya no recibe un salario regular, tiene que contar con un poco de dinero extra para cubrir gastos. La antigua regla de oro exig&iacute;a ahorros suficientes para cubrir los gastos de tres a seis meses. Sin embargo, es probable que quiera crear una reserva mayor ya que la duraci&oacute;n promedio de desempleo es de alrededor de 40 semanas.</p>
+        <p><strong>Importantes gastos de atenci&oacute;n m&eacute;dica.</strong> Si no tiene seguro m&eacute;dico, una visita a la sala de emergencia puede ocasionarle una grave tensi&oacute;n financiera. Incluso si tiene cobertura pero debe someterse a una cirug&iacute;a, por ejemplo, necesitar&aacute; cubrir los deducibles y copagos de su p&oacute;liza. Probablemente piense: "&iquest;No es que la cuenta de gastos flexibles sirve para cubrir gastos m&eacute;dicos de bolsillo?" Sin embargo, si goza de buena salud y no suele tener importantes gastos m&eacute;dicos, quiz&aacute;s no haya reservado lo suficiente para cubrir todos los gastos en los que pudiera incurrir. Por ejemplo, mi marido se someti&oacute; a una cirug&iacute;a el verano pasado y utiliz&oacute; todos los fondos de su FSA, adem&aacute;s de pagar $2,000 de bolsillo.</p>
+        <p><strong>Importantes gastos odontol&oacute;gicos.</strong> Al poco tiempo de que me gradu&eacute; de la universidad, tuve que someterme a una cirug&iacute;a de extracci&oacute;n de dos muelas de juicio impactadas. No contaba con cobertura odontol&oacute;gica ni ten&iacute;a suficiente dinero para cubrir el procedimiento. Afortunadamente, mis padres tuvieron la gentileza de darme el dinero. Sin embargo, no todos pueden contar con los fondos de mam&aacute; y pap&aacute;, ni deber&iacute;an hacerlo.</p>
+        <p><strong>Atenci&oacute;n de emergencia para mascotas.</strong>Es posible que pueda ajustarse a los gastos regulares que implica tener una mascota. Sin embargo, &iquest;estar&iacute;a dispuesto a pagar miles de d&oacute;lares si su gato o perro necesitara una cirug&iacute;a? El a&ntilde;o pasado, Robert Long, editor gerente de Kiplinger.com, gast&oacute; $13,000 para pagar atenci&oacute;n m&eacute;dica de emergencia para su perro en dos ocasiones. Recuper&oacute; m&aacute;s de $4,000 a trav&eacute;s de una p&oacute;liza de seguro para mascotas, pero aun as&iacute; ten&iacute;a $9,000 gastos de bolsillo que pag&oacute; con dinero de un fondo de emergencia.</p>
+        <p><strong>Reparaciones de autom&oacute;vil.</strong> Si es de los que piensan: "Solo usar&iacute;a mi tarjeta de cr&eacute;dito para reparar mi auto si dejara de funcionar", entonces tenga en cuenta esta historia. Cuando asist&iacute;a a la universidad, un amigo me llev&oacute; a casa durante un receso escolar. Mientras manej&aacute;bamos por el suroeste de Virginia, su auto dej&oacute; de funcionar. Se trataba de un peque&ntilde;o pueblo en el que solo hab&iacute;a un mec&aacute;nico, que no aceptaba tarjetas de cr&eacute;dito. Mi amigo utiliz&oacute; su tarjeta de d&eacute;bito para extraer todo el dinero de su cuenta, pero no fue suficiente para cubrir la cuenta. Por lo tanto, tuvo que dejar su arco de caza como garant&iacute;a hasta que volviera con m&aacute;s dinero en el camino de regreso a nuestra universidad.</p>
+        <p><strong>Reparaciones en el hogar.</strong> Cuenta con el seguro para cubrir los gastos importantes. Sin embargo, si tiene un deducible alto, &iquest;puede conseguir el dinero para cubrirlo? Adem&aacute;s, el seguro no cubre todos los da&ntilde;os que podr&iacute;an producirse cuando posee un hogar, por lo que deber&iacute;a pagar grandes sumas de dinero. Por ejemplo, hace poco, mi marido y yo pagamos $5,000 para reconstruir un balc&oacute;n deteriorado en nuestro hogar, un gasto que no cubre el seguro</p>
+        <p><strong>Liquidaci&oacute;n de impuestos m&aacute;s alta de lo esperado.</strong> Este fue el gasto inesperado que me llev&oacute; a crear un fondo de emergencia. Hace varios a&ntilde;os, me lleg&oacute; una factura de impuestos de sorpresa. Recib&iacute; un reembolso el a&ntilde;o anterior, as&iacute; que no esperada deberle al Servicio de Impuestos Internos (Internal Revenue Service, IRS), mucho menos trat&aacute;ndose de casi $3,000. Adem&aacute;s, mi marido y yo hab&iacute;amos estado cancelando una deuda con intereses elevados. Esa fue la raz&oacute;n por la que se redujo bastante nuestro saldo de cuenta en el momento en que nuestro contador finalizaba nuestras declaraciones de impuestos, justo una semana antes de la fecha l&iacute;mite de presentaci&oacute;n. Como si fuera poco, al mismo tiempo ten&iacute;a que cancelar un pago de impuestos estimado trimestral. Por lo tanto, saqu&eacute; todo el dinero de mi cuenta para pagarle al T&iacute;o Sam y recurr&iacute; al dinero de cumplea&ntilde;os que me dio mi mam&aacute; para comprar alimentos hasta recibir mi pr&oacute;ximo salario. Fue horrible estar en bancarrota, aunque haya sido por unos pocos d&iacute;as.</p>
+        <p><strong>Viaje imprevisto.</strong> La muerte de un familiar puede obligarlo a comprar un boleto de avi&oacute;n de &uacute;ltimo minuto a un precio exorbitante para llegar al funeral. No quiere pagar este gasto considerable con su tarjeta de cr&eacute;dito y acumular intereses. Sin embargo, no tendr&iacute;a que preocuparse si tuviera suficiente dinero en efectivo en un fondo de emergencia para cancelar su cuenta con mayor rapidez.</p>
+        <p><strong>Gastos funerarios.</strong> Muchos gastos funerarios superan los $10,000. Si su ser querido contaba con seguro de vida, los beneficios que recibe pueden cubrir el costo, pero pueden pasar meses hasta que realmente obtenga el dinero. Por lo tanto, necesita una fuente de ingreso en efectivo para comenzar a hacer pagos mientras tanto.</p>
+        <p>Contenido ofrecido por:<br />
+        <img height="21" alt="Kiplinger" width="59" src="-/media/b82e9006dcc84f009bcb243710c0a7ab.ashx" /></p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: 9 Razones Por Las Que Necesita Un Fondo De Emergencia

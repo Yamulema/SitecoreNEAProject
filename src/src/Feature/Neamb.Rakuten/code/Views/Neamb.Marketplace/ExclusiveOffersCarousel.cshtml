@@ -1,0 +1,59 @@
+﻿@using Neambc.Neamb.Feature.Rakuten.Model
+@using System.Linq
+@using Sitecore.StringExtensions
+@model Neambc.Neamb.Feature.Rakuten.Model.ExclusiveOffersCarousel
+
+@if (Model.Cards.Any())
+{
+<section id="exclusive-offers">
+    <section class='section-xl bg-gray slider-section mktp'>
+        <div class="container">
+            <h6>@Model.Headline</h6>
+            <section class="mkp-slider slider content-carousel">
+                @foreach (ExclusiveOfferCard item in Model.Cards)
+                {
+                    <div class="card hot-deal" data-store-link="@item.Offer.ShoppingUrl">
+                        <span class="hidden">@item.Offer.Name</span>
+
+                        <section class='section-sm trend offer-headline' style="background-color: @item.BackgroundColor">
+                            <h3 class='text-white'>@item.Headline</h3>
+                        </section>
+                        <section class='section-sm'>
+                            <img class="img-fluid" src="@item.Offer.SmallLogo" alt="">
+                        </section>
+                        <section class='mid'>
+                            <a data-store-guid="@item.Offer.Id" class="btn @item.Offer.BtnClass">@item.Offer.CardText</a>
+                            <p class="cashback-label p-t-xs @(item.Offer.Tier ? "tier-padding" : "")">
+                                @if (item.Offer.TotalReward.IsNullOrEmpty())
+                                {
+                                    <text>&nbsp;</text>
+                                }
+                                else
+                                {
+                                    @item.Offer.TotalReward
+                                }
+                            </p>
+                        </section>
+                        <section class='bottom'>
+                            <p>
+                                <small>
+                                    @{
+                                        if (item.Offer.BaseReward.IsNullOrEmpty())
+                                        {
+                                            <text>&nbsp;</text>
+                                        }
+                                        else
+                                        {
+                                            @Html.Raw(item.Offer.BaseReward)
+                                        }
+                                    }
+                                </small>
+                            </p>
+                        </section>
+                    </div>
+                }
+            </section>
+        </div>
+    </section>
+</section>
+}

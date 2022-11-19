@@ -1,0 +1,50 @@
+﻿@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Neambc.Neamb.Feature.Cards.Models.TabbedHeroDto
+
+<section class="c-004">
+	<div class="container-fluid">
+		<div id="tabbedHero" data-ride="carousel" data-interval="@Model.Timer" class="carousel slide">
+			<div class="row">
+				<div class="carousel-inner">
+					@for (var i = 0; i < Model.TabbedItems.Count(); i++)
+					{
+						<div style="background-image: url('@Model.TabbedItems[i].ImageSrc')" class="item @(i == 0 ? "active" : string.Empty)" loading="lazy">
+							<a href="@Model.TabbedItems[i].Cta" target="@Model.TabbedItems[i].Target" title="@Model.TabbedItems[i].Text">
+								<div class="carousel-image">
+
+									<img src="@Model.TabbedItems[i].ImageSrc" alt="@Model.TabbedItems[i].ImageAlt" class="img-fit" />
+
+								</div>
+								<div class="carousel-caption">
+									<p><span> @Html.Raw(@Model.TabbedItems[i].Text)</span></p>
+								</div>
+							</a>
+						</div>
+					}
+				</div>
+			</div>
+			<div class="carousel-nav banner-float">
+				<div class="banner-pills">
+					<ul class="nav nav-pills nav-stacked">
+
+						@for (var i = 0; i < Model.TabbedItems.Count(); i++)
+						{
+							<li data-target="#tabbedHero" data-slide-to="@i" class="@(i == 0 ? "active" : string.Empty)">
+								<a href="@Model.TabbedItems[i].Cta" target="@Model.TabbedItems[i].Target" @Html.Raw(Model.TabbedItems[i].GtmAction)><span>@Html.Raw(Model.TabbedItems[i].Text)</span></a>
+							</li>
+						}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<ol class="carousel-indicators">
+			@for (var i = 0; i < Model.TabbedItems.Count(); i++)
+			{
+				<li data-target="#tabbedHero" data-slide-to="@i" class="@(i == 0 ? "active" : string.Empty)"></li>
+			}
+		</ol>
+	</div>
+</section>

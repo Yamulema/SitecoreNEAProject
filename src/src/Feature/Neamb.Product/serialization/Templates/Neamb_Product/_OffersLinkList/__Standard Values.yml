@@ -1,0 +1,29 @@
+﻿---
+ID: "87d38811-a1db-41cf-a233-d05c1865ca9c"
+Parent: "9ab2b0e7-3bd7-4537-92a5-8e7f76351fd4"
+Template: "9ab2b0e7-3bd7-4537-92a5-8e7f76351fd4"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_OffersLinkList/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181015T211639Z
+    - ID: "3e248098-a560-4431-9f53-16cbaaaac4f1"
+      Hint: Logo
+      Value: |
+        <image mediapath="" alt="neamb insurance trust" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{2ABF899D-D677-49C0-927E-7B268C018035}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c4114479-2f5b-4ce0-97d6-0d4188729132"
+      Hint: Headline
+      Value: "Get access to these accounts provided in partnership with the NEA Members Insurance Trust:"
+    - ID: "e1b48def-7c54-447e-8b71-8038a04e823e"
+      Hint: LoginButton
+      Value: |
+        <link text="Login in to Access Account" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />

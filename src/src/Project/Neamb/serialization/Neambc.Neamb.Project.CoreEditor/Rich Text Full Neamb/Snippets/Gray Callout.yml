@@ -1,0 +1,30 @@
+﻿---
+ID: "67d65cb7-08bd-464f-8000-0cfb49713b1a"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Gray Callout
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <div class="col-md-12 bg-gray">
+    <div class="logo-panel">                              <img alt="" class="img-responsive" src="/assets/neamb/images/partner-logo.png" />
+    <h2 class="header no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit risus ut ex ultrices consequat</h2>
+    </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T212946Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Gray Callout

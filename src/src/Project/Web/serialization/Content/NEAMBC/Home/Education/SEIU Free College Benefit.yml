@@ -1,0 +1,2586 @@
+﻿---
+ID: "e7c482b1-95e7-4084-a1e4-4717c9ab1de3"
+Parent: "10fc3269-da0b-4202-abe4-de3aae36eca0"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Education/SEIU Free College Benefit
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F3D59E14-1D3F-49CF-939D-FB5B0955EFBB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171222T204753Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p><strong>Important Information</strong></p>
+        
+        <p><sup>1</sup> Eligible SEIU members are members in good standing who are full dues paying members, and their families, including spouses, domestic partners, children, grandchildren, and financial dependents. The program is also open to retirees and their families.</p>
+        
+        <p><sup>2</sup> Certificate program only.</p>
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Call 1-855-469-SEIU (7348) with questions or to contact an advisor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU Free College Benefit
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>EARN YOUR COLLEGE ASSOCIATE DEGREE OR CERTIFICATE ONLINE <u>FOR FREE!</u></strong></p>
+        
+        <p>With the SEIU Free College Benefit, eligible SEIU members<sup>1</sup> and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books. A new partnership with Eastern Gateway Community College, part of the University System of Ohio and regionally accredited by the Higher Learning Commission, offers grants that fill the gap between any Federal, state, or employer education grants the student receives and the cost of tuition, fees, and e-books for certain online programs:</p>
+        
+        <ul>
+        	<li><strong>Associate Degree:</strong> Accounting, Business Management, Criminal Justice, Early Childhood Education, Individualized Study, Paralegal</li>
+        	<li><strong>Certificate: </strong>Business Management, Patient Home Navigator<sup>2</sup></li>
+        </ul>
+        
+        <p>First launched with AFSCME in 2015, thousands of students have already taken advantage of millions of dollars in scholarships and we are proud to bring this benefit to SEIU members. To enroll in one of these Eastern Gateway Community College online programs and receive the SEIU Free College Benefit, SEIU members (or their family members) must complete the following steps:</p>
+        
+        <ol>
+        	<li>Register or sign in to apply above.</li>
+        	<li>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges.</li>
+        	<li>Agree to use any employer-provided educational assistance.</li>
+        	<li>Verify High School or GED completion by having official transcripts sent to Eastern Gateway Community College.</li>
+        </ol>
+        
+        <p>Have any questions? We’re here to help. See our <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or to contact an advisor toll-free, sign in and call the phone number above.</p>
+        
+        <p>Your college degree is now within reach. Apply today!</p>
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F3D59E14-1D3F-49CF-939D-FB5B0955EFBB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181219T220944Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p><strong>Important Information</strong></p>
+        
+        <p><sup>1</sup> Eligible SEIU members are members in good standing who are full dues paying members, and their families, including spouses, domestic partners, children, grandchildren, and financial dependents. The program is also open to retirees and their families.</p>
+        
+        <p><sup>2</sup> Certificate program only.</p>
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Call 1-855-469-SEIU (7348) with questions or to contact an advisor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU Free College Benefit
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>EARN YOUR COLLEGE ASSOCIATE DEGREE OR CERTIFICATE ONLINE <span style="text-decoration: underline;">FOR FREE!</span></strong></p>
+        <p>With the SEIU Free College Benefit, eligible SEIU members<sup>1</sup> and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books. A new partnership with Eastern Gateway Community College, part of the University System of Ohio and regionally accredited by the Higher Learning Commission, offers grants that fill the gap between any Federal, state, or employer education grants the student receives and the cost of tuition, fees, and e-books for certain online programs:</p>
+        <ul>
+            <li><strong>Associate Degree:</strong> Accounting, Business Management (degree focus: Advertising, Cyber Security, Data Science, Digital and Social Media, Entrepreneurship, Finance, General Management, Healthcare Management, Hospitality, Human Resources, Information Systems, Labor Studies, Programming and Development), Criminal Justice, Early Childhood Education, Individualized Study, Paralegal</li>
+            <li><strong>Certificate: </strong>Business Management, Patient Home Navigator<sup>2</sup></li>
+        </ul>
+        <p>First launched with AFSCME in 2015, thousands of students have already taken advantage of millions of dollars in scholarships and we are proud to bring this benefit to SEIU members. To enroll in one of these Eastern Gateway Community College online programs and receive the SEIU Free College Benefit, SEIU members (or their family members) must complete the following steps:</p>
+        <ol>
+            <li>Register or sign in to apply above.</li>
+            <li>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges.</li>
+            <li>Agree to use any employer-provided educational assistance.</li>
+            <li>Verify High School or GED completion by having official transcripts sent to Eastern Gateway Community College.</li>
+        </ol>
+        <p>Have any questions? We&rsquo;re here to help. See our <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or to contact an advisor toll-free, sign in and call the phone number above.</p>
+        <p>Your college degree is now within reach. Apply today!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181219T220900Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0F6AF93F-EBF3-4DC7-87E4-7980CCA48C16}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F3D59E14-1D3F-49CF-939D-FB5B0955EFBB}" alt="SEIU Member Benefits in partnership with Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190304T175351Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>Important Information</strong></p>
+        <p><sup>1</sup> Eligible SEIU members are members in good standing who are full dues paying members, and their families, including spouses, domestic partners, children, parents, siblings, grandchildren, and financial dependents. The program is also open to retirees and their families.</p>
+        <p><sup>2</sup> Certificate program only.</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Call 1-855-469-SEIU (7348) with questions or to contact an advisor."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Free College Benefit
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>EARN YOUR COLLEGE ASSOCIATE DEGREE OR CERTIFICATE ONLINE <span style="text-decoration: underline;">FOR FREE!</span></strong></p>
+        <p>With the SEIU Free College Benefit, eligible SEIU members<sup>1</sup> and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books. A new partnership with Eastern Gateway Community College, part of the University System of Ohio and regionally accredited by the Higher Learning Commission, offers grants that fill the gap between any Federal, state, or employer education grants the student receives and the cost of tuition, fees, and e-books for certain online programs:</p>
+        <ul>
+            <li><strong>Associate Degree:</strong> Accounting, Business Management (degree focus: Advertising, Cyber Security, Data Science, Digital and Social Media, Entrepreneurship, Finance, General Management, Healthcare Management, Hospitality, Human Resources, Information Systems, Labor Studies, Programming and Development), Criminal Justice, Teacher Education, Individualized Study, Paralegal</li>
+            <li><strong>Certificate: </strong>Patient Home Navigator<sup>2</sup></li>
+        </ul>
+        <p>First launched with AFSCME in 2015, thousands of students have already taken advantage of millions of dollars in scholarships and we are proud to bring this benefit to SEIU members. To enroll in one of these Eastern Gateway Community College online programs and receive the SEIU Free College Benefit, SEIU members (or their family members) must complete the following steps:</p>
+        <ol>
+            <li>Register or sign in to apply above.</li>
+            <li>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges.</li>
+            <li>Agree to use any employer-provided educational assistance.</li>
+            <li>Verify High School or GED completion by having official transcripts sent to Eastern Gateway Community College.</li>
+        </ol>
+        <p>Have any questions? We&rsquo;re here to help. See our <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or to contact an advisor toll-free, sign in and call the phone number above.</p>
+        <p>Your college degree is now within reach. Apply today!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190304T175300Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{0F6AF93F-EBF3-4DC7-87E4-7980CCA48C16}"
+              p:after="r[@uid='{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Free College Benefit" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F3D59E14-1D3F-49CF-939D-FB5B0955EFBB}" alt="SEIU Member Benefits in partnership with Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190814T174457Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>This benefit was established in partnership with AFSCME.</strong></p>
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, children, parents, siblings and financial dependents. Retirees and their families are also eligible.</p>
+        <p>2. Eastern Gateway Community College is part of the University System of Ohio and regionally accredited by the Higher Learning Commission.</p>
+        <p>3. Certificate program only.</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "<span>Click to apply or call 1-855-469-SEIU (7348) to talk to an advisor.</span>"
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Free College Benefit
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p><strong>Earn an associate degree or certificate&mdash;for free!</strong></p>
+            </li>
+            <li>
+            <p><strong>Pay nothing for tuition, fees, or e-books</strong></p>
+            </li>
+            <li>
+            <p><strong>Open to eligible SEIU members and their families<sup>1</sup></strong></p>
+            </li>
+            <li>
+            <p><strong>Choose from several online programs offered by Eastern Gateway Community College (EGCC)<sup>2</sup></strong></p>
+            </li>
+            <li>
+            <p><strong>EGCC welcomes anyone with a high school diploma or GED regardless of past academic performance</strong></p>
+            </li>
+        </ul>
+        <p>Your college degree is within reach!</p>
+        <p>Federal, state, and employer grants don&rsquo;t always cover the full cost of earning a degree online. SEIU is proud to partner with Eastern Gateway Community College to help eligible students fill the financial gap and earn a degree or certificate in:</p>
+        <ul>
+            <li>
+            <p><strong>Accounting</strong></p>
+            </li>
+            <li>
+            <p><strong>Business Management (with a focus on Advertising, Cyber Security, Data Science, Digital and Social Media, Entrepreneurship, Finance, General Management, Healthcare Management, Hospitality, Human Resources, Information Systems, Labor Studies, or Programming and Development)</strong></p>
+            </li>
+            <li>
+            <p><strong>Criminal Justice</strong></p>
+            </li>
+            <li>
+            <p><strong>Teacher Education</strong></p>
+            </li>
+            <li>
+            <p><strong>Individualized Study</strong></p>
+            </li>
+            <li>
+            <p><strong>Paralegal</strong></p>
+            </li>
+            <li>
+            <p><strong>Patient Home Navigator<sup>3</sup></strong></p>
+            </li>
+        </ul>
+        <p>Read our&nbsp;<a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or call 1-855-469-SEIU (7348) toll free to talk to an advisor.</p>
+        <p>To enroll in Eastern Gateway Community College and receive your SEIU Free College Benefit:</p>
+        <ol>
+            <li>
+            <p>Register or sign in to your SEIU Member account and click Get Started.</p>
+            </li>
+            <li>
+            <p>Complete the online EGCC application.</p>
+            </li>
+            <li>
+            <p>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges.&nbsp; EGCC&rsquo;s school code is 007275.</p>
+            </li>
+            <li>
+            <p>Verify that you have received a high school diploma or equivalent by having official transcripts sent to EGCC.</p>
+            </li>
+        </ol>
+        <p>That&rsquo;s it! SEIU Free College Benefit covers the difference between any federal, state, or employer education grants you receive and the cost of tuition, fees, and e-books.</p>
+        <p>Eligible SEIU members and family members may also enroll in other online programs at EGCC such as Medical Coding, Health Information Management, IT, Fire Science and more, but students may be required to pay for the strict industry-recognized content for some courses. The Free College scholarship will apply to tuition and fees, saving students thousands of dollars.</p>
+        <p>Take the next step toward your future&mdash;apply now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="SEIU Free College Benefit" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Earn an associate degree or certificate online <em>for free</em>&mdash;pay nothing for tuition, fees, or e-books!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "<span>Earn an associate degree or certificate online <em>for free</em>&mdash;pay nothing for tuition, fees, or e-books!</span>"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190814T174400Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{0F6AF93F-EBF3-4DC7-87E4-7980CCA48C16}"
+              p:after="r[@uid='{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Free College Benefit" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B9F73980-E80F-475F-94C1-E1A4092A58B4}" alt="SEIU Member Benefits in partnership with Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201006T214737Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, children, parents, siblings and financial dependents. Retirees and their families are also eligible.</p>
+        <br />
+        <p>2. Eastern Gateway Community College is part of the University System of Ohio and regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>3. Central State University is part of the University System of Ohio and is regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>4. Certificate program only.</p>
+        <br />
+        <p>5. Students must have an Associate&rsquo;s Degree or more than 60 transferable credits into the program of their choice, with a CGPA of 2.2 or more in order to enroll in the Bachelor&rsquo;s Completion programs. Students needing to earn pre-requisite credits or boost their CGPA can do so through EGCC.</p>
+        <br />
+        <p>6. You will need to submit official college transcripts from every college or university you have attended.  Please do not send unofficial transcripts unless specifically requested. Please send your transcripts via secured electronic delivery to uniontranscripts@centralstate.edu. Send in PDF format with your FIRST and LAST name included in the file name.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "<span>Questions? Call 1-844-836-7348.</span>"
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Free College Benefit
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p><strong>Earn an Associate&rsquo;s degree or certificate&mdash;for free!</strong></p>
+            </li>
+            <li>
+            <p><strong>Complete your Bachelor&rsquo;s Degree&mdash;for free!</strong></p>
+            </li>
+            <li>
+            <p><strong>Pay nothing for tuition, fees, or e-books &ndash; a savings of at least $20,000!</strong></p>
+            </li>
+            <li>
+            <p><strong>Open to eligible SEIU members and their families<sup>1</sup></strong></p>
+            </li>
+            <li>
+            <p><strong>Choose from several online programs offered by Eastern Gateway Community College (EGCC)<sup>2</sup> and Central State University (CSU)<sup>3</sup></strong></p>
+            </li>
+        </ul>
+        <p>Your college degree is within reach!</p>
+        <p>Federal, state, and employer grants don&rsquo;t always cover the full cost of earning a degree online. SEIU is proud to partner with Eastern Gateway Community College and Central State University to help eligible students fill the financial gap.</p>
+        <p><strong>Associate&rsquo;s Degree or Certificate</strong></p>
+        <p>EGCC welcomes anyone with a high school diploma or GED regardless of past academic performance. Associate&rsquo;s degrees or certificates available in:</p>
+        <ul>
+            <li>
+            <p><strong>Accounting</strong></p>
+            </li>
+            <li>
+            <p><strong>Business Management (with certificates in Advertising, Cyber Security, Data Science, Digital and Social Media, Entrepreneurship, Finance, General Management, Healthcare Management, Hospitality, Human Resources, Information Systems, Labor Studies, or Programming and Development)</strong></p>
+            </li>
+            <li>
+            <p><strong>Criminal Justice</strong></p>
+            </li>
+            <li>
+            <p><strong>Teacher Education</strong></p>
+            </li>
+            <li>
+            <p><strong>Individualized Study</strong></p>
+            </li>
+            <li>
+            <p><strong>Paralegal</strong></p>
+            </li>
+            <li>
+            <p><strong>Patient Home Navigator<sup>4</sup></strong></p>
+            </li>
+            <li>
+            <p><strong>Healthcare Administration (Associate of Arts)</strong></p>
+            </li>
+            <li>
+            <p><strong>Paralegal Certificate</strong></p>
+            </li>
+        </ul>
+        <p>Eligible SEIU members and family members may also enroll in other online programs at EGCC such as Medical Coding, Health Information Management, IT, Fire Science and more, but students may be required to pay for the strict industry-recognized content for some courses.</p>
+        <p><strong>Bachelor&rsquo;s Degree</strong></p>
+        <p>Bachelor&rsquo;s degrees<sup>5</sup> available in:</p>
+        <ul>
+            <li>Business Administration</li>
+            <li>Criminal Justice</li>
+            <li>Education &ndash; Early Childhood Education</li>
+            <li>Education &ndash; Intervention Specialist</li>
+        </ul>
+        <p>Read our&nbsp;<a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or call 1-855-469-SEIU (7348) toll free to talk to an advisor.</p>
+        <p>See below to enroll in either the Associate&rsquo;s or Bachelor&rsquo;s degrees or the Certificate program and receive your SEIU Free College Benefit:</p>
+        <ol>
+            <li>
+            <p>Register or sign in to your SEIU Member account and click Get Started.</p>
+            </li>
+            <li>
+            <p>Complete the online CSU or EGCC application.</p>
+            </li>
+            <li>
+            <p>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges. CSU&rsquo;s school code is 003026 and EGCC&rsquo;s school code is 007275.</p>
+            </li>
+            <li>
+            <p>Verify that you have received a high school diploma or equivalent by having official transcripts sent to either CSU<sup>6</sup>or to EGCC.</p>
+            </li>
+        </ol>
+        <p>That&rsquo;s it! The SEIU Free College Benefit covers the difference between any federal, state, or employer education grants you receive and the cost of tuition, fees, and e-books.</p>
+        <p>Take the next step toward your future&mdash;apply now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="SEIU Free College Benefit" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Earn an associate degree or certificate online <em>for free</em>&mdash;pay nothing for tuition, fees, or e-books! And, now offering a Bachelor&rsquo;s Degree Completion Program!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "<span>EARN AN ASSOCIATE&rsquo;S DEGREE, OR CERTIFICATE, OR COMPLETE YOUR BACHELOR&rsquo;S DEGREE ONLINE <em>FOR FREE</em>&mdash;PAY NOTHING FOR TUITION, FEES, OR E-BOOKS!</span>"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201006T214700Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{0F6AF93F-EBF3-4DC7-87E4-7980CCA48C16}"
+              p:after="r[@uid='{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Free College Benefit" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B9F73980-E80F-475F-94C1-E1A4092A58B4}" alt="SEIU Member Benefits in partnership with Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201118T145637Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, children, parents, siblings and financial dependents. Retirees and their families are also eligible.</p>
+        <br />
+        <p>2. Eastern Gateway Community College is part of the University System of Ohio and regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>3. Central State University is part of the University System of Ohio and is regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>4. Certificate program only.</p>
+        <br />
+        <p>5. Students must have an Associate&rsquo;s Degree or more than 60 transferable credits into the program of their choice, with a CGPA of 2.2 or more in order to enroll in the Bachelor&rsquo;s Completion programs. Students needing to earn pre-requisite credits or boost their CGPA can do so through EGCC.</p>
+        <br />
+        <p>6. You will need to submit official college transcripts from every college or university you have attended.  Please do not send unofficial transcripts unless specifically requested. Please send your transcripts via secured electronic delivery to uniontranscripts@centralstate.edu. Send in PDF format with your FIRST and LAST name included in the file name.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "<span>Questions? Call 1-844-836-7348.</span>"
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Free College Benefit
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Earn an Associate&rsquo;s degree or certificate&mdash;for free!</p>
+            </li>
+            <li>
+            <p>Complete your Bachelor&rsquo;s Degree&mdash;for free!</p>
+            </li>
+            <li>
+            <p>Pay nothing for tuition, fees, or e-books &ndash; a savings of at least $20,000!</p>
+            </li>
+            <li>
+            <p>Open to eligible SEIU members and their families<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Choose from several online programs offered by Eastern Gateway Community College (EGCC)<sup>2</sup> and Central State University (CSU)<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Your college degree is within reach!</p>
+        <p>Federal, state, and employer grants don&rsquo;t always cover the full cost of earning a degree online. SEIU is proud to partner with Eastern Gateway Community College and Central State University to help eligible students fill the financial gap.</p>
+        <p><strong>Associate&rsquo;s Degree or Certificate</strong></p>
+        <p>EGCC welcomes anyone with a high school diploma or GED regardless of past academic performance. Associate&rsquo;s degrees or certificates available in:</p>
+        <ul>
+            <li>
+            <p>Accounting</p>
+            </li>
+            <li>
+            <p>Business Management (with certificates in Advertising, Cyber Security, Data Science, Digital and Social Media, Entrepreneurship, Finance, General Management, Healthcare Management, Hospitality, Human Resources, Information Systems, Labor Studies, or Programming and Development)</p>
+            </li>
+            <li>
+            <p>Criminal Justice</p>
+            </li>
+            <li>
+            <p>Teacher Education</p>
+            </li>
+            <li>
+            <p>Individualized Study</p>
+            </li>
+            <li>
+            <p>Paralegal</p>
+            </li>
+            <li>
+            <p>Patient Home Navigator<sup>4</sup></p>
+            </li>
+            <li>
+            <p>Healthcare Administration (Associate of Arts)</p>
+            </li>
+            <li>
+            <p>Healthcare Services</p>
+            </li>
+            <li>
+            <p>Paralegal Certificate</p>
+            </li>
+        </ul>
+        <p>Eligible SEIU members and family members may also enroll in other online programs at EGCC such as Medical Coding, Health Information Management, IT, Fire Science and more, but students may be required to pay for the strict industry-recognized content for some courses.</p>
+        <p><strong>Bachelor&rsquo;s Degree</strong></p>
+        <p>Bachelor&rsquo;s degrees<sup>5</sup> available in:</p>
+        <ul>
+            <li>Business Administration</li>
+            <li>Criminal Justice</li>
+            <li>Education &ndash; Early Childhood Education</li>
+            <li>Education &ndash; Intervention Specialist</li>
+        </ul>
+        <p>Read our&nbsp;<a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or call 1-855-469-SEIU (7348) toll free to talk to an advisor.</p>
+        <p>See below to enroll in either the Associate&rsquo;s or Bachelor&rsquo;s degrees or the Certificate program and receive your SEIU Free College Benefit:</p>
+        <ol>
+            <li>
+            <p>Register or sign in to your SEIU Member account and click Get Started.</p>
+            </li>
+            <li>
+            <p>Complete the online CSU or EGCC application.</p>
+            </li>
+            <li>
+            <p>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges. CSU&rsquo;s school code is 003026 and EGCC&rsquo;s school code is 007275.</p>
+            </li>
+            <li>
+            <p>Verify that you have received a high school diploma or equivalent by having official transcripts sent to either CSU<sup>6</sup>or to EGCC.</p>
+            </li>
+        </ol>
+        <p>That&rsquo;s it! The SEIU Free College Benefit covers the difference between any federal, state, or employer education grants you receive and the cost of tuition, fees, and e-books.</p>
+        <p>Take the next step toward your future&mdash;apply now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="SEIU Free College Benefit" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Earn an associate degree or certificate online <em>for free</em>&mdash;pay nothing for tuition, fees, or e-books! And, now offering a Bachelor&rsquo;s Degree Completion Program!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "<span>EARN AN ASSOCIATE&rsquo;S DEGREE, OR CERTIFICATE, OR COMPLETE YOUR BACHELOR&rsquo;S DEGREE ONLINE <em>FOR FREE</em>&mdash;PAY NOTHING FOR TUITION, FEES, OR E-BOOKS!</span>"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201118T145637Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{0F6AF93F-EBF3-4DC7-87E4-7980CCA48C16}"
+              p:after="r[@uid='{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Free College Benefit" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B9F73980-E80F-475F-94C1-E1A4092A58B4}" alt="SEIU Member Benefits in partnership with Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201211T163954Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, children, parents, siblings and financial dependents. Retirees and their families are also eligible.</p>
+        <br />
+        <p>2. Eastern Gateway Community College is part of the University System of Ohio and regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>3. Central State University is part of the University System of Ohio and is regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>4. Certificate program only.</p>
+        <br />
+        <p>5. Students must have an Associate&rsquo;s Degree or more than 60 transferable credits into the program of their choice, with a CGPA of 2.2 or more in order to enroll in the Bachelor&rsquo;s Completion programs. Students needing to earn pre-requisite credits or boost their CGPA can do so through EGCC.</p>
+        <br />
+        <p>6. You will need to submit official college transcripts from every college or university you have attended.  Please do not send unofficial transcripts unless specifically requested. Please send your transcripts via secured electronic delivery to uniontranscripts@centralstate.edu. Send in PDF format with your FIRST and LAST name included in the file name.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "<span>Questions? Call 1-844-836-7348.</span>"
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Free College Benefit
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Earn an Associate&rsquo;s degree or certificate&mdash;for free!</p>
+            </li>
+            <li>
+            <p>Complete your Bachelor&rsquo;s Degree&mdash;for free!</p>
+            </li>
+            <li>
+            <p>Pay nothing for tuition, fees, or e-books &ndash; a savings of at least $20,000!</p>
+            </li>
+            <li>
+            <p>Open to eligible SEIU members and their families<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Choose from several online programs offered by Eastern Gateway Community College (EGCC)<sup>2</sup> and Central State University (CSU)<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Your college degree is within reach!</p>
+        <p>Federal, state, and employer grants don&rsquo;t always cover the full cost of earning a degree online. SEIU is proud to partner with Eastern Gateway Community College and Central State University to help eligible students fill the financial gap.</p>
+        <p><strong>Associate&rsquo;s Degree or Certificate</strong></p>
+        <p>EGCC welcomes anyone with a high school diploma or GED regardless of past academic performance. Associate&rsquo;s degrees or certificates available in:</p>
+        <ul>
+            <li>
+            <p>Accounting</p>
+            </li>
+            <li>
+            <p>Business Management (with certificates in Advertising, Cyber Security, Data Science, Digital and Social Media, Entrepreneurship, Finance, General Management, Healthcare Management, Hospitality, Human Resources, Information Systems, Labor Studies, or Programming and Development)</p>
+            </li>
+            <li>
+            <p>Criminal Justice</p>
+            </li>
+            <li>
+            <p>Teacher Education</p>
+            </li>
+            <li>
+            <p>Individualized Study</p>
+            </li>
+            <li>
+            <p>Paralegal</p>
+            </li>
+            <li>
+            <p>Patient Home Navigator<sup>4</sup></p>
+            </li>
+            <li>
+            <p>Healthcare Administration (Associate of Arts)</p>
+            </li>
+            <li>
+            <p>Healthcare Services</p>
+            </li>
+            <li>
+            <p>Paralegal Certificate</p>
+            </li>
+        </ul>
+        <p>Eligible SEIU members and family members may also enroll in other online programs at EGCC such as Medical Coding, Health Information Management, IT, Fire Science and more, but students may be required to pay for the strict industry-recognized content for some courses.</p>
+        <p><strong>Bachelor&rsquo;s Degree</strong></p>
+        <p>Bachelor&rsquo;s degrees<sup>5</sup> available in:</p>
+        <ul>
+            <li>Business Administration</li>
+            <li>Criminal Justice</li>
+            <li>Education &ndash; Early Childhood Education</li>
+            <li>Education &ndash; Intervention Specialist</li>
+            <li>Interdisciplinary Studies/Humanities</li>
+        </ul>
+        <p>Read our&nbsp;<a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or call 1-855-469-SEIU (7348) toll free to talk to an advisor.</p>
+        <p>See below to enroll in either the Associate&rsquo;s or Bachelor&rsquo;s degrees or the Certificate program and receive your SEIU Free College Benefit:</p>
+        <ol>
+            <li>
+            <p>Register or sign in to your SEIU Member account and click Get Started.</p>
+            </li>
+            <li>
+            <p>Complete the online CSU or EGCC application.</p>
+            </li>
+            <li>
+            <p>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges. CSU&rsquo;s school code is 003026 and EGCC&rsquo;s school code is 007275.</p>
+            </li>
+            <li>
+            <p>Verify that you have received a high school diploma or equivalent by having official transcripts sent to either CSU<sup>6</sup>or to EGCC.</p>
+            </li>
+        </ol>
+        <p>That&rsquo;s it! The SEIU Free College Benefit covers the difference between any federal, state, or employer education grants you receive and the cost of tuition, fees, and e-books.</p>
+        <p>Take the next step toward your future&mdash;apply now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="SEIU Free College Benefit" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Earn an associate degree or certificate online <em>for free</em>&mdash;pay nothing for tuition, fees, or e-books! And, now offering a Bachelor&rsquo;s Degree Completion Program!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "<span>EARN AN ASSOCIATE&rsquo;S DEGREE, OR CERTIFICATE, OR COMPLETE YOUR BACHELOR&rsquo;S DEGREE ONLINE <em>FOR FREE</em>&mdash;PAY NOTHING FOR TUITION, FEES, OR E-BOOKS!</span>"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201211T163954Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{0F6AF93F-EBF3-4DC7-87E4-7980CCA48C16}"
+              p:after="r[@uid='{CC72945C-CA6F-4DA1-82AF-E3826DA4F916}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "With the SEIU Free College Benefit, eligible SEIU members and their families can earn an Associate Degree or Certificate online without having to pay for tuition, fees or e-books."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Free College Benefit" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{B9F73980-E80F-475F-94C1-E1A4092A58B4}" alt="SEIU Member Benefits in partnership with Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T120913Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Eligible SEIU members are full dues paying members in good standing, and their spouses, domestic partners, children, parents, siblings and financial dependents. Retirees and their families are also eligible.</p>
+        <br />
+        <p>2. Eastern Gateway Community College is part of the University System of Ohio and regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>3. Central State University is part of the University System of Ohio and is regionally accredited by the Higher Learning Commission.</p>
+        <br />
+        <p>4. Certificate program only.</p>
+        <br />
+        <p>5. Students must have an Associate&rsquo;s Degree or more than 60 transferable credits into the program of their choice, with a CGPA of 2.2 or more in order to enroll in the Bachelor&rsquo;s Completion programs. Students needing to earn pre-requisite credits or boost their CGPA can do so through EGCC.</p>
+        <br />
+        <p>6. You will need to submit official college transcripts from every college or university you have attended.  Please do not send unofficial transcripts unless specifically requested. Please send your transcripts via secured electronic delivery to uniontranscripts@centralstate.edu. Send in PDF format with your FIRST and LAST name included in the file name.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Free College Benefit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "<span>Questions? Call 1-844-836-7348.</span>"
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Free College Benefit
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{C66F1BDC-D95E-4207-A694-097AA4807DDD}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{C66F1BDC-D95E-4207-A694-097AA4807DDD}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Earn an Associate&rsquo;s degree or certificate&mdash;for free!</p>
+            </li>
+            <li>
+            <p>Complete your Bachelor&rsquo;s Degree&mdash;for free!</p>
+            </li>
+            <li>
+            <p>Pay nothing for tuition, fees, or e-books &ndash; a savings of at least $20,000!</p>
+            </li>
+            <li>
+            <p>Open to eligible SEIU members and their families<sup>1</sup></p>
+            </li>
+            <li>
+            <p>Choose from several online programs offered by Eastern Gateway Community College (EGCC)<sup>2</sup> and Central State University (CSU)<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>Your college degree is within reach!</p>
+        <p>Federal, state, and employer grants don&rsquo;t always cover the full cost of earning a degree online. SEIU is proud to partner with Eastern Gateway Community College and Central State University to help eligible students fill the financial gap.</p>
+        <p><strong>Associate&rsquo;s Degree or Certificate</strong></p>
+        <p>EGCC welcomes anyone with a high school diploma or GED regardless of past academic performance. Associate&rsquo;s degrees or certificates available in:</p>
+        <ul>
+            <li>
+            <p>Accounting</p>
+            </li>
+            <li>
+            <p>Business Management (with certificates in Advertising, Cyber Security, Data Science, Digital and Social Media, Entrepreneurship, Finance, General Management, Healthcare Management, Hospitality, Human Resources, Information Systems, Labor Studies, or Programming and Development)</p>
+            </li>
+            <li>
+            <p>Criminal Justice</p>
+            </li>
+            <li>
+            <p>Teacher Education</p>
+            </li>
+            <li>
+            <p>Individualized Study</p>
+            </li>
+            <li>
+            <p>Paralegal</p>
+            </li>
+            <li>
+            <p>Patient Home Navigator<sup>4</sup></p>
+            </li>
+            <li>
+            <p>Healthcare Administration (Associate of Arts)</p>
+            </li>
+            <li>
+            <p>Healthcare Services</p>
+            </li>
+            <li>
+            <p>Paralegal Certificate</p>
+            </li>
+        </ul>
+        <p>Eligible SEIU members and family members may also enroll in other online programs at EGCC such as Medical Coding, Health Information Management, IT, Fire Science and more, but students may be required to pay for the strict industry-recognized content for some courses.</p>
+        <p><strong>Bachelor&rsquo;s Degree</strong></p>
+        <p>Bachelor&rsquo;s degrees<sup>5</sup> available in:</p>
+        <ul>
+            <li>Business Administration</li>
+            <li>Criminal Justice</li>
+            <li>Education &ndash; Early Childhood Education</li>
+            <li>Education &ndash; Intervention Specialist</li>
+            <li>Interdisciplinary Studies/Humanities</li>
+        </ul>
+        <p>Read our&nbsp;<a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Frequently Asked Questions</a> or call 1-855-469-SEIU (7348) toll free to talk to an advisor.</p>
+        <p>See below to enroll in either the Associate&rsquo;s or Bachelor&rsquo;s degrees or the Certificate program and receive your SEIU Free College Benefit:</p>
+        <ol>
+            <li>
+            <p>Register or sign in to your SEIU Member account and click Get Started.</p>
+            </li>
+            <li>
+            <p>Complete the online CSU or EGCC application.</p>
+            </li>
+            <li>
+            <p>Complete the Free Application for Federal Student Aid (FAFSA) and submit any required verification. Any grant award must be applied to tuition, fees and e-book charges. CSU&rsquo;s school code is 003026 and EGCC&rsquo;s school code is 007275.</p>
+            </li>
+            <li>
+            <p>Verify that you have received a high school diploma or equivalent by having official transcripts sent to either CSU<sup>6</sup>or to EGCC.</p>
+            </li>
+        </ol>
+        <p>That&rsquo;s it! The SEIU Free College Benefit covers the difference between any federal, state, or employer education grants you receive and the cost of tuition, fees, and e-books.</p>
+        <p>Take the next step toward your future&mdash;apply now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="SEIU Free College Benefit" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Free College Benefit
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get Started" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Earn an associate degree or certificate online <em>for free</em>&mdash;pay nothing for tuition, fees, or e-books! And, now offering a Bachelor&rsquo;s Degree Completion Program!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "<span>EARN AN ASSOCIATE&rsquo;S DEGREE, OR CERTIFICATE, OR COMPLETE YOUR BACHELOR&rsquo;S DEGREE ONLINE <em>FOR FREE</em>&mdash;PAY NOTHING FOR TUITION, FEES, OR E-BOOKS!</span>"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T120913Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Free College Benefit
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F3D59E14-1D3F-49CF-939D-FB5B0955EFBB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171222T211234Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p><strong>Información importante</strong></p>
+        
+        <p>1. Los miembros elegibles de SEIU tienen buena reputación y que pagan sus cuotas completas, y sus familias, incluidos los cónyuges, parejas de hecho, hijos, nietos y dependientes financieros. El programa también está abierto para jubilados y sus familias.</p>
+        
+        <p>2. Certificado de programa solamente.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Llame al 1-855-469-SEIU (7348) si tiene preguntas o póngase en contacto con un asesor académico."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>¡Gane su título de asociado universitario o certificado en línea gratis!</strong></p>
+        
+        <p>Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU<sup>1</sup> y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos. Una nueva asociación con Eastern Gateway Community College, parte del Sistema Universitario de Ohio y acreditada regionalmente por la Higher Learning Commission, ofrece subvenciones que cubren la brecha entre las becas educativas federales, estatales o del empleador que el estudiante recibe y el costo de la matrícula. tarifas y libros electrónicos para ciertos programas en línea:</p>
+        
+        <ul>
+        	<li><strong>Grado Asociado: </strong>Contabilidad, Administración de Empresas, Justicia Penal, Educación Preescolar, Estudio Individualizado, Paralegal</li>
+        	<li><strong>Certificado: </strong>gestión comercial, navegador de inicio del paciente<sup>2</sup></li>
+        </ul>
+        
+        <p>Lanzado por primera vez con AFSCME en 2015, miles de estudiantes ya han aprovechado millones de dólares en becas y estamos orgullosos de brindar este beneficio a los miembros de SEIU. Para inscribirse en uno de estos programas en línea de Eastern Gateway Community College y recibir el beneficio SEIU Beneficio Gratuito de la Universidad, los miembros de SEIU (o sus familiares) deben completar los siguientes pasos:</p>
+        
+        <ul>
+        	<li>Haga clic arriba para registrarse o iniciar sesión.</li>
+        	<li>Complete la Solicitud Gratuita de Ayuda Federal para Estudiantes (FAFSA) y envíe cualquier verificación requerida. Toda concesión de subvención debe aplicarse a la matrícula, a las tarifas y a los gastos de e-book.</li>
+        	<li>Acuerde usar cualquier asistencia educativa proporcionada por el empleador.</li>
+        	<li>Verifique la finalización de la escuela secundaria o GED haciendo que las transcripciones oficiales se envíen a Eastern Gateway Community College.</li>
+        </ul>
+        
+        <p>¿Tiene alguna pregunta? Estamos aquí para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o para ponerse en contacto con un asesor gratuito, regístrese y llame al número de teléfono que se encuentra arriba.</p>
+        
+        <p>Su título universitario está ahora al alcance. ¡Solicítelo hoy mismo!</p>
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{ED80FAB0-2376-425B-B517-4E3FA8A1150C}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F3D59E14-1D3F-49CF-939D-FB5B0955EFBB}" alt="SEIU Member Benefits en asociación con Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181219T221145Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>Informaci&oacute;n importante</strong></p>
+        <p>1. Los miembros elegibles de SEIU tienen buena reputaci&oacute;n y que pagan sus cuotas completas, y sus familias, incluidos los c&oacute;nyuges, parejas de hecho, hijos, padres, hermanos, nietos y dependientes financieros. El programa tambi&eacute;n est&aacute; abierto para jubilados y sus familias.</p>
+        <p>2. Certificado de programa solamente.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Llame al 1-855-469-SEIU (7348) si tiene preguntas o póngase en contacto con un asesor académico."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>&iexcl;Gane su t&iacute;tulo de asociado universitario o certificado en l&iacute;nea gratis!</strong></p>
+        <p>Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU<sup>1</sup> y sus familias pueden obtener un t&iacute;tulo asociado o certificado en l&iacute;nea sin tener que pagar la matr&iacute;cula, las tarifas o los libros electr&oacute;nicos. Una nueva asociaci&oacute;n con Eastern Gateway Community College, parte del Sistema Universitario de Ohio y acreditada regionalmente por la Higher Learning Commission, ofrece subvenciones que cubren la brecha entre las becas educativas federales, estatales o del empleador que el estudiante recibe y el costo de la matr&iacute;cula. tarifas y libros electr&oacute;nicos para ciertos programas en l&iacute;nea:</p>
+        <ul>
+            <li><strong>Grado Asociado: </strong>Contabilidad, Gesti&oacute;n empresarial (especializaci&oacute;n: Publicidad, Seguridad cibern&eacute;tica, Ciencia de la informaci&oacute;n, Medios digitales y sociales, Esp&iacute;ritu empresarial, Finanzas, Gesti&oacute;n general, Gesti&oacute;n sanitaria, Hospitalidad, Recursos humanos, Sistemas de informaci&oacute;n, Estudios laborales, Programaci&oacute;n y desarrollo), Justicia Penal, Educaci&oacute;n de Maestro, Estudio Individualizado, Paralegal</li>
+            <li><strong>Certificado: </strong> navegador de inicio del paciente<sup>2</sup></li>
+        </ul>
+        <p>Lanzado por primera vez con AFSCME en 2015, miles de estudiantes ya han aprovechado millones de d&oacute;lares en becas y estamos orgullosos de brindar este beneficio a los miembros de SEIU. Para inscribirse en uno de estos programas en l&iacute;nea de Eastern Gateway Community College y recibir el beneficio SEIU Beneficio Gratuito de la Universidad, los miembros de SEIU (o sus familiares) deben completar los siguientes pasos:</p>
+        <ul>
+            <li>Haga clic arriba para registrarse o iniciar sesi&oacute;n.</li>
+            <li>Complete la Solicitud Gratuita de Ayuda Federal para Estudiantes (FAFSA) y env&iacute;e cualquier verificaci&oacute;n requerida. Toda concesi&oacute;n de subvenci&oacute;n debe aplicarse a la matr&iacute;cula, a las tarifas y a los gastos de e-book.</li>
+            <li>Acuerde usar cualquier asistencia educativa proporcionada por el empleador.</li>
+            <li>Verifique la finalizaci&oacute;n de la escuela secundaria o GED haciendo que las transcripciones oficiales se env&iacute;en a Eastern Gateway Community College.</li>
+        </ul>
+        <p>&iquest;Tiene alguna pregunta? Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o para ponerse en contacto con un asesor gratuito, reg&iacute;strese y llame al n&uacute;mero de tel&eacute;fono que se encuentra arriba.</p>
+        <p>Su t&iacute;tulo universitario est&aacute; ahora al alcance. &iexcl;Solic&iacute;telo hoy mismo!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{45140F4A-CD23-4D7D-972B-C9E260CBC015}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181219T221100Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9BD1E9A2-ADF0-433E-A982-789981449270}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{7A81C5FF-3E13-42AA-8E3B-A54F5B208AD0}"
+              p:after="r[@uid='{9BD1E9A2-ADF0-433E-A982-789981449270}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{F3D59E14-1D3F-49CF-939D-FB5B0955EFBB}" alt="SEIU Member Benefits en asociación con Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190814T174517Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>Este beneficio se estableci&oacute; en colaboraci&oacute;n con AFSCME.</strong></p>
+        <p>1. Los miembros elegibles de SEIU son aquellos miembros acreditados que pagan sus cuotas completas y sus c&oacute;nyuges, parejas de hecho, hijos, padres, hermanos y dependientes financieros. Los jubilados y sus familias tambi&eacute;n son elegibles.</p>
+        <p>2. La universidad Eastern Gateway Community College es parte del Sistema Universitario de Ohio y est&aacute; acreditada regionalmente por la Higher Learning Commission.</p>
+        <p>3. Certificado de programa solamente.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "<span>Para hablar con un asesor, haga clic aqu&iacute; o comun&iacute;quese al&nbsp;1-855-469-SEIU&nbsp;(7348).</span>"
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p><strong>Obtenga un t&iacute;tulo o certificado de asociado, gratis.</strong></p>
+            </li>
+            <li>
+            <p><strong>No debe pagar matr&iacute;cula, tarifas ni comprar libros electr&oacute;nicos.</strong></p>
+            </li>
+            <li>
+            <p><strong>Inscripciones abiertas para miembros elegibles de SEIU y sus familias<sup>1</sup>.</strong></p>
+            </li>
+            <li>
+            <p><strong>Puede seleccionar entre varios programas por Internet de la universidad Eastern Gateway Community College (EGCC)<sup>2</sup>.</strong></p>
+            </li>
+            <li>
+            <p><strong>EGCC admite a cualquier persona con diploma de escuela secundaria o de educaci&oacute;n general GED, independientemente de su desempe&ntilde;o acad&eacute;mico.</strong></p>
+            </li>
+        </ul>
+        <p>&iexcl;El t&iacute;tulo universitario est&aacute; a su alcance!</p>
+        <p>Los subsidios federales, estatales o de empleados no siempre ofrecen una cobertura del costo total por la obtenci&oacute;n de un t&iacute;tulo por Internet. SEIU se enorgullece de asociarse con la universidad Eastern Gateway Community College para ayudar a los estudiantes elegibles a llenar el vac&iacute;o econ&oacute;mico y obtener un t&iacute;tulo o certificado en las siguientes disciplinas:</p>
+        <ul>
+            <li>
+            <p><strong>Contabilidad</strong></p>
+            </li>
+            <li>
+            <p><strong>Administraci&oacute;n de empresas (con un enfoque en Publicidad, Seguridad cibern&eacute;tica, Medios digitales y sociales, Empresariado, Finanzas, Administraci&oacute;n general, Gesti&oacute;n sanitaria, Hoteler&iacute;a, Recursos humanos, Sistemas inform&aacute;ticos, Estudios laborales o Programaci&oacute;n y desarrollo).</strong></p>
+            </li>
+            <li>
+            <p><strong>Justicia penal</strong></p>
+            </li>
+            <li>
+            <p><strong>Formaci&oacute;n del profesorado</strong></p>
+            </li>
+            <li>
+            <p><strong>Estudio individualizado</strong></p>
+            </li>
+            <li>
+            <p><strong>Asistente jur&iacute;dico</strong></p>
+            </li>
+            <li>
+            <p><strong>Asesor&iacute;a de pacientes para el hogar<sup>3</sup></strong></p>
+            </li>
+        </ul>
+        <p>Lea nuestra secci&oacute;n de <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese gratis al 1-855-469-SEIU (7348) para hablar con un asesor.</p>
+        <p>Para inscribirse en la universidad Eastern Gateway Community College y recibir su Beneficio Gratuito de Universidad de SEIU debe hacer lo siguiente:</p>
+        <ol>
+            <li>
+            <p>Reg&iacute;strese o inicie sesi&oacute;n en su Cuenta de miembro de SEIU y haga clic en Inicio.</p>
+            </li>
+            <li>
+            <p>Complete la solicitud en Internet de EGCC.</p>
+            </li>
+            <li>
+            <p>Complete la Solicitud gratuita de ayuda federal para estudiantes (FAFSA) y env&iacute;e toda la documentaci&oacute;n necesaria. Toda concesi&oacute;n de subsidio debe aplicarse a la matr&iacute;cula, a las tarifas y a los gastos de libros electr&oacute;nicos.  El c&oacute;digo escolar de EGCC es 007275.</p>
+            </li>
+            <li>
+            <p> que haya obtenido un diploma de finalizaci&oacute;n de la escuela secundaria o equivalente al enviar las transcripciones oficiales a EGCC.</p>
+            </li>
+        </ol>
+        <p>&iexcl;Eso es todo! El Beneficio Gratuito de Universidad de SEIU cubre la diferencia entre cualquier subsidio educativo federal, estatal o de empleado y el costo de matr&iacute;cula, tarifas y libros electr&oacute;nicos.</p>
+        <p>Los miembros elegibles de SEIU y los miembros de la familia tambi&eacute;n pueden inscribirse en otros programas en l&iacute;nea en EGCC, como codificaci&oacute;n m&eacute;dica, gesti&oacute;n de informaci&oacute;n de salud, TI, ciencias del fuego y m&aacute;s, pero es posible que los estudiantes tengan que pagar por el estricto contenido reconocido por la industria para algunos cursos. La beca de la universidad gratuita se aplicar&aacute; a la matr&iacute;cula y las tarifas, ahorrando a los estudiantes miles de d&oacute;lares.</p>
+        <p>D&eacute; el pr&oacute;ximo paso hacia su futuro, &iexcl;inscr&iacute;base ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "&iexcl;Obtenga un t&iacute;tulo o certificado de asociado en l&iacute;nea <em>gratis</em>, sin pagar matr&iacute;cula, tarifas ni libros electr&oacute;nicos!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190814T174500Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9BD1E9A2-ADF0-433E-A982-789981449270}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{7A81C5FF-3E13-42AA-8E3B-A54F5B208AD0}"
+              p:after="r[@uid='{9BD1E9A2-ADF0-433E-A982-789981449270}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{878D0538-CCED-457E-82B6-7E221C25F40A}" alt="SEIU Member Benefits en asociación con Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T135800Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los miembros de SEIU que cumplen los requisitos son miembros y sus c&oacute;nyuges, parejas dom&eacute;sticas, hijos, padres, hermanos y dependientes econ&oacute;micos que pagan cuotas &iacute;ntegras y est&aacute;n al d&iacute;a. Los jubilados y sus familias tambi&eacute;n pueden cumplir los requisitos.</p>
+        <br />
+        <p>2. Eastern Gateway Community College es parte del University System of Ohio y est&aacute; acreditado regionalmente por la Higher Learning Commission (HLC).</p>
+        <br />
+        <p>3. Central State University es parte del University System of Ohio y est&aacute; acreditada regionalmente por la  Higher Learning Commission (HLC).</p>
+        <br />
+        <p>4. Programa certificado &uacute;nicamente.</p>
+        <br />
+        <p>5. Los estudiantes deben tener un t&iacute;tulo t&eacute;cnico o m&aacute;s de 60 cr&eacute;ditos transferibles en el programa de su elecci&oacute;n, con un CGPA de 2.2 o m&aacute;s para inscribirse en los programas para terminar la licenciatura. Los estudiantes que necesiten obtener cr&eacute;ditos de prerequisitos o aumentar su CGPA pueden hacerlo a trav&eacute;s de EGCC.</p>
+        <br />
+        <p>6. Deber&aacute; enviar los expedientes acad&eacute;micos oficiales de cada instituto o universidad a la que haya asistido. No env&iacute;e expedientes no oficiales a menos que se soliciten espec&iacute;ficamente. Env&iacute;e sus expedientes por correo electr&oacute;nico seguro a uniontranscripts@centralstate.edu. Env&iacute;e en formato PDF con su NOMBRE y APELLIDO incluido en el nombre del archivo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Tiene alguna pregunta? Llame al 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p><strong>Obt&eacute;n un t&iacute;tulo o diploma t&eacute;cnico... &iexcl;gratis!</strong></p>
+            </li>
+            <li>
+            <p><strong>Termine su licenciatura, &iexcl;gratis!</strong></p>
+            </li>
+            <li>
+            <p><strong>No pague colegiatura, cuotas o libros electr&oacute;nicos: &iexcl;un ahorro de al menos $20 000!</strong></p>
+            </li>
+            <li>
+            <p><strong>Disponible para miembros de SEIU y sus familias que cumplan los requisitos <sup>1</sup></strong></p>
+            </li>
+            <li>
+            <p><strong>Elija entre varios programas en l&iacute;nea ofrecidos por Eastern Gateway Community College (EGCC)<sup>2</sup> y Central State University (CSU)<sup>3</sup></strong></p>
+            </li>
+        </ul>
+        <p>&iexcl;Su t&iacute;tulo universitario est&aacute; al alcance!</p>
+        <p>Las becas federales, estatales y por parte de su trabajo no siempre cubren el costo total de obtener un t&iacute;tulo en l&iacute;nea. SEIU se enorgullece de asociarse con Eastern Gateway Community College y Central State University para ayudar a los estudiantes que cumplen los requisitos a cubrir la brecha financiera.</p>
+        <p><strong>T&iacute;tulo o diploma t&eacute;cnico</strong></p>
+        <p>EGCC da la bienvenida a cualquier persona con un diploma de preparatoria o Diploma General de Equivalencia (GED) sin importar su desempe&ntilde;o acad&eacute;mico anterior. T&iacute;tulos o diplomas t&eacute;cnicos disponibles en:</p>
+        <ul>
+            <li>
+            <p><strong>Contabilidad</strong></p>
+            </li>
+            <li>
+            <p><strong>Gesti&oacute;n empresarial (con certificados en Publicidad, Ciberseguridad, Ciencia de datos, Medios digitales y redes sociales, Emprendimiento, Finanzas, Gesti&oacute;n general, Gesti&oacute;n sanitaria, Hosteler&iacute;a, Recursos humanos, Sistemas de informaci&oacute;n, Estudios laborales o Programaci&oacute;n y desarrollo)</strong></p>
+            </li>
+            <li>
+            <p><strong>Justicia Penal</strong></p>
+            </li>
+            <li>
+            <p><strong>Formaci&oacute;n Docente</strong></p>
+            </li>
+            <li>
+            <p><strong>Estudio Individualizado</strong></p>
+            </li>
+            <li>
+            <p><strong>Asistente Legal</strong></p>
+            </li>
+            <li>
+            <p><strong>Asesor de paciente en el hogar <sup>4</sup></strong></p>
+            </li>
+            <li>
+            <p><strong>Administraci&oacute;n de salud (asociado en artes)</strong></p>
+            </li>
+            <li>
+            <p><strong>Certificado de asistente legal</strong></p>
+            </li>
+        </ul>
+        <p>Los miembros de SEIU y sus familiares que cumplan los requisitos tambi&eacute;n pueden inscribirse en otros programas en l&iacute;nea en EGCC, como Codificaci&oacute;n m&eacute;dica, Gesti&oacute;n de informaci&oacute;n de salud, TI, Ciencias del fuego y m&aacute;s, pero es posible que los estudiantes deban pagar por el contenido estricto reconocido por la industria para algunos cursos.</p>
+        <p><strong>Licenciatura</strong></p>
+        <p>Licenciaturas 5 disponibles en:</p>
+        <ul>
+            <li>
+            <p><strong>Administraci&oacute;n de empresas</strong></p>
+            </li>
+            <li>
+            <p><strong>Justicia Penal</strong></p>
+            </li>
+            <li>
+            <p><strong>Educaci&oacute;n: educaci&oacute;n preescolar</strong></p>
+            </li>
+            <li>
+            <p><strong>Educaci&oacute;n: especialista en intervenci&oacute;n</strong></p>
+            </li>
+        </ul>
+        <p>Lea nuestra secci&oacute;n de <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese gratis al 1-855-469-SEIU (7348) para hablar con un asesor.</p>
+        <p>Consulte a continuaci&oacute;n para inscribirse a los programas t&eacute;cnicos o licenciatura o diploma y recibir un beneficio universitario gratuito de SEIU:</p>
+        <ol>
+            <li>
+            <p>Reg&iacute;strese o inicie sesi&oacute;n en su cuenta de SEIU y haga clic en Comenzar.</p>
+            </li>
+            <li>
+            <p>Llene la solicitud en l&iacute;nea de CSU o EGCC.</p>
+            </li>
+            <li>
+            <p>Llene la Solicitud Gratuita de Ayuda Federal para Estudiantes (FAFSA, por sus siglas en ingl&eacute;s) y env&iacute;e cualquier comprobante que se le pida. Cualquier beca de subvenci&oacute;n debe aplicarse a los cobros de colegiatura, cuotas y libros electr&oacute;nicos. El c&oacute;digo escolar de CSU es 003026 y el c&oacute;digo escolar de EGCC es 007275.</p>
+            </li>
+            <li>
+            <p>4.	Verifique que haya recibido un diploma de preparatoria o su equivalente enviando expedientes oficiales a CSU<sup>6</sup> o EGCC.</p>
+            </li>
+        </ol>
+        <p>&iexcl;Eso es todo! La prestaci&oacute;n de universidad gratuita de SEIU cubre la diferencia entre las becas educativas federales, estatales o por parte de su trabajo que reciba y el costo de colegiatura, cuotas y libros electr&oacute;nicos.</p>
+        <p>D&eacute; el siguiente paso hacia su futuro: &iexcl;solicite ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "&iexcl;Obtenga un t&iacute;tulo o certificado de asociado en l&iacute;nea <em>gratis</em>, sin pagar matr&iacute;cula, tarifas ni libros electr&oacute;nicos! &iexcl;Y ahora ofrecemos un programa de finalizaci&oacute;n de licenciatura!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "OBT&Eacute;N UN T&Iacute;TULO O DIPLOMA T&Eacute;CNICO EN L&Iacute;NEA <em>GRATIS</em>; &iexcl;NO PAGUES NADA POR LA MATR&Iacute;CULA, LAS CUOTAS O LOS LIBROS ELECTR&Oacute;NICOS!"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T135800Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9BD1E9A2-ADF0-433E-A982-789981449270}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{7A81C5FF-3E13-42AA-8E3B-A54F5B208AD0}"
+              p:after="r[@uid='{9BD1E9A2-ADF0-433E-A982-789981449270}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{878D0538-CCED-457E-82B6-7E221C25F40A}" alt="SEIU Member Benefits en asociación con Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201118T150115Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los miembros de SEIU que cumplen los requisitos son miembros y sus c&oacute;nyuges, parejas dom&eacute;sticas, hijos, padres, hermanos y dependientes econ&oacute;micos que pagan cuotas &iacute;ntegras y est&aacute;n al d&iacute;a. Los jubilados y sus familias tambi&eacute;n pueden cumplir los requisitos.</p>
+        <br />
+        <p>2. Eastern Gateway Community College es parte del University System of Ohio y est&aacute; acreditado regionalmente por la Higher Learning Commission (HLC).</p>
+        <br />
+        <p>3. Central State University es parte del University System of Ohio y est&aacute; acreditada regionalmente por la  Higher Learning Commission (HLC).</p>
+        <br />
+        <p>4. Programa certificado &uacute;nicamente.</p>
+        <br />
+        <p>5. Los estudiantes deben tener un t&iacute;tulo t&eacute;cnico o m&aacute;s de 60 cr&eacute;ditos transferibles en el programa de su elecci&oacute;n, con un CGPA de 2.2 o m&aacute;s para inscribirse en los programas para terminar la licenciatura. Los estudiantes que necesiten obtener cr&eacute;ditos de prerequisitos o aumentar su CGPA pueden hacerlo a trav&eacute;s de EGCC.</p>
+        <br />
+        <p>6. Deber&aacute; enviar los expedientes acad&eacute;micos oficiales de cada instituto o universidad a la que haya asistido. No env&iacute;e expedientes no oficiales a menos que se soliciten espec&iacute;ficamente. Env&iacute;e sus expedientes por correo electr&oacute;nico seguro a uniontranscripts@centralstate.edu. Env&iacute;e en formato PDF con su NOMBRE y APELLIDO incluido en el nombre del archivo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Tiene alguna pregunta? Llame al 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Obt&eacute;n un t&iacute;tulo o diploma t&eacute;cnico... &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>Termine su licenciatura, &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>No pague colegiatura, cuotas o libros electr&oacute;nicos: &iexcl;un ahorro de al menos $20 000!</p>
+            </li>
+            <li>
+            <p>Disponible para miembros de SEIU y sus familias que cumplan los requisitos <sup>1</sup></p>
+            </li>
+            <li>
+            <p>Elija entre varios programas en l&iacute;nea ofrecidos por Eastern Gateway Community College (EGCC)<sup>2</sup> y Central State University (CSU)<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>&iexcl;Su t&iacute;tulo universitario est&aacute; al alcance!</p>
+        <p>Las becas federales, estatales y por parte de su trabajo no siempre cubren el costo total de obtener un t&iacute;tulo en l&iacute;nea. SEIU se enorgullece de asociarse con Eastern Gateway Community College y Central State University para ayudar a los estudiantes que cumplen los requisitos a cubrir la brecha financiera.</p>
+        <p><strong>T&iacute;tulo o diploma t&eacute;cnico</strong></p>
+        <p>EGCC da la bienvenida a cualquier persona con un diploma de preparatoria o Diploma General de Equivalencia (GED) sin importar su desempe&ntilde;o acad&eacute;mico anterior. T&iacute;tulos o diplomas t&eacute;cnicos disponibles en:</p>
+        <ul>
+            <li>
+            <p>Contabilidad</p>
+            </li>
+            <li>
+            <p>Gesti&oacute;n empresarial (con certificados en Publicidad, Ciberseguridad, Ciencia de datos, Medios digitales y redes sociales, Emprendimiento, Finanzas, Gesti&oacute;n general, Gesti&oacute;n sanitaria, Hosteler&iacute;a, Recursos humanos, Sistemas de informaci&oacute;n, Estudios laborales o Programaci&oacute;n y desarrollo)</p>
+            </li>
+            <li>
+            <p>Justicia Penal</p>
+            </li>
+            <li>
+            <p>Formaci&oacute;n Docente</p>
+            </li>
+            <li>
+            <p>Estudio Individualizado</p>
+            </li>
+            <li>
+            <p>Asistente Legal</p>
+            </li>
+            <li>
+            <p>Asesor de paciente en el hogar <sup>4</sup></p>
+            </li>
+            <li>
+            <p>Administraci&oacute;n de salud (asociado en artes)</p>
+            </li>
+            <li>
+            <p>Servicios de salud m&eacute;dica</p>
+            </li>
+            <li>
+            <p>Certificado de asistente legal</p>
+            </li>
+        </ul>
+        <p>Los miembros de SEIU y sus familiares que cumplan los requisitos tambi&eacute;n pueden inscribirse en otros programas en l&iacute;nea en EGCC, como Codificaci&oacute;n m&eacute;dica, Gesti&oacute;n de informaci&oacute;n de salud, TI, Ciencias del fuego y m&aacute;s, pero es posible que los estudiantes deban pagar por el contenido estricto reconocido por la industria para algunos cursos.</p>
+        <p><strong>Licenciatura</strong></p>
+        <p>Licenciaturas 5 disponibles en:</p>
+        <ul>
+            <li>
+            <p>Administraci&oacute;n de empresas</p>
+            </li>
+            <li>
+            <p>Justicia Penal</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: educaci&oacute;n preescolar</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: especialista en intervenci&oacute;n</p>
+            </li>
+        </ul>
+        <p>Lea nuestra secci&oacute;n de <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese gratis al 1-855-469-SEIU (7348) para hablar con un asesor.</p>
+        <p>Consulte a continuaci&oacute;n para inscribirse a los programas t&eacute;cnicos o licenciatura o diploma y recibir un beneficio universitario gratuito de SEIU:</p>
+        <ol>
+            <li>
+            <p>Reg&iacute;strese o inicie sesi&oacute;n en su cuenta de SEIU y haga clic en Comenzar.</p>
+            </li>
+            <li>
+            <p>Llene la solicitud en l&iacute;nea de CSU o EGCC.</p>
+            </li>
+            <li>
+            <p>Llene la Solicitud Gratuita de Ayuda Federal para Estudiantes (FAFSA, por sus siglas en ingl&eacute;s) y env&iacute;e cualquier comprobante que se le pida. Cualquier beca de subvenci&oacute;n debe aplicarse a los cobros de colegiatura, cuotas y libros electr&oacute;nicos. El c&oacute;digo escolar de CSU es 003026 y el c&oacute;digo escolar de EGCC es 007275.</p>
+            </li>
+            <li>
+            <p>4.	Verifique que haya recibido un diploma de preparatoria o su equivalente enviando expedientes oficiales a CSU<sup>6</sup> o EGCC.</p>
+            </li>
+        </ol>
+        <p>&iexcl;Eso es todo! La prestaci&oacute;n de universidad gratuita de SEIU cubre la diferencia entre las becas educativas federales, estatales o por parte de su trabajo que reciba y el costo de colegiatura, cuotas y libros electr&oacute;nicos.</p>
+        <p>D&eacute; el siguiente paso hacia su futuro: &iexcl;solicite ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "&iexcl;Obtenga un t&iacute;tulo o certificado de asociado en l&iacute;nea <em>gratis</em>, sin pagar matr&iacute;cula, tarifas ni libros electr&oacute;nicos! &iexcl;Y ahora ofrecemos un programa de finalizaci&oacute;n de licenciatura!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "OBT&Eacute;N UN T&Iacute;TULO O DIPLOMA T&Eacute;CNICO EN L&Iacute;NEA <em>GRATIS</em>; &iexcl;NO PAGUES NADA POR LA MATR&Iacute;CULA, LAS CUOTAS O LOS LIBROS ELECTR&Oacute;NICOS!"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201118T150115Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9BD1E9A2-ADF0-433E-A982-789981449270}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{7A81C5FF-3E13-42AA-8E3B-A54F5B208AD0}"
+              p:after="r[@uid='{9BD1E9A2-ADF0-433E-A982-789981449270}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{878D0538-CCED-457E-82B6-7E221C25F40A}" alt="SEIU Member Benefits en asociación con Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201118T183045Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los miembros de SEIU que cumplen los requisitos son miembros y sus c&oacute;nyuges, parejas dom&eacute;sticas, hijos, padres, hermanos y dependientes econ&oacute;micos que pagan cuotas &iacute;ntegras y est&aacute;n al d&iacute;a. Los jubilados y sus familias tambi&eacute;n pueden cumplir los requisitos.</p>
+        <br />
+        <p>2. Eastern Gateway Community College es parte del University System of Ohio y est&aacute; acreditado regionalmente por la Higher Learning Commission (HLC).</p>
+        <br />
+        <p>3. Central State University es parte del University System of Ohio y est&aacute; acreditada regionalmente por la  Higher Learning Commission (HLC).</p>
+        <br />
+        <p>4. Programa certificado &uacute;nicamente.</p>
+        <br />
+        <p>5. Los estudiantes deben tener un t&iacute;tulo t&eacute;cnico o m&aacute;s de 60 cr&eacute;ditos transferibles en el programa de su elecci&oacute;n, con un CGPA de 2.2 o m&aacute;s para inscribirse en los programas para terminar la licenciatura. Los estudiantes que necesiten obtener cr&eacute;ditos de prerequisitos o aumentar su CGPA pueden hacerlo a trav&eacute;s de EGCC.</p>
+        <br />
+        <p>6. Deber&aacute; enviar los expedientes acad&eacute;micos oficiales de cada instituto o universidad a la que haya asistido. No env&iacute;e expedientes no oficiales a menos que se soliciten espec&iacute;ficamente. Env&iacute;e sus expedientes por correo electr&oacute;nico seguro a uniontranscripts@centralstate.edu. Env&iacute;e en formato PDF con su NOMBRE y APELLIDO incluido en el nombre del archivo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Tiene alguna pregunta? Llame al 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Obt&eacute;n un T&iacute;tulo o certificado de asociado... &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>Termine su licenciatura, &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>No pague colegiatura, cuotas o libros electr&oacute;nicos: &iexcl;un ahorro de al menos $20 000!</p>
+            </li>
+            <li>
+            <p>Disponible para miembros de SEIU y sus familias que cumplan los requisitos <sup>1</sup></p>
+            </li>
+            <li>
+            <p>Elija entre varios programas en l&iacute;nea ofrecidos por Eastern Gateway Community College (EGCC)<sup>2</sup> y Central State University (CSU)<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>&iexcl;Su t&iacute;tulo universitario est&aacute; al alcance!</p>
+        <p>Las becas federales, estatales y por parte de su trabajo no siempre cubren el costo total de obtener un t&iacute;tulo en l&iacute;nea. SEIU se enorgullece de asociarse con Eastern Gateway Community College y Central State University para ayudar a los estudiantes que cumplen los requisitos a cubrir la brecha financiera.</p>
+        <p><strong>T&iacute;tulo o certificado de asociado</strong><br />
+        <em>Tenga en cuenta: los cursos solo est&aacute;n disponibles en ingl&eacute;s.</em></p>
+        <p><span style="font-size: inherit; font-family: helvetica_neue;">EGCC da la bienvenida a cualquier persona con un diploma de preparatoria o Diploma General de Equivalencia (GED) sin importar su desempe&ntilde;o acad&eacute;mico anterior. T&iacute;tulos o diplomas t&eacute;cnicos disponibles en:</span></p>
+        <ul>
+            <li>
+            <p>Contabilidad</p>
+            </li>
+            <li>
+            <p>Gesti&oacute;n empresarial (con certificados en Publicidad, Ciberseguridad, Ciencia de datos, Medios digitales y redes sociales, Emprendimiento, Finanzas, Gesti&oacute;n general, Gesti&oacute;n sanitaria, Hosteler&iacute;a, Recursos humanos, Sistemas de informaci&oacute;n, Estudios laborales o Programaci&oacute;n y desarrollo)</p>
+            </li>
+            <li>
+            <p>Justicia penal</p>
+            </li>
+            <li>
+            <p>Formaci&oacute;n docente</p>
+            </li>
+            <li>
+            <p>Estudio individualizado</p>
+            </li>
+            <li>
+            <p>Asistente legal</p>
+            </li>
+            <li>
+            <p>Asesor de paciente en el hogar <sup>4</sup></p>
+            </li>
+            <li>
+            <p>Administraci&oacute;n de salud (asociado en artes)</p>
+            </li>
+            <li>
+            <p>Servicios de salud m&eacute;dica</p>
+            </li>
+            <li>
+            <p>Certificado de asistente legal</p>
+            </li>
+        </ul>
+        <p>Los miembros de SEIU y sus familiares que cumplan los requisitos tambi&eacute;n pueden inscribirse en otros programas en l&iacute;nea en EGCC, como Codificaci&oacute;n m&eacute;dica, Gesti&oacute;n de informaci&oacute;n de salud, TI, Ciencias del fuego y m&aacute;s, pero es posible que los estudiantes deban pagar por el contenido estricto reconocido por la industria para algunos cursos.</p>
+        <p><strong>Licenciatura</strong><br />
+        <em>Tenga en cuenta: los cursos solo est&aacute;n disponibles en ingl&eacute;s.</em></p>
+        <p>Licenciaturas<sup>5</sup> disponibles en:</p>
+        <ul>
+            <li>
+            <p>Administraci&oacute;n de empresas</p>
+            </li>
+            <li>
+            <p>Justicia penal</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: educaci&oacute;n preescolar</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: especialista en intervenci&oacute;n</p>
+            </li>
+        </ul>
+        <p>Lea nuestra secci&oacute;n de <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese gratis al 1-855-469-SEIU (7348) para hablar con un asesor.</p>
+        <p>Consulte a continuaci&oacute;n para inscribirse a los programas t&eacute;cnicos o licenciatura o diploma y recibir un beneficio universitario gratuito de SEIU:</p>
+        <ol>
+            <li>
+            <p>Reg&iacute;strese o inicie sesi&oacute;n en su cuenta de SEIU y haga clic en Comenzar.</p>
+            </li>
+            <li>
+            <p>Llene la solicitud en l&iacute;nea de CSU o EGCC.</p>
+            </li>
+            <li>
+            <p>Llene la Solicitud Gratuita de Ayuda Federal para Estudiantes (FAFSA, por sus siglas en ingl&eacute;s) y env&iacute;e cualquier comprobante que se le pida. Cualquier beca de subvenci&oacute;n debe aplicarse a los cobros de colegiatura, cuotas y libros electr&oacute;nicos. El c&oacute;digo escolar de CSU es 003026 y el c&oacute;digo escolar de EGCC es 007275.</p>
+            </li>
+            <li>
+            <p>4.	Verifique que haya recibido un diploma de preparatoria o su equivalente enviando expedientes oficiales a CSU<sup>6</sup> o EGCC.</p>
+            </li>
+        </ol>
+        <p>&iexcl;Eso es todo! La prestaci&oacute;n de universidad gratuita de SEIU cubre la diferencia entre las becas educativas federales, estatales o por parte de su trabajo que reciba y el costo de colegiatura, cuotas y libros electr&oacute;nicos.</p>
+        <p>D&eacute; el siguiente paso hacia su futuro: &iexcl;solicite ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "&iexcl;Obtenga un t&iacute;tulo o certificado de asociado en l&iacute;nea <em>gratis</em>, sin pagar matr&iacute;cula, tarifas ni libros electr&oacute;nicos! &iexcl;Y ahora ofrecemos un programa de finalizaci&oacute;n de licenciatura!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "OBT&Eacute;N UN T&Iacute;TULO O DIPLOMA T&Eacute;CNICO EN L&Iacute;NEA <em>GRATIS</em>; &iexcl;NO PAGUES NADA POR LA MATR&Iacute;CULA, LAS CUOTAS O LOS LIBROS ELECTR&Oacute;NICOS!"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201118T183045Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9BD1E9A2-ADF0-433E-A982-789981449270}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{7A81C5FF-3E13-42AA-8E3B-A54F5B208AD0}"
+              p:after="r[@uid='{9BD1E9A2-ADF0-433E-A982-789981449270}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{878D0538-CCED-457E-82B6-7E221C25F40A}" alt="SEIU Member Benefits en asociación con Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201211T164122Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los miembros de SEIU que cumplen los requisitos son miembros y sus c&oacute;nyuges, parejas dom&eacute;sticas, hijos, padres, hermanos y dependientes econ&oacute;micos que pagan cuotas &iacute;ntegras y est&aacute;n al d&iacute;a. Los jubilados y sus familias tambi&eacute;n pueden cumplir los requisitos.</p>
+        <br />
+        <p>2. Eastern Gateway Community College es parte del University System of Ohio y est&aacute; acreditado regionalmente por la Higher Learning Commission (HLC).</p>
+        <br />
+        <p>3. Central State University es parte del University System of Ohio y est&aacute; acreditada regionalmente por la  Higher Learning Commission (HLC).</p>
+        <br />
+        <p>4. Programa certificado &uacute;nicamente.</p>
+        <br />
+        <p>5. Los estudiantes deben tener un t&iacute;tulo t&eacute;cnico o m&aacute;s de 60 cr&eacute;ditos transferibles en el programa de su elecci&oacute;n, con un CGPA de 2.2 o m&aacute;s para inscribirse en los programas para terminar la licenciatura. Los estudiantes que necesiten obtener cr&eacute;ditos de prerequisitos o aumentar su CGPA pueden hacerlo a trav&eacute;s de EGCC.</p>
+        <br />
+        <p>6. Deber&aacute; enviar los expedientes acad&eacute;micos oficiales de cada instituto o universidad a la que haya asistido. No env&iacute;e expedientes no oficiales a menos que se soliciten espec&iacute;ficamente. Env&iacute;e sus expedientes por correo electr&oacute;nico seguro a uniontranscripts@centralstate.edu. Env&iacute;e en formato PDF con su NOMBRE y APELLIDO incluido en el nombre del archivo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Tiene alguna pregunta? Llame al 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Obt&eacute;n un T&iacute;tulo o certificado de asociado... &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>Termine su licenciatura, &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>No pague colegiatura, cuotas o libros electr&oacute;nicos: &iexcl;un ahorro de al menos $20 000!</p>
+            </li>
+            <li>
+            <p>Disponible para miembros de SEIU y sus familias que cumplan los requisitos <sup>1</sup></p>
+            </li>
+            <li>
+            <p>Elija entre varios programas en l&iacute;nea ofrecidos por Eastern Gateway Community College (EGCC)<sup>2</sup> y Central State University (CSU)<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>&iexcl;Su t&iacute;tulo universitario est&aacute; al alcance!</p>
+        <p>Las becas federales, estatales y por parte de su trabajo no siempre cubren el costo total de obtener un t&iacute;tulo en l&iacute;nea. SEIU se enorgullece de asociarse con Eastern Gateway Community College y Central State University para ayudar a los estudiantes que cumplen los requisitos a cubrir la brecha financiera.</p>
+        <p><strong>T&iacute;tulo o certificado de asociado</strong><br />
+        <em>Tenga en cuenta: los cursos solo est&aacute;n disponibles en ingl&eacute;s.</em></p>
+        <p><span style="font-size: inherit; font-family: helvetica_neue;">EGCC da la bienvenida a cualquier persona con un diploma de preparatoria o Diploma General de Equivalencia (GED) sin importar su desempe&ntilde;o acad&eacute;mico anterior. T&iacute;tulos o diplomas t&eacute;cnicos disponibles en:</span></p>
+        <ul>
+            <li>
+            <p>Contabilidad</p>
+            </li>
+            <li>
+            <p>Gesti&oacute;n empresarial (con certificados en Publicidad, Ciberseguridad, Ciencia de datos, Medios digitales y redes sociales, Emprendimiento, Finanzas, Gesti&oacute;n general, Gesti&oacute;n sanitaria, Hosteler&iacute;a, Recursos humanos, Sistemas de informaci&oacute;n, Estudios laborales o Programaci&oacute;n y desarrollo)</p>
+            </li>
+            <li>
+            <p>Justicia penal</p>
+            </li>
+            <li>
+            <p>Formaci&oacute;n docente</p>
+            </li>
+            <li>
+            <p>Estudio individualizado</p>
+            </li>
+            <li>
+            <p>Asistente legal</p>
+            </li>
+            <li>
+            <p>Asesor de paciente en el hogar <sup>4</sup></p>
+            </li>
+            <li>
+            <p>Administraci&oacute;n de salud (asociado en artes)</p>
+            </li>
+            <li>
+            <p>Servicios de salud m&eacute;dica</p>
+            </li>
+            <li>
+            <p>Certificado de asistente legal</p>
+            </li>
+        </ul>
+        <p>Los miembros de SEIU y sus familiares que cumplan los requisitos tambi&eacute;n pueden inscribirse en otros programas en l&iacute;nea en EGCC, como Codificaci&oacute;n m&eacute;dica, Gesti&oacute;n de informaci&oacute;n de salud, TI, Ciencias del fuego y m&aacute;s, pero es posible que los estudiantes deban pagar por el contenido estricto reconocido por la industria para algunos cursos.</p>
+        <p><strong>Licenciatura</strong><br />
+        <em>Tenga en cuenta: los cursos solo est&aacute;n disponibles en ingl&eacute;s.</em></p>
+        <p>Licenciaturas<sup>5</sup> disponibles en:</p>
+        <ul>
+            <li>
+            <p>Administraci&oacute;n de empresas</p>
+            </li>
+            <li>
+            <p>Justicia penal</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: educaci&oacute;n preescolar</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: especialista en intervenci&oacute;n</p>
+            </li>
+            <li>
+            <p>Estudios interdisciplinares/Humanidades</p>
+            </li>
+        </ul>
+        <p>Lea nuestra secci&oacute;n de <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese gratis al 1-855-469-SEIU (7348) para hablar con un asesor.</p>
+        <p>Consulte a continuaci&oacute;n para inscribirse a los programas t&eacute;cnicos o licenciatura o diploma y recibir un beneficio universitario gratuito de SEIU:</p>
+        <ol>
+            <li>
+            <p>Reg&iacute;strese o inicie sesi&oacute;n en su cuenta de SEIU y haga clic en Comenzar.</p>
+            </li>
+            <li>
+            <p>Llene la solicitud en l&iacute;nea de CSU o EGCC.</p>
+            </li>
+            <li>
+            <p>Llene la Solicitud Gratuita de Ayuda Federal para Estudiantes (FAFSA, por sus siglas en ingl&eacute;s) y env&iacute;e cualquier comprobante que se le pida. Cualquier beca de subvenci&oacute;n debe aplicarse a los cobros de colegiatura, cuotas y libros electr&oacute;nicos. El c&oacute;digo escolar de CSU es 003026 y el c&oacute;digo escolar de EGCC es 007275.</p>
+            </li>
+            <li>
+            <p>4.	Verifique que haya recibido un diploma de preparatoria o su equivalente enviando expedientes oficiales a CSU<sup>6</sup> o EGCC.</p>
+            </li>
+        </ol>
+        <p>&iexcl;Eso es todo! La prestaci&oacute;n de universidad gratuita de SEIU cubre la diferencia entre las becas educativas federales, estatales o por parte de su trabajo que reciba y el costo de colegiatura, cuotas y libros electr&oacute;nicos.</p>
+        <p>D&eacute; el siguiente paso hacia su futuro: &iexcl;solicite ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "&iexcl;Obtenga un t&iacute;tulo o certificado de asociado en l&iacute;nea <em>gratis</em>, sin pagar matr&iacute;cula, tarifas ni libros electr&oacute;nicos! &iexcl;Y ahora ofrecemos un programa de finalizaci&oacute;n de licenciatura!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "OBT&Eacute;N UN T&Iacute;TULO O DIPLOMA T&Eacute;CNICO EN L&Iacute;NEA <em>GRATIS</em>; &iexcl;NO PAGUES NADA POR LA MATR&Iacute;CULA, LAS CUOTAS O LOS LIBROS ELECTR&Oacute;NICOS!"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201211T164122Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9BD1E9A2-ADF0-433E-A982-789981449270}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{E088A3C0-35C2-4A1F-8FC0-0B906C3295ED}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{7A81C5FF-3E13-42AA-8E3B-A54F5B208AD0}"
+              p:after="r[@uid='{9BD1E9A2-ADF0-433E-A982-789981449270}']"
+              s:ds="{3F9B1E9C-EDCC-4691-86D8-5ABA7578F160}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Con el SEIU Beneficio Gratuito de la Universidad, miembros elegibles de SEIU y sus familias pueden obtener un título asociado o certificado en línea sin tener que pagar la matrícula, las tarifas o los libros electrónicos.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{878D0538-CCED-457E-82B6-7E221C25F40A}" alt="SEIU Member Benefits en asociación con Eastern Gateway Community College" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T120941Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Los miembros de SEIU que cumplen los requisitos son miembros y sus c&oacute;nyuges, parejas dom&eacute;sticas, hijos, padres, hermanos y dependientes econ&oacute;micos que pagan cuotas &iacute;ntegras y est&aacute;n al d&iacute;a. Los jubilados y sus familias tambi&eacute;n pueden cumplir los requisitos.</p>
+        <br />
+        <p>2. Eastern Gateway Community College es parte del University System of Ohio y est&aacute; acreditado regionalmente por la Higher Learning Commission (HLC).</p>
+        <br />
+        <p>3. Central State University es parte del University System of Ohio y est&aacute; acreditada regionalmente por la  Higher Learning Commission (HLC).</p>
+        <br />
+        <p>4. Programa certificado &uacute;nicamente.</p>
+        <br />
+        <p>5. Los estudiantes deben tener un t&iacute;tulo t&eacute;cnico o m&aacute;s de 60 cr&eacute;ditos transferibles en el programa de su elecci&oacute;n, con un CGPA de 2.2 o m&aacute;s para inscribirse en los programas para terminar la licenciatura. Los estudiantes que necesiten obtener cr&eacute;ditos de prerequisitos o aumentar su CGPA pueden hacerlo a trav&eacute;s de EGCC.</p>
+        <br />
+        <p>6. Deber&aacute; enviar los expedientes acad&eacute;micos oficiales de cada instituto o universidad a la que haya asistido. No env&iacute;e expedientes no oficiales a menos que se soliciten espec&iacute;ficamente. Env&iacute;e sus expedientes por correo electr&oacute;nico seguro a uniontranscripts@centralstate.edu. Env&iacute;e en formato PDF con su NOMBRE y APELLIDO incluido en el nombre del archivo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Tiene alguna pregunta? Llame al 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de miembro de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ Beneficio Gratuito de la Universidad
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Obt&eacute;n un T&iacute;tulo o certificado de asociado... &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>Termine su licenciatura, &iexcl;gratis!</p>
+            </li>
+            <li>
+            <p>No pague colegiatura, cuotas o libros electr&oacute;nicos: &iexcl;un ahorro de al menos $20 000!</p>
+            </li>
+            <li>
+            <p>Disponible para miembros de SEIU y sus familias que cumplan los requisitos <sup>1</sup></p>
+            </li>
+            <li>
+            <p>Elija entre varios programas en l&iacute;nea ofrecidos por Eastern Gateway Community College (EGCC)<sup>2</sup> y Central State University (CSU)<sup>3</sup></p>
+            </li>
+        </ul>
+        <p>&iexcl;Su t&iacute;tulo universitario est&aacute; al alcance!</p>
+        <p>Las becas federales, estatales y por parte de su trabajo no siempre cubren el costo total de obtener un t&iacute;tulo en l&iacute;nea. SEIU se enorgullece de asociarse con Eastern Gateway Community College y Central State University para ayudar a los estudiantes que cumplen los requisitos a cubrir la brecha financiera.</p>
+        <p><strong>T&iacute;tulo o certificado de asociado</strong><br />
+        <em>Tenga en cuenta: los cursos solo est&aacute;n disponibles en ingl&eacute;s.</em></p>
+        <p><span style="font-size: inherit; font-family: helvetica_neue;">EGCC da la bienvenida a cualquier persona con un diploma de preparatoria o Diploma General de Equivalencia (GED) sin importar su desempe&ntilde;o acad&eacute;mico anterior. T&iacute;tulos o diplomas t&eacute;cnicos disponibles en:</span></p>
+        <ul>
+            <li>
+            <p>Contabilidad</p>
+            </li>
+            <li>
+            <p>Gesti&oacute;n empresarial (con certificados en Publicidad, Ciberseguridad, Ciencia de datos, Medios digitales y redes sociales, Emprendimiento, Finanzas, Gesti&oacute;n general, Gesti&oacute;n sanitaria, Hosteler&iacute;a, Recursos humanos, Sistemas de informaci&oacute;n, Estudios laborales o Programaci&oacute;n y desarrollo)</p>
+            </li>
+            <li>
+            <p>Justicia penal</p>
+            </li>
+            <li>
+            <p>Formaci&oacute;n docente</p>
+            </li>
+            <li>
+            <p>Estudio individualizado</p>
+            </li>
+            <li>
+            <p>Asistente legal</p>
+            </li>
+            <li>
+            <p>Asesor de paciente en el hogar <sup>4</sup></p>
+            </li>
+            <li>
+            <p>Administraci&oacute;n de salud (asociado en artes)</p>
+            </li>
+            <li>
+            <p>Servicios de salud m&eacute;dica</p>
+            </li>
+            <li>
+            <p>Certificado de asistente legal</p>
+            </li>
+        </ul>
+        <p>Los miembros de SEIU y sus familiares que cumplan los requisitos tambi&eacute;n pueden inscribirse en otros programas en l&iacute;nea en EGCC, como Codificaci&oacute;n m&eacute;dica, Gesti&oacute;n de informaci&oacute;n de salud, TI, Ciencias del fuego y m&aacute;s, pero es posible que los estudiantes deban pagar por el contenido estricto reconocido por la industria para algunos cursos.</p>
+        <p><strong>Licenciatura</strong><br />
+        <em>Tenga en cuenta: los cursos solo est&aacute;n disponibles en ingl&eacute;s.</em></p>
+        <p>Licenciaturas<sup>5</sup> disponibles en:</p>
+        <ul>
+            <li>
+            <p>Administraci&oacute;n de empresas</p>
+            </li>
+            <li>
+            <p>Justicia penal</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: educaci&oacute;n preescolar</p>
+            </li>
+            <li>
+            <p>Educaci&oacute;n: especialista en intervenci&oacute;n</p>
+            </li>
+            <li>
+            <p>Estudios interdisciplinares/Humanidades</p>
+            </li>
+        </ul>
+        <p>Lea nuestra secci&oacute;n de <a href="~/link.aspx?_id=9457A609CC5342A5A41D46642EA68C4A&amp;_z=z">Preguntas frecuentes</a> o comun&iacute;quese gratis al 1-855-469-SEIU (7348) para hablar con un asesor.</p>
+        <p>Consulte a continuaci&oacute;n para inscribirse a los programas t&eacute;cnicos o licenciatura o diploma y recibir un beneficio universitario gratuito de SEIU:</p>
+        <ol>
+            <li>
+            <p>Reg&iacute;strese o inicie sesi&oacute;n en su cuenta de SEIU y haga clic en Comenzar.</p>
+            </li>
+            <li>
+            <p>Llene la solicitud en l&iacute;nea de CSU o EGCC.</p>
+            </li>
+            <li>
+            <p>Llene la Solicitud Gratuita de Ayuda Federal para Estudiantes (FAFSA, por sus siglas en ingl&eacute;s) y env&iacute;e cualquier comprobante que se le pida. Cualquier beca de subvenci&oacute;n debe aplicarse a los cobros de colegiatura, cuotas y libros electr&oacute;nicos. El c&oacute;digo escolar de CSU es 003026 y el c&oacute;digo escolar de EGCC es 007275.</p>
+            </li>
+            <li>
+            <p>4.	Verifique que haya recibido un diploma de preparatoria o su equivalente enviando expedientes oficiales a CSU<sup>6</sup> o EGCC.</p>
+            </li>
+        </ol>
+        <p>&iexcl;Eso es todo! La prestaci&oacute;n de universidad gratuita de SEIU cubre la diferencia entre las becas educativas federales, estatales o por parte de su trabajo que reciba y el costo de colegiatura, cuotas y libros electr&oacute;nicos.</p>
+        <p>D&eacute; el siguiente paso hacia su futuro: &iexcl;solicite ahora!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A7F81E7-9E31-4544-96DF-C0CA1E484689}" alt="SEIU Beneficio Gratuito de la Universidad" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://freecollege.seiumb.com/request-information/?mid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "&iexcl;Obtenga un t&iacute;tulo o certificado de asociado en l&iacute;nea <em>gratis</em>, sin pagar matr&iacute;cula, tarifas ni libros electr&oacute;nicos! &iexcl;Y ahora ofrecemos un programa de finalizaci&oacute;n de licenciatura!"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "OBT&Eacute;N UN T&Iacute;TULO O DIPLOMA T&Eacute;CNICO EN L&Iacute;NEA <em>GRATIS</em>; &iexcl;NO PAGUES NADA POR LA MATR&Iacute;CULA, LAS CUOTAS O LOS LIBROS ELECTR&Oacute;NICOS!"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T120941Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Beneficio Gratuito de la Universidad
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"

@@ -1,0 +1,26 @@
+﻿---
+ID: "715be624-0898-4b46-8983-e9957e6530ea"
+Parent: "dc1d94e5-2226-44fb-bcb0-f8c5aae57dab"
+Template: "dc1d94e5-2226-44fb-bcb0-f8c5aae57dab"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Cards/_CarouselItem/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180511T174345Z
+    - ID: "346d7557-569e-4d27-952d-cd2d66c98f94"
+      Hint: Image
+      Value: |
+        <image mediaid="{DF43B744-7645-4D3B-881A-90919322C3AB}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "aea99c72-7fb3-4d2a-903f-fee20c59cf2e"
+      Hint: Pull Text
+      Type: TreelistEx
+      Value: 

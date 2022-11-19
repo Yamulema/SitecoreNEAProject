@@ -1,0 +1,25 @@
+﻿---
+ID: "31863ec2-5813-4d45-9d64-77268991b0e1"
+Parent: "a6db2d17-7a1b-46c0-90f7-67d78f4d1e32"
+Template: "a6db2d17-7a1b-46c0-90f7-67d78f4d1e32"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_RetirementProduct/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221004T220419Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6c5c54b4-ab4f-44ed-84c3-76cdf8cb63aa"
+      Hint: Image
+      Value: |
+        <image mediaid="{7106B132-ADAB-4803-A735-89CFAC8BB7BC}" />
+    - ID: "7ed63802-7ab1-468f-9f8d-e272a26276d2"
+      Hint: Name
+      Value: $name

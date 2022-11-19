@@ -1,0 +1,57 @@
+﻿---
+ID: "f4debd0f-9016-462a-9c7c-63bdbb9f37c0"
+Parent: "4e36f1ee-c999-45c4-9e61-0703960be44f"
+Template: "619077d6-8e1c-4c66-ad05-5ffd8aad4412"
+Path: /sitecore/content/NEAMBC/Home/UITest/Global/UI Slides folder/Carousel Slide 4
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: The peace of mind felt when your saving and spending are balanced.
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link text="Find out how to achieve it" anchor="" linktype="internal" class="" title=""  querystring="" id="{CE785E47-4E91-4851-BF45-7777D3B86178}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171117T194820Z
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: "Welcome to HOT Member Benefits!"
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{A292D193-E165-40AD-BDDC-378C9B57DB04}" alt="The peace of mind felt when your saving and spending are balanced." height="" width="" hspace="" vspace="" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: La tranquilidad que se siente cuando sus ahorros y gastos están equilibrados.
+    - ID: "1ab01646-fa21-4f15-9ab9-6b50da9e76c7"
+      Hint: ReadMore
+      Value: |
+        <link text="Aprende más" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{CE785E47-4E91-4851-BF45-7777D3B86178}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T202003Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: "¿Qué es el bienestar financiero?"
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{A292D193-E165-40AD-BDDC-378C9B57DB04}" alt="La tranquilidad que se siente cuando sus ahorros y gastos están equilibrados." height="" width="" hspace="" vspace="" />

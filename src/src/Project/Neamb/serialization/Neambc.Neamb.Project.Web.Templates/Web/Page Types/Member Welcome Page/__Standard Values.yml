@@ -1,0 +1,101 @@
+﻿---
+ID: "7f0f997c-e993-4fd3-9e69-b6bac8e8e58a"
+Parent: "0e76a548-55c5-4705-8f47-7100cee06917"
+Template: "0e76a548-55c5-4705-8f47-7100cee06917"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Member Welcome Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{16C77F11-3FBA-4962-B5A6-279ECE2A4F40}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{A3EA2ED7-1F96-481B-807C-330BBB430EAF}" />
+        <r
+          id="{2C9AEF02-3807-4A4E-A363-90BEA2DE26D1}"
+          ph="chat-body"
+          uid="{582DE226-DF1B-4F95-914F-676AECCD5FD1}" />
+        <r
+          id="{58FB8453-7545-4AAC-BD62-0BF81A1FC547}"
+          ph="body"
+          uid="{F7AA41F5-2DAA-4085-9371-7505582D4889}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{D24D6FD3-149F-4FBA-9C5B-D943EA300645}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{A8E496D5-A50B-4C7B-B3CA-D6F17BB3E9BD}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "163c97e1-7bcb-4597-8dc1-c3fc7a9c9841"
+      Hint: Headline
+      Value: Welcome to NEA Member Benefits
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T211238Z
+    - ID: "476ced8d-15b7-4040-975b-e7a4e4d9fb4b"
+      Hint: Invalid Code
+      Value: We're sorry, but the membership ID number entered could not be found. Please try entering the number again.
+    - ID: "4aeaf3c2-7342-434d-a845-56de8f550c0d"
+      Hint: Description
+      Value: "We're glad to see you! Watch the video to learn how NEA Member Benefits can help. If you’re ready to access your benefits click “Register Now.”"
+    - ID: "4d8625ea-ddfe-4550-bd7e-0ba1764f9dea"
+      Hint: Show social share
+      Type: Checkbox
+      Value: 1
+    - ID: "528c2251-84e0-4f97-a7eb-01b2d80a1c2b"
+      Hint: Empty Code
+      Value: Please insert your membership ID.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "647b4493-8482-4c72-9136-3a4a1652eae2"
+      Hint: MDSID Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "d169adb0-f8ee-45f9-9df9-564dc8d5b229"
+      Hint: Fine Print
+      Value: |
+        *Please see the <a class="link-underline">complete rules</a> for details.
+    - ID: "d4bfc6b4-5acc-4145-8837-a1b1dabd6355"
+      Hint: Register
+      Value: Register Now
+    - ID: "e21d4748-85b4-4ac9-a26e-cba003ff6e80"
+      Hint: Cold
+      Value: "Don’t have your code? Chat with us or send us an e-mail"
+    - ID: "e4d3c9dc-e142-4be4-815c-a43334ae9924"
+      Hint: MDSID Max Lenght 
+      Value: You can enter only 10 characters in this field
+    - ID: "eb54d432-c49a-486d-b1ef-82e407979957"
+      Hint: Chat Icon text
+      Value: Chat Now
+    - ID: "f3853411-aa75-40f0-b8da-9d9150db030c"
+      Hint: Personal Code
+      Value: Personal Code
+    - ID: "fd04d7cf-09ea-4129-8a2b-19feebc11241"
+      Hint: Warm
+      Value: "Not []? "

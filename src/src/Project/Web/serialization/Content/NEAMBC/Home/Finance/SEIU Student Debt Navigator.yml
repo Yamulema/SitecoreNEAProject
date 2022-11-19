@@ -1,0 +1,1541 @@
+﻿---
+ID: "a2f23479-1eb3-41b4-bef6-82ff75a1e4fd"
+Parent: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Finance/SEIU Student Debt Navigator
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Learn More" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{7B9C19CE-254B-44EA-80C4-D7D63CD2B717}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190219T133047Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in a federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+        <hr />
+        <p>1. Source: <a rel="noopener noreferrer"  href="https://www.cnbc.com/2018/02/15/heres-how-much-the-average-student-loan-borrower-owes-when-they-graduate.html" target="_blank">https://www.cnbc.com/2018/02/15/heres-how-much-the-average-student-loan-borrower-owes-when-they-graduate.html</a></p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Forgiveness Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "HAVE QUESTIONS? PLEASE CALL US AT 1-844-836-7348."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT LOAN FORGIVENESS NAVIGATOR POWERED BY SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>Are you exasperated with managing your student loans?!</strong></p>
+        <p><strong>We can help!</strong></p>
+        <p>Did you know that depending on your occupation and/or employer, you may be able to have all or part of your federal student loans forgiven!</p>
+        <div style="float: right; margin-left: 20px; padding: 10px; border: 2px solid #4a327f; max-width: 300px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">According to CNBC, 70% of college students graduate with a significant amount of student loan debt. 44 million Americans collectively hold nearly $1.5 trillion in student debt, with the average being $37,172.<sup>1</sup></p>
+        </div>
+        <p>SEIU has partnered with Savi, a social impact startup company, to provide members a free online student loan evaluation tool to determine eligibility for federal repayment and forgiveness programs.  Just enter your basic information, employer, and loan information on their secure website, and the software will do the rest for <strong>FREE</strong>.  It will automatically determine your repayment options, including whether you qualify for any loan forgiveness program and show you what your potential savings could be.</p>
+        <p>Once you see your options, you can choose to apply for the programs yourself or use our new platform to apply electronically using the software&mdash;which includes the ability to talk to a student loan expert. The full cost of the service is $89.95 but, because you are an SEIU member, the cost is <strong>$29.95</strong>. That&rsquo;s a $60 savings just for being an SEIU member!</p>
+        <p>Start your journey to student loan freedom today.</p>
+        <p><strong>Have questions about the program?</strong> We&rsquo;re here to help! Please call us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{7B9C19CE-254B-44EA-80C4-D7D63CD2B717}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Forgiveness Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Start Your Journey Here" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Need help managing your student loans? Our easy and free online student loan evaluation tool will tell you if you’re eligible for any federal loan repayment or forgiveness programs."
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: START YOUR JOURNEY TO STUDENT LOAN FREEDOM.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Forgiveness Navigator
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Learn More" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190906T152119Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Loan Forgiveness Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT LOAN FORGIVENESS NAVIGATOR POWERED BY SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>SEIU can help you better understand your student loans.</strong></p>
+        <ul>
+            <li>
+            <p>Reduce or eliminate your federal student loan debt</p>
+            </li>
+            <li>
+            <p>Find out if you&rsquo;re eligible for federal student loan forgiveness programs&mdash;for free</p>
+            </li>
+            <li>
+            <p>Save $60 on Savi Essential service</p>
+            </li>
+            <li>
+            <p>Get one-on-one support from a student loan expert</p>
+            </li>
+            <li>
+            <p>Eligibility depends on your occupation and employer</p>
+            </li>
+        </ul>
+        <div style="float: right; margin-left: 20px; padding: 10px; border: 2px solid #4a327f; max-width: 300px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">According to CNBC, 70% of college students graduate with a significant amount of student loan debt. 44 million Americans collectively hold nearly $1.5 trillion in student debt, with the average being $37,172.<sup>1</sup></p>
+        </div>
+        <p>The SEIU Student Loan Forgiveness Navigator powered by Savi makes it easy to find out what federal student loan repayment or forgiveness programs you&rsquo;re eligible for.</p>
+        <p>Upload basic information about your income, your employer, and your loans, and the free Savi software does the rest. You&rsquo;ll instantly get matched with alternate repayment options, including loan forgiveness opportunities, and see your potential savings.</p>
+        <p>SEIU members can also simplify and automate the process of applying for repayment and forgiveness programs by enrolling in Savi Essential at a special rate of only <strong>$29.95</strong> (normally $89.95). You&rsquo;ll also get personalized one-on-one phone support about your loans and the loan forgiveness process.</p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Loan Forgiveness Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190906T152100Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Loan Forgiveness Navigator
+  - Version: 3
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Learn More" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T172854Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Debt Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT DEBT NAVIGATOR POWERED BY SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>SEIU can help you better understand your student loans.</strong></p>
+        <ul>
+            <li>
+            <p>Reduce or eliminate your federal student loan debt</p>
+            </li>
+            <li>
+            <p>Find out if you&rsquo;re eligible for federal student loan forgiveness programs&mdash;for free</p>
+            </li>
+            <li>
+            <p>Save $60 on Savi Essential service</p>
+            </li>
+            <li>
+            <p>Get one-on-one support from a student loan expert</p>
+            </li>
+            <li>
+            <p>Eligibility depends on your occupation and employer</p>
+            </li>
+        </ul>
+        <div style="float: right; margin-left: 20px; padding: 10px; border: 2px solid #4a327f; max-width: 300px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">According to CNBC, 70% of college students graduate with a significant amount of student loan debt. 44 million Americans collectively hold nearly $1.5 trillion in student debt, with the average being $37,172.<sup>1</sup></p>
+        </div>
+        <p>The SEIU Student Debt Navigator powered by Savi makes it easy to find out what federal student loan repayment or forgiveness programs you&rsquo;re eligible for.</p>
+        <p>Upload basic information about your income, your employer, and your loans, and the free Savi software does the rest. You&rsquo;ll instantly get matched with alternate repayment options, including loan forgiveness opportunities, and see your potential savings.</p>
+        <p>SEIU members can also simplify and automate the process of applying for repayment and forgiveness programs by enrolling in Savi Essential at a special rate of only <strong>$29.95</strong> (normally $89.95). You&rsquo;ll also get personalized one-on-one phone support about your loans and the loan forgiveness process.</p>
+        <p>Take your next step toward freedom from student loan debt now!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200707T172800Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Debt Navigator
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Learn More" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T201435Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Debt Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT DEBT NAVIGATOR POWERED BY SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">With the CARES Act federal relief scheduled to end on December 31, 2020, payments will resume in January 2021.<br />
+        Savi can help ensure your student loans are in order.</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Better understand and manage your federal student loans &ndash; saving you time and money</p>
+            </li>
+            <li>
+            <p>Get personalized repayment options and determine your eligibility for loan forgiveness</p>
+            </li>
+            <li>
+            <p>Receive one-on-one support from student loan experts</p>
+            </li>
+        </ul>
+        <p>The SEIU Student Debt Navigator powered by Savi makes it easy to find out what federal student loan repayment or forgiveness programs you&rsquo;re eligible for.</p>
+        <p>Answer basic questions about your income and employment and the Savi program will find the best options for you, including loan forgiveness opportunities and potential savings.  SEIU members have been able to reduce their student loan payments by an average of $171 a month.</p>
+        <p>The online calculator will allow you to determine your repayment options and show you what your potential savings could be for FREE. Once you see your options, you can choose to apply for the programs yourself or take advantage of the convenient e-filing service and get 1-on-1 support from student loan experts for a discounted rate.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200707T201435Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Debt Navigator
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201119T184737Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Debt Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT DEBT NAVIGATOR POWERED BY SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">With the CARES Act federal relief scheduled to end on December 31, 2020, payments will resume in January 2021.<br />
+        Savi can help ensure your student loans are in order.</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Better understand and manage your federal student loans &ndash; saving you time and money</p>
+            </li>
+            <li>
+            <p>Get personalized repayment options and determine your eligibility for loan forgiveness</p>
+            </li>
+            <li>
+            <p>Receive one-on-one support from student loan experts</p>
+            </li>
+        </ul>
+        <p>The SEIU Student Debt Navigator powered by Savi makes it easy to find out what federal student loan repayment or forgiveness programs you&rsquo;re eligible for.</p>
+        <p>Answer basic questions about your income and employment and the Savi program will find the best options for you, including loan forgiveness opportunities and potential savings.  SEIU members have been able to reduce their student loan payments by an average of $171 a month.</p>
+        <p>The online calculator will allow you to determine your repayment options and show you what your potential savings could be for FREE. Once you see your options, you can choose to apply for the programs yourself or take advantage of the convenient e-filing service and get 1-on-1 support from student loan experts for a discounted rate.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201119T184737Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Debt Navigator
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T153129Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Debt Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT DEBT NAVIGATOR POWERED BY SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">The pause on federal student loan payments has been extended until September 30, 2021. Find out if you are eligible and on track for forgiveness and other cost-saving measures, even after the suspension of payments ends.<br />
+        You could be one-sixth of the way toward loan forgiveness without making any payments!</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Better understand and manage your federal student loans &ndash; saving you time and money</p>
+            </li>
+            <li>
+            <p>Get personalized repayment options and determine your eligibility for loan forgiveness</p>
+            </li>
+            <li>
+            <p>Receive one-on-one support from student loan experts</p>
+            </li>
+        </ul>
+        <p>The SEIU Student Debt Navigator powered by Savi makes it easy to find out what federal student loan repayment or forgiveness programs you&rsquo;re eligible for.</p>
+        <p>Answer basic questions about your income and employment and the Savi program will find the best options for you, including loan forgiveness opportunities and potential savings.  SEIU members have been able to reduce their student loan payments by an average of $171 a month.</p>
+        <p>The online calculator will allow you to determine your repayment options and show you what your potential savings could be for FREE. Once you see your options, you can choose to apply for the programs yourself or take advantage of the convenient e-filing service and get 1-on-1 support from student loan experts for a discounted rate.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T153129Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Debt Navigator
+  - Version: 7
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T121424Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Debt Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT DEBT NAVIGATOR POWERED BY SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">The pause on federal student loan payments has been extended until September 30, 2021. Find out if you are eligible and on track for forgiveness and other cost-saving measures, even after the suspension of payments ends.<br />
+        You could be one-sixth of the way toward loan forgiveness without making any payments!</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Better understand and manage your federal student loans &ndash; saving you time and money</p>
+            </li>
+            <li>
+            <p>Get personalized repayment options and determine your eligibility for loan forgiveness</p>
+            </li>
+            <li>
+            <p>Receive one-on-one support from student loan experts</p>
+            </li>
+        </ul>
+        <p>The SEIU Student Debt Navigator powered by Savi makes it easy to find out what federal student loan repayment or forgiveness programs you&rsquo;re eligible for.</p>
+        <p>Answer basic questions about your income and employment and the Savi program will find the best options for you, including loan forgiveness opportunities and potential savings.  SEIU members have been able to reduce their student loan payments by an average of $171 a month.</p>
+        <p>The online calculator will allow you to determine your repayment options and show you what your potential savings could be for FREE. Once you see your options, you can choose to apply for the programs yourself or take advantage of the convenient e-filing service and get 1-on-1 support from student loan experts for a discounted rate.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T121424Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 8
+    Fields:
+    - ID: "01604bf5-3fc0-4fdd-a404-5cee9e257e8b"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT DEBT NAVIGATOR POWERED BY SAVI
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0a96fcf5-cfdb-4e89-9ff0-b6b89bf7c3c5"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{FC06CE52-56A7-4AF1-99F8-30EC826677B4}" alt="SEIU Member Benefits in partnership with Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210825T210932Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>IMPORTANT INFORMATION</strong></p>
+        <p>
+        Borrowers are solely responsible for any determination to enroll in an Income-Driven Repayment and/or federal loan forgiveness programs. SEIU and its affiliates cannot be held liable for borrowers&rsquo; decision to enroll or not enroll in federal student loan repayment or loan forgiveness programs.<br />
+        &nbsp;</p>
+        <p>
+        Borrowers can access student loan repayment and forgiveness options and start the enrollment process at the Department of Education at no charge.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Student Debt Navigator
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ STUDENT DEBT NAVIGATOR POWERED BY SAVI
+    - ID: "6c2403a3-49d8-4271-8870-37c34e28827c"
+      Hint: PromoDescription
+      Value: "QUESTIONS? CALL 1-844-836-7348."
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{700554AB-0BC3-4565-BD9C-6938B0ED95B5}"
+    - ID: "73439579-c325-4e3e-80e1-b7f4dfef67c5"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{700554AB-0BC3-4565-BD9C-6938B0ED95B5}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">The pause on federal student loan payments has been extended until January 31, 2022. Find out if you are eligible and on track for forgiveness and other cost-saving measures, even after the suspension of payments ends.<br />
+        You could be one-sixth of the way toward loan forgiveness without making any payments!</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Better understand and manage your federal student loans &ndash; saving you time and money</p>
+            </li>
+            <li>
+            <p>Get personalized repayment options and determine your eligibility for loan forgiveness</p>
+            </li>
+            <li>
+            <p>Receive one-on-one support from student loan experts</p>
+            </li>
+        </ul>
+        <p>The SEIU Student Debt Navigator powered by Savi makes it easy to find out what federal student loan repayment or forgiveness programs you&rsquo;re eligible for.</p>
+        <p>Answer basic questions about your income and employment and the Savi program will find the best options for you, including loan forgiveness opportunities and potential savings.  SEIU members have been able to reduce their student loan payments by an average of $171 a month.</p>
+        <p>The online calculator will allow you to determine your repayment options and show you what your potential savings could be for FREE. Once you see your options, you can choose to apply for the programs yourself or take advantage of the convenient e-filing service and get 1-on-1 support from student loan experts for a discounted rate.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "b813686b-22e3-4ce6-b86c-6e693ae7cf85"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Freedom from student loan debt is possible. SEIU and Savi make the process easy to manage.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210825T210932Z
+    - ID: "cdd383d2-84b7-40b7-9189-ae2dedb84000"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Student Debt Navigator
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Necesitas ayuda para administrar tus préstamos estudiantiles? Nuestra sencilla herramienta de evaluación de préstamos estudiantiles en Internet te informará si reúnes los requisitos para algún programa federal de reembolso o condonación de préstamos. Además, el uso de la herramienta es totalmente gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{7B9C19CE-254B-44EA-80C4-D7D63CD2B717}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{9FC31063-A980-4EB1-8345-564067A3DB9C}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190219T135142Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACIÓN IMPORTANTE</strong></p>
+        <p>
+        Los prestatarios son los responsables exclusivos de cualquier determinación de inscribirse en un programa de reembolso basado en ingresos o de condonación de préstamos federales. SEIU y sus filiales no asumen ninguna responsabilidad en relación con la decisión de los prestatarios de inscribirse o no en un programa federal de reembolso de préstamos estudiantiles o de condonación de préstamos.<br />
+        &nbsp;</p>
+        <p>
+        Los prestatarios pueden acceder a las opciones de pago y condonación de préstamos estudiantiles y comenzar el proceso de inscripción en el Departamento de Educación de forma gratuita.</p>
+        <hr />
+        <p>1. Fuente: <a rel="noopener noreferrer"  href="https://www.cnbc.com/2018/02/15/heres-how-much-the-average-student-loan-borrower-owes-when-they-graduate.html" target="_blank">https://www.cnbc.com/2018/02/15/heres-how-much-the-average-student-loan-borrower-owes-when-they-graduate.html</a></p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Consulta de Condonación de Préstamos Estudiantiles de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "¿TIENES ALGUNA DUDA? COMUNÍCATE CON NOSOTROS LLAMANDO AL 1-844-836-7348."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>¿Estás exasperado con la administración de tus préstamos estudiantiles?</strong></p>
+        <p><strong>¡Podemos ayudar!</strong></p>
+        <p>¿Sabías que según tu ocupación o empleador es posible que recibas el beneficio de condonación de todo o parte de tus préstamos estudiantiles federales?</p>
+        <div style="float: right; margin-left: 20px; padding: 10px; border: 2px solid #4a327f; max-width: 300px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Según la CNBC, el 70% de los estudiantes universitarios se gradúan con una deuda significativa debido a sus préstamos estudiantiles. 44 millones de estadounidenses acumulan, colectivamente, unos $1.5 millones de billones en deuda estudiantil, con un promedio de $37,172 per cápita.<sup>1</sup></p>
+        </div>
+        <p>SEIU se asoció con Savi, una empresa emergente de impacto social, para proporcionar a los miembros una herramienta gratuita de evaluación de préstamos estudiantiles en Internet a fin de determinar la elegibilidad para los programas federales de reembolso y condonación. Simplemente ingresa tu información básica, el empleador y la información de préstamo en su sitio web seguro, y el software hará el resto SIN COSTO ALGUNO. Determinará automáticamente tus opciones de pago, incluso si calificas para algún programa de condonación de préstamos; además, te mostrará cuáles podrían ser tus ahorros potenciales.</p>
+        <p>Una vez que veas tus opciones, puedes optar por solicitar los programas tú mismo o usar nuestra nueva plataforma para solicitarlos electrónicamente utilizando el software, que incluye la posibilidad de hablar con un experto en préstamos estudiantiles. El costo total del servicio es de $89.95, pero como eres miembro de SEIU, el costo es de $29.95. Esto representa un ahorro de $60 solo por ser un miembro de SEIU.</p>
+        <p>Comienza hoy mismo tu viaje hacia la cancelación de tu préstamo estudiantil.</p>
+        <p><strong>¿Tienes alguna duda sobre el programa? Estamos aquí para ayudarte. Comunícate con nosotros llamando al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{7B9C19CE-254B-44EA-80C4-D7D63CD2B717}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comienza aquí" linktype="external" url="https://seiumb.bysavi.com/" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Nuestra sencilla herramienta de evaluaci&oacute;n de pr&eacute;stamos estudiantiles te informar&aacute; si re&uacute;nes los requisitos para alg&uacute;n programa federal de reembolso o condonaci&oacute;n de pr&eacute;stamos. Adem&aacute;s, el uso de la herramienta es totalmente gratuito.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 1
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Controle su deuda de préstamos estudiantiles
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Consulta de Condonación de Préstamos Estudiantiles de SEIU℠ con el Respaldo de Savi
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Necesitas ayuda para administrar tus préstamos estudiantiles? Nuestra sencilla herramienta de evaluación de préstamos estudiantiles en Internet te informará si reúnes los requisitos para algún programa federal de reembolso o condonación de préstamos. Además, el uso de la herramienta es totalmente gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{9FC31063-A980-4EB1-8345-564067A3DB9C}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190906T173320Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>
+        Los prestatarios son los &uacute;nicos responsables de cualquier decisi&oacute;n de inscribirse en un programa de pago basado en el ingreso y/o en un programa federal de condonaci&oacute;n de deuda. SEIU y sus filiales no son responsables de la decisi&oacute;n del prestatario de inscribirse o no inscribirse en un programa federal de pago de pr&eacute;stamo estudiantil o en un programa de condonaci&oacute;n de deuda.<br />
+        &nbsp;</p>
+        <p>
+        Los prestatarios pueden acceder a opciones de de pago de pr&eacute;stamo estudiantil y de condonaci&oacute;n y comenzar el proceso de inscripci&oacute;n en el Departamento de Educaci&oacute;n sin cargo.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Consulta de Condonación de Préstamos Estudiantiles de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;PREGUNTAS? LIAME AL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Registrarse o iniciar sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>SEIU puede ayudarte a entender mejor tus pr&eacute;stamos estudiantiles.</strong></p>
+        <ul>
+            <li>
+            <p>Reduce o elimina la deuda de tu pr&eacute;stamo estudiantil federales</p>
+            </li>
+            <li>
+            <p>Descubre si calificas para programas federales de condonaci&oacute;n de deuda estudiantil &mdash; gratis</p>
+            </li>
+            <li>
+            <p>Ahorra $60 en el servicio Savi Esencial</p>
+            </li>
+            <li>
+            <p>Obt&eacute;n soporte personalizado de un experto en pr&eacute;stamos estudiantiles</p>
+            </li>
+            <li>
+            <p>La elegibilidad depende tu ocupaci&oacute;n y de tu empleado</p>
+            </li>
+        </ul>
+        <div style="float: right; margin-left: 20px; padding: 10px; border: 2px solid #4a327f; max-width: 300px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Seg&uacute;n la CNBC, el 70% de los estudiantes universitarios se grad&uacute;an con una deuda significativa debido a sus pr&eacute;stamos estudiantiles. 44 millones de estadounidenses acumulan, colectivamente, unos $1.5 millones de billones en deuda estudiantil, con un promedio de $37,172 per c&aacute;pita.<sup>1</sup></p>
+        </div>
+        <p>El Navegador de condonaci&oacute;n de pr&eacute;stamos estudiantiles de la Uni&oacute;n Internacional de Empleados de Servicios (SEIU) impulsado por Savi, hace que sea f&aacute;cil encontrar para qu&eacute; programas federales de pago o condonaci&oacute;n de deuda estudiantil eres elegible. </p>
+        <p>Cargue informaci&oacute;n b&aacute;sica sobre tus ingresos, tu empleador, tus pr&eacute;stamos y el software <em>gratuito</em> Savi har&aacute; el resto. Ser&aacute;s instant&aacute;neamente conectado con opciones alternativas de pago, las cuales incluyen oportunidades de condonaci&oacute;n de pr&eacute;stamos, y ver&aacute;s tu ahorro potencial. </p>
+        <p>Los miembros de SEIU tambi&eacute;n pueden simplificar y automatizar el proceso de presentar solicitudes a programas de pago y condonaci&oacute;n de deuda registr&aacute;ndose en Savi Esencial a un precio especial de <strong>$29.95</strong> (normalmente $89.95) Tambi&eacute;n recibir&aacute;s soporte telef&oacute;nico personalizado acerca de tus pr&eacute;stamos y sobre el proceso de condonaci&oacute;n de deuda.</p>
+        <p>&iexcl;Da ahora el siguiente paso hacia adelante para salir de la deuda de tu pr&eacute;stamo estudiantil!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190906T173300Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Consulta de Condonación de Préstamos Estudiantiles de SEIU℠ con el Respaldo de Savi
+  - Version: 3
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Necesitas ayuda para administrar tus préstamos estudiantiles? Nuestra sencilla herramienta de evaluación de préstamos estudiantiles en Internet te informará si reúnes los requisitos para algún programa federal de reembolso o condonación de préstamos. Además, el uso de la herramienta es totalmente gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{9FC31063-A980-4EB1-8345-564067A3DB9C}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T173143Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>
+        Los prestatarios son los &uacute;nicos responsables de cualquier decisi&oacute;n de inscribirse en un programa de pago basado en el ingreso y/o en un programa federal de condonaci&oacute;n de deuda. SEIU y sus filiales no son responsables de la decisi&oacute;n del prestatario de inscribirse o no inscribirse en un programa federal de pago de pr&eacute;stamo estudiantil o en un programa de condonaci&oacute;n de deuda.<br />
+        &nbsp;</p>
+        <p>
+        Los prestatarios pueden acceder a opciones de de pago de pr&eacute;stamo estudiantil y de condonaci&oacute;n y comenzar el proceso de inscripci&oacute;n en el Departamento de Educaci&oacute;n sin cargo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Navegador de Deuda Estudiantil de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;PREGUNTAS? LIAME AL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Registrarse o iniciar sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU℠ IMPULSADO POR SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>SEIU puede ayudarte a entender mejor tus pr&eacute;stamos estudiantiles.</strong></p>
+        <ul>
+            <li>
+            <p>Reduce o elimina la deuda de tu pr&eacute;stamo estudiantil federales</p>
+            </li>
+            <li>
+            <p>Descubre si calificas para programas federales de condonaci&oacute;n de deuda estudiantil &mdash; gratis</p>
+            </li>
+            <li>
+            <p>Ahorra $60 en el servicio Savi Esencial</p>
+            </li>
+            <li>
+            <p>Obt&eacute;n soporte personalizado de un experto en pr&eacute;stamos estudiantiles</p>
+            </li>
+            <li>
+            <p>La elegibilidad depende tu ocupaci&oacute;n y de tu empleado</p>
+            </li>
+        </ul>
+        <div style="float: right; margin-left: 20px; padding: 10px; border: 2px solid #4a327f; max-width: 300px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Seg&uacute;n la CNBC, el 70% de los estudiantes universitarios se grad&uacute;an con una deuda significativa debido a sus pr&eacute;stamos estudiantiles. 44 millones de estadounidenses acumulan, colectivamente, unos $1.5 millones de billones en deuda estudiantil, con un promedio de $37,172 per c&aacute;pita.<sup>1</sup></p>
+        </div>
+        <p>El Navegador de Deuda Estudiantil de SEIU Impulsado por Savi, hace que sea f&aacute;cil encontrar para qu&eacute; programas federales de pago o condonaci&oacute;n de deuda estudiantil eres elegible. </p>
+        <p>Cargue informaci&oacute;n b&aacute;sica sobre tus ingresos, tu empleador, tus pr&eacute;stamos y el software <em>gratuito</em> Savi har&aacute; el resto. Ser&aacute;s instant&aacute;neamente conectado con opciones alternativas de pago, las cuales incluyen oportunidades de condonaci&oacute;n de pr&eacute;stamos, y ver&aacute;s tu ahorro potencial. </p>
+        <p>Los miembros de SEIU tambi&eacute;n pueden simplificar y automatizar el proceso de presentar solicitudes a programas de pago y condonaci&oacute;n de deuda registr&aacute;ndose en Savi Esencial a un precio especial de <strong>$29.95</strong> (normalmente $89.95) Tambi&eacute;n recibir&aacute;s soporte telef&oacute;nico personalizado acerca de tus pr&eacute;stamos y sobre el proceso de condonaci&oacute;n de deuda.</p>
+        <p>&iexcl;Da ahora el siguiente paso hacia adelante para salir de la deuda de tu pr&eacute;stamo estudiantil!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{EA38C13E-CFC0-4491-9FD2-1ACCBA853027}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comenzar" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200707T173143Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Navegador de Deuda Estudiantil de SEIU
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Necesitas ayuda para administrar tus préstamos estudiantiles? Nuestra sencilla herramienta de evaluación de préstamos estudiantiles en Internet te informará si reúnes los requisitos para algún programa federal de reembolso o condonación de préstamos. Además, el uso de la herramienta es totalmente gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{9FC31063-A980-4EB1-8345-564067A3DB9C}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201119T181002Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>
+        Los prestatarios son los &uacute;nicos responsables de cualquier decisi&oacute;n de inscribirse en un programa de pago basado en el ingreso y/o en un programa federal de condonaci&oacute;n de deuda. SEIU y sus filiales no son responsables de la decisi&oacute;n del prestatario de inscribirse o no inscribirse en un programa federal de pago de pr&eacute;stamo estudiantil o en un programa de condonaci&oacute;n de deuda.<br />
+        &nbsp;</p>
+        <p>
+        Los prestatarios pueden acceder a opciones de de pago de pr&eacute;stamo estudiantil y de condonaci&oacute;n y comenzar el proceso de inscripci&oacute;n en el Departamento de Educaci&oacute;n sin cargo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Navegador de Deuda Estudiantil de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;PREGUNTAS? LIAME AL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Registrarse o iniciar sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU℠ IMPULSADO POR SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Con el fin del programa federal de alivio CARES Act el 31 de diciembre de 2020, los pagos se reanudar&aacute;n en enero de 2021.<br />
+        Savi puede ayudarle a asegurarse de que sus pr&eacute;stamos estudiantiles est&aacute;n en orden.</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Entienda y gestione mejor sus pr&eacute;stamos estudiantiles federales, ahorrando tiempo y dinero</p>
+            </li>
+            <li>
+            <p>Consiga opciones de pago personalizados y determine su elegibilidad para la condonaci&oacute;n de su deuda</p>
+            </li>
+            <li>
+            <p>Reciba apoyo personalizado de expertos en pr&eacute;stamos estudiantiles</p>
+            </li>
+        </ul>
+        <p>El Navegador de Deuda Estudiantil del SEIU creado por Savi hace f&aacute;cil saber a qu&eacute; programas federales de pago o condonaci&oacute;n de pr&eacute;stamos estudiantiles puede optar.</p>
+        <p>Responda a las preguntas b&aacute;sicas sobre sus ingresos y su empleo y el programa de Savi encontrar&aacute; las mejores opciones para usted, incluyendo las posibles oportunidades de condonaci&oacute;n de pr&eacute;stamos y ahorros potenciales. Los miembros del SEIU han podido reducir los pagos de sus pr&eacute;stamos estudiantiles unos 171$ de media al mes.</p>
+        <p>La calculadora online le permitir&aacute; determinar sus opciones de pago y le mostrar&aacute; sus ahorros potenciales de forma GRATUITA. Cuando conozca sus opciones, podr&aacute; elegir acceder al programa usted mismo o aprovechar el pr&aacute;ctico servicio de solicitud electr&oacute;nica y obtener la ayuda individualizada de nuestros expertos en pr&eacute;stamos estudiantiles a un precio reducido.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Empezar" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201119T181002Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Navegador de Deuda Estudiantil de SEIU
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Necesitas ayuda para administrar tus préstamos estudiantiles? Nuestra sencilla herramienta de evaluación de préstamos estudiantiles en Internet te informará si reúnes los requisitos para algún programa federal de reembolso o condonación de préstamos. Además, el uso de la herramienta es totalmente gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{9FC31063-A980-4EB1-8345-564067A3DB9C}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T153431Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>
+        Los prestatarios son los &uacute;nicos responsables de cualquier decisi&oacute;n de inscribirse en un programa de pago basado en el ingreso y/o en un programa federal de condonaci&oacute;n de deuda. SEIU y sus filiales no son responsables de la decisi&oacute;n del prestatario de inscribirse o no inscribirse en un programa federal de pago de pr&eacute;stamo estudiantil o en un programa de condonaci&oacute;n de deuda.<br />
+        &nbsp;</p>
+        <p>
+        Los prestatarios pueden acceder a opciones de de pago de pr&eacute;stamo estudiantil y de condonaci&oacute;n y comenzar el proceso de inscripci&oacute;n en el Departamento de Educaci&oacute;n sin cargo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Navegador de Deuda Estudiantil de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;PREGUNTAS? LIAME AL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Registrarse o iniciar sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU℠ IMPULSADO POR SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">La suspensi&oacute;n de pagos de pr&eacute;stamos estudiantiles federales se ha extendido hasta el 30 de septiembre de 2021. Averig&uuml;e si usted es elegible y si va por buen camino para acceder a la condonaci&oacute;n y otras medidas de reducci&oacute;n de gastos, incluso despu&eacute;s de que finalice la suspensi&oacute;n de pagos.<br />
+        &iexcl;Usted podr&iacute;a haber recorrido una sexta parte del camino hacia la condonaci&oacute;n del pr&eacute;stamo sin hacer ning&uacute;n pago!</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Entienda y gestione mejor sus pr&eacute;stamos estudiantiles federales, ahorrando tiempo y dinero</p>
+            </li>
+            <li>
+            <p>Consiga opciones de pago personalizados y determine su elegibilidad para la condonaci&oacute;n de su deuda</p>
+            </li>
+            <li>
+            <p>Reciba apoyo personalizado de expertos en pr&eacute;stamos estudiantiles</p>
+            </li>
+        </ul>
+        <p>El Navegador de Deuda Estudiantil del SEIU creado por Savi hace f&aacute;cil saber a qu&eacute; programas federales de pago o condonaci&oacute;n de pr&eacute;stamos estudiantiles puede optar.</p>
+        <p>Responda a las preguntas b&aacute;sicas sobre sus ingresos y su empleo y el programa de Savi encontrar&aacute; las mejores opciones para usted, incluyendo las posibles oportunidades de condonaci&oacute;n de pr&eacute;stamos y ahorros potenciales. Los miembros del SEIU han podido reducir los pagos de sus pr&eacute;stamos estudiantiles unos 171$ de media al mes.</p>
+        <p>La calculadora online le permitir&aacute; determinar sus opciones de pago y le mostrar&aacute; sus ahorros potenciales de forma GRATUITA. Cuando conozca sus opciones, podr&aacute; elegir acceder al programa usted mismo o aprovechar el pr&aacute;ctico servicio de solicitud electr&oacute;nica y obtener la ayuda individualizada de nuestros expertos en pr&eacute;stamos estudiantiles a un precio reducido.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Empezar" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T153431Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Navegador de Deuda Estudiantil de SEIU
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Necesitas ayuda para administrar tus préstamos estudiantiles? Nuestra sencilla herramienta de evaluación de préstamos estudiantiles en Internet te informará si reúnes los requisitos para algún programa federal de reembolso o condonación de préstamos. Además, el uso de la herramienta es totalmente gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{9FC31063-A980-4EB1-8345-564067A3DB9C}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T121328Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>
+        Los prestatarios son los &uacute;nicos responsables de cualquier decisi&oacute;n de inscribirse en un programa de pago basado en el ingreso y/o en un programa federal de condonaci&oacute;n de deuda. SEIU y sus filiales no son responsables de la decisi&oacute;n del prestatario de inscribirse o no inscribirse en un programa federal de pago de pr&eacute;stamo estudiantil o en un programa de condonaci&oacute;n de deuda.<br />
+        &nbsp;</p>
+        <p>
+        Los prestatarios pueden acceder a opciones de de pago de pr&eacute;stamo estudiantil y de condonaci&oacute;n y comenzar el proceso de inscripci&oacute;n en el Departamento de Educaci&oacute;n sin cargo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Navegador de Deuda Estudiantil de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;PREGUNTAS? LIAME AL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Registrarse o iniciar sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU℠ IMPULSADO POR SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">La suspensi&oacute;n de pagos de pr&eacute;stamos estudiantiles federales se ha extendido hasta el 30 de septiembre de 2021. Averig&uuml;e si usted es elegible y si va por buen camino para acceder a la condonaci&oacute;n y otras medidas de reducci&oacute;n de gastos, incluso despu&eacute;s de que finalice la suspensi&oacute;n de pagos.<br />
+        &iexcl;Usted podr&iacute;a haber recorrido una sexta parte del camino hacia la condonaci&oacute;n del pr&eacute;stamo sin hacer ning&uacute;n pago!</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Entienda y gestione mejor sus pr&eacute;stamos estudiantiles federales, ahorrando tiempo y dinero</p>
+            </li>
+            <li>
+            <p>Consiga opciones de pago personalizados y determine su elegibilidad para la condonaci&oacute;n de su deuda</p>
+            </li>
+            <li>
+            <p>Reciba apoyo personalizado de expertos en pr&eacute;stamos estudiantiles</p>
+            </li>
+        </ul>
+        <p>El Navegador de Deuda Estudiantil del SEIU creado por Savi hace f&aacute;cil saber a qu&eacute; programas federales de pago o condonaci&oacute;n de pr&eacute;stamos estudiantiles puede optar.</p>
+        <p>Responda a las preguntas b&aacute;sicas sobre sus ingresos y su empleo y el programa de Savi encontrar&aacute; las mejores opciones para usted, incluyendo las posibles oportunidades de condonaci&oacute;n de pr&eacute;stamos y ahorros potenciales. Los miembros del SEIU han podido reducir los pagos de sus pr&eacute;stamos estudiantiles unos 171$ de media al mes.</p>
+        <p>La calculadora online le permitir&aacute; determinar sus opciones de pago y le mostrar&aacute; sus ahorros potenciales de forma GRATUITA. Cuando conozca sus opciones, podr&aacute; elegir acceder al programa usted mismo o aprovechar el pr&aacute;ctico servicio de solicitud electr&oacute;nica y obtener la ayuda individualizada de nuestros expertos en pr&eacute;stamos estudiantiles a un precio reducido.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Empezar" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T121328Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Navegador de Deuda Estudiantil de SEIU
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 7
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Necesitas ayuda para administrar tus préstamos estudiantiles? Nuestra sencilla herramienta de evaluación de préstamos estudiantiles en Internet te informará si reúnes los requisitos para algún programa federal de reembolso o condonación de préstamos. Además, el uso de la herramienta es totalmente gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" alt="CONSULTA DE CONDONACIÓN DE PRÉSTAMOS ESTUDIANTILES DE SEIU℠ CON EL RESPALDO DE SAVI" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{9FC31063-A980-4EB1-8345-564067A3DB9C}" alt="SEIU Member Benefits en asociación con Savi" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210825T211034Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p><strong>INFORMACI&Oacute;N IMPORTANTE</strong></p>
+        <p>
+        Los prestatarios son los &uacute;nicos responsables de cualquier decisi&oacute;n de inscribirse en un programa de pago basado en el ingreso y/o en un programa federal de condonaci&oacute;n de deuda. SEIU y sus filiales no son responsables de la decisi&oacute;n del prestatario de inscribirse o no inscribirse en un programa federal de pago de pr&eacute;stamo estudiantil o en un programa de condonaci&oacute;n de deuda.<br />
+        &nbsp;</p>
+        <p>
+        Los prestatarios pueden acceder a opciones de de pago de pr&eacute;stamo estudiantil y de condonaci&oacute;n y comenzar el proceso de inscripci&oacute;n en el Departamento de Educaci&oacute;n sin cargo.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Navegador de Deuda Estudiantil de SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;PREGUNTAS? LIAME AL 1-844-836-7348."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Registrarse o iniciar sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU℠ IMPULSADO POR SAVI
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">La suspensi&oacute;n de pagos de pr&eacute;stamos estudiantiles federales se ha extendido hasta el 31 de enero de 2022. Averig&uuml;e si usted es elegible y si va por buen camino para acceder a la condonaci&oacute;n y otras medidas de reducci&oacute;n de gastos, incluso despu&eacute;s de que finalice la suspensi&oacute;n de pagos.<br />
+        &iexcl;Usted podr&iacute;a haber recorrido una sexta parte del camino hacia la condonaci&oacute;n del pr&eacute;stamo sin hacer ning&uacute;n pago!</p>
+        </div>
+        <br />
+        <ul>
+            <li>
+            <p>Entienda y gestione mejor sus pr&eacute;stamos estudiantiles federales, ahorrando tiempo y dinero</p>
+            </li>
+            <li>
+            <p>Consiga opciones de pago personalizados y determine su elegibilidad para la condonaci&oacute;n de su deuda</p>
+            </li>
+            <li>
+            <p>Reciba apoyo personalizado de expertos en pr&eacute;stamos estudiantiles</p>
+            </li>
+        </ul>
+        <p>El Navegador de Deuda Estudiantil del SEIU creado por Savi hace f&aacute;cil saber a qu&eacute; programas federales de pago o condonaci&oacute;n de pr&eacute;stamos estudiantiles puede optar.</p>
+        <p>Responda a las preguntas b&aacute;sicas sobre sus ingresos y su empleo y el programa de Savi encontrar&aacute; las mejores opciones para usted, incluyendo las posibles oportunidades de condonaci&oacute;n de pr&eacute;stamos y ahorros potenciales. Los miembros del SEIU han podido reducir los pagos de sus pr&eacute;stamos estudiantiles unos 171$ de media al mes.</p>
+        <p>La calculadora online le permitir&aacute; determinar sus opciones de pago y le mostrar&aacute; sus ahorros potenciales de forma GRATUITA. Cuando conozca sus opciones, podr&aacute; elegir acceder al programa usted mismo o aprovechar el pr&aacute;ctico servicio de solicitud electr&oacute;nica y obtener la ayuda individualizada de nuestros expertos en pr&eacute;stamos estudiantiles a un precio reducido.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E6496BA-40CC-4CE8-A612-8F824F28E5F5}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: NAVEGADOR DE DEUDA ESTUDIANTIL DE SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Empezar" linktype="external" url="https://seiumb.bysavi.com/?memberid=[mdsid]" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Liberarse la deuda de un pr&eacute;stamo estudiantil es posible. SEIU y Savi hacen que el proceso sea f&aacute;cil de realizar.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210825T211034Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: 
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Navegador de Deuda Estudiantil de SEIU
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"

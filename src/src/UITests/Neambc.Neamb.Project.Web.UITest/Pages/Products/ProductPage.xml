@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ProductPage" urlpath="/">
+      <sections>
+        <section name="CtaComponentCold">
+          <controls>
+            <control key="ProductPage_Cta_SignInButton"  xpath="//a[@id='product_cta_sign_in_cold_button']" />
+            <control key="ProductPage_Cta_SignInDetail"  xpath="//p[@id='product_cta_sign_in_cold_detail']" />
+          </controls>
+        </section>
+        <section name="Common">
+          <controls>
+            <control key="ProductPage_Eyebrown"  xpath="//p[@id='product_cta_eyebrown']" />
+            <control key="ProductPage_ProductName"  xpath="//h1[@id='product_cta_title']" />
+            <control key="ProductPage_ProductDescription"  xpath="//h3[@id='product_cta_detail']" />
+            <control key="ProductPage_Cta_Partnership"  xpath="//p[@id='product_cta_partnership']" />
+            <control key="ProductPage_Cta_ProductImage"  xpath="//img[@class='img-fit']" />
+            <control key="ProductPage_Cta_SocialMedia"  xpath="//div[@id='product_cta_social_media']" />
+          </controls>
+        </section>
+        <section name="NotEligible">
+          <controls>
+            <control key="ProductPage_StickyBanner"  xpath="//div[@id='product_cta_sticky_top']" />
+            <control key="ProductPage_StackedIcons"  xpath="//ul[@id='product_cta_stacked_icons']" />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

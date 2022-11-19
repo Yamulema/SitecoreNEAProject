@@ -1,0 +1,198 @@
+﻿---
+ID: "9d911cd9-862e-4e12-9582-44e23e107f65"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ad0853ba-639c-44ba-8ef9-ef4ae713b631"
+Path: /sitecore/content/NEAMBC/Home/Tips and Advice Fall 2018
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "How much life insurance do you need to help protect your family? Help provide the financial resources that your family needs if something happens to you."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T005247Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Fall 2018
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {6B9FB6F0-FABE-402F-8DA0-F2D48496B0BF}
+        {47588AFB-4A42-401C-BEF1-E40E7F26323B}
+        {C6B4C86A-17D2-4DF3-9709-650E085A69E9}
+        {DD14D201-1485-4B46-8797-17FE5F0AD77F}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Fall 2018
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{EEC1EE1B-660C-46AB-A316-FD94B647D92F}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Member Benefits Tips & Advice - Fall 2018"
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value:  SEIU Member Benefits Quarterly Newsletter
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "How much life insurance do you need to help protect your family? Help provide the financial resources that your family needs if something happens to you."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T190036Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Fall 2018
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {6B9FB6F0-FABE-402F-8DA0-F2D48496B0BF}
+        {47588AFB-4A42-401C-BEF1-E40E7F26323B}
+        {C6B4C86A-17D2-4DF3-9709-650E085A69E9}
+        {DD14D201-1485-4B46-8797-17FE5F0AD77F}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T190036Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{EEC1EE1B-660C-46AB-A316-FD94B647D92F}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Member Benefits Tips & Advice - Fall 2018"
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value:  SEIU Member Benefits Quarterly Newsletter
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Qué cobertura de seguro de vida necesita para proteger a su familia? Aporte los recursos financieros que su familia necesite en caso de que algo le suceda."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T010435Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Otoño 2018
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {6B9FB6F0-FABE-402F-8DA0-F2D48496B0BF}
+        {47588AFB-4A42-401C-BEF1-E40E7F26323B}
+        {C6B4C86A-17D2-4DF3-9709-650E085A69E9}
+        {DD14D201-1485-4B46-8797-17FE5F0AD77F}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Otoño 2018
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{EEC1EE1B-660C-46AB-A316-FD94B647D92F}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Member Benefits Consejos y Asesoramiento - Otoño 2018"
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: BOLETÍN ELECTRÓNICO TRIMESTRAL DE SEIU MEMBER BENEFITS
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "¿Qué cobertura de seguro de vida necesita para proteger a su familia? Aporte los recursos financieros que su familia necesite en caso de que algo le suceda."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201029T191233Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Otoño 2018
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "893a012a-f580-4d7e-a79e-a205fee54047"
+      Hint: Products
+      Type: Multilist with Search
+      Value: |
+        {6B9FB6F0-FABE-402F-8DA0-F2D48496B0BF}
+        {47588AFB-4A42-401C-BEF1-E40E7F26323B}
+        {C6B4C86A-17D2-4DF3-9709-650E085A69E9}
+        {DD14D201-1485-4B46-8797-17FE5F0AD77F}
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201029T191233Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{EEC1EE1B-660C-46AB-A316-FD94B647D92F}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU Member Benefits Consejos y Asesoramiento - Otoño 2018"
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: BOLETÍN ELECTRÓNICO TRIMESTRAL DE SEIU MEMBER BENEFITS

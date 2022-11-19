@@ -1,0 +1,25 @@
+﻿---
+ID: "0dcdab96-b651-4ec1-8eda-27023532411b"
+Parent: "b0ac4bb5-f8e6-457b-ba29-90f4edecbcd3"
+Template: "b0ac4bb5-f8e6-457b-ba29-90f4edecbcd3"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Two Column Carousel/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{059DF23B-FAA6-4018-B658-6C5408F784FA}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180713T203140Z

@@ -1,0 +1,44 @@
+﻿---
+ID: "d0d97273-410a-4205-8155-8582cc1126b0"
+Parent: "7d036f25-0eb3-4bed-a0f6-d4c0873d1b24"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Profile
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/businessman.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {367B8E27-D435-49A7-BA34-5D8F44FC1EB8}
+    {668D8D54-DC74-475D-902F-611A1EED6371}
+    {14B21118-F060-4D0D-922D-42D4F720589A}
+    {4F62A9EF-BF7E-477A-AD9F-72B393BDDD83}
+    {DE971E7D-50D7-4A58-B57A-1F7C12B75D23}
+    {B4A7ADBD-CF0A-4BF1-86BF-0A801D75A441}
+    {0FFD7351-7579-4338-A04A-CB84D3F750D5}
+    {FFD2AA18-795E-4368-928F-2C8D64C71085}
+    {8DFF374B-52A5-48A9-BE20-412D6C173856}
+    {8C9D68CA-77EC-45C6-9BF8-D485AFFF2E6C}
+    {1A2CE642-F13F-4BEB-AFC4-FE43DFB06623}
+    {E99C8DB9-9A93-4D7F-A85C-E5A93691BB35}
+    {74159DE1-A691-4A83-8CEE-1D7109BC3457}
+    {2D3B7389-4171-406A-8319-03A7807988D5}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{8EA62737-0EC9-4F28-A943-FDE3F6DA5249}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180420T192120Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

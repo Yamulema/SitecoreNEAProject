@@ -1,0 +1,85 @@
+﻿---
+ID: "9c0879ea-af3f-4d56-bd74-ea9cdf023155"
+Parent: "8deb9527-1fe2-4797-88fb-c10f0b952d25"
+Template: "8deb9527-1fe2-4797-88fb-c10f0b952d25"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Settings and Subscriptions/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{ABC9793B-5365-41E8-92C2-9C4EB1667D66}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{4656CF37-5B75-4974-ACDD-1469505A05D2}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{391729AA-1F31-4D8E-A8E8-9A33305DA678}" />
+        <r
+          id="{118615CF-4A9B-4C41-8AF7-D638808159F6}"
+          ph="body"
+          uid="{0FE9D43B-0FE2-4C1A-877D-722269D0A275}" />
+        <r
+          id="{2F370ADE-E83D-4704-8BC5-B8C3E4FA6152}"
+          ph="body"
+          uid="{0F10101B-4D38-4618-B2F3-2E6F8C0FA839}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{087323DF-131D-4561-8DFA-B04729425418}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{94DD76B9-048C-4BAF-8BA3-0E643FFADBEB}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{D743635F-CD54-462F-88EC-555F94D71549}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "142db6a2-d4ac-4143-be3b-90fd821c6ad9"
+      Hint: Newsletters
+      Type: Multilist
+      Value: |
+        {807041AD-54A9-400B-83BA-F5E57AE0254C}
+        {79A35C55-E7F0-445D-BAEC-E84F431A2A3F}
+        {A718A322-CE04-41A5-8FCF-7846F9BCD531}
+        {1494CE32-C24B-4A96-9A89-CAC4927B7C12}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180711T174347Z
+    - ID: "5ee361e9-bf9e-4d1f-8ce0-9403d6d7c838"
+      Hint: Subheadline
+      Value: 
+    - ID: "7cc3025d-f38b-4e21-94ff-4888be794f93"
+      Hint: Anonymous User
+      Value: You must sign in to view this page.
+    - ID: "f71f7747-f88d-499b-ac69-d3a6dc9b0a88"
+      Hint: Page Title
+      Value: Permissions &amp; Subscriptions

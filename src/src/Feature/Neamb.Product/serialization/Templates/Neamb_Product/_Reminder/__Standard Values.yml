@@ -1,0 +1,27 @@
+﻿---
+ID: "d5ab2c28-2f36-4842-8d11-3c3b25f61dbd"
+Parent: "e09011de-20e8-4400-b5e7-92f2c9f9348f"
+Template: "e09011de-20e8-4400-b5e7-92f2c9f9348f"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_Reminder/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190731T145845Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "a3a184c1-207a-45ec-a516-40104a3c7976"
+      Hint: ReminderSet
+      Value: You’ve signed up to recieve a notification when this product becomes available.
+    - ID: "cf0926ab-8b16-4c35-8dd7-d942519d8c2c"
+      Hint: CTA
+      Value: Notify Me When Available
+    - ID: "e37c684a-f980-4372-b566-5e4349648e8e"
+      Hint: ReminderDetails
+      Value: This product is coming soon. Sign up to be notified once it becomes available.

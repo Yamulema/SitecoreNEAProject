@@ -1,0 +1,100 @@
+﻿---
+ID: "22d6e52e-b4b3-488e-a289-b6b6a64e9f4f"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "5eb3a015-da58-4a58-94e5-ae7630d125fc"
+Path: /sitecore/content/NEAMBC/Home/Contact Us Spanish
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/message.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2900
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "180734af-bcdb-419e-bc94-8292623ae4ea"
+      Hint: Placeholder
+      Value: "(___)___-____"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171208T180009Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "675032c5-db2b-4930-bc3d-23ae37e898c1"
+      Hint: Placeholder
+      Value: please select
+    - ID: "7dcb1f58-2ac8-4350-b18e-ebfd13d0ce8a"
+      Hint: Label
+      Value: Local Union
+    - ID: "ab35a653-a7a7-4b50-bc5f-74d1df829ec8"
+      Hint: ErrorMessage
+      Value: Please select a topic
+    - ID: "c7d3e622-2f70-4b51-893d-b8a8d5944627"
+      Hint: ErrorMessage
+      Value: Please insert a valid phone number
+    - ID: "e466ceb4-ba44-48d9-bb53-be61f96914d3"
+      Hint: Placeholder
+      Value: please select
+    - ID: "e4771df7-8b06-4bed-b2d8-a990f2668690"
+      Hint: ContactInfo
+      Value: |
+        <hr />
+        <div class="row">
+        <h5>Contact us by email</h5>
+        <p style="line-height: 20.7999992370605px;">ask-us@seiumb.com</p>
+        <small>(We respond to most messages in 3 business days)</small>
+        </div>
+        <hr />
+        <div class="row">
+        <h5>Contact us by phone</h5>
+        <p>1-844-836-7348</p>
+        <small>Mon-Fri: 8 a.m. - 8 p.m. ET<br />
+        Sat: 9 a.m. - 1 p.m. ET</small>
+        </div>
+        <hr />
+        <div class="row">
+        <h5>Contact us by mail</h5>
+        <address style="line-height: 21px;">SEIU Member Benefits<br />
+        900 Clopper Rd., Ste. 300<br />
+        Gaithersburg MD 20878-1356</address>
+        </div>
+        <hr />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Contact Us
+    - ID: "f50a411b-d6bc-4959-a554-e0e8a49bd1e8"
+      Hint: Empty Field
+      Value: "Please insert a valid e-mail address"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171208T175850Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "718eeb75-d423-414e-b2b2-6715d9e7a575"
+      Hint: FormTitle
+      Value: Envíenos un mensaje
+    - ID: "c7d3e622-2f70-4b51-893d-b8a8d5944627"
+      Hint: ErrorMessage
+      Value: Por favor ingrese un número de teléfono válido
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Contact Us
+    - ID: "f50a411b-d6bc-4959-a554-e0e8a49bd1e8"
+      Hint: Empty Field
+      Value: Por favor ingrese un correo electrónico válido

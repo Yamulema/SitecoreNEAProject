@@ -1,0 +1,34 @@
+﻿---
+ID: "7a34d33f-3826-4258-a368-55c1ca670660"
+Parent: "4fd9b0ea-810f-4602-afcc-07f9e349fd43"
+Template: "4fd9b0ea-810f-4602-afcc-07f9e349fd43"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Newsletters/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e76f3f4-8c45-4622-b347-0e5bb4b0a699"
+      Hint: Headline
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180613T172731Z
+    - ID: "3c8d6c04-da57-4c5d-b337-bdb3f772aeec"
+      Hint: Subscribe
+      Value: Subscribe
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af3661ac-fe96-4e44-a99d-89d3fe07fe2d"
+      Hint: Subscribed
+      Value: Your Are Subscribed
+    - ID: "b6e2b48e-4c48-4a83-87be-1cbb9d7d5e93"
+      Hint: Unsubscribe
+      Value: Unsubscribe

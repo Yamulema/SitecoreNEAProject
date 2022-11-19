@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ComplimentaryLifePage" urlpath="/account/complife">
+      <sections>
+        <section name="CompLifePageHero">
+          <controls>
+            <!-- Comp Life-->
+            <control key="CompLife_h_SignIn"   xpath="//h2[contains(@class,'text-center')]//a"  />
+            <control key="complife_clph_title" xpath="//section[contains(@class,'headline-hero')]//h1"  />
+          </controls>
+        </section>
+        <section name="CompLifeTitles">
+          <controls>
+            <control key="CompLife_yi_Title" xpath="(//h2[contains(@class,'header')])[1]"  />
+            <control key="CompLife_b_Title" xpath="(//h2[contains(@class,'header')])[2]"  />
+            <control key="complife_may_Title" xpath="(//h2[contains(@class,'header')])[3]"  />
+            <control key="CompLife_yi_EditButton" xpath="//a[contains(text(),'Edit/Update')]"  />
+            <control key="CompLife_b_AddButton" xpath="//a[contains(text(),'Add')]"  />
+          </controls>
+        </section>  
+        <section name="YourInformation">
+          <controls>
+            <control key="CompLife_yi_InsideTitle" xpath="//h2[contains(@class,'header')]"  />
+            <control key="CompLife_yi_Back" xpath="//a[@class='form-nav']//span"  />
+            <control key="CompLife_yi_FirstName" xpath="//label[@for='firstname']"  />
+            <control key="CompLife_yi_LastName" xpath="//label[@for='lastName']"  />
+            <control key="CompLife_yi_BirthDate" xpath="//label[@for='birthDate']"  />
+            <control key="CompLife_yi_Address" xpath="//label[@for='address']"  />
+            <control key="CompLife_yi_City" xpath="//label[@for='city']"  />
+            <control key="CompLife_yi_State" xpath="//label[@for='state']"  />
+            <control key="CompLife_yi_Zip" xpath="//label[@for='zip']"  />
+            <control key="CompLife_yi_Phone" xpath="//label[@for='phone']"  />
+            <control key="CompLife_yi_Email" xpath="//label[@for='email']"  />
+            <control key="CompLife_yi_Save" xpath="//input[contains(@value,'Save')]"  />
+          </controls>
+        </section>
+        <section name="AddBeneficiaryPage">
+          <controls>
+            <!-- Add Beneficiary Page-->
+            <control key="CompLife_b_AddPageBack" xpath="//a[@class='form-nav']//span"  />
+            <control key="CompLife_b_AddPageTitle" xpath="//h2[contains(@class,'header')]"  />
+            <control key="CompLife_b_AddPageFirstName" id="firstname"  />
+            <control key="CompLife_b_AddPageMiddleI" id="middleInitial"  />
+            <control key="CompLife_b_AddPageLastName" id="lastName"  />
+            <control key="CompLife_b_AddPageEmail" id="email"  />
+            <control key="CompLife_b_AddPageRelationship" id="Relationship_SelectedValue"  />
+            <control key="CompLife_b_AddPagePayoutP" id="payoutPercentage"  />
+          </controls>
+        </section>
+        <section name="AddBeneficiaryPageFields">
+          <controls>
+            <!-- Save Button for Beneficiaries and CompLife Page-->
+            <control key="CompLife_b_Save" xpath="//input[@id='submit']"  />
+            <!-- Required Fields Error Messages-->
+            <control key="CompLife_b_AddPageFirstName_Req" xpath="//label[@id='firstname-error']"  />
+            <control key="CompLife_b_AddPageLastName_Req" xpath="//label[@id='lastName-error']"  />
+            <control key="CompLife_b_AddPageRelationship_Req" xpath="//label[@id='Relationship_SelectedValue-error']"  />
+            <control key="CompLife_b_AddPagePayoutPer_Req" xpath="//label[@id='payoutPercentage-error']"  />
+            <!-- Other Entity - Page - Labels-->
+            <control key="CompLife_b_AddPageOtherEntity_Radiob" xpath="(//span[contains(@class,'checkmark')])[2]"  />
+            <control key="CompLife_b_AddPageOtherEntity_Name" xpath="(//label[@for='otherEntityName'])[1]"  />
+            <control key="CompLife_b_AddPageOtherEntity_Email" xpath="(//label[@for='email'])[1]"  />
+            <control key="CompLife_b_AddPageOtherEntity_Relationship" xpath="(//label[@for='relationship'])[1]"  />
+            <control key="CompLife_b_AddPageOtherEntity_Payout" xpath="(//label[@for='payoutPercentage'])[1]"  />
+            <!-- Other Entity- Required Fields Error Messages-->
+            <control key="CompLife_b_AddPageOtherEntity_Name_req" xpath="//label[@id='otherEntityName-error']"  />
+            <control key="CompLife_b_AddPageOtherEntity_Email_req" xpath="(//label[@for='email'])[1]"  />
+            <control key="CompLife_b_AddPageOtherEntity_Relationship_req" xpath="//label[@id='Relationship_SelectedValue-error']"  />
+            <control key="CompLife_b_AddPageOtherEntity_Payout_req" xpath="//label[@id='payoutPercentage-error']"  />
+          </controls>
+        </section>
+        <section name="MoreAboutYou">
+          <controls>
+            <!-- More About You Labels-->
+            <control key="complife_may_Gender" xpath="//label[@for='gender']"  />
+            <control key="complife_may_MajorWageEarner" xpath="//label[@for='majorWageEarner']"  />
+            <control key="complife_may_MaritalStatus" xpath="//label[@for='maritalStatus']"  />
+            <control key="complife_may_FamilyIncome" xpath="//label[@for='familyIncome']"  />
+            <control key="complife_may_Housing" xpath="//label[@for='housing']"  />
+            <control key="complife_may_Employment" xpath="//label[@for='employment']"  />
+            <control key="complife_may_SpouseEmployment" xpath="//label[@for='spouseEmployment']"  />
+            <control key="complife_may_NumberofChildren" xpath="//label[@for='numberOfChildren']"  />
+            <control key="complife_may_ChildrenBirthYear" xpath="//label[@for='childBirthYears']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

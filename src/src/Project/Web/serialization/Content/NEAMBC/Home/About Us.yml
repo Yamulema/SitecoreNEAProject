@@ -1,0 +1,223 @@
+﻿---
+ID: "db7bceff-7a00-4131-a244-3a54de103af9"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/About Us
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 3000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The 2 million members of the SEIU are linked by a common thread—united by the belief in the dignity and worth of workers and the services they provide, and dedicated to improving the lives of workers and their families and creating a more just and humane society. 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171208T184950Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: About Us
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: About Us
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>The 2 million members of the SEIU are linked by a common thread&mdash;united by the belief in the dignity and worth of workers and the services they provide, and dedicated to improving the lives of workers and their families and creating a more just and humane society. At SEIU Member Benefits, we take pride in serving you! We are dedicated to making your personal and professional lives better through &ldquo;best in class&rdquo; programs and services.</p>
+        <p style="text-align: center;">
+        <img height="60" alt="SEIUMB logo" width="360" src="-/media/C60DA8BED5DD4BC98E0A626CD9B4DA34.ashx?h=60&amp;w=360&amp;hash=24EA57F16E811A9D7E261761AC1EE2E4A70C9C5D" /></p>
+        <p>
+        SEIU Member Benefits strives to help all members increase their economic security through financial services and insurance programs. We want to maximize members&rsquo; hard-earned dollars through consumer discounts and special travel and leisure offers. At SEIU Member Benefits, we take pride in being advocates for members and providing them valuable and trustworthy service&mdash;every step of the way. We invite you to learn more about SEIU Member Benefits by <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contacting us</a>. We look forward to serving you!</p>
+        <p><em>SEIU Member Benefits is administered by NEA Member Benefits Corporation, a subsidiary of the National Education Association. The Service Employees International Union oversees the development and administration of products and advocacy to SEIU members.</em></p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: About SEIU Member Benefits
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The 2 million members of the SEIU are linked by a common thread—united by the belief in the dignity and worth of workers and the services they provide, and dedicated to improving the lives of workers and their families and creating a more just and humane society. 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T195140Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: About Us
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200930T195140Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: About Us
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>The 2 million members of the SEIU are linked by a common thread&mdash;united by the belief in the dignity and worth of workers and the services they provide, and dedicated to improving the lives of workers and their families and creating a more just and humane society. At SEIU Member Benefits, we take pride in serving you! We are dedicated to making your personal and professional lives better through &ldquo;best in class&rdquo; programs and services.</p>
+        <p style="text-align: center;">
+        <img height="60" alt="SEIUMB logo" width="360" src="-/media/C60DA8BED5DD4BC98E0A626CD9B4DA34.ashx?h=60&amp;w=360&amp;hash=24EA57F16E811A9D7E261761AC1EE2E4A70C9C5D" /></p>
+        <p>
+        SEIU Member Benefits strives to help all members increase their economic security through financial services and insurance programs. We want to maximize members&rsquo; hard-earned dollars through consumer discounts and special travel and leisure offers. At SEIU Member Benefits, we take pride in being advocates for members and providing them valuable and trustworthy service&mdash;every step of the way. We invite you to learn more about SEIU Member Benefits by <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contacting us</a>. We look forward to serving you!</p>
+        <p>&nbsp;</p>
+        <center><a href="~/link.aspx?_id=190C467442BA4C509FA9E80DBD9C344E&amp;_z=z">Your benefits at a glance</a><br />
+        <a href="~/link.aspx?_id=23C87AA527964498B177DC4AAF6083ED&amp;_z=z">Welcome to SEIU Member Benefits</a></center>
+        <p>&nbsp;</p>
+        <p><em>SEIU Member Benefits is administered by NEA Member Benefits Corporation, a subsidiary of the National Education Association. The Service Employees International Union oversees the development and administration of products and advocacy to SEIU members.</em></p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: About SEIU Member Benefits
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The 2 million members of the SEIU are linked by a common thread—united by the belief in the dignity and worth of workers and the services they provide, and dedicated to improving the lives of workers and their families and creating a more just and humane society. 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T195529Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: About Us
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200930T195529Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: About Us
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>The 2 million members of the SEIU are linked by a common thread&mdash;united by the belief in the dignity and worth of workers and the services they provide, and dedicated to improving the lives of workers and their families and creating a more just and humane society. At SEIU Member Benefits, we take pride in serving you! We are dedicated to making your personal and professional lives better through &ldquo;best in class&rdquo; programs and services.</p>
+        <p style="text-align: center;">
+        <img height="60" alt="SEIUMB logo" width="360" src="-/media/C60DA8BED5DD4BC98E0A626CD9B4DA34.ashx?h=60&amp;w=360&amp;hash=24EA57F16E811A9D7E261761AC1EE2E4A70C9C5D" /></p>
+        <p>
+        SEIU Member Benefits strives to help all members increase their economic security through financial services and insurance programs. We want to maximize members&rsquo; hard-earned dollars through consumer discounts and special travel and leisure offers. At SEIU Member Benefits, we take pride in being advocates for members and providing them valuable and trustworthy service&mdash;every step of the way. We invite you to learn more about SEIU Member Benefits by <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contacting us</a>. We look forward to serving you!</p>
+        <p>&nbsp;</p>
+        <center><a href="~/link.aspx?_id=190C467442BA4C509FA9E80DBD9C344E&amp;_z=z">Your benefits at a glance</a><br />
+        <a href="~/link.aspx?_id=23C87AA527964498B177DC4AAF6083ED&amp;_z=z">Welcome to SEIU Member Benefits</a></center>
+        <p>&nbsp;</p>
+        <p><em>SEIU Member Benefits is administered by NEA Member Benefits Corporation, a subsidiary of the National Education Association. The Service Employees International Union oversees the development and administration of products and advocacy to SEIU members.</em></p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: About SEIU Member Benefits
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Los 2 millones de miembros de SEIU tienen un objetivo común: unirse por la creencia en la dignidad y en el valor de los trabajadores y los servicios que prestan, y dedicarse a mejorar la vida de los trabajadores y sus familias al crear una sociedad más justa y humana. "
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171208T190808Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Acerca de Nosotros
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Acerca de Nosotros
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Los 2 millones de miembros de SEIU tienen un objetivo com&uacute;n: unirse por la creencia en la dignidad y en el valor de los trabajadores y los servicios que prestan, y dedicarse a mejorar la vida de los trabajadores y sus familias al crear una sociedad m&aacute;s justa y humana. SEIU Member Benefits se enorgullece en atenderlo. Nos dedicamos a mejorar su vida personal y profesional mediante programas y servicios de primer nivel.</p>
+        <p style="text-align: center;">
+        <img height="60" alt="SEIUMB logo color" width="360" src="-/media/8F63D22D79F44B8CA2EA6106EF59B36C.ashx?h=60&amp;w=360" /></p>
+        <p>
+        SEIU Member Benefits se esfuerza por ayudar a todos los miembros a aumentar su seguridad econ&oacute;mica mediante servicios financieros y programas de seguro. Queremos maximizar los d&oacute;lares ganados con esfuerzo de los miembros a trav&eacute;s de descuentos al consumidor y ofertas especiales en viajes y tiempo libre. SEIU Member Benefits se enorgullece de defender a los miembros y ofrecerles servicios valiosos y confiables en todo momento. Lo invitamos a <a href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">comunicarse con nosotros</a>&nbsp;para obtener m&aacute;s informaci&oacute;n sobre SEIU Member Benefits. &iexcl;Nos complacer&aacute; atenderlo!</p>
+        <p>SEIU Member Benefits es administrado por NEA Member Benefits Corporation, una subsidiaria de la National Education Association. Service Employees International Union supervisa el desarrollo y la administraci&oacute;n de productos y defiende a los miembros de SEIU.</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Acerca de seiu member benefits
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Los 2 millones de miembros de SEIU tienen un objetivo común: unirse por la creencia en la dignidad y en el valor de los trabajadores y los servicios que prestan, y dedicarse a mejorar la vida de los trabajadores y sus familias al crear una sociedad más justa y humana. "
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200930T195549Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Acerca de Nosotros
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200930T195549Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{B5267D35-BBB7-4738-97A3-6599C3E1042C}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Acerca de Nosotros
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p>Los 2 millones de miembros de SEIU tienen un objetivo com&uacute;n: unirse por la creencia en la dignidad y en el valor de los trabajadores y los servicios que prestan, y dedicarse a mejorar la vida de los trabajadores y sus familias al crear una sociedad m&aacute;s justa y humana. SEIU Member Benefits se enorgullece en atenderlo. Nos dedicamos a mejorar su vida personal y profesional mediante programas y servicios de primer nivel.</p>
+        <p style="text-align: center;">
+        <img height="60" alt="SEIUMB logo color" width="360" src="-/media/8F63D22D79F44B8CA2EA6106EF59B36C.ashx?h=60&amp;w=360" /></p>
+        <p>
+        SEIU Member Benefits se esfuerza por ayudar a todos los miembros a aumentar su seguridad econ&oacute;mica mediante servicios financieros y programas de seguro. Queremos maximizar los d&oacute;lares ganados con esfuerzo de los miembros a trav&eacute;s de descuentos al consumidor y ofertas especiales en viajes y tiempo libre. SEIU Member Benefits se enorgullece de defender a los miembros y ofrecerles servicios valiosos y confiables en todo momento. Lo invitamos a <a href="~/link.aspx?_id=22D6E52EB4B3488EA289B6B6A64E9F4F&amp;_z=z">comunicarse con nosotros</a>&nbsp;para obtener m&aacute;s informaci&oacute;n sobre SEIU Member Benefits. &iexcl;Nos complacer&aacute; atenderlo!</p>
+        <p>&nbsp;</p>
+        <center><a href="~/link.aspx?_id=190C467442BA4C509FA9E80DBD9C344E&amp;_z=z">Los beneficios, de un vistazo</a><br />
+        <a href="~/link.aspx?_id=23C87AA527964498B177DC4AAF6083ED&amp;_z=z">Bienvenido a SEIU Member Benefits</a></center>
+        <p>&nbsp;</p>
+        <p>SEIU Member Benefits es administrado por NEA Member Benefits Corporation, una subsidiaria de la National Education Association. Service Employees International Union supervisa el desarrollo y la administraci&oacute;n de productos y defiende a los miembros de SEIU.</p>
+        <div class="addthis_sharing_toolbox">&nbsp;</div>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Acerca de seiu member benefits

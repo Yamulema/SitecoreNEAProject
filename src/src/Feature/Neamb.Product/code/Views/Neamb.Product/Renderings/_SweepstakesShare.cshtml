@@ -1,0 +1,22 @@
+﻿@using Neambc.Neamb.Feature.Product.Model
+
+@model SweepstakesBaseDTO
+
+@if (Model.SocialShare.ShowSocialShare && Model.IsPositionRight)
+{
+    <div class="col-md-12 hidden-md hidden-lg">
+        @Html.Raw(Model.SocialShare.AddThisHtml)
+    </div>
+}
+
+@if (Model.SocialShare.ShowSocialShare && !Model.IsPositionRight)
+{
+    <div class="col-md-12">
+        @Html.Raw(Model.SocialShare.AddThisHtml)
+    </div>
+}
+
+@if (Model.SocialShare.ShowSocialShare)
+{
+    @Html.Raw(Model.SocialShare.AddThisJSContent)
+}

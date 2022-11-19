@@ -1,0 +1,67 @@
+﻿---
+ID: "028ca68b-a4a3-45e9-876c-687dc92f71f9"
+Parent: "016aa7a8-5ae6-44a1-9693-10f24e062f90"
+Template: "016aa7a8-5ae6-44a1-9693-10f24e062f90"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_ClickAndSave/_LoginFormClickAndSave/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "058809cb-3b63-405f-86d7-3f4219ae21b2"
+      Hint: Show
+      Value: Show
+    - ID: "0ed33f4d-f131-4cfc-80cc-0be360783d90"
+      Hint: Password Reset
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{FCD0B7D8-BCA1-42ED-A8E0-22C101D22FCD}" />
+    - ID: "13d1e6d8-fe7b-489c-8622-835ef410b77b"
+      Hint: Subheadline
+      Value: Verify your eligibility for benefits, discounts, and services when you sign in.
+    - ID: "200f8366-40c3-4075-855b-4b34d45dbfa8"
+      Hint: Headline
+      Value: Sign In to NEA Member Benefits
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190118T185237Z
+    - ID: "348700e7-c735-4086-9dc5-afee7c117d01"
+      Hint: Default ClickSave URL
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{F6CA738F-AFBE-4B34-9764-53DF323703F5}" />
+    - ID: "35700334-a5bd-4ad3-8440-161165ca9acb"
+      Hint: Invalid Credentials
+      Value: We're sorry, but the password you entered were not recognized. Please try again
+    - ID: "4aeaf65b-b117-4fab-8c73-0a3ba1b75a5d"
+      Hint: Not Eligible
+      Value: |
+        We're sorry, it looks like you are not elligible for this offer. Please review the <a class="text-alpha link-underline" href="~/link.aspx?_id=2351C4D0ECBD4403BED4751C3CF3960A&amp;_z=z">Terms &amp; Conditions</a>&nbsp;for full eligibilty rules. If you believe you are eligible for this program please contact us.
+    - ID: "556f6859-59ec-4a5f-8dd8-932012369210"
+      Hint: Login Button
+      Value: Sign In
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "63317379-9029-4a56-aba8-82504e2dabda"
+      Hint: Account Already Locked Valid Token
+      Value: This account has been locked due to multiple unsuccessful attempts. Please check your email for password reset instructions. Also check your Spam or Bulk mail folder, just to be sure.
+    - ID: "859f19c5-8d62-4818-86a4-076fb7d14b68"
+      Hint: Time Out
+      Value: We are experiencing technical difficulties at the moment, please try again later
+    - ID: "8f4981dd-a3e1-4c15-9e01-d011e508a950"
+      Hint: Account Locked
+      Value: This account is locked due to too many user attempts. A password reset link has been sent to the email for this account
+    - ID: "99598970-9aa4-42ef-ba69-df222506d949"
+      Hint: Tooltip
+      Value: Please create password that is at least <strong>8 characters long</strong>, contains at least <strong>1 letter</strong> and <strong>1 number</strong> and <strong>no spaces</strong>.
+    - ID: "b94b4ff0-d291-464b-baa2-983397943271"
+      Hint: Logo
+      Value: |
+        <image mediapath="" alt="click-save-membership-card-logo" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{0476E093-F6D1-4389-B2A5-4B1C164D2F54}" />
+    - ID: "dc171172-c4d8-47c6-9634-d625aca90889"
+      Hint: Password
+      Value: Password
+    - ID: "e1de101a-98d9-4005-8cad-5ed7430f2b75"
+      Hint: Empty Password
+      Value: Please enter your password

@@ -1,0 +1,37 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.GeneralContent.Enums
+@using Sitecore.Mvc
+@using Neambc.Neamb.Feature.Banner
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+}
+<section class="c-080">
+    <div class="hero-banner-desktop" style="background-image: url('@Model.Item.ImageUrl(Templates.UnionHeadlineHero.Fields.DesktopImage)');">
+        <div class="shadow-container">
+            <div class="container flex">
+                <div class="content">
+                    <h1>@Html.Sitecore().Field(Templates.UnionHeadlineHero.Fields.Headline, Model.Item)</h1>
+                    <p>
+                        @Html.Sitecore().Field(Templates.UnionHeadlineHero.Fields.Subheadline, Model.Item)
+                    </p>
+                    @Html.Sitecore().Field(Templates.UnionHeadlineHero.Fields.ButtonLink, Model.Item, new { @class = "btn btn-new btn-blue m-t-sm" })
+                </div>
+            </div>
+        </div>
+    </div>
+    @if (!isExperienceEditor)
+    {
+    <div class="hero-banner-mobile">
+        @Html.Sitecore().ImageField(Templates.UnionHeadlineHero.Fields.MobileImage, Model.Item)
+        <div class="content bg-blue">
+            <h1>@Html.Sitecore().Field(Templates.UnionHeadlineHero.Fields.Headline, Model.Item)</h1>
+            <p>
+                @Html.Sitecore().Field(Templates.UnionHeadlineHero.Fields.Subheadline, Model.Item)
+            </p>
+            @Html.Sitecore().Field(Templates.UnionHeadlineHero.Fields.ButtonLink, Model.Item, new { @class = "btn btn-new btn-gray m-t-md no-box-shadow" })
+        </div>
+    </div>
+    }
+</section>

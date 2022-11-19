@@ -1,0 +1,128 @@
+﻿---
+ID: "ee77a547-716e-463c-a3b2-7f81247e8c0c"
+Parent: "e609611b-8426-4b86-9124-f9112d28097d"
+Template: "e609611b-8426-4b86-9124-f9112d28097d"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Edit Beneficiary/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{EB5CB4BA-86C1-4794-83D6-5AB88561BF24}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{194E1BFE-43D7-4814-BB09-1CB9389013DD}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{4D8DD278-EF71-4B22-A02D-65CA9F7B7054}" />
+        <r
+          id="{F9B6A22E-659E-4686-895C-9068C24C02EA}"
+          ph="body"
+          uid="{6AF03E11-C9A6-4192-BEB9-E71844AA4726}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{B38EEC94-A857-47CB-A404-8153C3C74175}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{F7906C2A-34D6-4FFF-817D-D8ECBDB55A7A}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{51A8AE47-51DF-4E27-BC3C-2E9AD7184628}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05d56b40-f439-4976-b036-6170c01d7ade"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "07d1c2df-82db-4137-895e-c8c068da88f7"
+      Hint: Empty Field
+      Value: Please insert a payout percentage.
+    - ID: "0fd58512-ac87-4158-9b3f-ed071f6c0795"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180704T204827Z
+    - ID: "2f79c21c-6fe2-4a50-962d-dd105cdc1e55"
+      Hint: Characters Limit
+      Value: You can enter only 3 characters in this field.
+    - ID: "4990ad0c-01aa-456d-b5f4-6cb0a6b0db21"
+      Hint: Payout Left
+      Value: |
+        Total payout percentage <span id="TotalPercent"></span> out of 100
+    - ID: "5871301b-78fc-4602-a2cc-88da7e28ee7d"
+      Hint: Characters Limit
+      Value: You can enter only 100 characters in this field.
+    - ID: "679cdaf3-0e75-4dc2-b087-f9597ecd8d47"
+      Hint: Minimum Characters Limit
+      Value: You should enter at least 2 characters in this field
+    - ID: "6dabe4cd-ae5b-407e-8daa-9d6d07436a83"
+      Hint: Empty
+      Value: Please insert your last name.
+    - ID: "88bc7019-cd69-49cc-aba3-06dd6abc1092"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "8c15c958-a11f-44a2-ae47-ea0058cde4cb"
+      Hint: Characters Limit
+      Value: You can enter only 30 characters in this field.
+    - ID: "945353bc-48ce-4720-b766-f1cbe0f4e623"
+      Hint: Tooltip
+      Value: Please insert the other entity name.
+    - ID: "9cb2e2c5-603c-4314-b9ec-8c9d55fb150c"
+      Hint: Intro
+      Value: "Please provide the names and relationships of your beneficiaries for the NEA Complimentary Life Insurance death benefit. If a beneficiary is not named, any amount of insurance at your death will be paid to the first surviving beneficiary class as listed in this following order: (1) surviving spouse, (2) surviving children, (3) surviving parents, (4) surviving siblings, (5) your state."
+    - ID: "ab3283c4-d60e-49b9-badc-e4d31ee4397f"
+      Hint: Characters Limit
+      Value: You can enter only 40 characters in this field.
+    - ID: "b80708ff-3c7e-4195-a47f-857b82fa54ae"
+      Hint: Empty
+      Value: Please insert your email.
+    - ID: "bc401df1-4bfa-4c11-a77d-28696b762afd"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "c848e700-b061-4b1b-975a-189aba00dbb9"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check.
+    - ID: "cb309087-16d9-4d4a-8001-3b90caaf7116"
+      Hint: Empty
+      Value: Please select your relationship to this beneficiary.
+    - ID: "d11ec4fa-6868-4bed-b74d-f21bb76b5e96"
+      Hint: Title
+      Value: Edit Beneficiary
+    - ID: "d4f26f0d-87c0-4363-b56a-60e6d6276ca6"
+      Hint: Minimum Characters Limit
+      Value: You should enter at least 2 characters in this field
+    - ID: "eafe7e4a-e78b-47a5-b154-b193ef8fb198"
+      Hint: Characters Limit
+      Value: You can enter only 1 character in this field.
+    - ID: "eba46e4a-6822-4bb6-b757-ed9c518d36bc"
+      Hint: Empty
+      Value: Please insert your first name.

@@ -1,0 +1,101 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent.Models
+@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model TestYourKnowledge
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+}
+
+@if (Model == null)
+{
+    return;
+}
+
+<section class="c-081">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 quiz">
+                @if (isExperienceEditor)
+                {
+                    <h2>@Html.Sitecore().Field(Templates.TestYourKnowledge.Fields.HeadLine, Model.Item)</h2>
+                }
+                else
+                {
+                    <h2>@Model.HeadLine</h2>
+                }
+
+                @if (isExperienceEditor)
+                {
+                    @Html.Sitecore().Field(Templates.TestYourKnowledge.Fields.Question, Model.Item)
+                }
+                else
+                {
+                    @Html.Raw(Model.Question)
+                }
+
+                <div class="row grid">
+                    @AnswerText(Model.Option1)
+
+                    @AnswerText(Model.Option2)
+
+                    @AnswerText(Model.Option3)
+
+                    @AnswerText(Model.Option4)
+
+                    @AnswerText(Model.Option5)
+
+                    @AnswerText(Model.Option6)
+
+                    @AnswerText(Model.Option7)
+
+                    @AnswerText(Model.Option8)
+
+                    @AnswerText(Model.Option9)
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-5 mt-5">
+                        <button class="btn btn-new btn-blue m-t-sm submit-answer">@Model.SubmitButton</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 green-box-container hide">
+                <div class="green-box flex-center-column">
+                    @Html.Sitecore().Field(Templates.TestYourKnowledge.Fields.ConfirmationText, Model.Item)
+                    <div class="arrow">
+
+                        @if (Model.ConfirmationLink.LinkType == "external" || Model.ConfirmationLink.LinkType == "internal")
+                        {
+                            <a href="@Model.ConfirmationLink.Value">
+                                <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                            </a>
+                        }
+
+                        @if (Model.ConfirmationLink.LinkType == "javascript")
+                        {
+                            <a onclick="@Model.ConfirmationLink.Value">
+                                <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                            </a>
+                        }
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 img-container">
+                @Html.Sitecore().Field(Templates.TestYourKnowledge.Fields.QuestionImage, Model.Item, new { @class = "img-default" })
+                @Html.Sitecore().Field(Templates.TestYourKnowledge.Fields.ConfirmationImage, Model.Item, new { @class = "img-changed hide" })
+            </div>
+        </div>
+    </div>
+</section>
+
+@helper AnswerText(string answer)
+{
+    if (!string.IsNullOrEmpty(answer))
+    {
+        <div class="col-sm-4">
+            <div class="box">@answer</div>
+        </div>
+    }
+}

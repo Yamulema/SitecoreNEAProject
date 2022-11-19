@@ -1,0 +1,7 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<p class="section-indicator text-center">@Html.Sitecore().Field(Templates.SmallAccordion.Fields.Header, Model.Item)</p>
+<h2 class="header text-center">@Html.Sitecore().Field(Templates.SmallAccordion.Fields.Subhead, Model.Item)</h2>

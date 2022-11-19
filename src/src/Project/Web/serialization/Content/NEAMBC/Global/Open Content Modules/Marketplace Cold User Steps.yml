@@ -1,0 +1,374 @@
+﻿---
+ID: "8ee775e4-425e-4b3b-8df9-dbb6061ea904"
+Parent: "485e4456-f411-4af3-82d3-afbcd7e61832"
+Template: "96deaf46-f1f2-44fe-baaa-3f424d0a164f"
+Path: /sitecore/content/NEAMBC/Global/Open Content Modules/Marketplace Cold User Steps
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201126T203448Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+                      <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+        <p style="margin:20px; text-align:center;" >Plus, spend $25 or more at any qualifying Rakuten store, and receive a $10 Welcome Bonus... just for joining!*
+        </p>
+                      <div class="steps carousel">
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">1</div>
+                              <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">2</div>
+                              <p><a style="color: #512E85;" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()" ><strong>Sign Up</strong></a> for a Rakuten account through SEIUMB.com.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">3</div>
+                              <p>Earn Cash Back on qualifying purchases.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">4</div>
+                              <p>Get paid via PayPal or by check.</p>
+                          </div>
+                      </div>
+                  </div>
+        </section>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210721T140000Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+            <div class="row get-started">
+                <h2 class="text-center mt-2">Ready, Get Set, SAVE!</h2>
+                <p style="margin:20px; text-align:center;">Shop deals from your favorite merchants and Earn Cash Back on your
+                    Back-to-School purchases!
+                </p>
+                <div class="steps carousel">
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">1</div>
+                        <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">2</div>
+                        <p><a style="color: #512E85;"
+                            onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://www.seiumb.com/seiu discount marketplace'},this);executeLogin()"
+                            tabindex="0"><strong>Sign Up</strong></a> for a Rakuten account through SEIUMB.com.</p>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">3</div>
+                        <p>Earn Cash Back on qualifying purchases.</p>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">4</div>
+                        <p>Get paid via PayPal or by check.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210721T140000Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210721T185512Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+            <div class="row get-started">
+                <h2 class="text-center mt-2">Ready, Get Set, SAVE!</h2>
+                <p style="margin:20px; text-align:center;">Shop deals from your favorite merchants and Earn Cash Back on your
+                    Back-to-School purchases!
+                </p>
+                <div class="steps carousel">
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">1</div>
+                        <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">2</div>
+                        <p><a style="color: #512E85;"
+                            onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://www.seiumb.com/seiu discount marketplace'},this);executeLogin()"
+                            tabindex="0"><strong>Sign Up</strong></a> for a Rakuten account through SEIUMB.com.</p>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">3</div>
+                        <p>Earn Cash Back on qualifying purchases.</p>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <div class="step">4</div>
+                        <p>Get paid via PayPal or by check.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210721T185512Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210901T140814Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+                      <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+        <p style="margin:20px; text-align:center;" >Plus, spend $25 or more at any qualifying Rakuten store, and receive a $10 Welcome Bonus... just for joining!*
+        </p>
+                      <div class="steps carousel">
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">1</div>
+                              <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">2</div>
+                              <p><a style="color: #512E85;" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()" ><strong>Sign Up</strong></a> for a Rakuten account through SEIUMB.com.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">3</div>
+                              <p>Earn Cash Back on qualifying purchases.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">4</div>
+                              <p>Get paid via PayPal or by check.</p>
+                          </div>
+                      </div>
+                  </div>
+        </section>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210901T140814Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201209T165114Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">C&oacute;mo comenzar a recibir reembolsos en efectivo!</h2>
+        <p style="margin:20px; text-align:center;">
+        Adem&aacute;s, puede gastar $25 o m&aacute;s en cualquier tienda calificada de Rakuten y recibir una bonificaci&oacute;n de bienvenida de $10, y &iexcl;solo por unirse!*
+        </p>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p><a style="color: #512E85" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Regístrese', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()"><strong>Reg&iacute;strese</strong></a> para obtener una cuenta de Rakuten en SEIUMB.com</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210721T140741Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Listo, prep&aacute;rate, AHORRA!</h2>
+        <p style="margin:20px; text-align:center;">
+        &iexcl;Compre ofertas de sus comerciantes favoritos y gane dinero en efectivo en sus compras de regreso a la escuela!
+        </p>
+        <div class="steps carousel slick-initialized slick-slider slick-dotted">
+        <div class="slick-list draggable">
+        <div class="slick-track" style="opacity: 1; width: 848px; transform: translate3d(0px, 0px, 0px);">
+        <div class="small-12 medium-12 large-3 columns slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 212px;">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide01" style="width: 212px;">
+        <div class="step">2</div>
+        <p><a style="color: #512E85;" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Regístrese', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()" tabindex="0"><strong>Reg&iacute;strese</strong></a> para obtener una cuenta de Rakuten en SEIUMB.com</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide02" style="width: 220px;">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns slick-slide slick-active" data-slick-index="3" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide03" style="width: 220px;">
+        <div class="step">4</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        </div>
+        </div>
+        <ul class="slick-dots" role="tablist">
+            <li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 1" tabindex="0" aria-selected="true">1</button></li>
+        </ul>
+        </div>
+        </div>
+        </section>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210721T140741Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210721T185613Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">&iexcl;Listo, prep&aacute;rate, AHORRA!</h2>
+        <p style="margin:20px; text-align:center;">&iexcl;Compre ofertas de sus comerciantes favoritos y gane dinero en efectivo en sus compras de regreso a la escuela!
+        </p>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p><a style="color: #512E85;" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://www.seiumb.com/seiu discount marketplace'},this);executeLogin()" tabindex="0"><strong>Reg&iacute;strese</strong></a> para obtener una cuenta de Rakuten en SEIUMB.com</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210721T185613Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210901T140930Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">C&oacute;mo comenzar a recibir reembolsos en efectivo!</h2>
+        <p style="margin:20px; text-align:center;">
+        Adem&aacute;s, puede gastar $25 o m&aacute;s en cualquier tienda calificada de Rakuten y recibir una bonificaci&oacute;n de bienvenida de $10, y &iexcl;solo por unirse!*
+        </p>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p><a style="color: #512E85" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Regístrese', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()"><strong>Reg&iacute;strese</strong></a> para obtener una cuenta de Rakuten en SEIUMB.com</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210901T140930Z

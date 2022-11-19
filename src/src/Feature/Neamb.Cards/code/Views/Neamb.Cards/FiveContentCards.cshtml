@@ -1,0 +1,51 @@
+﻿@using System.Runtime.CompilerServices
+@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Cards.Models.FiveContentCardDto
+
+@if (Model.PageCards.Any() || Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <section class="section-normal c-026 @Model.BackgroundColor">
+        <div class="container">
+            <div class="col-md-12">
+                <h2 class="header">@Html.Sitecore().Field(Templates.FiveContentItems.Fields.Header, Model.Item)</h2>
+                <div class="row">
+
+                    @if (Model.PageCards.Any())
+                    {
+                        var firstCard = Model.PageCards.FirstOrDefault();
+
+                        <div class="col-sm-6 col-md-6 left-panel">
+                            <div class="card">
+                                <a href="@firstCard.Cta" title="@firstCard.Title" @Html.Raw(firstCard.GtmAction)>
+                                    <img src="@firstCard.ThumbnailSrc" alt="@firstCard.ThumbnailAlt" class="img-responsive" loading="lazy" />
+                                    <h3>@Html.Raw(firstCard.Title)</h3>
+                                    <p>@Html.Raw(firstCard.Description)</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        foreach (var card in Model.PageCards.Skip(1))
+                        {
+                            <div class="col-sm-5 col-sm-push-1 col-md-5 col-md-push-1 right-panel">
+                                <div class="row item">
+                                    <a href="@card.Cta" title="@card.Title" @Html.Raw(card.GtmAction)>
+                                        <div class="col-xs-5 col-md-4"><img src="@card.ThumbnailSrc" alt="@card.ThumbnailAlt" class="img-responsive" loading="lazy" /></div>
+                                        <div class="col-xs-7 col-md-8">
+                                            @if (!string.IsNullOrEmpty(card.Genre))
+                                            {
+                                                <p class="genre">@card.Genre</p>
+                                            }
+                                            <p><strong>@Html.Raw(card.Title)</strong></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+}

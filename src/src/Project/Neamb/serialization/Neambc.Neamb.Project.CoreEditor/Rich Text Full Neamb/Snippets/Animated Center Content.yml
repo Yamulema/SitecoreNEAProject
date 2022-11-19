@@ -1,0 +1,60 @@
+﻿---
+ID: "d1e55f13-7593-4449-b961-546396db3bd9"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Animated Center Content
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+      <section class="animated-center-content new-design">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 title1">
+              Want to see if the NEA Personal Loan can help?
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 title2">
+              See what loan options may be available for you.
+            </div>
+          </div>
+          <div class="spacer"></div>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#" class="btn btn-orange" target="_blank"><strong>Get Details</strong></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="small-text">Share this with your colleagues&nbsp;&nbsp;</span>
+              <div class="share gtm-social-connect m-t-md">
+                <a rel="noopener noreferrer" href="https://www.facebook.com/NEAMemberBenefits/" target="_blank"
+                  title="NEA Member Benefits on Facebook"
+                  onclick="dataLayerPush({'event':'social','socialAction':'connect','socialPlatform':'facebook'},this);" style="color: white!important;">
+                  <em class="fa fa-facebook"></em> </a>&nbsp;&nbsp;
+                <a rel="noopener noreferrer" href="https://twitter.com/neabenefits" target="_blank"
+                  title="NEA Member Benefits on Twitter"
+                  onclick="dataLayerPush({'event':'social','socialAction':'connect','socialPlatform':'twitter'},this);" style="color: white!important;">
+                  <em class="fa fa-twitter"></em> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Animated Center Content

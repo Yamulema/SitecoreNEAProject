@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+	<pages>
+		<page name="MemberWelcomePage" urlpath="/account/welcome">
+			<sections>
+				<section name="Form">
+					<controls>
+						<control key="FormHtml" xpath="//*[@id='member-welcome']"  />
+						<control key="PersonalCodeInput" xpath="//*[@id='imsid']"  />
+						<control key="FormSubmit" xpath="//*[contains(@type,'submit')]"  />
+						
+					</controls>
+				</section>
+				<section name="SecondPage">
+					<controls>
+						<control key="ZipInput" xpath="//*[@id='zip']"  />
+						<control key="PasswordInput" xpath="//*[@id='password']"  />
+						<control key="ServerError" xpath="//div[contains(@class,'server-error')]"  />
+					</controls>
+				</section>
+			</sections>
+		</page>
+	</pages>
+</controldata>

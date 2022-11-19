@@ -1,0 +1,112 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Neambc.Neamb.Feature.GeneralContent.Models.FourStepsCarousel
+
+<div class="section-xl">
+    <div class="container">
+        <div class="col-centered col-lg-10">
+            @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.HeaderText, Model.Item)
+            <div class="p-b-sm hidden-lg">
+                <!--start ipad and mobile version-->
+                <div class="ord-list slider m-b-n">
+                    @if (Model.HasStep1)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 1 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step1, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    @if (Model.HasStep2)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 2 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step2, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    @if (Model.HasStep3)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 3 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step3, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    @if (Model.HasStep4)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 4 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step4, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!--end ipad and mobile version-->
+            </div>
+            <div class="p-b-lg visible-lg-block">
+                <!--start desktop version-->
+                <div class="ord-list-raw row">
+                    @if (Model.HasStep1)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 1 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step1, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    @if (Model.HasStep2)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 2 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step2, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    @if (Model.HasStep3)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 3 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step3, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    @if (Model.HasStep4)
+                    {
+                        <div>
+                            <div class="item">
+                                <p class="bullet"> 4 </p>
+                                <p class="text-muted">
+                                    @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.Step4, Model.Item)
+                                </p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+            @Html.Sitecore().Field(Templates.FourStepsCarousel.Fields.BottomText, Model.Item)
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿@using Neambc.Seiumb.Feature.Navigation
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Neambc.Seiumb.Feature.Navigation.Models.NavigationItems
+@{ 
+    string url="";
+    Sitecore.Data.Items.Item firstItem = null;
+    if (Model != null && Model.Items != null && Model.Items.Count > 0)
+    {
+        firstItem= Model.Items.FirstOrDefault().Item;
+    }
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    string idDiv = isExperienceEditor ? "navbarExp" : "";
+}
+    <div id="navbar" class="show-for-medium medium-4 large-4 columns float-left  @idDiv">
+        <ul class="vertical menu">
+            <li>
+                @if (Model != null && Model.Items != null && Model.Items.Count>0)
+                {
+                    url= Model.Items.FirstOrDefault().Url;
+                    foreach (var item in Model.Items)
+                    {
+                        <a href="@item.Url">@Html.Sitecore().Field(Templates.Navigable.Fields.ShortTitle, item.Item)</a>
+                        if (item.Children != null)
+                        {
+                            <ul class="menu vertical nested">
+
+                                @foreach (var child in item.Children.Items)
+                                {
+                                    if (child.Selected)
+                                    {
+                                        <li><a class="active" @Html.Raw(child.OnClickEventContent) href="@child.Url">@Html.Sitecore().Field(Templates.Navigable.Fields.ShortTitle, child.Item)</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a @Html.Raw(child.OnClickEventContent) href="@child.Url">@Html.Sitecore().Field(Templates.Navigable.Fields.ShortTitle, child.Item)</a></li>
+                                    }
+                                }
+                            </ul>
+                        }
+                    }
+                }
+            </li>
+        </ul>
+    </div>

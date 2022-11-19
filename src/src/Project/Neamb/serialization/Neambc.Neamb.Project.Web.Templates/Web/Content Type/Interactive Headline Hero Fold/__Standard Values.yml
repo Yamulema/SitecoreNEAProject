@@ -1,0 +1,23 @@
+﻿---
+ID: "c127f3ac-e189-4c75-bd72-01eea77a5f3b"
+Parent: "bcded691-5b95-44cd-b341-3f618eb13288"
+Template: "bcded691-5b95-44cd-b341-3f618eb13288"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Interactive Headline Hero Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A15E2C39-BB7E-42FB-9C84-C0C3805A7B12}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220722T210347Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

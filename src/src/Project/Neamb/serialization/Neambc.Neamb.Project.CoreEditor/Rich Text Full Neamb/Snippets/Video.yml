@@ -1,0 +1,48 @@
+﻿---
+ID: "6d09093a-aa48-49ba-bac5-10c09e8b5f7f"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Video
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="body-copy-full-width">
+      <section class="section-normal">
+        <div class="container">
+          <div class="col-md-9 col-centered">
+            <h2 class="header text-center">Our Committment</h2>
+            <p class="subhead text-center">You work hard to support your students. We at NEA Member Benefits pledge to work just as hard to provide the services and support you deserve.</p>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="spacer-55"></div>
+              </div>
+            </div>
+            <script src="//content.jwplatform.com/players/yKvFNrZR-XDr5hdIt.js"></script>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="spacer-40"></div>
+              </div>
+            </div>
+            <h6 class="text-center">Since 1967, NEA Member Benefits has proudly served those who dedicate their work to our children’s education. Meet the team that makes it happen.</h6>
+            <p class="text-center"><a href="#" title="title">Meet the Team</a></p>
+          </div>
+        </div>
+      </section>
+    </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180626T175528Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Video

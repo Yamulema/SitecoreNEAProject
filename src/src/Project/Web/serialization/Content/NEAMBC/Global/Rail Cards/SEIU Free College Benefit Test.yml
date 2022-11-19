@@ -1,0 +1,102 @@
+﻿---
+ID: "e088a3c0-35c2-4a1f-8fc0-0b906c3295ed"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/SEIU Free College Benefit Testimonial
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175025Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <br>
+        <p>"<em>SEIU is investing in you and your future and now it’s time that you do the same!</em>"  "<em>I’m forever grateful for this opportunity</em>…"</p>
+        <p>-Denee, SEIU HCIIMK</p>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z">READ MORE!</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Member Testimonial
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A1B3F60-D072-4AD3-A3D7-CC15B6E48FB4}" alt="SEIU Free College for America Testimonial" height="" width="" hspace="" vspace=""></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175652Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <br />
+        <p>&ldquo;<em>SEIU invierte en usted y en su futuro, as&iacute; que &iexcl;es hora de que usted haga lo mismo!</em>&rdquo;  &ldquo;<em>Agradezco eternamente esta oportunidad</em>&hellip;&rdquo;</p>
+        <p>-Denee, SEIU HCIIMK</p>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" onclick="ga_event('rail module','click','Denee, SEIU HCIIMK Testimonial esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: TESTIMONIO DE UNA MIEMBRO
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A1B3F60-D072-4AD3-A3D7-CC15B6E48FB4}" alt="¿Qué es la educación basada en competencias?" height="" width="" hspace="" vspace=""></image>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200727T204455Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <br />
+        <p>&ldquo;<em>SEIU invierte en usted y en su futuro, as&iacute; que &iexcl;es hora de que usted haga lo mismo!</em>&rdquo;  &ldquo;<em>Agradezco eternamente esta oportunidad</em>&hellip;&rdquo;</p>
+        <p>-Denee, SEIU HCIIMK</p>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=60DC7F63F0EB42EC84BD6C1FA365FEE3&amp;_z=z" onclick="ga_event('rail module','click','Denee, SEIU HCIIMK Testimonial esp &gt; button');">M&Aacute;S INFORMACI&Oacute;N</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: PALABRAS DE MIEMBROS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200727T204455Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{5A1B3F60-D072-4AD3-A3D7-CC15B6E48FB4}" alt="¿Qué es la educación basada en competencias?" height="" width="" hspace="" vspace=""></image>

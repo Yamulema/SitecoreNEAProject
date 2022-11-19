@@ -1,0 +1,38 @@
+﻿---
+ID: "9227ba31-a6ba-4ff6-845c-c95895c15aa1"
+Parent: "5c96b375-df05-4aa0-9df1-29ba95d6453c"
+Template: "b0935825-a5f5-4914-b15d-68733c056563"
+Path: /sitecore/content/NEAMBC/Home/TestPreview/HomeCar
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{68C6BE7A-DE6C-42D5-A06C-79A44C52824A}"
+              s:ds="{FE948F18-FFF0-4193-8E2D-EF818C979DA0}"
+              s:par="" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200616T220651Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HomeCar
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HomeCar

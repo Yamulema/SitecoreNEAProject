@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ProfilePage" urlpath="/account/profile">
+      <sections>
+        <section name="HeaderProfile">
+          <controls>
+            <control key="Profile_h_SignIn"   xpath="//div[@class='navbar-text']//span[contains(text(),'Sign In')]"  />
+            <control key="Profile_h_title"  xpath="//div[@class='col-md-11 col-centered']//h1"   />
+           </controls>
+        </section>
+
+        <section name="ProfileForm">
+          <controls>
+            <control key="Profile_f_FirstName"   xpath="//input[@id='firstname']"  />
+            <control key="Profile_f_LastName"   id="lastName"  />
+            <control key="Profile_f_Month"   id="month"  />
+            <control key="Profile_f_Day"   id="day"  />
+            <control key="Profile_f_Year"   id="year"  />
+            <control key="Profile_f_Address"   id="address"  />
+            <control key="Profile_f_City"   id="city"  />
+            <control key="Profile_f_State"   id="state"  />
+            <control key="Profile_f_Zip"   id="zip"  />
+            <control key="Profile_f_Phone"   id="phone"  />
+            <control key="Profile_f_Email"   id="email"  />
+            <control key="Profile_f_SaveForm"   id="submitFields"  />
+          </controls>
+        </section>
+        <section name="LabelSection1">
+          <controls>
+            <control key="Prof_l_FirstName"   xpath="//label[@for='firstname']"  />
+            <control key="Prof_l_LastName"   xpath="//label[@for='lastName']"  />
+          </controls>
+        </section>
+        <section name="Password">
+          <controls>
+            <control key="Profile_p_CurrentPwd"   xpath="//input[@name='currentpassword']"  />
+            <control key="Profile_p_NewPwd"   xpath="//input[@name='newpassword']"  />
+            <control key="Profile_p_ConfirmPwd"   id="confirmPassword"  />
+            <control key="Profile_p_SavePwd"   id="submitPassword"  />
+          </controls>
+        </section>
+
+        <section name="ThankYOuModal">
+          <controls>
+            <control key="Profile_t_Modal"   id="profileModal"  />
+            <control key="Profile_p_ReturnProfile"   xpath="//div[contains(@class,'col-md-5')]//a[@href='/account/profile']"  />
+            <control key="Profile_p_closemodal"   id="closemodal"  />
+            
+          </controls>
+        </section>
+        <section name="RequiredFieldsErrormsg">
+          <controls>
+            <control key="Profile_err_FirstName"  id="firstname-error"  />
+            <control key="Profile_err_LastName"  id="lastName-error"  />
+            <control key="Profile_err_Month"  id="month-error"  />
+            <control key="Profile_err_Day"  id="day-error"  />
+            <control key="Profile_err_Year"  id="year-error"  />
+            <control key="Profile_err_Address"  id="address-error"  />
+            <control key="Profile_err_City"  id="city-error"  />
+            <control key="Profile_err_State"  id="state-error"  />
+            <control key="Profile_err_Zip"  id="zip-error"  />
+            <control key="Profile_err_Email"  id="email-error"  />
+            <control key="Profile_err_CurrentPassword"  id="currentpassword-error"  />
+            <control key="Profile_err_NewPassword"  id="password-error"  />
+            <control key="Profile_err_ConfirmPassword"  id="confirmPassword-error"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

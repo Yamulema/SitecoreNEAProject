@@ -1,0 +1,34 @@
+﻿---
+ID: "764fdc4f-fce5-4e12-b0ff-d4a79a13cb28"
+Parent: "bc31e870-10cf-4072-b6af-804d8e9734d9"
+Template: "bc31e870-10cf-4072-b6af-804d8e9734d9"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Carousel Offer Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0210ff04-fe1c-4fa8-aef9-e816bf249204"
+      Hint: Eligibility Details
+      Value: |
+        <p> We're sorry, it looks like you are not eligible for this offer. Please review the <a>Terms &amp; Conditions</a> for full eligibility rules. </p>
+        <p>If you believe you are eligible for this program please <a  href="~/link.aspx?_id=C900B28EB14F4B589D6A2EDDB8F70DB1&amp;_z=z">contact us.</a></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210429T170701Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72b4f734-f12c-4abf-bad7-4139e2f24a09"
+      Hint: Title
+      Value: Insert your title here
+    - ID: "acdbb338-867c-4022-976d-58e460447e10"
+      Hint: Promotional Text
+      Value: |
+        Insert your black text here.
+        Insert you color text here.
+    - ID: "bca7b2e9-2a71-4eb4-81c8-4401ede3b5bc"
+      Hint: Description
+      Value: Insert your description here

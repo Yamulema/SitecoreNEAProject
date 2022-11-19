@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Neambc.Seiumb.Foundation.WebServices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Neambc_Seiumb_Foundation_WebServices_org_neambc_elegibility_seiumb" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.16.15.187:8080/axis2/services/seiumb.seiumbHttpSoap11Endpoint/</Value>
+    </Setting>
+    <Setting Name="Neambc_Seiumb_Foundation_WebServices_org_neambc_encryptafinium_aes256EncryptDecrypt" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.16.15.187:8080/axis2/services/aes256EncryptDecrypt.aes256EncryptDecryptHttpSoap11Endpoint/</Value>
+    </Setting>
+    <Setting Name="Neambc_Seiumb_Foundation_WebServices_org_neambc_acctmgt_AccountManagement" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.122.1:8080/axis2/services/AccountManagement.AccountManagementHttpSoap11Endpoint/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

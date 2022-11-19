@@ -1,0 +1,26 @@
+﻿@using Neambc.Seiumb.Feature.Navigation
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Neambc.Seiumb.Feature.Navigation.Models.NavigationItems
+
+<div class="top-bar-left medium-12 large-7 columns">
+    <hr class="hide-for-large">
+    <ul id="nav" class="dropdown menu vertical large-horizontal" data-dropdown-menu>
+
+        @if (Model != null && Model.Items != null)
+        {
+            foreach (var item in Model.Items)
+            {
+                <li>
+                    @if (item.Selected)
+                    {
+                    <a class="active" @Html.Raw(item.OnClickEventContent) href="@item.Url">@Html.Sitecore().Field(Templates.Navigable.Fields.ShortTitle, item.Item)</a>
+                    }
+                    else
+                    {
+                        <a @Html.Raw(item.OnClickEventContent) href="@item.Url">@Html.Sitecore().Field(Templates.Navigable.Fields.ShortTitle, item.Item)</a>
+                    }
+                </li>
+            }
+        }
+    </ul>
+</div>

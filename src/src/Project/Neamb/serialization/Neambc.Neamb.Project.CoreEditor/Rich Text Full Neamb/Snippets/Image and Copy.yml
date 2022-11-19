@@ -1,0 +1,91 @@
+﻿---
+ID: "a0af80a5-9b09-4933-9066-b4012dcd96bd"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Image and Copy
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <div class="section-normal bg-gray">
+    <div class="container">
+    <h6 class="header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet risus ut ex ultrices consequat. Ut a magna vulputate, eleifend nulla eu, congue justo.!</h6>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="spacer-50">&nbsp;</div>
+    </div>
+    </div>
+    <ul class="winner-list">
+        <div class="row">
+        <div class="col-md-6">
+        <li>
+        <div><img src="/assets/neamb/images/winner.jpg" alt="alt" />
+        <p> <strong>David Roberts</strong></p>
+        <p>Vestibulum faucibus purus quis sapien suscipit vulputate nec tempor purus</p>
+        <p>&ldquo;Suspendisse potenti. Suspendisse eget sapien quis elit pellentesque rhoncus id ac nisl. Nunc id facilisis dui. Phasellus non enim et purus facilisis porta vitae sit amet metus. Quisque condimentum sem eu erat ullamcorper, id pretium orci volutpat.&rdquo; -- David Roberts</p>
+        </div>
+        <hr />
+        </li>
+        <li>
+        <div>
+        <p> <strong>David Roberts</strong></p>
+        <p>Vestibulum faucibus purus quis sapien suscipit vulputate nec tempor purus</p>
+        <p>&ldquo;Suspendisse potenti. Suspendisse eget sapien quis elit pellentesque rhoncus id ac nisl. Nunc id facilisis dui. Phasellus non enim et purus facilisis porta vitae sit amet metus. Quisque condimentum sem eu erat ullamcorper, id pretium orci volutpat.&rdquo; -- David Roberts</p>
+        </div>
+        <hr />
+        </li>
+        <li>
+        <div>
+        <p> <strong>David Roberts</strong></p>
+        <p>Vestibulum faucibus purus quis sapien suscipit vulputate nec tempor purus.</p>
+        <p>&ldquo;Suspendisse potenti. Suspendisse eget sapien quis elit pellentesque rhoncus id ac nisl. Nunc id facilisis dui. Phasellus non enim et purus facilisis porta vitae sit amet metus. Quisque condimentum sem eu erat ullamcorper, id pretium orci volutpat.&rdquo; -- David Roberts</p>
+        </div>
+        <hr />
+        </li>
+        </div>
+        <div class="col-md-6">
+        <li>
+        <div>
+        <p> <strong>David Roberts</strong></p>
+        <p>Vestibulum faucibus purus quis sapien suscipit vulputate nec tempor purus</p>
+        <p>&ldquo;Suspendisse potenti. Suspendisse eget sapien quis elit pellentesque rhoncus id ac nisl. Nunc id facilisis dui. Phasellus non enim et purus facilisis porta vitae sit amet metus. Quisque condimentum sem eu erat ullamcorper, id pretium orci volutpat.&rdquo; -- David Roberts</p>
+        </div>
+        <hr />
+        </li>
+        <li>
+        <div>
+        <p> <strong>David Roberts</strong></p>
+        <p>Vestibulum faucibus purus quis sapien suscipit vulputate nec tempor purus</p>
+        <p>&ldquo;Suspendisse potenti. Suspendisse eget sapien quis elit pellentesque rhoncus id ac nisl. Nunc id facilisis dui. Phasellus non enim et purus facilisis porta vitae sit amet metus. Quisque condimentum sem eu erat ullamcorper, id pretium orci volutpat.&rdquo; -- David Roberts</p>
+        </div>
+        <hr />
+        </li>
+        <li>
+        <div>
+        <p> <strong>David Roberts</strong></p>
+        <p>Vestibulum faucibus purus quis sapien suscipit vulputate nec tempor purus</p>
+        <p>&ldquo;Suspendisse potenti. Suspendisse eget sapien quis elit pellentesque rhoncus id ac nisl. Nunc id facilisis dui. Phasellus non enim et purus facilisis porta vitae sit amet metus. Quisque condimentum sem eu erat ullamcorper, id pretium orci volutpat.&rdquo; -- David Roberts</p>
+        </div>
+        <hr />
+        </li>
+        </div>
+        </div>
+    </ul>
+    </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180626T172913Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Image and Copy

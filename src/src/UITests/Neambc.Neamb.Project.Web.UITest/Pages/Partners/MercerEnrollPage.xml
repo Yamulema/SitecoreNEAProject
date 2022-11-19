@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="MercerEnrollPage" urlpath="https://mags.mercer.com/mags/enroll/">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="MercerEnrollPage_Header_NeaLogo" xpath="//*[@id='ida']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>
+

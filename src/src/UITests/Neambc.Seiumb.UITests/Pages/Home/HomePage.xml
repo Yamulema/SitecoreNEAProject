@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="HomePage" urlpath="/">
+      <sections>
+        <section name="Cards">
+          <controls>
+            <control key="FirstCard" xpath="//*[@id='cards']/div/div/div[1]/div/div[3]/div[2]/div/a"  />
+            <control key="EnglishLanguageToggle" xpath="//*[@id='ENG']"  />
+            <control key="SpanishLanguageToggle" xpath="//*[@id='ESP']"  />
+            <control key="ArrowFirstCarousel" xpath="//*[@id='orbit-carousel']/ul/li[1]/figure/figcaption/p/span/a"  />
+          </controls>
+        </section>
+        <section name="ContactUs">
+          <controls>
+            <control key="ContactUsLink" xpath="//*[@id='main_help']/a"  />
+            <control key="ContactUsIconMail" xpath="//*[@id='main_help']/div/a[1]"  />
+            <control key="ContactUsIconPhone" xpath="//*[@id='main_help']/div/a[2]"  />           
+          </controls>
+        </section>
+        <section name="CardItem">
+          <controls>
+            <control key="CardItemTitle" xpath="//*[@id='cards']/div/div/div[1]/div/div[3]/div[1]/h3/a"  />
+            <control key="CardItemActionButton" xpath="//*[@id='cards']/div/div/div[1]/div/div[3]/div[2]/div/a"  />
+          </controls>
+        </section>
+        <section name="Chat">
+          <controls>
+            <control key="ChatIcon" xpath="//div[contains(@class, 'bcStatic')]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

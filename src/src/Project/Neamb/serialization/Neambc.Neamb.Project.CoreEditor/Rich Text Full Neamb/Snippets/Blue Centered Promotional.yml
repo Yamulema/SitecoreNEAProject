@@ -1,0 +1,55 @@
+﻿---
+ID: "3786ed5c-c9d8-4481-8118-70ec12eddde1"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Blue Centered Promotional
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="blue-centered-promotional">
+        <div class="container">
+          <div class="title">
+            Security Benefit
+          </div>
+          <div class="small-text">
+            <div class="container">
+              Through a combination of product innovation, exceptional investment management, and a unique distribution strategy, Security Benefit has become a leader in the U.S. retirement industry — making them the perfect partner for NEA Member Benefits.
+            </div>
+          </div>
+          <div class="add-top add-bottom">
+            <a class="arrow-link full" href="/" tabindex="0">Learn More</a>
+          </div>
+          <div class="card">
+              <div class="title1">129+</div>
+              <div class="title2">years</div>
+              <div class="content">of experience and insight for building financial futures</div>
+          </div>
+          <div class="card">
+            <div class="title1">2,000+</div>
+            <div class="title2">associates</div>
+            <div class="content">focused on effective and strategic growth</div>
+          </div>
+          <div class="card">
+            <div class="title1">20+</div>
+            <div class="title2">years</div>
+            <div class="content">of partnership with NEA Member Benefits, with over 3 million members</div>
+          </div>
+        </div>
+      </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Blue Centered Promotional

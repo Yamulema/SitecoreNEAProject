@@ -1,0 +1,43 @@
+﻿---
+ID: "12ef3a31-c3c4-49c3-a1cc-aaa54364c242"
+Parent: "7d036f25-0eb3-4bed-a0f6-d4c0873d1b24"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/About
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/note_pinned.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {367B8E27-D435-49A7-BA34-5D8F44FC1EB8}
+    {668D8D54-DC74-475D-902F-611A1EED6371}
+    {7E1D57A0-5B8F-4309-B488-1B60C65BF434}
+    {0559E9DC-8D47-4F19-B3FC-FEB431BA0BB5}
+    {A401323D-E10D-40E2-87FA-A286748C47AC}
+    {C8B4ACA4-5BC1-4AE6-A6B1-2667C81F7BC9}
+    {CB80D522-886F-47C0-B740-D029FD4DB5A8}
+    {D49FB8DE-58FD-4151-A709-2CBEF2105060}
+    {1A2CE642-F13F-4BEB-AFC4-FE43DFB06623}
+    {6DFFAC57-6610-4785-A1DD-039FDFB7E139}
+    {4D53FB3F-03CD-44FC-9CEC-EE81A5E0AD51}
+    {74159DE1-A691-4A83-8CEE-1D7109BC3457}
+    {2D3B7389-4171-406A-8319-03A7807988D5}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{77BC9CC1-039E-4CF3-A034-2C980B2F9DE0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180502T202103Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

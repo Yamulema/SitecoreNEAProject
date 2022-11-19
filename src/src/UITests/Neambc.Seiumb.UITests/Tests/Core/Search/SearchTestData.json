@@ -1,0 +1,15 @@
+{
+  "Test_GTM_SearchText": [
+    [ "finance" ]
+  ],
+  "Test_GTM_SearchResults": [
+    [
+      "search-results?searchtext=finance",
+      "dataLayerPush({",
+      "'event':'search'",
+      "'searchAction':'result click'",
+      "'searchText':",
+      "'searchText':'http"
+    ]
+  ]
+}

@@ -1,0 +1,341 @@
+﻿---
+ID: "9650a212-9cc9-4964-ba1f-c37da56e9e5f"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU DIRECTV Offer EXPIRED
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20180731T000000Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{FB964D75-962E-4EC5-9DD8-E208B59729C1}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{57806FC0-BCF4-4C45-9E39-F430260A2BA3}" alt="SEIU Member Benefits in partnership with Directv" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002551Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p><strong>RESTRICTIONS</strong></p>
+        
+        <p>Valid for new DIRECTV subscribers only and subscribers who have not had an active DIRECTV subscription within the last 24 months. Not valid for renewal of an existing DIRECTV subscription.</p>
+        
+        <p><br>
+        ** To access DIRECTV HD programming, HD equipment along with Advanced Receiver Service is required. Number of HD channels varies based on package selection.</p>
+        
+        <p><br>
+        <strong>All DIRECTV OFFERS REQUIRE A 24-MONTH AGREEMENT. ADDITIONAL FEES APPLY.</strong> New approved residential DIRECTV customers only. Credit approval required. Customer may be subject to additional $299 non-refundable fee depending on credit rating. Credit card/ debit card with Visa or Mastercard logo required (except MA &amp; PA). Pro-rated Early Termination fee (up to $480) and Equipment Non-Return fees apply. Programming, pricing and offers are subject to change and may vary in certain markets. Some offers may not be available through all channels and in select areas.</p>
+        
+        <p><br>
+        Customers activating the CHOICE™ Package or the MÁS ULTRA™ Package or above will be automatically enrolled in the 2017 season of NFL Sunday Ticket at no additional cost and will receive a free upgrade to NFL Sunday TICKET MAX for the 2017 season.</p>
+        
+        <p><br>
+        Package consists of all live out-of-market NFL games (based on customer’s service address) broadcast on FOX and CBS. Games available via remote viewing based on device location. Other conditions apply. 2017 NFL SUNDAY TICKET regular full-season retail price is $281.94. 2017 NFL SUNDAY TICKET MAX regular full-season retail price is $377.94. Customers activating CHOICE or MÁS ULTRA Package or above will be eligible to receive the 2017 season of NFL SUNDAY TICKET at no additional cost and will receive a free upgrade to NFL SUNDAY TICKET MAX for the 2017 season. NFL SUNDAY TICKET subscription will automatically continue each season at a special renewal rate unless customer calls to cancel prior to start of season. To renew NFL SUNDAY TICKET MAX, customer must call to upgrade after the 2017 season. Subscription cannot be canceled (in part or in whole) after the start of the season and subscription fee cannot be refunded.</p>
+        
+        <p><br>
+        Access to available DIRECTV On Demand programming based on package selection. Actual number of shows and movies will vary. Additional fees apply for new releases. Some DIRECTV CINEMA and On Demand content requires an HD DVR (HR20 or later) or DVR (R22 or later), DIRECTV CINEMA Connection Kit and broadband Internet service with speeds of 750kbps or higher and a network router with an available Ethernet port. Downloading On Demand content may count against your data plan allowance. Visit directv.com/movies for details.</p>
+        
+        <p><br>
+        DIRECTV offers a wide variety of Spanish programming, including movies, sports, and music channels. Please see their Spanish language programming packages page for detailed information.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: DIRECTV
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "To subscribe to DIRECTV please call <strong>1-855-793-4645</strong>."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DIRECTV®
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{56F9FE65-3A69-49F5-B61A-38C64F29A2BE}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{56F9FE65-3A69-49F5-B61A-38C64F29A2BE}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p><strong>Exclusively for SEIU Members: $100 gift card for each new subscriber of the CHOICE™ or Spanish ÓPTIMO MÁS™ package or above.*</strong></p>
+        
+        <p>Whether you want a mind-blowing HD experience on your TV or you want to enjoy your favorite shows on whatever screen you have handy, DIRECTV is the ultimate source for everything you love in entertainment.</p>
+        
+        <p>DIRECTV has over 315 of your favorite channels—more than 200 of them in full-time HD.** With DIRECTV, you get all the TV you love, live or On-Demand, on any compatible device you want, and the cutting-edge technology to experience it like never before.</p>
+        
+        <p><strong>AND, get all the best shows from Latin America.</strong><br>
+        DIRECTV brings you more of your favorite entertainment from Latin America than anyone. Get their entire selection of Spanish-language programming including movies, sports, and music channels.</p>
+        
+        <p>Subscribers can choose from one of the ten All-Included Packages below (with a 24- month TV agreement and other qualifying AT&amp;T service). Then subscribers can add sports channels, premium movie channels, and more. Prices include monthly equipment fees for up to 4 rooms and the HD DVR monthly fee.</p>
+        
+        <p>* <em>Valid for new DIRECTV subscribers only. Gift card compliments of TeleStatOnline (DGS).</em></p>
+        
+        <p>For additional information, please see the <a href="~/link.aspx?_id=6D2DE259A7294423994EA7EF3D45C6E1&amp;_z=z">DIRECTV FAQs</a>.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p><u><strong>English Packages</strong></u></p>
+        
+        <div class="row" style="text-align: center; color: rgb(255, 255, 255); font-size: 10px; font-weight: bold;">
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(255, 204, 0);">SELECT<sup>TM</sup><br>
+        145+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(32, 203, 154);">ENTERTAINMENT<sup>TM</sup><br>
+        150+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(30, 177, 237);">CHOICE<sup>TM</sup><br>
+        175+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(16, 114, 189);">XTRA<sup>TM</sup><br>
+        220+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(153, 108, 251);">ULTIMATE<sup>TM</sup><br>
+        240+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(252, 82, 85);">PREMIER<sup>TM</sup><br>
+        315+<br>
+        channels</div>
+        </div>
+        
+        <p>&nbsp;</p>
+        
+        <p><u><strong>Spanish Packages</strong></u></p>
+        
+        <div class="row" style="text-align: center; color: rgb(255, 255, 255); font-size: 10px; font-weight: bold;">
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(32, 203, 154);">MÁS LATINO<sup>©</sup><br>
+        115+<br>
+        channels</div>
+        
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(30, 177, 237);">ÓPTIMO MÁS<sup>TM</sup><br>
+        195+<br>
+        channels</div>
+        
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(153, 108, 251);">MÁS ULTRA<sup>TM</sup><br>
+        236+<br>
+        channels</div>
+        
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(252, 82, 85);">LO MÁXIMO<sup>TM</sup><br>
+        340+<br>
+        channels</div>
+        </div>
+        
+        <p>&nbsp;</p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{FB964D75-962E-4EC5-9DD8-E208B59729C1}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: DIRECTV
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="DOWNLOAD PDF" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Experience entertainment like never before with a DIRECTV<sup>&reg;</sup> special bonus for SEIU members.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: EXPERIENCE ENTERTAINMENT LIKE NEVER BEFORE WITH A DIRECTV® SPECIAL BONUS FOR SEIU MEMBERS.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: DIRECTV
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{FB964D75-962E-4EC5-9DD8-E208B59729C1}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{57806FC0-BCF4-4C45-9E39-F430260A2BA3}" alt="SEIU Member Benefits en asociación con Directv" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172626Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p><strong>RESTRICCIONES</strong></p>
+        
+        <p>Válido solo para los nuevos suscriptores de DIRECTV y los suscriptores que no hayan tenido una suscripción activa de DIRECTV en los últimos 24 meses. No es válido para la renovación de una suscripción de DIRECTV existente.</p>
+        
+        <p><br>
+        ** Para acceder a la programación HD de DIRECTV, se requieren equipos HD junto con el Servicio de Receptor Avanzado. El número de canales en HD varía según la selección del paquete.</p>
+        
+        <p><br>
+        <strong>TODAS LAS OFERTAS DE DIRECTV REQUIEREN UN ACUERDO DE 24 MESES. SE APLICAN TARIFAS ADICIONALES</strong>. Solo clientes residenciales nuevos aprobados de DIRECTV. Se requiere aprobación de crédito. El cliente puede estar sujeto a un cargo adicional de $299, no reembolsable, dependiendo de la calificación crediticia. Se requiere una tarjeta de crédito/débito con el logotipo Visa o Mastercard (excepto MA y PA). Se aplican cargos prorrateados de cancelación anticipada (hasta $480) y cargos por no devolución de los equipos. La programación, los precios y las ofertas están sujetos a cambios y pueden variar en ciertos mercados. Es posible que algunas ofertas no estén disponibles en todos los canales y en determinadas áreas.</p>
+        
+        <p><br>
+        Los clientes que activen el Paquete CHOICETM o el Paquete MÁS ULTRATM, descrito anteriormente, se inscribirán de manera automática en la temporada 2017 de NFL SUNDAY TICKET sin costo adicional y recibirán una actualización gratuita a NFL SUNDAY TICKET MAX para la temporada 2017.</p>
+        
+        <p><br>
+        El paquete incluye todos los juegos de la NFL en vivo fuera del mercado (en base a la dirección del servicio del cliente) emitidos en FOX y CBS. Juegos disponibles mediante visualización remota en función de la ubicación del dispositivo. Se aplican otras condiciones. El precio regular minorista por temporada completa de NFL SUNDAY TICKET 2017 es $281.94. El precio regular minorista por temporada completa de NFL SUNDAY TICKET MAX 2017 es $377.94. Los clientes que activen el Paquete CHOICE o el Paquete MÁS ULTRA o superior serán elegibles para recibir la temporada 2017 de NFL SUNDAY TICKET sin costo adicional y recibirán una actualización gratuita a NFL SUNDAY TICKET MAX para la temporada 2017. La suscripción a NFL SUNDAY TICKET continuará de manera automática cada temporada con una tarifa de renovación especial a menos que el cliente llame para cancelar antes del inicio de la temporada. Para renovar NFL SUNDAY TICKET MAX, el cliente debe llamar para solicitar la actualización después de la temporada 2017. La suscripción no se puede cancelar (en parte o en su totalidad) después del inicio de la temporada y la tarifa de suscripción no es reembolsable.</p>
+        
+        <p><br>
+        Acceso a la programación DIRECTV On Demand disponible en base a la selección de paquetes. El número real de programas y películas variará. Se aplican cargos adicionales por los nuevos lanzamientos. Algunos contenidos de DIRECTV CINEMA y On Demand requieren un DVR en HD (HR20 o posterior) o DVR (R22 o posterior), el kit de conexión DIRECTV CINEMA y servicio de Internet de banda ancha con velocidades de 750 kbps o superior y un enrutador de red con un puerto Ethernet disponible. Las descargas de contenido de On Demand pueden deducirse de su plan de datos asignado. Visite directv.com/movies para obtener más detalles.</p>
+        
+        <p><br>
+        DIRECTV ofrece una amplia variedad de programas en español, incluyendo películas, deportes y canales de música. Consulta la página de paquetes de programación en español para obtener información más detallada.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: DIRECTV
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Para suscribirse a DIRECTV llame a <strong>1-855-793-4645</strong>."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: DIRECTV®
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p><strong>Exclusivamente para los miembros de SEIU: Tarjeta de regalo con un valor de $100 para cada nuevo suscriptor de el paquete CHOICE™ o Spanish ÓPTIMO MÁS™ o un paquete superior.*</strong></p>
+        
+        <p>Ya sea que quieras vivir una asombrosa experiencia HD en tu televisor o disfrutar de tus programas favoritos en cualquier pantalla que tengas a mano, DIRECTV es la mejor opción para todo el entretenimiento que buscas.</p>
+        
+        <p>DIRECTV cuenta con más de 315 de tus canales preferidos en el paquete PREMIER, de los cuales, más de 200 están disponibles totalmente en HD.** Con DIRECTV, tienes toda la televisión que te gusta, en vivo o mediante el servicio On-Demand, en cualquier dispositivo compatible que quieras, y la tecnología de vanguardia que hace todo esto posible.</p>
+        
+        <p><strong>ADEMÁS, puedes ver los mejores programas de América Latina. </strong><br>
+        DIRECTV te ofrece más de tu entretenimiento favorito de América Latina que cualquier otro proveedor. Obtén la más completa selección de programas en español, incluyendo películas, deportes y canales de música.</p>
+        
+        <p>Los suscriptores pueden elegir uno de los diez paquetes Todo Incluido que se describen a continuación (con un contrato de televisión de 24 meses y otro servicio AT&amp;T calificado). Luego, pueden agregar canales de deportes, canales de películas premium y más. Los precios incluyen los costos mensuales del equipo para hasta 4 habitaciones y el abono mensual para DVR en HD.</p>
+        
+        <p>* <em>Válido únicamente para los nuevos suscriptores de DIRECTV. La tarjeta de regalo es cortesía de TeleStatOnline (DGS).</em></p>
+        
+        <p>Para obtener más información, consulte las <a href="~/link.aspx?_id=6D2DE259A7294423994EA7EF3D45C6E1&amp;_z=z">preguntas frecuentes</a>.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p><u><strong>Paquetes en español</strong></u></p>
+        
+        <div class="row" style="text-align: center; color: rgb(255, 255, 255); font-size: 10px; font-weight: bold;">
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(32, 203, 154);">MÁS LATINO<sup>©</sup><br>
+        115+<br>
+        channels</div>
+        
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(30, 177, 237);">ÓPTIMO MÁS<sup>TM</sup><br>
+        195+<br>
+        channels</div>
+        
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(153, 108, 251);">MÁS ULTRA<sup>TM</sup><br>
+        236+<br>
+        channels</div>
+        
+        <div class="small-6 large-3 columns" style="padding: 10px 5px; background-color: rgb(252, 82, 85);">LO MÁXIMO<sup>TM</sup><br>
+        340+<br>
+        channels</div>
+        </div>
+        
+        <p>&nbsp;</p>
+        
+        <p><u><strong>Paquetes en ingles</strong></u></p>
+        
+        <div class="row" style="text-align: center; color: rgb(255, 255, 255); font-size: 10px; font-weight: bold;">
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(255, 204, 0);">SELECT<sup>TM</sup><br>
+        145+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(32, 203, 154);">ENTERTAINMENT<sup>TM</sup><br>
+        150+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(30, 177, 237);">CHOICE<sup>TM</sup><br>
+        175+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(16, 114, 189);">XTRA<sup>TM</sup><br>
+        220+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(153, 108, 251);">ULTIMATE<sup>TM</sup><br>
+        240+<br>
+        channels</div>
+        
+        <div class="small-4 large-2 columns" style="padding: 10px 5px; background-color: rgb(252, 82, 85);">PREMIER<sup>TM</sup><br>
+        315+<br>
+        channels</div>
+        </div>
+        
+        <p>&nbsp;</p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{FB964D75-962E-4EC5-9DD8-E208B59729C1}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: DIRECTV
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Descargar PDF" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Disfruta del entretenimiento como nunca antes con un bono especial de DIRECTV<sup>&reg;</sup> para los miembros de SEIU.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: DISFRUTA DEL ENTRETENIMIENTO COMO NUNCA ANTES CON UN BONO ESPECIAL DE DIRECTV® PARA LOS MIEMBROS DE SEIU.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: DIRECTV

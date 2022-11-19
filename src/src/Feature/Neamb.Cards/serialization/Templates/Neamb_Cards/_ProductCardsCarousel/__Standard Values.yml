@@ -1,0 +1,30 @@
+﻿---
+ID: "d1c27ed4-ebc2-49a6-bf84-04288090ef13"
+Parent: "df21984b-6adc-4371-8dbd-d77ceb5cfae8"
+Template: "df21984b-6adc-4371-8dbd-d77ceb5cfae8"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Cards/_ProductCardsCarousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180508T185317Z
+    - ID: "27f558d7-44b9-4585-9d9c-9335c50a19b5"
+      Hint: Background Color
+      Value: Blue
+    - ID: "2c6b311a-84f7-4478-9fe2-52fa710feda7"
+      Hint: Match Attribute
+      Value: Product Category
+    - ID: "41426959-84d6-4cdf-bc0a-d614371bee59"
+      Hint: Headline
+      Value: Insert your headline here
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6afee5c4-ea8d-4cf6-bf6b-07ebaaef6366"
+      Hint: Subheadline
+      Value: Insert your subheadline here

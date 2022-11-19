@@ -1,0 +1,670 @@
+﻿@using Neambc.Seiumb.Feature.Forms.Enums
+@using Neambc.Seiumb.Foundation.Authentication
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Links
+
+
+@model Neambc.Seiumb.Feature.Forms.Models.RegistrationFormModel
+
+@{
+    string urlpage = LinkManager.GetItemUrl(Model.PageItem);
+    string previousPage = "";
+    if (Request.UrlReferrer!=null && urlpage.Equals(Request.UrlReferrer.AbsolutePath))
+    {
+        previousPage = Model.RedirectAction;
+    }
+    else
+    {
+        previousPage = Request.UrlReferrer != null ? Request.UrlReferrer.AbsolutePath : string.Empty;
+    }
+
+    bool isExperinceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
+    string rowImageStyle = isExperinceEditor ? "position:relative;" : "";
+    string baseAlreadyExistErrorMessage = Model.Item.Fields[Templates.RegistrationForm.Fields.Email_InUse].Value;
+    string alreadyExistErrorMessage = string.Empty;
+    string invalidUsernameErrorMessage = string.Empty;
+    if (Model.Errors != null && Model.Errors.Count > 0)
+    {
+        if (Model.Errors.Contains(RegistrationErrors.USER_ALREADY_EXIST))
+        {
+			<p id="user-already-registered" style="display:none;"></p>
+        }
+        else if (Model.Errors.Contains(RegistrationErrors.USERNAME_NOT_AVAILABLE))
+        {
+            string alreadyExist = Model.Item.Fields[Templates.RegistrationForm.Fields.Email_InUse].Value;
+            if (!string.IsNullOrEmpty(alreadyExist))
+            {
+                alreadyExistErrorMessage = alreadyExist.Replace("|", Model.Email);
+            }
+        }
+        else if (Model.Errors.Contains(RegistrationErrors.INVALID_USERNAME))
+        {
+            string invalidUsername = Model.Item.Fields[Templates.RegistrationForm.Fields.Email_InvalidFormat].Value;
+
+            if (!string.IsNullOrEmpty(invalidUsername))
+            {
+                invalidUsernameErrorMessage = invalidUsername.Replace("|", Model.Email);
+            }
+        }
+
+    }
+
+    string helptitle_FirstName = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.FirstName_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.FirstName_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_LastName = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.LastName_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.LastName_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_Address = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.Address_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.Address_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_City = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.City_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.City_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_State = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.State_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.State_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_ZipCode = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.ZipCode_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.ZipCode_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_DateOfBirth = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.DateOfBirth_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.DateOfBirth_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_Phone = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.Phone_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.Phone_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_Email = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.Email_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.Email_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_DesiredPassword = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.DesiredPassword_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.DesiredPassword_Label].Value.Replace("*", string.Empty) : string.Empty;
+    string helptitle_ConFirmPassword = !string.IsNullOrEmpty(Model.Item.Fields[Templates.RegistrationForm.Fields.ConfirmPassword_Label].Value) ?
+        Model.Item.Fields[Templates.RegistrationForm.Fields.ConfirmPassword_Label].Value.Replace("*", string.Empty) : string.Empty;
+
+    var firstNamePlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.FirstName_Placeholder].Value;
+    var lastNamePlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.LastName_Placeholder].Value;
+    var addressPlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.Address_Placeholder].Value;
+    var cityPlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.City_Placeholder].Value;
+    var zipcodePlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.ZipCode_Placeholder].Value;
+    var dateBirthPlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.DateOfBirth_Placeholder].Value;
+    var phonePlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.Phone_Placeholder].Value;
+    var emailPlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.Email_Placeholder].Value;
+    var desirePasswordPlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.DesiredPassword_Placeholder].Value;
+    var confirmPasswordPlaceholder = Model.Item.Fields[Templates.RegistrationForm.Fields.ConfirmPassword_Placeholder].Value;
+    bool hasFirstError = false;
+}
+
+
+
+<div class="row" style="border-bottom: 1px solid #4f2e84;">
+	<div class="small-12 medium-9 large-9 columns float-right">
+		<div class="row" style="@rowImageStyle">
+			@Html.Sitecore().Placeholder("registration-banner")
+		</div>
+	</div>
+	<div class="show-for-medium medium-3 large-3 columns float-right">
+		<div id="shedron">
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="show-for-medium medium-1 large-1 columns">
+		&nbsp;
+	</div>
+	<div id="registrationMainForm" class="small-12 medium-10 large-10 columns float-left">
+		<form id="registration-form" method="post" action="" data-abide novalidate>
+
+			<div class="small-12 medium-8 large-8 columns">
+				<div class="row">
+					<fieldset class="fieldset">
+						<h4>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Title, Model.Item)</h4>
+						<hr>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="firstName" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.FirstName_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.FirstName, null, new
+								{
+									@id = "firstName",
+									@placeholder = @HttpUtility.HtmlDecode(firstNamePlaceholder),
+									@required = "true"
+								})
+								<span class="form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.FirstName_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorFirstNameInvalidCharacters || Model.HasErrorFirstNameLength)
+								{
+									<div id="fnameError" class="server-error">
+										@if (Model.HasErrorFirstNameInvalidCharacters)
+										{
+											hasFirstError = true;
+
+											@Html.Sitecore().Field(Templates.RegistrationForm.Fields.InvalidCharacters, Model.Item)
+										}
+										@if(Model.HasErrorFirstNameLength)
+										{
+											if (hasFirstError)
+											{
+											<br />
+											}
+											@Html.Sitecore().Field(Templates.RegistrationForm.Fields.FirstName_CharactersLimit, Model.Item)										
+										}
+									</div>
+								}
+								else if (Model.HasErrorFirstName)
+								{
+									<div id="fnameError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.FirstName_ErrorMessage, Model.Item)
+									</div>
+								}
+								<div id="firstNameDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_FirstName</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.FirstName_HelpText, Model.Item)</p>
+										<a id="cancelfirstNameDialog" onclick="cancelDialog('firstName')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="lastName" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.LastName_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.LastName, null, new
+								{
+									@id = "lastName",
+									@placeholder = @HttpUtility.HtmlDecode(lastNamePlaceholder),
+									required = "true"
+								})
+								<span class="form-error" data-form-error-for="lastName">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.LastName_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorLastNameInvalidCharacters || Model.HasErrorLastNameLength)
+								{
+									hasFirstError = false;
+									<div id="flnameError" class="server-error">
+										@if (Model.HasErrorLastNameInvalidCharacters)
+										{
+											hasFirstError = true;
+
+											@Html.Sitecore().Field(Templates.RegistrationForm.Fields.InvalidCharacters, Model.Item)
+										}
+										@if( Model.HasErrorLastNameLength)
+										{
+											if (hasFirstError)
+											{
+											<br />
+											}
+											@Html.Sitecore().Field(Templates.RegistrationForm.Fields.LastName_CharactersLimit, Model.Item)										
+										}
+										
+									</div>
+								}
+								else if (Model.HasErrorLastName)
+								{
+									<div id="flnameError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.LastName_ErrorMessage, Model.Item)
+									</div>
+								}
+								<div id="lastNameDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_LastName</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.LastName_HelpText, Model.Item)</p>
+										<a id="cancellastNameDialog" onclick="cancelDialog('lastName')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="address" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Address_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.Address, null, new
+								{
+									@id = "address",
+									@placeholder = @HttpUtility.HtmlDecode(addressPlaceholder),
+									required = "true"
+								})
+								<span class="form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Address_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorAddressInvalidCharacters || Model.HasErrorAddressLength)
+								{
+									hasFirstError = false;
+									<div id="faddressError" class="server-error">
+										@if (Model.HasErrorAddressInvalidCharacters)
+										{
+											hasFirstError = true;
+										    @Html.Sitecore().Field(Templates.RegistrationForm.Fields.InvalidCharacters, Model.Item)
+										}
+										@if(Model.HasErrorAddressLength)
+										{
+											if (hasFirstError)
+											{
+											<br />
+											}
+											@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Address_CharactersLimit, Model.Item)										
+										}										
+									</div>
+								}
+								else if (Model.HasErrorAddress)
+								{
+									<div id="faddressError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Address_ErrorMessage, Model.Item)
+									</div>
+								}
+								<div id="addressDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_Address</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Address_HelpText, Model.Item)</p>
+										<a id="canceladdressDialog" onclick="cancelDialog('address')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="city" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.City_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.City, null, new
+								{
+									@id = "city",
+									@placeholder = @HttpUtility.HtmlDecode(cityPlaceholder),
+									required = "true"
+								})
+								<span class="form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.City_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorCityInvalidCharacters || Model.HasErrorCityLength)
+								{
+									hasFirstError = false;
+									<div id="fcityError" class="server-error">
+										@if (Model.HasErrorCityInvalidCharacters)
+										{
+											hasFirstError = true;
+										    @Html.Sitecore().Field(Templates.RegistrationForm.Fields.InvalidCharacters, Model.Item)
+										}
+										@if(Model.HasErrorCityLength)
+										{
+											if (hasFirstError)
+											{
+											<br />
+											}
+											@Html.Sitecore().Field(Templates.RegistrationForm.Fields.City_CharactersLimit, Model.Item)										
+										}										
+									</div>
+								}
+								else if (Model.HasErrorCity)
+								{
+									<div id="fcityError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.City_ErrorMessage, Model.Item)
+									</div>
+								}
+								<div id="cityDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_City</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.City_HelpText, Model.Item)</p>
+										<a id="cancelcityDialog" onclick="cancelDialog('city')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="state" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.State_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.DropDownListFor(x => x.State, Model.StatesList, @Model.Item.Fields[Templates.RegistrationForm.Fields.State_Placeholder].Value, new { @id = "state", @required = "" })
+								<span class="form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.State_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorState)
+								{
+								<div id="stateError" class="server-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.State_ErrorMessage, Model.Item)
+								</div>
+								}
+								<div id="stateError" class="server-error"></div>
+								<div id="stateDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_State</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.State_HelpText, Model.Item)</p>
+										<a id="cancelstateDialog" onclick="cancelDialog('state')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="zipCode" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ZipCode_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.ZipCode, null, new
+								{
+									@id = "zipCode",
+									@class = "is-invalid-input",
+									@oninput = "validateZipCodeInput(this)",
+									@onblur = "validate(this)",
+									@placeholder = @HttpUtility.HtmlDecode(zipcodePlaceholder),
+									@pattern = "[0-9]{5}",
+									required = "true"
+								})
+								<span class="form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ZipCode_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorZipcodeLength)
+								{
+									<div id="zipCodeError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ZipCode_CharactersLimit, Model.Item)																														
+									</div>
+								}
+								else if (Model.HasErrorZipcode)
+								{
+									<div id="zipCodeError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ZipCode_ErrorMessage, Model.Item)
+									</div>
+								}
+								<div id="zipCodeDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_ZipCode</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ZipCode_HelpText, Model.Item)</p>
+										<a id="cancelzipCodeDialog" onclick="cancelDialog('zipCode')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="dateOfBirth" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DateOfBirth_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.DateOfBirth, null, new
+								{
+									@id = "dateOfBirth",
+									@data_validator = "dateValidator",
+									@onblur = "validate(this)",
+									@placeholder = @HttpUtility.HtmlDecode(dateBirthPlaceholder),
+									required = "true"
+								})
+								<span id="valid-dateOfBirth" style='display: none;' class="custom-form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DateOfBirth_ErrorMessage, Model.Item)
+								</span>
+								<span id="required-dateOfBirth" style='display: none;' class="custom-form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DateOfBirth_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorDateOfBirthAge)
+								{
+									<div id="dbirthError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DateOfBirth_AgeRequirement, Model.Item)																														
+									</div>
+								}else if (Model.HasErrorBirthDate)
+								{
+									<div id="dbirthError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DateOfBirth_ErrorMessage, Model.Item)																														
+									</div>
+								}
+								<div id="dateOfBirthDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_DateOfBirth</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DateOfBirth_HelpText, Model.Item)</p>
+										<a id="canceldateOfBirthDialog" onclick="cancelDialog('dateOfBirth')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="phoneNumber" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Phone_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.Phone, null, new
+								{
+									@id = "phoneNumber",
+									@onblur = "validate(this)",
+									@pattern = "\\([0-9]{3}\\)[0-9]{3}-[0-9]{4}",
+									@placeholder = @HttpUtility.HtmlDecode(phonePlaceholder),
+									@required = "true"
+								})
+								<span class="form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Phone_ErrorMessage, Model.Item)
+								</span>
+								@if (Model.HasErrorPhoneLength)
+								{
+									<div id="phoneNumberError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Phone_CharactersLimit, Model.Item)																														
+									</div>
+								}
+								else if(Model.HasErrorPhone)
+								{
+									<div id="phoneNumberError" class="server-error">
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Phone_ErrorMessage, Model.Item)																														
+									</div>
+								}
+								<div id="phoneNumberDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_Phone</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Phone_HelpText, Model.Item)</p>
+										<a id="cancelphoneNumberDialog" onclick="cancelDialog('phoneNumber')"></a>
+									</div>
+								</div>
+							</div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 columns">
+								@Html.Sitecore().Field(Templates.RegistrationForm.Fields.UserIntro, Model.Item)
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="email" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_Label, Model.Item)</label>
+							</div>
+                            <div class="small-12 medium-8 large-7 columns">
+                                @Html.TextBoxFor(x => x.Email, null, new
+                           {
+                               @id = "email",
+                               @data_validator = "myEmailValidator onFocusOutEmailValidator",
+                               @required = "true",
+                               @onkeyup = "onKeyPressEmailValidator(this)",
+                               @placeholder = @HttpUtility.HtmlDecode(emailPlaceholder)
+                           })
+                                <span id="warning-format-email" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_Warning, Model.Item)
+                                </span>
+                                <span id="required-email" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_Empty, Model.Item)
+                                </span>
+                                <span id="max-characters-email" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_CharactersLimit, Model.Item)
+                                </span>
+                                <span id="invalid-format-email" style='display: none;' class="custom-form-error">
+                                    @Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_InvalidFormat, Model.Item)
+                                </span>
+                                <span id="already-registered-email" style='display: none;' class="custom-form-error">
+                                    @baseAlreadyExistErrorMessage
+                                </span>
+                                @if (!String.IsNullOrEmpty(alreadyExistErrorMessage))
+                                {
+                                    <div id="server-error-email" class="server-error">
+                                        @alreadyExistErrorMessage
+                                    </div>
+                                }
+                                else if (Model.HasErrorEmailLength)
+                                {
+                                    <div id="server-error-email" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_CharactersLimit, Model.Item)
+                                    </div>
+                                }
+                                else if (Model.HasErrorEmail)
+                                {
+                                    <div id="server-error-email" class="server-error">
+                                        @Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_InvalidFormat, Model.Item)
+                                    </div>
+                                }
+                                @if (!String.IsNullOrEmpty(invalidUsernameErrorMessage))
+                                {
+                                    <div id="server-error-email" class="server-error">
+                                        @invalidUsernameErrorMessage
+                                    </div>
+                                }
+                                <div id="emailDialog" style="display:none;">
+                                    <div id="tooltip_title">
+                                        <span>@helptitle_Email</span>
+                                    </div>
+                                    <div id="tooltip_content">
+                                        <p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Email_HelpText, Model.Item)</p>
+                                        <a id="cancelemailDialog" onclick="cancelDialog('email')"></a>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="show-for-large large-2 columns">
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="desiredPassword1" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DesiredPassword_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.Password, null, new
+								{
+									@id = "desiredPassword1",
+									@type = "password",
+									@onkeyup = "onKeyPressPasswordValidator(this, 'registration-form')",
+									@onblur = "hidePasswordMessage();dataEqual(this,'confirmPassword','registration-form');showMissMatchFieldMessage('desiredPassword1', 'confirmPassword')",
+									@onclick = "showPasswordMessage()",
+									@data_validator = "passwordValidator",
+									@placeholder = @HttpUtility.HtmlDecode(desirePasswordPlaceholder),
+									@required = "true"
+								})
+								<span class="form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DesiredPassword_ErrorMessage, Model.Item)
+								</span>
+								<div id="passError" class="server-error">
+								</div>
+								<div id="desiredPassword1Dialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_DesiredPassword</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.DesiredPassword_HelpText, Model.Item)</p>
+										<a id="canceldesiredPassword1Dialog" onclick="cancelDialog('desiredPassword1')"></a>
+									</div>
+								</div>
+							</div>
+							<div style="padding-top: 5px;" class="show-for-large large-2 columns">
+								<small id='valid-desiredPassword1' style="display: none;">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ValidPassword, Model.Item)</small>
+								<small id='invalid-desiredPassword1' style="display: none;">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.InvalidPassword, Model.Item)</small>
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 medium-4 large-3 columns columns">
+								<label for="confirmPassword" class="text-left bottom">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ConfirmPassword_Label, Model.Item)</label>
+							</div>
+							<div class="small-12 medium-8 large-7 columns">
+								@Html.TextBoxFor(x => x.ConfirmPassword, null, new
+								{
+									@id = "confirmPassword",
+									@type = "password",
+									@onkeyup = "onKeyPressPasswordValidator(this, 'registration-form')",
+									@onblur = "hidePasswordMessage();showMissMatchFieldMessage('desiredPassword1', 'confirmPassword')",
+									@onclick = "showPasswordMessage()",
+									@placeholder = @HttpUtility.HtmlDecode(confirmPasswordPlaceholder),
+									@data_equalto = "desiredPassword1",
+									@required = "true"
+								})
+								<span id="missMatch-confirmPassword" style='display: none;' class="custom-form-error">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ConfirmPassword_ErrorMessage, Model.Item)
+								</span>
+								<div id="confPassError" class="server-error"></div>
+								<div id="confirmPasswordDialog" style="display:none;">
+									<div id="tooltip_title">
+										<span>@helptitle_ConFirmPassword</span>
+									</div>
+									<div id="tooltip_content">
+										<p>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ConfirmPassword_HelpText, Model.Item)</p>
+										<a id="cancelconfirmPasswordDialog" onclick="cancelDialog('confirmPassword')"></a>
+									</div>
+								</div>
+							</div>
+							<div style="padding-top: 5px;" class="show-for-large large-2 columns">
+								<small id='valid-confirmPassword' style="display: none;">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.ValidPassword, Model.Item)</small>
+								<small id='invalid-confirmPassword' style="display: none;">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.InvalidPassword, Model.Item)</small>
+							</div>
+						</div>
+						<div class="row">
+							<div id="messagePassword" style="display: none;" class="small-12 medium-12 large-12 columns">
+								<small style='color: red;'>@Html.Sitecore().Field(Templates.RegistrationForm.Fields.PasswordRequirements, Model.Item)</small>
+							</div>
+						</div>
+						<div class="row">
+							<div class="small-12 columns">
+								<p class="note">
+									@Html.Sitecore().Field(Templates.RegistrationForm.Fields.Asterisk, Model.Item)
+								</p>
+							</div>
+						</div>
+						<div class="remember row">
+							<div class="small-12 columns">
+								<div id="receive_checkbox">
+									@Html.CheckBoxFor(x => x.SendInformation, null)
+									<p>
+										@Html.Sitecore().Field(Templates.RegistrationForm.Fields.OptIn, Model.Item)
+									</p>
+									<label for="ckb_mobile_remember"></label>
+								</div>
+							</div>
+						</div>
+
+
+						<input type="hidden" name="fhController" value="RegistrationFormController" data-abide-ignore />
+						<input type="hidden" name="fhAction" value="RegistrationForm" data-abide-ignore />
+						<input type="hidden" name="RedirectAction" value="@previousPage" data-abide-ignore />
+
+						<div class="row">
+							<div class="small-12 columns buttonContainer">
+								<button id="btnRegistrationForm" class="button" type="submit" onclick="hideAllServerErrors()" onmousedown="submitForm(this, 'registration-form')" value="Submit">@Html.Sitecore().Field(Templates.RegistrationForm.Fields.SubmitButton, Model.Item)</button>
+							</div>
+
+						</div>
+					</fieldset>
+				</div>
+			</div>
+			<div class="small-12 medium-4 large-4 columns">
+				<div class="row">
+					@Html.Sitecore().Field(Templates.RegistrationForm.Fields.RightRail, Model.Item)
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+</div>
+
+

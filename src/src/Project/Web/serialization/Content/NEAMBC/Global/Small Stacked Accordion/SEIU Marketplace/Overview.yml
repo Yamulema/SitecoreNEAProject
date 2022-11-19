@@ -1,0 +1,53 @@
+﻿---
+ID: "7afc1003-48e6-4ddf-a745-eb93252b38b4"
+Parent: "6847aefb-2f69-4f02-9ff2-9734aa811757"
+Template: "018b901d-ecad-4748-86e8-bacbe06a5ea7"
+Path: /sitecore/content/NEAMBC/Global/Small Stacked Accordion/SEIU Marketplace/Overview
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        Rakuten is the best way to earn Cash Back and find deep discounts when you shop. Since 1997, Rakuten has helped shape the way people shop online. Rakuten acquired Ebates and ShopStyle and has grown to over 12 million members to remain the largest, free member-based savings programs in the U.S. To date, members have earned over $1 billion in Cash Back. To find out more, go to <a rel="noopener noreferrer" href="https://www.rakuten.com" target="_blank">Rakuten.com</a>.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200923T172619Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: Overview of Rakuten
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        Rakuten is the best way to earn Cash Back and find deep discounts when you shop. Since 1997, Rakuten has helped shape the way people shop online. Rakuten acquired Ebates and ShopStyle and has grown to over 12 million members to remain the largest, free member-based savings programs in the U.S. To date, members have earned over $1 billion in Cash Back. To find out more, go to <a rel="noopener noreferrer" href="https://www.rakuten.com" target="_blank">Rakuten.com</a>.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200923T172619Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: Overview of Rakuten

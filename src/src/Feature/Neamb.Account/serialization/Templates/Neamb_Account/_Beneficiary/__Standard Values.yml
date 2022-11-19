@@ -1,0 +1,130 @@
+﻿---
+ID: "e1acf06e-246e-4236-ac01-03e64c8c4f63"
+Parent: "2f5c116a-4080-4304-b6b4-3eeac019bec3"
+Template: "2f5c116a-4080-4304-b6b4-3eeac019bec3"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Beneficiary/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05d56b40-f439-4976-b036-6170c01d7ade"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "05e5a58a-3230-44af-9e75-8530ba0a132c"
+      Hint: Label
+      Value: Other Entity Name
+    - ID: "07d1c2df-82db-4137-895e-c8c068da88f7"
+      Hint: Empty Field
+      Value: Please insert a payout percentage
+    - ID: "0808f79e-2a3b-48da-89f8-5d36208331c3"
+      Hint: Label
+      Value: Email
+    - ID: "0fd58512-ac87-4158-9b3f-ed071f6c0795"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180711T144136Z
+    - ID: "2f79c21c-6fe2-4a50-962d-dd105cdc1e55"
+      Hint: Characters Limit
+      Value: You can enter only 3 characters in this field
+    - ID: "32efd30a-fea2-49f8-82b8-3de559e783a1"
+      Hint: Anonymous User
+      Value: |
+        You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page
+    - ID: "5871301b-78fc-4602-a2cc-88da7e28ee7d"
+      Hint: Characters Limit
+      Value: You can enter only 100 characters in this field
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6bdc17ac-f3a2-4fb6-a323-8462c78b3772"
+      Hint: Label
+      Value: Relationship
+    - ID: "6dabe4cd-ae5b-407e-8daa-9d6d07436a83"
+      Hint: Empty
+      Value: Please insert your last name
+    - ID: "71cd3bad-f991-49bc-a193-65fd8ee42ea3"
+      Hint: Back
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{861BCE65-8DAB-4B4B-B983-12A0CF873FED}" />
+    - ID: "73a85d50-3231-4898-8cb2-9750caeab159"
+      Hint: Invalid
+      Value: Please select a type
+    - ID: "88bc7019-cd69-49cc-aba3-06dd6abc1092"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "8c15c958-a11f-44a2-ae47-ea0058cde4cb"
+      Hint: Characters Limit
+      Value: You can enter only 30 characters in this field
+    - ID: "8c2eddd9-6249-4e75-9b7d-d8908b2b93e2"
+      Hint: Relationship Values
+      Type: Multilist
+      Value: |
+        {73C1FEAA-E350-438E-9143-D5AF0A0EA100}
+        {D0AF75EE-E583-40E2-A4E3-A728A144FE0D}
+        {93DE0CBF-AD73-4C49-B6CC-8A29D4BC2FD6}
+        {79AF4F18-6F0B-40CF-BBC8-06ABA2EF1E0C}
+        {E76A0475-96B1-4E61-90F1-933568FC67E9}
+        {D8230011-5AA6-4B5E-B57D-737FD6D35C37}
+        {A63EECFB-17E0-4BA8-9B46-93383860F459}
+        {A6C444E0-45BA-4AAB-9267-CF386B9C52D7}
+        {CBB9451D-1A89-440F-86A2-04415BEA552A}
+    - ID: "922c041f-ec66-4c94-b613-1bfed8f81adf"
+      Hint: Save
+      Value: Save
+    - ID: "9930bd90-d3e7-4d64-b402-4ff8f3dc5661"
+      Hint: Label
+      Value: Last Name
+    - ID: "9cb2e2c5-603c-4314-b9ec-8c9d55fb150c"
+      Hint: Intro
+      Value: |
+        The information you provide for your Complimentary Life Insurance must match the information contained in your <a href="~/link.aspx?_id=6512B2CAADFA4B70A4F4541224FD47CC&amp;_z=z">Profile &amp; Settings</a>. Updates made here will appear in both places. <a href="~/link.aspx?_id=3C552C6C1FEE42A99BA5BFA5DE7C6931&amp;_z=z">Contact Us</a>&nbsp;if you need help.
+    - ID: "9eb78d68-c7a8-44a3-8427-28d790519797"
+      Hint: Label
+      Value: Middle Initial
+    - ID: "ab3283c4-d60e-49b9-badc-e4d31ee4397f"
+      Hint: Characters Limit
+      Value: You can enter only 40 characters in this field
+    - ID: "acc3449a-c04e-4246-b04b-a2cd59848ba0"
+      Hint: Label
+      Value: Payout Percentage
+    - ID: "b0855d4f-eba8-444c-96ae-03677e997761"
+      Hint: Empty
+      Value: Please insert the entity name
+    - ID: "b80708ff-3c7e-4195-a47f-857b82fa54ae"
+      Hint: Empty
+      Value: Please insert your email
+    - ID: "bc401df1-4bfa-4c11-a77d-28696b762afd"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "c163b979-7629-4c16-9fd7-3f048937ecaf"
+      Hint: Invalid Format
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again.
+    - ID: "c17e4eed-8a7e-4407-bcff-55b001075b65"
+      Hint: Label
+      Value: Type
+    - ID: "c848e700-b061-4b1b-975a-189aba00dbb9"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "cab90495-c48b-4a95-a975-5687a1a55541"
+      Hint: Invalid Value
+      Value: Payout for a beneficiary must be more than 0 and less than 100
+    - ID: "cb309087-16d9-4d4a-8001-3b90caaf7116"
+      Hint: Empty
+      Value: Please select your relationship to this beneficiary
+    - ID: "d11ec4fa-6868-4bed-b74d-f21bb76b5e96"
+      Hint: Title
+      Value: Add Beneficiary
+    - ID: "d854d7a5-b242-47fa-bc6b-2296367645c2"
+      Hint: Label
+      Value: First Name
+    - ID: "eafe7e4a-e78b-47a5-b154-b193ef8fb198"
+      Hint: Characters Limit
+      Value: You can enter only 1 character in this field
+    - ID: "eba46e4a-6822-4bb6-b757-ed9c518d36bc"
+      Hint: Empty
+      Value: Please insert your first name

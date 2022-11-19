@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ContactUsPage" urlpath="/contact-us">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="ContactUs_Title"  xpath="//h1[contains(text(),'Contact Us')]"   />
+            <control key="ContactUs_f_subtitle"  xpath="//h2[contains(text(),'Send Us a Message')]"  />
+            <control key="ContactUs_f_FirstName" xpath="//label[@for='firstname']"  />
+            <control key="ContactUs_f_LastName" xpath="//label[@for='lastName']"  />
+            <control key="ContactUs_f_Email" xpath="//label[@for='email']"  />
+            <control key="ContactUs_f_State" xpath="//label[@for='stateaffiliate']"  />
+            <control key="ContactUs_f_Topic" xpath="//label[@for='topic']"  />
+            <control key="ContactUs_f_Message" xpath="//label[@for='message']"  />
+            <control key="ContactUs_f_Save" xpath="//input[contains(@value,'Send Message')]"  />
+          </controls>
+        </section>
+        <section name="LanguageToogle">
+          <controls>
+            <control key="EnglishButton"  xpath="//a[contains(text(),'English')]"   />
+            <control key="SpanishButton" xpath="(//div[contains(@class,'btn-group')]//a)[2]"  />
+            <control key="ScreenTitleEnglish"  xpath="//h1[contains(text(),'Contact Us')]"  />
+            <control key="ScreenTitleSpanish"  xpath="(//div[contains(@class,'col-md-11 col-centered')]//h1)"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

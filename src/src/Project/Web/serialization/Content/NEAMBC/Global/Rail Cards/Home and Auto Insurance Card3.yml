@@ -1,0 +1,470 @@
+﻿---
+ID: "e70e9ef0-8e7a-4e6a-8748-2dddc2fe874f"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Home and Auto Insurance Card3
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175025Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3><a href="~/link.aspx?_id=5F83FD0C347949F3AF0BD9CFC99AE141&amp;_z=z">SEIU Auto and Home Insurance Program</a></h3>
+        <p>Protect your home and vehicles at competitive rates.</p>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=5F83FD0C347949F3AF0BD9CFC99AE141&amp;_z=z" >LEARN MORE</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Exclusive Benefits
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{5BB9F2A0-F45E-465E-9C7A-FAA83BADA7E5}" alt="Calculating rates" height="" width="" hspace="" vspace=""></image>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T172656Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>We are no longer partnering with MyLifeProtected for auto and home insurance.<br />
+        If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.&lt; /p&gt;
+        </p>
+        <p>
+        Call: 1-855-298-0607<br />
+        Visit: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        Email: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: A message regarding your insurance policy(s)
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T172656Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="Calculating rates" height="" width="" hspace="" vspace=""></image>
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T174746Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Announcing, changes to the SEIU℠ Auto and Home Insurance Program</strong></p>
+        <p>We are no longer partnering with MyLifeProtected for auto and home insurance.<br />
+        If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.&lt; /p&gt;
+        </p>
+        <p>
+        Call: 1-855-298-0607<br />
+        Visit: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        Email: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: A message regarding your insurance policy(s)
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T174746Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="Calculating rates" height="" width="" hspace="" vspace=""></image>
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T175443Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Announcing, changes to the SEIU℠ Auto and Home Insurance Program</strong></p>
+        <p>We are no longer partnering with MyLifeProtected for auto and home insurance.<br />
+        If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.</p>
+        <p>
+        Call: 1-855-298-0607<br />
+        Visit: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        Email: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: A message regarding your insurance policy(s)
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T175443Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="Calculating rates" height="" width="" hspace="" vspace=""></image>
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T181346Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Announcing, changes to the SEIU℠ Auto and Home Insurance Program</strong></p>
+        <p>We are no longer partnering with MyLifeProtected for auto and home insurance. If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.</p>
+        <p>
+        <strong>Call</strong>: 1-855-298-0607<br />
+        <br />
+        <strong>Visit</strong>: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        <br />
+        <strong>Email</strong>: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Important message
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T181346Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="SEIU auto and home insurance program" height="" width="" hspace="" vspace=""></image>
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T181700Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Announcing, changes to the SEIU℠ Auto and Home Insurance Program</strong></p>
+        <p><span style="font-size: 13px;">We are no longer partnering with MyLifeProtected for auto and home insurance. If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.</span></p>
+        <p>
+        <span style="font-size: 13px;"><strong>Call</strong>: 1-855-298-0607<br />
+        <br />
+        <strong>Visit</strong>: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        <br />
+        <strong>Email</strong>: service@mylifeprotected.com</span></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Important message
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T181700Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="SEIU auto and home insurance program" height="" width="" hspace="" vspace=""></image>
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T182754Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Announcing, changes to the SEIU℠ Auto and Home Insurance Program</strong></p>
+        <p><span style="font-size: 13px;">We are no longer partnering with MyLifeProtected for auto and home insurance. If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.</span></p>
+        <p>
+        <strong>Call</strong>: 1-855-298-0607<br />
+        <br />
+        <strong>Visit</strong>: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        <br />
+        <strong>Email</strong>: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Important message
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T182754Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="SEIU auto and home insurance program" height="" width="" hspace="" vspace=""></image>
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T182841Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Announcing, changes to the SEIU℠ Auto and Home Insurance Program</strong></p>
+        <p><span style="font-size: 13px;">We are no longer partnering with MyLifeProtected for auto and home insurance. If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.</span></p>
+        <p>
+        <strong>Call</strong>: 1-855-298-0607<br />
+        <br />
+        <strong>Visit</strong>: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        <br />
+        <strong>Email</strong>: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Important message
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T182841Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="SEIU auto and home insurance program" height="" width="" hspace="" vspace=""></image>
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T182857Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Announcing, changes to the SEIU℠ Auto and Home Insurance Program</strong></p>
+        <p>We are no longer partnering with MyLifeProtected for auto and home insurance. If you have a current policy through MyLifeProtected, we want to reassure you that your policy(s) will not change.  Please contact them should you have any questions.</p>
+        <p>
+        <strong>Call</strong>: 1-855-298-0607<br />
+        <br />
+        <strong>Visit</strong>: https://mylifeprotected.com/ and live chat with a licensed agent.<br />
+        <br />
+        <strong>Email</strong>: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Important message
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T182857Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="SEIU auto and home insurance program" height="" width="" hspace="" vspace=""></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T175652Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <h3><a href="~/link.aspx?_id=5F83FD0C347949F3AF0BD9CFC99AE141&amp;_z=z" onclick="ga_event('rail module','click','seiu auto and home insurance esp &gt; title');">Programa De Seguros Para Autom&oacute;viles y Viviendas De SEIU</a></h3>
+        <p>Proteja su hogar y veh&iacute;culos a precios competitivos.</p>
+        <div style="text-align: center;"><a class="button" href="~/link.aspx?_id=5F83FD0C347949F3AF0BD9CFC99AE141&amp;_z=z" onclick="ga_event('rail module','click','seiu auto and home insurance esp &gt; button');">APRENDE M&Aacute;S</a></div>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: BENEFICIOS EXCLUSIVOS
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{5BB9F2A0-F45E-465E-9C7A-FAA83BADA7E5}" alt="Calculando tasas" height="" width="" hspace="" vspace=""></image>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T173752Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Anunciamo cambios en el Programa de seguros para autom&oacute;viles y viviendas de SEIU℠</strong></p>
+        <p>
+        </p>
+        <p>Nos ponemos en contacto con usted porque ya no estamos asociados con MyLifeProtected en relaci&oacute;n al seguro de autom&oacute;vil y hogar.<br />
+        Si tiene una directiva actual a trav&eacute;s de MyLifeProtected, queremos asegurarle que sus pol&iacute;ticas no cambiar&aacute;n. P&oacute;ngase en contacto con ellos si tiene alguna pregunta.</p>
+        <p>Llame al: 1-855-298-0607<br />
+        Visite: https://mylifeprotected.com/ y chatee en vivo con un agente con licencia.<br />
+        Por correo electr&oacute;nico: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Un mensaje con respecto a su(s) Póliciza(s) de seguro(s)
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T173752Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="Calculando tasas" height="" width="" hspace="" vspace=""></image>
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T182038Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Anunciamo cambios en el Programa de seguros para autom&oacute;viles y viviendas de SEIU℠</strong></p>
+        <p>Nos ponemos en contacto con usted porque ya no estamos asociados con MyLifeProtected en relaci&oacute;n al seguro de autom&oacute;vil y hogar. Si tiene una directiva actual a trav&eacute;s de MyLifeProtected, queremos asegurarle que sus pol&iacute;ticas no cambiar&aacute;n. P&oacute;ngase en contacto con ellos si tiene alguna pregunta.</p>
+        <p><strong>Llame al</strong>: 1-855-298-0607<br />
+        <br />
+        <strong>Visite</strong>: https://mylifeprotected.com/ y chatee en vivo con un agente con licencia.<br />
+        <br />
+        <strong>Por correo electr&oacute;nico</strong>: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Mensaje Importante
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T182038Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="Calculando tasas" height="" width="" hspace="" vspace=""></image>
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210430T182618Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7C3D0F80-83CB-42D3-9638-D575879A98EB}"></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><strong>Anunciamo cambios en el Programa de seguros para autom&oacute;viles y viviendas de SEIU℠</strong></p>
+        <p>Nos ponemos en contacto con usted porque ya no estamos asociados con MyLifeProtected en relaci&oacute;n al seguro de autom&oacute;vil y hogar. Si tiene una directiva actual a trav&eacute;s de MyLifeProtected, queremos asegurarle que sus pol&iacute;ticas no cambiar&aacute;n. P&oacute;ngase en contacto con ellos si tiene alguna pregunta.</p>
+        <p><strong>Llame al</strong>: 1-855-298-0607<br />
+        <br />
+        <strong>Visite</strong>: https://mylifeprotected.com/ y chatee en vivo con un agente con licencia.<br />
+        <br />
+        <strong>Por correo electr&oacute;nico</strong>: service@mylifeprotected.com</p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Mensaje Importante
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210430T182618Z
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{735BE29E-B54A-4444-899C-DCC368417088}" alt="Calculando tasas" height="" width="" hspace="" vspace=""></image>

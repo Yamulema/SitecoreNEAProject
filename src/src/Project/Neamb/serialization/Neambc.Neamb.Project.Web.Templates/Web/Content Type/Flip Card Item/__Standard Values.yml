@@ -1,0 +1,42 @@
+﻿---
+ID: "9e181883-3dc6-49bb-889b-0b41cee876cd"
+Parent: "c9a3ecd3-7493-4b6f-86b8-bc68e11ed53c"
+Template: "c9a3ecd3-7493-4b6f-86b8-bc68e11ed53c"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Flip Card Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0692cb3b-9ebc-4e28-bcd9-076c0149184f"
+      Hint: Default Text
+      Value: |
+        <p>
+        Text presented centered on the Card
+        </p>
+        <em class="fa fa-share" aria-hidden="true"></em>
+    - ID: "06db40d6-428e-4cc5-9224-8ce64356be87"
+      Hint: Flip Button
+      Value: |
+        <link text="Learn More" linktype="external" url="" anchor="" target="" />
+    - ID: "18620376-4c09-4e07-8d0b-92a934d6c5a1"
+      Hint: Flip Background Color
+      Value: aquamarine
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T213839Z
+    - ID: "34bbbfe0-9809-492b-b72a-5de8d697de52"
+      Hint: Tab Text
+      Value: Tab for details
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "79c636e2-1b75-4289-91e5-34d7b0546fb0"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{C61D24B6-B647-4079-8EA9-08CD44F2E4AE}" />
+    - ID: "b8818a5f-37e3-43a4-a6a7-41938497324c"
+      Hint: Flip Text
+      Value: <p>Text to be presented Centered on card flip</p>

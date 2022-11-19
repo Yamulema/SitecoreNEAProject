@@ -1,0 +1,33 @@
+﻿---
+ID: "56998baf-277e-44cc-b751-25bf5e2dd1ed"
+Parent: "af00210d-5ff6-41b5-8d8d-ca6caf5bf6ad"
+Template: "af00210d-5ff6-41b5-8d8d-ca6caf5bf6ad"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Category Items Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {AF00210D-5FF6-41B5-8D8D-CA6CAF5BF6AD}
+    {D74A94A9-9855-43E2-A4FA-0E5C14D9CB82}
+    {9CA665C4-DC76-4CF5-9F24-A2A0F9B203B0}
+    {C76033CD-4CEF-4650-BA0C-6914149F4459}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171114T192359Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

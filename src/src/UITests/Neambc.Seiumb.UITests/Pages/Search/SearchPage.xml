@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="SearchPage" urlpath="/">
+      <sections>
+        <section name="Search">
+          <controls>
+            <control key="TopSearchBarLink" xpath="/html/body/header/section/div[4]/div/div[2]/div[4]/a"  />
+            <control key="SearchBarInput" xpath="//*[@id='searchtext']"  />
+            <control key="SearchButton" xpath="//*[@id='searchicon']/a"  />
+            <control key="SearchFirstResultDiv" xpath="//*[@id='search_results']/div[1]/div[2]"  />
+            <control key="SearchFirstResultTitle" xpath="//*[@id='search_results']/div[1]/div[2]/div/a[1]"  />
+            <control key="SearchFirstResultLink" xpath="//*[@id='search_results']/div[1]/div[2]/div/a[2]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

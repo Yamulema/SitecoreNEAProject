@@ -1,0 +1,70 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.GuideCtaDTO
+@{
+    var actiondownloadpdf = String.Format("downloadpdfguide{0}", Model.ComponentId);
+}
+@if (!Model.HasBrokenLink)
+{
+    <script>
+        function @Html.Raw(actiondownloadpdf)
+            (materialId) {
+                $("#materialIdCta").val(materialId);
+                $("#downloadPdfFormCta").prop("target", '@Model.ActionPrimaryTargetBlank');
+                $("#downloadPdfFormCta").submit();
+            }
+    </script>
+
+    <section class="section-cta c-34">
+        <div class="container">
+            <div class="col-md-6 col-md-push-6">
+                @Html.Sitecore().Field(Templates.GuideCta.Fields.Image, Model.Item, new
+                {
+               @class = "img-responsive",
+               loading = "lazy"
+           })
+                @if (Model.SocialShare.ShowSocialShare)
+                {
+                    <div class="col-md-10 pull-right hidden-xs hidden-sm">
+                        @Html.Raw(Model.SocialShare.AddThisHtml)
+                    </div>
+                }
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-11">
+                        <h1 class="title p-t-xs">@Html.Sitecore().Field(Templates.GuideCta.Fields.Name, Model.Item)</h1>
+                        @if (Model.DisplayAction)
+                        {
+                            <div class="row">
+                                <div class="col-md-12">
+                                    @if (string.IsNullOrEmpty(Model.AnonymousText))
+                                    {
+                                        <a id="product_guide_primary_action_button" href="@Model.ActionPrimary" target="@Model.ActionPrimaryTargetBlank" onclick="@Model.ActionClickPrimary" class="btn btn-blue btn-md m-r-sm pull-left">@Model.ActionPrimaryDescription</a>
+                                    }
+                                    else
+                                    {
+                                        <a id="product_guide_sign_in_cold_button" class="btn btn-blue btn-md m-r-sm pull-left" onclick="@Model.ActionClickPrimary">@Model.AnonymousText</a>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            @if (!String.IsNullOrEmpty(Model.Item[Templates.GuideCta.Fields.Description]))
+            {
+                <hr>
+                <div class="col-xs-12 col-sm-12 col-md-11">
+                    @Html.Sitecore().Field(Templates.GuideCta.Fields.Description, Model.Item)
+                </div>
+            }
+        </div>
+    </section>
+}
+
+@if (Model.SocialShare.ShowSocialShare)
+{
+    @Html.Raw(Model.SocialShare.AddThisJSContent)
+}

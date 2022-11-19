@@ -1,0 +1,836 @@
+﻿---
+ID: "4245234d-537e-425d-923f-92b2cb8cc40b"
+Parent: "cf21b2e5-aa43-46db-9cda-2f56def65b8d"
+Template: "19eaa427-545f-49c9-8fd8-ab9fd98d2310"
+Path: /sitecore/content/NEAMBC/Global/Carousel/Homepage Carousel Local Forever
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171117T194803Z
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T164607Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T164607Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200701T125602Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200701T125602Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200701T130028Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200701T130028Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200713T202845Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200713T202845Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T185133Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {4E178CA4-D643-4D26-8BF3-E43688CC1202}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T185133Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T221027Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {4E178CA4-D643-4D26-8BF3-E43688CC1202}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T221027Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210415T144808Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {C5DBDACD-BF8C-46C4-AC8C-5E010ED33CC1}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210415T144808Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210503T163351Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0ACB5DD2-5647-413C-93F8-25E7E2C2CFBA}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {C5DBDACD-BF8C-46C4-AC8C-5E010ED33CC1}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210503T163351Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 10
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210518T144847Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0ACB5DD2-5647-413C-93F8-25E7E2C2CFBA}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {4E178CA4-D643-4D26-8BF3-E43688CC1202}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210518T144847Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+  - Version: 11
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210722T134726Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0ACB5DD2-5647-413C-93F8-25E7E2C2CFBA}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {FA257244-BD5E-4C1B-A4EC-067C86AA3411}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210722T134726Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171204T201939Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T162341Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T082300Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T163641Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T163641Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T164737Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T164737Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200623T164834Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200623T164834Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200626T184231Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200626T184231Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200626T184719Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200626T184719Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200630T145533Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200630T145533Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200630T145619Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {79956FB1-4184-433E-A725-BA354E33FF9C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200630T145619Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 10
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200630T150235Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200630T150235Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 11
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200701T125629Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {8FCAEE42-D73E-4F6B-8A59-0EE526D7EDFC}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200701T125629Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 12
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200701T130046Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {227FED31-9B32-4ECC-8D29-59832E9EC2CA}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200701T130046Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 13
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210106T190151Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {4E178CA4-D643-4D26-8BF3-E43688CC1202}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {CD405F27-A3FA-47B7-904C-5CE11846D423}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210106T190151Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 14
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T221054Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {4E178CA4-D643-4D26-8BF3-E43688CC1202}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T221054Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 15
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210415T144830Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {C5DBDACD-BF8C-46C4-AC8C-5E010ED33CC1}
+        {4A541095-ACDA-43EA-9D74-3275C6C3B0F3}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210415T144830Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 16
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210503T163419Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0ACB5DD2-5647-413C-93F8-25E7E2C2CFBA}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {C5DBDACD-BF8C-46C4-AC8C-5E010ED33CC1}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210503T163419Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 17
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210518T144918Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0ACB5DD2-5647-413C-93F8-25E7E2C2CFBA}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {4E178CA4-D643-4D26-8BF3-E43688CC1202}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210518T144918Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5
+  - Version: 18
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210722T134553Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "86329fad-3d3d-4d3c-b5e1-ea28c8d485e1"
+      Hint: Slides
+      Type: Multilist
+      Value: |
+        {6AEB6074-0808-4BAB-A36E-DAE66AE1EA2C}
+        {0ACB5DD2-5647-413C-93F8-25E7E2C2CFBA}
+        {0E8D7620-AF33-4EB8-A587-5DB4AC97E223}
+        {FA257244-BD5E-4C1B-A4EC-067C86AA3411}
+        {BFD05D21-C44B-4D7B-8543-A61EFDFC9D24}
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210722T134553Z
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 5

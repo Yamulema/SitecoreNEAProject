@@ -1,0 +1,28 @@
+﻿---
+ID: "24777e43-6c86-47fb-951a-414cd53455ff"
+Parent: "52d31389-1b12-4617-aa58-b968cdca9708"
+Template: "52d31389-1b12-4617-aa58-b968cdca9708"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Cards/_StackableItem/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180427T235007Z
+    - ID: "30503123-7254-4b06-a096-fb0eac827b26"
+      Hint: Text Block
+      Value: Insert your content here
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "656522c7-f110-4b03-a699-576e64f710ce"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="635x560" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{34D368B2-852B-43F2-9904-68442F9393B8}" />
+    - ID: "d44559a0-3c89-4790-b3b9-25d3c0adae90"
+      Hint: Text Placement
+      Value: Left

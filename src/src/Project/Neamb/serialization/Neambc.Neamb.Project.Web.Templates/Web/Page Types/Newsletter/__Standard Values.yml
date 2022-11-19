@@ -1,0 +1,75 @@
+﻿---
+ID: "40c3dcdb-513a-4c86-ae0e-0b5672002501"
+Parent: "af363696-12e4-47f8-8d6d-1f71e45be12a"
+Template: "af363696-12e4-47f8-8d6d-1f71e45be12a"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Newsletter/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{F0BC4B01-A53D-4D68-8B5F-124FFFB4F060}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{0CEF7C84-5873-4B34-BBEC-D712F741270E}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{52A1B329-9D23-42A9-800B-1CA40215242D}" />
+        <r
+          id="{757F1B56-4E3F-4D76-A5F1-CF802DC58BA1}"
+          ph="body"
+          uid="{C34593F0-FCE5-459D-8B86-98533FF60F4B}" />
+        <r
+          id="{28A2CF9E-52C9-42BC-86E4-873C266E0095}"
+          ph="body"
+          uid="{0A7F06F1-A0E5-4AC0-BC77-902147E71075}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{A2A8141A-C3F1-4250-B3E7-A6DFA88ADB70}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{55DE4168-78E4-4A6D-85EA-048F247556C2}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{21427431-498B-404A-91B6-0D4A1ABBEBCD}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180509T223607Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+      Hint: Last Publish Date
+      Value: 

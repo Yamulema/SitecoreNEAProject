@@ -1,0 +1,86 @@
+﻿---
+ID: "90059dfb-ed4e-4048-9437-b312c49fd649"
+Parent: "b45c486e-19c8-4094-9e8c-460515f1149e"
+Template: "b45c486e-19c8-4094-9e8c-460515f1149e"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Edit Update Information/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{26C1012A-08AD-4EAB-BBC6-3286812D92E5}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{9B2C88CA-5B4B-4532-9D5E-C579AC7D8F70}" />
+        <r
+          id="{91A9A557-18D3-4B58-B13C-5D50F6DDE7EB}"
+          ph="body"
+          uid="{7EA745EF-1FC5-4920-B2E1-08BC4649CB7E}" />
+        <r
+          id="{C5B0A1B0-465C-4ED3-AE13-9BC1D65D0EDD}"
+          ph="body"
+          uid="{24E9D933-8BDD-4F6A-84BA-25A3B7927AFC}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{3340A3BB-F493-4A79-991B-26B7D84A9A26}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{F2748FAE-F42D-4F57-BEC7-50EC51A3CFF2}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{4925FA3C-DD05-4461-A80B-695C370BA84F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05850666-900d-4ccf-bc63-0aa2c0a14380"
+      Hint: Back
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180704T204951Z
+    - ID: "2bc5657c-1286-4cc9-9f2f-05a817c88625"
+      Hint: Submit
+      Value: Save
+    - ID: "badda2db-e9ff-4db1-9b3b-f58d0665c452"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "bb4741dd-d7e9-4f4c-a03f-f08916cf37fd"
+      Hint: Intro
+      Value: |
+        <p class="subhead text-alpha"><strong>PLEASE NOTE: </strong>The information you provide for your Complementary Life Insurance must match the information contained in you  Profile &amp; Settings. Updates made here will appear in both places. <a href="~/link.aspx?_id=3C552C6C1FEE42A99BA5BFA5DE7C6931&amp;_z=z" class="link-underline text-alpha">Contact Us</a> if you need help.</p>
+    - ID: "ec1fc891-6438-457d-a6bc-5522991b3eb1"
+      Hint: Profile
+      Value: "{6512B2CA-ADFA-4B70-A4F4-541224FD47CC}"
+    - ID: "eeaae07f-49d4-4d1a-90ec-84ea6d5498b5"
+      Hint: Title
+      Value: Edit/Update Your Information
+    - ID: "eead2228-a966-4e9c-aebf-d513148a6519"
+      Hint: Anonymous User
+      Value: You must sign in to view this page

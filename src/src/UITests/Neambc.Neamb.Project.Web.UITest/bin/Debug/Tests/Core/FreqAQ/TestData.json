@@ -1,0 +1,11 @@
+﻿{
+  "login": [
+    [ "dataLayerPush({'event':'navigation','navType':'footer','navText':'Resources'},this)" ]
+  ],
+  "account": [
+    [ "dataLayerPush({'event':'navigation','navType':'footer','navText':'Resources'},this)" ]
+  ],
+  "reset": [
+    [ "dataLayerPush({'event':'navigation','navType':'footer','navText':'Resources'},this)" ]
+  ]
+}

@@ -1,0 +1,38 @@
+﻿---
+ID: "40553a8d-04fc-40c5-9f6b-34b5880f2d01"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Icon Headline Subcopy
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-normal section-promotional two-columns icon">
+          <div class="container">
+            <div class="col-centered col-md-9">
+              <div class="left-panel">
+                <div class="icon-wrapper"><img src="-/media/27971DC7688645D3B2D66B2C2CC53992.ashx" alt=""/></div>
+              </div>
+              <div class="right-panel bg-white">
+                <p class="headline">$150 cash rewards bonus offer</p>
+                <p class="subcopy">Make at least $500 in purchases in the first 90 days of account opening to receive your bonus.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T211231Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Icon Headline Subcopy

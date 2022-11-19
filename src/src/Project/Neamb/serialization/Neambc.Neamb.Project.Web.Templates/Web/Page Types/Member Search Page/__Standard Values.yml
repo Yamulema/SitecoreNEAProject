@@ -1,0 +1,30 @@
+﻿---
+ID: "bad95fd3-4bcd-463d-bc31-dc5aca6a43a4"
+Parent: "9a74afe1-3991-4429-86e0-91a8f5fcc6a0"
+Template: "9a74afe1-3991-4429-86e0-91a8f5fcc6a0"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Member Search Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0778f914-b392-42c3-b38e-8e9a7b9b2315"
+      Hint: Submit
+      Value: Search
+    - ID: "1ce83a00-592b-4481-b66d-845b10e4ca96"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T221616Z
+    - ID: "2a631b70-476b-4965-b787-25ba5217dd55"
+      Hint: Title
+      Value: "Don't Know Your Personal Code?"
+    - ID: "f3eb1037-2ea9-43b2-a663-0dd216a36bb9"
+      Hint: Intro
+      Value: Please complete this form so that we can verify your NEA membership and begin building your New Member Offers.

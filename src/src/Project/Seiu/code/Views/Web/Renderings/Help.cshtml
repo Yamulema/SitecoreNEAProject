@@ -1,0 +1,31 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var placeholder = Model.Rendering.Placeholder;
+}
+
+@if (placeholder == "body")
+{
+    <section id="helpContainer">
+        <div class="row">
+            <div id="main_help" class="small-12 medium-12 large-12 large-centered columns">
+                @Html.Sitecore().Field(Templates.SitecoreExtensions.Help.Fields.HelpSectionContent, Model.Item)
+            </div>
+        </div>
+    </section>
+}
+else if (placeholder == "left-column-card" || placeholder == "/body/left-column-card")
+{
+    <div class="medium-12 large-12 columns float-left">
+        <div id="help" class="large-12 columns">
+            <div class="row">
+                <div id="main_help" class="small-12 medium-12 large-12 large-centered columns">
+                    @Html.Sitecore().Field(Templates.SitecoreExtensions.Help.Fields.HelpSectionContent, Model.Item)
+                </div>
+            </div>
+        </div>
+    </div>
+}

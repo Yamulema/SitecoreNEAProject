@@ -1,0 +1,21 @@
+﻿@using Neambc.Neamb.Feature.Banner
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Banner.Models.HeadlineHeroDto
+<section class="headline-hero bg-blue">
+    <div class="container">
+        <h1>@Html.Sitecore().Field(Model.PageTitle.Item1, Model.PageTitle.Item2)</h1>
+        <h3>@Html.Sitecore().Field(Model.Subheadline.Item1, Model.Subheadline.Item2)</h3>
+    </div>
+</section>
+
+@if (Model.HasImage)
+{
+    <section class="header-image overlap">
+        <div class="container">
+            <div class="col-md-9 col-centered">
+                @Html.Sitecore().Field(Model.HeroImage.Item1, Model.HeroImage.Item2, new {@class = "img-responsive", loading = "lazy" })
+            </div>
+        </div>
+    </section>
+}

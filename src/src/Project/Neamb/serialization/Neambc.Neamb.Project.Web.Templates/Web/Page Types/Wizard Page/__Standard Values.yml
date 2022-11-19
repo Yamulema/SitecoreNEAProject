@@ -1,0 +1,77 @@
+﻿---
+ID: "a40adc97-8e73-40e1-b803-10894f6a32c4"
+Parent: "a6a76af2-694d-4cba-9716-1b64f70e7f84"
+Template: "a6a76af2-694d-4cba-9716-1b64f70e7f84"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Wizard Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{3D6E9153-142E-4E47-85C2-45D6C50BE5EA}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8B4B5EE3-7522-4021-972B-C58177A106D3}">
+        <r
+          id="{5FABB90A-30DE-47CB-991D-EFAEE046FFA4}"
+          ph="body"
+          uid="{AEA5D61E-741D-4F99-AA71-39F631C5C7B9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190423T220843Z
+    - ID: "5b90c439-b296-4b96-ab75-e01c6bddba70"
+      Hint: End
+      Value: End
+    - ID: "61efab48-6573-41b1-ba02-d523c019c733"
+      Hint: Start Button Text
+      Value: Get Started
+    - ID: "64950355-42e9-4b2d-9ceb-89ab8043e7de"
+      Hint: Logo
+      Value: |
+        <image mediaid="{9A0FEDF1-95B3-4FB3-9D3E-F96FE5166D28}" />
+    - ID: "9561b080-b632-492a-8d13-10ede4db641e"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page</h2>
+    - ID: "a756eb96-8f87-42f2-acb0-2a12c43b149a"
+      Hint: Back
+      Value: Back
+    - ID: "af180f5c-9b48-49c3-ac4c-62c92caf88b1"
+      Hint: Next
+      Value: Next
+    - ID: "b26e24b0-1887-4bf4-91e0-69df14783f6c"
+      Hint: Skip Button Text
+      Value: Skip for Now
+    - ID: "edfa480b-b68e-4d42-aa26-6755a54e1459"
+      Hint: Welcome Message
+      Value: |
+        <div class="container">
+                  <h2 class="header text-center">Welcome, [FirstName]</h2>
+                  <p style="margin-top:0;" class="subhead text-center">Thank you for registering. Now, let's get to know each other!</p>
+                  <p style="margin-bottom:0;" class="text-center">Make the most of your membership when you set up your site profile in 4 easy steps.</p>
+                  <!--include ./_partials/components/single_repeaters/checked-list.jade-->
+                  <ul class="checked-big circle col-2">
+                    <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon-big-gray.png"/></span><span class="text">Free Initial Consultation. Up to 30 minutes with a lawyer (in person or over the phone).</span></li>
+                    <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon-big-gray.png"/></span><span class="text">Additional Services at a 30% Discount. Includes lawyer's hourly rates and flat fees for most common legal cases.</span></li>
+                    <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon-big-gray.png"/></span><span class="text">Free Simple Document Review and Explanation. Avoid mistakes by understanding what you sign. Get help with personal documents like leases.*</span></li>
+                    <li><span class="icon"><img alt="" src="/assets/neamb/images/check-icon-big-gray.png"/></span><span class="text">Written fee agreement. Protecting members and preventing any surprises.</span></li>
+                  </ul>          
+                </div>
+    - ID: "f94dcc4e-76b8-4e63-915e-655b15f18bba"
+      Hint: Step Text
+      Value: "Step {0} of {1}"

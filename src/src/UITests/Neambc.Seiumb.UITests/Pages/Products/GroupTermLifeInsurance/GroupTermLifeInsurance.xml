@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="GroupTermLifeInsurancePage" urlpath="insurance/seiu-group-term-life-insurance">
+      <sections>
+        <section name="RichText">
+          <controls>
+            <control key="RegisterButton" xpath="(//div[@class='mobile_buttons'])/a[1]"  />
+            <control key="LoginDesktopButton" xpath="(//div[@class='show-for-medium'])/a[1]"  />
+            <control key="LoginMobileButton" xpath="(//div[@class='show-for-small-only'])/a[1]"  />
+            <control key="PrimaryButton" xpath="(//form[@id='partnerformdesktop'][1])/a[1]"  />
+            <control key="SecondaryButton" xpath="(//form[@id='partnerformdesktop'][2])/a[1]"  />
+            <control key="PrimarySmallButtonWarn" xpath="(//div[@class='show-for-small-only'])/a[1]"  />
+            <control key="PrimaryMediumButtonWarn" xpath="(//div[@class='show-for-medium'])/a[1]"  />
+            <control key="SecondarySmallButtonWarn" xpath="(//div[@class='show-for-small-only'])[2]/a[1]"  />
+            <control key="SecondaryMediumButtonWarn" xpath="(//div[@class='show-for-medium'])[2]/a[1]"  />
+          </controls>
+        </section>
+        <section name="ProductDetail">
+          <controls>
+            <control key="EmbeddedLink" xpath="//*[@id='product_description']/div[1]/div/p[13]/a"  />
+            <control key="DownloadLink" xpath="//*[@id='product_description']/div[1]/div/p[6]/a"  />
+            <control key="CTALink" xpath="//*[@id='service_title']/div[3]/div/p[2]/a"  />
+          </controls>
+        </section>
+        <section name="Chat">
+          <controls>
+            <control key="ChatIcon" xpath="//div[contains(@class, 'bcStatic')]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

@@ -1,0 +1,76 @@
+﻿---
+ID: "803a9d23-1df5-4629-bd47-a7a0fca31ea6"
+Parent: "0c376c9a-a8d5-4e93-b077-a06d2201a870"
+Template: "0c376c9a-a8d5-4e93-b077-a06d2201a870"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_InviteFamilyMember/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T192535Z
+    - ID: "26be5a9b-d212-46cb-a7f6-c18a7ecb4073"
+      Hint: Resend Invitation text
+      Value: Resend Invitation
+    - ID: "2b995616-6a0d-47e8-b6de-fadbdd8593f9"
+      Hint: Error
+      Value: There was an error while processing your request, please try again
+    - ID: "402e57f9-7488-423e-ad55-70c13135a2f7"
+      Hint: Title
+      Value: Family Members
+    - ID: "5ac1af71-eba0-4e4d-8ba3-cdf385df61a2"
+      Hint:  Headline
+      Value: |
+        Family Members access to NEA Member Benefits' offers in dependent upon your own
+        eligibility. To learn more about family member use <a class = "text-alpha link-underline" href="~/link.aspx?_id=D93C619494F8421B8EA016EC2065E8D5&amp;_z=z">Click here</a>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "61d1ac9f-2acc-4c09-b704-91c665f17857"
+      Hint: Confirm Remove
+      Value: Yes
+    - ID: "64032736-bdf7-475e-9cfe-5e4f6cbd1c7b"
+      Hint: Confirm Resend
+      Value: Yes, Save and Resend
+    - ID: "7cc3e0a7-3916-488b-9f89-6657cc82c72f"
+      Hint:  Remove
+      Value: Remove
+    - ID: "8d9cdd04-ecb6-49da-9c1a-b6095b09e47a"
+      Hint: Add
+      Value: |
+        <link text="Add" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{EA8FEF8F-0809-4534-B647-0F9732FEC4B8}" />
+    - ID: "8dd02770-8b71-4e4b-be86-3f78969350af"
+      Hint: Reject Remove
+      Value: No
+    - ID: "a196b71f-db0d-4a46-be8b-81f3e0a67d75"
+      Hint: Avatar
+      Value: |
+        <image mediapath="" alt="avatar" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{4D09836B-AA65-48DE-9FAD-B10EF8D5914D}" />
+    - ID: "c46444a3-00f4-466c-acdb-26eb20d38143"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page</h2>
+    - ID: "c6fb8426-5163-4703-902d-71bed674d5fa"
+      Hint: Resend Invitation Modal
+      Value: |
+        <h3 class="text-center">Would You Like to Resend Invitation?</h3>
+              <p class="subcopy text-center">We noticed that you updated the email address for this family member. Would you like to resend the invitation?</p>
+        
+    - ID: "cd4a8940-6b9a-4c07-a377-c9a12f0772fe"
+      Hint: Family number Limit
+      Value: 6
+    - ID: "d24036bd-0bde-4b66-948c-767d1b7bcd32"
+      Hint: Successful Message
+      Value: |
+        <strong>Great, you've just added a Member! </strong><br>
+        You've just added a family member. Feel free to add more here, or you can continue to add more family members later on your Account Section.
+    - ID: "f040d124-6242-4b1c-b26a-a18654d98967"
+      Hint: Reject Resend
+      Value: No Thanks
+    - ID: "f26adc12-67e6-4b32-9a8e-994c5af68124"
+      Hint: Confirm Remove Modal
+      Value: "Are you sure you want to remove this familiy member?"

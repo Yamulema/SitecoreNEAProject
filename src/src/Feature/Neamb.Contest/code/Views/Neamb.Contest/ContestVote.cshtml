@@ -1,0 +1,136 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Foundation.Config.Models
+@using Neambc.Neamb.Feature.Contest.Model
+@using Neambc.Neamb.Feature.Contest
+@using Neambc.Neamb.Feature.Contest.Enums
+
+@model Neambc.Neamb.Feature.Contest.Model.ContestVote
+
+@switch (Model.Status)
+{
+    case ContestStatus.RequiresAuthentication:
+        <section class="section-normal contest bg-gray">
+            <div class="container">
+                @Html.Sitecore().Field(Templates.ConstestVote.Fields.AnonymousUser, Model.Item)
+            </div>
+        </section>
+        break;
+    case ContestStatus.NotStarted:
+        <section class="section-normal contest bg-gray">
+            <div class="container">
+                @Html.Sitecore().Field(Templates.ConstestVote.Fields.ClosedContestText, Model.Item)
+            </div>
+        </section>
+        break;
+    case ContestStatus.Closed:
+        <section class="section-normal contest bg-gray">
+            <div class="container">
+                @Html.Sitecore().Field(Templates.ConstestVote.Fields.ClosedContestText, Model.Item)
+            </div>
+        </section>
+        break;
+    default:
+        <section data-contestid="@Model.ContestId" class="section-normal contest bg-gray" data-alreadyvote="@Html.Sitecore().Field(Templates.ConstestVote.Fields.VoteLimitNotification, Model.Item, new {@DisableWebEdit = true})">
+
+            <div class="container">
+                <form id="contest" method="post" accept-charset="UTF-8" role="form" class="profile-forms">
+                    <div class="col-md-9 col-centered">
+                        <input type="hidden" name="fhController" value="ContestVoteController" data-abide-ignore />
+                        <input type="hidden" name="fhAction" value="ContestVote" data-abide-ignore />
+                        <input type="hidden" name="page" value="@Model.Pagination.CurrentPage" />
+                        <div class="subhead text-alpha">
+                            @if (Model.Item.FieldHasValue(Templates.ConstestVote.Fields.Title)) {
+                                <h2 class="header">@Html.Sitecore().Field(Templates.ConstestVote.Fields.Title, Model.Item)</h2>
+                            }
+                            @if (Model.Item.FieldHasValue(Templates.ConstestVote.Fields.Description)) {
+                                    @Html.Sitecore().Field(Templates.ConstestVote.Fields.Description, Model.Item)
+                                    <hr/>
+                            }
+                        </div>
+                        <div class="row col-md-10 pull-right hidden-xs hidden-sm">
+                            @Html.Raw(Model.SocialShare)
+                        </div>
+                        <div id="thumbs-view" class="row">
+                            @{
+                                var i = 0;
+                            }
+                            @foreach (var submissionVote in Model.SubmissionVotes)
+                            {
+                                <div class="col-sm-6 col-md-3">
+                                    <!--.row-->
+                                    <div data-submissionid="@submissionVote.Item1.Id" data-id="@i" class="thumb">
+                                        <div class="image">
+                                            <img src="@submissionVote.Item1.ImageSrc" alt="alt" class="img-responsive" />
+                                            <div class="confirmation hidden-confirmation">
+                                                <p>@Html.Sitecore().Field(Templates.ConstestVote.Fields.VoteConfirmationMessage, Model.Item) @submissionVote.Item1.Metadata.FileName?</p>
+                                                <button type="button" class="btn btn-blue yes">Yes</button>
+                                                <button type="button" class="btn no">No</button>
+                                            </div>
+                                        </div>
+                                        <div class="bottom row">
+                                            <div class="col-xs-6"> <span class="name">@submissionVote.Item1.Metadata.FileName</span></div>
+                                            <div class="col-xs-6 votes-panel"><span class="vote"> <i class="fa fa-heart"></i></span><span class="count">@submissionVote.Item2</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                i++;
+                            }
+                        </div>
+                    </div>
+                @if (Model.SubmissionVotes.Count > 0 && Model.Pagination.Pages > 1) {
+	                <nav aria-label="Page navigation" class="pagination-imgs-list col-md-6 col-centered text-center">
+		                <ul class="pagination">
+			                @if (Model.Pagination.CurrentPage > 0) {
+				                <li>
+					                <a aria-label="Previous" onclick="document.getElementsByName('page')[0].value--;document.getElementById('contest').submit();">
+						                <i aria-hidden="true" class="fa fa-chevron-left"></i>
+					                </a>
+				                </li>
+			                } else {
+				                <li class="disabled">
+					                <a aria-label="Previous">
+						                <i aria-hidden="true" class="fa fa-chevron-left"></i>
+					                </a>
+				                </li>
+			                }
+
+			                @for (var p = 0; p < Model.Pagination.Pages; p++) {
+				                if (p == Model.Pagination.CurrentPage) {
+					                <li class="active">
+						                <a onclick="document.getElementsByName('page')[0].value = @p;document.getElementById('contest').submit();">@(p + 1)</a>
+					                </li>
+				                } else {
+					                <li>
+						                <a onclick="document.getElementsByName('page')[0].value = @p;document.getElementById('contest').submit();">@(p + 1)</a>
+					                </li>
+				                }
+			                }
+
+			                @if (Model.Pagination.CurrentPage < Model.Pagination.Pages - 1) {
+				                <li>
+					                <a aria-label="Next" onclick="document.getElementsByName('page')[0].value++;document.getElementById('contest').submit();">
+						                <i aria-hidden="true" class="fa fa-chevron-right"></i>
+					                </a>
+				                </li>
+			                } else {
+				                <li class="disabled">
+					                <a aria-label="Next">
+						                <i aria-hidden="true" class="fa fa-chevron-right"></i>
+					                </a>
+				                </li>
+			                }
+
+		                </ul>
+	                </nav>
+                }
+                </form>
+            </div>
+            <div id="lightbox" class="div">
+                <div id="items-view">
+                    <a href="#" title="title" class="controls prev"><i class="fa fa-chevron-left"></i></a><a href="#" title="title" class="controls next"> <i class="fa fa-chevron-right"></i></a><a href="#" title="title" class="close"> <i class="fa fa-times"></i></a>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        break;
+}

@@ -1,0 +1,63 @@
+﻿---
+ID: "c4edb4d4-b0a4-4809-913c-5c0afcc1f761"
+Parent: "383791c9-3bc6-49a9-9b65-3ab71ed91efb"
+Template: "9d32f297-4ff4-4bc5-99f6-e22ff3e8bdae"
+Path: /sitecore/content/NEAMBC/Global/Rail Cards/Personal Loan Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T182038Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=B7945FA8249B446681379DC8329A2E76&amp;_z=z"><span style="color: #4f2e84;">Is a Personal Loan Right for You?</span></a></p>
+        <p><a href="~/link.aspx?_id=605B488CEAE04449BE1A4593DE55106B&amp;_z=z"><span style="color: #4f2e84;">Understanding Your Credit</span></a></p>
+        <p><a href="~/link.aspx?_id=C4FC2AC778AD40B69D3CAECF9B14191D&amp;_z=z"><span style="color: #4f2e84;">Ways You Can Consolidate Debt</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: MANAGING YOUR MONEY
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{5BB9F2A0-F45E-465E-9C7A-FAA83BADA7E5}" ></image>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171213T182141Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D703CC85-4047-4BC2-A236-C256D3738185}" ></image>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p><a href="~/link.aspx?_id=B7945FA8249B446681379DC8329A2E76&amp;_z=z" onclick="ga_event('rail module', 'click', 'managing your money &gt; is a personal loan right for you esp');"><span style="color: #4f2e84;">&iquest;Un pr&eacute;stamo personal es adecuado para usted?</span></a></p>
+        <p><a href="~/link.aspx?_id=605B488CEAE04449BE1A4593DE55106B&amp;_z=z" onclick="ga_event('rail module', 'click', 'managing your money &gt; understanding your personal credit esp');"><span style="color: #4f2e84;">Comprensi&oacute;n del cr&eacute;dito personal</span></a></p>
+        <p><a href="~/link.aspx?_id=C4FC2AC778AD40B69D3CAECF9B14191D&amp;_z=z" onclick="ga_event('rail module', 'click', 'managing your money &gt; consolidating your debt esp');"><span style="color: #4f2e84;">Consolidaci&oacute;n de su deuda</span></a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: ADMINISTRAR SU DINERO
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{5BB9F2A0-F45E-465E-9C7A-FAA83BADA7E5}" ></image>

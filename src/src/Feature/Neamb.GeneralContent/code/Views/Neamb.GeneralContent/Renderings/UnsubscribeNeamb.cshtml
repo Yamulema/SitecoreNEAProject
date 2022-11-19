@@ -1,0 +1,28 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.UnsubscribeDTO
+@{
+	var classname = Model.IsSucess ? "" : "show";
+}
+<section class="error-bar @classname">
+	<p>
+		@Html.Sitecore().Field(Templates.UnsubscribeMail.Fields.Error, Model.Item)
+		<i aria-hidden="true" class="fa fa-times"></i>
+	</p>
+</section>
+
+<section class="section-normal bg-gray">
+	<div class="container">
+		<div class="col-md-7 col-centered">
+			@if (Model.IsSucess)
+			{
+				@Html.Sitecore().Field(Templates.UnsubscribeMail.Fields.Success, Model.Item)
+			}
+			else
+			{
+				@Html.Sitecore().Field(Templates.UnsubscribeMail.Fields.Failure, Model.Item)
+			}
+		</div>
+	</div>
+</section>

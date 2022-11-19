@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="LeadCapturePage" urlpath="/quotewidget1">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="LeadCapturePage_Form" xpath="//*[@id='form912']"  />
+            <control key="LeadCapturePage_Form_FirstName" xpath="//*[@id='fe22034']"  />
+            <control key="LeadCapturePage_Form_LastName" xpath="//*[@id='fe22035']"  />
+            <control key="LeadCapturePage_Form_Email" xpath="//*[@id='fe22036']"  />
+            <control key="LeadCapturePage_Form_Address" xpath="//*[@id='fe22037']"  />
+            <control key="LeadCapturePage_Form_City" xpath="//*[@id='fe22038']"  />
+            <control key="LeadCapturePage_Form_State" xpath="//*[@id='fe22039']"  />
+            <control key="LeadCapturePage_Form_ZipCode" xpath="//*[@id='fe22040']"  />
+            <control key="LeadCapturePage_Form_Phone" xpath="//*[@id='fe22041']"  />
+            <control key="LeadCapturePage_Form_RequestFor" xpath="//*[@id='fe20152']"  />
+            <control key="LeadCapturePage_Form_Submit" xpath="//*[@id='fe22057']"  />
+          </controls>
+        </section>
+        <section name="Form_Errors">
+          <controls>
+            <control key="LeadCapturePage_Form_FirstName_Error" xpath="//*[@id='form912']/span[1]"  />
+            <control key="LeadCapturePage_Form_LastName_Error" xpath="//*[@id='form912']/span[2]"  />
+            <control key="LeadCapturePage_Form_Email_Error" xpath="//*[@id='form912']/span[3]"  />
+            <control key="LeadCapturePage_Form_Address_Error" xpath="//*[@id='form912']/span[4]"  />
+            <control key="LeadCapturePage_Form_City_Error" xpath="//*[@id='form912']/span[5]"  />
+            <control key="LeadCapturePage_Form_State_Error" xpath="//*[@id='form912']/span[6]"  />
+            <control key="LeadCapturePage_Form_ZipCode_Error" xpath="//*[@id='form912']/span[8]"  />
+            <control key="LeadCapturePage_Form_Phone_Error" xpath="//*[@id='form912']/span[9]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

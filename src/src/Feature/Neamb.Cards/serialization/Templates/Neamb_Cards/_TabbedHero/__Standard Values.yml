@@ -1,0 +1,26 @@
+﻿---
+ID: "09901427-75d9-41e5-a149-76226cd89528"
+Parent: "1bf329ec-b5bb-48f8-b637-fce402385b3b"
+Template: "1bf329ec-b5bb-48f8-b637-fce402385b3b"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Cards/_TabbedHero/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T161946Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8c1dfd55-49c3-4b55-b3fe-b4bc55264e19"
+      Hint: Timer
+      Value: 8

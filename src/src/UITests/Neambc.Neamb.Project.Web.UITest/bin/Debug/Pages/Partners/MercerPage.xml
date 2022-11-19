@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="MercerPage" urlpath="https://mags.mercer.com/mags/mobile/wicket/page?4">
+      <sections>
+        <section name="Hot">
+          <controls>
+            <control key="MercerPage_Hot_NeaLogo" xpath="//div[@class='small-4 columns']//img"/>
+            <control key="MercerPage_Hot_SignOut" xpath="//ul[@class='dropdown menu']//span[contains(text(),'Sign Out')]"/>
+            <control key="MercerPage_Hot_Card1_Name" xpath="//span[@id='id20']"/>
+            <control key="MercerPage_Hot_Card1_Certificate" xpath="//span[@id='id22']"/>
+          </controls>
+        </section>
+        <section name="Cold">
+          <controls>
+            <control key="MercerPage_Cold_ErrorMsg" xpath="//span[@id='error']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

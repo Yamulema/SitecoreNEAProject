@@ -1,0 +1,44 @@
+﻿---
+ID: "7e02e5f9-e50f-4243-8df7-9b65ca044889"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "d613828e-0662-45f9-9a35-d1c6c47271e8"
+Path: /sitecore/content/NEAMBC/Home/Efulfillment Error
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T212241Z
+    - ID: "25df7e83-4554-4b36-98d2-6359d8c7df59"
+      Hint: Body
+      Value: |
+        <section class="section-normal bg-gray login">
+        <div class="container">
+        <div class="col-md-7 col-centered">
+        <h2 class="header text-center">Uh oh.</h2>
+        <p class="subhead text-alpha no-margin-auto text-center hidden-xs hidden-sm">Your E-Fulfillment document couldn't be generated.</p>
+        <p>&nbsp;</p>
+        <div class="row">
+        <div class="text-center">
+        <a class="button" href="/">Take Me to the Homepage</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+    - ID: "4e0ccd80-281f-4bbd-b288-63f810623c2c"
+      Hint: Title
+      Value: 
+    - ID: "595b93c5-514a-410c-95e2-c597e1189faf"
+      Hint: ContinueButton
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: EFulfillment Error

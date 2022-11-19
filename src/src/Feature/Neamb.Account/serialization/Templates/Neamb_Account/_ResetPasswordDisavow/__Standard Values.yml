@@ -1,0 +1,34 @@
+﻿---
+ID: "c3620d55-8dc5-4246-b577-412912eb0b14"
+Parent: "290e34ad-997c-43d5-a6d8-95d3c5c31d23"
+Template: "290e34ad-997c-43d5-a6d8-95d3c5c31d23"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_ResetPasswordDisavow/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180625T192150Z
+    - ID: "4d3fd892-6891-47d9-a85e-051716407280"
+      Hint: Success
+      Value: |
+        <div class="col-md-9 col-centered">
+        <h2 class="header">Thank You!</h2>
+        <p class="subhead text-alpha no-margin-auto">We've recorded that you didn't ask to reset your password. The request has been cancelled. You can use your current password to log into your account, and you don't need to do anything else.</p>
+        <div class="col-md-8 col-md-push-3">
+        <div class="p-t-md p-b-md">
+        <div class="btn btn-lg btn-blue"><a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">Continue</a>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "959ea749-facd-4bdf-97ca-8a1c5c5878e9"
+      Hint: Error
+      Value: There was an error while processing your request, please try again

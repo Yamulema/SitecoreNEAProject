@@ -1,0 +1,17 @@
+{
+  "ValidateLogin": [
+    [ "igna2@gmail.com", "secret12" ]
+  ],
+  "Test_GTM_Card": [
+    [ "dataLayerPush({", "'event':'large module'", "'moduleTitle':", "'ctaText':" ]
+  ],
+  "Test_GTM_LanguageTranslator": [
+    [ "dataLayerPush({", "'event':'language'", "'languageAction':", "'languageSelection':" ]
+  ],
+  "Test_GTM_ContactUs": [ 
+    ["dataLayerPush({", "'event':'navigation'","'navType':'contact us'","'navText':"]
+  ],
+  "Test_GTM_CardItem": [
+    [ "dataLayerPush({", "'event':'large module'", "'moduleTitle':", "'ctaText':" ]
+  ]
+}

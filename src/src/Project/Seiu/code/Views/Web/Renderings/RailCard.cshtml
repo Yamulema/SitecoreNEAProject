@@ -1,0 +1,28 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Project.Web
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var railCardXP = isExperienceEditor ? "xpEditor_RailCard" : "";
+}
+
+
+<div class="medium-12 large-12 columns float-left @railCardXP">
+    <div id="announce">
+        <div class="panel">
+            <div class="panelCategory">
+                <div>
+                    @Html.Sitecore().Field(Templates.RailCard.Fields.Icon, Model.Item)
+                    <h5>@Html.Sitecore().Field(Templates.RailCard.Fields.Title, Model.Item)</h5>
+                </div>
+            </div>
+            <div>
+                @Html.Sitecore().Field(Templates.RailCard.Fields.Image, Model.Item, new { @loading = "lazy" })
+            </div>
+            <div class="panelExcerpt">
+                @Html.Sitecore().Field(Templates.RailCard.Fields.Body, Model.Item)
+            </div>
+        </div>
+    </div>
+</div>

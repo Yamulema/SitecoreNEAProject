@@ -1,0 +1,21 @@
+{
+  "Test_GTM_ProfileUpdate": [
+    [
+      "seiu.wayne@gmail.com",
+      "secret12",
+      "my-account#profile",
+      "Test 1",
+      "dataLayerPush({'event': 'account','accountSection': 'profile','accountAction': 'update profile','ctaText': 'Save Changes'},this);"
+    ]
+  ],
+  "UsernameUpdate": [
+    [
+      ""
+    ]
+  ],
+  "PasswordUpdate": [
+    [
+      ""
+    ]
+  ]
+}

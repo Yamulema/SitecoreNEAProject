@@ -1,0 +1,16 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+
+<div class="col-md-9 col-centered">
+    <h2 class="header text-center">@Html.Sitecore().Field(Templates.MultiRowOffer.Fields.Header, Model.Item)</h2>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="spacer-10"></div>
+        <p class="subhead text-alpha no-margin-auto text-center">@Html.Sitecore().Field(Templates.MultiRowOffer.Fields.Subhead, Model.Item)</p>
+        <div class="spacer-10"></div>
+    </div>
+</div>

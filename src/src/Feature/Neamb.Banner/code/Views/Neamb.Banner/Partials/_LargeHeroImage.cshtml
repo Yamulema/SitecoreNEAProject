@@ -1,0 +1,25 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Banner
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Banner.Models.HeadlineHeroDto
+
+@{
+    var centeredTextClass = "";
+    var colClasses = "col-md-11 col-centered";
+}
+
+<section style="background-image: url('@Model.HeroImageSrc')" class="headline-hero big">
+    @if (Model.CenteredText)
+    {
+        centeredTextClass = "text-center";
+        colClasses = "col-md-12";
+    }
+    <div class="container @centeredTextClass">
+        <div class="@colClasses">
+            <h1>@Html.Sitecore().Field(Model.PageTitle.Item1, Model.PageTitle.Item2)</h1>
+            <h3>@Html.Sitecore().Field(Model.Subheadline.Item1, Model.Subheadline.Item2)</h3>
+            @Html.Sitecore().Field(Model.QuoteWidget.Item1, Model.QuoteWidget.Item2)
+        </div>
+    </div>
+</section>

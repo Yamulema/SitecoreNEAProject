@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\neamb10sc.dev.local</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/seiumb/fonts/HelveticaNeue.eot">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/HelveticaNeue.svg">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/HelveticaNeue.ttf">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/HelveticaNeue.woff">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/icomoon.eot">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/icomoon.svg">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/icomoon.ttf">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/icomoon.woff">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-ExtraBold-webfont.eot">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-ExtraBold-webfont.svg">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-ExtraBold-webfont.ttf">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-ExtraBold-webfont.woff">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Light-webfont.eot">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Light-webfont.svg">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Light-webfont.ttf">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Light-webfont.woff">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Semibold-webfont.eot">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Semibold-webfont.svg">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Semibold-webfont.ttf">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/fonts/OpenSans-Semibold-webfont.woff">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/arrow.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/arrowBgSlider.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/arrow_left.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/arrow_right.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/check_checked.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/check_checked2.png">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/check_unchecked.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/favicon.ico">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/FB.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/googleplus.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/Icon-Carousel.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/icon_search.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/Layer 121.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/Layer 133.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/Layer 140.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/LinkedIn.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/P.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/piggy-color.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/piggy.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/SEIU_logo.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/SEIU_logo_color.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/SHARE.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/images/Twitter.png">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/app.js">
+      <publishTime>08/30/2022 15:45:10</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/app_android.js">
+      <publishTime>11/19/2021 13:52:17</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/foundation.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/foundation.orbit.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/gtm.js">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/jquery-ui.min.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/jquery.blockUI.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/jquery.flip.min.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/jquery.form.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/jquery.mask.min.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/jquery.min.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/language.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/lodash.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/marketplace.js">
+      <publishTime>06/08/2022 13:23:55</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/marketplace.js.map">
+      <publishTime>06/08/2022 13:23:55</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/motion-ui.min.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/product-detail.js">
+      <publishTime>06/08/2022 13:23:55</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/remove-ref.js">
+      <publishTime>06/08/2022 13:23:55</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/search.js">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/slick.min.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/scripts/what-input.min.js">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/app.css">
+      <publishTime>08/03/2022 17:28:00</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/foundation.min.css">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/jquery-ui.min.css">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/jquery-ui.theme.css">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/marketplace.css">
+      <publishTime>06/13/2022 20:22:01</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/marketplace.css.map">
+      <publishTime>06/13/2022 20:22:01</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/slick-theme.css">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/slick.css">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="assets/seiumb/styles/xpeditor.css">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Layouts/Default.cshtml">
+      <publishTime>04/07/2022 10:15:23</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/404NotFound.cshtml">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/500Error.cshtml">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/CampaignThankYou.cshtml">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/ErrorPage.cshtml">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/Footer.cshtml">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/HasPageContent.cshtml">
+      <publishTime>10/27/2022 13:43:05</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/Header.cshtml">
+      <publishTime>10/27/2022 11:56:46</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/Help.cshtml">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/LandingSecureContent.cshtml">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/OpenContent.cshtml">
+      <publishTime>07/29/2022 10:51:56</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/RailCard.cshtml">
+      <publishTime>11/08/2022 11:58:28</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/RegistrationHeader.cshtml">
+      <publishTime>10/27/2022 11:56:57</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/RegistrationThankYou.cshtml">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/ShareButtonsSnippet.cshtml">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/SingleColumn.cshtml">
+      <publishTime>07/29/2022 10:51:56</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/ThankYou.cshtml">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/TokenTest.cshtml">
+      <publishTime>03/11/2022 11:27:42</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/TwoColumn.cshtml">
+      <publishTime>09/20/2021 12:51:32</publishTime>
+    </File>
+    <File Include="Views/Web/Renderings/TwoColumnProduct.cshtml">
+      <publishTime>09/20/2021 12:54:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

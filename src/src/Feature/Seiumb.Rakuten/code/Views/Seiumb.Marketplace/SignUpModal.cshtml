@@ -1,0 +1,45 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Seiumb.Feature.Rakuten.Constants
+
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Seiumb.Feature.Rakuten.Models.SignUpDto
+@{
+    bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+}
+@if (!isExperienceEditor) {
+    <div class="reveal marketplace" id="marketpalce-modal" data-reveal>
+        <div class="screen-one">
+            <h2>@Html.Sitecore().Field(Templates.StoresList.Fields.RegistrationTitle, Model.Item)</h2>
+            <p class="bold">
+                @Html.Sitecore().Field(Templates.StoresList.Fields.Subheadline, Model.Item)
+
+            </p>
+            <input type="text" placeholder="you@email.com" readonly>
+            <div class="error hide">
+                <p>@Html.Sitecore().Field(Templates.StoresList.Fields.RegistrationErrorMessage, Model.Item)</p>
+            </div>
+            <p>
+                @Html.Sitecore().Field(Templates.StoresList.Fields.TermsConditions, Model.Item)
+            </p>
+            <a class="button agree">@Html.Sitecore().Field(Templates.StoresList.Fields.ConfirmationButtonLabel, Model.Item)</a>
+            <div class="carousel-container">
+                @Html.Sitecore().Field(Templates.StoresList.Fields.RegistrationBanner, Model.Item)
+            </div>
+            <p>
+                @Html.Sitecore().Field(Templates.StoresList.Fields.MoreQuestionsLink, Model.Item)
+            </p>
+
+        </div>
+        <div class="screen-two">
+            @Html.Sitecore().Field(Templates.StoresList.Fields.GuideSteps, Model.Item)
+            <a href="" class="skip">@Html.Sitecore().Field(Templates.StoresList.Fields.GuideSkipText, Model.Item)</a>
+            <a href="" class="close-button" data-close="" aria-label="Close reveal">
+                <span aria-hidden="true">×</span>
+            </a>
+        </div>
+        <button class="close-button close-modal" data-close="" aria-label="Close reveal" type="button">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+}

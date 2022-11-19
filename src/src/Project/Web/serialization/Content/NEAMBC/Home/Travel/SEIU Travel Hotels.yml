@@ -1,0 +1,3745 @@
+﻿---
+ID: "059e7226-ace6-4000-92d2-87af4f36b947"
+Parent: "01a71e86-7a96-486d-8eed-82fb99928311"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Travel/SEIU Travel Hotels
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Type: checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210203T151903Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <h1>Save time and money with a guided tour</h1>
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210203T160000Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210203T162143Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong><span style="font-size: 16px;">Save time and money with a guided tour</span></strong></p>
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210203T162100Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210203T162431Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong><span style="font-size: 16px;">Save time and money with a guided tour</span></strong></p>
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210203T162400Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210203T162933Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210203T162900Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210203T163208Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210203T163200Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210203T163340Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210203T163300Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210203T163426Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210203T163400Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Get special member pricing and save on guided vacations designed for SEIU members.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210204T144645Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Guided Tours
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Click Reserve Now to book your budget-friendly and hassle-free vacation."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Browse popular tour companies such as Collette, Contiki, G Adventures, Globus and Trafalgar that travel to destinations all over the world.</li>
+            <li>Find tour packages perfect for traveling solo, in pairs, with family or in travel groups of 10 or more.</li>
+            <li>A typical guided tour does all the planning for you, including selecting the finest hotels and booking your airfare.
+            </li>
+            <li>Pay a minimum deposit at the time of booking and then make monthly payments toward your balance.
+            </li>
+        </ul>
+        <p><strong>What is a guided tour?</strong> Guided tours allow small, intimate groups of travelers to experience the culture, food, landmarks and more at fun destinations with the help of local expert. They include a mix of planned itineraries and free time to visit attractions of your choosing. </p>
+        <p><strong>Why should I book one?</strong> When you book through SEIU Travel, someone else takes care of all of the planning&mdash;from lodging and transportation to meals, attractions, airport transfers and gratuities. This helps you save time, money and the hassle of making multiple reservations. These trips also offer you the chance to connect with other like-minded globe-trotters.</p>
+        <p><strong>Who should go on a guided tour?</strong> Guided tours are an excellent option for solo travelers, family members and friends.</p>
+        <p><strong>Where can I go?</strong> The SEIU Travel Program partners with well-known tour operators that offer hundreds trips within the U.S. or international travel. Sample domestic tours include National Parks, New Orleans, Washington, D.C., Alaska and San Francisco. Or choose international travel to far-flung destinations in Asia, Africa, Europe or South America.</p>
+        <p>Get special member pricing on guided tours designed for SEIU members.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{26BD29FA-65B3-4DFC-9410-1556357F6FA0}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Guided Tours"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Explore Guided Tours" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Discover the world from an insider's point of view.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Discover the world from an insider's point of view. Travel with a group around the U.S. or internationally.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210204T144600Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Guided Tours
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 9
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: For fun in the sun, a day on the slopes, relaxation or a wild adventure, book your next resort vacation with the SEIU Travel Program.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{E4A956A5-C9AC-4246-BA45-FFAB5C5ADD2F}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T171903Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Resorts
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click find a resort now to book your stay.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Airfare"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 50% when you book your resort stay through the SEIU℠ Travel Program.</li>
+            <li>Choose from over 200,000 luxurious all-inclusive resorts around the world, including Orlando, Honolulu, Miami, Bermuda and San Diego.</li>
+            <li>Enjoy unlimited food and drinks, as well as access no-cost activities for everyone, such as cooking classes, snorkeling lessons, fitness centers and more.
+            </li>
+            <li>No hidden fees&mdash;know exactly what you will pay upfront..
+            </li>
+            <li>Convenient ground transfers from the airport to the resort and its deluxe accommodations.
+            </li>
+            <li>Price match guarantee: SEIU will match your rate if you find a lower price on other travel booking sites.
+            </li>
+        </ul>
+        <p>Stretch your vacation budget when you book when an all-inclusive resort through SEIU Travel. With more than 200,000 luxurious resorts around the world to choose from, all you have to do is pick your favorite destination and get away hassle-free.</p>
+        <p>Customize your stay with special activities designed for couples, solo travelers or the whole family. You can choose all-inclusive options for transportation, activities, entertainment and dining, Whether you&rsquo;re relaxing on the beach, hitting the slopes or going on an adventure, all you need to focus on is enjoyment. Stay for a few days or relax for a week or more.</p>
+        <p>An all-inclusive resort stay Is easy to book online or get dedicated phone support from SEIU Travel Program consultants to help you navigate your options.</p>
+        <p>Experience the convenient, affordable resort vacation of your dreams, thanks to the SEIU Travel Program.</p>
+        <p>Pick your favorite resort, book a stay and save money with exclusive SEIU member-only pricing.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{E4A956A5-C9AC-4246-BA45-FFAB5C5ADD2F}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Resorts"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Find a Resort" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: For fun in the sun, a day on the slopes, relaxation or a wild adventure, book your next resort vacation with the SEIU Travel Program.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: For fun in the sun, a day on the slopes, relaxation or a wild adventure, book your next resort vacation with the SEIU Travel Program.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T171903Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Resorts
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 10
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T220123Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click find a hotel to book your stay.
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel rooms.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card for even more benefits.
+            </li>
+        </ul>
+        <p>The best lodgings are at your fingertips with the SEIU℠ Travel Hotels program. Rest assured that you're getting the best hotel price with convenient comparisons and a price-match guarantee. You can also combine SEIU hotel discounts with your hotel loyalty card to gain points for even more benefits.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Hotels"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Find a Hotel" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T220123Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 11
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210222T221925Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel rooms.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card for even more benefits.
+            </li>
+        </ul>
+        <p>The best lodgings are at your fingertips with the SEIU℠ Travel Hotels program. Rest assured that you're getting the best hotel price with convenient comparisons and a price-match guarantee. You can also combine SEIU hotel discounts with your hotel loyalty card to gain points for even more benefits.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Hotels"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Find a Hotel" linktype="external" url="https://www.seiumb.com/" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210222T221925Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 12
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210303T143414Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU℠ Travel Program to book hotel rooms.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Hotels"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Find a Hotel" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210303T143414Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 13
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210310T161128Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU Travel: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU℠ Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Hotels"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Find a Hotel" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210310T161128Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 14
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210311T204358Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Hotels"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Hotels"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210311T204358Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 15
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T155411Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Hotels"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Hotels"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T155411Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 16
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T160429Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Hotels"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU Travel: Hotels"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T160429Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Travel Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 17
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T165632Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T165632Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 18
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T161324Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T161324Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 19
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T162111Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T162111Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 20
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B7F1A118-075E-417A-96F3-FEB2D77EB072}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T193317Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>Price match guarantee if you find a hotel at a lower price on other travel booking sites.
+            </li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T193317Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 21
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B7F1A118-075E-417A-96F3-FEB2D77EB072}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T124138Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210805T124138Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 22
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B7F1A118-075E-417A-96F3-FEB2D77EB072}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T142846Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T142846Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 23
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B7F1A118-075E-417A-96F3-FEB2D77EB072}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T132245Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">If you need to speak with a travel agent regarding your travel plans, please call 1-844-836-7348. We are experiencing higher than normal call volume and your hold time may be longer than usual. We apologize for any inconvenience and appreciate your patience.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T132245Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 24
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B7F1A118-075E-417A-96F3-FEB2D77EB072}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210901T200916Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: "<strong>* Best Price Guarantee: The SEIU Travel Program will guarantee that products purchased through us will have the lowest combined price of our posted lowest market price, less any loyalty currency (&ldquo;Combined Price&rdquo;) over a market price of any other qualified seller available to the general public. If you find a lower price from a qualified seller, we will match the qualified seller&rsquo;s lowest market price at the time of purchase or within 24 hours of purchase. If you find a lower price anywhere online, we will refund 110% of the difference.</strong>"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Questions? Call 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ Travel Program: Hotels"
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{55B88AF4-2771-4F81-A47A-8C7F61A66981}"
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{55B88AF4-2771-4F81-A47A-8C7F61A66981}"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">If you need to speak with a travel agent regarding your travel plans, please call 1-844-940-1638. We are experiencing higher than normal call volume and your hold time may be longer than usual. We apologize for any inconvenience and appreciate your patience.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Save up to 60% when you use the SEIU Travel Program to book hotel stay.</li>
+            <li>From budget lodging to luxury accommodations, choose from over 250,000 hotels in the U.S. or internationally.</li>
+            <li>No holiday blackout dates: You can book at any time.
+            </li>
+            <li>Use your hotel loyalty card to gain points for more benefits.
+            </li>
+            <li><strong>Price match guarantee:</strong> SEIU Travel will match your rate if you find a lower price on other travel booking sites.*
+            </li>
+        </ul>
+        <p>The best hotel deals are at your fingertips with the SEIU Travel Hotels program. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+        <p>Let SEIU help you find the best deals on over 250,000 high-end and discount hotels around the world. With savings of up to 60%, no blackout dates and phone support from dedicated SEIU travel consultants, you are free to choose the hotel that best suits your needs and your budget.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Hotels
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="FIND A HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel room.
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Save up to 60% when you use the SEIU Travel Program to book a hotel stay.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210901T200916Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Hotels
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210312T223409Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Travel Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ VIAJES: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de viajes de SEIU para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de viaje de SEIU. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU VIAJES: HOTELES"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE VIAJES DE SEIU PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE VIAJES DE SEIU PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU VIAJES: HOTELES"
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T144406Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Viajes: Hotels"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ VIAJES: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de viajes de SEIU para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de viaje de SEIU. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU VIAJES: HOTELES"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de Viajes de SEIU para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE VIAJES DE SEIU PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T144406Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU VIAJES: HOTELES"
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T152858Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Hotels"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ TRAVEL: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU TRAVEL: HOTELES"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T152858Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU TRAVEL: HOTELES"
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T155348Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Hotels"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ TRAVEL: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU TRAVEL: HOTELES"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T155348Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU TRAVEL: HOTELES"
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T160502Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: "SEIU Travel: Hotels"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "SEIU℠ TRAVEL: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: "SEIU TRAVEL: HOTELES"
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=014491" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T160502Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: "SEIU TRAVEL: HOTELES"
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210316T165518Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210316T165518Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T161251Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T161251Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210317T162202Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210317T162202Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 9
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8C5B2A68-0BDA-4E26-BCE3-DDA5945DE182}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T193405Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>Garant&iacute;a de igualaci&oacute;n de precios si encuentra un hotel a un precio inferior en otros sitios de reserva de viajes.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T193405Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 10
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8C5B2A68-0BDA-4E26-BCE3-DDA5945DE182}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210805T123907Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210805T123907Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+  - Version: 11
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8C5B2A68-0BDA-4E26-BCE3-DDA5945DE182}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T142818Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T142818Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 12
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8C5B2A68-0BDA-4E26-BCE3-DDA5945DE182}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T132328Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Si necesita hablar con un agente de viajes sobre sus planes de viaje, llame al 1-844-836-7348. Estamos experimentando un volumen de llamadas m&aacute;s alto de lo normal y su tiempo de espera puede ser m&aacute;s largo de lo habitual. Lamentamos cualquier inconveniente y agradecemos su paciencia.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T132328Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+  - Version: 13
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8C5B2A68-0BDA-4E26-BCE3-DDA5945DE182}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{629DCDD0-3C59-47CE-8A08-7DB0924C122E}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{5416A920-0540-492B-B3C3-E26F48DCC31C}" alt="SEIU Travel Program" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210901T200845Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <strong>* Garant&iacute;a de mejor precio: El Programa de Viajes de SEIU garantizar&aacute; que los productos comprados a trav&eacute;s de nosotros tendr&aacute;n el precio combinado m&aacute;s bajo de nuestro precio de mercado m&aacute;s bajo publicado, menos cualquier moneda de fidelidad ("Precio Combinado") sobre un precio de mercado de cualquier otro vendedor calificado disponible al p&uacute;blico en general. Si encuentra un precio m&aacute;s bajo de un vendedor autorizado, igualaremos el precio de mercado m&aacute;s bajo del vendedor autorizado en el momento de la compra o dentro de las 24 horas siguientes. Si encuentra un precio m&aacute;s bajo en cualquier lugar de Internet, le devolveremos el 110% de la diferencia.</strong>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Hotels
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "&iquest;Preguntas? Llame al 1-844-836-7348."
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 0
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: "Programa SEIU℠ Travel: HOTELES"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 1
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <div style="float: center; margin-left: 100px; padding: 10px; border: 2px solid #4a327f; max-width: 450px; margin-bottom: 0px;">
+        <p style="text-align: center; color: #4a327f; line-height: 22px; font-family: Open Sans,sans-serif; font-size: 13px; font-style: italic; margin-bottom: 0px;">Si necesita hablar con un agente de viajes sobre sus planes de viaje, llame al 1-844-940-1638. Estamos experimentando un volumen de llamadas m&aacute;s alto de lo normal y su tiempo de espera puede ser m&aacute;s largo de lo habitual. Lamentamos cualquier inconveniente y agradecemos su paciencia.</p>
+        </div>
+        <br />
+        <ul>
+            <li>Ahorre hasta un 60% al utilizar el programa de SEIU Travel para reservar una estad&iacute;a en un hotel.</li>
+            <li>Desde alojamientos econ&oacute;micos hasta alojamientos de lujo, elija entre m&aacute;s de 250,000 hoteles en los EE. UU. o en el extranjero.</li>
+            <li>No hay restricciones en cuanto a las fechas de sus vacaciones: puede reservar en cualquier momento.</li>
+            <li>Utilice su tarjeta de fidelidad del hotel para ganar puntos y obtener m&aacute;s beneficios.</li>
+            <li><strong>Igualaci&oacute;n de precios garantizada:</strong> el programa de SEIU Travel iguala su tarifa si encuentra un precio m&aacute;s bajo en otros sitios de reservas de viajes.</li>
+        </ul>
+        <p>Las mejores ofertas de hoteles est&aacute;n al alcance de su mano con el programa de hoteles de SEIU Travel. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+        <p>Deje que SEIU le ayude a encontrar las mejores ofertas en m&aacute;s de 250,000 hoteles de lujo y con descuento en todo el mundo. Con ahorros de hasta un 60%, sin restricciones de fechas y con asistencia telef&oacute;nica por parte de los asesores de viajes de SEIU, podr&aacute; elegir el hotel que mejor se adapte a sus necesidades y a su presupuesto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{C092829D-250E-46C7-AC76-D219827A5B34}" alt="Habitación de hotel" height="" width="" hspace="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: HOTELES
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="ENCUENTRE UN HOTEL" linktype="external" url="https://seiumb2.lifestylecollection.com/hotels?thirdpartyid=[mdsid]" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre hasta un 60% al utilizar el Programa de SEIU Travel para reservar una estad&iacute;a en un hotel.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE HASTA UN 60% AL UTILIZAR EL PROGRAMA DE SEIU TRAVEL PARA RESERVAR UNA ESTAD&Iacute;A EN UN HOTEL.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210901T200845Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: HOTELES
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 0
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"

@@ -1,0 +1,25 @@
+﻿---
+ID: "e1a1a975-3637-4eb0-90ff-36d61124d0d5"
+Parent: "a1702a2d-7366-4d7f-be2f-fd8645dc888e"
+Template: "a1702a2d-7366-4d7f-be2f-fd8645dc888e"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Carousel Offer Cards Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {D0942182-AA89-4F5B-A2C5-7D66E98CF581}
+    {59AEE03B-42C6-4928-AECE-0FEB4C7B677F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210429T215259Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

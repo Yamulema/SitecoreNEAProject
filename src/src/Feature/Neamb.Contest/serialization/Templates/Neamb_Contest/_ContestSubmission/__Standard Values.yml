@@ -1,0 +1,80 @@
+﻿---
+ID: "e702d578-d2a7-494e-896e-d929514f55c6"
+Parent: "e0f75d9a-46f5-4652-8b44-630716c27d95"
+Template: "e0f75d9a-46f5-4652-8b44-630716c27d95"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Contest/_ContestSubmission/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0634851d-a791-4081-b573-1812a065fbd3"
+      Hint: File Name Characters Limit
+      Value: You can enter only 30 characters in this field
+    - ID: "0ebf0805-77bc-46ed-9d41-e1bcdc0d5ab0"
+      Hint: Thank you message
+      Value: |
+        <h2 class="header"> Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p> <p class="text-alpha"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <div class="row">
+        <div class="col-md-6 m-b-xs"><a href="#" class="btn btn-lg btn-blue btn-block">Submit Another Image</a></div>
+        <div class="col-md-6"><a href="#" class="btn btn-lg btn-blue btn-block">Learn More About </a></div>
+        </div>
+    - ID: "153ae9d5-0978-48ed-b07e-8d331771e640"
+      Hint: Description
+      Value: 
+    - ID: "1d92e87a-da5a-4e96-9904-36542dd2a934"
+      Hint: Error File Size
+      Value: The image could not be uploaded please review the image size.
+    - ID: "24b362da-b886-4e39-8320-37b168342424"
+      Hint: Error Empty File
+      Value: Please select a file.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190108T174839Z
+    - ID: "450aac8f-f4e4-4a25-b840-5f1228cba080"
+      Hint: Anonymous User
+      Value: |
+        <h2 class="text-center">You must <a href="~/link.aspx?_id=5EA33232AC2542E5A5506C9232F318EC&amp;_z=z">sign in</a> to view this page</h2>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "754c69be-1ab1-4604-ae36-39f2732947d4"
+      Hint: File Name Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "78d845c9-29dc-4610-b8df-836707446f64"
+      Hint: Closed Contest Text
+      Value: |
+        <h2 class="header">Lorem ipsum dolor sit amet</h2>
+        
+        <p class="subhead text-alpha">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida tincidunt dolor, sit amet rutrum ante dapibus sit amet. Curabitur pharetra vel tellus eget faucibus. Pellentesque elementum, lacus tempor pharetra mattis, ex leo tristique erat, eget fermentum elit nisi nec purus. Vivamus egestas nec metus sit amet auctor. Vivamus mattis a odio nec cursus. Aliquam non suscipit arcu, ut vestibulum lectus. Duis mattis libero sed turpis feugiat eleifend. Mauris accumsan nulla neque, a sollicitudin ex ultrices id. Sed vel risus augue. Nulla lacinia nibh a rutrum consequat.
+        </p>
+    - ID: "7a9c6ecf-0c18-4a21-b012-06d27ac33b09"
+      Hint: Add Button
+      Value: Add Picture
+    - ID: "7d8e815a-7c05-40c9-8612-c7440c94c908"
+      Hint: Send Button
+      Value: Send
+    - ID: "8f8d429e-333d-453e-bb6e-5863031f934c"
+      Hint: File Name Empty Field
+      Value: Please insert a file name
+    - ID: "a8e0ee72-e25c-48f2-a673-9fe533bceb2b"
+      Hint: Error Upload
+      Value: There was an error uploading the image please try again.
+    - ID: "ae628654-335f-4ade-93bc-3a09462249d9"
+      Hint: Error File Type
+      Value: Please select a valid file type.
+    - ID: "b1dae03f-fcd8-4672-985a-ac4aaedf6807"
+      Hint: Disclosure Text
+      Value: By clicking this button you agree to our terms of use and privacy policy. We respect your privacy and never share your personal information with third parties. Privacy Policy
+    - ID: "be0b8abb-d510-45b6-bdcf-d7926a4c872c"
+      Hint: File Name
+      Value: File Name
+    - ID: "c74c82d2-f389-400b-b9c2-a6698d20ed51"
+      Hint: File Name Minimum Character Limit
+      Value: You must enter at least 2 characters in this field
+    - ID: "d5ea9a98-1b26-4d56-ace3-732e8a5e2e64"
+      Hint: Max Allow Size
+      Value: 5

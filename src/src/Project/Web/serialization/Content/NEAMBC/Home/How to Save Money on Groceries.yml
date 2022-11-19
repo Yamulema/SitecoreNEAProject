@@ -1,0 +1,434 @@
+﻿---
+ID: "e72687a5-d900-486f-aafd-0c5f3cce385d"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/How to Save Money on Groceries
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201118T163612Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "Combine smart planning with a few 21st-century shopping techniques to make every dollar you spend go further."
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: How to Save Money on Groceries
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{CD637E33-F983-4CE3-9CC0-C004A49FC9ED}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: By SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: How to Save Money on Groceries
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>How it works:</strong> Gas programs partner with grocery store chains to offer shoppers savings per gallon based on spending. Some grocers use a point system, so shoppers might receive one point for every dollar they spend. For each 100 points earned, for example, shoppers get 10 cents off a gallon of gas (up to 35 gallons). During the holidays, some retailers up the ante. For every 100 dollars spent on gift cards, shoppers receive 40 cents off a gallon of gas. <br />
+        <strong>Where to go:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/fuel-program" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/RewardPoints.page" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?icmpid=all_featured4_gasrewards" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Stop&nbsp;&amp; Shop</a> and others.</p>
+        <p><strong>Benefit: Mobile apps<br />
+        How it works:</strong> Many stores offer mobile apps that do the couponing legwork for you. Such apps provide instant access to the store&rsquo;s weekly ad and in-store coupons. Some also allow you to create a shopping list, search for sale items and comparison-shop between brands. <br />
+        <strong>Where to go:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/Get-Connected-Mobile-Apps.page" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.wegmans.com/service/mobile-app.html" target="_blank">Wegmans</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/" target="_blank">Weis Markets</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/more-savings-dot-more-time-for-you-dot" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.meijer.com/content/content.jsp?pageName=mobile_app" target="_blank">Meijer</a>.</p>
+        <p><strong>Benefit: Online coupons<br />
+        How it works:</strong> Simply visit the store&rsquo;s website prior to shopping and type the word &ldquo;coupon&rdquo; in the search box. Alternatively, just Google the store&rsquo;s name and coupon. Not only will you discover valuable savings on products you already buy, you may also uncover special prices on perishable items like bread. Economides once paid only 99 cents for 50 day-old hamburger buns.&nbsp; <br />
+        <strong>Where to go:</strong> A variety of stores (both grocery and retail) offer online discounts to savvy shoppers. In some cases, you may not even have to leave your house!</p>
+        <p><strong>Benefit: Personalized coupons/club memberships<br />
+        How it works:</strong> Grocers provide shoppers with special savings on products they already buy. Buy the same brand of milk every week? Chances are, you&rsquo;ll notice savings on future purchases since discounts are based on shopping history. You might even encounter big savings with discounts like &ldquo;buy one, get one free.&rdquo; <br />
+        <strong>Where to find it:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/#/login?redirectUrl=%2Fmysavings" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/IFL/Grocery/Club-Card" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/Offers-Landing-IMG.page?" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.martinsfoods.com/shareddev/Giant_register_new/register.cfm" target="_blank">Martin&rsquo;s</a>.</p>
+        <p><strong>Benefit: Double/Triple coupons<br />
+        How it works:</strong> On specific days, select grocery stores will double or triple coupon face values. For example, on double coupon day, a $1 off coupon will be worth $2 off. Such huge savings are becoming increasingly difficult to find, but for savings that big, it&rsquo;s worth a try!<br />
+        <strong>Where to find it:</strong> Albertsons, Safeway, Frys, Kroger, Giant, Acme&mdash;but only available in some states, usually on specific days within certain limits. Check with your local store.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201120T161526Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "Combine smart planning with a few 21st-century shopping techniques to make every dollar you spend go further."
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: How to Save Money on Groceries
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201120T161526Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{CD637E33-F983-4CE3-9CC0-C004A49FC9ED}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: By SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: How to Save Money on Groceries
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Benefit: Gas rewards<br />
+        How it works:</strong> Gas programs partner with grocery store chains to offer shoppers savings per gallon based on spending. Some grocers use a point system, so shoppers might receive one point for every dollar they spend. For each 100 points earned, for example, shoppers get 10 cents off a gallon of gas (up to 35 gallons). During the holidays, some retailers up the ante. For every 100 dollars spent on gift cards, shoppers receive 40 cents off a gallon of gas. <br />
+        <strong>Where to go:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/fuel-program" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/RewardPoints.page" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?icmpid=all_featured4_gasrewards" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Stop&nbsp;&amp; Shop</a> and others.</p>
+        <p><strong>Benefit: Mobile apps<br />
+        How it works:</strong> Many stores offer mobile apps that do the couponing legwork for you. Such apps provide instant access to the store&rsquo;s weekly ad and in-store coupons. Some also allow you to create a shopping list, search for sale items and comparison-shop between brands. <br />
+        <strong>Where to go:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/Get-Connected-Mobile-Apps.page" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.wegmans.com/service/mobile-app.html" target="_blank">Wegmans</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/" target="_blank">Weis Markets</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/more-savings-dot-more-time-for-you-dot" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.meijer.com/content/content.jsp?pageName=mobile_app" target="_blank">Meijer</a>.</p>
+        <p><strong>Benefit: Online coupons<br />
+        How it works:</strong> Simply visit the store&rsquo;s website prior to shopping and type the word &ldquo;coupon&rdquo; in the search box. Alternatively, just Google the store&rsquo;s name and coupon. Not only will you discover valuable savings on products you already buy, you may also uncover special prices on perishable items like bread. Economides once paid only 99 cents for 50 day-old hamburger buns.&nbsp; <br />
+        <strong>Where to go:</strong> A variety of stores (both grocery and retail) offer online discounts to savvy shoppers. In some cases, you may not even have to leave your house!</p>
+        <p><strong>Benefit: Personalized coupons/club memberships<br />
+        How it works:</strong> Grocers provide shoppers with special savings on products they already buy. Buy the same brand of milk every week? Chances are, you&rsquo;ll notice savings on future purchases since discounts are based on shopping history. You might even encounter big savings with discounts like &ldquo;buy one, get one free.&rdquo; <br />
+        <strong>Where to find it:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/#/login?redirectUrl=%2Fmysavings" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/IFL/Grocery/Club-Card" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/Offers-Landing-IMG.page?" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.martinsfoods.com/shareddev/Giant_register_new/register.cfm" target="_blank">Martin&rsquo;s</a>.</p>
+        <p><strong>Benefit: Double/Triple coupons<br />
+        How it works:</strong> On specific days, select grocery stores will double or triple coupon face values. For example, on double coupon day, a $1 off coupon will be worth $2 off. Such huge savings are becoming increasingly difficult to find, but for savings that big, it&rsquo;s worth a try!<br />
+        <strong>Where to find it:</strong> Albertsons, Safeway, Frys, Kroger, Giant, Acme&mdash;but only available in some states, usually on specific days within certain limits. Check with your local store.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201120T220128Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: "Combine smart planning with a few 21st-century shopping techniques to make every dollar you spend go further."
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: How to Save Money on Groceries
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201120T220128Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/940x465" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/940x465" mediaid="{CD637E33-F983-4CE3-9CC0-C004A49FC9ED}" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: By SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: How to Save Money on Groceries
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Benefit: Gas rewards<br />
+        How it works:</strong> Gas programs partner with grocery store chains to offer shoppers savings per gallon based on spending. Some grocers use a point system, so shoppers might receive one point for every dollar they spend. For each 100 points earned, for example, shoppers get 10 cents off a gallon of gas (up to 35 gallons). During the holidays, some retailers up the ante. For every 100 dollars spent on gift cards, shoppers receive 40 cents off a gallon of gas. <br />
+        <strong>Where to go:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/fuel-program" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/RewardPoints.page" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?icmpid=all_featured4_gasrewards" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Stop&nbsp;&amp; Shop</a> and others.</p>
+        <p><strong>Benefit: Mobile apps<br />
+        How it works:</strong> Many stores offer mobile apps that do the couponing legwork for you. Such apps provide instant access to the store&rsquo;s weekly ad and in-store coupons. Some also allow you to create a shopping list, search for sale items and comparison-shop between brands. <br />
+        <strong>Where to go:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/Get-Connected-Mobile-Apps.page" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.wegmans.com/service/mobile-app.html" target="_blank">Wegmans</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/" target="_blank">Weis Markets</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/more-savings-dot-more-time-for-you-dot" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.meijer.com/content/content.jsp?pageName=mobile_app" target="_blank">Meijer</a>.</p>
+        <p><strong>Benefit: Online coupons<br />
+        How it works:</strong> Simply visit the store&rsquo;s website prior to shopping and type the word &ldquo;coupon&rdquo; in the search box. Alternatively, just Google the store&rsquo;s name and coupon. Not only will you discover valuable savings on products you already buy, you may also uncover special prices on perishable items like bread.&nbsp;&nbsp;<br />
+        <strong>Where to go:</strong> A variety of stores (both grocery and retail) offer online discounts to savvy shoppers. In some cases, you may not even have to leave your house!</p>
+        <p><strong>Benefit: Personalized coupons/club memberships<br />
+        How it works:</strong> Grocers provide shoppers with special savings on products they already buy. Buy the same brand of milk every week? Chances are, you&rsquo;ll notice savings on future purchases since discounts are based on shopping history. You might even encounter big savings with discounts like &ldquo;buy one, get one free.&rdquo; <br />
+        <strong>Where to find it:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/#/login?redirectUrl=%2Fmysavings" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/IFL/Grocery/Club-Card" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/Offers-Landing-IMG.page?" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.martinsfoods.com/shareddev/Giant_register_new/register.cfm" target="_blank">Martin&rsquo;s</a>.</p>
+        <p><strong>Benefit: Double/Triple coupons<br />
+        How it works:</strong> On specific days, select grocery stores will double or triple coupon face values. For example, on double coupon day, a $1 off coupon will be worth $2 off. Such huge savings are becoming increasingly difficult to find, but for savings that big, it&rsquo;s worth a try!<br />
+        <strong>Where to find it:</strong> Albertsons, Safeway, Frys, Kroger, Giant, Acme&mdash;but only available in some states, usually on specific days within certain limits. Check with your local store.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201120T154822Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Combine la planificación inteligente con algunas técnicas de compra del siglo XXI para aprovechar cada dólar que gasta.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: How to Save Money on Groceries
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{CD637E33-F983-4CE3-9CC0-C004A49FC9ED}" alt="Cómo ahorrar dinero en víveres" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Por SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: How to Save Money on Groceries
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Beneficio: Recompensas en gasolina<br />
+        C&oacute;mo funciona:</strong> Los programas de gasolina se asocian con cadenas de supermercados para ofrecerles a los compradores ahorros por gal&oacute;n seg&uacute;n el gasto. Algunos supermercados emplean un sistema de puntos, por lo que los compradores podr&iacute;an recibir un punto por cada d&oacute;lar que gasten. Por ejemplo, por cada 100 puntos ganados los compradores reciben 10 centavos de descuento por gal&oacute;n de gasolina (hasta 35 galones). Durante las vacaciones, algunos vendedores elevan la suma. Por cada 100 d&oacute;lares gastados en tarjetas de regalo, los compradores reciben 40 centavos de descuento por gal&oacute;n de gasolina.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/fuel-program" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/RewardPoints.page" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?icmpid=all_featured4_gasrewards" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Stop&nbsp;&amp; Shop</a> y otros.</p>
+        <p><strong>Beneficio: Aplicaciones m&oacute;viles<br />
+        C&oacute;mo funciona:</strong> Muchas tiendas ofrecen aplicaciones m&oacute;viles que se encargan de los cupones por usted. Dichas aplicaciones brindan acceso instant&aacute;neo a la publicidad semanal y a los cupones de la tienda. Algunas tambi&eacute;n le permiten crear una lista de compras, buscar art&iacute;culos en oferta y comparar entre marcas.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/Get-Connected-Mobile-Apps.page" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.wegmans.com/service/mobile-app.html" target="_blank">Wegmans</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/" target="_blank">Weis Markets</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/more-savings-dot-more-time-for-you-dot" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.meijer.com/content/content.jsp?pageName=mobile_app" target="_blank">Meijer</a>.</p>
+        <p><strong>Beneficio: Cupones en l&iacute;nea<br />
+        C&oacute;mo funciona:</strong> Simplemente visite el sitio web de la tienda antes de comprar y escriba la palabra "cup&oacute;n" en el cuadro de b&uacute;squeda. O tambi&eacute;n puede simplemente buscar cup&oacute;n y el nombre de la tienda en Google. No solo descubrir&aacute; ahorros valiosos en productos que ya compra, sino que tambi&eacute;n podr&iacute;a encontrar precios especiales en art&iacute;culos perecederos como el pan. Economides una vez pag&oacute; solo 99 centavos por panes de hamburguesa que ten&iacute;an 50 d&iacute;as.<br />
+        <strong>Ad&oacute;nde ir:</strong> Una gran variedad de tiendas (tanto de comestibles como minoristas) ofrecen descuentos en l&iacute;nea a los compradores inteligentes. En algunos casos, &iexcl;es posible que ni siquiera tenga que salir de casa!</p>
+        <p><strong>Beneficio: Cupones personalizados/Membres&iacute;as de clubes<br />
+        C&oacute;mo funciona:</strong> Los supermercados ofrecen a los compradores ahorros especiales en productos que ya compran. &iquest;Compra la misma marca de leche cada semana? Lo m&aacute;s probable es que note ahorros en compras posteriores, ya que los descuentos se basan en el historial de compras. Incluso puede que ahorre en grande con descuentos como "compre uno y reciba otro gratis". <br />
+        <strong>D&oacute;nde encontrarlo:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/#/login?redirectUrl=%2Fmysavings" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/IFL/Grocery/Club-Card" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/Offers-Landing-IMG.page?" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.martinsfoods.com/shareddev/Giant_register_new/register.cfm" target="_blank">Martin&rsquo;s</a>.
+        </p>
+        <p>&nbsp;</p>
+        <p><strong>Beneficio: Cupones dobles/triples<br />
+        C&oacute;mo funciona:</strong> En d&iacute;as espec&iacute;ficos, algunas tiendas de comestibles duplican o triplican el valor nominal de los cupones. Por ejemplo, en el d&iacute;a de cupones dobles, un cup&oacute;n de $1 de descuento valdr&iacute;a $2 de descuento. Estos grandes ahorros cada vez son m&aacute;s dif&iacute;ciles de encontrar, pero, si se ahorra tanto, &iexcl;vale la pena intentarlo!<br />
+        <strong>D&oacute;nde encontrarlo:</strong> Albertsons, Safeway, Frys, Kroger, Giant, Acme, pero solo est&aacute; disponible en algunos estados, por lo general, en d&iacute;as espec&iacute;ficos y con ciertos l&iacute;mites. Consulte en su tienda local.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Cómo Ahorrar Dinero en Víveres
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201120T161121Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Combine la planificación inteligente con algunas técnicas de compra del siglo XXI para aprovechar cada dólar que gasta.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: How to Save Money on Groceries
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201120T161121Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{CD637E33-F983-4CE3-9CC0-C004A49FC9ED}" alt="Cómo ahorrar dinero en víveres" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Por SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: How to Save Money on Groceries
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Beneficio: Recompensas en gasolina<br />
+        C&oacute;mo funciona:</strong> Los programas de gasolina se asocian con cadenas de supermercados para ofrecerles a los compradores ahorros por gal&oacute;n seg&uacute;n el gasto. Algunos supermercados emplean un sistema de puntos, por lo que los compradores podr&iacute;an recibir un punto por cada d&oacute;lar que gasten. Por ejemplo, por cada 100 puntos ganados los compradores reciben 10 centavos de descuento por gal&oacute;n de gasolina (hasta 35 galones). Durante las vacaciones, algunos vendedores elevan la suma. Por cada 100 d&oacute;lares gastados en tarjetas de regalo, los compradores reciben 40 centavos de descuento por gal&oacute;n de gasolina.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/fuel-program" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/RewardPoints.page" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?icmpid=all_featured4_gasrewards" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Stop&nbsp;&amp; Shop</a> y otros.</p>
+        <p><strong>Beneficio: Aplicaciones m&oacute;viles<br />
+        C&oacute;mo funciona:</strong> Muchas tiendas ofrecen aplicaciones m&oacute;viles que se encargan de los cupones por usted. Dichas aplicaciones brindan acceso instant&aacute;neo a la publicidad semanal y a los cupones de la tienda. Algunas tambi&eacute;n le permiten crear una lista de compras, buscar art&iacute;culos en oferta y comparar entre marcas.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/Get-Connected-Mobile-Apps.page" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.wegmans.com/service/mobile-app.html" target="_blank">Wegmans</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/" target="_blank">Weis Markets</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/more-savings-dot-more-time-for-you-dot" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.meijer.com/content/content.jsp?pageName=mobile_app" target="_blank">Meijer</a>.</p>
+        <p><strong>Beneficio: Cupones en l&iacute;nea<br />
+        C&oacute;mo funciona:</strong> Simplemente visite el sitio web de la tienda antes de comprar y escriba la palabra "cup&oacute;n" en el cuadro de b&uacute;squeda. O tambi&eacute;n puede simplemente buscar cup&oacute;n y el nombre de la tienda en Google. No solo descubrir&aacute; ahorros valiosos en productos que ya compra, sino que tambi&eacute;n podr&iacute;a encontrar precios especiales en art&iacute;culos perecederos como el pan. Economides una vez pag&oacute; solo 99 centavos por panes de hamburguesa que ten&iacute;an 50 d&iacute;as.<br />
+        <strong>Ad&oacute;nde ir:</strong> Una gran variedad de tiendas (tanto de comestibles como minoristas) ofrecen descuentos en l&iacute;nea a los compradores inteligentes. En algunos casos, &iexcl;es posible que ni siquiera tenga que salir de casa!</p>
+        <p><strong>Beneficio: Cupones personalizados/Membres&iacute;as de clubes<br />
+        C&oacute;mo funciona:</strong> Los supermercados ofrecen a los compradores ahorros especiales en productos que ya compran. &iquest;Compra la misma marca de leche cada semana? Lo m&aacute;s probable es que note ahorros en compras posteriores, ya que los descuentos se basan en el historial de compras. Incluso puede que ahorre en grande con descuentos como "compre uno y reciba otro gratis". <br />
+        <strong>D&oacute;nde encontrarlo:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/#/login?redirectUrl=%2Fmysavings" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/IFL/Grocery/Club-Card" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/Offers-Landing-IMG.page?" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.martinsfoods.com/shareddev/Giant_register_new/register.cfm" target="_blank">Martin&rsquo;s</a>.
+        </p>
+        <p><strong>Beneficio: Cupones dobles/triples<br />
+        C&oacute;mo funciona:</strong> En d&iacute;as espec&iacute;ficos, algunas tiendas de comestibles duplican o triplican el valor nominal de los cupones. Por ejemplo, en el d&iacute;a de cupones dobles, un cup&oacute;n de $1 de descuento valdr&iacute;a $2 de descuento. Estos grandes ahorros cada vez son m&aacute;s dif&iacute;ciles de encontrar, pero, si se ahorra tanto, &iexcl;vale la pena intentarlo!<br />
+        <strong>D&oacute;nde encontrarlo:</strong> Albertsons, Safeway, Frys, Kroger, Giant, Acme, pero solo est&aacute; disponible en algunos estados, por lo general, en d&iacute;as espec&iacute;ficos y con ciertos l&iacute;mites. Consulte en su tienda local.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Cómo Ahorrar Dinero en Víveres
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201120T161247Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Combine la planificación inteligente con algunas técnicas de compra del siglo XXI para aprovechar cada dólar que gasta.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Cómo Ahorrar Dinero en Víveres
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201120T161247Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{CD637E33-F983-4CE3-9CC0-C004A49FC9ED}" alt="Cómo ahorrar dinero en víveres" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Por SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Cómo Ahorrar Dinero en Víveres
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Beneficio: Recompensas en gasolina<br />
+        C&oacute;mo funciona:</strong> Los programas de gasolina se asocian con cadenas de supermercados para ofrecerles a los compradores ahorros por gal&oacute;n seg&uacute;n el gasto. Algunos supermercados emplean un sistema de puntos, por lo que los compradores podr&iacute;an recibir un punto por cada d&oacute;lar que gasten. Por ejemplo, por cada 100 puntos ganados los compradores reciben 10 centavos de descuento por gal&oacute;n de gasolina (hasta 35 galones). Durante las vacaciones, algunos vendedores elevan la suma. Por cada 100 d&oacute;lares gastados en tarjetas de regalo, los compradores reciben 40 centavos de descuento por gal&oacute;n de gasolina.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/fuel-program" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/RewardPoints.page" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?icmpid=all_featured4_gasrewards" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Stop&nbsp;&amp; Shop</a> y otros.</p>
+        <p><strong>Beneficio: Aplicaciones m&oacute;viles<br />
+        C&oacute;mo funciona:</strong> Muchas tiendas ofrecen aplicaciones m&oacute;viles que se encargan de los cupones por usted. Dichas aplicaciones brindan acceso instant&aacute;neo a la publicidad semanal y a los cupones de la tienda. Algunas tambi&eacute;n le permiten crear una lista de compras, buscar art&iacute;culos en oferta y comparar entre marcas.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/Get-Connected-Mobile-Apps.page" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.wegmans.com/service/mobile-app.html" target="_blank">Wegmans</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/" target="_blank">Weis Markets</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/more-savings-dot-more-time-for-you-dot" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.meijer.com/content/content.jsp?pageName=mobile_app" target="_blank">Meijer</a>.</p>
+        <p><strong>Beneficio: Cupones en l&iacute;nea<br />
+        C&oacute;mo funciona:</strong> Simplemente visite el sitio web de la tienda antes de comprar y escriba la palabra "cup&oacute;n" en el cuadro de b&uacute;squeda. O tambi&eacute;n puede simplemente buscar cup&oacute;n y el nombre de la tienda en Google. No solo descubrir&aacute; ahorros valiosos en productos que ya compra, sino que tambi&eacute;n podr&iacute;a encontrar precios especiales en art&iacute;culos perecederos como el pan. Economides una vez pag&oacute; solo 99 centavos por panes de hamburguesa que ten&iacute;an 50 d&iacute;as.<br />
+        <strong>Ad&oacute;nde ir:</strong> Una gran variedad de tiendas (tanto de comestibles como minoristas) ofrecen descuentos en l&iacute;nea a los compradores inteligentes. En algunos casos, &iexcl;es posible que ni siquiera tenga que salir de casa!</p>
+        <p><strong>Beneficio: Cupones personalizados/Membres&iacute;as de clubes<br />
+        C&oacute;mo funciona:</strong> Los supermercados ofrecen a los compradores ahorros especiales en productos que ya compran. &iquest;Compra la misma marca de leche cada semana? Lo m&aacute;s probable es que note ahorros en compras posteriores, ya que los descuentos se basan en el historial de compras. Incluso puede que ahorre en grande con descuentos como "compre uno y reciba otro gratis". <br />
+        <strong>D&oacute;nde encontrarlo:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/#/login?redirectUrl=%2Fmysavings" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/IFL/Grocery/Club-Card" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/Offers-Landing-IMG.page?" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.martinsfoods.com/shareddev/Giant_register_new/register.cfm" target="_blank">Martin&rsquo;s</a>.
+        </p>
+        <p><strong>Beneficio: Cupones dobles/triples<br />
+        C&oacute;mo funciona:</strong> En d&iacute;as espec&iacute;ficos, algunas tiendas de comestibles duplican o triplican el valor nominal de los cupones. Por ejemplo, en el d&iacute;a de cupones dobles, un cup&oacute;n de $1 de descuento valdr&iacute;a $2 de descuento. Estos grandes ahorros cada vez son m&aacute;s dif&iacute;ciles de encontrar, pero, si se ahorra tanto, &iexcl;vale la pena intentarlo!<br />
+        <strong>D&oacute;nde encontrarlo:</strong> Albertsons, Safeway, Frys, Kroger, Giant, Acme, pero solo est&aacute; disponible en algunos estados, por lo general, en d&iacute;as espec&iacute;ficos y con ciertos l&iacute;mites. Consulte en su tienda local.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Cómo Ahorrar Dinero en Víveres
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201120T220207Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: How to Save Money on Groceries
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "6091de65-8191-4b69-8193-e4d5d21f5d0d"
+      Hint: Subheadline
+      Value: Combine la planificación inteligente con algunas técnicas de compra del siglo XXI para aprovechar cada dólar que gasta.
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Cómo Ahorrar Dinero en Víveres
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201120T220207Z
+    - ID: "cfcc6acc-1678-4a6c-ba8e-0881625b8def"
+      Hint: Image
+      Value: |
+        <image mediaid="{CD637E33-F983-4CE3-9CC0-C004A49FC9ED}" alt="Cómo ahorrar dinero en víveres" height="" width="" hspace="" vspace="" />
+    - ID: "de9c1567-49eb-4a93-b137-30ae22decb87"
+      Hint: Author
+      Value: Por SEIU Member Benefits
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Cómo Ahorrar Dinero en Víveres
+    - ID: "fc7c8c2a-1003-4734-be98-35024110c2f5"
+      Hint: Body
+      Value: |
+        <p><strong>Beneficio: Recompensas en gasolina<br />
+        C&oacute;mo funciona:</strong> Los programas de gasolina se asocian con cadenas de supermercados para ofrecerles a los compradores ahorros por gal&oacute;n seg&uacute;n el gasto. Algunos supermercados emplean un sistema de puntos, por lo que los compradores podr&iacute;an recibir un punto por cada d&oacute;lar que gasten. Por ejemplo, por cada 100 puntos ganados los compradores reciben 10 centavos de descuento por gal&oacute;n de gasolina (hasta 35 galones). Durante las vacaciones, algunos vendedores elevan la suma. Por cada 100 d&oacute;lares gastados en tarjetas de regalo, los compradores reciben 40 centavos de descuento por gal&oacute;n de gasolina.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/fuel-program" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/RewardPoints.page" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/RewardPoints.page?icmpid=all_featured4_gasrewards" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://giantfood.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Giant</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://stopandshop.com/savings-and-rewards/rewards-program/gas-rewards/" target="_blank">Stop&nbsp;&amp; Shop</a> y otros.</p>
+        <p><strong>Beneficio: Aplicaciones m&oacute;viles<br />
+        C&oacute;mo funciona:</strong> Muchas tiendas ofrecen aplicaciones m&oacute;viles que se encargan de los cupones por usted. Dichas aplicaciones brindan acceso instant&aacute;neo a la publicidad semanal y a los cupones de la tienda. Algunas tambi&eacute;n le permiten crear una lista de compras, buscar art&iacute;culos en oferta y comparar entre marcas.<br />
+        <strong>Ad&oacute;nde ir:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/ShopStores/Get-Connected-Mobile-Apps.page" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.wegmans.com/service/mobile-app.html" target="_blank">Wegmans</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.weismarkets.com/" target="_blank">Weis Markets</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/topic/more-savings-dot-more-time-for-you-dot" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.meijer.com/content/content.jsp?pageName=mobile_app" target="_blank">Meijer</a>.</p>
+        <p><strong>Beneficio: Cupones en l&iacute;nea<br />
+        C&oacute;mo funciona:</strong> Simplemente visite el sitio web de la tienda antes de comprar y escriba la palabra "cup&oacute;n" en el cuadro de b&uacute;squeda. O tambi&eacute;n puede simplemente buscar cup&oacute;n y el nombre de la tienda en Google. No solo descubrir&aacute; ahorros valiosos en productos que ya compra, sino que tambi&eacute;n podr&iacute;a encontrar precios especiales en art&iacute;culos perecederos como el pan.<br />
+        <strong>Ad&oacute;nde ir:</strong> Una gran variedad de tiendas (tanto de comestibles como minoristas) ofrecen descuentos en l&iacute;nea a los compradores inteligentes. En algunos casos, &iexcl;es posible que ni siquiera tenga que salir de casa!</p>
+        <p><strong>Beneficio: Cupones personalizados/Membres&iacute;as de clubes<br />
+        C&oacute;mo funciona:</strong> Los supermercados ofrecen a los compradores ahorros especiales en productos que ya compran. &iquest;Compra la misma marca de leche cada semana? Lo m&aacute;s probable es que note ahorros en compras posteriores, ya que los descuentos se basan en el historial de compras. Incluso puede que ahorre en grande con descuentos como "compre uno y reciba otro gratis". <br />
+        <strong>D&oacute;nde encontrarlo:</strong> <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.kroger.com/#/login?redirectUrl=%2Fmysavings" target="_blank">Kroger</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.safeway.com/IFL/Grocery/Club-Card" target="_blank">Safeway</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.vons.com/ShopStores/Offers-Landing-IMG.page?" target="_blank">Vons</a>, <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://www.martinsfoods.com/shareddev/Giant_register_new/register.cfm" target="_blank">Martin&rsquo;s</a>.
+        </p>
+        <p><strong>Beneficio: Cupones dobles/triples<br />
+        C&oacute;mo funciona:</strong> En d&iacute;as espec&iacute;ficos, algunas tiendas de comestibles duplican o triplican el valor nominal de los cupones. Por ejemplo, en el d&iacute;a de cupones dobles, un cup&oacute;n de $1 de descuento valdr&iacute;a $2 de descuento. Estos grandes ahorros cada vez son m&aacute;s dif&iacute;ciles de encontrar, pero, si se ahorra tanto, &iexcl;vale la pena intentarlo!<br />
+        <strong>D&oacute;nde encontrarlo:</strong> Albertsons, Safeway, Frys, Kroger, Giant, Acme, pero solo est&aacute; disponible en algunos estados, por lo general, en d&iacute;as espec&iacute;ficos y con ciertos l&iacute;mites. Consulte en su tienda local.</p>
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: Cómo Ahorrar Dinero en Víveres

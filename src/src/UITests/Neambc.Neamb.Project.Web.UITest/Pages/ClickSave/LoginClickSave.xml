@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="LoginClickSave" urlpath="">
+      <sections>
+        <section name="SignInSection">
+          <controls>
+            <control key="ClickSave_Title"  xpath="//h2[@class='header text-center']"   />
+            <control key="ClickSave_Logo"  id="click-save"   />
+            <control key="ClickSave_Password"  id="password"  />
+            <control key="ClickSave_Submit"  xpath="//div[@class='col-xs-12 col-md-4']"  />
+            <control key="ClickSave_WrongPasswordMessage"  id="errorgeneralserver"  />
+            <control key="ClickSave_LogoFromPage"  id="orgLogo"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

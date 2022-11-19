@@ -1,0 +1,31 @@
+﻿---
+ID: "6a15627d-95c9-4f17-adbd-4c0f81d90e75"
+Parent: "a3164b40-440e-4c25-9ce9-4a43a41f1d3f"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/SEIUMB/Feature/GeneralContent/Help
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{5C7F5CF5-24EE-48D0-926E-E053EF627E37}"
+- ID: "2e51df70-d3e4-458c-b03a-95c734dd39e7"
+  Hint: Data source
+  Value: "{8C345BA1-253A-4815-A9FC-14D4F583025F}"
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Type: Checkbox
+  Value: 0
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Web/Renderings/help.cshtml
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "{71219C33-11D5-4D92-868B-34F0C6C1E953}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171120T230305Z

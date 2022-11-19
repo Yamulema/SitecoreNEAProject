@@ -1,0 +1,15 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Foundation.Authentication
+@using TemplatesForms = Neambc.Seiumb.Feature.Forms 
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@if (Model.PageItem.ID == TemplatesForms.Templates.LoginMobilePage.ID)
+{
+    <img id="mobileImage" src="@Model.Item.ImageUrl(Templates.LoginForm.Fields.Image)" alt="" loading="lazy">
+}
+else
+{
+    <img id="imgLoginHeader" src="@Model.Item.ImageUrl(Templates.LoginForm.Fields.Image)" loading="lazy">
+}
+

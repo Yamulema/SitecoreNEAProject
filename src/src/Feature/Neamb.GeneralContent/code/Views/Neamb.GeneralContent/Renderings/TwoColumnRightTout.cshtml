@@ -1,0 +1,21 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.TwoColumnTout
+
+<div style="background-color: @Model.BackgroundColor;">
+    <section class="container-fluid c-074">
+        <div class="col-md-6 col-md-push-6">
+            <img class="img-fit" src="@Model.ImageUrl" alt="@Model.ImageAlt" loading="lazy"/>
+        </div>
+        <div class="col-md-6 col-md-pull-6 col-sm-12 content p-l">
+            <div class="col-md-12">
+                <h2>
+                    @Html.Sitecore().Field(Templates.TwoColumnTout.Fields.Headline, Model.Item)
+                </h2>
+                @Html.Sitecore().Field(Templates.TwoColumnTout.Fields.Content, Model.Item)
+            </div>
+        </div>
+    </section>
+</div>

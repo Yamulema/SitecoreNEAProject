@@ -1,0 +1,23 @@
+{
+  "@jdt.replace": [
+    {
+      "@jdt.path": "$.ColdState",
+      "@jdt.value": [
+        [
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Sign In to Check Eligibility'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Sign In to Check Eligibility'},this)"
+        ]
+      ]
+    },
+    {
+      "@jdt.path": "$.WarmState",
+      "@jdt.value": [
+        [
+          "999",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Get Started'},this)",
+          "dataLayerPush({'clickHref':'https://qa.neamb.com/login','event':'login cta','productName':'NEA Parent Loan Program','ctaText':'Get Started'},this)"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿---
+ID: "4024656e-e4f5-4033-b221-9858409e3a89"
+Parent: "7d036f25-0eb3-4bed-a0f6-d4c0873d1b24"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Complimentary Life
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/first_aid.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {367B8E27-D435-49A7-BA34-5D8F44FC1EB8}
+    {668D8D54-DC74-475D-902F-611A1EED6371}
+    {293D42C9-C7B9-4A8D-88E4-081BBA5637C7}
+    {DA14C2F9-A14F-471A-857D-63B9FD075EF5}
+    {1A2CE642-F13F-4BEB-AFC4-FE43DFB06623}
+    {74159DE1-A691-4A83-8CEE-1D7109BC3457}
+    {2D3B7389-4171-406A-8319-03A7807988D5}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{AD27FACE-02AC-41E8-AE9E-619C4926DC31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180618T172536Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

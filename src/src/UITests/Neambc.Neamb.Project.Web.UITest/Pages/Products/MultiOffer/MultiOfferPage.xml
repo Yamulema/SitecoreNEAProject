@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="MultiOfferPage" urlpath="/UITest/Products/C044-Test">
+      <sections>
+        <section name="section-normal bg-gray c-013 t-006">
+        </section>
+        <section name="CtaCold">
+          <controls>
+            <control key="MultiOffer_CtaCold" xpath="//a[@class='btn btn-blue btn-block']"/>
+          </controls>
+        </section>
+        <section name="CtaWarm">
+          <controls>
+            <control key="MultiOffer_CtaWarm" xpath="//a[@class='btn btn-blue btn-block']"/>
+          </controls>
+        </section>
+        <section name="PDF">
+          <controls>
+            <control key="MultiOffer_PDFHot" xpath="(//a[@class='btn btn-blue btn-block'])[1]"/>
+          </controls>
+        </section>
+        <section name="CtaHot">
+          <controls>
+            <control key="MultiOffer_CtaHot" xpath="(//a[@class='btn btn-blue btn-block'])[2]"/>
+          </controls>
+        </section>
+        <section name="SSO">
+          <controls>
+            <control key="MultiOffer_SSOHot" xpath="(//a[@class='btn btn-blue btn-block'])[3]"/>
+          </controls>
+        </section>
+        <section name="Link">
+          <controls>
+            <control key="MultiOffer_LinkHot" xpath="(//a[@class='btn btn-blue btn-block'])[4]"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

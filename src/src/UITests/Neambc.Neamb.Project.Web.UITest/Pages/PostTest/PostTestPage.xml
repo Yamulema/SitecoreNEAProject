@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="PostTestPage" urlpath="/UITest/Products/Post-Test">
+      <sections>
+        <section name="Cta">
+          <controls>
+            <control key="PostTestPage_PrimaryCtaButton" xpath="//a[@id='product_cta_primary_action_button']"  />
+            <control key="PostTestPage_IdRow0" xpath="//td[@id='0']"  />
+            <control key="PostTestPage_IdRow1" xpath="//td[@id='1']"  />
+            <control key="PostTestPage_IdRow3" xpath="//td[@id='3']"  />
+            <control key="PostTestPage_IdRow4" xpath="//td[@id='4']"  />
+          </controls>
+        </section>
+        <section name="MultiCard">
+          <controls>
+            <control key="PostTestPage_CardButton" xpath="//a[@id='product_multirow_primary_action_button']"  />
+          </controls>
+        </section>
+        <section name="SpecialOffer">
+          <controls>
+            <control key="PostTestPage_SpecialButton" xpath="//a[@id='product_special_offer_primary_action_button']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\packages\NUnit3TestAdapter.3.15.1\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\..\..\packages\NUnit3TestAdapter.3.15.1\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="..\..\..\packages\NUnit3TestAdapter.3.14.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\..\..\packages\NUnit3TestAdapter.3.14.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="..\..\..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\..\..\packages\NUnit.3.12.0\build\NUnit.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6C165F7-3B21-4185-8D68-ACCCF15AF9DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neambc.Seiumb.UITests</RootNamespace>
+    <AssemblyName>Neambc.Seiumb.UITests</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Portable.BouncyCastle.1.8.5\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MailKit, Version=2.5.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\MailKit.2.6.0\lib\net47\MailKit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Jdt, Version=0.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.VisualStudio.Jdt.0.9.23\lib\net45\Microsoft.VisualStudio.Jdt.dll</HintPath>
+    </Reference>
+    <Reference Include="MimeKit, Version=2.2.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\MimeKit.2.2.0\lib\net45\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.UITesting, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0e223ebd96a6d5b6, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\Oshyn.Framework.UITesting.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.UITesting.Email, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0e223ebd96a6d5b6, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\Oshyn.Framework.UITesting.Email.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.UITesting.NUnit, Version=1.3.0.0, Culture=neutral, PublicKeyToken=0e223ebd96a6d5b6, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\Oshyn.Framework.UITesting.NUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="Oshyn.Framework.Utility, Version=1.3.0.0, Culture=neutral, PublicKeyToken=d837fb1f7ac15de3, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.Utility.1.3.4.42\lib\net45\Oshyn.Framework.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.WaitHelpers, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\DotNetSeleniumExtras.WaitHelpers.3.11.0\lib\net45\SeleniumExtras.WaitHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.9.1.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.9.1.0, Culture=neutral, PublicKeyToken=1c2bd1631853048f, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Oshyn.Framework.UITesting.1.4.3.440\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\AssertingPageBaseExtensions.cs" />
+    <Compile Include="Pages\Base\SeiumbPage.cs" />
+    <Compile Include="Pages\Home\HomePage.cs" />
+    <Compile Include="Pages\NavigationSection\Navigation.cs" />
+    <Compile Include="Pages\Products\Marketplace\MarketPlacePage.cs" />
+    <Compile Include="Pages\Products\StudentLoanRefinanceProgram\StudentLoanRefinanceProgramPage.cs" />
+    <Compile Include="Pages\Profile\ProfilePage.cs" />
+    <Compile Include="Pages\Search\SearchPage.cs" />
+    <Compile Include="Pages\Products\GroupTermLifeInsurance\GroupTermLifeInsurancePage.cs" />
+    <Compile Include="Pages\Tokens\TokenPage.cs" />
+    <Compile Include="Pages\Registration\RegistrationPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestSourceHelper.cs" />
+    <Compile Include="Tests\Core\NavigationSection\GTMNavigationTestData.cs" />
+    <Compile Include="Tests\Core\NavigationSection\GTMNavigationTests.cs" />
+    <Compile Include="Tests\Core\Home\HomePageTestData.cs" />
+    <Compile Include="Tests\Core\Home\HomePageTests.cs" />
+    <Compile Include="Tests\Core\Product\Marketplace\MarketplaceMarkupTests.cs" />
+    <Compile Include="Tests\Core\Product\Marketplace\MarketPlacePageData.cs" />
+    <Compile Include="Tests\Core\Product\Marketplace\NotRegisteredUserScenariosTests.cs" />
+    <Compile Include="Tests\Core\Product\Marketplace\RegisteredUserScenariosTests.cs" />
+    <Compile Include="Tests\Core\Product\GroupTermLifeInsurance\ProductGroupTermLifeInsuranceData.cs" />
+    <Compile Include="Tests\Core\Product\GroupTermLifeInsurance\ProductGroupTermLifeInsuranceTest.cs" />
+    <Compile Include="Tests\Core\Product\StudentLoanRefinanceProgram\StudentLoanRefinanceProgramData.cs" />
+    <Compile Include="Tests\Core\Product\StudentLoanRefinanceProgram\StudentLoanRefinanceProgramTest.cs" />
+    <Compile Include="Tests\Core\Profile\ProfileTestData.cs" />
+    <Compile Include="Tests\Core\Profile\ProfileTests.cs" />
+    <Compile Include="Tests\Core\Search\SearchTestData.cs" />
+    <Compile Include="Tests\Core\Search\SearchTests.cs" />
+    <Compile Include="Tests\Core\Token\TokenPageTestData.cs" />
+    <Compile Include="Tests\Core\Token\TokenPageTests.cs" />
+    <Compile Include="Tests\Core\Registration\RegistrationPageTestData.cs" />
+    <Compile Include="Tests\Core\Registration\RegistrationPageTests.cs" />
+    <Compile Include="Tests\Functional\Chat\ChatTestData.cs" />
+    <Compile Include="Tests\Functional\Chat\ChatTests.cs" />
+    <Compile Include="Tests\Redirect\RedirectTestData.cs" />
+    <Compile Include="Tests\Redirect\RedirectTests.cs" />
+    <Compile Include="Tests\SeiumbTestBaseLarge.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Pages\Home\HomePage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\NavigationSection\Navigation.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\Marketplace\MarketPlacePage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\StudentLoanRefinanceProgram\StudentLoanRefinanceProgram.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Profile\ProfilePage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Search\SearchPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Products\GroupTermLifeInsurance\GroupTermLifeInsurance.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Tokens\TokenPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\Registration\RegistrationPage.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Home\HomePageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Redirect\RedirectTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\NavigationSection\GTMNavigationTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Registration\RegistrationPageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Token\TokenPageTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Product\GroupTermLifeInsurance\ProductGroupTermLifeInsurance.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Search\SearchTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Profile\ProfileTestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Product\StudentLoanRefinanceProgram\StudentLoanRefinanceProgram.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Core\Product\Marketplace\MarketPlaceData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tests\Functional\Chat\TestData.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Base\SeiumbPage.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Settings.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\Web\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('..\..\..\packages\Selenium.Chrome.WebDriver.85.0.0\build\Selenium.Chrome.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\Selenium.Chrome.WebDriver.85.0.0\build\Selenium.Chrome.WebDriver.targets'))" />
+    <Error Condition="!Exists('..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+  <Import Project="..\..\..\packages\Selenium.Chrome.WebDriver.85.0.0\build\Selenium.Chrome.WebDriver.targets" Condition="Exists('..\..\..\packages\Selenium.Chrome.WebDriver.85.0.0\build\Selenium.Chrome.WebDriver.targets')" />
+  <Import Project="..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\..\..\packages\Selenium.WebDriver.ChromeDriver.102.0.5005.6102\build\Selenium.WebDriver.ChromeDriver.targets')" />
+</Project>

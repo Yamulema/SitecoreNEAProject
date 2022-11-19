@@ -1,0 +1,25 @@
+﻿---
+ID: "04812b80-f5e9-4854-86a7-b046f813a5cf"
+Parent: "7c48d16e-8909-41c7-967d-396c95b9bec4"
+Template: "7c48d16e-8909-41c7-967d-396c95b9bec4"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Rich Text Block Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {7C48D16E-8909-41C7-967D-396C95B9BEC4}
+    {BEB6B0C1-FD97-41D5-B7D8-054BE69FAA99}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201211T013206Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

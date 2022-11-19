@@ -1,0 +1,1742 @@
+﻿---
+ID: "4912c9c7-01e0-48b4-88ba-289a224ee81a"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/Att Wireless
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: AT&T
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="In-Store Discount Form" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "AT&T is proud to be the choice provider for the Union Movement and is the only national unionized wireless carrier. We are proud to extend this offer to the hard-working members of SEIU and invite you to join the 117 million subscribers already relying on AT&T’s network."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits in partnership with AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002421Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Please present the In-Store Discount Form at any AT&T retail store to receive the AT&T discount available to SEIU members."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&amp;T
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <div class="small-12 medium-12 large-12 columns">
+        <p>AT&amp;T is proud to be the choice provider for the Union Movement and is the only national unionized wireless carrier. We are proud to extend this offer to the hard-working members of SEIU&nbsp;and invite you to join the 117 million subscribers already relying on AT&amp;T&rsquo;s network.</p>
+        <ul>
+            <li>15% discount on AT&amp;T cell phone monthly service (on qualified Rate Plans only)</li>
+            <li>Enjoy the blazing fast speeds on the nation&rsquo;s largest and most reliable 4G network</li>
+        </ul>
+        <p style="line-height: 20.79px;">Questions? Read the <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z">AT&amp;T FAQ</a>.</p>
+        </div>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: With your SEIU member discount, you can save 15% on monthly AT&amp;T mobile phone service for you and your family.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE 15% ON AT&T CELL PHONE SERVICE FOR YOU AND YOUR FAMILY.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="In-Store Discount Form" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "AT&T is proud to be the choice provider for the Union Movement and is the only national unionized wireless carrier. We are proud to extend this offer to the hard-working members of SEIU and invite you to join the 117 million subscribers already relying on AT&T’s network."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits in partnership with AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191115T160317Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage may not be available in all states.</p>
+        <br />
+        <p><strong>ACCESSORY DISCOUNT:</strong>&nbsp;AT&amp;T will apply the Accessory Discount to the prices of select Accessories available through AT&amp;T, which may be modified by AT&amp;T from time to time. The term &ldquo;Accessory&rdquo; or &ldquo;Accessories&rdquo; means supplementary parts for Equipment (e.g. batteries, cases, earbuds).&nbsp; The Accessory Discount will not apply to Accessories purchased for use with datacentric Equipment such as modems, replacement SIM cards and car kits or to Apple-branded accessories.</p>
+        <br />
+        <p><strong>WAIVED ACTIVATION FEE:</strong>&nbsp;Available to qualified employees, students and other authorized individuals associated with eligible Sponsoring Organizations with a qualified Business Agreement. Requires valid proof of eligibility. Qualified individual must subscribe to service under an account for which he / she is personally liable. Offer is subject to the Business Agreement and may be interrupted, changed and/or discontinued without notice. Applicable to select activations only. Additional restrictions apply. If you have a question about your eligibility, contact your Sponsoring Organization or visit a store or contact AT&amp;T for offer details.</p>
+        <br />
+        <p><strong>AT&amp;T SIGNATURE PROGRAM SERVICE DISCOUNTS:</strong>&nbsp;Available to qualified employees, students &amp; other authorized individuals associated with eligible companies, universities &amp; other sponsoring organizations with a qualifying service agreement (Business Agreement). Must validate eligible online or provide valid employee badge/paystub, student ID, or other approved proof of eligibility in authorized retail store &amp; subscribe to service under an individual responsibility account for which the qualifying individual is personally liable. Discount subject to Business Agreement &amp; may be interrupted, changed, or discontinued without notice. Discount may vary monthly. Applies only to recurring monthly service charge of qual. voice &amp; data plans (unless otherwise provided in Business Agreement). Combinable only with eligible wireless plans (however, other discounts may apply). Ineligible plans include AT&amp;T Unlimited Plus℠, AT&amp;T Unlimited Choice℠, AT&amp;T Unlimited Plus Enhanced℠, AT&amp;T Unlimited Choice Enhanced℠, AT&amp;T Unlimited &amp;More℠ Premium, AT&amp;T Unlimited&nbsp;&amp;More℠, and AT&amp;T Unlimited Value, AT&amp;T Unlimited Starter℠, and AT&amp;T Unlimited Extra℠ and AT&amp;T Unlimited Elite℠. Minimum monthly service charge, additional AT&amp;T services, or other eligible requirements may apply. Not available with unlimited voice plans. For all Mobile Share plans, applies only to the monthly plan charge of plans with more than 600MB, not to additional monthly device access charges. Additional restrictions apply. May take up to 2 bill cycles after eligibility confirmed &amp; won't apply to prior charges. Applied after application of any available credit. May not be combined with other service discounts.&nbsp;</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Print the in-store discount form to receive this SEIU member discount at any AT&amp;T retail store."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&amp;T
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>
+            <p>SEIU members can get exclusive wireless benefits with AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Get 15% off qualified AT&amp;T wireless plans*</p>
+            </li>
+            <li>
+            <p>Save 20% on eligible accessories</p>
+            </li>
+            <li>
+            <p>Waived activation fee</p>
+            </li>
+        </ul>
+        <p>Amazing perks just for you.</p>
+        <p>SEIU members get everyday discounts, special offers and more &ndash; just for being a union member. Start with the best deals on AT&amp;T wireless.</p>
+        <p>Pick the right plan for you. Whether you want an unlimited plan or Mobile Share Plus℠, AT&amp;T has the right plans to fit your needs. Plus, get 20% off eligible accessories.<br />
+        *AT&amp;T Signature Program service discount not combinable with current AT&amp;T Unlimited plans.</p>
+        <p>AT&amp;T may temporarily slow data speeds when the network is busy.</p>
+        <p>Questions? Read our AT&amp;T <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>FAQs</strong></a>.</p>
+        <p>Shop online now, or bring the In-store Benefit Form along with photo ID to any AT&amp;T retail store.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members can save 15% on qualified AT&amp;T wireless plans and 20% on accessories with AT&amp;T Signature Program
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: <p>SEIU members can save 15% on qualified AT&amp;T wireless plans and 20% on accessories with AT&amp;T Signature Program</p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191115T160317Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 3
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="In-Store Discount Form" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "AT&T is proud to be the choice provider for the Union Movement and is the only national unionized wireless carrier. We are proud to extend this offer to the hard-working members of SEIU and invite you to join the 117 million subscribers already relying on AT&T’s network."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits in partnership with AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200424T210504Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage may not be available in all states.</p>
+        <br />
+        <p><strong>ACCESSORY DISCOUNT:</strong>&nbsp;AT&amp;T will apply the Accessory Discount to the prices of select Accessories available through AT&amp;T, which may be modified by AT&amp;T from time to time. The term &ldquo;Accessory&rdquo; or &ldquo;Accessories&rdquo; means supplementary parts for Equipment (e.g. batteries, cases, earbuds).&nbsp; The Accessory Discount will not apply to Accessories purchased for use with datacentric Equipment such as modems, replacement SIM cards and car kits or to Apple-branded accessories.</p>
+        <br />
+        <p><strong>WAIVED ACTIVATION FEE:</strong>&nbsp;Available to qualified employees, students and other authorized individuals associated with eligible Sponsoring Organizations with a qualified Business Agreement. Requires valid proof of eligibility. Qualified individual must subscribe to service under an account for which he / she is personally liable. Offer is subject to the Business Agreement and may be interrupted, changed and/or discontinued without notice. Applicable to select activations only. Additional restrictions apply. If you have a question about your eligibility, contact your Sponsoring Organization or visit a store or contact AT&amp;T for offer details.</p>
+        <br />
+        <p><strong>AT&amp;T SIGNATURE PROGRAM SERVICE DISCOUNTS:</strong>&nbsp;Available to qualified employees, students &amp; other authorized individuals associated with eligible companies, universities &amp; other sponsoring organizations with a qualifying service agreement (Business Agreement). Must validate eligible online or provide valid employee badge/paystub, student ID, or other approved proof of eligibility in authorized retail store &amp; subscribe to service under an individual responsibility account for which the qualifying individual is personally liable. Discount subject to Business Agreement &amp; may be interrupted, changed, or discontinued without notice. Discount may vary monthly. Applies only to recurring monthly service charge of qual. voice &amp; data plans (unless otherwise provided in Business Agreement). Combinable only with eligible wireless plans (however, other discounts may apply). Ineligible plans include AT&amp;T Unlimited Plus℠, AT&amp;T Unlimited Choice℠, AT&amp;T Unlimited Plus Enhanced℠, AT&amp;T Unlimited Choice Enhanced℠, AT&amp;T Unlimited &amp;More℠ Premium, AT&amp;T Unlimited&nbsp;&amp;More℠, and AT&amp;T Unlimited Value, AT&amp;T Unlimited Starter℠, and AT&amp;T Unlimited Extra℠ and AT&amp;T Unlimited Elite℠. Minimum monthly service charge, additional AT&amp;T services, or other eligible requirements may apply. Not available with unlimited voice plans. For all Mobile Share plans, applies only to the monthly plan charge of plans with more than 600MB, not to additional monthly device access charges. Additional restrictions apply. May take up to 2 bill cycles after eligibility confirmed &amp; won't apply to prior charges. Applied after application of any available credit. May not be combined with other service discounts.&nbsp;</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Print the in-store discount form to receive this SEIU member discount at any AT&amp;T retail store."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&amp;T
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>
+            <p>SEIU members can get exclusive wireless benefits with AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Get 15% off qualified AT&amp;T wireless plans*</p>
+            </li>
+            <li>
+            <p>Save 20% on eligible accessories</p>
+            </li>
+            <li>
+            <p>Waived activation fee</p>
+            </li>
+        </ul>
+        <p>Amazing perks just for you.</p>
+        <p>SEIU members get everyday discounts, special offers and more &ndash; just for being a union member. Start with the best deals on AT&amp;T wireless.</p>
+        <p>Pick the right plan for you. Whether you want an unlimited plan or Mobile Share Plus℠, AT&amp;T has the right plans to fit your needs. Plus, get 20% off eligible accessories.<br />
+        *AT&amp;T Signature Program service discount not combinable with current AT&amp;T Unlimited plans.</p>
+        <p>AT&amp;T may temporarily slow data speeds when the network is busy.</p>
+        <p>Questions? Read our AT&amp;T <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>FAQs</strong></a>.</p>
+        <p>Shop online now, or bring the In-store Benefit Form along with photo ID to any AT&amp;T retail store.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members can save 15% on qualified AT&amp;T wireless plans and 20% on accessories with AT&amp;T Signature Program.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: <p>SEIU members can save 15% on qualified AT&amp;T wireless plans and 20% on accessories with AT&amp;T Signature Program</p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200424T210504Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="In-Store Discount Form" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "AT&T is proud to be the choice provider for the Union Movement and is the only national unionized wireless carrier. We are proud to extend this offer to the hard-working members of SEIU and invite you to join the 117 million subscribers already relying on AT&T’s network."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits in partnership with AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210625T143851Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage may not be available in all states.<span style="font-family: 'Open Sans', Arial, 'Microsoft YaHei', sans-serif;"></span></p>
+        <p><strong>&dagger;Waived Activation Fee:</strong> Available to qualified employees, students and other authorized individuals associated with eligible Sponsoring Organizations with a qualified Business Agreement. Requires valid proof of eligibility. Qualified individual must subscribe to service under an account for which he/she is personally liable. Offer is subject to the Business Agreement and may be interrupted, changed and/or discontinued without notice. Applicable to select activations only. Additional restrictions apply. If you have a question about your eligibility, contact your Sponsoring Organization or visit a store or contact AT&amp;T for offer details.</p>
+        <p><strong>&Dagger;Accessory Discounts:</strong> Applies only to select accessories described in the Business Agreement, or as otherwise determined by AT&amp;T from time to time, which may include batteries, chargers, ear buds, cases &amp;/or other supplementary parts for use with wireless devices. Ask AT&amp;T representative for current selection. Add&rsquo;l restr&rsquo;s apply. Visit a store or contact AT&amp;T at 800 331 0500 for details.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Print the in-store discount form to receive this SEIU member discount at any AT&amp;T retail store."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&amp;T
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>
+            <p>SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Get exclusive wireless benefits with AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Get 15% off the monthly service charge of qualified wireless plans, including AT&amp;T 4GB Plan</p>
+            </li>
+            <li>
+            <p>Save 20% on eligible wireless accessories</p>
+            </li>
+            <li>
+            <p>Waived activation fees with select activations</p>
+            </li>
+        </ul>
+        <p>Amazing perks just for you.</p>
+        <p>SEIU members get everyday discounts, special offers and more &ndash; just for being a union member. Start with the best deals on AT&amp;T wireless.  Pick the right plan for you- and SAVE!</p>
+        <p>Get AT&amp;T Unlimited Elite and save $10/mo. per line with unlimited data that can't slow down based on how much you use, AT&amp;T ActiveArmor℠
+        advanced security, 40GB of hotspot data, and HBO MAX℠ included. *<span style="font-size: 10px;">Req&rsquo;s proof of eligibility. Credit(s) w/in 2 bill cycles. $10/mo. per phone line discount applies only to phone lines 1-5. Any additional phone lines added over 5 and up to max of 10 reduces all phone line (including lines 1-5) discounts to $5/mo. per phone line. Eligibility req&rsquo;mts &amp; other restr&rsquo;s apply. Compatible device for 5G and AT&amp;T Mobile Security App and Call Protect App access. Download of Apps required. 5G may not be available in your area. For coverage details, see att.com/5Gforyou. Online account required for HBO Max access. Programming and content subject to change.   Video may be ltd. to SD. Credit card may be req&rsquo;d (except MA, PA, ND). Add&rsquo;l charges, usage, speed &amp; other restr's apply.</span></p>
+        <p>Questions? Read our AT&amp;T <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>FAQs</strong></a>.</p>
+        <p>Shop online now, or bring the In-store Benefit Form along with photo ID to any AT&amp;T retail store.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: <p>SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite<sup>&reg;</sup></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210625T143851Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="In-Store Discount Form" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "AT&T is proud to be the choice provider for the Union Movement and is the only national unionized wireless carrier. We are proud to extend this offer to the hard-working members of SEIU and invite you to join the 117 million subscribers already relying on AT&T’s network."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits in partnership with AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T215301Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage may not be available in all states.<span style="font-family: 'Open Sans', Arial, 'Microsoft YaHei', sans-serif;"></span></p>
+        <p><strong>&dagger;Waived Activation Fee:</strong> Available to qualified employees, students and other authorized individuals associated with eligible Sponsoring Organizations with a qualified Business Agreement. Requires valid proof of eligibility. Qualified individual must subscribe to service under an account for which he/she is personally liable. Offer is subject to the Business Agreement and may be interrupted, changed and/or discontinued without notice. Applicable to select activations only. Additional restrictions apply. If you have a question about your eligibility, contact your Sponsoring Organization or visit a store or contact AT&amp;T for offer details.</p>
+        <p><strong>&Dagger;Accessory Discounts:</strong> Applies only to select accessories described in the Business Agreement, or as otherwise determined by AT&amp;T from time to time, which may include batteries, chargers, ear buds, cases &amp;/or other supplementary parts for use with wireless devices. Ask AT&amp;T representative for current selection. Add&rsquo;l restr&rsquo;s apply. Visit a store or contact AT&amp;T at 800 331 0500 for details.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Print the in-store discount form to receive this SEIU member discount at any AT&amp;T retail store."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&amp;T
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>
+            <p>SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Get exclusive wireless benefits with AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Get 15% off the monthly service charge of qualified wireless plans, including AT&amp;T 4GB Plan</p>
+            </li>
+            <li>
+            <p>Save 20% on eligible wireless accessories</p>
+            </li>
+            <li>
+            <p>Waived activation fees with select activations</p>
+            </li>
+        </ul>
+        <p>Amazing perks just for you.</p>
+        <p>SEIU members get everyday discounts, special offers and more&mdash;just for being a union member. Start with the best deals on AT&amp;T wireless.  Pick the right plan for you&mdash;and SAVE!</p>
+        <p>Get AT&amp;T Unlimited Elite and save $10/mo. per line with unlimited data that can't slow down based on how much you use, AT&amp;T ActiveArmor℠
+        advanced security, 40GB of hotspot data, and HBO MAX℠ included.<br />
+        <br />
+        *<span style="font-size: 10px;">Req&rsquo;s proof of eligibility. Credit(s) w/in 2 bill cycles. $10/mo. per phone line discount applies only to phone lines 1-5. Any additional phone lines added over 5 and up to max of 10 reduces all phone line (including lines 1-5) discounts to $5/mo. per phone line. Eligibility req&rsquo;mts &amp; other restr&rsquo;s apply. Compatible device for 5G and AT&amp;T Mobile Security App and Call Protect App access. Download of Apps required. 5G may not be available in your area. For coverage details, see att.com/5Gforyou. Online account required for HBO Max access. Programming and content subject to change.   Video may be ltd. to SD. Credit card may be req&rsquo;d (except MA, PA, ND). Add&rsquo;l charges, usage, speed &amp; other restr's apply.</span></p>
+        <p>Questions? Read our AT&amp;T <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>FAQs</strong></a>.</p>
+        <p>Shop online now, or bring the In-store Benefit Form along with photo ID to any AT&amp;T retail store.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: <p>SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite<sup>&reg;</sup></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T215301Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="In-Store Discount Form" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "AT&T is proud to be the choice provider for the Union Movement and is the only national unionized wireless carrier. We are proud to extend this offer to the hard-working members of SEIU and invite you to join the 117 million subscribers already relying on AT&T’s network."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits in partnership with AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210902T134816Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage may not be available in all states.<span style="font-family: 'Open Sans', Arial, 'Microsoft YaHei', sans-serif;"></span></p>
+        <p><strong>&dagger;Waived Activation Fee:</strong> Available to qualified employees, students and other authorized individuals associated with eligible Sponsoring Organizations with a qualified Business Agreement. Requires valid proof of eligibility. Qualified individual must subscribe to service under an account for which he/she is personally liable. Offer is subject to the Business Agreement and may be interrupted, changed and/or discontinued without notice. Applicable to select activations only. Additional restrictions apply. If you have a question about your eligibility, contact your Sponsoring Organization or visit a store or contact AT&amp;T for offer details.</p>
+        <p><strong>&Dagger;Accessory Discounts:</strong> Applies only to select accessories described in the Business Agreement, or as otherwise determined by AT&amp;T from time to time, which may include batteries, chargers, ear buds, cases &amp;/or other supplementary parts for use with wireless devices. Ask AT&amp;T representative for current selection. Add&rsquo;l restr&rsquo;s apply. Visit a store or contact AT&amp;T at 800 331 0500 for details.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{00DA3763-CBC0-41CB-8F2D-9A8780B2335F}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Print the in-store discount form to receive this SEIU member discount at any AT&amp;T retail store."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&amp;T
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{D08C9C8B-7959-4426-BE81-3652F61CF002}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{D08C9C8B-7959-4426-BE81-3652F61CF002}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>
+            <p>SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Get exclusive wireless benefits with AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Get 15% off the monthly service charge of qualified wireless plans, including AT&amp;T 4GB Plan</p>
+            </li>
+            <li>
+            <p>Save 20% on eligible wireless accessories</p>
+            </li>
+            <li>
+            <p>Waived activation fees with select activations</p>
+            </li>
+        </ul>
+        <p>Amazing perks just for you.</p>
+        <p>SEIU members get everyday discounts, special offers and more&mdash;just for being a union member. Start with the best deals on AT&amp;T wireless.  Pick the right plan for you&mdash;and SAVE!</p>
+        <p>Get AT&amp;T Unlimited Elite and save $10/mo. per line with unlimited data that can't slow down based on how much you use, AT&amp;T ActiveArmor℠
+        advanced security, 40GB of hotspot data, and HBO MAX℠ included.<br />
+        <br />
+        *<span style="font-size: 10px;">Req&rsquo;s proof of eligibility. Credit(s) w/in 2 bill cycles. $10/mo. per phone line discount applies only to phone lines 1-5. Any additional phone lines added over 5 and up to max of 10 reduces all phone line (including lines 1-5) discounts to $5/mo. per phone line. Eligibility req&rsquo;mts &amp; other restr&rsquo;s apply. Compatible device for 5G and AT&amp;T Mobile Security App and Call Protect App access. Download of Apps required. 5G may not be available in your area. For coverage details, see att.com/5Gforyou. Online account required for HBO Max access. Programming and content subject to change.   Video may be ltd. to SD. Credit card may be req&rsquo;d (except MA, PA, ND). Add&rsquo;l charges, usage, speed &amp; other restr's apply.</span></p>
+        <p>Questions? Read our AT&amp;T <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>FAQs</strong></a>.</p>
+        <p>Shop online now, or bring the In-store Benefit Form along with photo ID to any AT&amp;T retail store.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" height="" mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET STARTED" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: <p>SEIU members save $10/mo. per phone line when you get AT&amp;T Unlimited Elite<sup>&reg;</sup></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210902T134816Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+- Language: "es-ES"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: AT&T
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Descuento en la tienda" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172554Z
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Por favor, presente el formulario de Descuento en la Tienda en cualquier tienda AT&T para recibir el descuento disponible para los miembros de SEIU.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>AT&amp;T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el &uacute;nico proveedor inal&aacute;mbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya conf&iacute;an en la red de AT&amp;T.</p>
+        <ul>
+            <li>15% de descuento en el servicio mensual de telefon&iacute;a celular de AT&amp;T (s&oacute;lo en planes tarifarios m&oacute;viles calificados)</li>
+            <li>Disfrute de velocidades sorprendentes gracias a la red 4G m&aacute;s grande y confiable del pa&iacute;s</li>
+        </ul>
+        <p>&iquest;Preguntas? Lea las <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z">preguntas frecuentes de AT&amp;T</a>.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INTRODUCCIÓN" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Con su descuento de miembro de SEIU, puede ahorrar un 15% mensual en su servicio telef&oacute;nico m&oacute;vil AT&amp;T personal y en el de su familia.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AHORRE UN 15% EN EL SERVICIO DE TELEFONÍA MÓVIL PERSONAL Y EN EL DE SU FAMILIA
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario de descuento en tiendas" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191115T174954Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que la cobertura no est&eacute; disponible en todos los estados.</p>
+        <br />
+        <p><strong>DESCUENTO EN ACCESORIOS:</strong>&nbsp;AT&amp;T aplicar&aacute; un descuento en accesorios sobre el precio de accesorios seleccionados disponibles en AT&amp;T, los cuales AT&amp;T puede modificar ocasionalmente. El t&eacute;rmino &ldquo;accesorio&rdquo; o &ldquo;accesorios&rdquo; se refiere a cualquier pieza complementaria de equipamiento (p. ej., bater&iacute;as, estuches, auriculares).  El descuento en accesorios no se aplicar&aacute; a aquellos accesorios que se compren para su uso con equipos datac&eacute;ntricos, como m&oacute;dems, tarjetas SIM de repuesto o accesorios para autom&oacute;viles, as&iacute; como tampoco a accesorios de la marca Apple.</p>
+        <br />
+        <p><strong>EXENCI&Oacute;N DE CARGO DE ACTIVACI&Oacute;N:</strong>&nbsp;Promoci&oacute;n disponible para empleados y estudiantes calificados y para cualquier otra persona autorizada asociados con organizaciones patrocinantes elegibles con un contrato comercial calificado. Requiere un comprobante de elegibilidad v&aacute;lido. La persona calificada debe suscribirse al servicio mediante una cuenta por la cual asuma una responsabilidad personal. La oferta est&aacute; sujeta al contrato comercial y se puede interrumpir, modificar o suspender sin previo aviso. Se aplica &uacute;nicamente a activaciones seleccionadas. Se aplican restricciones adicionales. Si tiene dudas sobre su elegibilidad, comun&iacute;quese con su organizaci&oacute;n patrocinante, visite una tienda, o bien comun&iacute;quese con AT&amp;T para conocer los detalles de la oferta.</p>
+        <br />
+        <p><strong>DESCUENTOS EN EL SERVICIO AT&amp;T SIGNATURE PROGRAM:</strong>&nbsp;Promoci&oacute;n disponible para empleados y estudiantes calificados y para cualquier otra persona autorizada asociados con las empresas, universidades y otras organizaciones patrocinantes elegibles con un contrato de servicio calificado (contrato comercial). Se debe validar la elegibilidad por Internet o proporcionar una credencial de empleado, colilla de pago o identificaci&oacute;n de estudiante v&aacute;lidos, o bien cualquier otro comprobante de elegibilidad aprobado, en la tienda minorista autorizada y suscribirse al servicio mediante una cuenta de responsabilidad individual por la cual la persona calificada asuma una responsabilidad personal. Descuento sujeto al contrato comercial. Esta oferta se puede interrumpir, modificar o suspender sin previo aviso. El descuento puede variar seg&uacute;n el mes. Se aplica solo al cargo por servicio mensual recurrente de planes de voz y datos calificados (a menos que se estipule lo contrario en el contrato comercial). Combinable solo con planes inal&aacute;mbricos elegibles (sin embargo, se pueden aplicar otros descuentos). Entre los planes no elegibles se encuentran AT&amp;T Unlimited Plus℠, AT&amp;T Unlimited Choice℠, AT&amp;T Unlimited Plus Enhanced℠, AT&amp;T Unlimited Choice Enhanced℠, AT&amp;T Unlimited &amp; More℠ Premium, AT&amp;T Unlimited &amp; More℠, AT&amp;T Unlimited Value, AT&amp;T Unlimited Starter℠, AT&amp;T Unlimited Extra℠ y AT&amp;T Unlimited Elite℠. Se puede aplicar un cargo por servicio mensual m&iacute;nimo, servicios AT&amp;T adicionales u otros requisitos de elegibilidad. No disponible para planes de voz ilimitados. Para todos los planes Mobile Share, se aplica solo al cargo mensual del plan, de planes con m&aacute;s de 600 MB, y no a cargos mensuales adicionales por acceso a dispositivos. Se aplican restricciones adicionales. Es posible que hasta se confirme la elegibilidad transcurran 2 ciclos de facturaci&oacute;n, en cuyo caso la oferta no se aplicar&aacute; a los cargos anteriores. Se aplica despu&eacute;s del uso de cualquier cr&eacute;dito disponible. Es posible que no se pueda combinar con otros descuentos de servicio.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento en tiendas para recibir este descuento para miembros de la SEIU en cualquier tienda de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de la SEIU pueden obtener beneficios m&oacute;viles con el AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Obtenga 15% de descuento en planes m&oacute;viles calificados de AT&amp;T*</p>
+            </li>
+            <li>
+            <p>Ahorre 20% en accesorios elegibles</p>
+            </li>
+            <li>
+            <p>Tarifa de activaci&oacute;n bonificada</p>
+            </li>
+        </ul>
+        <p>Incre&iacute;bles ventajas especiales para usted.</p>
+        <p>Los miembros de la SEIU reciben descuentos, ofertas especiales y m&aacute;s todos los d&iacute;as, solo por ser miembros del sindicato. Comience con las mejores ofertas en servicios m&oacute;viles de AT&amp;T.</p>
+        <p>Elija el plan adecuado para usted. Ya sea que desee un plan ilimitado o Mobile Share Plus℠, AT&amp;T tiene los planes correctos para satisfacer sus necesidades.<br />
+        Adem&aacute;s, obtenga un 20% de descuento en accesorios elegibles.<br />
+        * El descuento del AT&amp;T Signature Program no se puede combinar con los planes actuales ilimitados de AT&amp;T.</p>
+        <p>AT&amp;T puede disminuir temporalmente la velocidad de los datos cuando la red est&aacute; ocupada.</p>
+        <p>&iquest;Tiene preguntas? Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o traiga a cualquier tienda de AT&amp;T el Formulario de Beneficios en tiendas junto a un documento de identificaci&oacute;n con foto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de la SEIU pueden ahorrar un 15% en planes m&oacute;viles calificados de AT&amp;T y un 20% en accesorios con el Programa Insignia de AT&amp;T
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de la SEIU pueden ahorrar un 15% en planes m&oacute;viles calificados de AT&amp;T y un 20% en accesorios con el Programa Insignia de AT&amp;T
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191115T174900Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 3
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200424T210546Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que la cobertura no est&eacute; disponible en todos los estados.</p>
+        <br />
+        <p><strong>DESCUENTO EN ACCESORIOS:</strong>&nbsp;AT&amp;T aplicar&aacute; un descuento en accesorios sobre el precio de accesorios seleccionados disponibles en AT&amp;T, los cuales AT&amp;T puede modificar ocasionalmente. El t&eacute;rmino &ldquo;accesorio&rdquo; o &ldquo;accesorios&rdquo; se refiere a cualquier pieza complementaria de equipamiento (p. ej., bater&iacute;as, estuches, auriculares).  El descuento en accesorios no se aplicar&aacute; a aquellos accesorios que se compren para su uso con equipos datac&eacute;ntricos, como m&oacute;dems, tarjetas SIM de repuesto o accesorios para autom&oacute;viles, as&iacute; como tampoco a accesorios de la marca Apple.</p>
+        <br />
+        <p><strong>EXENCI&Oacute;N DE CARGO DE ACTIVACI&Oacute;N:</strong>&nbsp;Promoci&oacute;n disponible para empleados y estudiantes calificados y para cualquier otra persona autorizada asociados con organizaciones patrocinantes elegibles con un contrato comercial calificado. Requiere un comprobante de elegibilidad v&aacute;lido. La persona calificada debe suscribirse al servicio mediante una cuenta por la cual asuma una responsabilidad personal. La oferta est&aacute; sujeta al contrato comercial y se puede interrumpir, modificar o suspender sin previo aviso. Se aplica &uacute;nicamente a activaciones seleccionadas. Se aplican restricciones adicionales. Si tiene dudas sobre su elegibilidad, comun&iacute;quese con su organizaci&oacute;n patrocinante, visite una tienda, o bien comun&iacute;quese con AT&amp;T para conocer los detalles de la oferta.</p>
+        <br />
+        <p><strong>DESCUENTOS EN EL SERVICIO AT&amp;T SIGNATURE PROGRAM:</strong>&nbsp;Promoci&oacute;n disponible para empleados y estudiantes calificados y para cualquier otra persona autorizada asociados con las empresas, universidades y otras organizaciones patrocinantes elegibles con un contrato de servicio calificado (contrato comercial). Se debe validar la elegibilidad por Internet o proporcionar una credencial de empleado, colilla de pago o identificaci&oacute;n de estudiante v&aacute;lidos, o bien cualquier otro comprobante de elegibilidad aprobado, en la tienda minorista autorizada y suscribirse al servicio mediante una cuenta de responsabilidad individual por la cual la persona calificada asuma una responsabilidad personal. Descuento sujeto al contrato comercial. Esta oferta se puede interrumpir, modificar o suspender sin previo aviso. El descuento puede variar seg&uacute;n el mes. Se aplica solo al cargo por servicio mensual recurrente de planes de voz y datos calificados (a menos que se estipule lo contrario en el contrato comercial). Combinable solo con planes inal&aacute;mbricos elegibles (sin embargo, se pueden aplicar otros descuentos). Entre los planes no elegibles se encuentran AT&amp;T Unlimited Plus℠, AT&amp;T Unlimited Choice℠, AT&amp;T Unlimited Plus Enhanced℠, AT&amp;T Unlimited Choice Enhanced℠, AT&amp;T Unlimited &amp; More℠ Premium, AT&amp;T Unlimited &amp; More℠, AT&amp;T Unlimited Value, AT&amp;T Unlimited Starter℠, AT&amp;T Unlimited Extra℠ y AT&amp;T Unlimited Elite℠. Se puede aplicar un cargo por servicio mensual m&iacute;nimo, servicios AT&amp;T adicionales u otros requisitos de elegibilidad. No disponible para planes de voz ilimitados. Para todos los planes Mobile Share, se aplica solo al cargo mensual del plan, de planes con m&aacute;s de 600 MB, y no a cargos mensuales adicionales por acceso a dispositivos. Se aplican restricciones adicionales. Es posible que hasta se confirme la elegibilidad transcurran 2 ciclos de facturaci&oacute;n, en cuyo caso la oferta no se aplicar&aacute; a los cargos anteriores. Se aplica despu&eacute;s del uso de cualquier cr&eacute;dito disponible. Es posible que no se pueda combinar con otros descuentos de servicio.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento para recibir este descuento para miembros de la SEIU en cualquier tienda de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de la SEIU pueden obtener beneficios m&oacute;viles con el AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Obtenga 15% de descuento en planes m&oacute;viles calificados de AT&amp;T*</p>
+            </li>
+            <li>
+            <p>Ahorre 20% en accesorios elegibles</p>
+            </li>
+            <li>
+            <p>Tarifa de activaci&oacute;n bonificada</p>
+            </li>
+        </ul>
+        <p>Incre&iacute;bles ventajas especiales para usted.</p>
+        <p>Los miembros de la SEIU reciben descuentos, ofertas especiales y m&aacute;s todos los d&iacute;as, solo por ser miembros del sindicato. Comience con las mejores ofertas en servicios m&oacute;viles de AT&amp;T.</p>
+        <p>Elija el plan adecuado para usted. Ya sea que desee un plan ilimitado o Mobile Share Plus℠, AT&amp;T tiene los planes correctos para satisfacer sus necesidades.<br />
+        Adem&aacute;s, obtenga un 20% de descuento en accesorios elegibles.<br />
+        * El descuento del AT&amp;T Signature Program no se puede combinar con los planes actuales ilimitados de AT&amp;T.</p>
+        <p>AT&amp;T puede disminuir temporalmente la velocidad de los datos cuando la red est&aacute; ocupada.</p>
+        <p>&iquest;Tiene preguntas? Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o traiga a cualquier tienda de AT&amp;T el Formulario de Beneficios en tiendas junto a un documento de identificaci&oacute;n con foto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de la SEIU pueden ahorrar un 15% en planes m&oacute;viles calificados de AT&amp;T y un 20% en accesorios con el Programa Insignia de AT&amp;T
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de la SEIU pueden ahorrar un 15% en planes m&oacute;viles calificados de AT&amp;T y un 20% en accesorios con el Programa Insignia de AT&amp;T
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200424T210546Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T132307Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que la cobertura no est&eacute; disponible en todos los estados.</p>
+        <br />
+        <p><strong>DESCUENTO EN ACCESORIOS:</strong>&nbsp;AT&amp;T aplicar&aacute; un descuento en accesorios sobre el precio de accesorios seleccionados disponibles en AT&amp;T, los cuales AT&amp;T puede modificar ocasionalmente. El t&eacute;rmino &ldquo;accesorio&rdquo; o &ldquo;accesorios&rdquo; se refiere a cualquier pieza complementaria de equipamiento (p. ej., bater&iacute;as, estuches, auriculares).  El descuento en accesorios no se aplicar&aacute; a aquellos accesorios que se compren para su uso con equipos datac&eacute;ntricos, como m&oacute;dems, tarjetas SIM de repuesto o accesorios para autom&oacute;viles, as&iacute; como tampoco a accesorios de la marca Apple.</p>
+        <br />
+        <p><strong>EXENCI&Oacute;N DE CARGO DE ACTIVACI&Oacute;N:</strong>&nbsp;Promoci&oacute;n disponible para empleados y estudiantes calificados y para cualquier otra persona autorizada asociados con organizaciones patrocinantes elegibles con un contrato comercial calificado. Requiere un comprobante de elegibilidad v&aacute;lido. La persona calificada debe suscribirse al servicio mediante una cuenta por la cual asuma una responsabilidad personal. La oferta est&aacute; sujeta al contrato comercial y se puede interrumpir, modificar o suspender sin previo aviso. Se aplica &uacute;nicamente a activaciones seleccionadas. Se aplican restricciones adicionales. Si tiene dudas sobre su elegibilidad, comun&iacute;quese con su organizaci&oacute;n patrocinante, visite una tienda, o bien comun&iacute;quese con AT&amp;T para conocer los detalles de la oferta.</p>
+        <br />
+        <p><strong>DESCUENTOS EN EL SERVICIO AT&amp;T SIGNATURE PROGRAM:</strong>&nbsp;Promoci&oacute;n disponible para empleados y estudiantes calificados y para cualquier otra persona autorizada asociados con las empresas, universidades y otras organizaciones patrocinantes elegibles con un contrato de servicio calificado (contrato comercial). Se debe validar la elegibilidad por Internet o proporcionar una credencial de empleado, colilla de pago o identificaci&oacute;n de estudiante v&aacute;lidos, o bien cualquier otro comprobante de elegibilidad aprobado, en la tienda minorista autorizada y suscribirse al servicio mediante una cuenta de responsabilidad individual por la cual la persona calificada asuma una responsabilidad personal. Descuento sujeto al contrato comercial. Esta oferta se puede interrumpir, modificar o suspender sin previo aviso. El descuento puede variar seg&uacute;n el mes. Se aplica solo al cargo por servicio mensual recurrente de planes de voz y datos calificados (a menos que se estipule lo contrario en el contrato comercial). Combinable solo con planes inal&aacute;mbricos elegibles (sin embargo, se pueden aplicar otros descuentos). Entre los planes no elegibles se encuentran AT&amp;T Unlimited Plus℠, AT&amp;T Unlimited Choice℠, AT&amp;T Unlimited Plus Enhanced℠, AT&amp;T Unlimited Choice Enhanced℠, AT&amp;T Unlimited &amp; More℠ Premium, AT&amp;T Unlimited &amp; More℠, AT&amp;T Unlimited Value, AT&amp;T Unlimited Starter℠, AT&amp;T Unlimited Extra℠ y AT&amp;T Unlimited Elite℠. Se puede aplicar un cargo por servicio mensual m&iacute;nimo, servicios AT&amp;T adicionales u otros requisitos de elegibilidad. No disponible para planes de voz ilimitados. Para todos los planes Mobile Share, se aplica solo al cargo mensual del plan, de planes con m&aacute;s de 600 MB, y no a cargos mensuales adicionales por acceso a dispositivos. Se aplican restricciones adicionales. Es posible que hasta se confirme la elegibilidad transcurran 2 ciclos de facturaci&oacute;n, en cuyo caso la oferta no se aplicar&aacute; a los cargos anteriores. Se aplica despu&eacute;s del uso de cualquier cr&eacute;dito disponible. Es posible que no se pueda combinar con otros descuentos de servicio.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento para recibir este descuento para miembros de la SEIU en cualquier tienda de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de la SEIU pueden obtener beneficios m&oacute;viles con el AT&amp;T Signature Program</p>
+            </li>
+            <li>
+            <p>Obtenga 15% de descuento en planes m&oacute;viles calificados de AT&amp;T*</p>
+            </li>
+            <li>
+            <p>Ahorre 20% en accesorios elegibles</p>
+            </li>
+            <li>
+            <p>Tarifa de activaci&oacute;n bonificada</p>
+            </li>
+        </ul>
+        <p>Incre&iacute;bles ventajas especiales para usted.</p>
+        <p>Los miembros de la SEIU reciben descuentos, ofertas especiales y m&aacute;s todos los d&iacute;as, solo por ser miembros del sindicato. Comience con las mejores ofertas en servicios m&oacute;viles de AT&amp;T.</p>
+        <p>Elija el plan adecuado para usted. Ya sea que desee un plan ilimitado o Mobile Share Plus℠, AT&amp;T tiene los planes correctos para satisfacer sus necesidades.<br />
+        Adem&aacute;s, obtenga un 20% de descuento en accesorios elegibles.<br />
+        * El descuento del AT&amp;T Signature Program no se puede combinar con los planes actuales ilimitados de AT&amp;T.</p>
+        <p>AT&amp;T puede disminuir temporalmente la velocidad de los datos cuando la red est&aacute; ocupada.</p>
+        <p>&iquest;Tiene preguntas? Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o traiga a cualquier tienda de AT&amp;T el Formulario de Beneficios en tiendas junto a un documento de identificaci&oacute;n con foto.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de la SEIU pueden ahorrar un 15% en planes m&oacute;viles calificados de AT&amp;T y un 20% en accesorios con el Programa Insignia de AT&amp;T.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de la SEIU pueden ahorrar un 15% en planes m&oacute;viles calificados de AT&amp;T y un 20% en accesorios con el Programa Insignia de AT&amp;T
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T132307Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210825T133826Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que no haya cobertura en todos los estados.</p>
+        <br />
+        <p>&dagger;Cargo de activaci&oacute;n eliminado: disponible para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con Organizaciones patrocinadoras elegibles con un Acuerdo comercial calificado. Requiere prueba v&aacute;lida de elegibilidad. La persona que cumpla los requisitos debe suscribirse al servicio con una cuenta de la que es personalmente responsable. La oferta est&aacute; sujeta al Acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Aplicable solo a activaciones seleccionadas. Se aplican otras restricciones. Si tiene alguna pregunta sobre su elegibilidad, p&oacute;ngase en contacto con su Organizaci&oacute;n Patrocinadora o visite una tienda o comun&iacute;quese con AT&amp;T para obtener m&aacute;s informaci&oacute;n sobre la oferta.</p>
+        <br />
+        <p>&Dagger;Descuentos en accesorios: se aplica solo a accesorios seleccionados descritos en el Acuerdo comercial, o seg&uacute;n lo determine AT&amp;T de vez en cuando, que pueden incluir bater&iacute;as, cargadores, auriculares, carcasas u otras piezas complementarias para usar con dispositivos inal&aacute;mbricos. Pregunte al representante de AT&amp;T para conocer la selecci&oacute;n actual. Se aplican restricciones adicionales. Visite una tienda o p&oacute;ngase en contacto con AT&amp;T al 800 331 0500 para obtener m&aacute;s informaci&oacute;n.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento en tienda para recibir este descuento para miembros de SEIU en cualquier sucursal de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de SEIU ahorran $10 al mes por l&iacute;nea telef&oacute;nica al obtener AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Obtenga beneficios inal&aacute;mbricos exclusivos con el programa Signature de AT&amp;T</p>
+            </li>
+            <li>
+            <p>Obtenga un 15% de descuento en el costo del servicio mensual en los planes inal&aacute;mbricos participantes, incluido el plan AT&amp;T de 4GB</p>
+            </li>
+            <li>
+            <p>Ahorre un 20% en accesorios inal&aacute;mbricos participantes</p>
+            </li>
+            <li>
+            <p>Cargos de activaci&oacute;n eliminados con determinadas activaciones</p>
+            </li>
+        </ul>
+        <p>Beneficios incre&iacute;bles solo para usted.</p>
+        <p>Los miembros de SEIU obtienen descuentos diarios, ofertas especiales y m&aacute;s, solo por ser miembros de un sindicato. Comience con las mejores ofertas en servicios inal&aacute;mbricos de AT&amp;T. Elija el plan adecuado para usted y &iexcl;AHORRE!</p>
+        <p>Obtenga AT&amp;T Unlimited Elite y ahorre $10 al mes por l&iacute;nea con datos ilimitados que no se ralentizan en funci&oacute;n de cuanto los use, seguridad avanzada AT&amp;T ActiveArmor℠, 40 GB de datos para hotspot y HBO MAX℠ incluidos. *<span style="font-size: 10px;">Requiere comprobante de elegibilidad. Cr&eacute;dito(s) en 2 ciclos de facturaci&oacute;n. El descuento de $10 al mes por l&iacute;nea telef&oacute;nica aplica solo para 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. Se aplican requisitos de elegibilidad y otras restricciones. Dispositivo compatible con 5G y AT&amp;T Mobile Security App y acceso a la aplicaci&oacute;n Call Protect. Se requiere la descarga de aplicaciones. Es posible que 5G no est&eacute; disponible en su zona. Para obtener informaci&oacute;n sobre la cobertura, visite att.com/5Gforyou. Se requiere una cuenta en l&iacute;nea para el acceso a HBO Max. La programaci&oacute;n y el contenido est&aacute;n sujetos a cambios. El video puede ser limitado a SD. Se puede requerir tarjeta de cr&eacute;dito (excepto en MA, PA, ND). Podr&iacute;an aplican cargos, uso, velocidad y otras restricciones adicionales</span>.</p>
+        <p>&iquest;Tiene alguna pregunta? Lea nuestras Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o lleve el formulario de beneficios para la tienda junto con una identificaci&oacute;n con foto a cualquier sucursal de AT&amp;T.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: LOS MIEMBROS DE SEIU AHORRAN $10 AL MES POR CADA L&Iacute;NEA TELEF&Oacute;NICA AL OBTENER AT&amp;T UNLIMITED ELITE<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: LOS MIEMBROS DE SEIU AHORRAN $10 AL MES POR CADA L&Iacute;NEA TELEF&Oacute;NICA AL OBTENER AT&amp;T UNLIMITED ELITE<sup>&reg;</sup>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210825T133826Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T203806Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que no haya cobertura en todos los estados.</p>
+        <br />
+        <p>&dagger;Cargo de activaci&oacute;n eliminado: disponible para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con Organizaciones patrocinadoras elegibles con un Acuerdo comercial calificado. Requiere prueba v&aacute;lida de elegibilidad. La persona que cumpla los requisitos debe suscribirse al servicio con una cuenta de la que es personalmente responsable. La oferta est&aacute; sujeta al Acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Aplicable solo a activaciones seleccionadas. Se aplican otras restricciones. Si tiene alguna pregunta sobre su elegibilidad, p&oacute;ngase en contacto con su Organizaci&oacute;n Patrocinadora o visite una tienda o comun&iacute;quese con AT&amp;T para obtener m&aacute;s informaci&oacute;n sobre la oferta.</p>
+        <br />
+        <p>&Dagger;Descuentos en accesorios: se aplica solo a accesorios seleccionados descritos en el Acuerdo comercial, o seg&uacute;n lo determine AT&amp;T de vez en cuando, que pueden incluir bater&iacute;as, cargadores, auriculares, carcasas u otras piezas complementarias para usar con dispositivos inal&aacute;mbricos. Pregunte al representante de AT&amp;T para conocer la selecci&oacute;n actual. Se aplican restricciones adicionales. Visite una tienda o p&oacute;ngase en contacto con AT&amp;T al 800 331 0500 para obtener m&aacute;s informaci&oacute;n.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento en tienda para recibir este descuento para miembros de SEIU en cualquier sucursal de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de SEIU ahorran $10 al mes por l&iacute;nea telef&oacute;nica al obtener AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Obtenga beneficios inal&aacute;mbricos exclusivos con el programa Signature de AT&amp;T</p>
+            </li>
+            <li>
+            <p>Obtenga un 15% de descuento en el costo del servicio mensual en los planes inal&aacute;mbricos participantes, incluido el plan AT&amp;T de 4GB</p>
+            </li>
+            <li>
+            <p>Ahorre un 20% en accesorios inal&aacute;mbricos participantes</p>
+            </li>
+            <li>
+            <p>Cargos de activaci&oacute;n eliminados con determinadas activaciones</p>
+            </li>
+        </ul>
+        <p>Beneficios incre&iacute;bles solo para usted.</p>
+        <p>Los miembros de SEIU obtienen descuentos diarios, ofertas especiales y m&aacute;s, solo por ser miembros de un sindicato. Comience con las mejores ofertas en servicios inal&aacute;mbricos de AT&amp;T. Elija el plan adecuado para usted y &iexcl;AHORRE!</p>
+        <p>Obtenga AT&amp;T Unlimited Elite y ahorre $10 al mes por l&iacute;nea con datos ilimitados que no se ralentizan en funci&oacute;n de cuanto los use, seguridad avanzada AT&amp;T ActiveArmor℠, 40 GB de datos para hotspot y HBO MAX℠ incluidos. *<span style="font-size: 10px;">Requiere comprobante de elegibilidad. Cr&eacute;dito(s) en 2 ciclos de facturaci&oacute;n. El descuento de $10 al mes por l&iacute;nea telef&oacute;nica aplica solo para 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. Se aplican requisitos de elegibilidad y otras restricciones. Dispositivo compatible con 5G y AT&amp;T Mobile Security App y acceso a la aplicaci&oacute;n Call Protect. Se requiere la descarga de aplicaciones. Es posible que 5G no est&eacute; disponible en su zona. Para obtener informaci&oacute;n sobre la cobertura, visite att.com/5Gforyou. Se requiere una cuenta en l&iacute;nea para el acceso a HBO Max. La programaci&oacute;n y el contenido est&aacute;n sujetos a cambios. El video puede ser limitado a SD. Se puede requerir tarjeta de cr&eacute;dito (excepto en MA, PA, ND). Podr&iacute;an aplican cargos, uso, velocidad y otras restricciones adicionales</span>.</p>
+        <p>&iquest;Tiene alguna pregunta? Lea nuestras Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o lleve el formulario de beneficios para la tienda junto con una identificaci&oacute;n con foto a cualquier sucursal de AT&amp;T.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: LOS MIEMBROS DE SEIU AHORRAN $10 AL MES POR CADA L&Iacute;NEA TELEF&Oacute;NICA AL OBTENER AT&amp;T UNLIMITED ELITE<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&amp;aecute;a telef&amp;aocute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T203806Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 7
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T203856Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que no haya cobertura en todos los estados.</p>
+        <br />
+        <p>&dagger;Cargo de activaci&oacute;n eliminado: disponible para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con Organizaciones patrocinadoras elegibles con un Acuerdo comercial calificado. Requiere prueba v&aacute;lida de elegibilidad. La persona que cumpla los requisitos debe suscribirse al servicio con una cuenta de la que es personalmente responsable. La oferta est&aacute; sujeta al Acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Aplicable solo a activaciones seleccionadas. Se aplican otras restricciones. Si tiene alguna pregunta sobre su elegibilidad, p&oacute;ngase en contacto con su Organizaci&oacute;n Patrocinadora o visite una tienda o comun&iacute;quese con AT&amp;T para obtener m&aacute;s informaci&oacute;n sobre la oferta.</p>
+        <br />
+        <p>&Dagger;Descuentos en accesorios: se aplica solo a accesorios seleccionados descritos en el Acuerdo comercial, o seg&uacute;n lo determine AT&amp;T de vez en cuando, que pueden incluir bater&iacute;as, cargadores, auriculares, carcasas u otras piezas complementarias para usar con dispositivos inal&aacute;mbricos. Pregunte al representante de AT&amp;T para conocer la selecci&oacute;n actual. Se aplican restricciones adicionales. Visite una tienda o p&oacute;ngase en contacto con AT&amp;T al 800 331 0500 para obtener m&aacute;s informaci&oacute;n.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento en tienda para recibir este descuento para miembros de SEIU en cualquier sucursal de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de SEIU ahorran $10 al mes por l&iacute;nea telef&oacute;nica al obtener AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Obtenga beneficios inal&aacute;mbricos exclusivos con el programa Signature de AT&amp;T</p>
+            </li>
+            <li>
+            <p>Obtenga un 15% de descuento en el costo del servicio mensual en los planes inal&aacute;mbricos participantes, incluido el plan AT&amp;T de 4GB</p>
+            </li>
+            <li>
+            <p>Ahorre un 20% en accesorios inal&aacute;mbricos participantes</p>
+            </li>
+            <li>
+            <p>Cargos de activaci&oacute;n eliminados con determinadas activaciones</p>
+            </li>
+        </ul>
+        <p>Beneficios incre&iacute;bles solo para usted.</p>
+        <p>Los miembros de SEIU obtienen descuentos diarios, ofertas especiales y m&aacute;s, solo por ser miembros de un sindicato. Comience con las mejores ofertas en servicios inal&aacute;mbricos de AT&amp;T. Elija el plan adecuado para usted y &iexcl;AHORRE!</p>
+        <p>Obtenga AT&amp;T Unlimited Elite y ahorre $10 al mes por l&iacute;nea con datos ilimitados que no se ralentizan en funci&oacute;n de cuanto los use, seguridad avanzada AT&amp;T ActiveArmor℠, 40 GB de datos para hotspot y HBO MAX℠ incluidos. *<span style="font-size: 10px;">Requiere comprobante de elegibilidad. Cr&eacute;dito(s) en 2 ciclos de facturaci&oacute;n. El descuento de $10 al mes por l&iacute;nea telef&oacute;nica aplica solo para 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. Se aplican requisitos de elegibilidad y otras restricciones. Dispositivo compatible con 5G y AT&amp;T Mobile Security App y acceso a la aplicaci&oacute;n Call Protect. Se requiere la descarga de aplicaciones. Es posible que 5G no est&eacute; disponible en su zona. Para obtener informaci&oacute;n sobre la cobertura, visite att.com/5Gforyou. Se requiere una cuenta en l&iacute;nea para el acceso a HBO Max. La programaci&oacute;n y el contenido est&aacute;n sujetos a cambios. El video puede ser limitado a SD. Se puede requerir tarjeta de cr&eacute;dito (excepto en MA, PA, ND). Podr&iacute;an aplican cargos, uso, velocidad y otras restricciones adicionales</span>.</p>
+        <p>&iquest;Tiene alguna pregunta? Lea nuestras Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o lleve el formulario de beneficios para la tienda junto con una identificaci&oacute;n con foto a cualquier sucursal de AT&amp;T.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: LLos Miembros de SEIU ahorran $10 al mes por cada lin&amp;aecute;a telef&amp;aocute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&amp;aecute;a telef&amp;aocute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T203856Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 8
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T203929Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que no haya cobertura en todos los estados.</p>
+        <br />
+        <p>&dagger;Cargo de activaci&oacute;n eliminado: disponible para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con Organizaciones patrocinadoras elegibles con un Acuerdo comercial calificado. Requiere prueba v&aacute;lida de elegibilidad. La persona que cumpla los requisitos debe suscribirse al servicio con una cuenta de la que es personalmente responsable. La oferta est&aacute; sujeta al Acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Aplicable solo a activaciones seleccionadas. Se aplican otras restricciones. Si tiene alguna pregunta sobre su elegibilidad, p&oacute;ngase en contacto con su Organizaci&oacute;n Patrocinadora o visite una tienda o comun&iacute;quese con AT&amp;T para obtener m&aacute;s informaci&oacute;n sobre la oferta.</p>
+        <br />
+        <p>&Dagger;Descuentos en accesorios: se aplica solo a accesorios seleccionados descritos en el Acuerdo comercial, o seg&uacute;n lo determine AT&amp;T de vez en cuando, que pueden incluir bater&iacute;as, cargadores, auriculares, carcasas u otras piezas complementarias para usar con dispositivos inal&aacute;mbricos. Pregunte al representante de AT&amp;T para conocer la selecci&oacute;n actual. Se aplican restricciones adicionales. Visite una tienda o p&oacute;ngase en contacto con AT&amp;T al 800 331 0500 para obtener m&aacute;s informaci&oacute;n.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento en tienda para recibir este descuento para miembros de SEIU en cualquier sucursal de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de SEIU ahorran $10 al mes por l&iacute;nea telef&oacute;nica al obtener AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Obtenga beneficios inal&aacute;mbricos exclusivos con el programa Signature de AT&amp;T</p>
+            </li>
+            <li>
+            <p>Obtenga un 15% de descuento en el costo del servicio mensual en los planes inal&aacute;mbricos participantes, incluido el plan AT&amp;T de 4GB</p>
+            </li>
+            <li>
+            <p>Ahorre un 20% en accesorios inal&aacute;mbricos participantes</p>
+            </li>
+            <li>
+            <p>Cargos de activaci&oacute;n eliminados con determinadas activaciones</p>
+            </li>
+        </ul>
+        <p>Beneficios incre&iacute;bles solo para usted.</p>
+        <p>Los miembros de SEIU obtienen descuentos diarios, ofertas especiales y m&aacute;s, solo por ser miembros de un sindicato. Comience con las mejores ofertas en servicios inal&aacute;mbricos de AT&amp;T. Elija el plan adecuado para usted y &iexcl;AHORRE!</p>
+        <p>Obtenga AT&amp;T Unlimited Elite y ahorre $10 al mes por l&iacute;nea con datos ilimitados que no se ralentizan en funci&oacute;n de cuanto los use, seguridad avanzada AT&amp;T ActiveArmor℠, 40 GB de datos para hotspot y HBO MAX℠ incluidos. *<span style="font-size: 10px;">Requiere comprobante de elegibilidad. Cr&eacute;dito(s) en 2 ciclos de facturaci&oacute;n. El descuento de $10 al mes por l&iacute;nea telef&oacute;nica aplica solo para 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. Se aplican requisitos de elegibilidad y otras restricciones. Dispositivo compatible con 5G y AT&amp;T Mobile Security App y acceso a la aplicaci&oacute;n Call Protect. Se requiere la descarga de aplicaciones. Es posible que 5G no est&eacute; disponible en su zona. Para obtener informaci&oacute;n sobre la cobertura, visite att.com/5Gforyou. Se requiere una cuenta en l&iacute;nea para el acceso a HBO Max. La programaci&oacute;n y el contenido est&aacute;n sujetos a cambios. El video puede ser limitado a SD. Se puede requerir tarjeta de cr&eacute;dito (excepto en MA, PA, ND). Podr&iacute;an aplican cargos, uso, velocidad y otras restricciones adicionales</span>.</p>
+        <p>&iquest;Tiene alguna pregunta? Lea nuestras Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o lleve el formulario de beneficios para la tienda junto con una identificaci&oacute;n con foto a cualquier sucursal de AT&amp;T.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&amp;aecute;a telef&amp;aocute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&amp;aecute;a telef&amp;aocute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T203929Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 9
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T204011Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que no haya cobertura en todos los estados.</p>
+        <br />
+        <p>&dagger;Cargo de activaci&oacute;n eliminado: disponible para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con Organizaciones patrocinadoras elegibles con un Acuerdo comercial calificado. Requiere prueba v&aacute;lida de elegibilidad. La persona que cumpla los requisitos debe suscribirse al servicio con una cuenta de la que es personalmente responsable. La oferta est&aacute; sujeta al Acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Aplicable solo a activaciones seleccionadas. Se aplican otras restricciones. Si tiene alguna pregunta sobre su elegibilidad, p&oacute;ngase en contacto con su Organizaci&oacute;n Patrocinadora o visite una tienda o comun&iacute;quese con AT&amp;T para obtener m&aacute;s informaci&oacute;n sobre la oferta.</p>
+        <br />
+        <p>&Dagger;Descuentos en accesorios: se aplica solo a accesorios seleccionados descritos en el Acuerdo comercial, o seg&uacute;n lo determine AT&amp;T de vez en cuando, que pueden incluir bater&iacute;as, cargadores, auriculares, carcasas u otras piezas complementarias para usar con dispositivos inal&aacute;mbricos. Pregunte al representante de AT&amp;T para conocer la selecci&oacute;n actual. Se aplican restricciones adicionales. Visite una tienda o p&oacute;ngase en contacto con AT&amp;T al 800 331 0500 para obtener m&aacute;s informaci&oacute;n.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento en tienda para recibir este descuento para miembros de SEIU en cualquier sucursal de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de SEIU ahorran $10 al mes por l&iacute;nea telef&oacute;nica al obtener AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Obtenga beneficios inal&aacute;mbricos exclusivos con el programa Signature de AT&amp;T</p>
+            </li>
+            <li>
+            <p>Obtenga un 15% de descuento en el costo del servicio mensual en los planes inal&aacute;mbricos participantes, incluido el plan AT&amp;T de 4GB</p>
+            </li>
+            <li>
+            <p>Ahorre un 20% en accesorios inal&aacute;mbricos participantes</p>
+            </li>
+            <li>
+            <p>Cargos de activaci&oacute;n eliminados con determinadas activaciones</p>
+            </li>
+        </ul>
+        <p>Beneficios incre&iacute;bles solo para usted.</p>
+        <p>Los miembros de SEIU obtienen descuentos diarios, ofertas especiales y m&aacute;s, solo por ser miembros de un sindicato. Comience con las mejores ofertas en servicios inal&aacute;mbricos de AT&amp;T. Elija el plan adecuado para usted y &iexcl;AHORRE!</p>
+        <p>Obtenga AT&amp;T Unlimited Elite y ahorre $10 al mes por l&iacute;nea con datos ilimitados que no se ralentizan en funci&oacute;n de cuanto los use, seguridad avanzada AT&amp;T ActiveArmor℠, 40 GB de datos para hotspot y HBO MAX℠ incluidos. *<span style="font-size: 10px;">Requiere comprobante de elegibilidad. Cr&eacute;dito(s) en 2 ciclos de facturaci&oacute;n. El descuento de $10 al mes por l&iacute;nea telef&oacute;nica aplica solo para 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. Se aplican requisitos de elegibilidad y otras restricciones. Dispositivo compatible con 5G y AT&amp;T Mobile Security App y acceso a la aplicaci&oacute;n Call Protect. Se requiere la descarga de aplicaciones. Es posible que 5G no est&eacute; disponible en su zona. Para obtener informaci&oacute;n sobre la cobertura, visite att.com/5Gforyou. Se requiere una cuenta en l&iacute;nea para el acceso a HBO Max. La programaci&oacute;n y el contenido est&aacute;n sujetos a cambios. El video puede ser limitado a SD. Se puede requerir tarjeta de cr&eacute;dito (excepto en MA, PA, ND). Podr&iacute;an aplican cargos, uso, velocidad y otras restricciones adicionales</span>.</p>
+        <p>&iquest;Tiene alguna pregunta? Lea nuestras Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o lleve el formulario de beneficios para la tienda junto con una identificaci&oacute;n con foto a cualquier sucursal de AT&amp;T.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&eacute;a telef&oacute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&eacute;a telef&oacute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T204011Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T
+  - Version: 10
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="Formulario De Descuento" linktype="media" target="_blank" id="{3D6658D8-A0BF-4E75-B3E2-D050FABCF4E1}" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: AT&T se enorgullece de ser el proveedor preferido del Movimiento sindicalista y es el único proveedor inalámbrico sindicalizado a nivel nacional. Nos enorgullece ampliar esta oferta a los miembros trabajadores de SEIU y lo invitamos a unirse a los 117 millones de suscriptores que ya confían en la red de AT&T.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{AA34B869-8C6E-46AD-8CD9-24C308DBA81C}" alt="SEIU Member Benefits en asociación con AT&amp;T" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210831T215545Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que no haya cobertura en todos los estados.</p>
+        <br />
+        <p>&dagger;Cargo de activaci&oacute;n eliminado: disponible para empleados, estudiantes y otras personas autorizadas que cumplan los requisitos que est&eacute;n asociadas con Organizaciones patrocinadoras elegibles con un Acuerdo comercial calificado. Requiere prueba v&aacute;lida de elegibilidad. La persona que cumpla los requisitos debe suscribirse al servicio con una cuenta de la que es personalmente responsable. La oferta est&aacute; sujeta al Acuerdo comercial y puede interrumpirse, modificarse o cancelarse sin previo aviso. Aplicable solo a activaciones seleccionadas. Se aplican otras restricciones. Si tiene alguna pregunta sobre su elegibilidad, p&oacute;ngase en contacto con su Organizaci&oacute;n Patrocinadora o visite una tienda o comun&iacute;quese con AT&amp;T para obtener m&aacute;s informaci&oacute;n sobre la oferta.</p>
+        <br />
+        <p>&Dagger;Descuentos en accesorios: se aplica solo a accesorios seleccionados descritos en el Acuerdo comercial, o seg&uacute;n lo determine AT&amp;T de vez en cuando, que pueden incluir bater&iacute;as, cargadores, auriculares, carcasas u otras piezas complementarias para usar con dispositivos inal&aacute;mbricos. Pregunte al representante de AT&amp;T para conocer la selecci&oacute;n actual. Se aplican restricciones adicionales. Visite una tienda o p&oacute;ngase en contacto con AT&amp;T al 800 331 0500 para obtener m&aacute;s informaci&oacute;n.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: AT&T
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Imprima el formulario de descuento en tienda para recibir este descuento para miembros de SEIU en cualquier sucursal de AT&amp;T.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de la SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: AT&T
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <ul>
+            <li>
+            <p>Los miembros de SEIU ahorran $10 al mes por l&iacute;nea telef&oacute;nica al obtener AT&amp;T Unlimited Elite*</p>
+            </li>
+            <li>
+            <p>Obtenga beneficios inal&aacute;mbricos exclusivos con el programa Signature de AT&amp;T</p>
+            </li>
+            <li>
+            <p>Obtenga un 15% de descuento en el costo del servicio mensual en los planes inal&aacute;mbricos participantes, incluido el plan AT&amp;T de 4GB</p>
+            </li>
+            <li>
+            <p>Ahorre un 20% en accesorios inal&aacute;mbricos participantes</p>
+            </li>
+            <li>
+            <p>Cargos de activaci&oacute;n eliminados con determinadas activaciones</p>
+            </li>
+        </ul>
+        <p>Beneficios incre&iacute;bles solo para usted.</p>
+        <p>Los miembros de SEIU obtienen descuentos diarios, ofertas especiales y m&aacute;s, solo por ser miembros de un sindicato. Comience con las mejores ofertas en servicios inal&aacute;mbricos de AT&amp;T. Elija el plan adecuado para usted y &iexcl;AHORRE!</p>
+        <p>Obtenga AT&amp;T Unlimited Elite y ahorre $10 al mes por l&iacute;nea con datos ilimitados que no se ralentizan en funci&oacute;n de cuanto los use, seguridad avanzada AT&amp;T ActiveArmor℠, 40 GB de datos para hotspot y HBO MAX℠ incluidos. <br />
+        <br />
+        *<span style="font-size: 10px;">Requiere comprobante de elegibilidad. Cr&eacute;dito(s) en 2 ciclos de facturaci&oacute;n. El descuento de $10 al mes por l&iacute;nea telef&oacute;nica aplica solo para 1 a 5 l&iacute;neas telef&oacute;nicas. Cualquier l&iacute;nea telef&oacute;nica adicional agregada adem&aacute;s de 5 y hasta un m&aacute;ximo de 10 reduce el descuentos en todas las l&iacute;neas telef&oacute;nicas (incluyendo las l&iacute;neas 1 a 5) a $5 al mes por l&iacute;nea telef&oacute;nica. Se aplican requisitos de elegibilidad y otras restricciones. Dispositivo compatible con 5G y AT&amp;T Mobile Security App y acceso a la aplicaci&oacute;n Call Protect. Se requiere la descarga de aplicaciones. Es posible que 5G no est&eacute; disponible en su zona. Para obtener informaci&oacute;n sobre la cobertura, visite att.com/5Gforyou. Se requiere una cuenta en l&iacute;nea para el acceso a HBO Max. La programaci&oacute;n y el contenido est&aacute;n sujetos a cambios. El video puede ser limitado a SD. Se puede requerir tarjeta de cr&eacute;dito (excepto en MA, PA, ND). Podr&iacute;an aplican cargos, uso, velocidad y otras restricciones adicionales</span>.</p>
+        <p>&iquest;Tiene alguna pregunta? Lea nuestras Lea nuestras <a href="~/link.aspx?_id=A89D9EFE599A49FBAC5C2686441CDAAD&amp;_z=z"><strong>preguntas frecuentes de</strong></a>&nbsp;AT&amp;T.</p>
+        <p>Compre en l&iacute;nea ahora o lleve el formulario de beneficios para la tienda junto con una identificaci&oacute;n con foto a cualquier sucursal de AT&amp;T.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{75811B3A-59A4-4447-9227-12ED639CD236}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: AT&T
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Comprar en línea" linktype="external" url="https://www.wireless.att.com/IRULoginDispatch.dyn?uid=f126f66e2976f87a37067cf411383191" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&eacute;a telef&oacute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los Miembros de SEIU ahorran $10 al mes por cada lin&eacute;a telef&oacute;nica al obtener AT&amp;T Unlimited Elite<sup>&reg;</sup>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210831T215545Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: AT&T

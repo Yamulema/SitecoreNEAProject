@@ -1,0 +1,254 @@
+﻿---
+ID: "49083ba4-5cf0-437e-aade-0564d78e7d42"
+Parent: "c692b8d8-32b6-4bab-99d9-d05a3806a770"
+Template: "c692b8d8-32b6-4bab-99d9-d05a3806a770"
+Path: /sitecore/templates/SEIUMB/Feature/ContactUs/_ContactUs/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "180734af-bcdb-419e-bc94-8292623ae4ea"
+      Hint: Placeholder
+      Value: phone
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171128T222139Z
+    - ID: "279f5ce7-b385-496f-bfa8-568cfe05fc6b"
+      Hint: FirstNameCharactersLimit
+      Value: You can enter only '15' characters in this field.
+    - ID: "2ac4ec02-e31b-4752-9b44-b7f39b2e0cc1"
+      Hint: Label
+      Value: Email*
+    - ID: "3608c1ab-2bf4-4de8-a8b3-1a1030058ac1"
+      Hint: Asterisk
+      Value: * Denotes a required field
+    - ID: "3ce45352-1cf6-47f5-a382-eb5d85c135bf"
+      Hint: Label
+      Value: Message*
+    - ID: "4d4ad5e3-14ee-4654-a877-5a1e64c6ad26"
+      Hint: LastNameCharactersLimit
+      Value: You can enter only '30' characters in this field.
+    - ID: "51fc1ce9-8857-447e-9c8c-53794da71054"
+      Hint: EmailInvalidFormat
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again.
+    - ID: "5d18a973-914b-4335-a0b2-05ab2ec46c86"
+      Hint: Placeholder
+      Value: local union
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "675032c5-db2b-4930-bc3d-23ae37e898c1"
+      Hint: Placeholder
+      Value: state
+    - ID: "6fcf2ef9-9c7f-4b3c-a795-a53eb28991de"
+      Hint: Label
+      Value: Last Name*
+    - ID: "718eeb75-d423-414e-b2b2-6715d9e7a575"
+      Hint: FormTitle
+      Value: Send us a message
+    - ID: "73eb4dbb-cced-4b4e-9c53-804b65f9be37"
+      Hint: Title
+      Value: Contact us
+    - ID: "7b6a246a-9b82-4c10-b5b7-3204ebc33130"
+      Hint: InvalidCharacters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "7dcb1f58-2ac8-4350-b18e-ebfd13d0ce8a"
+      Hint: Label
+      Value: Local Union*
+    - ID: "7e94c873-c754-4591-8f4e-079af3a0e1b7"
+      Hint: Label
+      Value: First Name*
+    - ID: "7ee20e5b-ad0f-41a4-b39b-4e35f0be23c4"
+      Hint: Placeholder
+      Value: email
+    - ID: "821a8a3f-8e08-479a-abb6-7bf0b9b3280a"
+      Hint: EmailCharactersLimit
+      Value: You can enter only '100' characters in this field.
+    - ID: "8279584a-91d9-4b0f-a37c-0806e637f60b"
+      Hint: ErrorMessage
+      Value: Please insert your first name
+    - ID: "879631cd-4d04-4e73-933e-ad9fbc4966ed"
+      Hint: CharactersCount
+      Value: characters left
+    - ID: "9789d145-a95d-4c8d-bcde-b16e72025888"
+      Hint: Label
+      Value: State*
+    - ID: "9dc70b5d-3ead-4b40-bdce-a967c5203d56"
+      Hint: ErrorMessage
+      Value: Please insert your last name
+    - ID: "aa89f9ff-434d-4659-a434-c58638743b80"
+      Hint: SubmitButton
+      Value: Send
+    - ID: "ab35a653-a7a7-4b50-bc5f-74d1df829ec8"
+      Hint: ErrorMessage
+      Value: Please insert your topic
+    - ID: "b3292186-70fc-47d8-8d99-d6672cf08cbf"
+      Hint: Label
+      Value: Topic*
+    - ID: "b47671d4-f84a-4d52-ae71-a16ae6d448be"
+      Hint: Placeholder
+      Value: last name
+    - ID: "b6c6b959-722d-4852-a95e-277c7de15baf"
+      Hint: Placeholder
+      Value: first name
+    - ID: "c7d3e622-2f70-4b51-893d-b8a8d5944627"
+      Hint: ErrorMessage
+      Value: Please insert your phone
+    - ID: "df40e090-e8b1-45b2-8fa3-0aed26adec43"
+      Hint: Label
+      Value: Phone*
+    - ID: "e466ceb4-ba44-48d9-bb53-be61f96914d3"
+      Hint: Placeholder
+      Value: topic
+    - ID: "e4771df7-8b06-4bed-b2d8-a990f2668690"
+      Hint: ContactInfo
+      Value: |
+             <hr>
+                        <div class="row"> 
+                            
+                            <h5>Contact us by email</h5>
+        
+        <p style="line-height: 20.7999992370605px;">ask-us@seiumb.com</p>
+        <small>(We respond to most messages in 3 business days)</small>
+                        </div>
+                        <hr>
+                        <div class="row"> 
+                            
+                            <h5>Contact us by phone</h5>
+        
+        <p>1-844-836-7348</p>
+        <small>Mon-Fri: 8 a.m. - 8 p.m. ET<br />
+        Sat: 9 a.m. - 1 p.m. ET</small>
+                        </div>
+                        <hr>
+                        <div class="row"> 
+                            
+                            <h5>Contact us by mail</h5>
+        
+        <address style="line-height: 21px;">SEIU Member Benefits<br />
+        900 Clopper Rd., Ste. 300<br />
+        Gaithersburg MD 20878-1356</address>
+                        </div>
+                        <hr>
+    - ID: "f10f3068-a705-4e67-a08a-55264337b8d5"
+      Hint: ErrorMessage
+      Value: Please insert your message
+    - ID: "f50a411b-d6bc-4959-a554-e0e8a49bd1e8"
+      Hint: ErrorMessage
+      Value: Please insert your email
+    - ID: "f53c1ad4-88c3-48d1-9ccd-8f27721a005f"
+      Hint: PhoneCharactersLimit
+      Value: You can enter only '10' characters in this field.
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "180734af-bcdb-419e-bc94-8292623ae4ea"
+      Hint: Placeholder
+      Value: teléfono
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180124T191103Z
+    - ID: "279f5ce7-b385-496f-bfa8-568cfe05fc6b"
+      Hint: FirstNameCharactersLimit
+      Value: Usted puede ingresar solo '15' caracteres en este campo.
+    - ID: "2ac4ec02-e31b-4752-9b44-b7f39b2e0cc1"
+      Hint: Label
+      Value: Email
+    - ID: "3608c1ab-2bf4-4de8-a8b3-1a1030058ac1"
+      Hint: Asterisk
+      Value: * Indica un campo requerido
+    - ID: "3ce45352-1cf6-47f5-a382-eb5d85c135bf"
+      Hint: Label
+      Value: Mensaje
+    - ID: "4d4ad5e3-14ee-4654-a877-5a1e64c6ad26"
+      Hint: LastNameCharactersLimit
+      Value: Usted puede ingresar solo '30' caracteres en este campo.
+    - ID: "51fc1ce9-8857-447e-9c8c-53794da71054"
+      Hint: EmailInvalidFormat
+      Value: Correo electrónico inválido. Por favor asegúrese de ingresar su correo correctamente a intente de nuevo.
+    - ID: "5d18a973-914b-4335-a0b2-05ab2ec46c86"
+      Hint: Placeholder
+      Value: local union
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "675032c5-db2b-4930-bc3d-23ae37e898c1"
+      Hint: Placeholder
+      Value: estado
+    - ID: "6fcf2ef9-9c7f-4b3c-a795-a53eb28991de"
+      Hint: Label
+      Value: Apellido
+    - ID: "718eeb75-d423-414e-b2b2-6715d9e7a575"
+      Hint: FormTitle
+      Value: Envíenos un mensaje 
+    - ID: "73eb4dbb-cced-4b4e-9c53-804b65f9be37"
+      Hint: Title
+      Value: Contáctenos 
+    - ID: "7b6a246a-9b82-4c10-b5b7-3204ebc33130"
+      Hint: InvalidCharacters
+      Value: Usted ha ingresado caracteres inválidos en este campo, por favor verifique
+    - ID: "7dcb1f58-2ac8-4350-b18e-ebfd13d0ce8a"
+      Hint: Label
+      Value: Local union
+    - ID: "7e94c873-c754-4591-8f4e-079af3a0e1b7"
+      Hint: Label
+      Value: Nombre
+    - ID: "7ee20e5b-ad0f-41a4-b39b-4e35f0be23c4"
+      Hint: Placeholder
+      Value: email
+    - ID: "821a8a3f-8e08-479a-abb6-7bf0b9b3280a"
+      Hint: EmailCharactersLimit
+      Value: Usted puede ingresar solo '100' caracteres en este campo.
+    - ID: "8279584a-91d9-4b0f-a37c-0806e637f60b"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su nombre
+    - ID: "879631cd-4d04-4e73-933e-ad9fbc4966ed"
+      Hint: CharactersCount
+      Value: caracteres restantes
+    - ID: "9789d145-a95d-4c8d-bcde-b16e72025888"
+      Hint: Label
+      Value: Estado
+    - ID: "9dc70b5d-3ead-4b40-bdce-a967c5203d56"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su apellido
+    - ID: "aa89f9ff-434d-4659-a434-c58638743b80"
+      Hint: SubmitButton
+      Value: Enviar
+    - ID: "ab35a653-a7a7-4b50-bc5f-74d1df829ec8"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su tópico
+    - ID: "b3292186-70fc-47d8-8d99-d6672cf08cbf"
+      Hint: Label
+      Value: Tópico
+    - ID: "b47671d4-f84a-4d52-ae71-a16ae6d448be"
+      Hint: Placeholder
+      Value: apellido
+    - ID: "b6c6b959-722d-4852-a95e-277c7de15baf"
+      Hint: Placeholder
+      Value: Nombre
+    - ID: "c7d3e622-2f70-4b51-893d-b8a8d5944627"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su teléfono
+    - ID: "df40e090-e8b1-45b2-8fa3-0aed26adec43"
+      Hint: Label
+      Value: Teléfono
+    - ID: "e466ceb4-ba44-48d9-bb53-be61f96914d3"
+      Hint: Placeholder
+      Value: tópico
+    - ID: "e4771df7-8b06-4bed-b2d8-a990f2668690"
+      Hint: ContactInfo
+      Value: HTML del sitio actual
+    - ID: "f10f3068-a705-4e67-a08a-55264337b8d5"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su mensaje
+    - ID: "f50a411b-d6bc-4959-a554-e0e8a49bd1e8"
+      Hint: ErrorMessage
+      Value: Por favor ingrese su email
+    - ID: "f53c1ad4-88c3-48d1-9ccd-8f27721a005f"
+      Hint: PhoneCharactersLimit
+      Value: Usted puede ingresar solo '10' caracteres en este campo.

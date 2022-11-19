@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="InvestmentProductsPage" urlpath="https://www.nearetirementprogram.com/investment-products">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="InvestmentProductsPage_Header_NeaLogo" xpath="//span[contains(text(),'NEA Member Benefits')]"/>
+            <control key="InvestmentProductsPage_Header_Title" xpath="//span[contains(text(),'Investment Products')]"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

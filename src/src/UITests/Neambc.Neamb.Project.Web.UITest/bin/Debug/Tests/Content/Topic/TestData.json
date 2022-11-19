@@ -1,0 +1,11 @@
+{
+  "seemore": [
+    [ "dataLayerPush({'event':'navigation','navType':'load more','navText':'See More'},this)" ]
+  ],
+  "itemtaxprep": [
+    [ "dataLayerPush({'event':'content','contentTitle':'Which Tax Prep Program Is Right for You?','contentLocation':'category hero banner'},this)" ]
+  ],
+  "items": [
+    [ "dataLayerPush({'event':'content','contentTitle':'Are You Missing Out on Educator Tax Deductions or COVID-Related Tax Relief?','contentLocation':'spotlight'},this)" ]
+  ]
+}

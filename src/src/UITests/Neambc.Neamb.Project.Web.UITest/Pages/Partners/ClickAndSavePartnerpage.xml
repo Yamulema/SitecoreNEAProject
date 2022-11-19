@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ClickAndSavePartnerPage" urlpath="https://neamb.affinityperks.com/store/index/type/homepage2020#/">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="ClickAndSave_Header_NeaLogo" xpath="//*[@id='hello']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>
+

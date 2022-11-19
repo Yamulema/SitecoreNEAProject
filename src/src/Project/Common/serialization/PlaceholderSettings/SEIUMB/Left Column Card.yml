@@ -1,0 +1,26 @@
+﻿---
+ID: "455691e7-971e-4c35-a0e3-907293369368"
+Parent: "4963caf7-7180-4f88-a903-879ea28b0b7c"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/SEIUMB/Left Column Card
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "left-column-card"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {6A15627D-95C9-4F17-ADBD-4C0F81D90E75}
+    {51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}
+    {05207669-6225-4F0D-8513-A8A43FB21069}
+    {D8396CB8-2D35-445E-8FA6-09E3383B4133}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171212T215900Z

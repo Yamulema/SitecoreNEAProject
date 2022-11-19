@@ -1,0 +1,49 @@
+﻿---
+ID: "3f38507a-5a4c-4bc1-902e-73764b96bd1d"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Image Logolockup Headline Subcopy CTA Dark
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section section-promotional logolockup bg-blue">
+    <div class="gtm-promo-tout">
+          <div class="container">
+            <div class="row">
+              <div class="col-centered col-md-12">
+                <div class="promotion-container bg-blue">
+                  <div class="promotion">
+                    <div class="row">
+                      <div class="col-md-3 no-p-r img-full"><a gtm-title="none" gtm-cta-text="none"><img src="-/media/F70CDE39C6CF41838B9409B114E1235F.ashx" alt=""/></a></div>
+                      <div class="col-md-6">
+                        <h6>Win a Dodge Journey</h6>
+                        <p>NEA Auto and Home Insurance Program                                </p>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="bottom"><a href="#" title="title" class="btn m-b-sm" gtm-title="none" gtm-cta-text="none">Enter Today</a><img src="-/media/98A0ED8EAE8846B1961DB0BC69103B28.ashx" alt=""/></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180510T211231Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Image Logolockup Headline Subcopy Cardart CTA Light

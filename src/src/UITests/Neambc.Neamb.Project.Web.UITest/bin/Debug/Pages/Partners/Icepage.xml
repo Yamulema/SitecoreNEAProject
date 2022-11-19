@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="IcePage" urlpath="https://neamb.lifestylecollection.com/shop-travel">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="IcePage_Header_NeaLogo" xpath="//img[@class='img-responsive logo-badge-block__logo']"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

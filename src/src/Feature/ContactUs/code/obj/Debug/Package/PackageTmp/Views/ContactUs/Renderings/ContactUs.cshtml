@@ -1,0 +1,334 @@
+﻿@using Neambc.Seiumb.Feature.ContactUs
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Seiumb.Feature.ContactUs.Models.ContactUsModel
+
+@{
+    var firstnamePlaceholder = Model.Item.Fields[Templates.ContactUs.Fields.FirstNamePlaceholder].Value;
+    var lastnamePlaceholder = Model.Item.Fields[Templates.ContactUs.Fields.LastNamePlaceholder].Value;
+    var emailPlaceholder = Model.Item.Fields[Templates.ContactUs.Fields.EmailPlaceholder].Value;
+    var phonePlaceholder = Model.Item.Fields[Templates.ContactUs.Fields.PhonePlaceholder].Value;
+    var localunionPlaceholder = Model.Item.Fields[Templates.ContactUs.Fields.LocalUnionPlaceholder].Value;
+    bool hasFirstError = false;
+}
+
+<div id="product_details_content" class="row">
+    <div style="display:none">
+    </div>
+    <div id="contact_us_content" class="row">
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+        <div id="contact_us_form" class="small-12 medium-10 large-10 columns float-center">
+            <form id="contact-us-form" data-abide novalidate method="post" action="">
+                <input type="hidden" name="submited_form" value="true" />
+                <div class="small-12 medium-12 large-12 columns">
+                    <div class="row">
+                        <fieldset class="fieldset">
+                            <h4>@Html.Sitecore().Field(Templates.ContactUs.Fields.Title, Model.Item)</h4>
+                            @Html.Sitecore().Field(Templates.ContactUs.Fields.ContactInfo, Model.Item)
+
+                            <div class="row">
+                                <div class="small">
+                                    <h5>@Html.Sitecore().Field(Templates.ContactUs.Fields.FormTitle, Model.Item)</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns">
+                                    <label for="firstName" class="text-left bottom">@Html.Sitecore().Field(Templates.ContactUs.Fields.FirstNameLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+                                    @Html.TextBoxFor(x => x.FirstName, null, new
+                                            {
+                                                @id = "firstName",
+                                                @placeholder = @HttpUtility.HtmlDecode(firstnamePlaceholder),
+                                                @required = "true"
+                                            })
+                                    <span class="form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.FirstNameErrorMessage, Model.Item)
+                                    </span>
+
+                                    @if (Model.HasErrorFirstNameInvalidCharacters || Model.HasErrorFirstNameLength)
+                                    {
+                                        <div id="fnameError" class="server-error">
+                                            @if (Model.HasErrorFirstNameInvalidCharacters)
+                                            {
+                                                hasFirstError = true;
+
+                                                @Html.Sitecore().Field(Templates.ContactUs.Fields.InvalidCharacters, Model.Item)
+                                            }
+                                            @if (Model.HasErrorFirstNameLength)
+                                            {
+                                                if (hasFirstError)
+                                                {
+                                                    <br />
+                                                }
+                                                @Html.Sitecore().Field(Templates.ContactUs.Fields.FirstNameErrorCharactersLimit, Model.Item)
+                                            }
+                                        </div>
+                                    }
+                                    else if (Model.HasErrorFirstName)
+                                    {
+                                        <div id="fnameError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.FirstNameErrorMessage, Model.Item)
+                                        </div>
+                                    }
+
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns">
+                                    <label for="lastName" class="text-left bottom">@Html.Sitecore().Field(Templates.ContactUs.Fields.LastNameLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+                                    @Html.TextBoxFor(x => x.LastName, null, new
+                                    {
+                                        @id = "lastName",
+                                        @placeholder = @HttpUtility.HtmlDecode(lastnamePlaceholder),
+                                        @required = "true"
+                                    })
+                                    <span class="form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.LastNameErrorMessage, Model.Item)
+                                    </span>
+                                    @if (Model.HasErrorLastNameInvalidCharacters || Model.HasErrorLastNameLength)
+                                    {
+                                        hasFirstError = false;
+                                        <div id="flnameError" class="server-error">
+                                            @if (Model.HasErrorLastNameInvalidCharacters)
+                                            {
+                                                hasFirstError = true;
+
+                                                @Html.Sitecore().Field(Templates.ContactUs.Fields.InvalidCharacters, Model.Item)
+                                            }
+                                            @if (Model.HasErrorLastNameLength)
+                                            {
+                                                if (hasFirstError)
+                                                {
+                                                    <br />
+                                                }
+                                                @Html.Sitecore().Field(Templates.ContactUs.Fields.LastNameErrorCharactersLimit, Model.Item)
+                                            }
+
+                                        </div>
+                                    }
+                                    else if (Model.HasErrorLastName)
+                                    {
+                                        <div id="flnameError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.LastNameErrorMessage, Model.Item)
+                                        </div>
+                                    }
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns">
+                                    <label for="email" class="text-left bottom">@Html.Sitecore().Field(Templates.ContactUs.Fields.EmailLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+                                    @Html.TextBoxFor(x => x.Email, null, new
+                               {
+                                   @id = "email",
+                                   @data_validator = "myEmailValidator onFocusOutEmailValidator",
+                                   @required = "true",
+                                   @onkeyup = "onKeyPressEmailValidator(this)",
+                                   @placeholder = @HttpUtility.HtmlDecode(emailPlaceholder),
+                               })
+                                    <span id="required-email" style='display: none;' class="custom-form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.Email_Empty, Model.Item)
+                                    </span>
+                                    <span id="max-characters-email" style='display: none;' class="custom-form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.Email_CharactersLimit, Model.Item)
+                                    </span>
+                                    <span id="invalid-format-email" style='display: none;' class="custom-form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.Email_InvalidFormat, Model.Item)
+                                    </span>
+                                    @if (Model.HasErrorEmailLength)
+                                    {
+                                        <div id="server-error-email" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.Email_CharactersLimit, Model.Item)
+                                        </div>
+                                    }
+                                    else if (Model.HasErrorEmailFormat)
+                                    {
+                                        <div id="server-error-email" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.Email_InvalidFormat, Model.Item)
+                                        </div>
+                                    }
+                                    else if (Model.HasErrorEmail)
+                                    {
+                                        <div id="server-error-email" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.Email_InvalidFormat, Model.Item)
+                                        </div>
+                                    }
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns">
+                                    <label for="phoneNumber" class="text-lef bottomt">@Html.Sitecore().Field(Templates.ContactUs.Fields.PhoneLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+                                    @Html.TextBoxFor(x => x.Phone, null, new
+                                    {
+                                        @id = "phoneNumber",
+                                        @placeholder = @HttpUtility.HtmlDecode(phonePlaceholder),
+                                        @pattern = @"[\(]\d{3}[\)]\d{3}[\-]\d{4}",
+                                        @onkeydown = "validateTelephone(this, event);",
+                                        @required = "true"
+                                    })
+                                    <span class="form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.PhoneErrorMessage, Model.Item)
+                                    </span>
+                                    @if (Model.HasErrorPhoneLength)
+                                    {
+                                        <div id="phoneNumberError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.PhoneErrorCharactersLimit, Model.Item)
+                                        </div>
+                                    }
+                                    else if (Model.HasErrorPhone)
+                                    {
+                                        <div id="phoneNumberError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.PhoneErrorMessage, Model.Item)
+                                        </div>
+                                    }
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns columns">
+                                    <label for="local" class="text-left bottom">@Html.Sitecore().Field(Templates.ContactUs.Fields.LocalUnionLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+                                    @Html.TextBoxFor(x => x.LocalUnion, null, new
+                                    {
+                                        @id = "local",
+                                        @placeholder = @HttpUtility.HtmlDecode(localunionPlaceholder)
+                                    })
+                                    @if (Model.HasErrorLocalUnion)
+                                    {
+                                        <div id="localunionError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.InvalidCharacters, Model.Item)
+                                        </div>
+                                    }
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns columns">
+                                    <label for="state" class="text-left bottom">@Html.Sitecore().Field(Templates.ContactUs.Fields.StateLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+                                    @Html.DropDownListFor(x => x.State, Model.StatesList, Model.Item.Fields[Templates.ContactUs.Fields.StatePlaceholder].Value, new
+                                {
+                                    @required = "true",
+                                    @id = "statecode"
+                                })
+
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns columns">
+                                    <label for="topic" class="text-left bottom">@Html.Sitecore().Field(Templates.ContactUs.Fields.TopicLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+
+                                    @Html.DropDownListFor(x => x.Topic, Model.TopicsList, Model.Item.Fields[Templates.ContactUs.Fields.TopicPlaceholder].Value, new
+                                    {
+                                        @required = "true"
+                                    })
+                                    <span class="form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.TopicErrorMessage, Model.Item)
+                                    </span>
+                                    @if (Model.HasErrorTopic)
+                                    {
+                                        <div id="topicError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.TopicErrorMessage, Model.Item)
+                                        </div>
+                                    }
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns columns">
+                                    <label for="message" class="text-left bottom">@Html.Sitecore().Field(Templates.ContactUs.Fields.MessageLabel, Model.Item)</label>
+                                </div>
+                                <div class="small-12 medium-5 large-5 columns">
+                                    @Html.TextAreaFor(x => x.Message, new
+                                    {
+                                        @id = "message",
+                                        @rows = 6,
+                                        @cols = 70,
+                                        @maxlength = 1000,
+                                        @required = "true"
+                                    })
+                                    <span class="form-error">
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.MessageErrorMessage, Model.Item)
+                                    </span>
+                                    @if (Model.HasErrorMessageInvalidCharacters)
+                                    {
+                                        <div id="messageError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.InvalidCharacters, Model.Item)
+                                        </div>
+                                    }
+                                    else if (Model.HasErrorMessage)
+                                    {
+                                        <div id="messageError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.MessageErrorMessage, Model.Item)
+                                        </div>
+                                    }
+
+                                    <div id="textarea_feedback" class="small"></div>
+                                    <div class="small">&nbsp; @Html.Sitecore().Field(Templates.ContactUs.Fields.CharactersCount, Model.Item)</div>
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 medium-2 large-2 columns columns">
+                                    <p style="margin-bottom: 0">&nbsp;</p>
+                                </div>
+                                <div class="small-12 medium-2 large-2 columns">
+                                    <div class="g-recaptcha" data-sitekey="@Model.CaptchaKey"></div>
+                                    @if (Model.HasCaptchaError)
+                                    {
+                                        <div id="messageError" class="server-error">
+                                            @Html.Sitecore().Field(Templates.ContactUs.Fields.CaptchaError, Model.Item)
+                                        </div>
+                                    }
+                                </div>
+                                <div class="show-for-medium medium-2 large-2 columns"></div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 columns" style="padding-top: 15px">
+                                    <span>
+                                        @Html.Sitecore().Field(Templates.ContactUs.Fields.Asterisk, Model.Item)
+                                    </span>
+                                </div>
+                            </div>
+                            <input type="hidden" name="fhController" value="ContactUsController" data-abide-ignore />
+                            <input type="hidden" name="fhAction" value="ContactUs" data-abide-ignore />
+
+                            <div class="row">
+                                <div class="small-12 columns buttonContainer">
+                                    <button class="button" type="submit" value="Submit">@Html.Sitecore().Field(Templates.ContactUs.Fields.SubmitButton, Model.Item)</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="show-for-medium medium-1 large-1 columns">
+            &nbsp;
+        </div>
+    </div>
+</div>

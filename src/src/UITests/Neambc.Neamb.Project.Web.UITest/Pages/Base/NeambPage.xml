@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="NeambPage" urlpath="/">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="NeambPage_Header_AccountName" xpath="(//span[contains(@class,'name')])[1]"  />
+            <control key="NeambPage_Header_Avatar"  xpath="(//img[starts-with(@class,'avatar')])[1]"  />
+          </controls>
+        </section>
+        <section name="Footer">
+          <controls>
+            <control key="NeambPage_Footer_Footer" xpath="//div[@class='gtm-footer new-design']"  />
+          </controls>
+        </section>
+        <section name="HeaderHot">
+          <controls>
+            <control key="NeambPage_HeaderHot_SignOutButton"  xpath="//div[@class='col-sm-12 profile-actions p-t-xs']//a[contains(text(),'Sign Out')]"  />
+          </controls>
+        </section>
+        <section name="HeaderWarm">
+          <controls>
+            <control key="NeambPage_HeaderWarm_NotYouButton"  xpath="//a[contains(text(),'Not You?')]"  />
+            <control key="NeambPage_HeaderWarm_SignInButton"  xpath="//a[contains(text(),'Sign In')]"  />
+          </controls>
+        </section>
+        <section name="HeaderWarmCold">
+          <controls>
+            <control key="NeambPage_HeaderWarmCold_NotYouButton"  xpath="//a[contains(text(),'Not You?')]"  />
+            <control key="NeambPage_HeaderWarmCold_CreateButton"  xpath="//a[contains(text(),'Create Account')]"  />
+          </controls>
+        </section>
+        <section name="HeaderCold">
+          <controls>
+            <control key="NeambPage_HeaderCold_SignInButton"  xpath="//div[@class='navbar-text']//span[contains(text(),'Sign In')]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

@@ -1,0 +1,32 @@
+﻿---
+ID: "904c25d4-43ce-4a61-ad84-866faa37d1dd"
+Parent: "c9348496-3247-4d86-901d-daebc16a4a25"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Product/_ProductCTAs/Secondary CTA/Goal
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "StartSearchLocation={0CB97A9F-CAFB-42A0-8BE1-89AB9AE32BD9}&TemplateFilter={475E9026-333F-432D-A4DC-52E03B75CB6B}&Filter=_language:en"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Multilist with Search
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Goals that be triggered on CTA Submission
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210329T210340Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,23 @@
+﻿---
+ID: "fa3be8e1-e5d8-4625-b0c7-d419aa5ce442"
+Parent: "b4d4fd58-4a9f-4801-bfc5-3d7ce348b6e0"
+Template: "b4d4fd58-4a9f-4801-bfc5-3d7ce348b6e0"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/2 Column Hero Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{AD46C12C-FC9B-40A0-B891-EAFE36CB1811}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201014T170452Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

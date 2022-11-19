@@ -1,0 +1,62 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.ProductMultiOfferDTO
+
+<section class="error-bar">
+    <p>
+        @Html.Sitecore().Field(Templates.ProductMultiOffer.Fields.ErrorMessage, Model.Item)
+        <i aria-hidden="true" class="fa fa-times"></i>
+    </p>
+</section>
+
+<section class="new-design col-centered enroll-plans">
+    <div class="plans-container">
+        <form id="enroll-form" method="post" accept-charset="UTF-8" role="form" autocomplete="off">
+            <h4>@Html.Sitecore().Field(Templates.ProductMultiOffer.Fields.Title, Model.Item)</h4>
+            <div class="form-plans">
+                @foreach (var groupItem in Model.RadioOptionGroups)
+                {
+                    string className = groupItem.IsMandatory ? "mandatory-radios" : "optional-radios";
+                    string required = groupItem.IsMandatory ? "required" : "";
+                    <h6>
+                        @Html.Sitecore().Field(Templates.PmoRadioButtonGroup.Fields.GroupDescription, groupItem.Item)
+                    </h6>
+                    <div class="@className">
+                        @foreach (var radioOptionItem in groupItem.RadioOptions)
+                        {
+                            string checkedoption = radioOptionItem.IsDefaulSelected ? "checked" : "";
+
+                            <div class="col-xs-12 col-sm-6 input-group">
+                                <div>
+                                    <input type="radio" id="@radioOptionItem.RadioIdentifier" name="@groupItem.RadioGroupParameter" value="@radioOptionItem.RadioValueText" @required @checkedoption>
+                                    <label for="@groupItem.RadioGroupParameter">@Html.Sitecore().Field(Templates.PmoRadioButtonOption.Fields.RadioDisplayText, radioOptionItem.Item)</label>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+
+            </div>
+            @Html.Sitecore().Field(Templates.ProductMultiOffer.Fields.FooterNote, Model.Item)
+            <div class="button text-white">
+                <a href="javascript:void(0)" title="@Model.ButtonName" id="continue-plans"
+                   class="btn btn-blue disabled">@Model.ButtonName</a>
+                <a class="cancel" href="@Model.CancelUrl">@Html.Sitecore().Field(Templates.ProductMultiOffer.Fields.CancelButton, Model.Item)</a>
+            </div>
+        </form>
+    </div>
+</section>
+
+<input type="hidden" id="contextidmulti" name="contextidmulti" value="@Model.Item.ID.ToString()">
+
+
+<form id="formpartner" method="POST" name="formpartner" action="@Model.UrlPartner" target="@Model.ButtonTarget">
+    @foreach (var postparam in Model.PostParams)
+    {
+        <input type="hidden" id="@postparam.Key" name="@postparam.Key" value="@postparam.Value">
+    }
+</form>
+
+
+

@@ -1,0 +1,12 @@
+﻿@model Neambc.Neamb.Feature.GeneralContent.Models.ChatDTO
+
+@{
+	bool isExperienceEditorPreview = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+}
+
+@if (!isExperienceEditorPreview)
+{
+	<div class="main-chat">
+		@Model.Chat
+	</div>
+}

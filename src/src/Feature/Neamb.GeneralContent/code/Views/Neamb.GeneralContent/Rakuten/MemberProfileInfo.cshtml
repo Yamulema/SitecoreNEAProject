@@ -1,0 +1,25 @@
+﻿@model Neambc.Neamb.Foundation.MBCData.Model.Rakuten.MemberCreationResponseView
+
+<section class="section-normal">
+    <div class="container">
+        <div class="col-md-9 col-centered">
+            <h2 class="header">Rakuten Profile Member</h2>
+
+            <p class="text-alpha no-margin-auto">
+                <b>API Response Success</b>: @Model.Success.ToString()
+            </p>
+            <p class="text-alpha no-margin-auto">
+                <b>Email Address</b>: @Model.Data.EmailAddress
+            </p>
+            <p class="text-alpha no-margin-auto">
+                <b>Created Date</b>: @Model.Data.CreatedDate
+            </p>
+            <p class="text-alpha no-margin-auto">
+                <b>Id</b>: @Model.Data.Id
+            </p>
+            <p class="text-alpha no-margin-auto">
+                <b>EB Token</b>: @Model.Data.EBtoken
+            </p>
+        </div>
+    </div>
+</section>

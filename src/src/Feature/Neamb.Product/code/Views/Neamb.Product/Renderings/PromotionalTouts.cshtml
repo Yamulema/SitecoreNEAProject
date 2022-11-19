@@ -1,0 +1,63 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.Product.Model.ProductDetailDTO
+@{
+    bool isPreviewMode = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+    var actionClick = String.Format("{0}{1}", Model.AnonymousGtmAction, Model.AnonymousFunctionAction);
+}
+@if (isPreviewMode || (Model.IsOmni && Model.IsEligibleOmni) || (!Model.IsOmni)) {
+    <section class="section section-promotional logolockup bg-blue p-t-md p-b-md">
+        <div class="container">
+            <div class="row">
+                <div class="col-centered col-md-12">
+                    <div class="promotion-container bg-blue">
+                        <div class="promotion">
+                            <div class="row">
+                                <div class="col-md-3 no-p-r img-full">
+                                        @Html.Sitecore().Field(Templates.ProductCTAs.Fields.Image, Model.Item,new { loading = "lazy" })
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="col-md-8">
+                                        @Html.Sitecore().Field(Templates.ProductCTAs.Fields.Name, Model.Item)
+                                        @if (!isPreviewMode && Model.HasCheckEligibility && !Model.ResultCheckEligibility && Model.UserStatus != StatusEnum.Cold && Model.UserStatus != StatusEnum.Unknown) {
+                                            @Html.Sitecore().Field(Templates.ProductCTAs.Fields.EligibilityDetails, Model.Item)
+                                        } else {
+                                            @Html.Sitecore().Field(Templates.ProductCTAs.Fields.SubHead, Model.Item)
+                                        }
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="button-wrapper">
+                                            @if (!isPreviewMode && Model.HasCheckEligibility && !Model.ResultCheckEligibility && Model.UserStatus != StatusEnum.Cold && Model.UserStatus != StatusEnum.Unknown) { } else {
+                                                if (!isPreviewMode && (Model.HasCheckEligibility && (Model.UserStatus == StatusEnum.Cold || Model.UserStatus == StatusEnum.Unknown))) {
+                                                    <a id="product_cta_promo_sign_in_cold_button" class="btn" onclick="@actionClick">@Model.AnonymousText</a>
+
+                                                } else {
+                                                    <a id="product_cta_promo_action_button" href="@Model.ActionPrimary" class="btn" target="@Model.ActionPrimaryTargetBlank" onclick="@Html.Raw(Model.ActionClickPrimary)">@Model.ActionPrimaryDescription</a>
+                                                }
+                                            }
+                                        </div>
+                                        <div class="bottom">
+                                            @if (Model.ListPartnersItems.Count > 0)
+                                            {
+                                                foreach (var partnerItem in Model.ListPartnersItems)
+                                                {
+                                                    @Html.Sitecore().Field(Templates.Partner.Fields.Logo, partnerItem, new { loading = "lazy", @class = "img-responsive" })
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mn-top-xs">
+                                        @Html.Sitecore().Field(Templates.ProductCTAs.Fields.FinePrint, Model.Item)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @Html.Partial("~/Views/Neamb.Product/Renderings/_MultirowSpecialOfferActions.cshtml", Model)
+}

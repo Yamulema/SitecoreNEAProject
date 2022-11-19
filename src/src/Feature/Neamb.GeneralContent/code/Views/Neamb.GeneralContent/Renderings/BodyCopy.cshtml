@@ -1,0 +1,28 @@
+﻿@using Neambc.Neamb.Feature.GeneralContent
+@using Neambc.Neamb.Foundation.Analytics.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Neambc.Neamb.Feature.GeneralContent.Models.PageBodyDTO
+
+<section class="article @Model.BodyBackgroundColorClass">
+    <div class="container">
+        <div class="col-md-9 col-centered">
+            <div class="row">
+                <div data-extension="@Model.BodyHeightLimit" class="col-md-12 body-copy part-1">
+                    @Html.Sitecore().Field(Templates.BasePageTemplates.Article.Fields.PageBodyBody, Model.Item).Process(Model.StringProcessor)
+                </div>
+            </div>
+            @if(Model.HasBodyHeight)
+            {
+                <div class="row">
+                    <div class="read-more bc-button"><a href="#" class="btn btn-blue">Read more </a></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 body-copy part-2">
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

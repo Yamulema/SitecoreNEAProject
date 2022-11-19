@@ -1,0 +1,92 @@
+﻿---
+ID: "250ea0b6-3e5e-480d-b20b-c2e4b08c8d71"
+Parent: "9e06e7af-296b-441e-afcd-feedaa995348"
+Template: "9e06e7af-296b-441e-afcd-feedaa995348"
+Path: /sitecore/templates/SEIUMB/Feature/Product/_ProductLite/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "01604bf5-3fc0-4fdd-a404-5cee9e257e8b"
+      Hint: ProductHeadline
+      Value: $name
+    - ID: "0a96fcf5-cfdb-4e89-9ff0-b6b89bf7c3c5"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "10cc799c-9710-4ee0-ae7c-e476825b7ea3"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "1a015dc1-407e-403d-ac79-d28b8462cfdc"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "21877b5a-1c7a-48d8-b136-22343c158709"
+      Hint: GaEvent
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210917T170139Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to access this benefit. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: Insert your headline here
+    - ID: "72fd1b6d-ef91-475c-a1eb-39787d5e60da"
+      Hint: NotElegibleMessage
+      Value: "We’re sorry. We were not able to verify your eligibility. For assistance accessing this product, please contact Member Services at 1-844-836-SEIU (-7348)"
+    - ID: "73439579-c325-4e3e-80e1-b7f4dfef67c5"
+      Hint: ProductSubHeadline
+      Value: "Insert your sub-healine here"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Log in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Sign in
+    - ID: "b813686b-22e3-4ce6-b86c-6e693ae7cf85"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: " We’re sorry. We were not able to verify your eligibility. For assistance accessing this product, please contact Member Services at 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "Insert your sub-healine here"
+    - ID: "cdd383d2-84b7-40b7-9189-ae2dedb84000"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{8552298C-2BC7-412D-931C-A377A6C7AB83}" />
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: You must be signed in to access this benefit. Please click above to register or sign in.
+    - ID: "f44312fe-7111-487a-847b-98c4aec6724d"
+      Hint: DesktopLoginButtonText
+      Value: Sign in

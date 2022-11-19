@@ -1,0 +1,61 @@
+﻿---
+ID: "7d597865-957f-45fb-ac81-4a0dcc5892ae"
+Parent: "8cbc4081-90eb-4385-9aac-8a03f153fd72"
+Template: "8cbc4081-90eb-4385-9aac-8a03f153fd72"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_ZipCodeVerificationForm/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c764a84-74cd-4978-9a21-19ceacc23102"
+      Hint: Match Not Found
+      Value: We're sorry. The zip code provided does not match the zip code in our files. We are unable to confirm your membership. If you believe you entered the information incorrectly, please try again
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180426T194819Z
+    - ID: "3bd6c766-f28e-4fba-a3d3-04bfb5df86d1"
+      Hint: Empty Field
+      Value: Please insert your zip code
+    - ID: "46694bce-32da-46a6-a94c-761fa1007951"
+      Hint: Empty Field
+      Value: Please insert a valid zip code
+    - ID: "4d214322-6f1c-4f4e-be37-f92d681fb566"
+      Hint: Attempts
+      Value: "Attempt({0})"
+    - ID: "507a2550-5d67-48b2-9bee-11bce78b36ef"
+      Hint: Salutation
+      Value: Welcome
+    - ID: "597ba0cd-608e-4a5f-853c-1e1b515e5122"
+      Hint: Instructions
+      Value: "Let's get started by confirming your Zip Code:"
+    - ID: "59b2eb1b-05b2-4c6c-a89f-b6603fe154f4"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "739fe8e8-1424-4766-b8e1-acc4f05dc91c"
+      Hint: Registration
+      Value: |
+        <link text="Register with your NEAMB information here" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{016CB02B-98DA-403E-B75F-538BF642DFE8}" />
+    - ID: "a9f5c898-80ab-4887-bba9-89ec8098d54b"
+      Hint: Zip Code Minimun Characters
+      Value: You must enter at least 5 characters in this field
+    - ID: "c0c93ab4-0084-48a1-a047-f30f345ffe0c"
+      Hint: Next
+      Value: Next
+    - ID: "da918ee6-f81b-489b-b5c6-c3ade12d2f93"
+      Hint: Title
+      Value: Confirm Your ZIP Code
+    - ID: "dd671c02-4e5e-4126-9225-a0f9ebbfa42c"
+      Hint: Not You
+      Value: Not
+    - ID: "ea87eedd-b499-4ee5-b00e-026abd6fb9d8"
+      Hint: Zip Code
+      Value: Zip Code
+    - ID: "fbddf5d8-6355-4d73-9892-bc2b250df9bb"
+      Hint: Characters Limit
+      Value: You can enter only 5 characters in this field

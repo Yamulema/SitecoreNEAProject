@@ -1,0 +1,247 @@
+﻿---
+ID: "73f7be3b-f639-4ddc-8b8c-d37e938056d0"
+Parent: "485e4456-f411-4af3-82d3-afbcd7e61832"
+Template: "96deaf46-f1f2-44fe-baaa-3f424d0a164f"
+Path: /sitecore/content/NEAMBC/Global/Open Content Modules/Open Content 1
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210120T205656Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 75px; padding-right: 75px;"><span style="font-size: 10px;">
+        Coverage is not available in all states. NY AD&amp;D Disclosure: This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services. IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS. SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage. SEIU Accident Insurance coverage is a limited benefit policy issued by The Prudential Insurance Company of America, a Prudential Financial Company, Newark, NJ. Prudential's Accident Insurance is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500. SEIU Group coverages are issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</span></p>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210120T212526Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 100px; padding-right: 50px; margin-left: 200px;"><span style="font-size: 10px;">
+        Coverage is not available in all states.<br>
+        <br>
+        NY AD&amp;D Disclosure:<br>
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br>
+        <br>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br>
+        <br>
+        SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as “Major Medical Coverage”). This type of plan is NOT considered “minimum essential coverage” under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage. SEIU Accident Insurance coverage is a limited benefit policy issued by The Prudential Insurance Company of America, a Prudential Financial Company, Newark, NJ. Prudential's Accident Insurance is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500. <br>
+        <br>
+        SEIU Group coverages are issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210120T212526Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210120T215210Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 125px; padding-right: 50px; margin-left: 200px;"><span style="font-size: 10px;">
+        Coverage is not available in all states.<br />
+        NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br />
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br />
+        SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage. SEIU Accident Insurance coverage is a limited benefit policy issued by The Prudential Insurance Company of America, a Prudential Financial Company, Newark, NJ. Prudential's Accident Insurance is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500. <br />
+        SEIU Group coverages are issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210120T215210Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210120T220856Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 125px; padding-right: 50px; margin-left: 200px; line-height: 1;"><span style="font-size: 8px;">
+        Coverage is not available in all states.<br />
+        NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br />
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br />
+        SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage. SEIU Accident Insurance coverage is a limited benefit policy issued by The Prudential Insurance Company of America, a Prudential Financial Company, Newark, NJ. Prudential's Accident Insurance is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500. <br />
+        SEIU Group coverages are issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210120T220856Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T210909Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 125px; padding-right: 50px; margin-left: 200px; line-height: 1;"><span style="font-size: 8px;">
+        1. <a href="http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html">How Much Life Insurance Do You Really Need? 5 Oct. 2014.</a><br />
+        2. The 2016 National Hospital Ambulatory Care Survey.
+        Coverage is not available in all states.<br />
+        NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br />
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br />
+        <strong>SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage.</strong><br />
+        SEIU Accident Insurance coverage is a limited benefit policy issued by The Prudential Insurance Company of America, a Prudential Financial Company, Newark, NJ. Prudential's Accident Insurance is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500. <br />
+        SEIU Group coverages are issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.<br />
+        1044722-00001-00</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T210909Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210210T182655Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 125px; padding-right: 50px; margin-left: 200px; line-height: 1;"><span style="font-size: 8px;">
+        1. <a href="http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html"><span style="color: #000000;">How Much Life Insurance Do You Really Need? 5 Oct. 2014.</span></a><br />
+        2. The 2016 National Hospital Ambulatory Care Survey.<br />
+        Coverage is not available in all states.<br />
+        NY AD&amp;D Disclosure: This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br />
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br />
+        <strong>SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage.</strong><br />
+        SEIU Accident Insurance coverage is a limited benefit policy issued by The Prudential Insurance Company of America, a Prudential Financial Company, Newark, NJ. Prudential's Accident Insurance is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500. <br />
+        SEIU Group coverages are issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-Certificate contains all details including any policy exclusions, limitations and restrictions which may apply. Contract Series: 83500. CA COA# 1179. NAIC# 68241.<br />
+        1044722-00001-00</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210210T182655Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210210T191820Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 125px; padding-right: 50px; margin-left: 200px; line-height: 1;"><span style="font-size: 8px;">
+        1. <a href="http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html"><span style="color: #000000;">How Much Life Insurance Do You Really Need? 5 Oct. 2014.</span></a><br />
+        2. The 2016 National Hospital Ambulatory Care Survey.<br />
+        Coverage is not available in all states.<br />
+        NY AD&amp;D Disclosure: This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br />
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br />
+        <strong>SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage.</strong><br />
+        SEIU Group Life, Accidental Death and Dismemberment, and Accident coverage is issued by The Prudential Insurance Company of America, a Prudential Financial company, Newark, NJ. Prudential's Accident Insurance is a limited benefit policy, and is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500.  CA COA# 1179, NAIC #68241.<br />
+        1044722-00001-00</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210210T191820Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210210T221630Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 125px; padding-right: 50px; margin-left: 200px; line-height: 1;"><span style="font-size: 8px; font-family: Verdana;">
+        1. <a href="http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html"><span style="color: #000000;">How Much Life Insurance Do You Really Need? 5 Oct. 2014.</span></a><br />
+        2. The 2016 National Hospital Ambulatory Care Survey.<br />
+        Coverage is not available in all states.<br />
+        NY AD&amp;D Disclosure: This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br />
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br />
+        <strong>SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage.</strong><br />
+        SEIU Group Life, Accidental Death and Dismemberment, and Accident coverage is issued by The Prudential Insurance Company of America, a Prudential Financial company, Newark, NJ. Prudential's Accident Insurance is a limited benefit policy, and is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500.  CA COA# 1179, NAIC #68241.<br />
+        1044722-00001-00</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210210T221630Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210219T213050Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <p style="padding-left: 125px; padding-right: 50px; margin-left: 200px; line-height: 1;"><span style="font-size: 8px; font-family: Verdana;">
+        1. <a href="http://www.cnbc.com/2014/10/03/how-much-life-insurance-do-you-need.html"><span style="color: #000000;">Haven Life, Will the life insurance rule of thumb work for you?, August 16, 2019.</span></a><br />
+        2. The 2016 National Hospital Ambulatory Care Survey.<br />
+        Coverage is not available in all states.<br />
+        NY AD&amp;D Disclosure: This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.<br />
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.<br />
+        <strong>SEIU Accident &amp; Injury Insurance Plan is not health insurance coverage (often referred to as &ldquo;Major Medical Coverage&rdquo;). This type of plan is NOT considered &ldquo;minimum essential coverage&rdquo; under the Affordable Care Act and therefor does NOT satisfy the individual mandate that you have health insurance coverage.</strong><br />
+        SEIU Group Life, Accidental Death and Dismemberment, and Accident coverage is issued by The Prudential Insurance Company of America, a Prudential Financial company, Newark, NJ. Prudential's Accident Insurance is a limited benefit policy, and is not a substitute for medical coverage that provides benefits for medical treatment, including hospital, surgical, and medical expenses, and it does not provide reimbursement for such expenses. The Booklet-Certificate contains all details, including any policy exclusions, limitations, and restrictions, which may apply. If there is a discrepancy between this document and the Booklet-Certificate/Group Contract issued by The Prudential Insurance Company of America, the Group Contract will govern. Please contact Prudential for more information. Contract provisions may vary by state. Contract Series: 83500.  CA COA#1179, NAIC #68241.<br />
+        1044722-00001-00</span></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210219T213050Z

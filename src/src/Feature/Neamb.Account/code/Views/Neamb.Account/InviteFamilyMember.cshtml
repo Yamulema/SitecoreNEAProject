@@ -1,0 +1,120 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Foundation.Membership.Model
+
+@model Neambc.Neamb.Feature.Account.Models.InviteFamilyMemberDTO
+@{
+	var classname = Model.HasGeneralError ? "show" : "";
+	bool isExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor || Sitecore.Context.PageMode.IsPreview;
+	var classnameButton = Model.FamilyMemberList.Count >= Model.LimitRecords ? "btn btn-blue disabled" : "btn btn-blue";
+}
+
+@if (Model.UserStatus != StatusEnum.Hot && !isExperienceEditor)
+{
+	<section class="section-normal">
+		<div class="container">
+			@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.AnonymousUser, Model.Item)
+		</div>
+	</section>
+}
+else
+{
+	<section style="display:none;" data-succes="" class="error-bar @classname">
+		<p>@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.Error, Model.Item)<i aria-hidden="true" class="fa fa-times"></i></p>
+	</section>
+
+	<section id="invite-family" class="section-normal f-005">
+		<div class="container">
+			<div class="col-md-9 col-centered">
+				<div class="row">
+					@if (Model.IsRedirectionAdd)
+					{
+						<p class="subhead text-center">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.SucessfulMessage, Model.Item)</p>
+					}
+					else
+					{
+						<p class="subhead">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.Headline, Model.Item)</p>
+					}
+				</div>
+				<div class="row actions">
+					<div class="panel-cta">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<h2 class="header">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.Title, Model.Item)</h2>
+							</div>
+							<div class="col-xs-12 col-sm-6 ctas add">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.Add, Model.Item, new { @class = classnameButton })</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<hr />
+							</div>
+						</div>
+						@foreach (var itemList in Model.FamilyMemberList)
+						{
+							<div class="info row">
+								<div class="col-xs-12 col-sm-6">
+									<div class="pull-left p-r-md">
+										@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.Avatar, Model.Item)
+									</div>
+									<div class="pull-left p-b-sm">
+										<p><strong>@itemList.Name</strong></p>
+										<p>@itemList.Email</p>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-3 col-sm-push-3 ctas">
+									<a data-modal="delete" ,="," data-action="delete" data-id="@itemList.Identifier" class="actions-invite btn p-t-sm">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.Remove, Model.Item)</a>
+								</div>
+								@*@if (itemList.HasFlagResendInvitation)
+								{
+									<div class="col-xs-12 col-sm-3 col-sm-pull-3">
+										<a id="resend" data-modal="resend" data-action="resend" data-id="@itemList.Identifier" class="actions-invite">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.ResendInvitationText, Model.Item)</a>
+									</div>
+								}*@
+								<div class="clearfix"></div>
+							</div>
+						}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div tabindex="-1" role="dialog" class="delete modal fade">
+			<div role="document" class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+					</div>
+					<div class="modal-body">
+						<h3 class="text-center">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.ConfirmRemoveModal, Model.Item)</h3>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="accept btn btn-blue">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.ConfirmRemove, Model.Item)</button>
+						<button type="button" data-dismiss="modal" class="btn">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.RejectRemove, Model.Item)</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div tabindex="-1" role="dialog" class="resend modal fade">
+			<div role="document" class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+					</div>
+					<div class="modal-body">
+						@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.ResendInvitationModal, Model.Item)
+					</div>
+					<div class="modal-footer">
+						<div class="col-md-6 col-centered">
+							<div>
+								<button type="button" class="accept btn btn-blue btn-block">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.ConfirmResend, Model.Item)</button>
+							</div>
+							<div class="m-t-sm m-b-sm text-center"><a href="" type="button" data-dismiss="modal" style="display:block;">@Html.Sitecore().Field(Templates.InviteFamilyMember.Fields.RejectResend, Model.Item)</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+}
+
+	

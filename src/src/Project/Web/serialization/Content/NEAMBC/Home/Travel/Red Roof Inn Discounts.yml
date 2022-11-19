@@ -1,0 +1,1846 @@
+﻿---
+ID: "6643932d-038b-4301-9f85-f9ed3c1d3c9d"
+Parent: "01a71e86-7a96-486d-8eed-82fb99928311"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Travel/Red Roof Inn Discounts
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20210201T233200Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Red Roof Inn offers a 20% discount to SEIU members at over 600 locations nationwide. Get free WiFi, free phone calls, and free parking.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1536011F-2A89-4223-8A99-28581138D8C9}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{4EBA65E2-FDCF-47CF-A0F1-8756AF5B8773}" alt="SEIU Member Benefits in partnership with Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171205T225548Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof Inn
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Share
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Your discount code (620640) will appear automatically on a specially-designed welcome page for SEIU Members. Click on the “BOOK NOW” link to get started."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF INN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>As an SEIU member, you and your family can enjoy a 20% discount at any of Red Roof&rsquo;s 600 plus locations nationwide. Red Roof can be found in 42 states, so you shouldn&rsquo;t have a problem finding a location near your destination. In addition to the 20% discount, here are some of the great amenities you will find at Red Roof properties:</p>
+        <ul>
+            <li>Flat screen TVs and free WiFi in all rooms</li>
+            <li>Free local and long-distance calls (in continental U.S.)</li>
+            <li>Free parking (at most locations)</li>
+            <li>Superior King Rooms and Deluxe Double Rooms available at most locations&mdash;includes microwave, refrigerator, in-room coffee and a larger work area</li>
+            <li>Pets stay free (at most locations)</li>
+        </ul>
+        <p>Some locations offer additional amenities such as:</p>
+        <ul>
+            <li>Swimming pools</li>
+            <li>Airport shuttle service</li>
+            <li>Free continental breakfast</li>
+        </ul>
+        <p>Whether you are taking a family vacation or heading back to campus for a big game, staying at Red Roof can make your trip affordably fun! To make a hotel reservation, sign in or click the &ldquo;BOOK NOW&rdquo; button today!</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{1536011F-2A89-4223-8A99-28581138D8C9}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof Inn
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Book now" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits#" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Red Roof Inn offers a 20% discount to SEIU members at over 600 locations nationwide. Get free WiFi, free phone calls, and free parking.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "TAKE ADVANTAGE OF MEMBER-ONLY RATES ON YOUR NEXT TRIP!"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof Inn
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B99DACD5-829E-4DA2-92E5-FE2C882149A9}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{49A71FE6-E192-4EB5-855F-4699B78F0DB5}"
+              p:after="r[@uid='{B99DACD5-829E-4DA2-92E5-FE2C882149A9}']"
+              s:ds="{54D36F26-606B-4101-A5A5-F1170AF8ED88}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Red Roof Inn offers a 20% discount to SEIU members at over 600 locations nationwide. Get free WiFi, free phone calls, and free parking.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{4EBA65E2-FDCF-47CF-A0F1-8756AF5B8773}" alt="SEIU Member Benefits in partnership with Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190911T154004Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Share
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Book Now and plan your visit through Red Roof&rsquo;s SEIU Member welcome page. Discount code <strong>620640</strong>&nbsp;is applied automatically.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>Special Limited Time Offer for SEIU Members!<br />
+        Receive a 25% discount at select locations<br />
+        when you book your next stay NOW through 12/31/19!</strong></span></p>-->
+        <ul>
+            <li>Save 20% at any of Red Roof&rsquo;s 600+ locations</li>
+            <li>Free WiFi and flat screen TVs in all rooms</li>
+            <li>Pets stay free at most locations</li>
+            <li>250 locations with free breakfast</li>
+            <li>Earn rich rewards with RediRewards</li>
+        </ul>
+        <p>Whether you&rsquo;re traveling for work or fun, you&rsquo;ll save as an SEIU Member.</p>
+        <p>Most locations offer Superior King Rooms and Deluxe Double Rooms for when you want a little more space&mdash;includes a microwave, mini fridge, in-room coffee, and a larger work area.</p>
+        <p>With Red Roof Inn, Red Roof PLUS+, The Red Collection and HomeTowne Studios by Red Roof, there is a Red Roof to meet any of your travel and destination needs. Click on the Book Now link to explore all that Red Roof has to offer. </p>
+        <p>Click Book Now and start planning your stay at Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Book now" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits#" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% at more than 600 Red Roof locations nationwide
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE 20% AT MORE THAN 600 RED ROOF LOCATIONS NATIONWIDE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190911T154004Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof Inn
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B99DACD5-829E-4DA2-92E5-FE2C882149A9}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{49A71FE6-E192-4EB5-855F-4699B78F0DB5}"
+              p:after="r[@uid='{B99DACD5-829E-4DA2-92E5-FE2C882149A9}']"
+              s:ds="{54D36F26-606B-4101-A5A5-F1170AF8ED88}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Red Roof Inn offers a 20% discount to SEIU members at over 600 locations nationwide. Get free WiFi, free phone calls, and free parking.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{4EBA65E2-FDCF-47CF-A0F1-8756AF5B8773}" alt="SEIU Member Benefits in partnership with Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T133631Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Share
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Book Now and plan your visit through Red Roof&rsquo;s SEIU Member welcome page. Discount code <strong>620640</strong>&nbsp;is applied automatically.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>Special Limited Time Offer for SEIU Members!<br />
+        Receive a 25% discount at select locations<br />
+        when you book your next stay NOW through 12/31/19!</strong></span></p>-->
+        <ul>
+            <li>Save 20% at any of Red Roof&rsquo;s 600+ locations</li>
+            <li>Free WiFi and flat screen TVs in all rooms</li>
+            <li>Pets stay free at most locations</li>
+            <li>250 locations with free breakfast</li>
+            <li>Earn rich rewards with RediRewards</li>
+        </ul>
+        <p>Whether you&rsquo;re traveling for work or fun, you&rsquo;ll save as an SEIU Member.</p>
+        <p>Most locations offer Superior King Rooms and Deluxe Double Rooms for when you want a little more space&mdash;includes a microwave, mini fridge, in-room coffee, and a larger work area.</p>
+        <p>With Red Roof Inn, Red Roof PLUS+, The Red Collection and HomeTowne Studios by Red Roof, there is a Red Roof to meet any of your travel and destination needs. Click on the Book Now link to explore all that Red Roof has to offer. </p>
+        <p>Click Book Now and start planning your stay at Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Book now" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits#" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% at more than 600 Red Roof locations nationwide.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE 20% AT MORE THAN 600 RED ROOF LOCATIONS NATIONWIDE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T133631Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof Inn
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B99DACD5-829E-4DA2-92E5-FE2C882149A9}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{49A71FE6-E192-4EB5-855F-4699B78F0DB5}"
+              p:after="r[@uid='{B99DACD5-829E-4DA2-92E5-FE2C882149A9}']"
+              s:ds="{54D36F26-606B-4101-A5A5-F1170AF8ED88}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Red Roof Inn offers a 20% discount to SEIU members at over 600 locations nationwide. Get free WiFi, free phone calls, and free parking.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{4EBA65E2-FDCF-47CF-A0F1-8756AF5B8773}" alt="SEIU Member Benefits in partnership with Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200803T203606Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Share
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Book Now and plan your visit through Red Roof&rsquo;s SEIU Member welcome page. Discount code <strong>620640</strong>&nbsp;is applied automatically.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>Special Limited Time Offer for SEIU Members!<br />
+        Receive a 25% discount at select locations<br />
+        when you book your next stay NOW through 12/31/19!</strong></span></p>-->
+        <ul>
+            <li>Save 20% at any of Red Roof&rsquo;s 600+ locations</li>
+            <li>Free WiFi and flat screen TVs in all rooms</li>
+            <li>Pets stay free at most locations</li>
+            <li>250 locations with free breakfast</li>
+            <li>Earn rich rewards with RediRewards</li>
+        </ul>
+        <p style="text-align: center;"><img height="50" alt="Redi Clean Red Icon" width="107" src="-/media/345e3e66b9154ac7b4f3e6390c11904a.ashx" /></p>
+        <p>Whether you&rsquo;re traveling for work or fun, you&rsquo;ll save as an SEIU Member.</p>
+        <p>Most locations offer Superior King Rooms and Deluxe Double Rooms for when you want a little more space&mdash;includes a microwave, mini fridge, in-room coffee, and a larger work area.</p>
+        <p>With Red Roof Inn, Red Roof PLUS+, The Red Collection and HomeTowne Studios by Red Roof, there is a Red Roof to meet any of your travel and destination needs. Click on the Book Now link to explore all that Red Roof has to offer. </p>
+        <p>Click Book Now and start planning your stay at Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Book now" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits#" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% at more than 600 Red Roof locations nationwide.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE 20% AT MORE THAN 600 RED ROOF LOCATIONS NATIONWIDE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200803T203606Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof Inn
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B99DACD5-829E-4DA2-92E5-FE2C882149A9}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{49A71FE6-E192-4EB5-855F-4699B78F0DB5}"
+              p:after="r[@uid='{B99DACD5-829E-4DA2-92E5-FE2C882149A9}']"
+              s:ds="{54D36F26-606B-4101-A5A5-F1170AF8ED88}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Red Roof Inn offers a 20% discount to SEIU members at over 600 locations nationwide. Get free WiFi, free phone calls, and free parking.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{4EBA65E2-FDCF-47CF-A0F1-8756AF5B8773}" alt="SEIU Member Benefits in partnership with Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200910T142312Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Share
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Book Now and plan your visit through Red Roof&rsquo;s SEIU Member welcome page. Discount code <strong>620640</strong>&nbsp;is applied automatically.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>Special Limited Time Offer for SEIU Members!<br />
+        Receive a 25% discount at select locations<br />
+        when you book your next stay NOW through 12/31/19!</strong></span></p>-->
+        <ul>
+            <li>Save 20% at any of Red Roof&rsquo;s 600+ locations</li>
+            <li>Free WiFi and flat screen TVs in all rooms</li>
+            <li>Pets stay free at most locations</li>
+            <li>250 locations with free breakfast</li>
+            <li>Earn rich rewards with RediRewards</li>
+            <li><a href="~/link.aspx?_id=984D7B6E2B944C12B1DA0D6023E380BD&amp;_z=z">Enhanced Cleaning Protocols</a></li>
+        </ul>
+        <p style="text-align: center;"><img height="50" alt="Redi Clean Red Icon" width="107" src="-/media/345e3e66b9154ac7b4f3e6390c11904a.ashx" /></p>
+        <p>Whether you&rsquo;re traveling for work or fun, you&rsquo;ll save as an SEIU Member.</p>
+        <p>Most locations offer Superior King Rooms and Deluxe Double Rooms for when you want a little more space&mdash;includes a microwave, mini fridge, in-room coffee, and a larger work area.</p>
+        <p>With Red Roof Inn, Red Roof PLUS+, The Red Collection and HomeTowne Studios by Red Roof, there is a Red Roof to meet any of your travel and destination needs. Click on the Book Now link to explore all that Red Roof has to offer. </p>
+        <p>Click Book Now and start planning your stay at Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Book now" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits#" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% at more than 600 Red Roof locations nationwide.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE 20% AT MORE THAN 600 RED ROOF LOCATIONS NATIONWIDE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200910T142312Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof Inn
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B99DACD5-829E-4DA2-92E5-FE2C882149A9}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{49A71FE6-E192-4EB5-855F-4699B78F0DB5}"
+              p:after="r[@uid='{B99DACD5-829E-4DA2-92E5-FE2C882149A9}']"
+              s:ds="{54D36F26-606B-4101-A5A5-F1170AF8ED88}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Red Roof Inn offers a 20% discount to SEIU members at over 600 locations nationwide. Get free WiFi, free phone calls, and free parking.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Register" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{4EBA65E2-FDCF-47CF-A0F1-8756AF5B8773}" alt="SEIU Member Benefits in partnership with Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200910T191950Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Share
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: Click Book Now and plan your visit through Red Roof&rsquo;s SEIU Member welcome page. Discount code <strong>620640</strong>&nbsp;is applied automatically.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{7B15F544-B7AE-4550-BA52-003C3FF0A586}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{7B15F544-B7AE-4550-BA52-003C3FF0A586}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>Special Limited Time Offer for SEIU Members!<br />
+        Receive a 25% discount at select locations<br />
+        when you book your next stay NOW through 12/31/19!</strong></span></p>-->
+        <ul>
+            <li>Save 20% at any of Red Roof&rsquo;s 600+ locations</li>
+            <li>Free WiFi and flat screen TVs in all rooms</li>
+            <li>Pets stay free at most locations</li>
+            <li>250 locations with free breakfast</li>
+            <li>Earn rich rewards with RediRewards</li>
+            <li><a href="~/link.aspx?_id=984D7B6E2B944C12B1DA0D6023E380BD&amp;_z=z#RedRoof">Enhanced Cleaning Protocols</a></li>
+        </ul>
+        <p style="text-align: center;"><img height="50" alt="Redi Clean Red Icon" width="107" src="-/media/345e3e66b9154ac7b4f3e6390c11904a.ashx" /></p>
+        <p>Whether you&rsquo;re traveling for work or fun, you&rsquo;ll save as an SEIU Member.</p>
+        <p>Most locations offer Superior King Rooms and Deluxe Double Rooms for when you want a little more space&mdash;includes a microwave, mini fridge, in-room coffee, and a larger work area.</p>
+        <p>With Red Roof Inn, Red Roof PLUS+, The Red Collection and HomeTowne Studios by Red Roof, there is a Red Roof to meet any of your travel and destination needs. Click on the Book Now link to explore all that Red Roof has to offer. </p>
+        <p>Click Book Now and start planning your stay at Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Book now" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits#" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Save 20% at more than 600 Red Roof locations nationwide.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SAVE 20% AT MORE THAN 600 RED ROOF LOCATIONS NATIONWIDE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200910T191950Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof Inn
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{1536011F-2A89-4223-8A99-28581138D8C9}" alt="Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{4EBA65E2-FDCF-47CF-A0F1-8756AF5B8773}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171205T232943Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: * El descuento se basa en la disponibilidad y está sujeto a los impuestos pertinentes.
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof Inn
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "El código de descuento (620640) aparecerá automáticamente en una página de bienvenida especialmente diseñada para miembros de SEIU. Haga clic en el vínculo “¡A viajar!” para comenzar."
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF INN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>Como miembro de SEIU, usted y su familia pueden disfrutar de un 20% de descuento en cualquiera de las m&aacute;s de 600 sucursales de Red Roof en todo el pa&iacute;s.* Red Roof est&aacute; presente en 42 estados, as&iacute; que no tendr&aacute; problemas para encontrar una sucursal cerca de su destino. Adem&aacute;s del 20% de descuento, estos son algunos de los excelentes servicios que encontrar&aacute; en las instalaciones de Red Roof:</p>
+        <ul>
+            <li>Televisores de pantalla plana y Wi-Fi gratuito en todas las habitaciones</li>
+            <li>Llamadas locales y de larga distancia sin costo (en EE.&nbsp;UU. continental)</li>
+            <li>Estacionamiento gratuito (en la mayor&iacute;a de las sucursales)</li>
+            <li>Habitaciones Superior King y Deluxe Double disponibles en la mayor&iacute;a de las sucursales (incluyen microondas, nevera, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo amplia)</li>
+            <li>Hotel para mascotas gratuito (en la mayor&iacute;a de las sucursales)</li>
+        </ul>
+        <p>Algunas sucursales ofrecen servicios adicionales como:</p>
+        <ul>
+            <li>Piscinas</li>
+            <li>Servicio de traslado al aeropuerto</li>
+            <li>Desayuno continental gratuito</li>
+        </ul>
+        <p>&iexcl;Sin importar si toma vacaciones familiares o se dirige al campus para un partido importante, hospedarse en Red Roof puede hacer que su viaje sea econ&oacute;mico y divertido! Para realizar una reserva de hotel, inicie sesi&oacute;n o haga clic en el bot&oacute;n "&iexcl;A viajar!" hoy mismo.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{1536011F-2A89-4223-8A99-28581138D8C9}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof Inn
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en m&aacute;s de 600 sucursales de todo el pa&iacute;s. Obtenga Wi-Fi gratuito, llamadas telef&oacute;nicas sin costo y estacionamiento gratuito."
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: "¡Aproveche las tarifas exclusivas para miembros en su próximo viaje!"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof Inn
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DCB57D1C-0ADF-4B2B-96BC-85718EE78F69}"
+              p:after="r[@uid='{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}']"
+              s:ds="{C8DA5D5A-F2DD-4C30-8E4B-94CEBCA3DF07}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" alt="Red Roof" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E1A0A6B2-0595-4DF7-97AD-CC2049F167E5}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190911T155102Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: &nbsp;
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Haga clic en "Reservar ahora" y planifique su visita a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Red Roof. El c&oacute;digo de descuento <strong>620640</strong> se aplica autom&aacute;ticamente.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de los miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>&iexcl;Oferta especial por tiempo limitado para miembros de SEIU!<br />
+        &iexcl;Reciba un descuento del 25% en ubicaciones seleccionadas cuando<br />
+        reserve su pr&oacute;xima estad&iacute;a AHORA hasta el 31/12/19!</strong></span></p>-->
+        <ul>
+            <li>Ahorre un 20% en cualquiera de las m&aacute;s de 600 instalaciones de Red Roof</li>
+            <li>Incluye wifi y televisores con pantalla plana en todas las habitaciones</li>
+            <li>Las mascotas se hospedan sin costo en la mayor&iacute;a de las instalaciones</li>
+            <li>250 instalaciones con desayuno incluido</li>
+            <li>Reciba grandes recompensas con RediRewards</li>
+        </ul>
+        <p>Ya sea que viaje por trabajo o por diversi&oacute;n, ahorrar&aacute; como afiliado de SEIU.</p>
+        <p>La mayor&iacute;a de las instalaciones ofrecen habitaciones superiores tipo rey y habitaciones dobles de lujo para cuando quiera un poco m&aacute;s de espacio, incluyendo un microondas, un mini refrigerador, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo m&aacute;s grande.</p>
+        <p>Con Red Roof Inn, Red Roof PLUS+, la colecci&oacute;n Red y los estudios HomeTowne de Red Roof, hay un Red Roof para satisfacer cualquiera de sus necesidades de viaje y alojamiento. Haga clic en el enlace "Reservar ahora" para explorar todo lo que Red Roof tiene que ofrecer. </p>
+        <p>Haga clic en "Reservar ahora" y comience a planificar su estad&iacute;a en Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190911T155102Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DCB57D1C-0ADF-4B2B-96BC-85718EE78F69}"
+              p:after="r[@uid='{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}']"
+              s:ds="{C8DA5D5A-F2DD-4C30-8E4B-94CEBCA3DF07}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" alt="Red Roof" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E1A0A6B2-0595-4DF7-97AD-CC2049F167E5}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T133519Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: &nbsp;
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Haga clic en "Reservar ahora" y planifique su visita a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Red Roof. El c&oacute;digo de descuento <strong>620640</strong> se aplica autom&aacute;ticamente.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de los miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>&iexcl;Oferta especial por tiempo limitado para miembros de SEIU!<br />
+        &iexcl;Reciba un descuento del 25% en ubicaciones seleccionadas cuando<br />
+        reserve su pr&oacute;xima estad&iacute;a AHORA hasta el 31/12/19!</strong></span></p>-->
+        <ul>
+            <li>Ahorre un 20% en cualquiera de las m&aacute;s de 600 instalaciones de Red Roof</li>
+            <li>Incluye wifi y televisores con pantalla plana en todas las habitaciones</li>
+            <li>Las mascotas se hospedan sin costo en la mayor&iacute;a de las instalaciones</li>
+            <li>250 instalaciones con desayuno incluido</li>
+            <li>Reciba grandes recompensas con RediRewards</li>
+        </ul>
+        <p>Ya sea que viaje por trabajo o por diversi&oacute;n, ahorrar&aacute; como afiliado de SEIU.</p>
+        <p>La mayor&iacute;a de las instalaciones ofrecen habitaciones superiores tipo rey y habitaciones dobles de lujo para cuando quiera un poco m&aacute;s de espacio, incluyendo un microondas, un mini refrigerador, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo m&aacute;s grande.</p>
+        <p>Con Red Roof Inn, Red Roof PLUS+, la colecci&oacute;n Red y los estudios HomeTowne de Red Roof, hay un Red Roof para satisfacer cualquiera de sus necesidades de viaje y alojamiento. Haga clic en el enlace "Reservar ahora" para explorar todo lo que Red Roof tiene que ofrecer. </p>
+        <p>Haga clic en "Reservar ahora" y comience a planificar su estad&iacute;a en Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T133519Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof
+  - Version: 4
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DCB57D1C-0ADF-4B2B-96BC-85718EE78F69}"
+              p:after="r[@uid='{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}']"
+              s:ds="{C8DA5D5A-F2DD-4C30-8E4B-94CEBCA3DF07}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" alt="Red Roof" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E1A0A6B2-0595-4DF7-97AD-CC2049F167E5}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T133711Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: &nbsp;
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Haga clic en "Reservar ahora" y planifique su visita a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Red Roof. El c&oacute;digo de descuento <strong>620640</strong> se aplica autom&aacute;ticamente.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de los miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>&iexcl;Oferta especial por tiempo limitado para miembros de SEIU!<br />
+        &iexcl;Reciba un descuento del 25% en ubicaciones seleccionadas cuando<br />
+        reserve su pr&oacute;xima estad&iacute;a AHORA hasta el 31/12/19!</strong></span></p>-->
+        <ul>
+            <li>Ahorre un 20% en cualquiera de las m&aacute;s de 600 instalaciones de Red Roof</li>
+            <li>Incluye wifi y televisores con pantalla plana en todas las habitaciones</li>
+            <li>Las mascotas se hospedan sin costo en la mayor&iacute;a de las instalaciones</li>
+            <li>250 instalaciones con desayuno incluido</li>
+            <li>Reciba grandes recompensas con RediRewards</li>
+        </ul>
+        <p>Ya sea que viaje por trabajo o por diversi&oacute;n, ahorrar&aacute; como afiliado de SEIU.</p>
+        <p>La mayor&iacute;a de las instalaciones ofrecen habitaciones superiores tipo rey y habitaciones dobles de lujo para cuando quiera un poco m&aacute;s de espacio, incluyendo un microondas, un mini refrigerador, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo m&aacute;s grande.</p>
+        <p>Con Red Roof Inn, Red Roof PLUS+, la colecci&oacute;n Red y los estudios HomeTowne de Red Roof, hay un Red Roof para satisfacer cualquiera de sus necesidades de viaje y alojamiento. Haga clic en el enlace "Reservar ahora" para explorar todo lo que Red Roof tiene que ofrecer. </p>
+        <p>Haga clic en "Reservar ahora" y comience a planificar su estad&iacute;a en Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T133711Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof
+  - Version: 5
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DCB57D1C-0ADF-4B2B-96BC-85718EE78F69}"
+              p:after="r[@uid='{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}']"
+              s:ds="{C8DA5D5A-F2DD-4C30-8E4B-94CEBCA3DF07}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" alt="Red Roof" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E1A0A6B2-0595-4DF7-97AD-CC2049F167E5}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200803T205625Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: &nbsp;
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Haga clic en "Reservar ahora" y planifique su visita a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Red Roof. El c&oacute;digo de descuento <strong>620640</strong> se aplica autom&aacute;ticamente.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de los miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>&iexcl;Oferta especial por tiempo limitado para miembros de SEIU!<br />
+        &iexcl;Reciba un descuento del 25% en ubicaciones seleccionadas cuando<br />
+        reserve su pr&oacute;xima estad&iacute;a AHORA hasta el 31/12/19!</strong></span></p>-->
+        <ul>
+            <li>Ahorre un 20% en cualquiera de las m&aacute;s de 600 instalaciones de Red Roof</li>
+            <li>Incluye wifi y televisores con pantalla plana en todas las habitaciones</li>
+            <li>Las mascotas se hospedan sin costo en la mayor&iacute;a de las instalaciones</li>
+            <li>250 instalaciones con desayuno incluido</li>
+            <li>Reciba grandes recompensas con RediRewards</li>
+        </ul>
+        <p style="text-align: center;"><img alt="" height="50" width="107" src="-/media/345e3e66b9154ac7b4f3e6390c11904a.ashx" /></p>
+        <p>Ya sea que viaje por trabajo o por diversi&oacute;n, ahorrar&aacute; como afiliado de SEIU.</p>
+        <p>La mayor&iacute;a de las instalaciones ofrecen habitaciones superiores tipo rey y habitaciones dobles de lujo para cuando quiera un poco m&aacute;s de espacio, incluyendo un microondas, un mini refrigerador, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo m&aacute;s grande.</p>
+        <p>Con Red Roof Inn, Red Roof PLUS+, la colecci&oacute;n Red y los estudios HomeTowne de Red Roof, hay un Red Roof para satisfacer cualquiera de sus necesidades de viaje y alojamiento. Haga clic en el enlace "Reservar ahora" para explorar todo lo que Red Roof tiene que ofrecer. </p>
+        <p>Haga clic en "Reservar ahora" y comience a planificar su estad&iacute;a en Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200803T205625Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof
+  - Version: 6
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DCB57D1C-0ADF-4B2B-96BC-85718EE78F69}"
+              p:after="r[@uid='{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}']"
+              s:ds="{C8DA5D5A-F2DD-4C30-8E4B-94CEBCA3DF07}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" alt="Red Roof" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E1A0A6B2-0595-4DF7-97AD-CC2049F167E5}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200910T142844Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: &nbsp;
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Haga clic en "Reservar ahora" y planifique su visita a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Red Roof. El c&oacute;digo de descuento <strong>620640</strong> se aplica autom&aacute;ticamente.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de los miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>&iexcl;Oferta especial por tiempo limitado para miembros de SEIU!<br />
+        &iexcl;Reciba un descuento del 25% en ubicaciones seleccionadas cuando<br />
+        reserve su pr&oacute;xima estad&iacute;a AHORA hasta el 31/12/19!</strong></span></p>-->
+        <ul>
+            <li>Ahorre un 20% en cualquiera de las m&aacute;s de 600 instalaciones de Red Roof</li>
+            <li>Incluye wifi y televisores con pantalla plana en todas las habitaciones</li>
+            <li>Las mascotas se hospedan sin costo en la mayor&iacute;a de las instalaciones</li>
+            <li>250 instalaciones con desayuno incluido</li>
+            <li>Reciba grandes recompensas con RediRewards</li>
+            <li><a href="~/link.aspx?_id=984D7B6E2B944C12B1DA0D6023E380BD&amp;_z=z">Protocolos mejorados de limpieza</a></li>
+        </ul>
+        <p style="text-align: center;"><img alt="" height="50" width="107" src="-/media/345e3e66b9154ac7b4f3e6390c11904a.ashx" /></p>
+        <p>Ya sea que viaje por trabajo o por diversi&oacute;n, ahorrar&aacute; como afiliado de SEIU.</p>
+        <p>La mayor&iacute;a de las instalaciones ofrecen habitaciones superiores tipo rey y habitaciones dobles de lujo para cuando quiera un poco m&aacute;s de espacio, incluyendo un microondas, un mini refrigerador, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo m&aacute;s grande.</p>
+        <p>Con Red Roof Inn, Red Roof PLUS+, la colecci&oacute;n Red y los estudios HomeTowne de Red Roof, hay un Red Roof para satisfacer cualquiera de sus necesidades de viaje y alojamiento. Haga clic en el enlace "Reservar ahora" para explorar todo lo que Red Roof tiene que ofrecer. </p>
+        <p>Haga clic en "Reservar ahora" y comience a planificar su estad&iacute;a en Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200910T142844Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof
+  - Version: 7
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DCB57D1C-0ADF-4B2B-96BC-85718EE78F69}"
+              p:after="r[@uid='{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}']"
+              s:ds="{C8DA5D5A-F2DD-4C30-8E4B-94CEBCA3DF07}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DAEB70F1-7BE0-46A8-9D4B-129F40F13015}"
+              s:id="{1351C622-2757-454E-9DE0-2E9839F6FA90}" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" alt="Red Roof" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E1A0A6B2-0595-4DF7-97AD-CC2049F167E5}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200910T193704Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: &nbsp;
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Haga clic en "Reservar ahora" y planifique su visita a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Red Roof. El c&oacute;digo de descuento <strong>620640</strong> se aplica autom&aacute;ticamente.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de los miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>&iexcl;Oferta especial por tiempo limitado para miembros de SEIU!<br />
+        &iexcl;Reciba un descuento del 25% en ubicaciones seleccionadas cuando<br />
+        reserve su pr&oacute;xima estad&iacute;a AHORA hasta el 31/12/19!</strong></span></p>-->
+        <ul>
+            <li>Ahorre un 20% en cualquiera de las m&aacute;s de 600 instalaciones de Red Roof</li>
+            <li>Incluye wifi y televisores con pantalla plana en todas las habitaciones</li>
+            <li>Las mascotas se hospedan sin costo en la mayor&iacute;a de las instalaciones</li>
+            <li>250 instalaciones con desayuno incluido</li>
+            <li>Reciba grandes recompensas con RediRewards</li>
+            <li><a href="~/link.aspx?_id=984D7B6E2B944C12B1DA0D6023E380BD&amp;_z=z#RedRoof">Protocolos mejorados de limpieza</a></li>
+        </ul>
+        <p style="text-align: center;"><img alt="" height="50" width="107" src="-/media/345e3e66b9154ac7b4f3e6390c11904a.ashx" /></p>
+        <p>Ya sea que viaje por trabajo o por diversi&oacute;n, ahorrar&aacute; como afiliado de SEIU.</p>
+        <p>La mayor&iacute;a de las instalaciones ofrecen habitaciones superiores tipo rey y habitaciones dobles de lujo para cuando quiera un poco m&aacute;s de espacio, incluyendo un microondas, un mini refrigerador, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo m&aacute;s grande.</p>
+        <p>Con Red Roof Inn, Red Roof PLUS+, la colecci&oacute;n Red y los estudios HomeTowne de Red Roof, hay un Red Roof para satisfacer cualquiera de sus necesidades de viaje y alojamiento. Haga clic en el enlace "Reservar ahora" para explorar todo lo que Red Roof tiene que ofrecer. </p>
+        <p>Haga clic en "Reservar ahora" y comience a planificar su estad&iacute;a en Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200910T193704Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof
+  - Version: 8
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}"
+              p:after="p[@uid='{7FD5100A-DB55-4ED5-9E0A-3CA6F08F24E9}']"
+              s:ds="{7FF56231-687D-481F-BCB8-91C2E50A806F}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+            <r
+              uid="{DCB57D1C-0ADF-4B2B-96BC-85718EE78F69}"
+              p:after="r[@uid='{3CB58AD7-ADDF-4105-AC42-D59EB299A6B4}']"
+              s:ds="{C8DA5D5A-F2DD-4C30-8E4B-94CEBCA3DF07}"
+              s:id="{51CDD6B2-D1A5-4A66-9F1D-7CE8D77426C8}"
+              s:ph="/body/left-column-card" />
+          </d>
+        </r>
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: 
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: "Red Roof Inn ofrece un 20% de descuento a los miembros de SEIU en más de 600 sucursales de todo el país. Obtenga Wi-Fi gratuito, llamadas telefónicas sin costo y estacionamiento gratuito."
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" alt="Red Roof" height="" width="" hspace="" vspace="" />
+    - ID: "1f9f1f44-6daa-404d-8256-1f26ec792cf5"
+      Hint: RegistrationButton
+      Value: |
+        <link text="Registrarse" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8F873B39-85AB-4068-A66F-F6428AED4BDE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{E1A0A6B2-0595-4DF7-97AD-CC2049F167E5}" alt="SEIU Member Benefits en asociación con Red Roof Inn" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210201T233215Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: &nbsp;
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Red Roof
+    - ID: "5a2f309b-3fca-4005-9690-ded126305e64"
+      Hint: Share
+      Value: Compartir
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Haga clic en "Reservar ahora" y planifique su visita a trav&eacute;s de la p&aacute;gina de bienvenida de los miembros de SEIU de Red Roof. El c&oacute;digo de descuento <strong>620640</strong> se aplica autom&aacute;ticamente.
+    - ID: "609d56af-ad4d-4dcf-a690-7f6c8f94d35e"
+      Hint: Eligibility
+      Type: Checkbox
+      Value: 1
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo de los miembros de SEIU.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: RED ROOF
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Iniciar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{320FB78C-3992-47D9-8820-98D5C6A58D2D}" />
+    - ID: "89b0fb04-597a-48e6-a8cf-5037d3cada85"
+      Hint: MoreLink
+      Value: Más
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <br />
+        <!--<p style="text-align: center;"><span style="color: #ff0000;"><strong>&iexcl;Oferta especial por tiempo limitado para miembros de SEIU!<br />
+        &iexcl;Reciba un descuento del 25% en ubicaciones seleccionadas cuando<br />
+        reserve su pr&oacute;xima estad&iacute;a AHORA hasta el 31/12/19!</strong></span></p>-->
+        <ul>
+            <li>Ahorre un 20% en cualquiera de las m&aacute;s de 600 instalaciones de Red Roof</li>
+            <li>Incluye wifi y televisores con pantalla plana en todas las habitaciones</li>
+            <li>Las mascotas se hospedan sin costo en la mayor&iacute;a de las instalaciones</li>
+            <li>250 instalaciones con desayuno incluido</li>
+            <li>Reciba grandes recompensas con RediRewards</li>
+            <li><a href="~/link.aspx?_id=984D7B6E2B944C12B1DA0D6023E380BD&amp;_z=z#RedRoof">Protocolos mejorados de limpieza</a></li>
+        </ul>
+        <p style="text-align: center;"><img alt="" height="50" width="107" src="-/media/345e3e66b9154ac7b4f3e6390c11904a.ashx" /></p>
+        <p>Ya sea que viaje por trabajo o por diversi&oacute;n, ahorrar&aacute; como afiliado de SEIU.</p>
+        <p>La mayor&iacute;a de las instalaciones ofrecen habitaciones superiores tipo rey y habitaciones dobles de lujo para cuando quiera un poco m&aacute;s de espacio, incluyendo un microondas, un mini refrigerador, caf&eacute; en la habitaci&oacute;n y un &aacute;rea de trabajo m&aacute;s grande.</p>
+        <p>Con Red Roof Inn, Red Roof PLUS+, la colecci&oacute;n Red y los estudios HomeTowne de Red Roof, hay un Red Roof para satisfacer cualquiera de sus necesidades de viaje y alojamiento. Haga clic en el enlace "Reservar ahora" para explorar todo lo que Red Roof tiene que ofrecer. </p>
+        <p>Haga clic en "Reservar ahora" y comience a planificar su estad&iacute;a en Red Roof.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0E7CE113-A269-4C9C-AAB1-9291BD1C6243}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Red Roof
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Reserve ahora" linktype="external" url="https://www.redroof.com/deals/partner/seiu_member_benefits" anchor="" target="" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "b86f4672-c893-43c0-99d5-3986d223e7ae"
+      Hint: NotElegibleMessage
+      Value: "Lo sentimos. No pudimos comprobar su elegibilidad. Para solicitar ayuda con este producto, póngase en contacto con servicios para el miembro al 1-844-836-SEIU (-7348)."
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Ahorre un 20% en m&aacute;s de 600 instalaciones de Red Roof en todo el pa&iacute;s.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210201T233215Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Red Roof

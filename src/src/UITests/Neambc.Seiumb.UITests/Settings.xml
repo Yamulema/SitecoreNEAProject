@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <add key="targetUrl" value="https://qa.seiumb.com/" />
+
+  <!-- the number of milliseconds to pause after every action performed on the web page -->
+  <add key="browsingDelayMilliseconds" value="100" />
+
+  <!-- the default timeout for all web page interactions -->
+  <add key="defaultTimeoutSeconds" value="10" />
+
+  <!-- valid values are "C:\xxxx\yyy" or just "yyyy".  Relative path will create screenshots in bin folder where DLLS are running from-->
+  <add key="screenshotsFolder" value="screenshots" />
+
+  <!-- most-sensitive, to least-sensitive, possible values: All, Debug, Info, Warning, Severe, Off -->
+  <add key="throwOnLogEntryLevel" value="Off" />
+
+  <!-- most-sensitive, to least-sensitive, possible values: All, Debug, Info, Warning, Severe, Off -->
+  <add key="throwOnLogEntryLevel" value="Off" />
+
+  <!--choices are: chrome, firefox, safari, ie, edge, opera -->
+  <add key="currentBrowser" value="chrome" />
+
+  <add key="localChromeDriverLocation" value="." />
+  <add key="localEdgeDriverLocation" value="." />
+  <add key="localIEDriverLocation" value="." />
+  <add key="localFirefoxDriverLocation" value="." />
+  <add key="localSafariDriverLocation" value="." />
+  <add key="localOperaDriverLocation" value="." />
+
+  <!-- possible values are: sauceLabs, oshyn or "" (empty string to run local)-->
+  <add key="remoteDriver" value="" />
+
+  <add key="oshynUrl" value="http://192.168.2.17:4444/wd/hub" />
+  <!-- choices are: WINDOWS, MAC -->
+  <add key="oshynPlatform" value="WINDOWS" />
+
+  <add key="sauceLabsUrl" value="http://ondemand.saucelabs.com:80/wd/hub" />
+  <add key="sauceLabsVersion" value="latest" />
+  <add key="sauceLabsPlatform" value="Windows 10" />
+  <add key="sauceLabsUserName" value="chrissxp2002" />
+  <add key="sauceLabsAccessKey" value="701b2f03-f7e2-4705-9723-77f470432bc7" />
+  <add key="sauceLabsTestName" value="FirstSauceLabsTestOshyn" />
+
+</settings>

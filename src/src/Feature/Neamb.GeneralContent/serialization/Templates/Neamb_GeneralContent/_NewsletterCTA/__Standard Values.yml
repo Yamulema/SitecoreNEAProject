@@ -1,0 +1,40 @@
+﻿---
+ID: "a94f34a6-5bd6-44ed-ba95-4b2cd5f917c7"
+Parent: "6d3c7d4b-46a6-4b48-bc7b-e299b7e723f6"
+Template: "6d3c7d4b-46a6-4b48-bc7b-e299b7e723f6"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_NewsletterCTA/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "008fb0da-a24b-4bff-b47f-b0e409f76c42"
+      Hint: Name
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180702T205520Z
+    - ID: "30a9feab-b5d4-4ded-9dc7-69ffef5eaa37"
+      Hint: Unsubscribe
+      Value: Unsubscribe
+    - ID: "519e265a-f98f-440c-aad0-dba70de76cae"
+      Hint: Subscribed
+      Value: You Are Subscribed
+    - ID: "54bec316-e09e-493b-9f7c-093a034fae05"
+      Hint: Eyebrow
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b2c0b021-1e53-4029-922a-5f7c7478a437"
+      Hint: Placement
+      Value: "{C495553A-3FDB-4AE5-BDD9-CBE44645A3BD}"
+    - ID: "b383a29f-289d-4f08-8df5-1429e15d5949"
+      Hint: Subscribe
+      Value: Subscribe
+    - ID: "f329b22a-7130-40c5-96e8-ecd8c2b8b163"
+      Hint: Image
+      Value: |
+        <image mediaid="{17047E10-6DF9-475E-82E4-3D79E044F342}" />

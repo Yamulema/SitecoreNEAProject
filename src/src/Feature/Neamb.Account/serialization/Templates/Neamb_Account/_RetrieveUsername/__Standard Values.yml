@@ -1,0 +1,98 @@
+﻿---
+ID: "719b14f9-f72a-4fba-b67c-3d90dfa9a3c5"
+Parent: "0a1b9f3a-316d-4f87-8f71-8d5451ac6525"
+Template: "0a1b9f3a-316d-4f87-8f71-8d5451ac6525"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_RetrieveUsername/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2070e3b0-10aa-4ff2-8fbf-57d16f8e23b1"
+      Hint: Label
+      Value: Birth Date
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180625T163809Z
+    - ID: "3c541146-3bfe-421e-aaa3-5336c5dbab7b"
+      Hint: Intro
+      Value: |
+        Provide the information below and we&rsquo;ll retrieve the email address associated with your account. If you no longer have access to that e-mail account (for instance, if you changed internet service providers), you will need to contact us for assistance. Can&rsquo;t remember your password? <a href="~/link.aspx?_id=25FBED045D2E44B18C05492A9246D2D8&amp;_z=z">Reset Password.</a>
+    - ID: "41605645-f66f-4c13-b432-c4f3c39f03e7"
+      Hint: Sign In Link
+      Value: |
+        <link text="Return to Sign In" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />
+    - ID: "49466c7f-be55-481e-8241-7153cd28ee07"
+      Hint: Sign In
+      Value: |
+        <link text="Sign In" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{5EA33232-AC25-42E5-A550-6C9232F318EC}" />
+    - ID: "56b3d228-5387-4738-8cfb-b052f4aeb598"
+      Hint: Characters Limit
+      Value: You can enter only 5 characters in this field
+    - ID: "5d0151d5-dd4b-42c3-94dd-9dce26927b0f"
+      Hint: Age Requirement
+      Value: You must be at least 16 years old and no more than 90 years old to be an NEAMB member
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "66bd46de-852e-4c93-9724-fe063c297399"
+      Hint: Forgot Password
+      Value: "Forgot your password? Click below to get a reset password link sent to your email address."
+    - ID: "6acc717b-4164-43d7-8db2-7de510ca586c"
+      Hint: Label
+      Value: First Name
+    - ID: "6ff1843c-636a-4b82-a884-abde4b1c93da"
+      Hint: Characters Limit
+      Value: You can enter only 30 characters in this field
+    - ID: "70aa908b-1e48-4c1b-b76b-c84d04cd2142"
+      Hint: Empty Field
+      Value: Please insert your date of birth
+    - ID: "83a56edf-3bb8-495f-87d8-97d9bdd8f160"
+      Hint: Empty Field
+      Value: Please insert your last name
+    - ID: "8df3d84c-9d69-4229-a63f-3d9269c6cbf6"
+      Hint: Label
+      Value: Zip
+    - ID: "aa6de8d7-399c-4ab8-bc09-3dc995382641"
+      Hint: Characters Limit
+      Value: You can enter only 15 characters in this field
+    - ID: "ac915e4a-5c5b-4aa4-b42e-0bb0b673b049"
+      Hint: Title
+      Value: "Forgot your sign in email?"
+    - ID: "b243119b-f492-44b0-a8a9-024bccd14719"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.
+    - ID: "b61d21e9-4f56-4605-b5f5-d889af43a449"
+      Hint: Username
+      Value: "Your username is:"
+    - ID: "c169dc0d-0f6f-42b9-b18f-f826cce5220a"
+      Hint:  Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "c8948625-1b3f-4082-b7ef-73c0c699225b"
+      Hint: Retrieve Password
+      Value: |
+        <link text="Submit" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{25FBED04-5D2E-44B1-8C05-492A9246D2D8}" />
+    - ID: "c9e11e83-a10d-40a7-a6a7-c73f97f621cd"
+      Hint: Label
+      Value: Last Name
+    - ID: "ca2ab08e-ffff-44b1-ab11-d41f35094474"
+      Hint: Submit
+      Value: Retrieve Username
+    - ID: "e064480a-a8b3-4808-bf8c-a3aa55e19571"
+      Hint:  Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "eca5ecd1-161a-44fe-91de-6710a65cee97"
+      Hint: Empty Field
+      Value: Please insert your first name
+    - ID: "ecd8619a-5152-4cc2-a135-3d0bc1443b71"
+      Hint:  Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "ef24fe82-855b-41f5-9423-055f5a95ee37"
+      Hint: Empty Field
+      Value: Please insert your zip code
+    - ID: "fd02528b-833e-48bf-990f-410deaadca36"
+      Hint: Not Found
+      Value: |
+        Oops, we can't seem to find a username that matches the information you provided. Can you verify your information and try again? If it indeed is correct, it may mean that you haven't registered on our website. Click <a href="~/link.aspx?_id=016CB02B98DA403EB75F538BF642DFE8&amp;_z=z">here</a>&nbsp;to register now. Or <a href="~/link.aspx?_id=C900B28EB14F4B589D6A2EDDB8F70DB1&amp;_z=z" class="text-alpha link-underline">contact us</a>.

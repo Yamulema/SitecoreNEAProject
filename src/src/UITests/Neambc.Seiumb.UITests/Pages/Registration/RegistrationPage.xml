@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="RegistrationPage" urlpath="/registration">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="Registration_Form_FirstName" id="firstName"  />
+            <control key="Registration_Form_LastName" id="lastName"  />
+            <control key="Registration_Form_BirthDate" id="dateOfBirth"  />
+            <control key="Registration_Form_Address" id="address"  />
+            <control key="Registration_Form_City" id="city"  />
+            <control key="Registration_Form_State" id="state"  />
+            <control key="Registration_Form_Zip" id="zipCode"  />
+            <control key="Registration_Form_Phone" id="phoneNumber"  />
+            <control key="Registration_Form_Email" id="email"  />
+            <control key="Registration_Form_Password" id="desiredPassword1"  />
+            <control key="Registration_Form_ConfirmPassword" id="confirmPassword"  />
+            <control key="Registration_Form_Submit" id="btnRegistrationForm"  />
+          </controls>
+        </section>
+        <section name="DuplicateRegistrationWizard1">
+          <controls>
+            <control key="FirstEmailToCheck" xpath="(//input[@name='selectedid'])[2]"  />
+            <control key="Duplicate_Password_Field" id="password"  />
+            <control key="SubmitEmailSelected" xpath="(//a[@class='secondary button round'])[1]"  />
+          </controls>
+        </section>
+        <section name="DuplicateRegistrationWizard2">
+          <controls>
+
+            <!--control key="ApplyChanges" xpath="//a[@class='btn btn-lg btn-blue btn-block'][1]"  /-->
+            <control key="ApplyChanges" xpath="(//a[@class='secondary button round'])[2]"  />
+          </controls>
+        </section>
+        <section name="DuplicateRegistrationWizard3">
+          <controls>
+            <control key="ContinueButton" xpath="(//a[@class='secondary button round'])[4]"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

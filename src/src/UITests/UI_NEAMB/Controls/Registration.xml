@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="RegistrationPage" urlpath="account/registration">
+      <sections>
+        <section name="Header">
+          <controls>
+            <control key="header_label"  xpath="//h1[contains(text(),'Create an Account with Member Benefits')]"/>
+            <control key="title_label"  xpath="//h2[@class='header']"   />
+            <control key="subtitle_label"  xpath="//p[contains(@class,'subhead')]"  />
+          </controls>
+        </section>
+        <section name="FormInputs">
+          <controls>
+            <control key="firstname_field"  id="firstname"/>
+            <control key="lastname_field"  id="lastName"/>
+            <control key="month_field"  id="month"/>
+            <control key="day_field"  id="day"/>
+            <control key="year_field"  id="year"/>
+            <control key="address_field"  id="address"/>
+            <control key="city_field"  id="city"/>
+            <control key="state_field"  id="state"/>
+            <control key="zip_field"  id="zip"/>
+            <control key="phone_field"  id="phone"/>
+            <control key="email_field"  id="email"/>
+            <control key="password_field"  id="password"/>
+            <control key="confirmpassword_field"  id="confirmPassword"/>
+            <control key="create_account_button"  id="submit"/>
+            <control key="emails_checkbox"  xpath="//div[@class='form-group p-t-md p-b-md hidden-xs hidden-sm']//label[@class='custom-checkbox blue']"/>
+            <control key="show_password"  xpath="//span[@class='text-blue showpass pull-right']"/>
+          </controls>
+        </section>
+        <section name="FormLabels">
+          <controls>
+            <control key="firstname_label"  xpath="//label[contains(text(),'First Name')]"/>
+            <control key="lastname_label"  xpath="//label[contains(text(),'Last Name')]"/>
+            <control key="dob_label"  xpath="//label[contains(text(),'Birth Date')]"/>
+            <control key="address_label"  xpath="//label[contains(text(),'Address')]"/>
+            <control key="city_label"  xpath="//label[contains(text(),'City')]"/>
+            <control key="state_label"  xpath="//label[contains(text(),'State')]"/>
+            <control key="zip_label"  xpath="//label[contains(text(),'Zip')]"/>
+            <control key="phone_label"  xpath="//label[contains(text(),'Phone (optional)')]"/>
+            <control key="email_label"  xpath="//div[9]//div[1]//div[1]//label[1]"/>
+            <control key="password_label"  xpath="//div[@class='col-md-3 label-pass']//label[contains(text(),'Password')]"/>
+            <control key="confirmpassword_label"  xpath="//label[contains(text(),'Confirm Password')]"/>
+            <control key="checkbox_label"  xpath="//div[@class='form-group p-t-md p-b-md hidden-xs hidden-sm']//div[2]"/>
+            <control key="privacy_policy_label"  xpath="//p[contains(text(),'By clicking this button you agree to our terms of')]"/>
+            <!--Email Validation Labels-->
+            <control key="minimun_label"  id="length"/>
+            <control key="no_spaces_label"  id="spaces"/>
+            <control key="one_number_label"  id="number"/>
+            <control key="one_letter_label"  id="letter"/>
+            <control key="no_special_characters_label"  id="special"/>
+          </controls>
+        </section>
+        <section name="ThankYouModal">
+          <controls>
+            <control key="title"  xpath= "//h2[contains(text(),'Thank you for registering!')]"/>
+            <control key="subtitle"  xpath="//h2[contains(text(),'Thank you for registering!')]"/>
+            <control key="go_to_home"  xpath="//a[@class='btn btn-lg btn-blue btn-block']"/>
+            <control key="contact_us"  xpath="//p[contains(text(),'Connect with us, and members like you')]"/>
+            <control key="fb"  xpath="//div[@class='modal-footer hidden-xs hidden-sm']//a[1]"/>
+            <control key="twitter"  xpath="//div[@id='registrationModal']//a[2]"/>
+            <control key="instagram"  xpath="//div[@id='registrationModal']//a[3]"/>
+            <control key="close_button"  xpath="//span[contains(text(),'×')]"/>
+          </controls>
+        </section>
+        <section name="ErrorMessages">
+          <controls>
+            <control key="repeat_email"  xpath= "//span[contains(text(),'User nea.jessica@gmail.com already exists')]"/>
+            <control key="skip_button"  xpath= "//a[contains(text(),'Skip for Now')]"/>
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

@@ -1,0 +1,78 @@
+﻿---
+ID: "45f40fef-2817-4c72-b473-fc325dc979da"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/Home Financing
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T194942Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finance
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{183BD4FB-39C6-4ACE-A29F-72D06E028BD8}" ></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=EDB471D415F148EE8B766242AD70176B&amp;_z=z" onclick="ga_event('small module','click','seiu home financing program &gt; title');">SEIU Home Financing Program</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Make your first home a reality.</p>
+        <div><a href="~/link.aspx?_id=EDB471D415F148EE8B766242AD70176B&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu home financing program &gt; button');">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195436Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finanzas
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{183BD4FB-39C6-4ACE-A29F-72D06E028BD8}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=EDB471D415F148EE8B766242AD70176B&amp;_z=z" onclick="ga_event('small module','click','seiu home financing program esp &gt; title');">Programa de Financiaci&oacute;n de Vivienda SEIU</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Haga de su primera casa una realidad.</p>
+        <div><a href="~/link.aspx?_id=EDB471D415F148EE8B766242AD70176B&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu home financing program esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>

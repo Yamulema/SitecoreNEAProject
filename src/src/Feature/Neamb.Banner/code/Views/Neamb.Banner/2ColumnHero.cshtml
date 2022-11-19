@@ -1,0 +1,50 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Banner
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Banner.Models.TwoColumnHeroDto
+@if (Model.IsVisible) {
+    <section class="c-072">
+        <div class="container-fluid">
+            <div class="@Model.ClassBackground two-columns-hero">
+                <div class="bg-image img-fit" style="background-image: url('@Model.Item.ImageUrl(Templates.TwoColumnHeroBanner.Fields.HeroImage)')" loading="lazy">
+                </div>
+                <div class="content">
+                    <h1>@Html.Sitecore().Field(Templates.TwoColumnHeroBanner.Fields.Headline, Model.Item)</h1>
+                    <h3>
+                        @Html.Sitecore().Field(Templates.TwoColumnHeroBanner.Fields.SubHeadline, Model.Item)
+                    </h3>
+                    <div class="actions">
+                        @if (Model.IsDisplayHeroCtaLink) {
+                            @Html.Sitecore().Field(Templates.TwoColumnHeroBanner.Fields.HeroCtaLink, Model.Item, new {
+                                @class = Model.ClassButton
+                            })
+                        }
+                        @if (Model.IsDisplayOverlayLink) {
+                            <a href="" class="link" data-toggle="modal" data-target="#resignedModal">@Html.Sitecore().Field(Templates.TwoColumnHeroBanner.Fields.OverlayLink, Model.Item)</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade modal-home" id="resignedModal" tabindex="-1" role="dialog" aria-labelledby="resignedModal"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" class="new-close" data-dismiss="modal" aria-label="Close"></a>
+                    <h3>
+                        <strong>@Html.Sitecore().Field(Templates.TwoColumnHeroBanner.Fields.ModalTitle, Model.Item)</strong>
+                    </h3>
+                </div>
+                <div class="modal-body bg-gray">
+                    @Html.Sitecore().Field(Templates.TwoColumnHeroBanner.Fields.ModalText, Model.Item)
+                    @Html.Sitecore().Field(Templates.TwoColumnHeroBanner.Fields.ModalLink, Model.Item, new {
+                        @class = "btn btn-blue btn-modal"
+                    })
+                </div>
+            </div>
+        </div>
+    </div>
+}

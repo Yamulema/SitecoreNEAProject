@@ -1,0 +1,93 @@
+﻿---
+ID: "c095fcbd-a2dd-4a8c-beff-9119d137050d"
+Parent: "485e4456-f411-4af3-82d3-afbcd7e61832"
+Template: "96deaf46-f1f2-44fe-baaa-3f424d0a164f"
+Path: /sitecore/content/NEAMBC/Global/Open Content Modules/Marketplace Cold User Steps Title
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201126T203448Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+                      <h2 class="text-center mt-2">It’s quick and easy to get started!</h2>
+        <p style="margin:20px; text-align:center;" >Plus, spend $25 or more at any qualifying Rakuten store, and receive a $10 Welcome Bonus... just for joining!*
+        </p>
+                      <div class="steps carousel">
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">1</div>
+                              <p>Browse the SEIU Discount Marketplace for Cash Back offers.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">2</div>
+                              <p><a style="color: #512E85;" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Sign up', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()" ><strong>Sign Up</strong></a> for a Rakuten account through SEIUMB.com.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">3</div>
+                              <p>Earn Cash Back on qualifying purchases.</p>
+                          </div>
+                          <div class="small-12 medium-12 large-3 columns">
+                              <div class="step">4</div>
+                              <p>Get paid via PayPal or by check.</p>
+                          </div>
+                      </div>
+                  </div>
+        </section>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201209T165114Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "71cd0221-254f-42a0-b08a-e790e9362b2d"
+      Hint: OpenContent
+      Value: |
+        <section id="steps">
+        <div class="row get-started">
+        <h2 class="text-center mt-2">C&oacute;mo comenzar a recibir reembolsos en efectivo!</h2>
+        <p style="margin:20px; text-align:center;">
+        Adem&aacute;s, puede gastar $25 o m&aacute;s en cualquier tienda calificada de Rakuten y recibir una bonificaci&oacute;n de bienvenida de $10, y &iexcl;solo por unirse!*
+        </p>
+        <div class="steps carousel">
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">1</div>
+        <p>Explore el mercado de descuentos de SEIU para acceder a ofertas de reembolsos en efectivo.</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">2</div>
+        <p><a style="color: #512E85" onclick="dataLayerPush({'event':'navigation','navType':'product page','navText':'Regístrese', 'clickHref':'https://qa.seiumb.com/seiu discount marketplace'},this);executeLogin()"><strong>Reg&iacute;strese</strong></a> para obtener una cuenta de Rakuten en SEIUMB.com</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">3</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas</p>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+        <div class="step">4</div>
+        <p>Obtenga reembolsos en efectivo por compras calificadas.</p>
+        </div>
+        </div>
+        </div>
+        </section>

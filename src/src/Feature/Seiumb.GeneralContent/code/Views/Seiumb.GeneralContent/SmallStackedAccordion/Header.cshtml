@@ -1,0 +1,7 @@
+﻿@using Neambc.Seiumb.Feature.GeneralContent
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<h2>@Html.Sitecore().Field(Templates.SmallAccordion.Fields.Header, Model.Item)</h2>
+<p>@Html.Sitecore().Field(Templates.SmallAccordion.Fields.Subhead, Model.Item)</p>

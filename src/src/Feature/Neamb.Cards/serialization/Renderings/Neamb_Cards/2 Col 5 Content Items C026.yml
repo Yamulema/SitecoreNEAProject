@@ -1,0 +1,24 @@
+﻿---
+ID: "a4ece677-6c89-4e1d-9e08-d8d29f3a44f0"
+Parent: "9dbf44d0-811b-4d96-9233-f86ef46423ab"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/NEAMB/Feature/Neamb_Cards/2 Col 5 Content Items C026
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: "{B3BBB063-59E1-4F17-806D-8A90EE139E6C}"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: FiveContentCards
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Neambc.Neamb.Feature.Cards.Controllers.PageCardController,Neambc.Neamb.Feature.Cards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180518T144318Z

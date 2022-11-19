@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ax213="http://version2.memberdata.webservices/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://version2.memberdata.webservices" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://version2.memberdata.webservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsdl:types>
+    <xs:schema xmlns:ax214="http://version2.memberdata.webservices/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://version2.memberdata.webservices">
+      <xs:import namespace="http://version2.memberdata.webservices/xsd" />
+      <xs:element name="currentMembershipFlag">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="currentMembershipFlagResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="iaid2mdsid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="iaid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="iaid2mdsidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2iaid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2iaidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSiteRegistration">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="checkSiteRegistrationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax214:checkSiteRegistrationObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="matchOnlyUser">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="streetAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="stateCode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zipCode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="matchOnlyUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax214:matchUserObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="matchUser">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="streetAddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="stateCode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zipCode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="matchUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax214:matchUserObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2mdsuserdata">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2mdsuserdataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax214:mdsUserDataObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="newMemberCheck">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="newMemberCheckResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax214:newMemberObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2userdata">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2userdataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax214:userDataObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://version2.memberdata.webservices/xsd">
+      <xs:complexType name="checkSiteRegistrationObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="registration" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="webuserid" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="matchUserObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="iaid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="mdsUserDataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="genderCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="neaMember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seaName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seaNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seiuLocalName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seiuLocalNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seiuMember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stateCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="streetAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="zipCode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="newMemberObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="newMember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="newMemberSegInd" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="userDataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="source" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stateCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="streetAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="zipCode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="currentMembershipFlagRequest">
+    <wsdl:part name="parameters" element="ns:currentMembershipFlag" />
+  </wsdl:message>
+  <wsdl:message name="currentMembershipFlagResponse">
+    <wsdl:part name="parameters" element="ns:currentMembershipFlagResponse" />
+  </wsdl:message>
+  <wsdl:message name="newMemberCheckRequest">
+    <wsdl:part name="parameters" element="ns:newMemberCheck" />
+  </wsdl:message>
+  <wsdl:message name="newMemberCheckResponse">
+    <wsdl:part name="parameters" element="ns:newMemberCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2iaidRequest">
+    <wsdl:part name="parameters" element="ns:mdsid2iaid" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2iaidResponse">
+    <wsdl:part name="parameters" element="ns:mdsid2iaidResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkSiteRegistrationRequest">
+    <wsdl:part name="parameters" element="ns:checkSiteRegistration" />
+  </wsdl:message>
+  <wsdl:message name="checkSiteRegistrationResponse">
+    <wsdl:part name="parameters" element="ns:checkSiteRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="matchOnlyUserRequest">
+    <wsdl:part name="parameters" element="ns:matchOnlyUser" />
+  </wsdl:message>
+  <wsdl:message name="matchOnlyUserResponse">
+    <wsdl:part name="parameters" element="ns:matchOnlyUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="matchUserRequest">
+    <wsdl:part name="parameters" element="ns:matchUser" />
+  </wsdl:message>
+  <wsdl:message name="matchUserResponse">
+    <wsdl:part name="parameters" element="ns:matchUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2userdataRequest">
+    <wsdl:part name="parameters" element="ns:mdsid2userdata" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2userdataResponse">
+    <wsdl:part name="parameters" element="ns:mdsid2userdataResponse" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2mdsuserdataRequest">
+    <wsdl:part name="parameters" element="ns:mdsid2mdsuserdata" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2mdsuserdataResponse">
+    <wsdl:part name="parameters" element="ns:mdsid2mdsuserdataResponse" />
+  </wsdl:message>
+  <wsdl:message name="iaid2mdsidRequest">
+    <wsdl:part name="parameters" element="ns:iaid2mdsid" />
+  </wsdl:message>
+  <wsdl:message name="iaid2mdsidResponse">
+    <wsdl:part name="parameters" element="ns:iaid2mdsidResponse" />
+  </wsdl:message>
+  <wsdl:portType name="memberdataversion2PortType">
+    <wsdl:operation name="currentMembershipFlag">
+      <wsdl:input wsaw:Action="urn:currentMembershipFlag" message="ns:currentMembershipFlagRequest" />
+      <wsdl:output wsaw:Action="urn:currentMembershipFlagResponse" message="ns:currentMembershipFlagResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="newMemberCheck">
+      <wsdl:input wsaw:Action="urn:newMemberCheck" message="ns:newMemberCheckRequest" />
+      <wsdl:output wsaw:Action="urn:newMemberCheckResponse" message="ns:newMemberCheckResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2iaid">
+      <wsdl:input wsaw:Action="urn:mdsid2iaid" message="ns:mdsid2iaidRequest" />
+      <wsdl:output wsaw:Action="urn:mdsid2iaidResponse" message="ns:mdsid2iaidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkSiteRegistration">
+      <wsdl:input wsaw:Action="urn:checkSiteRegistration" message="ns:checkSiteRegistrationRequest" />
+      <wsdl:output wsaw:Action="urn:checkSiteRegistrationResponse" message="ns:checkSiteRegistrationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="matchOnlyUser">
+      <wsdl:input wsaw:Action="urn:matchOnlyUser" message="ns:matchOnlyUserRequest" />
+      <wsdl:output wsaw:Action="urn:matchOnlyUserResponse" message="ns:matchOnlyUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="matchUser">
+      <wsdl:input wsaw:Action="urn:matchUser" message="ns:matchUserRequest" />
+      <wsdl:output wsaw:Action="urn:matchUserResponse" message="ns:matchUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2userdata">
+      <wsdl:input wsaw:Action="urn:mdsid2userdata" message="ns:mdsid2userdataRequest" />
+      <wsdl:output wsaw:Action="urn:mdsid2userdataResponse" message="ns:mdsid2userdataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <wsdl:input wsaw:Action="urn:mdsid2mdsuserdata" message="ns:mdsid2mdsuserdataRequest" />
+      <wsdl:output wsaw:Action="urn:mdsid2mdsuserdataResponse" message="ns:mdsid2mdsuserdataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="iaid2mdsid">
+      <wsdl:input wsaw:Action="urn:iaid2mdsid" message="ns:iaid2mdsidRequest" />
+      <wsdl:output wsaw:Action="urn:iaid2mdsidResponse" message="ns:iaid2mdsidResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="memberdataversion2Soap11Binding" type="ns:memberdataversion2PortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="newMemberCheck">
+      <soap:operation soapAction="urn:newMemberCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="currentMembershipFlag">
+      <soap:operation soapAction="urn:currentMembershipFlag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2iaid">
+      <soap:operation soapAction="urn:mdsid2iaid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSiteRegistration">
+      <soap:operation soapAction="urn:checkSiteRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="matchOnlyUser">
+      <soap:operation soapAction="urn:matchOnlyUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="matchUser">
+      <soap:operation soapAction="urn:matchUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2userdata">
+      <soap:operation soapAction="urn:mdsid2userdata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <soap:operation soapAction="urn:mdsid2mdsuserdata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iaid2mdsid">
+      <soap:operation soapAction="urn:iaid2mdsid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="memberdataversion2Soap12Binding" type="ns:memberdataversion2PortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="newMemberCheck">
+      <soap12:operation soapAction="urn:newMemberCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="currentMembershipFlag">
+      <soap12:operation soapAction="urn:currentMembershipFlag" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2iaid">
+      <soap12:operation soapAction="urn:mdsid2iaid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSiteRegistration">
+      <soap12:operation soapAction="urn:checkSiteRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="matchOnlyUser">
+      <soap12:operation soapAction="urn:matchOnlyUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="matchUser">
+      <soap12:operation soapAction="urn:matchUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2userdata">
+      <soap12:operation soapAction="urn:mdsid2userdata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <soap12:operation soapAction="urn:mdsid2mdsuserdata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iaid2mdsid">
+      <soap12:operation soapAction="urn:iaid2mdsid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="memberdataversion2HttpBinding" type="ns:memberdataversion2PortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="newMemberCheck">
+      <http:operation location="memberdataversion2/newMemberCheck" />
+      <wsdl:input>
+        <mime:content part="newMemberCheck" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="newMemberCheck" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="currentMembershipFlag">
+      <http:operation location="memberdataversion2/currentMembershipFlag" />
+      <wsdl:input>
+        <mime:content part="currentMembershipFlag" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="currentMembershipFlag" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2iaid">
+      <http:operation location="memberdataversion2/mdsid2iaid" />
+      <wsdl:input>
+        <mime:content part="mdsid2iaid" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="mdsid2iaid" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkSiteRegistration">
+      <http:operation location="memberdataversion2/checkSiteRegistration" />
+      <wsdl:input>
+        <mime:content part="checkSiteRegistration" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="checkSiteRegistration" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="matchOnlyUser">
+      <http:operation location="memberdataversion2/matchOnlyUser" />
+      <wsdl:input>
+        <mime:content part="matchOnlyUser" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="matchOnlyUser" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="matchUser">
+      <http:operation location="memberdataversion2/matchUser" />
+      <wsdl:input>
+        <mime:content part="matchUser" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="matchUser" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2userdata">
+      <http:operation location="memberdataversion2/mdsid2userdata" />
+      <wsdl:input>
+        <mime:content part="mdsid2userdata" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="mdsid2userdata" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <http:operation location="memberdataversion2/mdsid2mdsuserdata" />
+      <wsdl:input>
+        <mime:content part="mdsid2mdsuserdata" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="mdsid2mdsuserdata" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iaid2mdsid">
+      <http:operation location="memberdataversion2/iaid2mdsid" />
+      <wsdl:input>
+        <mime:content part="iaid2mdsid" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="iaid2mdsid" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="memberdataversion2">
+    <wsdl:port name="memberdataversion2HttpSoap11Endpoint" binding="ns:memberdataversion2Soap11Binding">
+      <soap:address location="http://192.168.122.1:8080/axis2/services/memberdataversion2.memberdataversion2HttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="memberdataversion2HttpSoap12Endpoint" binding="ns:memberdataversion2Soap12Binding">
+      <soap12:address location="http://192.168.122.1:8080/axis2/services/memberdataversion2.memberdataversion2HttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="memberdataversion2HttpEndpoint" binding="ns:memberdataversion2HttpBinding">
+      <http:address location="http://192.168.122.1:8080/axis2/services/memberdataversion2.memberdataversion2HttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

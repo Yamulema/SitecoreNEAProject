@@ -1,0 +1,32 @@
+﻿---
+ID: "e97cf9d2-666f-49c5-8171-55002911e918"
+Parent: "19eaa427-545f-49c9-8fd8-ab9fd98d2310"
+Template: "19eaa427-545f-49c9-8fd8-ab9fd98d2310"
+Path: /sitecore/templates/SEIUMB/Project/Web/Content Types/Carousel/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{619077D6-8E1C-4C66-AD05-5FFD8AAD4412}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171117T194724Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ca6cf9b1-96a3-4512-96fe-ba565cb2a244"
+      Hint: Time
+      Value: 8

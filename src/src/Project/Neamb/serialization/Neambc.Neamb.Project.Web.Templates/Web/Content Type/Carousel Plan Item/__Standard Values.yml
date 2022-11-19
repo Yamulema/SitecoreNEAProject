@@ -1,0 +1,22 @@
+﻿---
+ID: "ed3b65bc-b639-4a7c-a3b2-fd79f7cd5686"
+Parent: "4bddca21-c4ba-4b71-b514-07de315380f4"
+Template: "4bddca21-c4ba-4b71-b514-07de315380f4"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Carousel Plan Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2023772c-d46f-4a97-a581-0978b544312f"
+      Hint: Headline
+      Value: |
+        <h5>Enter Title Here</h5>
+        <p>Enter description here</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221012T175442Z
+    - ID: "770d3a43-9a45-4447-b272-f2e7d18a4616"
+      Hint: Description
+      Value: <h6>Insert your description here</h6>

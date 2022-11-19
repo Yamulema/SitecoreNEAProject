@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="ProductDetailPage" urlpath="insurance/seiu-group-term-life-insurance">
+      <sections>
+        <section name="ProductDetail">
+          <controls>
+            <control key="EmbeddedLink" xpath="//*[@id='product_description']/div[1]/div/p[13]/a"  />
+            <control key="DownloadLink" xpath="//*[@id='product_description']/div[1]/div/p[6]/a"  />
+            <control key="CTALink" xpath="//*[@id='service_title']/div[3]/div/p[2]/a"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

@@ -1,0 +1,44 @@
+﻿---
+ID: "b5733481-be43-4a6b-99d1-323feeb74561"
+Parent: "55051f72-f3d3-4b15-96f0-fdf2c0b9a278"
+Template: "3825fe6a-6ca1-489b-a7c9-c3b4b3b38272"
+Path: /sitecore/system/Settings/Html Editor Profiles/Rich Text Full Neamb/Snippets/Content Callouts
+DB: core
+SharedFields:
+- ID: "7dff83d2-e609-4c5f-99a9-13ec8536d65b"
+  Hint: Value
+  Value: |
+    <section class="section-promotional two-col-tout new-design">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="/"><img class="img-responsive" src="-/media/1aee09562d3a42aba52fe1ba72545e61.ashx"" alt="Callout"></a>
+              <h6><a class="text-dark" href="/">Guilt-Free Shopping.</a></h6>
+              <p>Get the free NEA Member Shopper’s Guide for exclusive shopping deals, tips and advice delivered to your inbox each month.</p>
+              <a class="arrow-link blue" href="/">Save money</a>
+            </div>
+    
+            <div class="col-md-6">
+              <a href="/"><img class="img-responsive" src="-/media/f54e0b0f097b4658945a29ab903b6bf4.ashx" alt="Callout"></a>
+              <h6><a class="text-dark" href="/">Take our quiz for a chance to win up to $500!</a></h6>
+              <p>Are you prepared if an illness or injury keeps you from working? Get info about disability insurance and enter the NEA Learn & Win Giveaway.</p>
+              <a class="arrow-link blue" href="/">Play to win $500 </a>
+            </div>
+          </div>
+        </div>
+      </section>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201027T172813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e5179b0-2a09-4624-885d-619c0e3d0390"
+      Hint: Header
+      Value: Content Callouts

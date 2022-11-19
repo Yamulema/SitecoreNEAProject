@@ -1,0 +1,46 @@
+﻿---
+ID: "87379a68-1d44-4115-bac3-c71411a64c7a"
+Parent: "473f7893-be7d-4e9e-9f88-2823cb79e36d"
+Template: "473f7893-be7d-4e9e-9f88-2823cb79e36d"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Guide Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{597F74B2-8D91-4BE9-9313-DA7045477E64}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{8A10880D-AD49-49B0-9413-E4B48F490341}" />
+        <r
+          id="{26A6B042-AF0A-4FCC-9304-47D437AC21F1}"
+          ph="body"
+          uid="{201647EB-460B-4CE9-839B-0D59EB45B173}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{E865A22D-1B5F-4C30-9C5C-448CF6C4193A}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180829T212052Z

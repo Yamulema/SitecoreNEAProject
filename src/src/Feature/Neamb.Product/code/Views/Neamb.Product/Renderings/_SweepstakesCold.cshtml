@@ -1,0 +1,27 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Product.Model
+
+@model SweepstakesBaseDTO
+@{
+    var functionOnClick = string.Format("{0};{1}", Model.GtmAction, Model.ActionClickAuthentication);
+}
+
+@if (!Model.Item.Fields[Templates.Sweepstakes.Fields.HideCTAButton].IsChecked()) {
+    <div class="row">
+        <div class="col-md-12">
+            @if (Model.IsAuthenticated)
+            {
+                <a class="btn pull-left disabled btn-cyan"  onclick="@functionOnClick">@Model.LoginText</a>
+            }
+            else
+            {
+                <a class="btn pull-left btn-cyan" onclick="@functionOnClick">@Model.LoginText</a>
+            }
+        </div>
+    </div>
+}
+<p class="m-t-sm m-b-sm text-alpha text-alpha">
+    @Html.Sitecore().Field(Templates.LandingPageCta.Fields.LoginDetails, Model.Item)
+</p>
+@Html.Partial("~/Views/Neamb.Product/Renderings/_SweepstakesPartner.cshtml", Model)

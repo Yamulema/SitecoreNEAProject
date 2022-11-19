@@ -1,0 +1,149 @@
+﻿---
+ID: "ba05a598-96f8-483c-803b-153c32530f4d"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Platinum Visa
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171127T202808Z
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finance
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8843CDE4-9E6C-421F-8830-0C87CDCAD194}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z">SEIU&nbsp;Platinum Edition Visa</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>The lowest intro rate of any SEIU credit card.</p>
+        </div>
+        <div class="panelExcerpt">
+        <div><a class="button panelBtn" href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('small module','click','directv &gt; see all discounts');">SEE ALL FINANCE</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190221T195025Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finance
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8843CDE4-9E6C-421F-8830-0C87CDCAD194}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190221T195025Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('small module','click','seiu platinum edition visa &gt; title');">SEIU&nbsp;Platinum Edition Visa</a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>The lowest intro rate of any SEIU credit card.</p>
+        </div>
+        <div class="panelExcerpt">
+        <div><a class="button panelBtn" href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('small module','click','seiu platinum edition visa &gt; button');">LEARN MORE</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171130T195234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANZAS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8843CDE4-9E6C-421F-8830-0C87CDCAD194}"></image>
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z">Tarjeta SEIU Visa Platinum E</a>dition</h3>
+        </div>
+        <p><span style="font-size: inherit; font-family: helvetica_neue;">La tasa inicial más baja todas las tarjetas de crédito seiu</span><span style="font-size: inherit;">.</span></p>
+        <p><span style="font-size: inherit;">&nbsp;</span></p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu personal loan > see all finance esp');">VER TODOS LOS Finanzas</a></div>
+        </div>
+  - Version: 2
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190221T192414Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANZAS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Triangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{8843CDE4-9E6C-421F-8830-0C87CDCAD194}" alt="hombre y mujer" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190221T192414Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" onclick="ga_event('small module','click','seiu platinum edition visa esp &gt; title');">Tarjeta SEIU Visa Platinum Edition</a></h3>
+        </div>
+        <p>La tasa inicial m&aacute;s baja todas las tarjetas de cr&eacute;dito seiu</p>
+        <p>&nbsp;</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=2BF39D2DF6B24F05A6288596EF683A9D&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu platinum edition visa esp &gt; button');">APRENDE M&Aacute;S</a></div>
+        </div>

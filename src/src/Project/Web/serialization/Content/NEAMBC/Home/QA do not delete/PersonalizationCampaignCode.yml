@@ -1,0 +1,87 @@
+﻿---
+ID: "c868c2d3-3cb1-4158-bbe1-73dd2826f0c3"
+Parent: "06147e7c-745f-4efc-a0cd-36039b16b1e6"
+Template: "ef07cbf6-e44b-45ce-b502-9a8592266ba1"
+Path: /sitecore/content/NEAMBC/Home/QA do not delete/PersonalizationCampaignCode
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7A2CA691-0015-456F-A5D5-74B9EAAE44B5}"
+              p:after="r[@uid='{C56BBA45-A2FD-4D69-94D3-4735257108A9}']"
+              s:ds="{6B4EEED0-9D5D-4A69-B2AF-0548A2B3FE61}"
+              s:id="{05207669-6225-4F0D-8513-A8A43FB21069}"
+              s:ph="/body/right-column">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{6AAF2F0F-B526-47EC-BC9F-A7F65CB26F12}"
+                    s:name="Specify name...">
+                    <conditions>
+                      <condition
+                        uid="4FBA1CE1F5F840C282E8F2DED72E9944"
+                        s:id="{5C93C6CE-2CB5-4FF6-80DD-430D5EF26F75}"
+                        s:OperatorID="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                        s:Value="abcdef" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="3B1675ADA4F943A88D45F31CDDC3972F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="6AAD0171350C43209FDFB8C35259BD4D"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{C993825B-21BB-4ECC-A522-BB1579331DE5}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T204711Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: PersonalizationCampaignCode
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: PersonalizationCampaignCode
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: PersonalizationCampaignCode
+    - ID: "fe806046-c528-4c76-9ac8-e1e31a4742b4"
+      Hint: Headline
+      Value: PersonalizationCampaignCode

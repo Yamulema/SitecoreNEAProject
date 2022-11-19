@@ -1,0 +1,1885 @@
+﻿---
+ID: "7eb064c8-e245-4196-80be-1b26ba6e561e"
+Parent: "5fcc69a9-3c7f-45ad-bf12-56869e80b711"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Insurance/SEIU Accidental Death and Dismemberment Insurance
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU AD&D Insurance Plan, issued by The Prudential Insurance Company of America, pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002300Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.</p>
+        <p>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.</p>
+        <p>
+        SEIU Accidental Death &amp; Dismemberment Insurance coverage is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-certificate contains all details including any policy exclusions, limitations and restrictions, which may apply. Contract Series 83500. CA COA# 1179, NAIC# 68241.</p>
+        <p>
+        1014202-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ ACCIDENTAL DEATH & DISMEMBERMENT INSURANCE PLAN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Coverage is issued by The Prudential Insurance Company of America.</strong></p>
+        <p>With Accidental Death &amp; Dismemberment (AD&amp;D) coverage, whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <ul>
+            <li>Optional coverage for family members (including domestic partners)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Economical rates</a></li>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <p>In addition, you get these helpful extras:</p>
+        <ul>
+            <li>Spouse and child tuition reimbursement</li>
+            <li>Common accident benefit</li>
+            <li>Seat belt/airbag benefit</li>
+            <li>Day care reimbursement</li>
+            <li>Felonious assault benefit</li>
+            <li>Return of remains benefit</li>
+        </ul>
+        <p>Download a <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">PDF rate chart</a>.</p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://mags.mercer.com/mags/enroll.html?APPLICATION=MAGS&amp;FUNCTIONALITY=ENROLLMENT&amp;FIRM=SEIU&amp;CLIENT=IMF_240&amp;OFFERING=ADD&amp;PROMOCODE=084449030303" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>The SEIU AD&amp;D Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.</p>
+        
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: HELP PROTECT YOUR FAMILY ANYTIME, ANYWHERE
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU AD&D Insurance Plan, issued by The Prudential Insurance Company of America, pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190222T163426Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.</p>
+        <p>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.</p>
+        <p>
+        SEIU Accidental Death &amp; Dismemberment Insurance coverage is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-certificate contains all details including any policy exclusions, limitations and restrictions, which may apply. Contract Series 83500. CA COA# 1179, NAIC# 68241.</p>
+        <p>
+        1014202-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ ACCIDENTAL DEATH & DISMEMBERMENT INSURANCE PLAN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Coverage is issued by The Prudential Insurance Company of America.</strong></p>
+        <p>With Accidental Death &amp; Dismemberment (AD&amp;D) coverage, whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <ul>
+            <li>Optional coverage for family members (including domestic partners)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Economical rates</a></li>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <p>In addition, you get these helpful extras:</p>
+        <ul>
+            <li>Spouse and child tuition reimbursement</li>
+            <li>Common accident benefit</li>
+            <li>Seat belt/airbag benefit</li>
+            <li>Day care reimbursement</li>
+            <li>Felonious assault benefit</li>
+            <li>Return of remains benefit</li>
+        </ul>
+        <p>Download a <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">PDF rate chart</a>.</p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://seiumb.memberenroll.com/index.php?Position=1&amp;Products=Accidental+Death+and+Dismemberment&amp;id=[mdsid_afinium]&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>The SEIU AD&amp;D Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.</p>
+        
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: HELP PROTECT YOUR FAMILY ANYTIME, ANYWHERE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190222T063400Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+  - Version: 3
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU AD&D Insurance Plan, issued by The Prudential Insurance Company of America, pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190821T142220Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage is not available in Alaska, New Hampshire, Utah, or Puerto Rico</p>
+        <p>NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.</p>
+        <p>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.</p>
+        <p>
+        SEIU Accidental Death &amp; Dismemberment Insurance coverage is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-certificate contains all details including any policy exclusions, limitations and restrictions, which may apply. Contract Series 83500. CA COA# 1179, NAIC# 68241.</p>
+        <p>
+        1014202-00001-00</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ ACCIDENTAL DEATH & DISMEMBERMENT INSURANCE PLAN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Coverage is issued by The Prudential Insurance Company of America.</strong></p>
+        <p>With Accidental Death &amp; Dismemberment (AD&amp;D) coverage, whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <ul>
+            <li>Optional coverage for family members (including domestic partners)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Economical rates</a></li>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <p>In addition, you get these helpful extras:</p>
+        <ul>
+            <li>Spouse and child tuition reimbursement</li>
+            <li>Common accident benefit</li>
+            <li>Seat belt/airbag benefit</li>
+            <li>Day care reimbursement</li>
+            <li>Felonious assault benefit</li>
+            <li>Return of remains benefit</li>
+        </ul>
+        <p>Download a <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">PDF rate chart</a>.</p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>The SEIU AD&amp;D Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.</p>
+        
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: HELP PROTECT YOUR FAMILY ANYTIME, ANYWHERE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190821T062200Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU AD&D Insurance Plan, issued by The Prudential Insurance Company of America, pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200410T181438Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage is not available in all states.</p>
+        <p>NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.</p>
+        <p>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.</p>
+        <p>
+        SEIU Accidental Death &amp; Dismemberment Insurance coverage is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-certificate contains all details including any policy exclusions, limitations and restrictions, which may apply. Contract Series 83500. CA COA# 1179, NAIC# 68241.</p>
+        <p>
+        1014202-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ ACCIDENTAL DEATH & DISMEMBERMENT INSURANCE PLAN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Coverage is issued by The Prudential Insurance Company of America.</strong></p>
+        <p>With Accidental Death &amp; Dismemberment (AD&amp;D) coverage, whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <p><strong>Please note:</strong> AD&amp;D coverage may not be the right coverage for sickness or disease risks. It does
+        not protect you in the event of sickness or death resulting from exposure to the Coronavirus
+        or complications from Covid-19. For coverage for these types of risks please look into the
+        <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">SEIU℠ Group Term Life Insurance Plan</a>.</p>
+        <ul>
+            <li>Optional coverage for family members (including domestic partners)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Economical rates</a></li>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <p>In addition, you get these helpful extras:</p>
+        <ul>
+            <li>Spouse and child tuition reimbursement</li>
+            <li>Common accident benefit</li>
+            <li>Seat belt/airbag benefit</li>
+            <li>Day care reimbursement</li>
+            <li>Felonious assault benefit</li>
+            <li>Return of remains benefit</li>
+        </ul>
+        <p>Download a <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">PDF rate chart</a>.</p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>The SEIU AD&amp;D Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.</p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: HELP PROTECT YOUR FAMILY ANYTIME, ANYWHERE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200410T101400Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU AD&D Insurance Plan, issued by The Prudential Insurance Company of America, pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T170438Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Coverage is not available in all states.</p>
+        <p>NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.</p>
+        <p>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.</p>
+        <p>
+        SEIU Accidental Death &amp; Dismemberment Insurance coverage is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-certificate contains all details including any policy exclusions, limitations and restrictions, which may apply. Contract Series 83500. CA COA# 1179, NAIC# 68241.</p>
+        <p>
+        1033761-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ ACCIDENTAL DEATH & DISMEMBERMENT INSURANCE PLAN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Coverage is issued by The Prudential Insurance Company of America.</strong></p>
+        <p>With Accidental Death &amp; Dismemberment (AD&amp;D) coverage, whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <p><strong>Please note:</strong> AD&amp;D coverage may not be the right coverage for sickness or disease risks. It does
+        not protect you in the event of sickness or death resulting from exposure to the Coronavirus
+        or complications from Covid-19. For coverage for these types of risks please look into the
+        <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">SEIU℠ Group Term Life Insurance Plan</a>.</p>
+        <ul>
+            <li>Optional coverage for family members (including domestic partners)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Economical rates</a></li>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <p>In addition, you get these helpful extras:</p>
+        <ul>
+            <li>Spouse and child tuition reimbursement</li>
+            <li>Common accident benefit</li>
+            <li>Seat belt/airbag benefit</li>
+            <li>Day care reimbursement</li>
+            <li>Felonious assault benefit</li>
+            <li>Return of remains benefit</li>
+        </ul>
+        <p>Download a <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">PDF rate chart</a>.</p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://seiumb.memberenroll.com/parse.php" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>The SEIU AD&amp;D Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.</p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: HELP PROTECT YOUR FAMILY ANYTIME, ANYWHERE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T170438Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e2caa321-296f-4b2e-9140-7fe8118c0117"
+      Hint: Post Data
+      Value: |
+        EncryptedMDS:[afinium]
+        Promocode:088792010202
+        Product:2
+        Cellcode:[cellcode]
+        Campcode:[campcode]
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU AD&D Insurance Plan, issued by The Prudential Insurance Company of America, pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210331T184234Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The Products issued by The Prudential Insurance Company of America may not be available in all states.</p>
+        <p>SEIU has retained Members United Insurance Agency to manage Insurance Programs for its Members.  Members United Insurance Agency is not affiliated with the Prudential Insurance Company of America.</p>
+        <p>NY AD&amp;D Disclosure:<br />
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.</p>
+        <p>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.</p>
+        <p>
+        SEIU Accidental Death &amp; Dismemberment Insurance coverage is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-certificate contains all details including any policy exclusions, limitations and restrictions, which may apply. Contract Series 83500. CA COA# 1179, NAIC# 68241.</p>
+        <p>
+        1047011-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ ACCIDENTAL DEATH & DISMEMBERMENT INSURANCE PLAN
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Coverage is issued by The Prudential Insurance Company of America.</strong></p>
+        <p>With Accidental Death &amp; Dismemberment (AD&amp;D) coverage, whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <p><strong>Please note:</strong> AD&amp;D coverage may not be the right coverage for sickness or disease risks. It does
+        not protect you in the event of sickness or death resulting from exposure to the Coronavirus
+        or complications from Covid-19. For coverage for these types of risks please look into the
+        <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">SEIU℠ Group Term Life Insurance Plan</a>.</p>
+        <ul>
+            <li>Optional coverage for family members (including domestic partners)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Economical rates</a></li>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <p>In addition, you get these helpful extras:</p>
+        <ul>
+            <li>Spouse and child tuition reimbursement</li>
+            <li>Common accident benefit</li>
+            <li>Seat belt/airbag benefit</li>
+            <li>Day care reimbursement</li>
+            <li>Felonious assault benefit</li>
+            <li>Return of remains benefit</li>
+        </ul>
+        <p>Download a <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">PDF rate chart</a>.</p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://seiumb.memberenroll.com/parse.php" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>The SEIU AD&amp;D Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.</p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: HELP PROTECT YOUR FAMILY ANYTIME, ANYWHERE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210331T184234Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e2caa321-296f-4b2e-9140-7fe8118c0117"
+      Hint: Post Data
+      Value: |
+        EncryptedMDS:[afinium]
+        Promocode:088792010202
+        Product:2
+        Cellcode:[cellcode]
+        Campcode:[campcode]
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+  - Version: 7
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="PRINT AN APPLICATION (PDF)" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: The SEIU AD&D Insurance Plan, issued by The Prudential Insurance Company of America, pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T175904Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The Products issued by The Prudential Insurance Company of America may not be available in all states.</p>
+        <p>SEIU has retained Members United Insurance Agency to manage Insurance Programs for its Members.  Members United Insurance Agency is not affiliated with The Prudential Insurance Company of America.</p>
+        <p>NY AD&amp;D Disclosure:<br>
+        This policy provides ACCIDENT insurance only. It does NOT provide basic hospital, basic medical or major medical insurance as defined by The New York Department of Financial Services.</p>
+        <p>
+        IMPORTANT NOTICE - THIS POLICY DOES NOT PROVIDE COVERAGE FOR SICKNESS.</p>
+        <p>
+        SEIU Accidental Death &amp; Dismemberment Insurance coverage is issued by The Prudential Insurance Company of America, Newark, NJ. The Booklet-certificate contains all details including any policy exclusions, limitations and restrictions, which may apply. Contract Series 83500. CA COA #1179. NAIC #68241.</p>
+        <p>
+        1047011-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Current policyholders:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account');" target="_blank">Manage Your Account ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ ACCIDENTAL DEATH & DISMEMBERMENT INSURANCE PLAN
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{9FE82BA4-28B7-4C0E-AD2A-69D415726893}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{9FE82BA4-28B7-4C0E-AD2A-69D415726893}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>Coverage is issued by The Prudential Insurance Company of America.</strong></p>
+        <p>With Accidental Death &amp; Dismemberment (AD&amp;D) coverage, whether you&rsquo;re home or away, you know that you and your loved ones are covered in case of an accident. AD&amp;D coverage may be appropriate for members of all ages.</p>
+        <p><strong>Please note:</strong> AD&amp;D coverage may not be the right coverage for sickness or disease risks. It does
+        not protect you in the event of sickness or death resulting from exposure to the Coronavirus
+        or complications from Covid-19. For coverage for these types of risks please look into the
+        <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">SEIU℠ Group Term Life Insurance Plan</a>.</p>
+        <ul>
+            <li>Optional coverage for family members (including domestic partners)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Economical rates</a></li>
+            <li>Guaranteed acceptance&mdash;no medical exams</li>
+            <li>Coverage amounts available from $25,000 to $250,000, in $25,000 increments</li>
+        </ul>
+        <p>In addition, you get these helpful extras:</p>
+        <ul>
+            <li>Spouse and child tuition reimbursement</li>
+            <li>Common accident benefit</li>
+            <li>Seat belt/airbag benefit</li>
+            <li>Day care reimbursement</li>
+            <li>Felonious assault benefit</li>
+            <li>Return of remains benefit</li>
+        </ul>
+        <p>Download a <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">PDF rate chart</a>.</p>
+        <p><strong>Have questions?</strong><br />
+        We&rsquo;re here to help. See our <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Frequently Asked Questions</a> or contact us at 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="GET A QUOTE OR ENROLL NOW" linktype="external" url="https://seiumb.memberenroll.com/parse.php" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>The SEIU AD&amp;D Insurance Plan, <strong>issued by The Prudential Insurance Company of America,</strong> pays a benefit to you or your beneficiaries if you die or experience severe injuries as the result of an accident.</p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: HELP PROTECT YOUR FAMILY ANYTIME, ANYWHERE
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210602T175904Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: You must be signed in to enroll. Please click above to register or sign in.
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e2caa321-296f-4b2e-9140-7fe8118c0117"
+      Hint: Post Data
+      Value: |
+        EncryptedMDS:[afinium]
+        Promocode:088792010202
+        Product:2
+        Cellcode:[cellcode]
+        Campcode:[campcode]
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Accidental Death & Dismemberment Insurance Plan
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172644Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+                        <p>Divulgación de AD&amp;D de Nueva York:<br>
+        Esta política proporciona exclusivamente un seguro de ACCIDENTE. NO proporciona un seguro básico de hospital, cobertura básica médica o cobertura principal médica según lo define el New York State Department of Financial Services.</p>
+        
+        <p><br>
+        AVISO IMPORTANTE: ESTA PÓLIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        
+        
+        <p><br>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></p>
+        
+        <p><br>
+        La cobertura de Seguro por Muerte Accidental y Desmembramiento de SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, incluidas las exclusiones, limitaciones y restricciones de la póliza que puedan aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        
+        <p><br>
+         1014202-00001-00</p>
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account es');" target="_blank">Administren su cuenta ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con el Plan de Seguro por Muerte Accidental y Desmembramiento SEIU (AD&amp;D), independientemente de que usted est&eacute; en casa o fuera, usted tiene la seguridad de que sus seres queridos est&aacute;n cubiertos en caso de accidente. La cobertura AD&amp;D es apta para miembros de todas las edades.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas parejas de hecho)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtiene los siguientes beneficios adicionales:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;cula para c&oacute;nyuge e hijos</li>
+            <li>Beneficios por accidentes comunes</li>
+            <li>Beneficio de cintur&oacute;n de seguridad/airbag</li>
+            <li>Reembolso de guarder&iacute;a</li>
+            <li>Beneficio por ataques criminales</li>
+            <li>Beneficio de devoluci&oacute;n de restos</li>
+        </ul>
+        <p>Descargue una <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">tabla de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="https://mags.mercer.com/mags/enroll.html?APPLICATION=MAGS&amp;FUNCTIONALITY=ENROLLMENT&amp;FIRM=SEIU&amp;CLIENT=IMF_240&amp;OFFERING=ADD&amp;PROMOCODE=084449030303" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AYUDE A PROTEGER A SU FAMILIA EN CUALQUIER MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 2
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190222T163350Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+                        <p>Divulgación de AD&amp;D de Nueva York:<br>
+        Esta política proporciona exclusivamente un seguro de ACCIDENTE. NO proporciona un seguro básico de hospital, cobertura básica médica o cobertura principal médica según lo define el New York State Department of Financial Services.</p>
+        
+        <p><br>
+        AVISO IMPORTANTE: ESTA PÓLIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        
+        
+        <p><br>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la información de mantenimiento de la póliza, estarán en inglés. Los materiales adicionales también pueden estar en inglés.</em></p>
+        
+        <p><br>
+        La cobertura de Seguro por Muerte Accidental y Desmembramiento de SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, incluidas las exclusiones, limitaciones y restricciones de la póliza que puedan aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        
+        <p><br>
+         1014202-00001-00</p>
+        
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account es');" target="_blank">Administren su cuenta ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con el Plan de Seguro por Muerte Accidental y Desmembramiento SEIU (AD&amp;D), independientemente de que usted est&eacute; en casa o fuera, usted tiene la seguridad de que sus seres queridos est&aacute;n cubiertos en caso de accidente. La cobertura AD&amp;D es apta para miembros de todas las edades.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas parejas de hecho)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtiene los siguientes beneficios adicionales:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;cula para c&oacute;nyuge e hijos</li>
+            <li>Beneficios por accidentes comunes</li>
+            <li>Beneficio de cintur&oacute;n de seguridad/airbag</li>
+            <li>Reembolso de guarder&iacute;a</li>
+            <li>Beneficio por ataques criminales</li>
+            <li>Beneficio de devoluci&oacute;n de restos</li>
+        </ul>
+        <p>Descargue una <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">tabla de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="https://seiumb.memberenroll.com/index.php?Position=1&amp;Products=Accidental+Death+and+Dismemberment&amp;id=[mdsid_afinium]&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AYUDE A PROTEGER A SU FAMILIA EN CUALQUIER MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190221T203300Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 3
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190821T142258Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>La cobertura no est&aacute; disponible en Alaska, New Hampshire, Utah, o Puerto Rico</p>
+        <p>Divulgaci&oacute;n de AD&amp;D de Nueva York:<br />
+        Esta pol&iacute;tica proporciona exclusivamente un seguro de ACCIDENTE. NO proporciona un seguro b&aacute;sico de hospital, cobertura b&aacute;sica m&eacute;dica o cobertura principal m&eacute;dica seg&uacute;n lo define el New York State Department of Financial Services.</p>
+        <p>
+        AVISO IMPORTANTE: ESTA P&Oacute;LIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        <p>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <p>
+        La cobertura de Seguro por Muerte Accidental y Desmembramiento de SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, incluidas las exclusiones, limitaciones y restricciones de la p&oacute;liza que puedan aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>
+        1014202-00001-00</p>
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account es');" target="_blank">Administren su cuenta ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con el Plan de Seguro por Muerte Accidental y Desmembramiento SEIU (AD&amp;D), independientemente de que usted est&eacute; en casa o fuera, usted tiene la seguridad de que sus seres queridos est&aacute;n cubiertos en caso de accidente. La cobertura AD&amp;D es apta para miembros de todas las edades.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas parejas de hecho)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtiene los siguientes beneficios adicionales:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;cula para c&oacute;nyuge e hijos</li>
+            <li>Beneficios por accidentes comunes</li>
+            <li>Beneficio de cintur&oacute;n de seguridad/airbag</li>
+            <li>Reembolso de guarder&iacute;a</li>
+            <li>Beneficio por ataques criminales</li>
+            <li>Beneficio de devoluci&oacute;n de restos</li>
+        </ul>
+        <p>Descargue una <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">tabla de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AYUDE A PROTEGER A SU FAMILIA EN CUALQUIER MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190820T222200Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 4
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200410T183614Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Cobertura no est&aacute; disponible en todos los estados.</p>
+        <p>Divulgaci&oacute;n de AD&amp;D de Nueva York:<br />
+        Esta pol&iacute;tica proporciona exclusivamente un seguro de ACCIDENTE. NO proporciona un seguro b&aacute;sico de hospital, cobertura b&aacute;sica m&eacute;dica o cobertura principal m&eacute;dica seg&uacute;n lo define el New York State Department of Financial Services.</p>
+        <p>
+        AVISO IMPORTANTE: ESTA P&Oacute;LIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        <p>
+        <em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <p>
+        La cobertura de Seguro por Muerte Accidental y Desmembramiento de SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El Certificado-Folleto contiene todos los detalles, incluidas las exclusiones, limitaciones y restricciones de la p&oacute;liza que puedan aplicarse. Serie del Contrato: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p>
+        1014202-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Asegurados actuales:<br>
+        <a href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance > seiu accidental death and dismemberment insurance plan > manage your account es');" target="_blank">Administren su cuenta ›</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con el Plan de Seguro por Muerte Accidental y Desmembramiento SEIU (AD&amp;D), independientemente de que usted est&eacute; en casa o fuera, usted tiene la seguridad de que sus seres queridos est&aacute;n cubiertos en caso de accidente. La cobertura AD&amp;D es apta para miembros de todas las edades.</p>
+        <p><strong>Tenga en cuenta</strong>: la cobertura de AD&amp;D puede no ser la cobertura correcta para enfermedades o riesgos de enfermedades. No protege en caso de enfermedad o muerte como resultado de la exposici&oacute;n al coronavirus o complicaciones de Covid-19. Para cobertura de este tipo de riesgos, consulte el <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">Plan de Seguro de Vida a T&eacute;rmino Grupal de SEIU℠</a>.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas parejas de hecho)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtiene los siguientes beneficios adicionales:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;cula para c&oacute;nyuge e hijos</li>
+            <li>Beneficios por accidentes comunes</li>
+            <li>Beneficio de cintur&oacute;n de seguridad/airbag</li>
+            <li>Reembolso de guarder&iacute;a</li>
+            <li>Beneficio por ataques criminales</li>
+            <li>Beneficio de devoluci&oacute;n de restos</li>
+        </ul>
+        <p>Descargue una <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">tabla de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos aqu&iacute; para ayudarlo. Consulte nuestras <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">Preguntas Frecuentes</a> o comun&iacute;quese con nosotros al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: AYUDE A PROTEGER A SU FAMILIA EN CUALQUIER MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200410T023600Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 5
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200413T170953Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>La cobertura no est&aacute; disponible en todos los estados.</p>
+        <p>Declaraci&oacute;n sobre AD&amp;D en NY:</p>
+        <p>Esta p&oacute;liza s&oacute;lo proporciona seguro por ACCIDENTES. NO proporciona seguro hospitalario b&aacute;sico, seguro m&eacute;dico b&aacute;sico ni seguro m&eacute;dico mayor tal como lo define el Departamento de Servicios Financieros de Nueva York.</p>
+        <p>AVISO IMPORTANTE: ESTA P&Oacute;LIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        <p>La cobertura por muerte accidental y desmembramiento de la SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El cuadernillo-certificado contiene todos los detalles del plan, incluidas las exclusiones, limitaciones y restricciones de la p&oacute;liza que correspondan. Serie contractual: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n sobre mantenimiento de p&oacute;lizas, ser&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <p>1033761-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Titulares actuales de p&oacute;lizas:<br />
+        <a rel="noopener noreferrer" href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu accidental death and dismemberment insurance plan &gt; manage your account es');" target="_blank">Gestione su cuenta &rsaquo;</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con la cobertura por muerte accidental y desmembramiento (AD&amp;D), ya sea que est&eacute; en su casa o de viaje, sabe que usted y sus seres queridos est&aacute;n cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <p><strong>Tenga en cuenta</strong>: La cobertura por AD&amp;D no es correcta para riesgos de enfermedad. No le protege en el caso de enfermedad o muerte causada por la exposici&oacute;n al Coronavirus o complicaciones causadas por el Covid-19. Para obtener cobertura para este tipo de riesgos, vea el <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">plan de seguro de vida temporal grupal de la SEIU℠</a>.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas las parejas dom&eacute;sticas)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dico</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtendr&aacute; estos extras &uacute;tiles:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;culas del c&oacute;nyuge e hijos</li>
+            <li>Beneficio por accidentes comunes</li>
+            <li>Beneficio por cintur&oacute;n de seguridad/bolsa de aire</li>
+            <li>Reembolso por gastos de guarder&iacute;a</li>
+            <li>Beneficio por ataque criminal</li>
+            <li>Repatriaci&oacute;n de restos</li>
+        </ul>
+        <p>Descargar un <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">cuadro de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos para ayudarle. Vea nuestra secci&oacute;n de <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">preguntas frecuentes</a> o ll&aacute;menos al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PROTEJA A SU FAMILIA EN TODO MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200413T090900Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 6
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200429T151742Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>La cobertura no est&aacute; disponible en todos los estados.</p>
+        <p>Declaraci&oacute;n sobre AD&amp;D en NY:</p>
+        <p>Esta p&oacute;liza s&oacute;lo proporciona seguro por ACCIDENTES. NO proporciona seguro hospitalario b&aacute;sico, seguro m&eacute;dico b&aacute;sico ni seguro m&eacute;dico mayor tal como lo define el Departamento de Servicios Financieros de Nueva York.</p>
+        <p>AVISO IMPORTANTE: ESTA P&Oacute;LIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        <p>La cobertura por muerte accidental y desmembramiento de la SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El cuadernillo-certificado contiene todos los detalles del plan, incluidas las exclusiones, limitaciones y restricciones de la p&oacute;liza que correspondan. Serie contractual: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n sobre mantenimiento de p&oacute;lizas, ser&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <p>1033761-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Titulares actuales de p&oacute;lizas:<br />
+        <a rel="noopener noreferrer" href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu accidental death and dismemberment insurance plan &gt; manage your account es');" target="_blank">Gestione su cuenta &rsaquo;</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con la cobertura por muerte accidental y desmembramiento (AD&amp;D), ya sea que est&eacute; en su casa o de viaje, sabe que usted y sus seres queridos est&aacute;n cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <p><strong>Tenga en cuenta</strong>: La cobertura por AD&amp;D no es correcta para riesgos de enfermedad. No le protege en el caso de enfermedad o muerte causada por la exposici&oacute;n al Coronavirus o complicaciones causadas por el Covid-19. Para obtener cobertura para este tipo de riesgos, vea el <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">plan de seguro de vida temporal grupal SEIU℠</a>.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas las parejas dom&eacute;sticas)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtendr&aacute; estos extras &uacute;tiles:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;culas del c&oacute;nyuge e hijos</li>
+            <li>Beneficio por accidentes comunes</li>
+            <li>Beneficio por cintur&oacute;n de seguridad/bolsa de aire</li>
+            <li>Reembolso por gastos de guarder&iacute;a</li>
+            <li>Beneficio por ataque criminal</li>
+            <li>Repatriaci&oacute;n de restos</li>
+        </ul>
+        <p>Descargar un <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">cuadro de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos para ayudarle. Vea nuestra secci&oacute;n de <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">preguntas frecuentes</a> o ll&aacute;menos al 1-844-836-7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PROTEJA A SU FAMILIA EN TODO MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200429T151742Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 7
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200501T145122Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>La cobertura no est&aacute; disponible en todos los estados.</p>
+        <p>Declaraci&oacute;n sobre AD&amp;D en NY:</p>
+        <p>Esta p&oacute;liza s&oacute;lo proporciona seguro por ACCIDENTES. NO proporciona seguro hospitalario b&aacute;sico, seguro m&eacute;dico b&aacute;sico ni seguro m&eacute;dico mayor tal como lo define el Departamento de Servicios Financieros de Nueva York.</p>
+        <p>AVISO IMPORTANTE: ESTA P&Oacute;LIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        <p>La cobertura por muerte accidental y desmembramiento de la SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El cuadernillo-certificado contiene todos los detalles del plan, incluidas las exclusiones, limitaciones y restricciones de la p&oacute;liza que correspondan. Serie contractual: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n sobre mantenimiento de p&oacute;lizas, ser&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <p>1033761-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Titulares actuales de p&oacute;lizas:<br />
+        <a rel="noopener noreferrer" href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu accidental death and dismemberment insurance plan &gt; manage your account es');" target="_blank">Gestione su cuenta &rsaquo;</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con la cobertura por muerte accidental y desmembramiento (AD&amp;D), ya sea que est&eacute; en su casa o de viaje, sabe que usted y sus seres queridos est&aacute;n cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <p><strong>Tenga en cuenta</strong>: La cobertura por AD&amp;D no es correcta para riesgos de enfermedad. No le protege en el caso de enfermedad o muerte causada por la exposici&oacute;n al Coronavirus o complicaciones causadas por el Covid-19. Para obtener cobertura para este tipo de riesgos, vea el <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">plan de seguro de vida temporal grupal SEIU℠</a>.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas las parejas dom&eacute;sticas)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtendr&aacute; estos extras &uacute;tiles:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;culas del c&oacute;nyuge e hijos</li>
+            <li>Beneficio por accidentes comunes</li>
+            <li>Beneficio por cintur&oacute;n de seguridad/bolsa de aire</li>
+            <li>Reembolso por gastos de guarder&iacute;a</li>
+            <li>Beneficio por ataque criminal</li>
+            <li>Repatriaci&oacute;n de restos</li>
+        </ul>
+        <p>Descargar un <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">cuadro de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos para ayudarle. Vea nuestra secci&oacute;n de <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">preguntas frecuentes</a> o ll&aacute;menos al 1&#8209;844&#8209;836&#8209;7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PROTEJA A SU FAMILIA EN TODO MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200501T145122Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 8
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200512T204201Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que los productos emitidos por The Prudential Insurance Company of America no est&eacute;n disponibles en todos los estados.</p>
+        <p>La SEIU ha conservado a Members United Insurance Agency para que administre los programas de seguros para sus miembros. Members United Insurance Agency no est&aacute; afiliada a The Prudential Insurance Company of America.</p>
+        <p>Declaraci&oacute;n sobre AD&amp;D en NY:</p>
+        <p>Esta p&oacute;liza s&oacute;lo proporciona seguro por ACCIDENTES. NO proporciona seguro hospitalario b&aacute;sico, seguro m&eacute;dico b&aacute;sico ni seguro m&eacute;dico mayor tal como lo define el Departamento de Servicios Financieros de Nueva York.</p>
+        <p>AVISO IMPORTANTE: ESTA P&Oacute;LIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        <p>La cobertura por muerte accidental y desmembramiento de la SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El cuadernillo-certificado contiene todos los detalles del plan, incluidas las exclusiones, limitaciones y restricciones de la p&oacute;liza que correspondan. Serie contractual: 83500. CA COA# 1179. NAIC# 68241.</p>
+        <p><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n sobre mantenimiento de p&oacute;lizas, ser&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <p>1047011-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Titulares actuales de p&oacute;lizas:<br />
+        <a rel="noopener noreferrer" href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu accidental death and dismemberment insurance plan &gt; manage your account es');" target="_blank">Gestione su cuenta &rsaquo;</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con la cobertura por muerte accidental y desmembramiento (AD&amp;D), ya sea que est&eacute; en su casa o de viaje, sabe que usted y sus seres queridos est&aacute;n cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <p><strong>Tenga en cuenta</strong>: La cobertura por AD&amp;D no es correcta para riesgos de enfermedad. No le protege en el caso de enfermedad o muerte causada por la exposici&oacute;n al Coronavirus o complicaciones causadas por el Covid-19. Para obtener cobertura para este tipo de riesgos, vea el <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU℠</a>.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas las parejas dom&eacute;sticas)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtendr&aacute; estos extras &uacute;tiles:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;culas del c&oacute;nyuge e hijos</li>
+            <li>Beneficio por accidentes comunes</li>
+            <li>Beneficio por cintur&oacute;n de seguridad/bolsa de aire</li>
+            <li>Reembolso por gastos de guarder&iacute;a</li>
+            <li>Beneficio por ataque criminal</li>
+            <li>Repatriaci&oacute;n de restos</li>
+        </ul>
+        <p>Descargar un <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">cuadro de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos para ayudarle. Vea nuestra secci&oacute;n de <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">preguntas frecuentes</a> o ll&aacute;menos al 1‑844‑836‑7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PROTEJA A SU FAMILIA EN TODO MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200512T204201Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+  - Version: 9
+    Fields:
+    - ID: "051bdc03-f2bb-4e22-8a55-5243538cda9a"
+      Hint: Link
+      Value: |
+        <link text="IMPRIMIR UNA APLICACIÓN" linktype="external" url="" anchor="" target="_blank" />
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: El Plan de Seguro por Muerte Accidental y Desmembramiento, emitido por The Prudential Insurance Company of America, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{667EFA1A-2F0A-4884-8582-4B6DEC1BEB6A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T180319Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>Es posible que los productos emitidos por The Prudential Insurance Company of America no est&eacute;n disponibles en todos los estados.</p>
+        <p>La SEIU ha conservado a Members United Insurance Agency para que administre los programas de seguros para sus miembros. Members United Insurance Agency no est&aacute; afiliada a The Prudential Insurance Company of America.</p>
+        <p>Declaraci&oacute;n sobre AD&amp;D en NY:</p>
+        <p>Esta p&oacute;liza s&oacute;lo proporciona seguro por ACCIDENTES. NO proporciona seguro hospitalario b&aacute;sico, seguro m&eacute;dico b&aacute;sico ni seguro m&eacute;dico mayor tal como lo define el Departamento de Servicios Financieros de Nueva York.</p>
+        <p>AVISO IMPORTANTE: ESTA P&Oacute;LIZA NO PROPORCIONA COBERTURA POR ENFERMEDAD.</p>
+        <p>La cobertura por muerte accidental y desmembramiento de la SEIU es emitida por The Prudential Insurance Company of America, Newark, NJ. El cuadernillo-certificado contiene todos los detalles del plan, incluidas las exclusiones, limitaciones y restricciones de la p&oacute;liza que correspondan. Serie contractual: 83500. CA COA #1179. NAIC #68241.</p>
+        <p><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n sobre mantenimiento de p&oacute;lizas, ser&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></p>
+        <p>1047011-00001-00</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        <p>Titulares actuales de p&oacute;lizas:<br />
+        <a rel="noopener noreferrer" href="http://www.mercermyaccount.com/" onclick="ga_event('insurance', 'click', 'insurance &gt; seiu accidental death and dismemberment insurance plan &gt; manage your account es');" target="_blank">Gestione su cuenta &rsaquo;</a></p>
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para inscribirse. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PLAN DE SEGURO POR MUERTE ACCIDENTAL Y DESMEMBRAMIENTO SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>La cobertura es emitida por The Prudential Insurance Company of America.</strong></p>
+        <p>Con la cobertura por muerte accidental y desmembramiento (AD&amp;D), ya sea que est&eacute; en su casa o de viaje, sabe que usted y sus seres queridos est&aacute;n cubiertos en caso de un accidente. La cobertura por AD&amp;D puede ser adecuada para miembros de todas las edades.</p>
+        <p><strong>Tenga en cuenta</strong>: La cobertura por AD&amp;D no es correcta para riesgos de enfermedad. No le protege en el caso de enfermedad o muerte causada por la exposici&oacute;n al Coronavirus o complicaciones causadas por el Covid-19. Para obtener cobertura para este tipo de riesgos, vea el <a href="~/link.aspx?_id=17E686AF84FC4352B44F989E67B6DB10&amp;_z=z">Plan de Seguro de Vida a T&eacute;rmino Grupal SEIU℠</a>.</p>
+        <ul>
+            <li>Cobertura opcional para familiares (incluidas las parejas dom&eacute;sticas)</li>
+            <li><a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">Tarifas econ&oacute;micas</a></li>
+            <li>Aceptaci&oacute;n garantizada, sin ex&aacute;menes m&eacute;dicos</li>
+            <li>Montos de cobertura disponibles desde $25,000 hasta $250,000, en incrementos de $25,000</li>
+        </ul>
+        <p>Adem&aacute;s, obtendr&aacute; estos extras &uacute;tiles:</p>
+        <ul>
+            <li>Reembolso de matr&iacute;culas del c&oacute;nyuge e hijos</li>
+            <li>Beneficio por accidentes comunes</li>
+            <li>Beneficio por cintur&oacute;n de seguridad/bolsa de aire</li>
+            <li>Reembolso por gastos de guarder&iacute;a</li>
+            <li>Beneficio por ataque criminal</li>
+            <li>Repatriaci&oacute;n de restos</li>
+        </ul>
+        <p>Descargar un <a href="-/media/06FCE17149E143E79BBE20F4CC321278.ashx">cuadro de tarifas en PDF</a>.</p>
+        <p><strong>&iquest;Tiene preguntas?</strong><br />
+        Estamos para ayudarle. Vea nuestra secci&oacute;n de <a href="~/link.aspx?_id=122FC3B041EB4A65ACC92B02ED003AD5&amp;_z=z">preguntas frecuentes</a> o ll&aacute;menos al 1‑844‑836‑7348.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{0478D0E6-B3CC-4B1F-954C-383C95E58910}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="OBTENER UNA COTIZACIÓN" linktype="external" url="http://seiumb.memberenroll.com/index.php?Position=1&amp;id=[mdsid_afinium]&amp;pr=2&amp;cellcode=[cellcode]&amp;campcode=[campcode]&amp;promocode=088792010202" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: |
+        <p>El Plan de Seguro por Muerte Accidental y Desmembramiento,<strong> emitido por The Prudential Insurance Company of America</strong>, le paga un beneficio a usted o sus beneficiarios si usted fallece o experimenta lesiones graves como resultado de un accidente.<br />
+        <br />
+        <span style="font-size: 9px;"><em>Las futuras comunicaciones escritas de The Prudential Insurance Company of America, incluidos los acuerdos contractuales y la informaci&oacute;n de mantenimiento de la p&oacute;liza, estar&aacute;n en ingl&eacute;s. Los materiales adicionales tambi&eacute;n pueden estar en ingl&eacute;s.</em></span></p>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Type: checkbox
+      Value: 0
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: PROTEJA A SU FAMILIA EN TODO MOMENTO Y EN CUALQUIER LUGAR
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210602T180319Z
+    - ID: "dffff6e4-6cce-4e3d-9fa7-f94c3d8dc2fc"
+      Hint: Type
+      Value: "{928EAC32-49A4-4FCA-8769-5F02BC7671F6}"
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Plan de Seguro por Muerte Accidental y Desmembramiento SEIU

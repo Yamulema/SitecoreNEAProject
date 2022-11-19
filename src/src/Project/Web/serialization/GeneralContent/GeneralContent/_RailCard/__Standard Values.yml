@@ -1,0 +1,34 @@
+﻿---
+ID: "6366339a-02a1-423a-918a-0c7ceeabd423"
+Parent: "af95ccc9-5805-4c53-9def-eb6362539b1f"
+Template: "af95ccc9-5805-4c53-9def-eb6362539b1f"
+Path: /sitecore/templates/SEIUMB/Feature/GeneralContent/_RailCard/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171212T165735Z
+    - ID: "47f80d79-005e-4bd5-83e4-e203022dc1ae"
+      Hint: Icon
+      Value: |
+        <image mediaid="{0D74EA11-A243-432C-BACA-C75E8649DAEF}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "91e9a811-1d9d-4226-aebe-6e4c888b0cd1"
+      Hint: Body
+      Value: |
+        <p>Experience entertainment like never before with a special bonus for SEIU members.</p>
+        <p><a class="button panelBtn" href="#">TEST BUTTON</a></p>
+    - ID: "9e215c0a-7e77-45da-887a-73729e24302f"
+      Hint: Title
+      Value: Insert your title here
+    - ID: "f4a03b66-8c14-4c94-a560-4f74c9e62973"
+      Hint: Image
+      Value: |
+        <image mediaid="{A2705C26-14DA-4460-A90D-5351977E5E5F}" />

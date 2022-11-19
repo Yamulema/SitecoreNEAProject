@@ -1,0 +1,103 @@
+﻿---
+ID: "18357f20-26ec-49d2-a135-41840c033001"
+Parent: "15547760-e485-446c-b7c0-98a660fd577e"
+Template: "15547760-e485-446c-b7c0-98a660fd577e"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Article/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{AD0B0008-7CD4-4E5F-B119-0834E422F9CA}" />
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{E82B0744-4278-483F-A712-061476662241}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{BF0D01CA-988F-4E37-AD28-A0417EF0F314}" />
+        <r
+          id="{67175123-EC42-4C98-B086-67AB95B30DB1}"
+          ph="body"
+          uid="{C4066C27-B785-4D17-8C36-59774463571B}" />
+        <r
+          id="{34E02531-2BAF-4365-80B4-23C208A8E826}"
+          ph="body"
+          uid="{2C75929F-08B8-402B-A007-4FB76DCBD116}" />
+        <r
+          id="{28A2CF9E-52C9-42BC-86E4-873C266E0095}"
+          ph="body"
+          uid="{5476A15E-EF04-419F-A7B4-C9EEBBFC3D22}" />
+        <r
+          id="{D6F3A5B5-845A-45C3-B266-416A8E043971}"
+          ph="body"
+          uid="{A09FA481-F578-4172-A684-B281B343A73B}" />
+        <r
+          id="{6EE66174-FDE6-4331-BB1D-4D5DC3F6BDB6}"
+          ph="body"
+          uid="{969C3630-C791-4F02-97E0-BBEA089ABADF}" />
+        <r
+          id="{ECB28B1F-AB39-4BC1-89F6-44832618A590}"
+          ph="header"
+          uid="{A6783A4E-8DBC-4014-A67C-2FC19D8D6112}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{2D3782B2-ED89-4062-95CC-5EC91124E8F5}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{7D242CFA-0386-4BFC-82C7-E3E9AAA67FD1}" />
+        <r
+          id="{52F86D05-4C58-4226-B4A9-24F4479317BA}"
+          ph="head-scripts"
+          uid="{068E6B3E-31ED-42FC-8EB4-77B341E47707}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ccd3f73-1942-4eec-8383-884507e75041"
+      Hint: Author
+      Value: NEA Member Benefits
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180426T195300Z
+    - ID: "2f7eb403-d984-4f90-8653-6ef1c8a37029"
+      Hint: Match Attribute
+      Value: Goal
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "72428a2d-b547-4e83-8b2a-3319b6fe8394"
+      Hint: Genre
+      Value: Article
+    - ID: "8e450537-57d3-437e-903b-d6559cc24fcd"
+      Hint: Type
+      Value: "{84FB62E9-488B-404B-9C8D-42157E7E0087}"
+    - ID: "ac72bae6-b9f8-450d-94f5-87eef71c5b03"
+      Hint: Last Publish Date
+      Value: 

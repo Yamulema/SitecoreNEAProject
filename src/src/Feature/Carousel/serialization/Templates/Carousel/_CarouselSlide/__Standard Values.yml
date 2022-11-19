@@ -1,0 +1,28 @@
+﻿---
+ID: "fb9b59b9-2d17-42f7-949e-b8e5dd1fd410"
+Parent: "cc9636f1-0c30-4b53-871d-1e2712598158"
+Template: "cc9636f1-0c30-4b53-871d-1e2712598158"
+Path: /sitecore/templates/SEIUMB/Feature/Carousel/_CarouselSlide/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11929b80-2748-4662-9529-fb2d7b3b6247"
+      Hint: Subheadline
+      Value: "Insert your sub-headline here"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171116T214331Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "cbbae54a-b5df-4630-b803-9c941f1c0388"
+      Hint: Headline
+      Value: Insert your headline here
+    - ID: "cca0b4a8-be58-4ed7-a6fb-a6948ffea43c"
+      Hint: Image
+      Value: |
+        <image mediaid="{27426B8C-C041-4E8F-A98A-A32573CA20B4}" />

@@ -1,0 +1,21 @@
+﻿@using Neambc.Neamb.Feature.Product
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+
+@model Neambc.Neamb.Feature.Product.Model.MultiRowProductCardsDto
+
+<div>Results Count Label: @Html.Sitecore().Field(Templates.MultiRowProductCards.Fields.ResultsCountLabel, Model.Item)</div>
+<div>Results Count: @Model.ProductCards.Count()</div>
+<div>Container</div>
+@foreach (var productCard in Model.ProductCards)
+{
+
+    if (productCard.IsComingSoon)
+    {
+        <div>Comming Soon</div>
+    }
+    <div>Page Title: @Html.Sitecore().Field(Templates.PageInfo.Fields.PageTitle, productCard.Item)</div>
+        <div>Product Higlights: @Html.Sitecore().Field(Templates.ProductCTAs.Fields.FinePrint, productCard.Item)</div>
+        <a href="@productCard.LearnMoreCta" class="">Learn More</a>
+        <a href="@productCard.TermsAndConditionsCta" class="">Terms & Conditions</a>
+}

@@ -1,0 +1,288 @@
+﻿---
+ID: "243e1842-c1ba-4bf9-8861-c9e698fd62bb"
+Parent: "6847aefb-2f69-4f02-9ff2-9734aa811757"
+Template: "018b901d-ecad-4748-86e8-bacbe06a5ea7"
+Path: /sitecore/content/NEAMBC/Global/Small Stacked Accordion/SEIU Marketplace/How do I get my Cash Back payment
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>Cash Back payments are sent every three months, based on the schedule below:</p>
+        <table border="1" cellspacing="0" cellpadding="0"  style="border: none;">
+            <tbody>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Purchases Posted Between</p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Check Sent</p>
+                    </td>
+                </tr>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Jan 1 - Mar 31</p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">May 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Apr 1 - June 30</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Aug 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">July 1 - Sept 30</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Nov 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Oct 1 - Dec 31</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Feb 15</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200923T203750Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: The Rakuten Payment Schedule
+  - Version: 2
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>Follow these steps to receive your Cash Back:</p>
+        <ul>
+        <li>Add an address to your account. A mailing address is required for accurate and timely payments of all types, including PayPal. You can add or update your current address in your Rakuten Account Settings.</li>
+        <li>Earn Cash Back that adds up to more than $5.00* before the next Cash Back payment period (see timetable below). If your approved Cash Back is $5.00 or less, it'll carry over to the following period. Visit My Account on Rakuten to check the status of Cash Back for any order.</li>
+        <p>*To be included in your next payment, Cash Back must be approved by the store you purchased from.</p>
+        <p>Cash Back payments are sent every three months, based on the schedule below:</p>
+        <table border="1" cellspacing="0" cellpadding="0"  style="border: none;">
+            <tbody>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Purchases Posted Between</p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Check Sent</p>
+                    </td>
+                </tr>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Jan 1 - Mar 31</p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">May 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Apr 1 - June 30</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Aug 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">July 1 - Sept 30</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Nov 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Oct 1 - Dec 31</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Feb 15</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T131925Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "How do I get my Cash Back payment?"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T131925Z
+  - Version: 3
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p>Follow these steps to receive your Cash Back:</p>
+        <ul>
+        <li>Add an address to your account. A mailing address is required for accurate and timely payments of all types, including PayPal. You can add or update your current address in your Rakuten Account Settings.</li>
+        <li>Earn Cash Back that adds up to more than $5.00* before the next Cash Back payment period (see timetable below). If your approved Cash Back is $5.00 or less, it'll carry over to the following period. Visit My Account on Rakuten to check the status of Cash Back for any order.</li>
+        <p>*To be included in your next payment, Cash Back must be approved by the store you purchased from.</p>
+        <p>Cash Back payments are sent every three months, based on the schedule below:</p>
+        <table border="1" cellspacing="0" cellpadding="0" style="border: none;">
+            <tbody>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Purchases Posted Between</p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Check Sent</p>
+                    </td>
+                </tr>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Jan 1 - Mar 31</p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">May 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Apr 1 - June 30</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Aug 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">July 1 - Sept 30</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Nov 15</p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;">Oct 1 - Dec 31</p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;">Feb 15</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+                    </ul>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T133424Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{DCE49FC2-EC5E-451C-926C-375A21A2EA25}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "How do I get my Cash Back payment?"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T133424Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: |
+        <p><span>Siga estos pasos para recibir su devoluci&oacute;n de dinero:</span></p>
+        <ul style="list-style-type: disc;">
+            <li><span>Agregue una direcci&oacute;n de env&iacute;o a su cuenta. Se requiere una direcci&oacute;n postal para realizar pagos precisos y oportunos de todos los tipos, incluido PayPal. Puede agregar o actualizar su direcci&oacute;n actual en la configuraci&oacute;n de la cuenta de Rakuten.</span></li>
+            <li><span>Obtenga un reembolso en efectivo que agregue hasta m&aacute;s de $5* antes del pr&oacute;ximo per&iacute;odo de pago del reembolso en efectivo (revise la tabla de abajo). Si el reembolso en efectivo aprobado es de $5 o menos, se pospondr&aacute; hasta el siguiente per&iacute;odo. Visite Mi cuenta en Rakuten para verificar el estado del reembolso en efectivo de cualquier pedido.</span></li>
+        </ul>
+        <p style="margin-left: 0.5in;"><span>*&nbsp;Para incluirlo en su pr&oacute;ximo pago, el reembolso en efectivo lo debe aprobar la tienda en la que compr&oacute;.</span></p>
+        <p style="margin-left: 0.5in;"><span>Los pagos de reembolsos en efectivo se env&iacute;an cada tres meses, de acuerdo con el siguiente calendario:</span></p>
+        <table border="0" cellspacing="0" cellpadding="0" style="margin-left: 0.5in;">
+            <tbody>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;"><span>Fecha de publicaci&oacute;n de las compras</span></p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;"><span>Fecha de env&iacute;o del cheque</span></p>
+                    </td>
+                </tr>
+                <tr style="height: 16pt;">
+                    <td valign="top" style="height: 16pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;"><span>Entre el 1 de enero y el 31 de marzo</span></p>
+                    </td>
+                    <td valign="top" style="height: 16pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;"><span>15 de mayo</span></p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;"><span>Entre el 1 de abril y el 30 de junio</span></p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;"><span>15 de agosto</span></p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;"><span>Entre el 1 de julio y el 30 de septiembre</span></p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;"><span>15 de noviembre</span></p>
+                    </td>
+                </tr>
+                <tr style="height: 17pt;">
+                    <td valign="top" style="height: 17pt; width: 154.5pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; text-align: left;">
+                    <p style="text-align: center;"><span>Entre el 1 de octubre y el 31 de diciembre</span></p>
+                    </td>
+                    <td valign="top" style="height: 17pt; width: 156.75pt; padding: 0in; border-top: none; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; text-align: left;">
+                    <p style="text-align: center;"><span>15 de febrero</span></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201223T152006Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mdavalos
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: "¿Cómo obtengo el pago del reembolso en efectivo?"

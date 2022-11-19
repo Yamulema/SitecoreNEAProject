@@ -1,0 +1,37 @@
+﻿---
+ID: "94de83c8-0553-4098-a0d1-c9e27acca292"
+Parent: "34242c35-3ead-4f0c-aa93-cd115e2a0a99"
+Template: "34242c35-3ead-4f0c-aa93-cd115e2a0a99"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/_Password/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b09bb6d-ce81-48ef-ab96-7210c8485af0"
+      Hint: Label
+      Value: Password
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180425T221129Z
+    - ID: "3bd1c95e-74f7-43ab-a401-598465eeb132"
+      Hint: Invalid
+      Value: "Hey, passwords are supposed to match!"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8d1fa09d-2c08-4dd6-b276-5b4d84b1067d"
+      Hint: Show Text
+      Value: Show Password
+    - ID: "a02fb601-7a01-456b-8596-e4f1de8076e3"
+      Hint: Password Requirements
+      Value: 8 character minimum, No spaces, One number, One letter
+    - ID: "cebcc101-0d3e-46e1-aa7e-bd197922d5f5"
+      Hint: Label
+      Value: Confirm Password

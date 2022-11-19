@@ -1,0 +1,32 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Seiumb.Feature.Product
+@model Neambc.Seiumb.Feature.Product.Models.ProductList
+@{ 
+    int count = 0;
+}
+<div id="products" class="row">
+    <div class="large-12 columns">
+        @foreach (var item in Model.Items)
+        {
+            
+            <div id="product" class="row">
+                <div class="large-5 medium-5 columns">
+                    @Html.Sitecore().ImageField(Templates.ProductDetail.Fields.ImageListing, item)
+                </div>
+                <div class="large-7 medium-7 columns">
+                    <h2>
+                        <a href="@item.Url()">@Html.Sitecore().Field(Templates.ProductDetail.Fields.HeadlineListing, item)</a>
+                   </h2>
+                    <p>@Html.Sitecore().Field(Templates.ProductDetail.Fields.SummaryListing, item)</p>
+                    <a @Html.Raw(Model.OnClickEventContent[count]) 
+                       href="@item.Url()" class="button">@Html.Sitecore().Field(Templates.ProductDetail.Fields.MoreLinkListing, item)</a>
+                </div>
+            </div>
+            count++;
+            if (Model.ContextItem.IsDerived(Templates.TwoColumnListPageType.ID) && count != Model.Items.Count)
+            {
+            <div style="margin: 0px -25px; height: 10px; background-color: white;">&nbsp;</div>
+            }
+            }
+    </div>
+</div>

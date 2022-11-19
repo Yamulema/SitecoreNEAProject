@@ -1,0 +1,81 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Account
+@using Neambc.Neamb.Feature.Account.Controllers
+@using Neambc.Neamb.Feature.Account.Enums
+@using Neambc.Neamb.Feature.Account.Models
+@using Neambc.Neamb.Foundation.Config.Models
+@using Neambc.Neamb.Foundation.Membership.Enums
+@using Neambc.Neamb.Foundation.Membership.Model
+@using Sitecore.Links
+
+@model Neambc.Neamb.Feature.Account.Models.MembershipCard
+
+<section class="section-cta">
+    <div class="container">
+        <div class="col-md-6 col-md-push-6">
+            @Html.Sitecore().Field(Templates.MemberCard.Fields.Logo, Model.Item, new { @class = "img-responsive" })
+        </div>
+        <div class="col-md-6 col-md-pull-6">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-11">
+                    <h1 class="title">@Html.Sitecore().Field(Templates.MemberCard.Fields.Headline, Model.Item)</h1>
+                    <p class="text-alpha m-t-sm m-b-sm">@Html.Sitecore().Field(Templates.MemberCard.Fields.Intro, Model.Item)</p>
+                    <p class="text-alpha m-t-sm m-b-sm"><strong>@Html.Sitecore().Field(Templates.MemberCard.Fields.Description, Model.Item)</strong></p>
+                    <p class="text-alpha m-t-sm m-b-sm">@Html.Sitecore().Field(Templates.MemberCard.Fields.Instruction, Model.Item)</p>
+                    <div class="row">
+                        <form id="member" method="post" accept-charset="UTF-8" role="form" class="n-p-t">
+                            @if (Model.Status == WelcomeStatus.None)
+                            {
+                                <input type="hidden" name="fhController" value="MemberCardController" data-abide-ignore />
+                                <input type="hidden" name="fhAction" value="MembershipCard" data-abide-ignore />
+	                            <div class="form-group col-md-12">
+		                            <div class="row">
+		                            <div class="col-md-6">
+			                            <input id="imsid" name="imsid" type="text" class="form-control m-t-sm" data-rule-maxlength="10" maxlength="10"/>
+		                            </div>
+			                            <div class="col-md-6">
+				                            @if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidCode))
+				                            {
+					                            <input id="submit" type="submit" data-action="RegisterNow" value="@Html.Sitecore().Field(Templates.MemberCard.Fields.Submit, Model.Item, new {@DisableWebEdit = true})" class="btn pull-left btn-blue p-b-n"/>
+				                            }
+				                            else
+				                            {
+					                            <input id="submit" type="submit" disabled="disabled" data-action="RegisterNow" value="@Html.Sitecore().Field(Templates.MemberCard.Fields.Submit, Model.Item, new {@DisableWebEdit = true})" class="btn pull-left btn-blue disabled p-b-n"/>
+				                            }
+			                            </div>
+		                            </div>
+	                            </div>
+                                <div class="col-md-12">
+                                    <div id="member-error">
+                                        @if (Model.ErrorStatus.HasFlag(WelcomeErrorStatus.InvalidCode))
+                                        {
+                                            <span>@Html.Sitecore().Field(Templates.MemberCard.Fields.ErrorMessage, Model.Item, new { @DisableWebEdit = true })</span>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </form>
+                    </div>
+                    <div class="spacer-30"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="disclaimer">@Html.Sitecore().Field(Templates.MemberCard.Fields.ExistingUserText, Model.Item)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<form id="logout-form" method="post" style="display: none;" action="/api/AuthenticationAccount/LogoutForm">
+    <input type="hidden" name="linkpage" id="linkpage" value="" />
+</form>
+
+<script type="text/javascript">
+
+    // -------------------------------------------------------------------------------------------------------
+    function logout(linkpage) {
+        $('#linkpage').val(linkpage); $('#logout-form').submit();
+    }
+</script>

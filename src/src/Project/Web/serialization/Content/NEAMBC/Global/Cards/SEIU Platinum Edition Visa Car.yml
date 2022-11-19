@@ -1,0 +1,93 @@
+﻿---
+ID: "188b1c1d-89bc-4ff0-9952-458752158282"
+Parent: "8db1d1b0-3b38-459b-abd2-0784592959e3"
+Template: "81463630-d9fd-4ae6-9b28-67039341f16c"
+Path: /sitecore/content/NEAMBC/Global/Cards/SEIU Platinum Edition Visa Card with Cashback Rewards 1_2_2020
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190221T195025Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: Finance
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{033A4A44-BD18-4899-8135-AE0DF12722E3}"></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190221T195000Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','seiu platinum edition visa cashback rewards > title');">SEIU Platinum Edition Visa Card
+        with Cashback Rewards
+        </a></h3>
+        </div>
+        <div class="panelExcerpt">
+        <p>Earn rewards for the things you buy most.
+        </p>
+        </div>
+        <div class="panelExcerpt">
+        <div><a class="button panelBtn" href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','seiu platinum edition visa cashback rewards > button');">LEARN HOW</a></div>
+        </div>
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "23e1dd2c-c44f-4203-9f34-eed0042aa5d0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E9278041-F667-4C7A-B4C0-B527D3DC0456}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190221T192414Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "63056ac1-9c1a-4191-9844-505c806cca22"
+      Hint: Title
+      Value: FINANZAS
+    - ID: "6b36075a-654d-45d5-9973-1e6d1ac4c642"
+      Hint: TitleBarSkin
+      Value: Rectangular
+    - ID: "93dc6670-b05c-476e-84d4-ad82ce568389"
+      Hint: Image
+      Value: |
+        <image mediaid="{AF7FDC12-811D-461F-B426-EA2F0F7EA465}" alt="Tarjeta SEIU Visa Platinum Edition con Recompensas En Efectivo" height="" width="" hspace="" vspace=""></image>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190221T192414Z
+    - ID: "d0853b60-c18b-4fac-9ff8-808326c049e2"
+      Hint: Body
+      Value: |
+        <div class="panelTitle">
+        <h3><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" onclick="ga_event('small module','click','seiu platinum edition visa card with cashback rewards
+        esp > title');">Tarjeta SEIU Visa Platinum Edition con Recompensas En Efectivo</a></h3>
+        </div>
+        <p>Obtenga puntos por los artículos más comprados.</p>
+        <div class="panelExcerpt">
+        <div><a href="~/link.aspx?_id=8F1107D5AE6C4E94963290DB3EE8762B&amp;_z=z" class="button panelBtn" onclick="ga_event('small module','click','seiu platinum edition visa card with cashback rewards esp > button');">APRENDE CÓMO</a></div>
+        </div>

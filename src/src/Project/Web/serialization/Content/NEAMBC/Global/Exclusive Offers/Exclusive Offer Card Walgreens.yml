@@ -1,0 +1,25 @@
+﻿---
+ID: "08c96482-bc8e-42d3-b2ee-e37767fefab3"
+Parent: "b7bb9f87-b854-416a-bfe2-6be530e81b4f"
+Template: "9032b90c-2775-4b10-8940-726e0696c42d"
+Path: /sitecore/content/NEAMBC/Global/Exclusive Offers/Exclusive Offer Card Walgreens
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210401T125311Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dbrensike
+    - ID: "ea2364e8-75dc-45c4-8c77-34e394d627c9"
+      Hint: Headline
+      Value: Health & Beauty
+    - ID: "fb2a006a-4258-44ef-9502-a3fe09204343"
+      Hint: Offer
+      Type: Multilist with Search
+      Value: "{998B2367-9EDA-45BA-985A-6ABB70498A64}"

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controldata>
+  <pages>
+    <page name="SweepstakesPageNoSendEmail" urlpath="/UITest/sweepstake/sweepstakeNoEmail">
+      <sections>
+        <section name="Form">
+          <controls>
+            <control key="SectionCtaNoSendEmail" xpath="//section[@class='section-cta']"  />
+            <control key="SweepstakesPage_Header_TitleNoSendEmail" xpath="//h1[@class='title']"  />
+          </controls>
+        </section>
+        <section name="FormHot">
+          <controls>
+            <control key="HotButtonNoSendEmail" xpath="//*[@class='btn btn-cyan']"  />
+            <control key="PopupButtonNoSendEmail" xpath="//*[@class='modal-dialog modal-lg']"  />
+          </controls>
+        </section>
+      </sections>
+    </page>
+  </pages>
+</controldata>

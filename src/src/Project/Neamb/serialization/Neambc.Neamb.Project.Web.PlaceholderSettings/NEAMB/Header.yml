@@ -1,0 +1,25 @@
+﻿---
+ID: "54f5843f-6005-4702-b604-1f3ccb52d75f"
+Parent: "91b8a564-b0b5-4943-b331-7dd62021ba49"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/NEAMB/Header
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: header
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {AEF2FA14-1C66-4938-8A59-ED799B0D7729}
+    {9B9F5F37-2460-4119-B48E-971922C4C899}
+    {AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200708T163503Z

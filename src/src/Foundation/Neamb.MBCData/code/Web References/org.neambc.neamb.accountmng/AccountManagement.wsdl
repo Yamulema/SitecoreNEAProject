@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://neamb.webservices" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ax29="http://neamb.webservices/xsd" targetNamespace="http://neamb.webservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>AccountManagement</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema xmlns:ax210="http://neamb.webservices/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://neamb.webservices">
+      <xs:import namespace="http://neamb.webservices/xsd" />
+      <xs:element name="AuthenticatePassword">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AuthenticatePasswordResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:AuthenticatePasswordObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CancelResetToken">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CancelResetTokenResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:CancelResetTokenObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChangePassword">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="currentpassword" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="newpassword" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="confirmpassword" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChangePasswordResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:ChangePasswordObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChangeUsername">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="oldusername" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="newusername" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="confirmusername" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ChangeUsernameResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:ChangeUsernameObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteRegistration">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteRegistrationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:DeleteRegistrationObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ForgotUsername">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zipcode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ForgotUsernameResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:ForgotUsernameObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="IsUsernameAvailable">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="IsUsernameAvailableResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:IsUsernameAvailableObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="LoginUser">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cellcode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="matchroutineidentifier" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="LoginUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:LoginUserObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RegisterUser">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="streetaddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="statecode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zipcode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="permissionindicator" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="webusersource" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="campcode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cellcode" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RegisterUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:RegisterUserObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RequestResetToken">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RequestResetTokenResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:RequestResetTokenObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResetPassword">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="newpassword" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="confirmpassword" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResetPasswordResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:ResetPasswordObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RetrieveUser">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="RetrieveUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:RetrieveUserObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateUser">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="webuserid" type="xs:int" />
+            <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="streetaddress" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="statecode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="zipcode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="permissionindicator" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:UpdateUserObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateUserStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="statuscode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateUserStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:UpdateUserStatusObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateEmailDomain">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateEmailDomainResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:ValidateEmailDomainObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateResetToken">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="resettoken" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateResetTokenResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax210:ValidateResetTokenObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://neamb.webservices/xsd">
+      <xs:complexType name="AuthenticatePasswordObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="passwordmatch" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CancelResetTokenObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ChangePasswordObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ChangeUsernameObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="newusername" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="DeleteRegistrationObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="deleteconfirmation" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ForgotUsernameObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="IsUsernameAvailableObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="available" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="LoginUserObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="registrations" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="registrationcount" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RegisterUserObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="webuserid" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RequestResetTokenObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="newtoken" type="xs:boolean" />
+          <xs:element minOccurs="0" name="resettoken" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ResetPasswordObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RetrieveUserObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="complifesigndate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="emailpermission" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="gendercode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="iaid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="introlifeenddate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="leaname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="leanumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="membershipcatcode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="neacurrentmember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="neamembershiptype" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="neamembershiptypename" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="newenvind" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="newmembersegmentindicator" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="registered" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="registrationdate" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seaname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seanumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seiucurrentmember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seiulocalname" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="seiulocalnumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="statecode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="streetaddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="unionid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="webuserid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="zipcode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="UpdateUserObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="newmdsid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="registrations" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="registrationcount" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="UpdateUserStatusObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ValidateEmailDomainObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="valid" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ValidateResetTokenObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="returncode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="valid" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginUserRequest">
+    <wsdl:part name="parameters" element="ns:LoginUser" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserResponse">
+    <wsdl:part name="parameters" element="ns:LoginUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestResetTokenRequest">
+    <wsdl:part name="parameters" element="ns:RequestResetToken" />
+  </wsdl:message>
+  <wsdl:message name="RequestResetTokenResponse">
+    <wsdl:part name="parameters" element="ns:RequestResetTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChangeUsernameRequest">
+    <wsdl:part name="parameters" element="ns:ChangeUsername" />
+  </wsdl:message>
+  <wsdl:message name="ChangeUsernameResponse">
+    <wsdl:part name="parameters" element="ns:ChangeUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChangePasswordRequest">
+    <wsdl:part name="parameters" element="ns:ChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="ChangePasswordResponse">
+    <wsdl:part name="parameters" element="ns:ChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetPasswordRequest">
+    <wsdl:part name="parameters" element="ns:ResetPassword" />
+  </wsdl:message>
+  <wsdl:message name="ResetPasswordResponse">
+    <wsdl:part name="parameters" element="ns:ResetPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticatePasswordRequest">
+    <wsdl:part name="parameters" element="ns:AuthenticatePassword" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticatePasswordResponse">
+    <wsdl:part name="parameters" element="ns:AuthenticatePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserRequest">
+    <wsdl:part name="parameters" element="ns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserResponse">
+    <wsdl:part name="parameters" element="ns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterUserRequest">
+    <wsdl:part name="parameters" element="ns:RegisterUser" />
+  </wsdl:message>
+  <wsdl:message name="RegisterUserResponse">
+    <wsdl:part name="parameters" element="ns:RegisterUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateEmailDomainRequest">
+    <wsdl:part name="parameters" element="ns:ValidateEmailDomain" />
+  </wsdl:message>
+  <wsdl:message name="ValidateEmailDomainResponse">
+    <wsdl:part name="parameters" element="ns:ValidateEmailDomainResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserStatusRequest">
+    <wsdl:part name="parameters" element="ns:UpdateUserStatus" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserStatusResponse">
+    <wsdl:part name="parameters" element="ns:UpdateUserStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsUsernameAvailableRequest">
+    <wsdl:part name="parameters" element="ns:IsUsernameAvailable" />
+  </wsdl:message>
+  <wsdl:message name="IsUsernameAvailableResponse">
+    <wsdl:part name="parameters" element="ns:IsUsernameAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteRegistrationRequest">
+    <wsdl:part name="parameters" element="ns:DeleteRegistration" />
+  </wsdl:message>
+  <wsdl:message name="DeleteRegistrationResponse">
+    <wsdl:part name="parameters" element="ns:DeleteRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateResetTokenRequest">
+    <wsdl:part name="parameters" element="ns:ValidateResetToken" />
+  </wsdl:message>
+  <wsdl:message name="ValidateResetTokenResponse">
+    <wsdl:part name="parameters" element="ns:ValidateResetTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveUserRequest">
+    <wsdl:part name="parameters" element="ns:RetrieveUser" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveUserResponse">
+    <wsdl:part name="parameters" element="ns:RetrieveUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ForgotUsernameRequest">
+    <wsdl:part name="parameters" element="ns:ForgotUsername" />
+  </wsdl:message>
+  <wsdl:message name="ForgotUsernameResponse">
+    <wsdl:part name="parameters" element="ns:ForgotUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelResetTokenRequest">
+    <wsdl:part name="parameters" element="ns:CancelResetToken" />
+  </wsdl:message>
+  <wsdl:message name="CancelResetTokenResponse">
+    <wsdl:part name="parameters" element="ns:CancelResetTokenResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AccountManagementPortType">
+    <wsdl:operation name="LoginUser">
+      <wsdl:input wsaw:Action="urn:LoginUser" message="ns:LoginUserRequest" />
+      <wsdl:output wsaw:Action="urn:LoginUserResponse" message="ns:LoginUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestResetToken">
+      <wsdl:input wsaw:Action="urn:RequestResetToken" message="ns:RequestResetTokenRequest" />
+      <wsdl:output wsaw:Action="urn:RequestResetTokenResponse" message="ns:RequestResetTokenResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeUsername">
+      <wsdl:input wsaw:Action="urn:ChangeUsername" message="ns:ChangeUsernameRequest" />
+      <wsdl:output wsaw:Action="urn:ChangeUsernameResponse" message="ns:ChangeUsernameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <wsdl:input wsaw:Action="urn:ChangePassword" message="ns:ChangePasswordRequest" />
+      <wsdl:output wsaw:Action="urn:ChangePasswordResponse" message="ns:ChangePasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetPassword">
+      <wsdl:input wsaw:Action="urn:ResetPassword" message="ns:ResetPasswordRequest" />
+      <wsdl:output wsaw:Action="urn:ResetPasswordResponse" message="ns:ResetPasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticatePassword">
+      <wsdl:input wsaw:Action="urn:AuthenticatePassword" message="ns:AuthenticatePasswordRequest" />
+      <wsdl:output wsaw:Action="urn:AuthenticatePasswordResponse" message="ns:AuthenticatePasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="urn:UpdateUser" message="ns:UpdateUserRequest" />
+      <wsdl:output wsaw:Action="urn:UpdateUserResponse" message="ns:UpdateUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterUser">
+      <wsdl:input wsaw:Action="urn:RegisterUser" message="ns:RegisterUserRequest" />
+      <wsdl:output wsaw:Action="urn:RegisterUserResponse" message="ns:RegisterUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateEmailDomain">
+      <wsdl:input wsaw:Action="urn:ValidateEmailDomain" message="ns:ValidateEmailDomainRequest" />
+      <wsdl:output wsaw:Action="urn:ValidateEmailDomainResponse" message="ns:ValidateEmailDomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserStatus">
+      <wsdl:input wsaw:Action="urn:UpdateUserStatus" message="ns:UpdateUserStatusRequest" />
+      <wsdl:output wsaw:Action="urn:UpdateUserStatusResponse" message="ns:UpdateUserStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUsernameAvailable">
+      <wsdl:input wsaw:Action="urn:IsUsernameAvailable" message="ns:IsUsernameAvailableRequest" />
+      <wsdl:output wsaw:Action="urn:IsUsernameAvailableResponse" message="ns:IsUsernameAvailableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistration">
+      <wsdl:input wsaw:Action="urn:DeleteRegistration" message="ns:DeleteRegistrationRequest" />
+      <wsdl:output wsaw:Action="urn:DeleteRegistrationResponse" message="ns:DeleteRegistrationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateResetToken">
+      <wsdl:input wsaw:Action="urn:ValidateResetToken" message="ns:ValidateResetTokenRequest" />
+      <wsdl:output wsaw:Action="urn:ValidateResetTokenResponse" message="ns:ValidateResetTokenResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveUser">
+      <wsdl:input wsaw:Action="urn:RetrieveUser" message="ns:RetrieveUserRequest" />
+      <wsdl:output wsaw:Action="urn:RetrieveUserResponse" message="ns:RetrieveUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ForgotUsername">
+      <wsdl:input wsaw:Action="urn:ForgotUsername" message="ns:ForgotUsernameRequest" />
+      <wsdl:output wsaw:Action="urn:ForgotUsernameResponse" message="ns:ForgotUsernameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelResetToken">
+      <wsdl:input wsaw:Action="urn:CancelResetToken" message="ns:CancelResetTokenRequest" />
+      <wsdl:output wsaw:Action="urn:CancelResetTokenResponse" message="ns:CancelResetTokenResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AccountManagementSoap11Binding" type="ns:AccountManagementPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoginUser">
+      <soap:operation soapAction="urn:LoginUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeUsername">
+      <soap:operation soapAction="urn:ChangeUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestResetToken">
+      <soap:operation soapAction="urn:RequestResetToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap:operation soapAction="urn:ChangePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPassword">
+      <soap:operation soapAction="urn:ResetPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticatePassword">
+      <soap:operation soapAction="urn:AuthenticatePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterUser">
+      <soap:operation soapAction="urn:RegisterUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="urn:UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserStatus">
+      <soap:operation soapAction="urn:UpdateUserStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateEmailDomain">
+      <soap:operation soapAction="urn:ValidateEmailDomain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUsernameAvailable">
+      <soap:operation soapAction="urn:IsUsernameAvailable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistration">
+      <soap:operation soapAction="urn:DeleteRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveUser">
+      <soap:operation soapAction="urn:RetrieveUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateResetToken">
+      <soap:operation soapAction="urn:ValidateResetToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelResetToken">
+      <soap:operation soapAction="urn:CancelResetToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForgotUsername">
+      <soap:operation soapAction="urn:ForgotUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AccountManagementSoap12Binding" type="ns:AccountManagementPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoginUser">
+      <soap12:operation soapAction="urn:LoginUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeUsername">
+      <soap12:operation soapAction="urn:ChangeUsername" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestResetToken">
+      <soap12:operation soapAction="urn:RequestResetToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap12:operation soapAction="urn:ChangePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPassword">
+      <soap12:operation soapAction="urn:ResetPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticatePassword">
+      <soap12:operation soapAction="urn:AuthenticatePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterUser">
+      <soap12:operation soapAction="urn:RegisterUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap12:operation soapAction="urn:UpdateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserStatus">
+      <soap12:operation soapAction="urn:UpdateUserStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateEmailDomain">
+      <soap12:operation soapAction="urn:ValidateEmailDomain" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUsernameAvailable">
+      <soap12:operation soapAction="urn:IsUsernameAvailable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistration">
+      <soap12:operation soapAction="urn:DeleteRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveUser">
+      <soap12:operation soapAction="urn:RetrieveUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateResetToken">
+      <soap12:operation soapAction="urn:ValidateResetToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelResetToken">
+      <soap12:operation soapAction="urn:CancelResetToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForgotUsername">
+      <soap12:operation soapAction="urn:ForgotUsername" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AccountManagementHttpBinding" type="ns:AccountManagementPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="LoginUser">
+      <http:operation location="AccountManagement/LoginUser" />
+      <wsdl:input>
+        <mime:content part="LoginUser" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="LoginUser" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeUsername">
+      <http:operation location="AccountManagement/ChangeUsername" />
+      <wsdl:input>
+        <mime:content part="ChangeUsername" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="ChangeUsername" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestResetToken">
+      <http:operation location="AccountManagement/RequestResetToken" />
+      <wsdl:input>
+        <mime:content part="RequestResetToken" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="RequestResetToken" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <http:operation location="AccountManagement/ChangePassword" />
+      <wsdl:input>
+        <mime:content part="ChangePassword" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="ChangePassword" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPassword">
+      <http:operation location="AccountManagement/ResetPassword" />
+      <wsdl:input>
+        <mime:content part="ResetPassword" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="ResetPassword" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticatePassword">
+      <http:operation location="AccountManagement/AuthenticatePassword" />
+      <wsdl:input>
+        <mime:content part="AuthenticatePassword" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="AuthenticatePassword" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterUser">
+      <http:operation location="AccountManagement/RegisterUser" />
+      <wsdl:input>
+        <mime:content part="RegisterUser" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="RegisterUser" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <http:operation location="AccountManagement/UpdateUser" />
+      <wsdl:input>
+        <mime:content part="UpdateUser" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="UpdateUser" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserStatus">
+      <http:operation location="AccountManagement/UpdateUserStatus" />
+      <wsdl:input>
+        <mime:content part="UpdateUserStatus" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="UpdateUserStatus" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateEmailDomain">
+      <http:operation location="AccountManagement/ValidateEmailDomain" />
+      <wsdl:input>
+        <mime:content part="ValidateEmailDomain" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="ValidateEmailDomain" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUsernameAvailable">
+      <http:operation location="AccountManagement/IsUsernameAvailable" />
+      <wsdl:input>
+        <mime:content part="IsUsernameAvailable" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="IsUsernameAvailable" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistration">
+      <http:operation location="AccountManagement/DeleteRegistration" />
+      <wsdl:input>
+        <mime:content part="DeleteRegistration" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="DeleteRegistration" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveUser">
+      <http:operation location="AccountManagement/RetrieveUser" />
+      <wsdl:input>
+        <mime:content part="RetrieveUser" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="RetrieveUser" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateResetToken">
+      <http:operation location="AccountManagement/ValidateResetToken" />
+      <wsdl:input>
+        <mime:content part="ValidateResetToken" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="ValidateResetToken" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelResetToken">
+      <http:operation location="AccountManagement/CancelResetToken" />
+      <wsdl:input>
+        <mime:content part="CancelResetToken" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="CancelResetToken" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ForgotUsername">
+      <http:operation location="AccountManagement/ForgotUsername" />
+      <wsdl:input>
+        <mime:content part="ForgotUsername" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="ForgotUsername" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AccountManagement">
+    <wsdl:port name="AccountManagementHttpSoap11Endpoint" binding="ns:AccountManagementSoap11Binding">
+      <soap:address location="http://192.168.122.1:8080/axis2/services/AccountManagement.AccountManagementHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="AccountManagementHttpSoap12Endpoint" binding="ns:AccountManagementSoap12Binding">
+      <soap12:address location="http://192.168.122.1:8080/axis2/services/AccountManagement.AccountManagementHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="AccountManagementHttpEndpoint" binding="ns:AccountManagementHttpBinding">
+      <http:address location="http://192.168.122.1:8080/axis2/services/AccountManagement.AccountManagementHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

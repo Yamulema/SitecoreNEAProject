@@ -1,0 +1,30 @@
+﻿@using Neambc.Seiumb.Foundation.Authentication.Repositories
+@using Neambc.Seiumb.Foundation.Authentication.Constants
+@using Neambc.Seiumb.Feature.Forms
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+
+@model Neambc.Seiumb.Feature.Forms.Models.UnsubscribeModel
+
+
+<div id="contact_us_content" class="row">
+    <div class="show-for-medium medium-1 large-1 columns">
+        &nbsp;
+    </div>
+    <div class="small-12 medium-10 large-10 columns float-center">
+        <div class="small-12 medium-12 large-12 columns">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            @if (Model.IsSucess)
+            {
+                @Html.Sitecore().Field(Templates.ThankYouTemplate.Fields.Body, Model.Item)
+            }
+            else
+            {
+                @Html.Sitecore().Field(Templates.UnsubscribeMail.Fields.Failure, Model.Item)
+            }
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>

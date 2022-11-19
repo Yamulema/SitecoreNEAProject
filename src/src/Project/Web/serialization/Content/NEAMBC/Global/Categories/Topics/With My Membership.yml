@@ -1,0 +1,41 @@
+﻿---
+ID: "dbb28d95-ad9d-46b7-9d4b-0c5dc1a64cd4"
+Parent: "ad5d2b08-dc4f-4229-bea3-52a917c42251"
+Template: "7f85b6d0-f533-45ac-b00b-ddd602ab6fcf"
+Path: /sitecore/content/NEAMBC/Global/Categories/Topics/With My Membership
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171219T190234Z
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: "I Need Help - With My Membership"
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: "I Need Help - With My Membership"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180103T225318Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "6e092b84-f2ce-477a-af26-db4c0bf85ad0"
+      Hint: Value
+      Value: "Necesito ayuda - Con mi membresía"
+    - ID: "73494340-4626-4d41-a5e7-f0ec2664c0b0"
+      Hint: ItemName
+      Value: "Necesito ayuda - Con mi membresía"

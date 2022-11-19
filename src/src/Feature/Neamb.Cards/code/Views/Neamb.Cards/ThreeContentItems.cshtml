@@ -1,0 +1,41 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Cards.Models
+@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Mvc
+
+@model ThreeContentItemsDTO
+
+@if (!Model.NoDisplay)
+{
+    <section class="c-005 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>@Model.Header</h3>
+                </div>
+                @if (Model.ContentItems != null)
+                {
+                    for (int i = 0; i < Model.ContentItems.Count; i++)
+                    {
+	                    if (Model.ContentItems[i] != null)
+	                     {
+		                     <div class="col-md-4 item">
+			                     <div class="row">
+				                     <a href="@Sitecore.Links.LinkManager.GetItemUrl(Model.ContentItems[i])" title="@Html.Sitecore().Field(Templates.PageInfo.Fields.PageTitle, Model.ContentItems[i], new {@DisableWebEdit = true})">
+					                     <div class="col-xs-5 col-md-5">
+						                     @Html.Sitecore().Field(Templates.PageInfo.Fields.SmallThumbnail, Model.ContentItems[i], new {@class = "img-responsive", loading = "lazy", @DisableWebEdit = true})
+					                     </div>
+					                     <div class="col-xs-7 col-md-7">
+						                     <p>@Html.Sitecore().Field(Templates.PageInfo.Fields.PageTitle, Model.ContentItems[i], new {@DisableWebEdit = true})</p>
+					                     </div>
+				                     </a>
+			                     </div>
+		                     </div>
+	                     }
+                    }
+                }
+
+            </div>
+        </div>
+    </section>
+}

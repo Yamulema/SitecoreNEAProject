@@ -1,0 +1,86 @@
+﻿---
+ID: "8720a027-d9c1-4612-8a6e-89c16e2ae385"
+Parent: "8f873b39-85ab-4068-a66f-f6428aed4bde"
+Template: "05cf65d1-3137-40ee-9fb6-fae3a19be9fc"
+Path: /sitecore/content/NEAMBC/Home/Registration/Thank You
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171218T192859Z
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p>Now, every time you sign in, you'll be able to access all the benefits available to you as an SEIU member. Please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a>&nbsp;any time if you have questions.</p>
+        <p>Stay connected with us and thousands of fellow SEIU members when you follow:</p>
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+            <tbody style="background-color: transparent;">
+                <tr>
+                    <td style="text-align: center;">
+                    <p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;"></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">/SEIUMB</p>
+                    </td>
+                    <td>
+                    <p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;"></a></p>
+                    <p style="color: #4f2e84; font-weight: bold;">@SEIUMB</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continue" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Registration Thank You
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171220T205240Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p>Ahora cada vez que ingrese usted tendrá acceso a los beneficios disponibles para su membresía en SEIU.&nbsp;Por favor <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contáctenos</a> en cualquier momento si usted necesita ayuda.</p>
+        
+        <p>Permanezca conectado con nosotros y miles de miembros siguiendo:</p>
+        
+        <table border="0" border-radius="0" cellpadding="1" cellspacing="1">
+        	<tbody style="background-color: transparent;">
+        		<tr>
+        			<td style="text-align: center;">
+        			<p><a href="https://www.facebook.com/seiumb" onclick="ga_event('registration thank you', 'click', 'facebook');"><img alt="facebook" src="-/media/FD1645024996455E8BDCDFC60962ED89.ashx" style="width: 50px; height: 50px;"></a></p>
+        
+        			<p style="color: rgb(79, 46, 132); font-weight: bold;">/SEIUMB</p>
+        			</td>
+        			<td>
+        			<p style="text-align: center;"><a href="https://twitter.com/seiumb" onclick="ga_event('registration thank you', 'click', 'twitter');"><img alt="twitter" src="-/media/A2D1CCF7D9C04864996439B1993281EE.ashx" style="width: 50px; height: 50px;"></a></p>
+        
+        			<p style="color: rgb(79, 46, 132); font-weight: bold;">@SEIUMB</p>
+        			</td>
+        		</tr>
+        	</tbody>
+        </table>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continuar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Registro Gracias

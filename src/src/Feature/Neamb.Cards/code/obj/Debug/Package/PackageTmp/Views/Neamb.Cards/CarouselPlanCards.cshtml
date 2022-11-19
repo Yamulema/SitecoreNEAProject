@@ -1,0 +1,33 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Cards.Models
+@using Neambc.Neamb.Feature.Cards
+@using Sitecore.Mvc
+
+@model CarouselPlanCardsDTO
+
+@if (!Model.HideComponent)
+{
+    <section class="c-090 bg-gray new-design">
+        <div class="container">
+            <h4 class="text-center text-blue">@Html.Sitecore().Field(Templates.CarrouselPlanCards.Fields.Headline, Model)</h4>
+            <div class="card__wrap--outer">
+                @for (int i = 0; i < Model.Cards.Length; i++)
+                {
+                    <div class="card__wrap--inner">
+                        <div class="card">
+                            <div class="card__header">
+                                @Html.Sitecore().Field(Templates.PlanCard.Fields.Headline, Model.Cards[i])
+                                @Html.Sitecore().Field(Templates.PlanCard.Fields.CTALink, Model.Cards[i], new { @class = "btn btn-new btn-blue" })
+                            </div>
+                            <div class="card__item flexible">
+                                <hr>
+                                @Html.Sitecore().Field(Templates.PlanCard.Fields.Description, Model.Cards[i])
+                            </div>
+                            @Html.Sitecore().Field(Templates.PlanCard.Fields.LearnMore, Model.Cards[i], new { @class = "arrow-link full blue" })
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}

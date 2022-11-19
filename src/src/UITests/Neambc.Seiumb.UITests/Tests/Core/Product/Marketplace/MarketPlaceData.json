@@ -1,0 +1,32 @@
+{
+  "SearchStore": [
+    [ "amazon" ]
+  ],
+  "EligibleUserForRakuten": [
+    [
+      "seiu.stacey@gmail.com",
+      "secret12",
+      "941",
+      "loginModal",
+      "marketpalce-modal",
+      "screen-one"
+    ]
+  ],
+  "NotEligibleUserForRakuten": [
+    [
+      "testmarketplace@gmail.com",
+      "secret12",
+      "023990508",
+      "loginModal",
+      "not-elegible-modal"
+    ]
+  ],
+  "RegisteredRakutenUser": [
+    [
+      "seiu.wayne@gmail.com",
+      "secret12",
+      "940",
+      "loginModal"
+    ]
+  ]
+}

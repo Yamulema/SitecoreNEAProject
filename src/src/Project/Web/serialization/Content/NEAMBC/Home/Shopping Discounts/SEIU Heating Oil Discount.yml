@@ -1,0 +1,658 @@
+﻿---
+ID: "a98ec714-c1b1-424c-883e-be5a7823583b"
+Parent: "836a3996-4451-48a4-aa1f-013f0fb261a1"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Shopping Discounts/SEIU Heating Oil Discount
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20200831T132600Z
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, the largest U.S. heating oil buying group, uses its substantial purchasing power to negotiate lower prices, better service and free service contracts.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002633Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>* Free service contract, contract coverage and cleaning coverage requires minimum consumption of 600 gallons per year.</p>
+        
+        <p><br>
+        ** Upgrade certificate can be used toward the purchase of a new high efficiency heating oil burner or boiler from your HEAT USA supplier.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Heating Oil Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        For more information or to enroll, please call 1-888-632-4645.
+        
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ HEATING OIL PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>Save on the cost of heating your home with the SEIU Heating Oil Program provided by HEAT USA.</p>
+        
+        <p>HEAT USA is the country’s largest heating oil buying group. HEAT USA uses its substantial purchasing power to negotiate lower prices, better service and free service contracts from carefully screened, full-service local heating oil companies.</p>
+        
+        <p><strong>Benefits of the HEAT USA program include:</strong></p>
+        
+        <p><strong>Special Pricing Program</strong><br>
+        Members enjoy a special pricing program called Fair Price Protection. The HEAT USA price is based on the wholesale rate on the day of delivery plus a specially negotiated reduced profit margin that is significantly less than what local oil dealers charge their regular customers. Savings vary throughout the year as wholesale prices change, but on average, members can save up to 15-25 cents per gallon. Members can always check current prices by calling HEAT USA.</p>
+        
+        <p><strong>Other Advantages</strong></p>
+        
+        <ul>
+        	<li>Free* or discounted annual service contract that includes an annual cleaning, tune up, and emergency service</li>
+        	<li>$50 of free heating oil</li>
+        	<li>$100 equipment upgrade certificate**</li>
+        	<li>$10 discount on your first-year membership fee (regularly $35, you pay only $25 the first year)</li>
+        	<li>Staff at HEAT USA monitor prices, will speak on your behalf to local heating oil dealers and can also provide information about equipment, energy conservation and market updates</li>
+        </ul>
+        
+        <p>HEAT USA is available in parts of 12 states from New Hampshire to Virginia. To find out if HEAT USA is available in your area and how much you could save, please sign in for contact information.</p>
+        
+        <p><em>Please note: HEAT USA discounts are not available in all areas. Members in non-service areas may provide their contact information to HEAT USA to receive program updates.</em></p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Heating Oil Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: HEAT USA, the largest U.S. heating oil buying group, uses its substantial purchasing power to negotiate lower prices, better service and free service contracts.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU MEMBERS AND THEIR FAMILIES CAN SAVE ON THE COST OF HEATING OIL
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Heating Oil Program
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, the largest U.S. heating oil buying group, uses its substantial purchasing power to negotiate lower prices, better service and free service contracts.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190910T161315Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Free service contract, contract coverage and cleaning coverage require minimum consumption of 600 gallons per year.</p>
+        <p>2. Upgrade certificate can be used toward the purchase of a new high efficiency heating oil burner or boiler from your HEAT USA supplier.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Heating Oil Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "For questions or to sign up by phone, call 1-888-432-8872."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ HEATING OIL PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>Save an average of 15&ndash;25 cents per gallon on heating oil</li>
+            <li>Get free annual cleaning and tune up</li>
+            <li>Lifetime free or discounted full-service contract including parts and labor<sup>1</sup></li>
+            <li>$50 of free heating oil when you sign up</li>
+            <li>$100 equipment upgrade certificate<sup>2</sup></li>
+        </ul>
+        <p>Volatile energy prices and extreme weather make this an important time for SEIU members to have the buying power, system coverage, and safety provided by membership in Heat USA.</p>
+        <p>HEAT USA uses the purchasing power of its more than 80,000 members to negotiate lower prices and better, more affordable service contracts with local oil suppliers. </p>
+        <p>Wholesale prices fluctuate through the year, but members can expect to save 15 to 25 cents a gallon on heating oil. Members can always call HEAT USA to check the current price.</p>
+        <p>HEAT USA is available in regions of 12 states from New Hampshire to Virginia. </p>
+        <p>Sign up online or call 1-888-432-8872 to find out if this benefit is available in your area and how much you can save.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Heating Oil Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members save on the cost of heating oil with the buying power of HEAT USA
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU MEMBERS SAVE ON THE COST OF HEATING OIL WITH THE BUYING POWER OF HEAT USA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190910T161315Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Heating Oil Program
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, the largest U.S. heating oil buying group, uses its substantial purchasing power to negotiate lower prices, better service and free service contracts.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T133154Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Free service contract, contract coverage and cleaning coverage require minimum consumption of 600 gallons per year.</p>
+        <p>2. Upgrade certificate can be used toward the purchase of a new high efficiency heating oil burner or boiler from your HEAT USA supplier.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Heating Oil Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "For questions or to sign up by phone, call 1-888-432-8872."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ HEATING OIL PROGRAM
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>Save an average of 15&ndash;25 cents per gallon on heating oil</li>
+            <li>Get free annual cleaning and tune up</li>
+            <li>Lifetime free or discounted full-service contract including parts and labor<sup>1</sup></li>
+            <li>$50 of free heating oil when you sign up</li>
+            <li>$100 equipment upgrade certificate<sup>2</sup></li>
+        </ul>
+        <p>Volatile energy prices and extreme weather make this an important time for SEIU members to have the buying power, system coverage, and safety provided by membership in Heat USA.</p>
+        <p>HEAT USA uses the purchasing power of its more than 80,000 members to negotiate lower prices and better, more affordable service contracts with local oil suppliers. </p>
+        <p>Wholesale prices fluctuate through the year, but members can expect to save 15 to 25 cents a gallon on heating oil. Members can always call HEAT USA to check the current price.</p>
+        <p>HEAT USA is available in regions of 12 states from New Hampshire to Virginia. </p>
+        <p>Sign up online or call 1-888-432-8872 to find out if this benefit is available in your area and how much you can save.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Heating Oil Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members save on the cost of heating oil with the buying power of HEAT USA.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU MEMBERS SAVE ON THE COST OF HEATING OIL WITH THE BUYING POWER OF HEAT USA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T133154Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Heating Oil Program
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, the largest U.S. heating oil buying group, uses its substantial purchasing power to negotiate lower prices, better service and free service contracts.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits in partnership with Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200831T132556Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. Free service contract, contract coverage and cleaning coverage require minimum consumption of 600 gallons per year.</p>
+        <p>2. Upgrade certificate can be used toward the purchase of a new high efficiency heating oil burner or boiler from your HEAT USA supplier.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Heating Oil Program
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "For questions or to sign up by phone, call 1-888-432-8872."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ HEATING OIL PROGRAM
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{258325EC-7B04-465D-9CC3-358B552D573B}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{258325EC-7B04-465D-9CC3-358B552D573B}"
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>Save an average of 15&ndash;25 cents per gallon on heating oil</li>
+            <li>Get free annual cleaning and tune up</li>
+            <li>Lifetime free or discounted full-service contract including parts and labor<sup>1</sup></li>
+            <li>$50 of free heating oil when you sign up</li>
+            <li>$100 equipment upgrade certificate<sup>2</sup></li>
+        </ul>
+        <p>Volatile energy prices and extreme weather make this an important time for SEIU members to have the buying power, system coverage, and safety provided by membership in Heat USA.</p>
+        <p>HEAT USA uses the purchasing power of its more than 80,000 members to negotiate lower prices and better, more affordable service contracts with local oil suppliers. </p>
+        <p>Wholesale prices fluctuate through the year, but members can expect to save 15 to 25 cents a gallon on heating oil. Members can always call HEAT USA to check the current price.</p>
+        <p>HEAT USA is available in regions of 12 states from New Hampshire to Virginia. </p>
+        <p>Sign up online or call 1-888-432-8872 to find out if this benefit is available in your area and how much you can save.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Heating Oil Program
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Sign Up Today" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: SEIU members save on the cost of heating oil with the buying power of HEAT USA.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: SEIU MEMBERS SAVE ON THE COST OF HEATING OIL WITH THE BUYING POWER OF HEAT USA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200831T132556Z
+    - ID: "cecc1b5b-7a99-4ea1-aaf1-44197f0acbf2"
+      Hint: PreLoginMessage
+      Value: Register or sign in to access this exclusive SEIU member benefit.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Heating Oil Program
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, el grupo de compra de combustible para calefacción más grande de EE. UU., utiliza su alto poder adquisitivo para negociar precios más bajos, un mejor servicio y contratos gratuitos de servicio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits en asociación con Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172635Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>* Contrato de servicio anual gratuito que incluye un servicio anual de limpieza, ajuste y servicio emergencia requiere un consumo mínimo de 600 galones por año.</p>
+        
+        <p><br>
+        ** Certificado de actualización se puede utilizar para la compra de un nuevo quemador de combustible para calefacción de alta eficiencia o de la caldera de su proveedor HEAT USA.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Combustible para Calefacción SEIU 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: |
+        Para obtener más información o para inscribirse, llame al 1-888-632-4645.
+        
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Debe iniciar sesión para acceder a este beneficio. Haga clic arriba para registrarse o iniciar sesión.
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>Ahorre en el costo de la calefacción de su hogar con el Programa de combustible para calefacción SEIU de HEAT USA.</p>
+        
+        <p>HEAT USA es el grupo de compra de combustible para calefacción más grande del país. HEAT USA utiliza su alto poder adquisitivo para negociar precios más bajos, un mejor servicio y contratos gratuitos de servicio en empresas locales de combustible para calefacción de servicio completo y cuidadosamente seleccionadas.</p>
+        
+        <p><strong>Los beneficios del programa de HEAT USA incluyen:</strong></p>
+        
+        <p><strong>Programa de precios especiales</strong><br>
+        Los miembros disfrutan de un programa de precios especiales llamado Protección de precios justos. Los precios de HEAT USA se basan en el precio al por mayor el día de la entrega además de un margen de ganancia reducido especialmente negociado que es considerablemente inferior al cobro que realizan los distribuidores locales de combustible a sus clientes habituales. Los descuentos varían durante el año ya que los precios al por mayor cambian, sin embargo, en promedio, los miembros pueden ahorrar entre 15 a 25 centavos por galón. Los miembros siempre pueden consultar los precios actuales llamando a HEAT USA.</p>
+        
+        <p><strong>Otros beneficios</strong></p>
+        
+        <ul>
+        	<li>Contrato de servicio anual gratuito* o con descuento que incluye un servicio anual de limpieza, ajuste y emergencia</li>
+        	<li>$50 gratis en combustible para calefacción</li>
+        	<li>Certificado de $100 para actualización de equipos**</li>
+        	<li>$10 de descuento en la tarifa de afiliación durante el primer año (normalmente $35, usted solo paga $25 durante el primer año)</li>
+        	<li>El personal de HEAT USA monitorea los precios, lo representa ante los distribuidores locales de combustible para calefacción y también pueden entregar información sobre equipos, conservación de energía y actualizaciones del mercado</li>
+        </ul>
+        
+        <p>HEAT USA está disponible en ciudades de 12 estados, desde Nueva Hampshire hasta Virginia. Para averiguar si HEAT USA está disponible en su área y cuánto puede ahorrar, inicie sesión para ver la información de contacto.</p>
+        
+        <p><em>Nota: los descuentos de HEAT USA no están disponibles en todas las áreas. Los miembros de áreas sin servicio pueden entregar su información de contacto a HEAT USA para recibir actualizaciones del programa.</em></p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: HEAT USA, el grupo de compra de combustible para calefacci&oacute;n m&aacute;s grande de EE.&nbsp;UU., utiliza su alto poder adquisitivo para negociar precios m&aacute;s bajos, un mejor servicio y contratos gratuitos de servicio.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: LOS MIEMBROS DE SEIU Y SUS FAMILIAS PUEDEN AHORRAR EN EL COSTO DEL COMBUSTIBLE PARA CALEFACCIÓN.
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Combustible para Calefacción SEIU
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, el grupo de compra de combustible para calefacción más grande de EE. UU., utiliza su alto poder adquisitivo para negociar precios más bajos, un mejor servicio y contratos gratuitos de servicio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits en asociación con Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190910T173139Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. El contrato de servicio gratuito, la cobertura del contrato y la cobertura de limpieza requieren un consumo m&iacute;nimo de 600 galones por a&ntilde;o.</p>
+        <p>2. El certificado de actualizaci&oacute;n se puede usar para la compra de un nuevo quemador o caldera de aceite de calefacci&oacute;n de alta eficiencia de su proveedor HEAT USA.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Combustible para Calefacción SEIU 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Para preguntas o para registrarse por tel&eacute;fono, llame al 1-888-432-8872."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>Ahorre un promedio de 15 a 25 centavos por gal&oacute;n en aceite para calefacci&oacute;n</li>
+            <li>Obtenga limpieza anual y afinaci&oacute;n gratuita</li>
+            <li>Contrato de servicio completo gratuito o con descuento de por vida que incluye piezas y mano de obra<sup>1</sup></li>
+            <li>$50 de combustible de calefacci&oacute;n gratis cuando se registra</li>
+            <li>Certificado de actualizaci&oacute;n de equipo de $100<sup>2</sup></li>
+        </ul>
+        <p>Los precios vol&aacute;tiles de la energ&iacute;a y el clima extremo hacen de este un momento importante para que los miembros de SEIU tengan el poder adquisitivo, la cobertura del sistema y la seguridad que brinda la membres&iacute;a de Heat USA.</p>
+        <p>HEAT USA usa el poder adquisitivo de sus m&aacute;s de 80,000 miembros para negociar precios m&aacute;s bajos y contratos de servicio mejores y m&aacute;s accesibles con proveedores locales de aceite.</p>
+        <p>Los precios al por mayor fluct&uacute;an durante el a&ntilde;o, pero los miembros pueden esperar ahorrar entre 15 y 25 centavos por gal&oacute;n en aceite para calefacci&oacute;n. Los miembros siempre pueden llamar a HEAT USA para verificar el precio actual.</p>
+        <p>HEAT USA est&aacute; disponible en regiones de 12 estados desde New Hampshire hasta Virginia.</p>
+        <p>Reg&iacute;strese en l&iacute;nea o llame al 1-888-432-8872 para averiguar si este beneficio est&aacute; disponible en su &aacute;rea y cu&aacute;nto puede ahorrar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU ahorran en el costo del aceite para calefacci&oacute;n con el poder adquisitivo de HEAT USA
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de SEIU ahorran en el costo del aceite para calefacci&oacute;n con el poder adquisitivo de HEAT USA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190910T173139Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Combustible para Calefacción SEIU
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: HEAT USA, el grupo de compra de combustible para calefacción más grande de EE. UU., utiliza su alto poder adquisitivo para negociar precios más bajos, un mejor servicio y contratos gratuitos de servicio.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{469BDE33-E583-4255-B388-45F2E8EFEAF9}" alt="SEIU Member Benefits en asociación con Heat USA" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200716T133225Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>1. El contrato de servicio gratuito, la cobertura del contrato y la cobertura de limpieza requieren un consumo m&iacute;nimo de 600 galones por a&ntilde;o.</p>
+        <p>2. El certificado de actualizaci&oacute;n se puede usar para la compra de un nuevo quemador o caldera de aceite de calefacci&oacute;n de alta eficiencia de su proveedor HEAT USA.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Programa de Combustible para Calefacción SEIU 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "5e340330-767f-415d-9614-18f1c98ddfdd"
+      Hint: PromoDescription
+      Value: "Para preguntas o para registrarse por tel&eacute;fono, llame al 1-888-432-8872."
+    - ID: "62faa9bb-88f4-4bcb-b0bd-b923e1f379d9"
+      Hint: PreLoginMessage
+      Value: Regístrese o inicie sesión para acceder a este beneficio exclusivo para miembros de SEIU
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU℠
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        &nbsp;
+        <ul>
+            <li>Ahorre un promedio de 15 a 25 centavos por gal&oacute;n en aceite para calefacci&oacute;n</li>
+            <li>Obtenga limpieza anual y afinaci&oacute;n gratuita</li>
+            <li>Contrato de servicio completo gratuito o con descuento de por vida que incluye piezas y mano de obra<sup>1</sup></li>
+            <li>$50 de combustible de calefacci&oacute;n gratis cuando se registra</li>
+            <li>Certificado de actualizaci&oacute;n de equipo de $100<sup>2</sup></li>
+        </ul>
+        <p>Los precios vol&aacute;tiles de la energ&iacute;a y el clima extremo hacen de este un momento importante para que los miembros de SEIU tengan el poder adquisitivo, la cobertura del sistema y la seguridad que brinda la membres&iacute;a de Heat USA.</p>
+        <p>HEAT USA usa el poder adquisitivo de sus m&aacute;s de 80,000 miembros para negociar precios m&aacute;s bajos y contratos de servicio mejores y m&aacute;s accesibles con proveedores locales de aceite.</p>
+        <p>Los precios al por mayor fluct&uacute;an durante el a&ntilde;o, pero los miembros pueden esperar ahorrar entre 15 y 25 centavos por gal&oacute;n en aceite para calefacci&oacute;n. Los miembros siempre pueden llamar a HEAT USA para verificar el precio actual.</p>
+        <p>HEAT USA est&aacute; disponible en regiones de 12 estados desde New Hampshire hasta Virginia.</p>
+        <p>Reg&iacute;strese en l&iacute;nea o llame al 1-888-432-8872 para averiguar si este beneficio est&aacute; disponible en su &aacute;rea y cu&aacute;nto puede ahorrar.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{96DC633D-F2DB-4398-B43D-25A24364C96B}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: PROGRAMA DE COMBUSTIBLE PARA CALEFACCIÓN SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="INSCRÍBASE HOY MISMO" linktype="external" url="https://heatusa.com/seiu" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Los miembros de SEIU ahorran en el costo del aceite para calefacci&oacute;n con el poder adquisitivo de HEAT USA.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: Los miembros de SEIU ahorran en el costo del aceite para calefacci&oacute;n con el poder adquisitivo de HEAT USA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200716T133225Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Programa de Combustible para Calefacción SEIU

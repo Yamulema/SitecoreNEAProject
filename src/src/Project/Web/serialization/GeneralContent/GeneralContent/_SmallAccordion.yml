@@ -1,0 +1,22 @@
+﻿---
+ID: "807c333a-322c-4e23-9607-e4e2c6806b13"
+Parent: "29717c19-e03b-4665-995e-c19b6b2236ed"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/SEIUMB/Feature/GeneralContent/_SmallAccordion
+DB: master
+SharedFields:
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{C0E98D13-736C-4DD3-BD9E-AC38939234EF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201203T214425Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

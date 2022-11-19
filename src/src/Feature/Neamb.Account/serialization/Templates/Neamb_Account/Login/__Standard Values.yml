@@ -1,0 +1,86 @@
+﻿---
+ID: "e9029748-3bcf-46f0-b25b-9f73b6077db8"
+Parent: "a0386f34-2fcf-48c8-9f0a-1956b5ae244e"
+Template: "a0386f34-2fcf-48c8-9f0a-1956b5ae244e"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_Account/Login/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0345e845-6a99-4bc0-bc97-90d14dbd72e2"
+      Hint: Remember Me
+      Value: Remember me
+    - ID: "04e387c3-9c54-4f0c-89c0-6f921dd74581"
+      Hint: Account Locked
+      Value: This account is locked due to too many user attempts. A password reset link has been sent to the email for this account.
+    - ID: "08a38cc8-59f7-428b-b0b9-429b01f49d5c"
+      Hint: Forgot Password
+      Value: |
+        <link text="Forgot Password" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{25FBED04-5D2E-44B1-8C05-492A9246D2D8}" />
+    - ID: "1d4638d2-5cfc-4a4c-933d-009fa930eff7"
+      Hint: Empty Email
+      Value: Please enter your email.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180409T173930Z
+    - ID: "352607bb-c371-4a61-86e8-30fdad841103"
+      Hint: Headline
+      Value: Sign In to NEA Member Benefits
+    - ID: "547dbda3-2b92-4831-a5f4-514177c13a4e"
+      Hint: Account Already Locked Valid Token
+      Value: This account has been locked due to multiple unsuccessful attempts. Please check your email for password reset instructions. Also check your Spam or Bulk mail folder, just to be sure. 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "66a3657f-37f8-414c-b221-242a53f9e082"
+      Hint: Empty Password
+      Value: Please enter your password.
+    - ID: "698ace5e-3a37-4af6-b27c-c2b4e0091f21"
+      Hint: Password
+      Value: Password
+    - ID: "707bf8f9-68d6-4afd-ae28-de94edc3268f"
+      Hint: Tooltip
+      Value: Please create password that is at least <strong>8 characters long</strong>, contains at least <strong>1 letter</strong> and <strong>1 number</strong> and <strong>no spaces</strong>.
+    - ID: "73395710-64d6-47ff-b4f1-acf8804cb5eb"
+      Hint: Login Button
+      Value: Sign In
+    - ID: "766ad9b9-b3d8-47a7-a755-e22eb7e3e2a1"
+      Hint: Show
+      Value: Show
+    - ID: "7a561853-bd43-43f4-8227-37d326bdc657"
+      Hint: Create Account
+      Value: |
+        <link text="Create an Account" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{016CB02B-98DA-403E-B75F-538BF642DFE8}" />
+    - ID: "7d463e84-a0d6-4370-9dd7-db5f22e65145"
+      Hint: Already Registered
+      Value: |
+        Your account has already been registered. If you have forgotten your password, you can reset it <a href="~/link.aspx?_id=25FBED045D2E44B18C05492A9246D2D8&amp;_z=z">here</a>. If this is not you, please use the Register button to sign up for your free account.
+    - ID: "afc8814a-0fc4-4fda-b9eb-fecce2fb1fa3"
+      Hint: SubHeadline
+      Value: Verify your eligibility for benefits, discounts, and services when you sign in.
+    - ID: "bfdb3f79-2de5-4db6-b11c-ebfb4844bc1b"
+      Hint: Time Out
+      Value: We are experiencing technical difficulties at the moment, please try again later.
+    - ID: "c7f3256a-1a87-4945-a037-31a0c84e7d5d"
+      Hint: Need Account
+      Value: "Need a Member Benefits account?"
+    - ID: "c8abb7c9-e3e2-4561-98ea-d4b138d42663"
+      Hint: Email
+      Value: Email
+    - ID: "d849b2df-0c97-4542-a544-a7cd1f1e7999"
+      Hint: Reset Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{FCD0B7D8-BCA1-42ED-A8E0-22C101D22FCD}" />
+    - ID: "e91deec7-a652-494b-b82b-08cd3cbc39e8"
+      Hint: Invalid Email
+      Value: Invalid email address. Please check that you have entered your email address correctly and try again.
+    - ID: "e9f80966-33ea-4341-85c2-268509306555"
+      Hint: Invalid Credentials
+      Value: We're sorry, but the email address and/or password you entered were not recognized. Please try again.
+    - ID: "febca0a7-3b7b-4a5a-a661-6dadf3856c3c"
+      Hint: Forgot Email
+      Value: |
+        <link text="Forgot Email Login" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{7DC69553-4813-4956-AC32-F8B4C65AE686}" />

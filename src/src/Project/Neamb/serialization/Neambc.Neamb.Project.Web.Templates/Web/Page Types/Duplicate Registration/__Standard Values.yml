@@ -1,0 +1,81 @@
+﻿---
+ID: "4cf2e3e3-b36e-49da-8604-136498c5dc86"
+Parent: "370803e3-47fe-403b-a01a-f1a50e90aee9"
+Template: "370803e3-47fe-403b-a01a-f1a50e90aee9"
+Path: /sitecore/templates/NEAMB/Project/Web/Page Types/Duplicate Registration/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{599EAC95-E90F-4493-A258-02F44C864E74}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{815BDBF3-054E-4253-AC22-2784A5F1B663}">
+        <r
+          id="{EF0D8467-941F-47D7-A45C-F43EBC7B2726}"
+          ph="header"
+          uid="{98C3A233-5AAC-4E85-B276-BFE8B54C5F60}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{AFC7175B-3C60-4309-8BEE-18EC57CDF5B9}"
+          ph="header"
+          uid="{8B62E49C-8FCB-4E16-8EDF-0DD32298A476}" />
+        <r
+          id="{B186D552-4D62-42C7-A3D0-C535FF272A68}"
+          ph="body"
+          uid="{1B0BE9E0-DF7D-4B78-B8A4-CD5A72D08D18}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{254A3F0B-A2F4-41C9-BFE3-16709293A1A7}"
+          ph="footer"
+          uid="{372BFC36-23DF-4A6B-8714-828EB7918BAD}" />
+        <r
+          ds="{C7EADD3C-19BC-463B-B0CC-A862E99E5B50}"
+          id="{A53B6E81-2833-4FBA-B31B-CFBA12FEEB8E}"
+          ph="modal"
+          uid="{D3AFD4FC-8923-4EA5-BC3E-1B4A9B636EDA}" />
+        <r
+          ds="{E92E70C6-F7BD-4C80-B137-8AB77CFB4276}"
+          id="{180F4C2B-DA01-4BB8-A22D-115FA42CE045}"
+          par=""
+          ph="header-offer"
+          uid="{09933A64-3104-40F4-BD50-FF66D8866D1B}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06311fc6-ea59-4f5e-84fb-509a2ba42606"
+      Hint: Send
+      Value: Submit
+    - ID: "1bc0b974-1aaf-4f41-90fb-a370d757e466"
+      Hint: Selected Email
+      Value: You have selected | as the email address to sign in on NEAMB.com
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180427T185940Z
+    - ID: "5cebebe5-3c96-41ac-ba54-38d0b90eea0c"
+      Hint: Username
+      Value: From now on, please use | as the email address to sign in on NEAMB.com.
+    - ID: "867771e5-1cfa-4a37-8cc1-14c71fc5add8"
+      Hint: Title
+      Value: Thank you.
+    - ID: "8abd843a-df7f-437f-9f44-c708332f3ad1"
+      Hint: Unselected Emails Error
+      Value: Please Select an Email
+    - ID: "b87283cd-a7bd-4e79-a4c3-903f71527ed5"
+      Hint: Unselected Emails
+      Value: The email address(es) | will be removed.
+    - ID: "d6c19526-fde1-4214-b9ff-cece5422ba92"
+      Hint: Intro
+      Value: Please select the email address you wish to use to sign in on NEAMB.com

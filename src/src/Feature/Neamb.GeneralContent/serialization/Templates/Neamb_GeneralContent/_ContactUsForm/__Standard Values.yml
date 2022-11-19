@@ -1,0 +1,60 @@
+﻿---
+ID: "86a66bf5-bb33-46c1-9118-28e9d64a6873"
+Parent: "1a5a6b90-853c-4f0d-84c6-68240ce1c5bb"
+Template: "1a5a6b90-853c-4f0d-84c6-68240ce1c5bb"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_ContactUsForm/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fc8b560-c79e-4a16-830b-bfcc8a8b3c8a"
+      Hint: Invalid Characters
+      Value: You have entered invalid characters in this field, please check
+    - ID: "22752840-d43d-4307-9626-86b9b9ee220e"
+      Hint: Label
+      Value: Message
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180614T191509Z
+    - ID: "491007bc-a0d6-4a51-9e1e-a39a9b277674"
+      Hint: No Selection
+      Value:  Please select a topic
+    - ID: "4b699871-2371-4ddf-acb8-f9e22ff6341c"
+      Hint: Characters Limit
+      Value: You can enter only 1000 characters in this field
+    - ID: "4c4363a1-f5f8-4787-9273-4c3ae95c38c3"
+      Hint: Title
+      Value: Send Us a Message
+    - ID: "5753c0fe-15f9-4521-936c-70b09eb2faf4"
+      Hint: Selection Lists
+      Value: "{BDDB4716-B807-4A40-BD12-837942A63D82}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "810621fd-c787-48d9-890f-a8e2b4f708fc"
+      Hint: Success
+      Value: |
+        <h2 class="header">Thank You</h2>
+        <p>Your message has been sent. You'll receive a reply from us within 3 business days.</p>
+        <div class="col-md-5 col-centered"><a href="~/link.aspx?_id=545409FCDB864A7FAC61F74A274B5E30&amp;_z=z" class="btn btn-lg btn-blue btn-block">Proceed to Home Page</a></div>
+    - ID: "a3f62490-af38-4c25-bd7d-c7bb63e77e9b"
+      Hint: Characters Count
+      Value: characters left
+    - ID: "bc615af1-34c1-4fe6-a8f5-819c1225d25f"
+      Hint: Label
+      Value: Topic
+    - ID: "cbfaaa1f-574f-4fd2-a90d-14d1525a1364"
+      Hint: Submit
+      Value: Send Message
+    - ID: "d144c823-a75d-4991-bc68-6d1f86eb934a"
+      Hint: Label
+      Value: State Affiliate (Optional)
+    - ID: "d5fda117-af49-42db-9db9-993b800e549c"
+      Hint: Empty Field
+      Value:  Please insert your message
+    - ID: "e7adbba2-7ffd-4a54-b426-2f32642a0104"
+      Hint: Error
+      Value: There was an error while processing your request, please try again.

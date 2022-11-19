@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://aes256.neamb" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://aes256.neamb" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>aes256EncryptDecrypt</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://aes256.neamb">
+      <xs:element name="decrypt">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="encodedText" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="salt" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pswdIterations" type="xs:int" />
+            <xs:element minOccurs="0" name="keySize" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="decryptResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="encrypt">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="plainText" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="salt" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pswdIterations" type="xs:int" />
+            <xs:element minOccurs="0" name="keySize" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="encryptResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="encryptRequest">
+    <wsdl:part name="parameters" element="ns:encrypt" />
+  </wsdl:message>
+  <wsdl:message name="encryptResponse">
+    <wsdl:part name="parameters" element="ns:encryptResponse" />
+  </wsdl:message>
+  <wsdl:message name="decryptRequest">
+    <wsdl:part name="parameters" element="ns:decrypt" />
+  </wsdl:message>
+  <wsdl:message name="decryptResponse">
+    <wsdl:part name="parameters" element="ns:decryptResponse" />
+  </wsdl:message>
+  <wsdl:portType name="aes256EncryptDecryptPortType">
+    <wsdl:operation name="encrypt">
+      <wsdl:input wsaw:Action="urn:encrypt" message="ns:encryptRequest" />
+      <wsdl:output wsaw:Action="urn:encryptResponse" message="ns:encryptResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <wsdl:input wsaw:Action="urn:decrypt" message="ns:decryptRequest" />
+      <wsdl:output wsaw:Action="urn:decryptResponse" message="ns:decryptResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="aes256EncryptDecryptSoap11Binding" type="ns:aes256EncryptDecryptPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="encrypt">
+      <soap:operation soapAction="urn:encrypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <soap:operation soapAction="urn:decrypt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="aes256EncryptDecryptSoap12Binding" type="ns:aes256EncryptDecryptPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="encrypt">
+      <soap12:operation soapAction="urn:encrypt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <soap12:operation soapAction="urn:decrypt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="aes256EncryptDecryptHttpBinding" type="ns:aes256EncryptDecryptPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="encrypt">
+      <http:operation location="aes256EncryptDecrypt/encrypt" />
+      <wsdl:input>
+        <mime:content part="encrypt" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="encrypt" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <http:operation location="aes256EncryptDecrypt/decrypt" />
+      <wsdl:input>
+        <mime:content part="decrypt" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="decrypt" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="aes256EncryptDecrypt">
+    <wsdl:port name="aes256EncryptDecryptHttpSoap11Endpoint" binding="ns:aes256EncryptDecryptSoap11Binding">
+      <soap:address location="http://172.16.15.187:8080/axis2/services/aes256EncryptDecrypt.aes256EncryptDecryptHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="aes256EncryptDecryptHttpSoap12Endpoint" binding="ns:aes256EncryptDecryptSoap12Binding">
+      <soap12:address location="http://172.16.15.187:8080/axis2/services/aes256EncryptDecrypt.aes256EncryptDecryptHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="aes256EncryptDecryptHttpEndpoint" binding="ns:aes256EncryptDecryptHttpBinding">
+      <http:address location="http://172.16.15.187:8080/axis2/services/aes256EncryptDecrypt.aes256EncryptDecryptHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

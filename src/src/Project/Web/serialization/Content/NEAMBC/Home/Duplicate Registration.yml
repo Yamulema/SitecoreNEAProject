@@ -1,0 +1,62 @@
+﻿---
+ID: "dfa7fbd1-eb44-4df3-bf86-1438f7adefe4"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "a7c12305-82fc-42cb-84ce-cff753b6514a"
+Path: /sitecore/content/NEAMBC/Home/Duplicate Registration
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1900
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|ar|sitecore\SEIUMB Approver|pe|-item:create|-item:delete|-item:admin|pd|-item:create|-item:delete|-item:admin|
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180122T223820Z
+    - ID: "72171dc8-c62e-4213-b79b-c186115ca406"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continue" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8720A027-D9C1-4612-8A6E-89C16E2AE385}" />
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{7104ECEC-BAD0-44F7-A597-BC4A7812D5EC}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Duplicate Registration
+    - ID: "f74c0edd-f0f3-4d3a-afe2-07d57e046b47"
+      Hint: UnselectedEmails
+      Value: "The email address(es) | will be removed:"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180126T201204Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\tester
+    - ID: "72171dc8-c62e-4213-b79b-c186115ca406"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continuar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8720A027-D9C1-4612-8A6E-89C16E2AE385}" />
+    - ID: "ca6f26ec-9fa0-4644-afb1-70b248494429"
+      Hint: Banner
+      Value: |
+        <image mediaid="{7104ECEC-BAD0-44F7-A597-BC4A7812D5EC}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Registro Duplicado

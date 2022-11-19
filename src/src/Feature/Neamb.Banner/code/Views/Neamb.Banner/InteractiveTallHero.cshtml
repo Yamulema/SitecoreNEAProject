@@ -1,0 +1,20 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Neambc.Neamb.Feature.Banner
+@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<section class="bg-blue loan-hero">
+    <div class="hero-banner-desktop" style="background-image: url('@Model.Item.ImageUrl(Templates.InteractiveTallHero.Fields.Image)');">
+        <div class=" black-bg">
+            <div class="container">
+                <div class="col-md-7 col-sm-10 col-12 hero-loan-content">
+                    @Html.Sitecore().Field(Templates.InteractiveTallHero.Fields.HeadlineText, Model.Item)
+                    @Html.Sitecore().Field(Templates.InteractiveTallHero.Fields.ButtonLink, Model.Item, new { @class = "btn btn-loan btn-white m-t-sm" })
+                    <div class="color-d">
+                        @Html.Sitecore().Field(Templates.InteractiveTallHero.Fields.FooterText, Model.Item)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

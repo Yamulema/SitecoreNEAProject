@@ -1,0 +1,21 @@
+<package>
+  <metadata>
+    <id>NEAMB.Web</id>
+    <version>$version$</version>
+    <title>NEAMB Web Project package</title>
+    <authors>Oshyn</authors>
+    <owners>NEA Member Benefits Corporation</owners>
+    <licenseUrl>https://www.neamb.com</licenseUrl>
+    <projectUrl>https://www.neamb.com</projectUrl>
+    <iconUrl>https://www.neamb.com/assets/neamb/images/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NEAMB and SEIUMB Sitecore Website Release package</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>NEAMB,SEIUMB,Sitecore,Website,Member Benefits</tags>
+  </metadata>
+  <files>
+	<file src="..\..\src\Project\Seiu\code\xxx_app_offline.htm" target="" exclude="" />
+__CONTENTS__
+  </files>
+</package>

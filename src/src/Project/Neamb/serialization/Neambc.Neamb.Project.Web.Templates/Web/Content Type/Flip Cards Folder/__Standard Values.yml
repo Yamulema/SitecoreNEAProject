@@ -1,0 +1,29 @@
+﻿---
+ID: "37603695-df3c-499e-951e-55cff4438b98"
+Parent: "996b08ad-8316-41ee-8a14-dc77eee07f06"
+Template: "996b08ad-8316-41ee-8a14-dc77eee07f06"
+Path: /sitecore/templates/NEAMB/Project/Web/Content Type/Flip Cards Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{C9A3ECD3-7493-4B6F-86B8-BC68E11ED53C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T213753Z
+    - ID: "5229663f-1d47-48df-a1b2-3904061fb18c"
+      Hint: Subheadline
+      Value: <p>Insert your Subheadline Here</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d4be584d-5646-4f39-96b5-e829779da95e"
+      Hint: Headline
+      Value: Insert your Headline Here

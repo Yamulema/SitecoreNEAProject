@@ -1,0 +1,24 @@
+﻿---
+ID: "7e07c9b0-b7a3-4653-ae81-38baafe65c1c"
+Parent: "35490ea6-618a-4416-9e22-58ccd6390956"
+Template: "35490ea6-618a-4416-9e22-58ccd6390956"
+Path: /sitecore/templates/NEAMB/Project/Web/Base Page Templates/_Attribution/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180503T185200Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d7df4284-50d1-4f7e-bf50-4d038b6c6e58"
+      Hint: Publish Date
+      Value: $date
+    - ID: "f0a62ef6-4cb8-4ab8-a239-591d2d0658f3"
+      Hint: Last Updated
+      Value: $date

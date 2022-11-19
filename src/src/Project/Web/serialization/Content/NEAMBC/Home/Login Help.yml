@@ -1,0 +1,74 @@
+﻿---
+ID: "1f9682e7-b64d-4d53-a3ae-9ffdde913ba9"
+Parent: "72051f7f-87f7-4279-b455-5a7eaca902f5"
+Template: "66061942-c511-4fd3-a9cd-01d64ae8c8b2"
+Path: /sitecore/content/NEAMBC/Home/Login Help
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2100
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\SEIUMB Editor|pe|-item:delete|-item:create|pd|-item:delete|-item:create|ar|sitecore\SEIUMB Approver|pe|-item:create|-item:delete|-item:admin|pd|-item:create|-item:delete|-item:admin|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180103T161240Z
+    - ID: "9d27b4c0-7de9-4804-bf98-b828cd4e8abc"
+      Hint: CTA
+      Value: |
+        <link text="Reset Password" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{19655CE0-B8B6-4944-98E8-EE394D59F6C9}" />
+    - ID: "bc432c2d-d86d-439f-93a3-29933cc14f18"
+      Hint: CTA
+      Value: |
+        <link text="Retrieve Username" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{211A4C50-9E01-46EA-AABB-69244FBC40C4}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Login Help
+    - ID: "f8df4cac-bbd5-43ec-aba5-9f0ab15ea7a7"
+      Hint: CTA
+      Value: |
+        <link text="Change Username" anchor="" linktype="internal" class="" title="" target="" querystring="#username" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />
+    - ID: "fa1d9c5a-7d91-4c5c-9b04-7fefcdf5645e"
+      Hint: CTA
+      Value: |
+        <link text="Change Password" anchor="" linktype="internal" class="" title="" target="" querystring="#password" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180105T192135Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "9d27b4c0-7de9-4804-bf98-b828cd4e8abc"
+      Hint: CTA
+      Value: |
+        <link text="Recuperar Contraseña" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{19655CE0-B8B6-4944-98E8-EE394D59F6C9}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Log In Help
+    - ID: "bc432c2d-d86d-439f-93a3-29933cc14f18"
+      Hint: CTA
+      Value: |
+        <link text="Recuperar Usuario" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{211A4C50-9E01-46EA-AABB-69244FBC40C4}" />
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Login Help
+    - ID: "f8df4cac-bbd5-43ec-aba5-9f0ab15ea7a7"
+      Hint: CTA
+      Value: |
+        <link text="Cambiar Usuario" anchor="" linktype="internal" class="" title="" target="" querystring="#username" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />
+    - ID: "fa1d9c5a-7d91-4c5c-9b04-7fefcdf5645e"
+      Hint: CTA
+      Value: |
+        <link text="Cambiar Contraseña" anchor="" linktype="internal" class="" title="" target="" querystring="#profile" id="{C544123B-E481-4A1F-AD74-8EF77D48DDC7}" />

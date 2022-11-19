@@ -1,0 +1,129 @@
+﻿---
+ID: "79fdc586-d4f5-4c49-81e7-0d1c53e0ce51"
+Parent: "ef878abf-6731-4a15-816e-273c246d5827"
+Template: "ef878abf-6731-4a15-816e-273c246d5827"
+Path: /sitecore/templates/SEIUMB/Project/Web/Page Types/Unsubscribe Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{66FE58B2-6BC6-45D1-A4FE-8FB3E69659AE}">
+        <p
+          uid="{662A2563-01F8-4AE5-8308-524690B7E111}"
+          key="body"
+          md="{3750AF4A-309C-404F-A9D4-B05B44343122}" />
+        <r
+          id="{ACDAE1DC-60AA-456A-9A16-6496E05307FD}"
+          ph="header"
+          uid="{1BAF3822-BCFD-4315-83E7-320CB3C77CB0}" />
+        <r
+          id="{50D972F6-F4C6-4237-8284-5D982BA8409A}"
+          ph="body"
+          uid="{A478881B-A70F-4848-BDF1-D58E37211748}" />
+        <r
+          ds="{320FB78C-3992-47D9-8820-98D5C6A58D2D}"
+          id="{06B0A82F-D054-472D-8A71-05B10B8684E6}"
+          ph="login"
+          uid="{9546F69A-8EBC-4FE3-A3F4-A6F5A91EC672}" />
+        <r
+          id="{C84D8A64-333A-4608-BA56-8E73DCA73D0E}"
+          ph="language-selector"
+          uid="{6D16C5DE-312C-48D0-B9C3-6F0BBBA2E04B}" />
+        <r
+          id="{3212661B-20D7-45C0-A1C0-F42406936DF6}"
+          ph="language-selector-mobile"
+          uid="{5E39E949-5223-4392-9DEF-48AD852A0A54}" />
+        <r
+          id="{07B57C87-E37A-49D1-9647-00DC83B69A1C}"
+          ph="navbar-top"
+          uid="{9C7CB0A9-127C-40A6-9AFE-6262A27F64DC}" />
+        <r
+          id="{C46199B9-B82C-4626-A4AE-3E868946D5F2}"
+          ph="navbar-bottom"
+          uid="{97E792D3-7C17-40A4-B2D1-D4B0B15BDE58}" />
+        <r
+          id="{EF9080D5-D67C-4960-BC92-C996D4BA70EE}"
+          ph="footer"
+          uid="{8BF6430C-CB74-4DDF-9785-38D40463658F}">
+          <rls>
+            <ruleset>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                name="Default">
+                <conditions>
+                  <condition
+                    id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+                    uid="8DF44C34F36044139A76C1BAADFAD377" />
+                </conditions>
+                <actions />
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20b4c3dc-5314-4c08-ba32-d20084ad6ec0"
+      Hint: Failure
+      Value: |
+        <p><strong>We&rsquo;re sorry. There was a problem processing your unsubscribe request at this time.</strong></p>
+        <p>Please wait a few minutes and then click on the &lsquo;unsubscribe&rsquo; link in our email again. If we&rsquo;re able to unsubscribe you successfully, you&rsquo;ll see a confirmation message. If you see this message again, please <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact us</a> and one of our Member Service Representatives will ensure that you are unsubscribed.</p>
+        <p>We appreciate your patience and apologize for any inconvenience.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171218T192035Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p><strong>You have now been unsubscribed from all SEIU Member Benefits marketing emails.</strong></p>
+        <p>If you&rsquo;ve registered on seiumb.com, you will continue to receive emails related to your seiumb.com account, for example, if you change your username or need to reset your password.</p>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continue" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20b4c3dc-5314-4c08-ba32-d20084ad6ec0"
+      Hint: Failure
+      Value: |
+        <p><strong>Lo sentimos. Hubo un problema al procesar su petici&oacute;n para darse de baja de nuestra lista de correo electr&oacute;nico.</strong></p>
+        <p>Por favor espere unos minutos y haga clic en el link para 'desuscribirse' en nuestro correo electr&oacute;nico nuevamente. Si vuelve a recibir este mensaje, por favor <a href="~/link.aspx?_id=D4DA125753A742EDA53DF73040BE3B0A&amp;_z=z">contact&aacute;ctenos</a> y uno de nuestros Representates de Servicio al Cliente se asegurar&aacute; de completar su petici&oacute;n.</p>
+        <p>Apreciamos sus paciencia y nos disculpamos por los inconvenientes causados</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171227T205405Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b8dbbbf-4a2e-4b79-9154-738cb28d2c17"
+      Hint: Body
+      Value: |
+        <p><strong>Usted se ha dado de baja de la suscripci&oacute;n de todos los correos de m&aacute;rketing de SEIU Member Benefits.</strong></p>
+        <p>Si usted se ha registrado en seiumb.com, usted continuar&aacute; recibiendo correos sobre su cuenta de seiumb.com, por ejemplo, si usted cambia su nombre de usuario o resetea su contrase&ntilde;a.</p>
+    - ID: "de0333af-6db9-4c01-9d29-9d19435ef24e"
+      Hint: ContinueButton
+      Value: |
+        <link text="Continuar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{72051F7F-87F7-4279-B455-5A7EACA902F5}" />

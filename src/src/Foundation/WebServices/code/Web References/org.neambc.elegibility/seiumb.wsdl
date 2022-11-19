@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ax27="http://seiumb.webservices/xsd" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://seiumb.webservices" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://seiumb.webservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsdl:types>
+    <xs:schema xmlns:ax28="http://seiumb.webservices/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://seiumb.webservices">
+      <xs:import namespace="http://seiumb.webservices/xsd" />
+      <xs:element name="productEligibility">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="productEligibilityResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2mdsuserdata">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="mdsid" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="partner" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="key" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mdsid2mdsuserdataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax28:mdsUserDataObject" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://seiumb.webservices/xsd">
+      <xs:complexType name="mdsUserDataObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="currentMember" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dob" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="genderCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="localName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="localNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="stateCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="streetAddress" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="zipCode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="productEligibilityRequest">
+    <wsdl:part name="parameters" element="ns:productEligibility" />
+  </wsdl:message>
+  <wsdl:message name="productEligibilityResponse">
+    <wsdl:part name="parameters" element="ns:productEligibilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2mdsuserdataRequest">
+    <wsdl:part name="parameters" element="ns:mdsid2mdsuserdata" />
+  </wsdl:message>
+  <wsdl:message name="mdsid2mdsuserdataResponse">
+    <wsdl:part name="parameters" element="ns:mdsid2mdsuserdataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="seiumbPortType">
+    <wsdl:operation name="productEligibility">
+      <wsdl:input wsaw:Action="urn:productEligibility" message="ns:productEligibilityRequest" />
+      <wsdl:output wsaw:Action="urn:productEligibilityResponse" message="ns:productEligibilityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <wsdl:input wsaw:Action="urn:mdsid2mdsuserdata" message="ns:mdsid2mdsuserdataRequest" />
+      <wsdl:output wsaw:Action="urn:mdsid2mdsuserdataResponse" message="ns:mdsid2mdsuserdataResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="seiumbSoap11Binding" type="ns:seiumbPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="productEligibility">
+      <soap:operation soapAction="urn:productEligibility" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <soap:operation soapAction="urn:mdsid2mdsuserdata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="seiumbSoap12Binding" type="ns:seiumbPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="productEligibility">
+      <soap12:operation soapAction="urn:productEligibility" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <soap12:operation soapAction="urn:mdsid2mdsuserdata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="seiumbHttpBinding" type="ns:seiumbPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="productEligibility">
+      <http:operation location="seiumb/productEligibility" />
+      <wsdl:input>
+        <mime:content part="productEligibility" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="productEligibility" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mdsid2mdsuserdata">
+      <http:operation location="seiumb/mdsid2mdsuserdata" />
+      <wsdl:input>
+        <mime:content part="mdsid2mdsuserdata" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="mdsid2mdsuserdata" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="seiumb">
+    <wsdl:port name="seiumbHttpSoap11Endpoint" binding="ns:seiumbSoap11Binding">
+      <soap:address location="http://172.16.15.187:8080/axis2/services/seiumb.seiumbHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="seiumbHttpSoap12Endpoint" binding="ns:seiumbSoap12Binding">
+      <soap12:address location="http://172.16.15.187:8080/axis2/services/seiumb.seiumbHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="seiumbHttpEndpoint" binding="ns:seiumbHttpBinding">
+      <http:address location="http://172.16.15.187:8080/axis2/services/seiumb.seiumbHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

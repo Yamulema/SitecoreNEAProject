@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <add key="targetUrl" value="https://qa.neamb.com" />
+  <add key="screenshotsFolder" value="." />
+
+  <!-- the number of milliseconds to pause after every action performed on the web page -->
+  <add key="browsingDelayMilliseconds" value="50" />
+
+  <!-- the default timeout for all web page interactions -->
+  <add key="defaultTimeoutSeconds" value="100" />
+
+  <!-- most-sensitive, to least-sensitive, possible values: All, Debug, Info, Warning, Severe, Off -->
+  <add key="throwOnLogEntryLevel" value="Off" />
+
+  <!--choices are: chrome, firefox, safari, ie, edge, opera -->
+  <add key="currentBrowser" value="chrome" />
+
+  <add key="localChromeDriverLocation" value="." />
+  <add key="localFirefoxDriverLocation" value="." />
+
+  <!-- choices are: sauceLabs, oshyn -->
+  <add key="remoteDriver" value="" />
+  
+  <add key="oshynUrl" value="http://192.168.2.17:4444/wd/hub" />
+  
+  <!-- choices are: WINDOWS, WINDOWS, VISTA, MAC -->
+  <add key="oshynPlatform" value="WINDOWS" />
+
+  <add key="sauceLabsUrl" value="http://ondemand.saucelabs.com:80/wd/hub" />
+  <add key="sauceLabsVersion" value="latest" />
+  <add key="sauceLabsPlatform" value="Windows 10" />
+  <add key="sauceLabsUserName" value="chrissxp2002" />
+  <add key="sauceLabsAccessKey" value="701b2f03-f7e2-4705-9723-77f470432bc7" />
+  <add key="sauceLabsTestName" value="FirstSauceLabsTestOshyn" />
+</settings>
+

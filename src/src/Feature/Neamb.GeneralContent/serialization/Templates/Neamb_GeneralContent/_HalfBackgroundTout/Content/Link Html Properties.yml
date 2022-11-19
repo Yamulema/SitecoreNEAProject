@@ -1,0 +1,26 @@
+﻿---
+ID: "0a5f632e-9e72-43b3-893c-73ff2c2f5402"
+Parent: "c7b88f95-90da-49db-ad87-6afcc219fd38"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/NEAMB/Feature/Neamb_GeneralContent/_HalfBackgroundTout/Content/Link Html Properties
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: |
+      Comma separated Html Attributes to add on the link anchor for the image and the [ToutHref] token. Ex.  gtm-title="nea discount marketplace", gtm-cta-text="Start Shopping"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210807T001502Z

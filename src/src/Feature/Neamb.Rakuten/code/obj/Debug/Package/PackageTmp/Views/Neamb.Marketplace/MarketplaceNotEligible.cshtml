@@ -1,0 +1,29 @@
+﻿@using System.Web.Mvc.Html
+@using Neambc.Neamb.Feature.Rakuten
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model Neambc.Neamb.Feature.Rakuten.Model.StoreEligibilityDto
+
+@if (!Model.HasEligibility)
+{
+    if (Model.HasToShowModal) {
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#eligibilitymodel').modal('show');
+            })
+        </script>
+    }
+    <section class="section-cta top-bar n-p-b n-m-b c-34">
+        <div class="not-eligible-top sticky n-m-b">
+            <div class="container">
+                @Html.Sitecore().Field(Templates.StoresList.Fields.Notification, Model.Item)
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="eligibilitymodel" name="eligibilitymodel" tabindex="-1" role="dialog" aria-labelledby="eligibility" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            @Html.Sitecore().Field(Templates.StoresList.Fields.EligibilityOverlay, Model.Item)
+        </div>
+    </div>
+}

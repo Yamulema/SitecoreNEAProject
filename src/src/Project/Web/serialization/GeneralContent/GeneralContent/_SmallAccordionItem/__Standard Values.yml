@@ -1,0 +1,28 @@
+﻿---
+ID: "43e99702-e933-4ea8-aab6-3daaf21b0fc5"
+Parent: "64b91c7e-d47d-4789-aa2a-9f805e8d18fa"
+Template: "64b91c7e-d47d-4789-aa2a-9f805e8d18fa"
+Path: /sitecore/templates/SEIUMB/Feature/GeneralContent/_SmallAccordionItem/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a67ff8d-afa8-4316-b394-105a3eee5934"
+      Hint: Subhead
+      Value: Insert your description here
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201203T215800Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "751da790-22a8-4cee-8f77-599a14567a6a"
+      Hint: Header
+      Value: Insert your headline here

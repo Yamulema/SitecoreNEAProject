@@ -1,0 +1,29 @@
+﻿---
+ID: "0700e19e-fa0e-4f80-b1c5-21b309dd130d"
+Parent: "b7bb9f87-b854-416a-bfe2-6be530e81b4f"
+Template: "9032b90c-2775-4b10-8940-726e0696c42d"
+Path: /sitecore/content/NEAMBC/Global/Exclusive Offers/Exclusive Offer Card Gaiam
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{9032B90C-2775-4B10-8940-726E0696C42D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201119T234713Z
+    - ID: "4b8f6dd4-32c0-4169-b327-38796799be46"
+      Hint: Headline Background Color
+      Value: #6C4A98
+    - ID: "ea2364e8-75dc-45c4-8c77-34e394d627c9"
+      Hint: Headline
+      Value: Fitness
+    - ID: "fb2a006a-4258-44ef-9502-a3fe09204343"
+      Hint: Offer
+      Type: Multilist with Search
+      Value: "{2B3015B1-A9A8-4A8E-8AB2-1FED18713888}"

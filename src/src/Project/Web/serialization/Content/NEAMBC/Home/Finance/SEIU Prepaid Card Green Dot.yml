@@ -1,0 +1,1585 @@
+﻿---
+ID: "8a8d07c1-7134-4790-9663-ce3da81abaf3"
+Parent: "2a7e506d-239b-473f-bb7e-16c11e079b0f"
+Template: "e20c8aee-8d86-4564-bb55-208152c4d7eb"
+Path: /sitecore/content/NEAMBC/Home/Finance/SEIU Prepaid Card Green Dot
+DB: master
+SharedFields:
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Type: checklist
+  Value: |
+    {8E080626-DDC3-4EF4-A1D1-F0BE4A200254}
+    {558946A0-A967-4A14-95A1-7239649C83D9}
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 20210701T152300Z
+- ID: "86fe4f77-4d9a-4ec3-9ed9-263d03bd1965"
+  Hint: __Publish
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{B23AAF23-9706-4858-855A-15CC3CC813FF}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{CE09070C-A0B2-4DD0-9EB6-9FDE910943EE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T002019Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        
+                        <p>* Subject to your payment provider’s process and timing.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>**&nbsp;MasterCard’s Zero Liability Protection covers U.S.-issued cards only and does not apply to any transactions not processed by MasterCard.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>†&nbsp;Reload fee of up to $4.95 applies. Reload and card balance limits apply.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>The card is provided by Green Dot Corporation and issued by Green Dot Bank, Member FDIC, pursuant to a license from MasterCard International Incorporated.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        
+                        <p>An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.</p>
+        
+        <p><strong>Use It For Everything You Buy</strong><br>
+        You can use the card online and in stores everywhere MasterCard<sup>®</sup> debit is accepted in the U.S.</p>
+        
+        <p><strong>Get Paid Faster</strong><br>
+        Get your pay or government benefits deposited to your card up to two days earlier with free direct deposit. Subject to your payment provider’s payment process and timing.</p>
+        
+        <p><strong>Reload It All Year Long</strong><br>
+        Load money on your card when you need it at retailers nationwide and thousands of check cashing locations.<sup>†</sup></p>
+        
+        <p><strong>24,000 Free MoneyPass<sup>®</sup> ATMs</strong><br>
+        At non MoneyPass ATMs, a $2.50 fee for withdrawals and a $0.50 fee for balance inquiries will be charged, plus any ATM owner fees.</p>
+        
+        <p><strong>No Monthly Fee for Current SEIU Members</strong><br>
+        The card has no monthly fee for any current SEIU member or cards with deposits over $1000 in the previous month. Please see the cardholder agreement for details.</p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{FC5C02BE-7F65-4AC4-B83E-7907BA4C6878}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get a card" linktype="external" url="https://secure.greendot.com/SEIUMB/Start" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: An SEIU Prepaid Card is a prepaid card, not a credit card, so you can’t get into trouble with credit card debt.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: With your SEIU membership, you can get paid up to 2 days earlier with direct deposit*
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190329T172313Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* Timing depends on deposit verification and when we get notice from your employer and may vary from pay period to pay period.</p>
+        <br />
+        <p>**&nbsp;Applies to unauthorized transactions. Prompt notice required. A lost/stolen card replacement fee may also apply. See Cardholder Agreement for details. MasterCard&rsquo;s Zero Liability Protection covers U.S.-issued cards only and does not apply to any transactions not processed by MasterCard.</p>
+        <br />
+        <p>&dagger;&nbsp;Service fee of up to $4.95 applies.  Deposit and card balance limits apply</p>
+        <br />
+        <p>The SEIU<sup>SM</sup> PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>An SEIU Prepaid Card gives you the power to control your money. It's a prepaid card so you can only spend the money that&rsquo;s on the card.&nbsp;Shop online, pay bills and make everyday purchases. There&rsquo;s no fee to get a card.&nbsp;Other fees may apply. No minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard&rsquo;s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.</p>
+        <p><strong>Use It For Everything You Buy</strong><br />
+        You can use the card online and in stores everywhere MasterCard<sup>&reg;</sup> debit is accepted in the U.S.</p>
+        <p><strong>Get Paid Faster</strong><br />
+        Get your pay up to 2 days before payday with direct deposit*</p>
+        <p><strong>Deposit cash all year round</strong><br />
+        Deposit money to your card at the register of thousands of retailers and check cashing locations nationwide to keep your card ready to use.<sup>&dagger;</sup></p>
+        <p><strong>Nationwide Fee-Free ATM network</strong><br />
+        For out of network ATMs and bank tellers a $2.50 fee will apply, plus any additional fee that the ATM owner or bank may charge.&nbsp; Other fees may apply.&nbsp; Log into GreenDot.com to view in-network ATMs available near you.</p>
+        <p><strong>No Monthly Fee for Current SEIU Members</strong><br />
+        The card has no monthly fee for any current SEIU member or cards with deposits over $1000 in the previous month. Please see the cardholder agreement for details.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get a card" linktype="external" url="https://secure.greendot.com/SEIUMB/Start" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: An SEIU Prepaid Card is a prepaid card so you can control your spending by only spending the money on the card.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: With your SEIU membership, get your pay up to 2 days before payday with direct deposit*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190329T172313Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210504T202118Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The SEIU℠ PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><span style="font-size: 16px;">The current SEIU℠ Prepaid Debit Card Program will be ending on May 31<sup>st</sup>.</span></p>
+        <p>Current Cardholders:  Your SEIU℠ Prepaid Card will be changing to a Green Dot Prepaid Mastercard.</p>
+        <ul>
+            <li><strong>You&rsquo;ll have all the same great benefits with a new look.</strong></li>
+        </ul>
+        <ul>
+            <li><strong>There are no changes to your account number or your account balance.</strong></li>
+        </ul>
+        <ul>
+            <li><strong>You will receive a new card that you will be able to activate by app, web or phone.</strong></li>
+        </ul>
+        <p>More Information will be coming soon.  Check your mailbox for details from Green Dot.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Get a card" linktype="external" url="https://secure.greendot.com/SEIUMB/Start" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The current SEIU℠ Prepaid Debit Card Program will be ending on May 31<sup>st</sup>.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The current SEIU℠ Prepaid Debit Card Program will be ending on May 31<sup>st</sup>.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210504T202118Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210528T175343Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The SEIU℠ PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>The SEIU℠ Prepaid Debit Card Program has been discontinued.</strong></p>
+        <p style="text-align: center;">Should you have any questions, please contact Green Dot directly at 1-866-795-7605.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210528T175343Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+  - Version: 5
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T184423Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The SEIU℠ PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>The SEIU℠ Prepaid Debit Card Program has been discontinued.</strong></p>
+        <p style="text-align: center;">Should you have any questions, please contact Green Dot directly at 1-866-795-7605.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210602T184423Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+  - Version: 6
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T192046Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The SEIU℠ PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>The SEIU℠ Prepaid Debit Card Program has been discontinued.</strong></p>
+        <p style="text-align: center;">Should you have any questions, please contact Green Dot directly at 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210603T192046Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+  - Version: 7
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210701T151434Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The SEIU℠ PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>The SEIU℠ Prepaid Debit Card Program has been discontinued.</strong></p>
+        <p style="text-align: center;">Should you have any questions, please contact Green Dot directly at 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210701T151434Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 8
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210701T152201Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The SEIU℠ PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>The SEIU℠ Prepaid Debit Card Program has been discontinued.</strong></p>
+        <p style="text-align: center;">Should you have any questions, please contact Green Dot directly at 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210701T152201Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+  - Version: 9
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: An SEIU Prepaid Card gives you the power to control your money. It’s a prepaid card not a credit card so you can’t get into trouble with credit card debt. Shop online, pay bills and make everyday purchases. There’s no fee to get a card, no minimum balance and no credit check required to get a card. Your money is FDIC insured and your card is protected if lost or stolen with MasterCard’s Zero Liability Protection.** And you can track your spending 24/7 with our mobile app.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" alt=" SEIU Prepaid Card" height="" width="" hspace="" vspace="" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU member benefits in partnership with Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T123154Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>The SEIU℠ PREPAID CARD is issued by Green Dot Bank, Member FDIC pursuant to a license from MasterCard International Incorporated.</p>
+        <br />
+        <p>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Green Dot is a registered trademark of Green Dot Corporation NMLS ID 914924. Green Dot Bank also operates as a GoBank and Bonneville Bank. All of these trade names are used by, and refer to, a single FDIC-insured bank, Green Dot Bank. Deposits under any of these names are aggregated for deposit insurance.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: SEIU Prepaid Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "63e9071c-f4f7-409c-8755-c1be3e1a9057"
+      Hint: DoNotFollowLinks
+      Type: Checkbox
+      Value: 1
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: SEIU℠ PREPAID CARD
+    - ID: "708593f0-ef5f-4cf1-8919-3f2a9a085db9"
+      Hint: Program Code
+      Value: "{A1E19CF0-D58B-436D-8684-51C0727733D6}"
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Sign in" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "80b8e4d5-0dad-4c00-8efa-8042b1606423"
+      Hint: ProgramCode
+      Value: "{A1E19CF0-D58B-436D-8684-51C0727733D6}"
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><strong>The SEIU℠ Prepaid Debit Card Program has been discontinued.</strong></p>
+        <p style="text-align: center;">Should you have any questions, please contact Green Dot directly at 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediapath="/NEAMBC/SEIUMB/Images/Dummy Images/500x350" alt=" SEIU Prepaid Card" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/NEAMBC/SEIUMB/Images/Dummy Images/500x350" mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: SEIU Prepaid Card
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: The SEIU℠ Prepaid Debit Card Program has been discontinued.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T123154Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: SEIU Prepaid Card
+    - ID: "f0baf229-2775-4903-9d33-87739c53bbf6"
+      Hint: DisableIndexing
+      Type: Checkbox
+      Value: 1
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{CE09070C-A0B2-4DD0-9EB6-9FDE910943EE}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171207T172658Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+                        <p>* Esto dependerá del proceso de pago del proveedor de pagos y de la duración del mismo.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>**&nbsp;La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacción que no haya sido procesada por MasterCard.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>†&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican límites de saldo de tarjeta y de recarga.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>La tarjeta es provista por Green Dot Corporation y emitida por Green Dot Bank, Member FDIC, con licencia de MasterCard International Incorporated.</p>
+        
+        <p>&nbsp;</p>
+        
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. Green Dot Bank también opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los depósitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de depósitos.</p>
+        
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sfernandez
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+                        <p>La Tarjeta Prepagada SEIU le permite tener el control de su dinero. Ya que es una tarjeta prepagada, sólo puedes gastar el dinero que hayas cargado. Haga pedidos en línea, pague impuestos y haga las compras diarias. No hace falta pagar una tarifa o un saldo mínimo ni realizar una verificación de historial crediticio para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está cubierta contra pérdidas o robos por la Zero Liability Protection de MasterCard.** Y puede controlar sus gastos las 24 horas, todos los días, con nuestra aplicación para dispositivos móviles.</p>
+        
+        <p><strong>Úsela para cualquier compra</strong><br>
+        Puede usar la tarjeta en cualquier tienda, en línea o en cualquier lugar de los EE. UU. que acepte tarjetas de débito MasterCard<sup>®</sup>.</p>
+        
+        <p><strong>Reciba pagos más rápido</strong><br>
+        Reciba el depósito de subsidios del gobierno o de pagos en su tarjeta con hasta dos días de anterioridad por medio de un depósito directo gratuito. Esto dependerá del proceso de pago del proveedor de pagos y de la duración del mismo.</p>
+        
+        <p><strong>Recárguela todo el año</strong><br>
+        Cargue la tarjeta en cualquier momento en los proveedores de todo el país y en miles de lugares de cambio de cheques.<sup>†</sup></p>
+        
+        <p><strong>24,000 cajeros automáticos de MoneyPass<sup>®</sup> gratuitos</strong><br>
+        En los cajeros automáticos que no sean de MoneyPass, se le cobra una tarifa de $2.50 para realizar extracciones y otra de $0.50 para realizar consultas de balances, además de pagar cualquier tarifa del propietario del cajero automático.</p>
+        
+        <p><strong>Sin cuota mensual para miembros corrientes de SEIU</strong><br>
+        La tarjeta no tiene cuota mensual para cualquier miembro de SEIU actual o tarjetas con depósitos de más de $1,000 en el mes anterior. Por favor, consulte el Contrato del titular de la tarjeta para más detalles.</p>  
+        
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Obtenga una tarjeta" linktype="external" url="https://secure.greendot.com/SEIUMB/Start" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Una tarjeta prepaga de SEIU es un sistema prepago para que pueda controlar sus gastos al solo poder gastar el dinero en la tarjeta.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: CON SU MEMBRESÍA SEIU, PUEDE RECIBIR PAGOS CON HASTA 2 DÍAS DE ANTERIORIDAD A TRAVÉS DE UN DEPÓSITO DIRECTO*
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 2
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190402T143301Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p>La Tarjeta Prepagada SEIU le permite tener el control de su dinero. Es una tarjeta prepaga por lo que solo puede gastar el dinero disponible en la tarjeta. Otras tarifas pueden aplicar. Pedidos en l&iacute;nea, pague impuestos y haga las compras diarias. No hace falta pagar una tarifa o un saldo m&iacute;nimo ni realizar una verificaci&oacute;n de historial crediticio para obtener una tarjeta. Su dinero est&aacute; asegurado por la FDIC y su tarjeta est&aacute; cubierta contra p&eacute;rdidas o robos por la Zero Liability Protection de MasterCard.** Y puede controlar sus gastos las 24 horas, todos los d&iacute;as, con nuestra aplicaci&oacute;n para dispositivos m&oacute;viles.</p>
+        <p><strong>&Uacute;sela para cualquier compra</strong><br />
+        Puede usar la tarjeta en cualquier tienda, en l&iacute;nea o en cualquier lugar de los EE. UU. que acepte tarjetas de d&eacute;bito MasterCard<sup>&reg;</sup>.</p>
+        <p><strong>Reciba pagos m&aacute;s r&aacute;pido</strong><br />
+        Obtenga su pago hasta 2 d&iacute;as antes del d&iacute;a de pago mediante dep&oacute;sito directo*</p>
+        <p><strong>Dep&oacute;sito en efectivo todo el a&ntilde;o.</strong><br />
+        Deposite dinero en su tarjeta en el mostrador de miles de comercios minoristas y casas de cambio de cheques en todo el pa&iacute;s para mantener su tarjeta lista para usar.<sup>&dagger;</sup></p>
+        <p><strong>Red de cajeros autom&aacute;ticos sin cargo a nivel nacional.</strong><br />
+        Para cajeros autom&aacute;ticos y cajeros bancarios fuera de la red, se aplicar&aacute; un cargo de $2.50 m&aacute;s cualquier cargo adicional que el propietario del cajero autom&aacute;tico o el banco pueda cobrar.  Se pueden aplicar otros cargos.  Para consultar los cajeros autom&aacute;ticos de la red disponibles cerca de usted, inicie sesi&oacute;n en GreenDot.com.</p>
+        <p><strong>Sin cuota mensual para miembros corrientes de SEIU</strong><br />
+        La tarjeta no tiene cuota mensual para cualquier miembro de SEIU actual o tarjetas con dep&oacute;sitos de m&aacute;s de $1,000 en el mes anterior. Por favor, consulte el Contrato del titular de la tarjeta para m&aacute;s detalles.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Obtenga una tarjeta" linktype="external" url="https://secure.greendot.com/SEIUMB/Start" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: Una tarjeta prepaga de SEIU es un sistema prepago para que pueda controlar sus gastos al solo poder gastar el dinero en la tarjeta.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: CON SU MEMBRES&Iacute;A SEIU, OBTENGA SU PAGO HASTA 2 D&Iacute;AS ANTES DEL D&Iacute; DE PAGO MEDIANTE UN DEP&Oacute;SITO DIRECTO*
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190402T143301Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 3
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210521T220738Z
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{53E26DCD-1F11-4DA3-9CD7-11FD0311E126}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p style="text-align: center;"><span style="font-size: 16px;">El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ finalizar&aacute; el pr&oacute;ximo 31 de mayo..</span></p>
+        <p>Titulares de la tarjeta: su tarjeta prepagada de SEIU℠ ser&aacute; reemplazada por una tarjeta prepagada Mastercard de Green Dot.</p>
+        <ul>
+            <li><strong>Seguir&aacute; teniendo los mismos beneficios solo que con un dise&ntilde;o nuevo.</strong></li>
+        </ul>
+        <ul>
+            <li><strong>Su n&uacute;mero de cuenta y saldo permanecer&aacute;n intactos.</strong></li>
+        </ul>
+        <ul>
+            <li><strong>Recibir&aacute; una tarjeta nueva que podr&aacute; activar a trav&eacute;s de una aplicaci&oacute;n, la web o el tel&eacute;fono.</strong></li>
+        </ul>
+        <p>Pronto recibir&aacute; m&aacute;s informaci&oacute;n. Consulte la bandeja de entrada de su correo electr&oacute;nico para obtener m&aacute;s informaci&oacute;n sobre Green Dot.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: |
+        <link text="Obtenga una tarjeta" linktype="external" url="https://secure.greendot.com/SEIUMB/Start" anchor="" target="_blank" />
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ finalizar&aacute; el pr&oacute;ximo 31 de mayo.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ finalizar&aacute; el pr&oacute;ximo 31 de mayo.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210521T220738Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 4
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210528T175659Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: 
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.</strong></p>
+        <p>&lrm;Si tiene alguna consulta, comun&iacute;quese directamente con Green Dot llamando al 1-866-795-7605.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210528T175659Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 5
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210602T184549Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.</strong></p>
+        <p>&lrm;Si tiene alguna consulta, comun&iacute;quese directamente con Green Dot llamando al 1-866-795-7605.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210602T184549Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 6
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210603T192224Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.</strong></p>
+        <p>&lrm;Si tiene alguna consulta, comun&iacute;quese directamente con Green Dot llamando al 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210603T192224Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 7
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210701T152008Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.</strong></p>
+        <p>&lrm;Si tiene alguna consulta, comun&iacute;quese directamente con Green Dot llamando al 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210701T152008Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 8
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210701T152239Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bboswell
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.</strong></p>
+        <p>&lrm;Si tiene alguna consulta, comun&iacute;quese directamente con Green Dot llamando al 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210701T152239Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+  - Version: 9
+    Fields:
+    - ID: "0badc012-2b9b-4c38-8e01-9ff2ef0820ff"
+      Hint: MetaDescription
+      Value: Una tarjeta prepago de SEIU le da el poder de controlar su dinero. Es una tarjeta prepago, no una tarjeta de crédito, por lo que no puede tener problemas con la deuda de la tarjeta de crédito. Compre en línea, pague las cuentas y haga compras diarias. No se requiere una tarifa para obtener una tarjeta, no se requiere un saldo mínimo y no se requiere verificación de crédito para obtener una tarjeta. Su dinero está asegurado por la FDIC y su tarjeta está protegida en caso de extravío o robo con la Protección contra cero responsabilidad de MasterCard. ** Y usted puede realizar un seguimiento de sus gastos 24/7 con nuestra aplicación móvil.
+    - ID: "0bd75ce8-249e-48d5-96a0-a4269936b430"
+      Hint: ProductImage
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "20b1f590-18af-4657-97a6-29f85595a857"
+      Hint: PartnerImage
+      Value: |
+        <image mediaid="{26AD70A3-8168-42C8-8AF7-9B26F6D574F2}" alt="SEIU Member Benefits en asociación con Green Dot" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210810T124229Z
+    - ID: "33d3ad01-ddd6-411e-aed4-da1e42fcca24"
+      Hint: ShowInNavigationMenu
+      Type: Checklist
+      Value: "{499FF9E6-866E-4DDF-B318-AA9CCED85055}"
+    - ID: "375f7c5f-e5ac-4dc3-990f-72ff5c746ff3"
+      Hint: Disclaimer
+      Value: |
+        <p>* El tiempo depende de la verificaci&oacute;n del dep&oacute;sito y de cu&aacute;ndo recibimos la notificaci&oacute;n de su empleador; asimismo, este puede variar de un per&iacute;odo de pago a otro.</p>
+        <p>&nbsp;</p>
+        <p>** Se aplica a transacciones no autorizadas. Aviso r&aacute;pido requerido. Tambi&eacute;n se puede aplicar una tarifa por reemplazo de tarjeta extraviada o robada. Consulte el Contrato del titular de la tarjeta para obtener m&aacute;s detalles. La Zero Liability Protection de MasterCard cubre tarjetas emitidas solo en los EE. UU. y no se aplica a ninguna transacci&oacute;n que no haya sido procesada por MasterCard.</p>
+        <p>&nbsp;</p>
+        <p>&dagger;&nbsp;Se aplica una tarifa de recarga de hasta $4.95. Se aplican l&iacute;mites de saldo de tarjeta y de recarga.</p>
+        <p>&nbsp;</p>
+        <p>Green Dot Bank, miembro de la FDIC, emite la TARJETA PREPAGA SEIU<sup>SM</sup>, conforme a una licencia de MasterCard International Incorporated.</p>
+        <p>&nbsp;</p>
+        <p>MasterCard y la marca MasterCard son marcas registradas de MasterCard International Incorporated. Green Dot es una marca registrada de Green Dot Corporation. NMLS ID 914924. Green Dot Bank tambi&eacute;n opera bajo las marcas registradas GoBank y Bonneville Bank. Todos estas marcas se refieren a un solo banco asegurado por la FDIC, Green Dot Bank, y son utilizados por el mismo. Los dep&oacute;sitos hechos bajo cualquiera de estos nombres se incluye en la cobertura del seguro de dep&oacute;sitos.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{41912D5D-5105-4306-81BF-525E25E0A607}"
+    - ID: "3f511131-b0a6-4b73-9b1d-066cf71a7f59"
+      Hint: Type
+      Value: "{B868E328-B5E9-45E4-9E87-E9A190C7F30F}"
+    - ID: "4e6a5d79-f1dd-40b5-9adf-dd4b4b6afac3"
+      Hint: Headline
+      Value: Tarjeta Prepagada SEIU
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jpent
+    - ID: "66e1662d-6485-4d32-8fcb-add4770b8f0c"
+      Hint: ProductHeadline
+      Value: TARJETA PREPAGADA SEIU℠
+    - ID: "796be7ab-0366-4fb9-aad1-a586c62d19ae"
+      Hint: MobileLoginButton
+      Value: |
+        <link text="Ingresar" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EE7F15D-D997-4C88-8FCE-1C44E2C078FB}" />
+    - ID: "88119b5b-9b08-417e-83e3-6451589abf30"
+      Hint: IncludeInSearchResults
+      Type: Checkbox
+      Value: 0
+    - ID: "912cdb5f-0fa7-4abe-b8ec-e5b05561e06b"
+      Hint: DesktopLoginButton
+      Value: Ingresar
+    - ID: "965b2932-7d14-4605-afbe-6d1033958bf0"
+      Hint: ProductDescription
+      Value: |
+        <p><strong>El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.</strong></p>
+        <p>&lrm;Si tiene alguna consulta, comun&iacute;quese directamente con Green Dot llamando al 1-866-795-7597.</p>
+    - ID: "9b30869f-186b-43a0-82c6-8340bea71fbc"
+      Hint: Image
+      Value: |
+        <image mediaid="{76F3C721-F71F-45B4-9B82-3925222CFD91}" />
+    - ID: "a137093c-de37-4c2d-a519-2a5d29b3147b"
+      Hint: ShortTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "a2b8db91-6760-41d4-9dc5-e4eda11d865f"
+      Hint: Link
+      Value: 
+    - ID: "a50409d3-c6b3-4de3-b7ad-3d6acdac88cc"
+      Hint: Summary
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "b96733b7-5086-4af4-8686-ee2bf58cc4a9"
+      Hint: ProductSubHeadline
+      Value: El programa de la tarjeta de d&eacute;bito prepagada de SEIU℠ ha finalizado.
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210810T124229Z
+    - ID: "e85a9e60-cb07-48f6-bb6c-226229e1fed1"
+      Hint: MetaTitle
+      Value: Tarjeta Prepagada SEIU
+    - ID: "f29a91f8-e868-4b5d-9681-c058dcb3eaab"
+      Hint: Chat Snippet
+      Value: "{E05D203F-BDBC-4996-8066-DB8444507423}"
